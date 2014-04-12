@@ -2,7 +2,7 @@
 layout: post
 category : example
 tagline: "Example"
-tags : [akka, scala, concurrent, asynchronous]
+tags : [akka, EventSystem, scala, concurrent, asynchronous]
 ---
 {% include JB/setup %}
 
