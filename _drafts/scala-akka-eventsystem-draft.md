@@ -19,7 +19,7 @@ This pattern provides greater network scalability and a more dynamic network top
 
 Here is some code!
 
-{% highlight scala %}
+{% highlight scala linenos %}
 final case class Message(topic: String, payload: Any)
 {% endhighlight %}
 
