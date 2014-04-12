@@ -18,11 +18,13 @@ This pattern provides greater network scalability and a more dynamic network top
 
 
 Here is some code!
+
 ```scala
 final case class Message(topic: String, payload: Any)
 ```
 
 Here is some more code!
+
 ```scala
 class Subscriber(f: Message => Unit) extends Actor {
   override def receive = { case msg: Message => f(msg) }
@@ -30,6 +32,7 @@ class Subscriber(f: Message => Unit) extends Actor {
 ```
 
 Here is yet more code!
+
 ```scala
 object EventStream{
 
