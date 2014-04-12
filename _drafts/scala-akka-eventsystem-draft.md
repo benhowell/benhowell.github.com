@@ -19,9 +19,9 @@ This pattern provides greater network scalability and a more dynamic network top
 
 Here is some code!
 
-```scala
+{% highlight scala %}
 final case class Message(topic: String, payload: Any)
-```
+{% endhighlight %}
 
 Here is some more code!
 
