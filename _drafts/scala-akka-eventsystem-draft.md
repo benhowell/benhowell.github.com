@@ -19,21 +19,21 @@ This pattern provides greater network scalability and a more dynamic network top
 
 Here is some code!
 
-{% highlight scala linenos %}
+{% highlight scala %}
 final case class Message(topic: String, payload: Any)
 {% endhighlight %}
 
 Here is some more code!
 
-```scala
+{% highlight scala %}
 class Subscriber(f: Message => Unit) extends Actor {
   override def receive = { case msg: Message => f(msg) }
 }
-```
+{% endhighlight %}
 
 Here is yet more code!
 
-```scala
+{% highlight scala %}
 object EventStream{
 
   // ActorSystem is a heavy object: create only one per application
@@ -50,6 +50,6 @@ object EventStream{
     system.eventStream.publish(msg)
   }
 }
-```
+{% endhighlight %}
 
 Congratulations, you have now created your entire EventSystem!
