@@ -1,6 +1,6 @@
 ---
 layout: post
-category : lessons
+category : example
 tagline: "Example"
 tags : [akka, scala, concurrent, asynchronous]
 ---
