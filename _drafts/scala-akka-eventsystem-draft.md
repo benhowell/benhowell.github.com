@@ -16,9 +16,9 @@ Hello, this is my first post. Hurrah!
 
 
 Therefore, Observer pattern:
-- Doesn't scale.
-- Is synchronous and sequential.
-- Complects unnecessarily
+* Doesn't scale.
+* Is synchronous and sequential.
+* Complects unnecessarily
 
 
 "When and where" 
