@@ -42,18 +42,12 @@ This pattern provides greater network scalability and a more dynamic network top
 Here is some code!
 
 {% highlight scala %}
-final case class Message(topic: String, payload: Any)
-{% endhighlight %}
-
-Here is some more code!
-
-{% highlight scala %}
-class Subscriber(f: Message => Unit) extends Actor {
-  override def receive = { case msg: Message => f(msg) }
+sealed class Subscriber(f: (String, Any) => Unit) extends Actor {
+  override def receive = { case (topic: String, payload: Any) => f(topic, payload) }
 }
 {% endhighlight %}
 
-Here is yet more code!
+Here is more code!
 
 {% highlight scala %}
 object EventStream{
@@ -62,14 +56,14 @@ object EventStream{
   // http://doc.akka.io/docs/akka/snapshot/scala/actors.html
   val system = ActorSystem("actorsystem")
 
-  def subscribe(f: Message => Unit, name: String) = {
+  def subscribe(f: (String, Any) => Unit, name: String) = {
     val props = Props(classOf[Subscriber], f)
     val subscriber = system.actorOf(props, name = name)
-    system.eventStream.subscribe(subscriber, classOf[Message])
+    system.eventStream.subscribe(subscriber, classOf[(String, Any)])
   }
 
-  def publish(msg: Message) {
-    system.eventStream.publish(msg)
+  def publish(topic: String, payload: Any) {
+    system.eventStream.publish(topic, payload)
   }
 }
 {% endhighlight %}
