@@ -33,11 +33,11 @@
   </head>
 
   <body>
+  <div><a class="brand-image" href="{{ HOME_PATH }}"><img class="brand-image" src="{{ASSET_PATH}}/logo.png"/></a></div>
     <div class="navbar">
       <div class="navbar-inner">
         <div class="container-narrow">
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
-          <li><a class="brand-image" href="{{ HOME_PATH }}"><img class="brand-image" src="{{ASSET_PATH}}/logo.jpg"/></a></li>
           <ul class="nav">
             {% assign pages_list = site.pages %}
             {% assign group = 'navigation' %}
