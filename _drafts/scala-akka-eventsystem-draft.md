@@ -21,7 +21,7 @@ You have to avoid complecting this with anything
 
 If you're architecting a system where this thing deals with the input and then this thing has to do the next part of the job, well if thing "A" calls thing "B", you've just complected it.
 now you have a when and where thing. cause now "A" needs to know where "B" is in order to call "B" and when that happens is whenever "A" does it. Stick a queue in there. Queues are the way to just get rid of this problem. If you're not using queues extensively then you should start, right away, like right after this talk.
-> -- <cite>[Rich Hickey][1]</cite>
+-- <cite>[Rich Hickey][1]</cite>
 
 [1]:http://www.infoq.com/presentations/Simple-Made-Easy
 
