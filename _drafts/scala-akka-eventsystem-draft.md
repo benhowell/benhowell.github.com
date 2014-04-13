@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 category : examples
 tagline: "Example"
 tags : [akka, EventSystem, scala, concurrent, asynchronous]
