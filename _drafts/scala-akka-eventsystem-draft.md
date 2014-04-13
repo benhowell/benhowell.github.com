@@ -1,18 +1,33 @@
 ---
 layout: post
-category : example
+category : examples
 tagline: "Example"
 tags : [akka, EventSystem, scala, concurrent, asynchronous]
 ---
 {% include JB/setup %}
 
 
-Hello, this is my first post. Hurrah! Now write something about Akka, Scala and making a little publish/subscribe, concurrent, asynchronous event bus oriented program ;-)
+Hello, this is my first post. Hurrah!
+
+Observer pattern. Wrong.
+- the thing being observed should not need to know about who is observing it.
+- if you want to replace the thing being observed, your code is tighty bound to that specific implementation that you need to rewrite it for the new implementation.
+- the larger the number of observers for thing "A", the larger the performance bottleneck becomes at thing "A" because thing "A" must now, sequentially notify each observer individually of each event they've registered to observe. Imagine if television worked this way, that is, for every show, they must individually stream that show to each person individually, in sequence. Doesn't scale. 
+
+
+"When and where" 
+You have to avoid complecting this with anything
+
+
+If you're architecting a system where this thing deals with the input and then this thing has to do the next part of the job, well if thing "A" calls thing "B", you've just complected it.
+now you have a when and where thing. cause now "A" needs to know where "B" is in order to call "B" and when that happens is whenever "A" does it. Stick a queue in there. Queues are the way to just get rid of this problem. If you're not using queues extensively then you should start, right away, like right after this talk.
+> -- <cite>[Rich Hickey][1]</cite>
+
+[1]:http://www.infoq.com/presentations/Simple-Made-Easy
 
 
 
 
-http://www.infoq.com/presentations/Simple-Made-Easy
 
 abstraction
 - who, what, when, where, why, how
@@ -21,9 +36,10 @@ abstraction
 when and where
 strenuously avoid complecting these with anything in the design
 
-when and where you have to avoid complecting this with anything
+
+
 mostly when people design systems with directly connected objects
-if you're architecting a system where this thing deals with the input and then this thing has to do the next part of the job. well if thing "A" calls thing "B", you've just complected it.
+If you're architecting a system where this thing deals with the input and then this thing has to do the next part of the job, well if thing "A" calls thing "B", you've just complected it.
 now you have a when and where thing. cause now "A" needs to know where "B" is in order to call "B" and when that happens is whenever "A" does it. Stick a queue in there. Queues are the way to just get rid of this problem. If you're not using queues extensively then you should start, right away, like right after this talk.
 
 
