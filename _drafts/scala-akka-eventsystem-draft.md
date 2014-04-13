@@ -10,9 +10,14 @@ tags : [akka, EventSystem, scala, concurrent, asynchronous]
 Hello, this is my first post. Hurrah!
 
 ##Observer pattern. In most cases: wrong.
-- the thing being observed should not need to know about who is observing it.
-- if you want to replace the thing being observed, your code is tighty bound to that specific implementation that you need to rewrite it for the new implementation.
-- the larger the number of observers for thing "A", the larger the performance bottleneck becomes at thing "A" because thing "A" must now, sequentially notify each observer individually of each event they've registered to observe. Imagine if television worked this way, that is, for every show, they must individually stream that show to each person individually, in sequence. Doesn't scale. 
+- The thing being observed should not need to know about who is observing it.
+- If you want to replace the thing being observed, your code is tighty bound to that specific implementation that you need to rewrite it for the new implementation.
+- The larger the number of observers for thing "A", the larger the performance bottleneck becomes at thing "A" because thing "A" must now, sequentially notify each observer individually of each event they've registered to observe. Imagine if television worked this way, that is, for every show, they must individually stream that show to each person individually, in sequence. 
+
+Therefore, Observer pattern
+- Doesn't scale.
+- Is synchronous and sequential.
+- Complects unnecessarily
 
 
 "When and where" 
@@ -21,10 +26,11 @@ You have to avoid complecting this with anything
 
 **_If you're architecting a system where this thing deals with the input and then this thing has to do the next part of the job, well if thing "A" calls thing "B", you've just complected it.
 now you have a when and where thing. cause now "A" needs to know where "B" is in order to call "B" and when that happens is whenever "A" does it. Stick a queue in there. Queues are the way to just get rid of this problem. If you're not using queues extensively then you should start, right away, like right after this talk._**
--- <cite>[Rich Hickey][1]</cite>
+-- <cite>[Rich Hickey - Simple Made Easy][1]</cite>
 
 [1]:http://www.infoq.com/presentations/Simple-Made-Easy
 
+So let's look at an alternative that'll suit most cases from small toy application to large scale system. 
 
 
 
