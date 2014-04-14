@@ -44,6 +44,8 @@ Pub/sub is a sibling of the message queue paradigm, and is typically one part of
 This pattern provides greater network scalability and a more dynamic network topology.
 
 
+http://doc.akka.io/docs/akka/snapshot/java/event-bus.html#event-stream
+
 Here is some code!
 
 {% highlight scala %}
