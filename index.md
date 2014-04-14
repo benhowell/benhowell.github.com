@@ -1,5 +1,5 @@
 ---
-layout: pages
+layout: default
 title: Hello World!
 tagline: Supporting tagline
 ---
