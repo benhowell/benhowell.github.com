@@ -88,14 +88,14 @@ img.brand-image {
   color: #333;
   margin: 40px 0 0;
   overflow: hidden;
-  padding: 0px 0;
+  padding: 20px 0;
   position: relative;
   text-decoration: none;
   
 }
   
 .social-header {
-  padding: 0 20px;
+/*   padding: 0 20px; */
 }
 
 .social-section {
