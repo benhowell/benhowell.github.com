@@ -30,8 +30,10 @@
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
     
-    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
     <link rel="canonical" href="http://www.benhowell.net{{ page.url }}&t={{ page.title }}" />
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+      {"parsetags": "explicit"}
+    </script>
 
   </head>
 
@@ -109,7 +111,9 @@
     {% include JB/analytics %}
     <!-- Put this just before the closing body tag -->
 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-	
+	<script type="text/javascript">
+	  gapi.plusone.go("content");
+	</script>
 	<!-- Google + -->
 	<!--<script type="text/javascript">
 	  (function() {
