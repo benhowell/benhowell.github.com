@@ -98,14 +98,14 @@ img.brand-image {
   padding: 0 20px;
 }
 
-/*.social-section {
+.social-section {
   border-right: 1px solid #ccc;
   float: left;
   width: 140px;
   min-height:50%;
   padding: 10px 30px 6px;
   text-align: center;
-}*/
+}
 
 .last {
   margin-right: 0;
@@ -113,7 +113,7 @@ img.brand-image {
   border-right: 0;
 }
 
-.social {
+/*.social {
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc;
   float: left;
@@ -123,7 +123,7 @@ img.brand-image {
 
 .clearfix {
   zoom: 1;
-}
+}*/
   
   
   
