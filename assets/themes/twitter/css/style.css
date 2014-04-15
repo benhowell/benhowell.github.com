@@ -73,6 +73,28 @@ img.brand-image {
   margin-right: auto;
 }
   
+  
+  
+  
+.post-footer {
+  background: white;
+  border: 1px solid #B3B3B3;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  box-shadow: 0 0 3px rgba(0,0,0,.1);
+  -moz-box-shadow: 0 0 3px rgba(0,0,0,.1);
+  -webkit-box-shadow: 0 0 3px rgba(0,0,0,.1);
+  color: #333;
+  margin: 40px 0 0;
+  overflow: hidden;
+  padding: 20px 0;
+  position: relative;
+  text-decoration: none;
+}
+  
+  
+  
 .social-header {
   padding: 0 20px;
 }
@@ -87,6 +109,13 @@ img.brand-image {
 .clearfix {
   zoom: 1;
 }
+  
+  
+  
+  
+  
+  
+  
   
 .highlight  { background: #ffffff; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
