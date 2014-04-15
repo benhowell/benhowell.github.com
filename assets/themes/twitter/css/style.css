@@ -94,18 +94,18 @@ img.brand-image {
   
 }
   
-/*.social-header {
+.social-header {
   padding: 0 20px;
-}*/
+}
 
-.social-section {
+/*.social-section {
   border-right: 1px solid #ccc;
   float: left;
   width: 140px;
   min-height:50%;
   padding: 10px 30px 6px;
   text-align: center;
-}
+}*/
 
 .last {
   margin-right: 0;
