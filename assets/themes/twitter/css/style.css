@@ -93,7 +93,11 @@ img.brand-image {
   text-decoration: none;
 }
   
-  
+.content .page-bottom-widget {
+  border-bottom: 1px dotted #ccc;
+  clear: both;
+  padding: 20px;
+}
   
 .social-header {
   padding: 0 20px;
