@@ -74,9 +74,7 @@ img.brand-image {
 }
   
   
-  div {
-float : left;
-}
+
   
 .post-footer {
   background: white;
@@ -93,6 +91,7 @@ float : left;
   padding: 20px 0;
   position: relative;
   text-decoration: none;
+  
 }
   
 .content .page-bottom-widget {
@@ -103,6 +102,14 @@ float : left;
   
 .social-header {
   padding: 0 20px;
+}
+
+.social-section {
+  border-right: 1px dotted #ccc;
+  float: left;
+  width: 60px;
+  padding: 10px 30px 6px;
+  text-align: center;
 }
 
 .social {
