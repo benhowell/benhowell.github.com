@@ -94,11 +94,11 @@ img.brand-image {
   
 }
   
-.content .page-bottom-widget {
+/*.content .page-bottom-widget {
   border-bottom: 1px dotted #ccc;
   clear: both;
   padding: 20px;
-}
+}*/
   
 .social-header {
   padding: 0 20px;
@@ -122,7 +122,7 @@ img.brand-image {
   border-top: 1px dotted #ccc;
   float: left;
   margin: 0;
-  width: 667px;
+  width: 800px;
 }
 
 .clearfix {
