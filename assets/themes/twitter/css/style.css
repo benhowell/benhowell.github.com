@@ -96,6 +96,7 @@ img.brand-image {
   
 .social-header {
   padding: 0 20px;
+  padding-bottom: 0px;
 }
 
 .social-section {
@@ -103,7 +104,7 @@ img.brand-image {
   float: left;
   width: 140px;
   padding: 10px 30px 6px;
-  padding-bottom: 0px;
+  
   text-align: center;
 }
 
