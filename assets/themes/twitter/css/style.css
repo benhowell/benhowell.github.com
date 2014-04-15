@@ -94,9 +94,9 @@ img.brand-image {
   
 }
   
-.social-header {
+/*.social-header {
   padding: 0 20px;
-}
+}*/
 
 .social-section {
   border-right: 1px solid #ccc;
@@ -107,11 +107,11 @@ img.brand-image {
   text-align: center;
 }
 
-/*.last {
+.last {
   margin-right: 0;
   padding-right: 0;
   border-right: 0;
-}*/
+}
 
 .social {
   border-bottom: 1px solid #ccc;
