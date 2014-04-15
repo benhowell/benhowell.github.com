@@ -112,17 +112,17 @@ img.brand-image {
   border-right: 0;
 }
 
-/*.social {
+.social {
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc;
   float: left;
   margin: 0;
   width: 800px;
-}*/
+}
 
-/*.clearfix {
+.clearfix {
   zoom: 1;
-}*/
+}
   
   
   
