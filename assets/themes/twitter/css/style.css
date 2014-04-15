@@ -87,28 +87,28 @@ img.brand-image {
   -webkit-box-shadow: 0 0 3px rgba(0,0,0,.1);
   color: #333;
   margin: 40px 0 0;
-  overflow: hidden;
-/*   padding: 20px 0; */
+/*   overflow: hidden; */
+  padding: 20px 0;
   position: relative;
   text-decoration: none;
   
 }
   
 .social-header {
-/*   padding: 0 20px; */
+  padding: 0 20px;
 }
 
 .social-section {
   border-right: 1px solid #ccc;
   float: left;
   width: 140px;
-/*   padding: 10px 30px 6px; */
+  padding: 10px 30px 6px;
   text-align: center;
 }
 
 .last {
   margin-right: 0;
-/*   padding-right: 0; */
+  padding-right: 0;
   border-right: 0;
 }
 
