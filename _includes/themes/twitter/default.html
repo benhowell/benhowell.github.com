@@ -29,6 +29,8 @@
     <!-- atom & rss feed -->
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+    
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 
   </head>
 
@@ -80,7 +82,7 @@
 	    <g:plusone size="medium"></g:plusone>
 	  </div>
 	  <div class="social-section">
-	    <a href="http://www.reddit.com/submit" onclick="window.location = 'http://www.reddit.com/submit?url=' + http://www.benhowell.net{{ page.url }}&t={{ page.title }}; return false" title="Reddit this"> <img src="http://www.reddit.com/static/spreddit7.gif" alt="submit to reddit" border="0" /></a>
+	    <a href="http://www.reddit.com/submit" onclick="window.location = 'http://www.reddit.com/submit?url=' + http://www.benhowell.net{{ page.url }}&t={{ page.title }}; return false" title="Reddit this" target="_blank"> <img src="http://www.reddit.com/static/spreddit7.gif" alt="submit to reddit" border="0" /></a>
 	  </div>
 	  <div class="social-section last">
 	    <a href="http://news.ycombinator.com/submitlink?u=http://www.benhowell.net{{ page.url }}&t={{ page.title }}" target="_blank"><img src="{{ASSET_PATH}}/bootstrap/img/yc500.gif" title="Submit to Hacker News"></a>
@@ -108,12 +110,12 @@
 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	
 	<!-- Google + -->
-	<script type="text/javascript">
+	<!--<script type="text/javascript">
 	  (function() {
 	    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
 	    po.src = 'https://apis.google.com/js/plusone.js';
 	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
 	  })();
-	</script>
+	</script>-->
   </body>
 </html>
