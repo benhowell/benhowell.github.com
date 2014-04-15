@@ -117,13 +117,13 @@ img.brand-image {
   padding-right: 0;
 }
 
-/*.social {
+.social {
   border-bottom: 1px dotted #ccc;
   border-top: 1px dotted #ccc;
   float: left;
   margin: 0;
   width: 667px;
-}*/
+}
 
 .clearfix {
   zoom: 1;
