@@ -73,6 +73,20 @@ img.brand-image {
   margin-right: auto;
 }
   
+.social-header {
+  padding: 0 20px;
+}
+
+.social {
+  border-bottom: 1px dotted #ccc;
+  border-top: 1px dotted #ccc;
+  float: left;
+  margin: 0;
+  width: 667px;
+}
+.clearfix {
+  zoom: 1;
+}
   
 .highlight  { background: #ffffff; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
