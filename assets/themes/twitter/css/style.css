@@ -102,6 +102,7 @@ img.brand-image {
   border-right: 1px solid #ccc;
   float: left;
   width: 140px;
+  min-height:50%;
   padding: 10px 30px 6px;
   text-align: center;
 }
