@@ -99,7 +99,7 @@ img.brand-image {
 }
 
 .social-section {
-  border-right: 1px solid #ccc;
+  border-right: 1px dotted #ccc;
   float: left;
   width: 140px;
   height:25px;
@@ -114,8 +114,8 @@ img.brand-image {
 }
 
 .social {
-  border-bottom: 1px solid #ccc;
-  border-top: 1px solid #ccc;
+  border-bottom: 1px dotted #ccc;
+  border-top: 1px dotted #ccc;
   float: left;
   margin: 0;
   width: 800px;
