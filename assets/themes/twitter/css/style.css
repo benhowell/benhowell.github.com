@@ -87,7 +87,7 @@ img.brand-image {
   -webkit-box-shadow: 0 0 3px rgba(0,0,0,.1);
   color: #333;
   margin: 40px 0 0;
-/*   overflow: hidden; */
+  overflow: hidden;
   padding: 20px 0;
   position: relative;
   text-decoration: none;
@@ -112,13 +112,13 @@ img.brand-image {
   border-right: 0;
 }
 
-.social {
+/*.social {
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc;
   float: left;
   margin: 0;
   width: 800px;
-}
+}*/
 
 /*.clearfix {
   zoom: 1;
