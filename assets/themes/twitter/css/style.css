@@ -74,7 +74,9 @@ img.brand-image {
 }
   
   
-  
+  div {
+float : left;
+}
   
 .post-footer {
   background: white;
