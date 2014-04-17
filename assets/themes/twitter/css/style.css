@@ -125,11 +125,20 @@ img.brand-image {
   zoom: 1;
 }
 
-.left-of-img {
+.intro {
+  float: left;
+  width: 800px;
+}
+
+.introtxt {
   float: left;
   width: 500px;
 }
   
+.introimg {
+  float: left;
+  width: 300px;
+}
   
   
   
