@@ -124,6 +124,11 @@ img.brand-image {
 .clearfix {
   zoom: 1;
 }
+
+.left-of-img {
+  float: left;
+  width: 500px;
+}
   
   
   
