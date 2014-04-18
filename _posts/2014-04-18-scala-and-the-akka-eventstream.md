@@ -10,7 +10,16 @@ tags : [akka, EventSystem, scala, concurrent, asynchronous, Publish/Subscribe, b
 Hello, this is my first post. Hurrah!
 <br/>
 
-Publish/Subscribe (aka: pub/sub) is a messaging pattern that helps decouple{1} the sender and receiver of messages. Generally, this pattern is used across network(s) and provides ease of scalability and dynamic network topologies. The publish/subscribe pattern can also be used within applications to provide scalability as an alternative to the more traditional Observable/Observer pattern as it offers some distinct advantages which I will address in a future article.
+<div class="intro">
+  <div class="introtxt">
+    <p>
+     Publish/Subscribe (aka: pub/sub) is a messaging pattern that helps decouple{1} the sender and receiver of messages. Generally, this pattern is used across network(s) and provides ease of scalability and dynamic network topologies. The publish/subscribe pattern can also be used within applications to provide scalability as an alternative to the more traditional Observable/Observer pattern as it offers some distinct advantages which I will address in a future article.
+    </p>
+    <br>
+  </div> 
+  <div class="introimg"><img src="{{ASSET_PATH}}/bootstrap/img/eventbus.jpg"/></div>
+</div>
+
 <br />
 <br />
 
@@ -174,6 +183,7 @@ object Main {
 <br/>
 <br/>
 
+That's all for now. 
 In an upcoming article, I will demonstrate the publish/subscribe pattern using the [Akka][2] [EventBus][11] and `LookupClassification`
 <br/>
 <br/>
