@@ -21,6 +21,7 @@ Let's look at a few alternative implementations using [Scala][1] and [Akka][2]
 ###EventStream
 Let's build our first example using the Akka main event bus: [EventStream][3].
 
+*_EventStream.scala_*
 {% highlight scala %}
 import akka.actor.{Actor, Props, ActorSystem}
 
@@ -47,6 +48,17 @@ object EventStream{
 {% endhighlight %}
 
 Congratulations, you have now created your publish/subscribe backbone!
+
+#####Break it down.
+
+{% highlight scala %}
+sealed class Subscriber(f: (String, Any) => Unit) extends Actor {
+  override def receive = { case (topic: String, payload: Any) => f(topic, payload) }
+}
+{% endhighlight %}
+
+
+
 
 
 
