@@ -187,8 +187,6 @@ object Main {
 
 }
 {% endhighlight %}
-<br/>
-<br/>
 
 That's all for now. 
 In an upcoming article, I will demonstrate the publish/subscribe pattern using the [Akka][2] [EventBus][11] and `LookupClassification`
