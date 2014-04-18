@@ -111,12 +111,10 @@ object Bar {
 <br/>
 
 ##### Please explain.
-In Foo and Bar above, we've declared the function `(topic: String, payload: Any) => Some(topic)` and assigned it to a val{4}. We are defining the return type `Some(topic)` which represents any valid topic (i.e. is not `None`), and the `collect` pattern match which will only return a result where `topic` matches one of the following `case`s. Note: `Some(value)` and `None` are the two possible return types for the `Option` monad. 
+In Foo.scala and Bar.scala above, we've declared the function `(topic: String, payload: Any) => Some(topic)` and assigned it to a val{4}. We are defining the return type `Some(topic)` which represents any valid topic (i.e. is not `None`), and the `collect` pattern match which will only return a result where `topic` matches one of the following `case`s. Note: `Some(value)` and `None` are the two possible return types for the `Option` monad. 
+<br/>
 
-
-
-
-and lastly, we'll finish off with a subscriber that requires extra parameters.
+Lastly, we'll finish off with a subscriber that requires extra parameters.
 
 **Logger.scala**
 {% highlight scala %}
