@@ -46,6 +46,9 @@ object EventStream{
 }
 {% endhighlight %}
 
+Congratulations, you have now created your publish/subscribe backbone!
+
+
 
 {% highlight scala %}
 object Foo {
@@ -117,10 +120,10 @@ object Main {
 }
 {% endhighlight %}
 
-Congratulations, you have now created your entire EventSystem!
+
 
 ###TL;DR
-Full example code is available on my GitHub[4]
+Full example code is available on my [GitHub][4]
 
 ####Notes
 {1}: Decoupling as far as space and time is concerned. Publish/Subscribe introduces a different type of coupling, namely: semantic coupling.
