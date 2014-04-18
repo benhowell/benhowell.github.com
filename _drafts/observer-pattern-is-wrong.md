@@ -7,7 +7,6 @@ tags : [akka, EventSystem, scala, concurrent, asynchronous]
 ---
 {% include JB/setup %}
 
-
 Hello, this is my first post. Hurrah!
 
 ##Observer pattern. In most cases: wrong.
