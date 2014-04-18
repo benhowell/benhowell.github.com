@@ -19,7 +19,6 @@ tags : [akka, EventSystem, scala, concurrent, asynchronous, Publish/Subscribe, b
   </div> 
   <div class="introimg"><img src="{{ASSET_PATH}}/bootstrap/img/eventbus.jpg"/></div>
 </div>
-
 <br />
 <br />
 
