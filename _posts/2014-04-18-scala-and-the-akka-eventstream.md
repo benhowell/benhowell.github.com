@@ -56,14 +56,36 @@ Congratulations, you have now created your entire publish/subscribe infrasturctu
 ##### Please explain.
 First we create our `Subscriber` who will listen for messages on the event stream bus. This [Actor][5] will act on any messages matching the class `(String, Any)`, which is simply a tuple of `String` and `Any`, however you can create any class of message you desire{2}. Within our `Subscriber` we need to override the `receive` function from `Actor` to tell our subscriber what to do when receiving a message matching the `(String, Any)` class. Upon construction of our subscriber we pass in the function `f: (String, Any) => Option[Unit]` which will be executed by the receive function each time a new message is received. The `sealed` keyword means that this class can only be referred to within the file it is declared in, in this case, only EventStream.scala.
 
-
-
-
 {% highlight scala %}
 sealed class Subscriber(f: (String, Any) => Unit) extends Actor {
   override def receive = { case (topic: String, payload: Any) => f(topic, payload) }
 }
 {% endhighlight %}
+<br/>
+
+Next, we create an `ActorSystem` which is used to supervise top level actors. As the comments suggest, only one of these can be built per application.
+<br/>
+
+{% highlight scala %}
+// ActorSystem is a heavy object: create only one per application
+// http://doc.example.io/docs/example/snapshot/scala/actors.html
+val system = ActorSystem("actorsystem")
+{% endhighlight %}
+<br/>
+
+Define our subscribe function which takes a function `f: (String, Any) => Option[Unit]` and a `name` representing the entity creating the subscription. Create our `props` [Props][6] object which is merely a configuration class for the creation of Actors. Our `props` constructor takes the `Subscriber` we defined earlier, plus the function argument `f` which we in turn use to create our subscriber. Finally, we register this subscriber with the `system.eventStream` and start listening for messages. 
+
+{% highlight scala %}
+def subscribe(f: (String, Any) => Option[Unit], name: String) = {
+  val props = Props(classOf[Subscriber], f)
+  val subscriber = system.actorOf(props, name = name)
+  system.eventStream.subscribe(subscriber, classOf[(String, Any)])
+}
+{% endhighlight %}
+
+
+
+
 
 
 
