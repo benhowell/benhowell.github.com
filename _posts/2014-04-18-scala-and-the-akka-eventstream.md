@@ -54,7 +54,7 @@ Congratulations, you have now created your entire publish/subscribe infrasturctu
 <br />
 
 ##### Please explain.
-First we create our `Subscriber` who will act as a listener. This [Actor][5] will act on any messages matching the class `(String, Any)`, which is simply a tuple of `String` and `Any` in this case, however you can create any class of message you desire. Within our `Subscriber` we just need to override the `receive` function from `Actor` to tell our subscriber what to do when receiving a message matching the `(String, Any)` class. Upon construction of our subscriber we pass in the function `f: (String, Any) => Option[Unit]` which will be executed by the receive function. The `sealed` keyword means that this class can only be referred to within the file it is declared in, in this case, only EventStream.scala.
+First we create our `Subscriber` who will listen for messages on the event stream bus. This [Actor][5] will act on any messages matching the class `(String, Any)`, which is simply a tuple of `String` and `Any`, however you can create any class of message you desire{2}. Within our `Subscriber` we need to override the `receive` function from `Actor` to tell our subscriber what to do when receiving a message matching the `(String, Any)` class. Upon construction of our subscriber we pass in the function `f: (String, Any) => Option[Unit]` which will be executed by the receive function each time a new message is received. The `sealed` keyword means that this class can only be referred to within the file it is declared in, in this case, only EventStream.scala.
 
 
 
