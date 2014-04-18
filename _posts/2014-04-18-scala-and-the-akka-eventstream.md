@@ -29,14 +29,14 @@ In the next few articles we'll look at some alternative implementations using [S
 <br />
 <br />
 
-### EventStream
-Let's build our first example using the [Akka][2] main event bus: [EventStream][3]<a class="notes">{2}</a>.
-<br />
-
 #### TL;DR
 Just give me the code: [GitHub][4]
 <br/>
 <br/>
+
+### EventStream
+Let's build our first example using the [Akka][2] main event bus: [EventStream][3]<a class="notes">{2}</a>.
+<br />
 
 **EventStream.scala**
 {% highlight scala %}
