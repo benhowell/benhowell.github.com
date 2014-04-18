@@ -126,7 +126,7 @@ In Foo.scala and Bar.scala above, we've declared the function `(topic: String, p
 <br/>
 <br/>
 
-Lastly, we'll finish off with a subscriber that requires extra parameters for it's `onEvent` function.
+Lastly, we'll finish off with a subscriber that requires extra parameters for its `onEvent` function.
 
 **Logger.scala**
 {% highlight scala %}
