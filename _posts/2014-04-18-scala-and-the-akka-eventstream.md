@@ -172,7 +172,6 @@ object Main {
 }
 {% endhighlight %}
 <br/>
-<br/>
 
 #### TL;DR
 Just give me the code: [GitHub][4]
