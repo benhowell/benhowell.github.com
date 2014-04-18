@@ -18,10 +18,10 @@ tags : [akka, EventSystem, scala, concurrent, asynchronous, Publish/Subscribe, b
     <p>  
       The publish/subscribe pattern can also be used within applications to provide scalability as an alternative to the more traditional Observable/Observer pattern as it offers some distinct advantages which I will address in a future article.
     </p>
-    <br>
   </div> 
   <div class="introimg"><img src="{{ASSET_PATH}}/bootstrap/img/eventbus.jpg"/></div>
 </div>
+<br />
 <br />
 <br />
 
