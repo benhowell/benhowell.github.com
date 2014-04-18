@@ -113,6 +113,7 @@ object Bar {
 ##### Please explain.
 In Foo.scala and Bar.scala above, we've declared the function `(topic: String, payload: Any) => Some(topic)` and assigned it to a val{4}. We are defining the return type `Some(topic)` which represents any valid topic (i.e. is not `None`), and the `collect` pattern match which will only return a result where `topic` matches one of the following `case`s. Note: `Some(value)` and `None` are the two possible return types for the `Option` monad. 
 <br/>
+<br/>
 
 Lastly, we'll finish off with a subscriber that requires extra parameters.
 
@@ -137,7 +138,7 @@ object Logger {
 }
 {% endhighlight %}
 
-To do this, we will define a function that takes the extra parameter(s), in this case `(ps: PrintStream)` which itself ecloses and returns the function with signature `(topic: String, payload: Any) => Option[Unit]` satisfying 
+To do this, we will define a function that takes the extra parameter(s), in this case `(ps: PrintStream)` which itself is a [closure][10] and returns the function with signature `(topic: String, payload: Any) => Option[Unit]` satisfying 
 
 
 
@@ -217,3 +218,4 @@ val onEvent = (topic: String, payload: Any) => topic match {
 [7]:http://www.haskell.org/haskellwiki/Haskell
 [8]:http://www.haskell.org/haskellwiki/Maybe
 [9]:http://www.scala-lang.org/api/2.10.4/index.html#scala.Option
+[10]:http://en.wikipedia.org/wiki/Closure_(computer_programming)
