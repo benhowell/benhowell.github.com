@@ -72,7 +72,7 @@ val system = ActorSystem("actorsystem")
 {% endhighlight %}
 <br/>
 
-Now we define our subscribe function which takes a function `f: (String, Any) => Option[Unit]` and a `name` to represent the entity creating the subscription. Note that we are using the [Option][9] monad as a return type here (equivalent to [Haskell][7] [Maybe][8]). Create our `props` [Props][6] object which is merely a configuration class for the creation of Actors. Our `props` constructor takes an instance of the `Subscriber` class we defined earlier, plus the function argument `f` which we in turn use to create our subscriber. Finally, we register this subscriber with the `system.eventStream` and start listening for messages. 
+Now we define our subscribe function which takes a function `f: (String, Any) => Option[Unit]` and a `name` to represent the entity creating the subscription. Note that we are using the [Option][9] monad as a return type here (equivalent to [Haskell][7] [Maybe][8]). Create our `props` [Props][6] object which is merely a configuration class for the creation of Actors. Our `props` constructor takes the `Subscriber` type class we defined earlier, plus the function argument `f` which we in turn use to create our subscriber. Finally, we register this subscriber with the `system.eventStream` and start listening for messages. 
 
 {% highlight scala %}
 def subscribe(f: (String, Any) => Option[Unit], name: String) = {
@@ -109,7 +109,6 @@ object Bar {
 }
 {% endhighlight %}
 <br/>
-<br />
 
 ##### Please explain.
 In Foo and Bar above, we've declared the function `(topic: String, payload: Any) => Some(topic)` and assigned it to a val{4}. We are defining the return type `Some(topic)` which represents any valid topic (i.e. is not `None`), and the `collect` pattern match which will only return a result where `topic` matches one of the following `case`s. Note: `Some(value)` and `None` are the two possible return types for the `Option` monad. 
