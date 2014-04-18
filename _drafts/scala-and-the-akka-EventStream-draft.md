@@ -1,6 +1,7 @@
 ---
 layout: post
 category : examples
+title: Publish/Subscribe using Akka and Scala 
 tagline: "Example"
 tags : [akka, EventSystem, scala, concurrent, asynchronous]
 ---
