@@ -13,7 +13,8 @@ Hello, this is my first post. Hurrah!
 Publish/Subscribe (aka: pub/sub) is a messaging pattern that helps decouple{1} the sender and receiver of messages. Generally, this pattern is used across network(s) and provides ease of scalability and dynamic network topologies. The pub/sub pattern can also be used within applications as an alternative to the more traditional Observable/Observer pattern as it offers some advantages which I will address in a future article.
 
 Let's look at a few alternative implementations using [Scala][1] and [Akka][2]
-
+<br />
+<br />
 
 ###EventStream
 First, let's build an example using the Akka main event bus: [EventStream][3].
