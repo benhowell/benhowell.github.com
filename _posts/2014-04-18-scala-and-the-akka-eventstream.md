@@ -49,14 +49,22 @@ object EventStream{
 {% endhighlight %}
 
 Congratulations, you have now created your publish/subscribe backbone!
+<br />
+<br />
 
 #####Break it down.
+First we create our Subscriber who will act as a listener. This [Actor][5] will act on any messages matching the class (String, Any), which is simply a tuple of String and Any in this case, however you can create any class of message you desire. Within our Subscriber we just need to override the receive function from Actor to tell our subscriber what to do when receiving a message matching the (String, Any) class. Upon construction of our subscriber we pass a function f in which will be executed by the receive function.
+
+
+
 
 {% highlight scala %}
 sealed class Subscriber(f: (String, Any) => Unit) extends Actor {
   override def receive = { case (topic: String, payload: Any) => f(topic, payload) }
 }
 {% endhighlight %}
+
+
 
 
 
@@ -145,5 +153,6 @@ Full example code is available on my [GitHub][4]
 
 [1]:http://www.scala-lang.org/
 [2]:http://akka.io/
-[3]:http://doc.akka.io/docs/akka/snapshot/java/event-bus.html#event-stream
+[3]:http://doc.akka.io/docs/akka/snapshot/scala/event-bus.html#event-stream
 [4]:https://github.com/benhowell/examples/tree/master/AkkaEventStream
+[5]:http://doc.akka.io/docs/akka/snapshot/scala/actors.html
