@@ -10,8 +10,14 @@ tags : [akka, EventSystem, scala, concurrent, asynchronous]
 Hello, this is my first post. Hurrah!
 
 ###Publish/Subscribe
-wiki says:
-In software architecture, publish–subscribe is a messaging pattern where senders of messages, called publishers, do not program the messages to be sent directly to specific receivers, called subscribers. Instead, published messages are characterized into classes, without knowledge of what, if any, subscribers there may be. Similarly, subscribers express interest in one or more classes, and only receive messages that are of interest, without knowledge of what, if any, publishers there are.
+Publish–subscribe is a messaging pattern that helps decouple[1] the sender and receiver of messages. 
+
+, called publishers, do not program the messages to be sent directly to specific receivers, called subscribers. Instead, published messages are characterized into classes, without knowledge of what, if any, subscribers there may be. Similarly, subscribers express interest in one or more classes, and only receive messages that are of interest, without knowledge of what, if any, publishers there are.
+
+
+[1]:http://www.infoq.com/presentations/Simple-Made-Easy
+
+
 
 Pub/sub is a sibling of the message queue paradigm, and is typically one part of a larger message-oriented middleware system. Most messaging systems support both the pub/sub and message queue models in their API, e.g. Java Message Service (JMS).
 
