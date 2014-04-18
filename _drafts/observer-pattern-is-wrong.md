@@ -9,7 +9,7 @@ tags : [akka, EventSystem, scala, concurrent, asynchronous]
 
 Hello, this is my first post. Hurrah!
 
-##Observer pattern. In most cases: wrong.
+## Observer pattern. In most cases: wrong.
 - The thing being observed should not need to know about who is observing it.
 - If you want to replace the thing being observed, your code is tighty bound to that specific implementation that you need to rewrite it for the new implementation.
 - The larger the number of observers for thing "A", the larger the performance bottleneck becomes at thing "A" because thing "A" must now, sequentially notify each observer individually of each event they've registered to observe. Imagine if television worked this way, that is, for every show, they must individually stream that show to each person individually, in sequence. 

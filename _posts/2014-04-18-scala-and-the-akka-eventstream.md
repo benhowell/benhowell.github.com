@@ -9,7 +9,7 @@ tags : [akka, EventSystem, scala, concurrent, asynchronous, Publish/Subscribe]
 
 Hello, this is my first post. Hurrah!
 
-##Publish/Subscribe
+## Publish/Subscribe
 Publish/Subscribe (aka: pub/sub) is a messaging pattern that helps decouple{1} the sender and receiver of messages. Generally, this pattern is used across network(s) and provides ease of scalability and dynamic network topologies. The pub/sub pattern can also be used within applications as an alternative to the more traditional Observable/Observer pattern as it offers some advantages which I will address in a future article.
 <br />
 <br />
@@ -18,8 +18,9 @@ Let's look at a few alternative implementations using [Scala][1] and [Akka][2]
 <br />
 <br />
 
-###EventStream
+### EventStream
 Let's build our first example using the Akka main event bus: [EventStream][3].
+**Note: This is NOT a distributed solution and is only intended to be implemented within a single application** 
 <br />
 
 **EventStream.scala**
@@ -48,12 +49,12 @@ object EventStream{
 }
 {% endhighlight %}
 
-Congratulations, you have now created your publish/subscribe backbone!
+Congratulations, you have now created your entire publish/subscribe infrasturcture!
 <br />
 <br />
 
-#####Please explain.
-First we create our Subscriber who will act as a listener. This [Actor][5] will act on any messages matching the class (String, Any), which is simply a tuple of String and Any in this case, however you can create any class of message you desire. Within our Subscriber we just need to override the receive function from Actor to tell our subscriber what to do when receiving a message matching the (String, Any) class. Upon construction of our subscriber we pass a function f in which will be executed by the receive function.
+##### Please explain.
+First we create our `Subscriber` who will act as a listener. This [Actor][5] will act on any messages matching the class `(String, Any)`, which is simply a tuple of `String` and `Any` in this case, however you can create any class of message you desire. Within our `Subscriber` we just need to override the `receive` function from `Actor` to tell our subscriber what to do when receiving a message matching the `(String, Any)` class. Upon construction of our subscriber we pass in the function `f: (String, Any) => Option[Unit]` which will be executed by the receive function. The `sealed` keyword means that this class can only be referred to within the file it is declared in, in this case, only EventStream.scala.
 
 
 
@@ -143,12 +144,11 @@ object Main {
 
 
 
-###TL;DR
+### TL;DR
 Full example code is available on my [GitHub][4]
 
-####Notes
+#### Notes
 {1}: Decoupling as far as space and time is concerned. Publish/Subscribe introduces a different type of coupling, namely: semantic coupling.
-
 
 
 [1]:http://www.scala-lang.org/
