@@ -115,7 +115,7 @@ In Foo.scala and Bar.scala above, we've declared the function `(topic: String, p
 <br/>
 <br/>
 
-Lastly, we'll finish off with a subscriber that requires extra parameters.
+Lastly, we'll finish off with a subscriber that requires extra parameters for it's `onEvent` function.
 
 **Logger.scala**
 {% highlight scala %}
@@ -139,21 +139,10 @@ object Logger {
 {% endhighlight %}
 
 To do this, we will define a function that takes the extra parameter(s), in this case `(ps: PrintStream)` which itself is a [closure][10] that returns a function with signature `(topic: String, payload: Any) => Option[Unit]`.
+<br/>
+<br/>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+All that's left to do is write a test program to demonstrate our publish/subscribe system.
 
 {% highlight scala %}
 import java.io.{File, FileOutputStream, PrintStream}
@@ -186,7 +175,9 @@ object Main {
 
 
 ### TL;DR
-Full example code is available on my [GitHub][4]
+Give me the code: [GitHub][4]
+<br/>
+<br/>
 
 #### Notes
 {1}: Decoupling as far as space and time is concerned. Publish/Subscribe introduces a different type of coupling, namely: semantic coupling.
