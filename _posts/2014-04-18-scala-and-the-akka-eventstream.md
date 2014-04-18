@@ -59,7 +59,7 @@ object EventStream{
 }
 {% endhighlight %}
 
-Congratulations, you have now created your entire publish/subscribe infrasturcture!
+Congratulations, you have now created your entire publish/subscribe infrastructure!
 <br />
 <br />
 
