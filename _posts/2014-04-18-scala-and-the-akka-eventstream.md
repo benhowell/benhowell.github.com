@@ -30,7 +30,7 @@ In the next few articles we'll look at some alternative implementations using [S
 <br />
 
 ### EventStream
-Let's build our first example using the [Akka][2] main event bus: [EventStream][3]{2}.
+Let's build our first example using the [Akka][2] main event bus: [EventStream][3]<a class="notes">{2}</a>.
 <br />
 
 **EventStream.scala**
@@ -64,7 +64,7 @@ Congratulations, you have now created your entire publish/subscribe infrasturctu
 <br />
 
 #### Please explain.
-First we create our `Subscriber` who will listen for messages on the event stream bus. This [Actor][5] will act on any messages matching the class `(String, Any)`, which is simply a tuple of `String` and `Any`{3}, however you can create any class of message you desire{4}. Within our `Subscriber` we need to override the `receive` function from `Actor` to tell our subscriber what to do when receiving a message matching the `(String, Any)` class. Upon construction of our subscriber we pass in the function `f: (String, Any) => Option[Unit]` which will be executed by the receive function each time a new message is received. The `sealed` keyword means that this class can only be referred to within the file it is declared in, in this case, only EventStream.scala. One last thing worth mentioning here is that in the [Scala][1] language, `object` declares a singleton. 
+First we create our `Subscriber` who will listen for messages on the event stream bus. This [Actor][5] will act on any messages matching the class `(String, Any)`, which is simply a tuple of `String` and `Any`<a class="notes">{3}</a>, however you can create any class of message you desire<a class="notes">{4}</a>. Within our `Subscriber` we need to override the `receive` function from `Actor` to tell our subscriber what to do when receiving a message matching the `(String, Any)` class. Upon construction of our subscriber we pass in the function `f: (String, Any) => Option[Unit]` which will be executed by the receive function each time a new message is received. The `sealed` keyword means that this class can only be referred to within the file it is declared in, in this case, only EventStream.scala. One last thing worth mentioning here is that in the [Scala][1] language, `object` declares a singleton. 
 
 {% highlight scala %}
 sealed class Subscriber(f: (String, Any) => Unit) extends Actor {
@@ -122,7 +122,7 @@ object Bar {
 <br/>
 
 #### Please explain.
-In Foo.scala and Bar.scala above, we've declared the function `(topic: String, payload: Any) => Some(topic)` and assigned it to a val{5}. We are defining the return type `Some(topic)` which represents any valid topic (i.e. is not `None`), and the `collect` pattern match which will only return a result where `topic` matches one of the following `case`s. Note: `Some(value)` and `None` are the two possible return types for the `Option` monad. 
+In Foo.scala and Bar.scala above, we've declared the function `(topic: String, payload: Any) => Some(topic)` and assigned it to a val<a class="notes">{5}</a>. We are defining the return type `Some(topic)` which represents any valid topic (i.e. is not `None`), and the `collect` pattern match which will only return a result where `topic` matches one of the following `case`s. Note: `Some(value)` and `None` are the two possible return types for the `Option` monad. 
 <br/>
 <br/>
 
@@ -196,15 +196,15 @@ Just give me the code: [GitHub][4]
 <br/>
 
 #### Notes
-{1}: Decoupling as far as space and time is concerned. Publish/Subscribe introduces a different type of coupling, namely: semantic coupling.
+<a class="notes">{1}</a>: Decoupling as far as space and time is concerned. Publish/Subscribe introduces a different type of coupling, namely: semantic coupling.
 
-{2}: EventStream is NOT a distributed solution and is only intended to be implemented within a single application.
+<a class="notes">{2}</a>: EventStream is NOT a distributed solution and is only intended to be implemented within a single application.
 
-{3}: Scala type `Any` is roughly equivalent to Java Object, that is, the root type that all others derive from.
+<a class="notes">{3}</a>: Scala type `Any` is roughly equivalent to Java Object, that is, the root type that all others derive from.
 
-{4}: e.g. `Subscriber(f: Message => Unit)` where `class Message(topic: String, payload: Any)` however, wrapping plain values this way is bad practice and should be avoided.
+<a class="notes">{4}</a>: e.g. `Subscriber(f: Message => Unit)` where `class Message(topic: String, payload: Any)` however, wrapping plain values this way is bad practice and should be avoided.
 
-{5}: We could also design our system to do full pattern matching, however each `onEvent` type function would need to return a specific type (i.e. `Unit`) and explicitly deal with the default case where no pattern could be matched. For example:
+<a class="notes">{5}</a>: We could also design our system to do full pattern matching, however each `onEvent` type function would need to return a specific type (i.e. `Unit`) and explicitly deal with the default case where no pattern could be matched. For example:
 
 {% highlight scala %}
 val onEvent = (topic: String, payload: Any) => topic match {
