@@ -138,7 +138,7 @@ object Logger {
 }
 {% endhighlight %}
 
-To do this, we will define a function that takes the extra parameter(s), in this case `(ps: PrintStream)` which itself is a [closure][10] and returns the function with signature `(topic: String, payload: Any) => Option[Unit]` satisfying 
+To do this, we will define a function that takes the extra parameter(s), in this case `(ps: PrintStream)` which itself is a [closure][10] that returns a function with signature `(topic: String, payload: Any) => Option[Unit]`.
 
 
 
