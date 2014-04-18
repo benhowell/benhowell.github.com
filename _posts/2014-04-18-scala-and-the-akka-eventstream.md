@@ -3,33 +3,23 @@ layout: post
 category : examples
 title: Publish/Subscribe using Akka and Scala 
 tagline: "Example"
-tags : [akka, EventSystem, scala, concurrent, asynchronous]
+tags : [akka, EventSystem, scala, concurrent, asynchronous, Publish/Subscribe]
 ---
 {% include JB/setup %}
 
 Hello, this is my first post. Hurrah!
 
 ###Publish/Subscribe
-Publish–subscribe is a messaging pattern that helps decouple{1} the sender and receiver of messages. 
+Publish/Subscribe (aka: pub/sub) is a messaging pattern that helps decouple{1} the sender and receiver of messages. Generally, this pattern is used across network(s) and provides ease of scalability and dynamic network topologies. The pub/sub pattern can also be used within applications as an alternative to the more traditional Observable/Observer pattern as it offers some advantages which I will address in a future article.
 
-, called publishers, do not program the messages to be sent directly to specific receivers, called subscribers. Instead, published messages are characterized into classes, without knowledge of what, if any, subscribers there may be. Similarly, subscribers express interest in one or more classes, and only receive messages that are of interest, without knowledge of what, if any, publishers there are.
+Let's look at a few alternative implementations using [Scala][1] and [Akka][2]
 
-
-
-####Notes
-{1}:http://www.infoq.com/presentations/Simple-Made-Easy
-
+[1]:http://www.scala-lang.org/
+[2]:http://akka.io/
+[3]:http://doc.akka.io/docs/akka/snapshot/java/event-bus.html#event-stream
 
 
-
-Pub/sub is a sibling of the message queue paradigm, and is typically one part of a larger message-oriented middleware system. Most messaging systems support both the pub/sub and message queue models in their API, e.g. Java Message Service (JMS).
-
-This pattern provides greater network scalability and a more dynamic network topology.
-
-
-http://doc.akka.io/docs/akka/snapshot/java/event-bus.html#event-stream
-
-Here is some code!
+First, let's build an example using the Akka main event bus: [EventStream][3].
 
 {% highlight scala %}
 import akka.actor.{Actor, Props, ActorSystem}
@@ -55,7 +45,6 @@ object EventStream{
   }
 }
 {% endhighlight %}
-
 
 
 {% highlight scala %}
@@ -128,16 +117,17 @@ object Main {
 }
 {% endhighlight %}
 
-
-
-
-
-
-
 Congratulations, you have now created your entire EventSystem!
 
+###TL;DR
+Full example code is available on my GitHub[4]
+
+####Notes
+{1}: Decoupling as far as space and time is concerned. Publish/Subscribe introduces a different type of coupling, namely: semantic coupling.
 
 
-##TL;DR
-Full example code is available here: https://github.com/benhowell/examples/tree/master/AkkaEventStream
 
+[1]:http://www.scala-lang.org/
+[2]:http://akka.io/
+[3]:http://doc.akka.io/docs/akka/snapshot/java/event-bus.html#event-stream
+[4]:https://github.com/benhowell/examples/tree/master/AkkaEventStream
