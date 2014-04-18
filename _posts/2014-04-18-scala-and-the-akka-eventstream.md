@@ -97,7 +97,8 @@ object Foo {
   }
 }
 {% endhighlight %}
-
+<br/>
+<br/>
 
 **Bar.scala**
 {% highlight scala %}
@@ -109,9 +110,11 @@ object Bar {
   }
 }
 {% endhighlight %}
-
+<br/>
+<br/>
 
 and we'll finish off with a subscriber that requires parameters outside those we have used previously.
+
 **Logger.scala**
 {% highlight scala %}
 import java.io._
@@ -132,6 +135,19 @@ object Logger {
   def stop(ps: PrintStream) = ps.close()
 }
 {% endhighlight %}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
