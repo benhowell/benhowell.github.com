@@ -172,6 +172,11 @@ object Main {
 }
 {% endhighlight %}
 <br/>
+<br/>
+
+In an upcoming article, I will demonstrate the publish/subscribe pattern using the [Akka][2] [EventBus][11] and `LookupClassification`
+<br/>
+<br/>
 
 #### TL;DR
 Just give me the code: [GitHub][4]
@@ -209,3 +214,4 @@ val onEvent = (topic: String, payload: Any) => topic match {
 [8]:http://www.haskell.org/haskellwiki/Maybe
 [9]:http://www.scala-lang.org/api/2.10.4/index.html#scala.Option
 [10]:http://en.wikipedia.org/wiki/Closure_(computer_programming)
+[11]:http://doc.akka.io/docs/akka/snapshot/scala/event-bus.html
