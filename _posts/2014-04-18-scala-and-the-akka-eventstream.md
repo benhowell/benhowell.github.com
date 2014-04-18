@@ -33,6 +33,11 @@ In the next few articles we'll look at some alternative implementations using [S
 Let's build our first example using the [Akka][2] main event bus: [EventStream][3]<a class="notes">{2}</a>.
 <br />
 
+#### TL;DR
+Just give me the code: [GitHub][4]
+<br/>
+<br/>
+
 **EventStream.scala**
 {% highlight scala %}
 import akka.actor.{Actor, Props, ActorSystem}
@@ -187,11 +192,6 @@ object Main {
 
 That's all for now. 
 In an upcoming article, I will demonstrate the publish/subscribe pattern using the [Akka][2] [EventBus][11] and `LookupClassification`
-<br/>
-<br/>
-
-#### TL;DR
-Just give me the code: [GitHub][4]
 <br/>
 <br/>
 
