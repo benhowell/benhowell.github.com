@@ -1,15 +1,15 @@
 ---
 layout: post
 category : examples
-title: Publish/Subscribe using Akka and Scala 
+title: Publish/Subscribe using Scala and Akka EventStream
 tagline: "Example"
 tags : [akka, EventSystem, scala, concurrent, asynchronous, Publish/Subscribe, beginner, example, tutorial]
 ---
 {% include JB/setup %}
 
 Hello, this is my first post. Hurrah!
+<br/>
 
-## Publish/Subscribe
 Publish/Subscribe (aka: pub/sub) is a messaging pattern that helps decouple{1} the sender and receiver of messages. Generally, this pattern is used across network(s) and provides ease of scalability and dynamic network topologies. The publish/subscribe pattern can also be used within applications to provide scalability as an alternative to the more traditional Observable/Observer pattern as it offers some distinct advantages which I will address in a future article.
 <br />
 <br />
@@ -112,18 +112,9 @@ object Bar {
 <br />
 
 ##### Please explain.
-In Foo and Bar above, we've declared the function `(topic: String, payload: Any) => Some(topic)` and assigned it to a val. We are defining the return type `Some(topic)` which represents any valid topic (i.e. is not `None`), and the `collect` pattern match which will only return a result where `topic` matches one of the following `case`s. Note: `Some(value)` and `None` are the two possible return types for the `Option` monad. 
+In Foo and Bar above, we've declared the function `(topic: String, payload: Any) => Some(topic)` and assigned it to a val{4}. We are defining the return type `Some(topic)` which represents any valid topic (i.e. is not `None`), and the `collect` pattern match which will only return a result where `topic` matches one of the following `case`s. Note: `Some(value)` and `None` are the two possible return types for the `Option` monad. 
 
-As an aside, we could also design our system to do full pattern matching, however each `onEvent` type function would need to return a specific type (i.e. `Unit`) and explicitly deal with the default case where no pattern could be matched. For example:
 
-{% highlight scala %}
-val onEvent = (topic: String, payload: Any) => topic match {
-  case "Hello" => println("Goodbye")
-  case _ => println("no match")
-}
-{% endhighlight %}
-<br/>
-<br />
 
 
 and lastly, we'll finish off with a subscriber that requires extra parameters.
@@ -205,6 +196,17 @@ Full example code is available on my [GitHub][4]
 {2}: EventStream is NOT a distributed solution and is only intended to be implemented within a single application.
 
 {3}: e.g. `Subscriber(f: Message => Unit)` where `class Message(topic: String, payload: Any)` however, wrapping plain values this way is bad practice and should be avoided.
+
+{4}: We could also design our system to do full pattern matching, however each `onEvent` type function would need to return a specific type (i.e. `Unit`) and explicitly deal with the default case where no pattern could be matched. For example:
+
+{% highlight scala %}
+val onEvent = (topic: String, payload: Any) => topic match {
+  case "Hello" => println("Goodbye")
+  case _ => println("no match")
+}
+{% endhighlight %}
+<br/>
+<br />
 
 
 [1]:http://www.scala-lang.org/
