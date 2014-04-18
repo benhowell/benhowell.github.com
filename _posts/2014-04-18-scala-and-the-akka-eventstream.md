@@ -201,6 +201,7 @@ Full example code is available on my [GitHub][4]
 
 #### Notes
 {1}: Decoupling as far as space and time is concerned. Publish/Subscribe introduces a different type of coupling, namely: semantic coupling.
+
 {2}: EventStream is NOT a distributed solution and is only intended to be implemented within a single application.
 
 
