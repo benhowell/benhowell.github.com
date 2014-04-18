@@ -1,7 +1,7 @@
 ---
 layout: post
 category : examples
-title: Publish/Subscribe using Akka and Scala 
+title: Observer pattern. In most cases: wrong.
 tagline: "Example"
 tags : [akka, EventSystem, scala, concurrent, asynchronous]
 ---
