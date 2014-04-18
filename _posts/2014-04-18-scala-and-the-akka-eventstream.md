@@ -14,12 +14,12 @@ Publish/Subscribe (aka: pub/sub) is a messaging pattern that helps decouple{1} t
 <br />
 <br />
 
-Let's look at a few alternative implementations using [Scala][1] and [Akka][2]
+In the next few articles we'll look at some alternative implementations using [Scala][1] and [Akka][2]
 <br />
 <br />
 
 ### EventStream
-Let's build our first example using the Akka main event bus: [EventStream][3]{2}. 
+Let's build our first example using the Akka main event bus: [EventStream][3]{2}.
 <br />
 
 **EventStream.scala**
