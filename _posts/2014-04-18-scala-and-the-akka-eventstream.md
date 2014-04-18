@@ -83,17 +83,13 @@ def subscribe(f: (String, Any) => Option[Unit], name: String) = {
 }
 {% endhighlight %}
 
+Our work here is done.
+<br/>
+<br/>
 
+Now to test our system, we will create a few simple subscribers.
 
-
-
-
-
-
-
-
-
-
+**Foo.scala**
 {% highlight scala %}
 object Foo {
   val onEvent = (topic: String, payload: Any) => Some(topic) collect {
@@ -103,6 +99,7 @@ object Foo {
 {% endhighlight %}
 
 
+**Bar.scala**
 {% highlight scala %}
 object Bar {
   val onEvent = (topic: String, payload: Any) => Some(topic) collect {
@@ -114,6 +111,8 @@ object Bar {
 {% endhighlight %}
 
 
+and we'll finish off with a subscriber that requires parameters outside those we have used previously.
+**Logger.scala**
 {% highlight scala %}
 import java.io._
 
