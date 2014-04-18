@@ -25,6 +25,7 @@ tags : [akka, EventSystem, scala, concurrent, asynchronous, Publish/Subscribe, b
 <br />
 <br />
 <br />
+<br />
 
 In the next few articles we'll look at some alternative implementations using [Scala][1] and [Akka][2]
 <br />
