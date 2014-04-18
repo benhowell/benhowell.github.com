@@ -132,11 +132,12 @@ img.brand-image {
 
 .introtxt {
   float: left;
-  width: 200px;
+  width: 550px;
 }
   
 .introimg {
   float: left;
+  margin: 50px;
   width: 200px;
 }
   
