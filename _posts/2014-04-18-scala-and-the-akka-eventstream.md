@@ -52,7 +52,7 @@ Congratulations, you have now created your publish/subscribe backbone!
 <br />
 <br />
 
-#####Break it down.
+#####Please explain.
 First we create our Subscriber who will act as a listener. This [Actor][5] will act on any messages matching the class (String, Any), which is simply a tuple of String and Any in this case, however you can create any class of message you desire. Within our Subscriber we just need to override the receive function from Actor to tell our subscriber what to do when receiving a message matching the (String, Any) class. Upon construction of our subscriber we pass a function f in which will be executed by the receive function.
 
 
