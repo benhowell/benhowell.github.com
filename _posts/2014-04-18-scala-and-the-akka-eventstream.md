@@ -194,15 +194,15 @@ In an upcoming article, I will demonstrate the publish/subscribe pattern using t
 <br/>
 
 #### Notes
-[[^1]]: Decoupling as far as space and time is concerned. Publish/Subscribe introduces a different type of coupling, namely: semantic coupling.
+[^1]: Decoupling as far as space and time is concerned. Publish/Subscribe introduces a different type of coupling, namely: semantic coupling.
 
-[[^2]]: EventStream is NOT a distributed solution and is only intended to be implemented within a single application.
+[^2]: EventStream is NOT a distributed solution and is only intended to be implemented within a single application.
 
-[[^3]]: Scala type `Any` is roughly equivalent to Java Object, that is, the root type that all others derive from.
+[^3]: Scala type `Any` is roughly equivalent to Java Object, that is, the root type that all others derive from.
 
-[[^4]]: e.g. `Subscriber(f: Message => Unit)` where `class Message(topic: String, payload: Any)` however, wrapping plain values this way is bad practice and should be avoided.
+[^4]: e.g. `Subscriber(f: Message => Unit)` where `class Message(topic: String, payload: Any)` however, wrapping plain values this way is bad practice and should be avoided.
 
-[[^5]]: We could also design our system to do full pattern matching, however each `onEvent` type function would need to return a specific type (i.e. `Unit`) and explicitly deal with the default case where no pattern could be matched. For example:
+[^5]: We could also design our system to do full pattern matching, however each `onEvent` type function would need to return a specific type (i.e. `Unit`) and explicitly deal with the default case where no pattern could be matched. For example:
 
 {% highlight scala %}
 val onEvent = (topic: String, payload: Any) => topic match {
