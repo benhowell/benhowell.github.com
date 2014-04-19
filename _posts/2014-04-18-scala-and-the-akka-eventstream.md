@@ -198,11 +198,11 @@ In an upcoming article, I will demonstrate the publish/subscribe pattern using t
 
 [^2]: EventStream is NOT a distributed solution and is only intended to be implemented within a single application.
 
-<a class="notes">[^3]</a>: Scala type `Any` is roughly equivalent to Java Object, that is, the root type that all others derive from.
+[^3]: Scala type `Any` is roughly equivalent to Java Object, that is, the root type that all others derive from.
 
-<a class="notes">[^4]</a>: e.g. `Subscriber(f: Message => Unit)` where `class Message(topic: String, payload: Any)` however, wrapping plain values this way is bad practice and should be avoided.
+[^4]: e.g. `Subscriber(f: Message => Unit)` where `class Message(topic: String, payload: Any)` however, wrapping plain values this way is bad practice and should be avoided.
 
-<a class="notes">[^5]</a>: We could also design our system to do full pattern matching, however each `onEvent` type function would need to return a specific type (i.e. `Unit`) and explicitly deal with the default case where no pattern could be matched. For example:
+[^5]: We could also design our system to do full pattern matching, however each `onEvent` type function would need to return a specific type (i.e. `Unit`) and explicitly deal with the default case where no pattern could be matched. For example:
 
 {% highlight scala %}
 val onEvent = (topic: String, payload: Any) => topic match {
