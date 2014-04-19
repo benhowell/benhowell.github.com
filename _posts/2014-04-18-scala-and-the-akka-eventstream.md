@@ -201,7 +201,7 @@ In an upcoming article, I will demonstrate the publish/subscribe pattern using t
 
 [^4]: e.g. `Subscriber(f: Message => Unit)` where `class Message(topic: String, payload: Any)` however, wrapping plain values this way is bad practice and should be avoided.
 
-[^5]: We could also design our system to do full pattern matching, however each `onEvent` type function would need to return a specific type (i.e. `Unit`) and explicitly deal with the default case where no pattern could be matched. For example:{% highlight scala %}val onEvent = (topic: String, payload: Any) =>topic match {case "Hello" => println("Goodbye")case _ => println("no match")}{% endhighlight %}
+[^5]: <span>We could also design our system to do full pattern matching, however each `onEvent` type function would need to return a specific type (i.e. `Unit`) and explicitly deal with the default case where no pattern could be matched. For example:{% highlight scala %}val onEvent = (topic: String, payload: Any) =>topic match {case "Hello" => println("Goodbye")case _ => println("no match")}{% endhighlight %}</span>
 <br/>
 <br />
 
