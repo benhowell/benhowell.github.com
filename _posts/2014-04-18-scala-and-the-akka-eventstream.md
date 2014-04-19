@@ -13,7 +13,7 @@ tags : [akka, EventSystem, scala, concurrent, asynchronous, Publish/Subscribe, b
       Hello, this is my first post. Hurrah!
     </p>
     <p>
-      Publish/Subscribe (aka: pub/sub) is a messaging pattern that helps decouple<a class="notes">[^1]</a> the sender and receiver of messages. Generally, this pattern is used across network(s) and provides ease of scalability and dynamic network topologies. 
+      Publish/Subscribe (aka: pub/sub) is a messaging pattern that helps decouple[^1] the sender and receiver of messages. Generally, this pattern is used across network(s) and provides ease of scalability and dynamic network topologies. 
     </p>
     <p>  
       The publish/subscribe pattern can also be used within applications to provide scalability as an alternative to the more traditional Observable/Observer pattern as it offers some distinct advantages which I will address in a future article.
@@ -69,7 +69,7 @@ Congratulations, you have now created your entire publish/subscribe infrastructu
 <br />
 
 #### Please explain.
-First we create our `Subscriber` who will listen for messages on the event stream bus. This [Actor][5] will act on any messages matching the class `(String, Any)`, which is simply a tuple of `String` and `Any`<a class="notes">[^3]</a>, however you can create any class of message you desire<a class="notes">[^4]</a>. Within our `Subscriber` we need to override the `receive` function from `Actor` to tell our subscriber what to do when receiving a message matching the `(String, Any)` class. Upon construction of our subscriber we pass in the function `f: (String, Any) => Option[Unit]` which will be executed by the receive function each time a new message is received. The `sealed` keyword means that this class can only be referred to within the file it is declared in, in this case, only EventStream.scala. One last thing worth mentioning here is that in the [Scala][1] language, `object` declares a singleton. 
+First we create our `Subscriber` who will listen for messages on the event stream bus. This [Actor][5] will act on any messages matching the class `(String, Any)`, which is simply a tuple of `String` and `Any`[^3], however you can create any class of message you desire[^4]. Within our `Subscriber` we need to override the `receive` function from `Actor` to tell our subscriber what to do when receiving a message matching the `(String, Any)` class. Upon construction of our subscriber we pass in the function `f: (String, Any) => Option[Unit]` which will be executed by the receive function each time a new message is received. The `sealed` keyword means that this class can only be referred to within the file it is declared in, in this case, only EventStream.scala. One last thing worth mentioning here is that in the [Scala][1] language, `object` declares a singleton. 
 
 {% highlight scala %}
 sealed class Subscriber(f: (String, Any) => Unit) extends Actor {
@@ -127,7 +127,7 @@ object Bar {
 <br/>
 
 #### Please explain.
-In Foo.scala and Bar.scala above, we've declared the function `(topic: String, payload: Any) => Some(topic)` and assigned it to a val<a class="notes">[^5]</a>. We are defining the return type `Some(topic)` which represents any valid topic (i.e. is not `None`), and the `collect` pattern match which will only return a result where `topic` matches one of the following `case`s. Note: `Some(value)` and `None` are the two possible return types for the `Option` monad. 
+In Foo.scala and Bar.scala above, we've declared the function `(topic: String, payload: Any) => Some(topic)` and assigned it to a val[^5]. We are defining the return type `Some(topic)` which represents any valid topic (i.e. is not `None`), and the `collect` pattern match which will only return a result where `topic` matches one of the following `case`s. Note: `Some(value)` and `None` are the two possible return types for the `Option` monad. 
 <br/>
 <br/>
 
