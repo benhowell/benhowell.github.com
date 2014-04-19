@@ -194,9 +194,9 @@ In an upcoming article, I will demonstrate the publish/subscribe pattern using t
 <br/>
 
 #### Notes
-<a class="notes">[^1]</a>: Decoupling as far as space and time is concerned. Publish/Subscribe introduces a different type of coupling, namely: semantic coupling.
+[^1]: Decoupling as far as space and time is concerned. Publish/Subscribe introduces a different type of coupling, namely: semantic coupling.
 
-<a class="notes">[^2]</a>: EventStream is NOT a distributed solution and is only intended to be implemented within a single application.
+[^2]: EventStream is NOT a distributed solution and is only intended to be implemented within a single application.
 
 <a class="notes">[^3]</a>: Scala type `Any` is roughly equivalent to Java Object, that is, the root type that all others derive from.
 
