@@ -6,6 +6,7 @@ tagline: "Example"
 tags : [akka, EventSystem, scala, concurrent, asynchronous, Publish/Subscribe, beginner, example, tutorial]
 ---
 {% include JB/setup %}
+{::options parse_span_html="true" /}
 <div class="intro">
 <div class="introtxt">
 <p>
