@@ -191,7 +191,7 @@ That's all for now.
 In an upcoming article, I will demonstrate the publish/subscribe pattern using the [Akka][2] [EventBus][11] and `LookupClassification`
 <br/>
 <br/>
-
+<br/>
 
 #### Notes
 [^1]: Decoupling as far as space and time is concerned. Publish/Subscribe introduces a different type of coupling, namely: semantic coupling.
@@ -204,7 +204,6 @@ In an upcoming article, I will demonstrate the publish/subscribe pattern using t
 
 [^5]: We could also design our system to do full pattern matching, however each `onEvent` type function would need to return a specific type (i.e. `Unit`) and explicitly deal with the default case where no pattern could be matched.
 <br/>
-<br />
 
 
 [1]:http://www.scala-lang.org/
