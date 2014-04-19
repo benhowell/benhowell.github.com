@@ -13,13 +13,13 @@ tags : [akka, EventSystem, scala, concurrent, asynchronous, Publish/Subscribe, b
       Hello, this is my first post. Hurrah!
     </p>
     <p>
-      Publish/Subscribe (aka: pub/sub) is a messaging pattern that helps decouple<a class="notes">{1}</a> the sender and receiver of messages. Generally, this pattern is used across network(s) and provides ease of scalability and dynamic network topologies. 
+      Publish/Subscribe (aka: pub/sub) is a messaging pattern that helps decouple<a class="notes">[^1]</a> the sender and receiver of messages. Generally, this pattern is used across network(s) and provides ease of scalability and dynamic network topologies. 
     </p>
     <p>  
       The publish/subscribe pattern can also be used within applications to provide scalability as an alternative to the more traditional Observable/Observer pattern as it offers some distinct advantages which I will address in a future article.
     </p>
   </div> 
-  <div class="introimg"><img src="{{ASSET_PATH}}/bootstrap/img/eventbus.jpg"/></div>
+  <div class="introimg"><img src="{{ASSET_PATH}}/bootstrap/img/eventbus_250.jpg"/></div>
 </div>
 <br />
 <br />
@@ -35,7 +35,7 @@ Just give me the code: [GitHub][4]
 <br/>
 
 ### EventStream
-Let's build our first example using the [Akka][2] main event bus: [EventStream][3]<a class="notes">{2}</a>.
+Let's build our first example using the [Akka][2] main event bus: [EventStream][3]<a class="notes">[^2]</a>.
 <br />
 
 **EventStream.scala**
@@ -69,7 +69,7 @@ Congratulations, you have now created your entire publish/subscribe infrastructu
 <br />
 
 #### Please explain.
-First we create our `Subscriber` who will listen for messages on the event stream bus. This [Actor][5] will act on any messages matching the class `(String, Any)`, which is simply a tuple of `String` and `Any`<a class="notes">{3}</a>, however you can create any class of message you desire<a class="notes">{4}</a>. Within our `Subscriber` we need to override the `receive` function from `Actor` to tell our subscriber what to do when receiving a message matching the `(String, Any)` class. Upon construction of our subscriber we pass in the function `f: (String, Any) => Option[Unit]` which will be executed by the receive function each time a new message is received. The `sealed` keyword means that this class can only be referred to within the file it is declared in, in this case, only EventStream.scala. One last thing worth mentioning here is that in the [Scala][1] language, `object` declares a singleton. 
+First we create our `Subscriber` who will listen for messages on the event stream bus. This [Actor][5] will act on any messages matching the class `(String, Any)`, which is simply a tuple of `String` and `Any`<a class="notes">[^3]</a>, however you can create any class of message you desire<a class="notes">[^4]</a>. Within our `Subscriber` we need to override the `receive` function from `Actor` to tell our subscriber what to do when receiving a message matching the `(String, Any)` class. Upon construction of our subscriber we pass in the function `f: (String, Any) => Option[Unit]` which will be executed by the receive function each time a new message is received. The `sealed` keyword means that this class can only be referred to within the file it is declared in, in this case, only EventStream.scala. One last thing worth mentioning here is that in the [Scala][1] language, `object` declares a singleton. 
 
 {% highlight scala %}
 sealed class Subscriber(f: (String, Any) => Unit) extends Actor {
@@ -88,7 +88,7 @@ val system = ActorSystem("actorsystem")
 {% endhighlight %}
 <br/>
 
-Now we define our subscribe function which takes a function `f: (String, Any) => Option[Unit]` and a `name` to represent the entity creating the subscription. Note that we are using the [Option][9] monad as a return type here (equivalent to [Haskell][7] [Maybe][8]). Create our `props` [Props][6] object which is merely a configuration class for the creation of Actors. Our `props` constructor takes the `Subscriber` type class we defined earlier, plus the function argument `f` which we in turn use to create our subscriber. Finally, we register this subscriber with the `system.eventStream` and start listening for messages. 
+Now we define our subscribe function which takes a function `f: (String, Any) => Option[Unit]` and a `name` to represent the entity creating the subscription. Create our `props` [Props][6] object which is merely a configuration class for the creation of Actors. Our `props` constructor takes the `Subscriber` type class we defined earlier, plus the function argument `f` which we in turn use to create our subscriber. Finally, we register this subscriber with the `system.eventStream` and start listening for messages. 
 
 {% highlight scala %}
 def subscribe(f: (String, Any) => Option[Unit], name: String) = {
@@ -127,7 +127,7 @@ object Bar {
 <br/>
 
 #### Please explain.
-In Foo.scala and Bar.scala above, we've declared the function `(topic: String, payload: Any) => Some(topic)` and assigned it to a val<a class="notes">{5}</a>. We are defining the return type `Some(topic)` which represents any valid topic (i.e. is not `None`), and the `collect` pattern match which will only return a result where `topic` matches one of the following `case`s. Note: `Some(value)` and `None` are the two possible return types for the `Option` monad. 
+In Foo.scala and Bar.scala above, we've declared the function `(topic: String, payload: Any) => Some(topic)` and assigned it to a val<a class="notes">[^5]</a>. We are defining the return type `Some(topic)` which represents any valid topic (i.e. is not `None`), and the `collect` pattern match which will only return a result where `topic` matches one of the following `case`s. Note: `Some(value)` and `None` are the two possible return types for the `Option` monad. 
 <br/>
 <br/>
 
@@ -154,7 +154,7 @@ object Logger {
 }
 {% endhighlight %}
 
-To do this, we will define a function that takes the extra parameter(s), in this case `(ps: PrintStream)` which itself is a [closure][10] that returns a function with signature `(topic: String, payload: Any) => Option[Unit]`.
+To do this, we will define a function that takes the extra parameter(s), in this case `(ps: PrintStream)` which itself returns a function that [closes over][10] the `ps` parameter with signature `(topic: String, payload: Any) => Option[Unit]`.
 <br/>
 <br/>
 
@@ -194,15 +194,15 @@ In an upcoming article, I will demonstrate the publish/subscribe pattern using t
 <br/>
 
 #### Notes
-<a class="notes">{1}</a>: Decoupling as far as space and time is concerned. Publish/Subscribe introduces a different type of coupling, namely: semantic coupling.
+<a class="notes">[^1]</a>: Decoupling as far as space and time is concerned. Publish/Subscribe introduces a different type of coupling, namely: semantic coupling.
 
-<a class="notes">{2}</a>: EventStream is NOT a distributed solution and is only intended to be implemented within a single application.
+<a class="notes">[^2]</a>: EventStream is NOT a distributed solution and is only intended to be implemented within a single application.
 
-<a class="notes">{3}</a>: Scala type `Any` is roughly equivalent to Java Object, that is, the root type that all others derive from.
+<a class="notes">[^3]</a>: Scala type `Any` is roughly equivalent to Java Object, that is, the root type that all others derive from.
 
-<a class="notes">{4}</a>: e.g. `Subscriber(f: Message => Unit)` where `class Message(topic: String, payload: Any)` however, wrapping plain values this way is bad practice and should be avoided.
+<a class="notes">[^4]</a>: e.g. `Subscriber(f: Message => Unit)` where `class Message(topic: String, payload: Any)` however, wrapping plain values this way is bad practice and should be avoided.
 
-<a class="notes">{5}</a>: We could also design our system to do full pattern matching, however each `onEvent` type function would need to return a specific type (i.e. `Unit`) and explicitly deal with the default case where no pattern could be matched. For example:
+<a class="notes">[^5]</a>: We could also design our system to do full pattern matching, however each `onEvent` type function would need to return a specific type (i.e. `Unit`) and explicitly deal with the default case where no pattern could be matched. For example:
 
 {% highlight scala %}
 val onEvent = (topic: String, payload: Any) => topic match {
