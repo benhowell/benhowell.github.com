@@ -35,7 +35,7 @@ Just give me the code: [GitHub][4]
 <br/>
 
 ### EventStream
-Let's build our first example using the [Akka][2] main event bus: [EventStream][3]<a class="notes">[^2]</a>.
+Let's build our first example using the [Akka][2] main event bus: [EventStream][3][^2].
 <br />
 
 **EventStream.scala**
