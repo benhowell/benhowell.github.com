@@ -2,7 +2,7 @@
 layout: post
 category : examples
 title: Publish/Subscribe using Scala and Akka EventStream
-tagline: "Example"
+tagline: "example"
 tags : [akka, EventSystem, scala, concurrent, asynchronous, Publish/Subscribe, beginner, example, tutorial]
 ---
 {% include JB/setup %}

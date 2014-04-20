@@ -48,43 +48,11 @@ strenuously avoid complecting these with anything in the design
 
 
 ##Publish/Subscribe
-wiki says:
-In software architecture, publish–subscribe is a messaging pattern where senders of messages, called publishers, do not program the messages to be sent directly to specific receivers, called subscribers. Instead, published messages are characterized into classes, without knowledge of what, if any, subscribers there may be. Similarly, subscribers express interest in one or more classes, and only receive messages that are of interest, without knowledge of what, if any, publishers there are.
 
-Pub/sub is a sibling of the message queue paradigm, and is typically one part of a larger message-oriented middleware system. Most messaging systems support both the pub/sub and message queue models in their API, e.g. Java Message Service (JMS).
+http://programmers.stackexchange.com/questions/144327/synchronous-vs-asynchronous-for-publish-subscribe-communication-between-javascr
 
-This pattern provides greater network scalability and a more dynamic network topology.
+http://www.dalnefre.com/wp/2011/05/actors-make-better-observers/
 
 
-http://doc.akka.io/docs/akka/snapshot/java/event-bus.html#event-stream
+The publish/subscribe pattern can also be used within applications to provide scalability as an alternative to the more traditional Observable/Observer pattern as it offers some distinct advantages which I will address in a future article.
 
-Here is some code!
-
-{% highlight scala %}
-sealed class Subscriber(f: (String, Any) => Unit) extends Actor {
-  override def receive = { case (topic: String, payload: Any) => f(topic, payload) }
-}
-{% endhighlight %}
-
-Here is more code!
-
-{% highlight scala %}
-object EventStream{
-
-  // ActorSystem is a heavy object: create only one per application
-  // http://doc.akka.io/docs/akka/snapshot/scala/actors.html
-  val system = ActorSystem("actorsystem")
-
-  def subscribe(f: (String, Any) => Unit, name: String) = {
-    val props = Props(classOf[Subscriber], f)
-    val subscriber = system.actorOf(props, name = name)
-    system.eventStream.subscribe(subscriber, classOf[(String, Any)])
-  }
-
-  def publish(topic: String, payload: Any) {
-    system.eventStream.publish(topic, payload)
-  }
-}
-{% endhighlight %}
-
-Congratulations, you have now created your entire EventSystem!
