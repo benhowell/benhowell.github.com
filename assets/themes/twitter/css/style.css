@@ -74,19 +74,9 @@ img.brand-image {
 }
 
 img.article-image {
- border: 1px solid #B3B3B3;
-  border-radius: 4px;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  box-shadow: 0 0 3px rgba(0,0,0,.1);
-  -moz-box-shadow: 0 0 3px rgba(0,0,0,.1);
-  -webkit-box-shadow: 0 0 3px rgba(0,0,0,.1); 
-  color: #333;
-  margin: 40px 0 0;
-  overflow: hidden;
-  padding: 20px 0;
-  position: relative;
-  text-decoration: none;
+  border-color: #7d6b72; 
+  border-style: solid; 
+  border-width: 3px; 
 }
   
   
