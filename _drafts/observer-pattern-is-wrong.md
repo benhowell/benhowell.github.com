@@ -7,7 +7,19 @@ tags : [akka, EventSystem, scala, concurrent, asynchronous]
 ---
 {% include JB/setup %}
 
-Hello, this is my first post. Hurrah!
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Observer pattern. In most cases: wrong.
 - The thing being observed should not need to know about who is observing it.

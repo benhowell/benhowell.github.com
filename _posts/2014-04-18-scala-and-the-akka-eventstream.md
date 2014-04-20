@@ -21,7 +21,7 @@ The publish/subscribe pattern can also be used within applications to provide sc
 In the next few articles we'll look at some alternative implementations using <span markdown="span">[Scala][1] and [Akka][2]</span>
 </p>
 </div> 
-<div class="introimg"><img src="{{ASSET_PATH}}/bootstrap/img/eventbus_250.jpg"/></div>
+<div class="introimg"><img class="article-image" src="{{ASSET_PATH}}/bootstrap/img/eventbus_250.jpg"/></div>
 </div>
 <br />
 <br />
