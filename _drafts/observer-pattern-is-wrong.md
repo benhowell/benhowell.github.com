@@ -1,21 +1,11 @@
 ---
 layout: post
 category : examples
-title: Observer pattern. In most cases: wrong.
+title: Observer pattern. In most cases. wrong.
 tagline: "Example"
 tags : [akka, EventSystem, scala, concurrent, asynchronous]
 ---
 {% include JB/setup %}
-
-
-
-
-
-
-
-
-
-
 
 
 
