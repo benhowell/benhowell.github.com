@@ -15,10 +15,10 @@ tags : [akka, EventBus, scala, concurrent, asynchronous, Publish/Subscribe, begi
 This post in the second in a series on implementing publish/subscribe with <span markdown="span">[Akka][2]</span> and <span markdown="span">[Scala][1]</span>. The first post, <span markdown="span">[Publish/Subscribe using Scala and Akka EventStream]({% post_url 2014-04-18-scala-and-the-akka-eventstream %})</span> covers some facets of Scala and Akka that'll be skipped over in this article, so it may well be worth a look if things aren't clear.
 </p>
 <p>
-Publish/Subscribe (aka: pub/sub) is a messaging pattern that helps decouple<span markdown="span">[^1]</span> the sender and receiver of messages. Generally, this pattern is used across network(s) and provides ease of scalability and dynamic network topologies. 
+Publish/Subscribe (aka: pub/sub) is a messaging pattern that helps decouple<span markdown="span">[^1]</span> the sender and receiver of messages. Generally, this pattern is used both within applications and across network(s) and provides ease of scalability and dynamic network topologies. 
 </p>
 <p>
-The publish/subscribe pattern can also be used within applications to provide scalability as an alternative to the more traditional Observable/Observer pattern as it offers some distinct advantages which I will address in a future article.
+In this article we'll implement a lookup classification system with subchannel classification.
 </p>
 </div> 
 <div class="intro-img"><img class="article-image" src="{{ASSET_PATH}}/bootstrap/img/eventbus_250.jpg"/></div>
@@ -35,6 +35,17 @@ Just give me the code: [GitHub][4]
 
 
 
+### Subchannel Classification
+The [Akka docs][3] describe subchannel classification as follows: 
+_If classifiers form a hierarchy and it is desired that subscription be possible not only at the leaf nodes, this classification may be just the right one._
+If you're familiar with [REST][5] then it's probably easiest explained this way: `/event/42` is a subchannel of `/event`, therefore any subscription to `/event/42` will only receive that event, whereas subscriptions to `/event` will receive all "events".
+
+
+
+
+
+
+
 
 
 
@@ -43,9 +54,9 @@ Just give me the code: [GitHub][4]
 
 [1]:http://www.scala-lang.org/
 [2]:http://akka.io/
-
+[3]:http://doc.akka.io/docs/akka/snapshot/scala/event-bus.html
 [4]:https://github.com/benhowell/examples/tree/master/AkkaEventBus
-
+[5]:http://en.wikipedia.org/wiki/Representational_state_transfer
 
 
 
