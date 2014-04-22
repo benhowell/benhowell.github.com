@@ -20,9 +20,6 @@ Publish/Subscribe (aka: pub/sub) is a messaging pattern that helps decouple<span
 <p>
 The publish/subscribe pattern can also be used within applications to provide scalability as an alternative to the more traditional Observable/Observer pattern as it offers some distinct advantages which I will address in a future article.
 </p>
-<p>
-In the next few articles we'll look at some alternative implementations using [Scala][1] and [Akka][2].
-</p>
 </div> 
 <div class="intro-img"><img class="article-image" src="{{ASSET_PATH}}/bootstrap/img/eventbus_250.jpg"/></div>
 </div>
