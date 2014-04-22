@@ -23,9 +23,9 @@ In this article we'll implement a lookup classification system with subchannel c
 </div> 
 <div class="intro-img"><img class="article-image" src="{{ASSET_PATH}}/bootstrap/img/eventbus_250.jpg"/></div>
 </div>
-<br />
-<br />
-<br />
+<br/>
+<br/>
+<br/>
 
 
 #### TL;DR
@@ -40,6 +40,41 @@ The [Akka docs][3] describe subchannel classification as follows:
 _If classifiers form a hierarchy and it is desired that subscription be possible not only at the leaf nodes, this classification may be just the right one._
 
 If you're familiar with [REST][5] then it's probably easiest explained this way: `/event/42` is a subchannel of `/event`, therefore any subscription to `/event/42` will only receive that event, whereas subscriptions to `/event` will receive all "events".
+<br/>
+<br/>
+
+Enough of that. Let's build our subchannel classification event bus using [Akka][2] [EventBus][3].
+
+**SCEventBus.scala**
+{% highlight scala %}
+import akka.util.Subclassification
+import akka.actor.ActorRef
+import akka.event.{EventBus, SubchannelClassification}
+
+object SCEventBus extends EventBus with SubchannelClassification {
+  type Event = (String, Any, ActorRef)
+  type Classifier = String
+  type Subscriber = ActorRef
+
+  override protected def classify(event: Event): Classifier = event._1
+
+  protected def subclassification = new Subclassification[Classifier] {
+    def isEqual(x: Classifier, y: Classifier) = x == y
+    def isSubclass(x: Classifier, y: Classifier) = x.startsWith(y)
+  }
+
+  override protected def publish(event: Event, subscriber: Subscriber): Unit = {
+    subscriber.tell(event._2, event._3)
+  }
+}
+{% endhighlight %}
+
+
+#### Please explain.
+
+
+
+
 
 
 
