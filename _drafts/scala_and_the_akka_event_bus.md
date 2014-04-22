@@ -12,7 +12,7 @@ tags : [akka, EventBus, scala, concurrent, asynchronous, Publish/Subscribe, begi
 <div class="intro">
 <div class="intro-txt">
 <p>
-This post in the second in a series on implementing publish/subscribe with <span markdown="span">[Akka][1] and [Scala][2]</span>. The first post, <span markdown="span">[Publish/Subscribe using Scala and Akka EventStream]({% post_url 2014-04-18-scala-and-the-akka-eventstream %})</span> covers some facets of Scala and Akka that'll be skipped over in this article, so it may well be worth a look if things aren't clear.
+This post in the second in a series on implementing publish/subscribe with [Akka][1] and [Scala][2]. The first post, <span markdown="span">[Publish/Subscribe using Scala and Akka EventStream]({% post_url 2014-04-18-scala-and-the-akka-eventstream %})</span> covers some facets of Scala and Akka that'll be skipped over in this article, so it may well be worth a look if things aren't clear.
 </p>
 <p>
 Publish/Subscribe (aka: pub/sub) is a messaging pattern that helps decouple<span markdown="span">[^1]</span> the sender and receiver of messages. Generally, this pattern is used across network(s) and provides ease of scalability and dynamic network topologies. 
@@ -21,7 +21,7 @@ Publish/Subscribe (aka: pub/sub) is a messaging pattern that helps decouple<span
 The publish/subscribe pattern can also be used within applications to provide scalability as an alternative to the more traditional Observable/Observer pattern as it offers some distinct advantages which I will address in a future article.
 </p>
 <p>
-In the next few articles we'll look at some alternative implementations using <span markdown="span">[Scala][1] and [Akka][2]</span>
+In the next few articles we'll look at some alternative implementations using [Scala][1] and [Akka][2].
 </p>
 </div> 
 <div class="intro-img"><img class="article-image" src="{{ASSET_PATH}}/bootstrap/img/eventbus_250.jpg"/></div>
