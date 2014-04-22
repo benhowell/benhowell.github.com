@@ -12,7 +12,7 @@ tags : [akka, EventBus, scala, concurrent, asynchronous, Publish/Subscribe, begi
 <div class="intro">
 <div class="intro-txt">
 <p>
-This post in the second in a series on implementing publish/subscribe with [Akka][2] and [Scala][1]. The first post, <span markdown="span">[Publish/Subscribe using Scala and Akka EventStream]({% post_url 2014-04-18-scala-and-the-akka-eventstream %})</span> covers some facets of Scala and Akka that'll be skipped over in this article, so it may well be worth a look if things aren't clear.
+This post in the second in a series on implementing publish/subscribe with <span markdown="span">[Akka][2]</span> and <span markdown="span">[Scala][1]</span>. The first post, <span markdown="span">[Publish/Subscribe using Scala and Akka EventStream]({% post_url 2014-04-18-scala-and-the-akka-eventstream %})</span> covers some facets of Scala and Akka that'll be skipped over in this article, so it may well be worth a look if things aren't clear.
 </p>
 <p>
 Publish/Subscribe (aka: pub/sub) is a messaging pattern that helps decouple<span markdown="span">[^1]</span> the sender and receiver of messages. Generally, this pattern is used across network(s) and provides ease of scalability and dynamic network topologies. 
