@@ -73,25 +73,26 @@ Here we've created our Subchannel classifying event bus by mixing in the [EventB
  * `Event` is the type of all events published on that bus
  * `Subscriber` is the type of subscribers allowed to register on that event bus
  * `Classifier` defines the classifier to be used in selecting subscribers for dispatching events
-<p>
+
+ 
 There's a lot of _magic_ going on in the background which requires this type aliasing. If you're intertested in what's happening behind the scenes, take a look at the Akka EventBus code on [GitHub][7].
-</p>
-<p>
+
+
 On line 6 we are defining our event, which in this case is a tuple with three items consisting of:
 
  * `String` representing the channel the event is to be published to (e.g. `/event/42`)
  * `Any` representing the actual payload to be published
  * `ActorRef` representing the sender of the event (EventBus does not preserve the publisher of events)
-</p>
-<p>
+
+ 
 On line 10 we're simply defining how our messages will be classified, and in this case, we're supplying the first item of the event tuple `event._1`, which as explained above is our channel parameter.
-</p>
-<p>
+
+
 On line 12 we've got a simple function that determines how to classify sub events.
-</p>
-<p>
+
+
 Finally, on line 17 we have the `publish` function.
-</p>
+
 {% highlight scala %}
 override protected def publish(event: Event, subscriber: Subscriber): Unit =
     subscriber.tell(event._2, event._3)
@@ -99,7 +100,9 @@ override protected def publish(event: Event, subscriber: Subscriber): Unit =
 
 `publish` takes our `(String, Any, ActorRef)` tuple as `Event` and a `Subscriber` (our `ActorRef` who's subscribed to the channel the event is being published to)[^3].
 
+
 Now, we simply send our event payload and sender (2nd and 3rd tuple parameter) to the subscriber using the `tell`[^1] function which enacts a "fire and forget" strategy of sending a message asynchronously and returning immediately[^2].
+
 
 The last thing to mention here is that our choice to use `tell` rather than `!` is a deliberate one[^1].
 <br/>
