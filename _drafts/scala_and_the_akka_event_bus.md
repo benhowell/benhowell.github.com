@@ -68,8 +68,8 @@ object SCEventBus extends EventBus with SubchannelClassification {
 
 
 {:title="The blockquote title"}
-
-
+asdasdasdasd
+asdasd
 
 
 #### Please explain.
@@ -82,6 +82,7 @@ Here we've created our Subchannel classifying event bus by mixing in the [EventB
 There's a lot of _magic_ going on in the background which requires this type aliasing. If you're intertested in what's happening behind the scenes, take a look at the Akka EventBus code on [GitHub][7].
 
 On line 6 we are defining our event, which in this case is a tuple with three items consisting of:
+
  * `String` representing the channel the event is to be published to (e.g. `/event/42`)
  * `Any` representing the actual payload to be published
  * `ActorRef` representing the sender of the event (EventBus does not preserve the publisher of events)
