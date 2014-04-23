@@ -15,10 +15,10 @@ tags : [akka, EventBus, scala, concurrent, asynchronous, Publish/Subscribe, begi
 This post in the second in a series on implementing publish/subscribe with <span markdown="span">[Akka][2]</span> and <span markdown="span">[Scala][1]</span>. The first post, <span markdown="span">[Publish/Subscribe using Scala and Akka EventStream]({% post_url 2014-04-18-scala-and-the-akka-eventstream %})</span> covers some facets of Scala and Akka that'll be skipped over in this article, so it may be worth a look if things aren't clear.
 </p>
 <p>
-Publish/Subscribe (aka: pub/sub) is a messaging pattern that helps decouple<span markdown="span">[^1]</span> the sender and receiver of messages. Generally, this pattern is used both within applications and across network(s) and provides ease of scalability and dynamic network topologies. 
+ 
 </p>
 <p>
-In this article we'll implement a lookup classification system with subchannel classification.
+In this article we'll implement an event bus using lookup classifiers with subchannel classification.
 </p>
 </div> 
 <div class="intro-img"><img class="article-image" src="{{ASSET_PATH}}/bootstrap/img/eventbus_subchannel_250.jpg"/></div>
