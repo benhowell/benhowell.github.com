@@ -70,9 +70,9 @@ object SCEventBus extends EventBus with SubchannelClassification {
 
 #### Please explain.
 Here we've created our Subchannel classifying event bus by mixing in the [EventBus][3] traits and the [SubchannelClassification][6] trait. Next (lines 6, 7, 8) we must define the abstract types: 
-* `Event` is the type of all events published on that bus
-* `Subscriber` is the type of subscribers allowed to register on that event bus
-* `Classifier` defines the classifier to be used in selecting subscribers for dispatching events
+*	`Event` is the type of all events published on that bus
+*	`Subscriber` is the type of subscribers allowed to register on that event bus
+*	`Classifier` defines the classifier to be used in selecting subscribers for dispatching events
 
 There's a lot of _magic_ going on in the background which requires this type aliasing. If you're intertested in what's happening behind the scenes, take a look at the Akka EventBus code on [GitHub][7].
 
