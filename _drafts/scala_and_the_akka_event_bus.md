@@ -15,7 +15,7 @@ tags : [akka, EventBus, scala, concurrent, asynchronous, Publish/Subscribe, begi
 This post in the second in a series on implementing publish/subscribe with <span markdown="span">[Akka][2]</span> and <span markdown="span">[Scala][1]</span>. The first post, <span markdown="span">[Publish/Subscribe using Scala and Akka EventStream]({% post_url 2014-04-18-scala-and-the-akka-eventstream %})</span> covers some facets of Scala and Akka that'll be skipped over in this article, so it may be worth a look if things aren't clear.
 </p>
 <p>
- 
+In [Akka][2] based publish/subscribe systems, publishers post messages to an [event bus][3], and subscribers register subscriptions with that [event bus][3]. The bus takes care of filtering messages and delivering of appropriate messages to all subscribers. Subscribers can register or deregister their subscriptions for any particular channel(s) at any time.
 </p>
 <p>
 In this article we'll implement an event bus using lookup classifiers with subchannel classification.
@@ -231,6 +231,28 @@ In an upcoming article, I will demonstrate the publish/subscribe pattern using t
 
 
 http://www.razko.nl/blog/2013/10/10/using-akka-event-bus/
+Subchannel classification
+
+The subchannel specification is a EventBus which supports a hierachy of channels or classifiers. This first example focuses on a simple string based approach which allows to listen to a top level channel and their leafs.
+
+The example below shows subcribers and publishers which become increasingly more specific, and that previous subscribers which are higher up the hierachy will catch the upcoming more specific publishers.
+
+Downfalls
+
+The sender is not preserved when receiving a message which passed through a EventBus, to solve this you need to pass the ActorRef manually
+
+
+
+
+
+Pub Sub is more simple to manage in many ways – something publishes, something subscribes, and that’s all there is to it. However, it breaks the idea of encapsulation really thoroughly. Event Emitter on the other hand has a higher barrier to entry – you have to “know” about the thing you want to listen to events on, but it does keep things much more contained with known boundaries.
+
+The question then is, what are you building? If you’re sticking very strictly to something like Nikolas Zakas’ sandboxed model (which seems to be a very nice fit for the Yahoo homepage, but not every kind of web page) then you can stick to Event Emitter and you don’t need to worry about much else. If you’re building a complex, rich, interconnected UI you’re almost certainly going to get some benefit from using Pub Sub.
+
+I would also suggest that a lot of things that happen “globally” could be done very nicely with Pub Sub. Take logging for example – whether you’re using console.log or other global logging method, it might make much more sense to publish on a logging topic – and allow anything that wants to subscribe to it, whether that’s a user notification system, or for debugging, or whatever. Another example might be network activity – by publishing individual network events globally, it becomes much easier to manage user notification (for example with a single compound spinner / loading bar).
+
+
+
 
 
 /*
