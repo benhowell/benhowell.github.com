@@ -76,7 +76,7 @@ task :post do
     post.puts '    ???????????????????????'
     post.puts '  </div>' 
     post.puts '  <div class="intro-img">'
-    post.puts '    <img class="article-image" src="{{ASSET_PATH}}/bootstrap/img/qn.jpg"/>'
+    post.puts '    <img class="article-image" src="{{ASSET_PATH}}/bootstrap/img/qn.png"/>'
     post.puts '  </div>'
     post.puts '</div>'
   end

@@ -63,9 +63,8 @@ object SCEventBus extends EventBus with SubchannelClassification {
     def isSubclass(x: Classifier, y: Classifier) = x.startsWith(y)
   }
 
-  override protected def publish(event: Event, subscriber: Subscriber): Unit = {
+  override protected def publish(event: Event, subscriber: Subscriber): Unit =
     subscriber.tell(event._2, event._3)
-  }
 }
 {% endhighlight %}
 
