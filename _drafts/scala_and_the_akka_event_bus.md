@@ -15,7 +15,7 @@ tags : [akka, EventBus, scala, concurrent, asynchronous, Publish/Subscribe, begi
 This post in the second in a series on implementing publish/subscribe with <span markdown="span">[Akka][2]</span> and <span markdown="span">[Scala][1]</span>. The first post, <span markdown="span">[Publish/Subscribe using Scala and Akka EventStream]({% post_url 2014-04-18-scala-and-the-akka-eventstream %})</span> covers some facets of Scala and Akka that'll be skipped over in this article, so it may be worth a look if things aren't clear.
 </p>
 <p>
-In <span markdown="span">[Akka][2]</span> based publish/subscribe systems, publishers post messages to an <span markdown="span">[event bus][3]</span>, and subscribers register subscriptions with that <span markdown="span">[event bus][3]</span>. The bus takes care of filtering messages and delivering of appropriate messages to all subscribers. Subscribers can register or deregister their subscriptions for any particular channel(s) at any time.
+In <span markdown="span">[Akka][2]</span> based publish/subscribe systems, publishers post messages to an <span markdown="span">[event bus][3]</span>, and subscribers register subscriptions with that <span markdown="span">[event bus][3]</span>. The bus takes care of filtering messages and delivering specific messages to those who have registered an interest in the channel that message is broadcast to. Subscribers can register or deregister their subscriptions for any particular channel(s) at any time.
 </p>
 <p>
 In this article we'll implement an event bus using lookup classifiers with subchannel classification.
