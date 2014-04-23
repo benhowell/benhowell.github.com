@@ -37,7 +37,7 @@ Just give me the code: [GitHub][4]
 
 ### Subchannel Classification
 The [Akka docs][3] describe subchannel classification as follows: 
-_If classifiers form a hierarchy and it is desired that subscription be possible not only at the leaf nodes, this classification may be just the right one._
+**_If classifiers form a hierarchy and it is desired that subscription be possible not only at the leaf nodes, this classification may be just the right one._**
 
 If you're familiar with [REST][5] then it's probably easiest explained this way: `/event/42` is a subchannel of `/event`, therefore any subscription to `/event/42` will only receive that event, whereas subscriptions to `/event` will receive all "events".
 <br/>
