@@ -18,7 +18,7 @@ Publish/Subscribe (aka: pub/sub) is a messaging pattern that helps decouple<span
 The publish/subscribe pattern can also be used within applications to provide scalability as an alternative to the more traditional Observable/Observer pattern as it offers some distinct advantages which I will address in a future article.
 </p>
 <p>
-In the next few articles we'll look at some alternative implementations using <span markdown="span">[Scala][1] and [Akka][2]</span>
+In the next few articles we'll look at some [alternative implementations]({% post_url 2014-04-23-scala-and-the-akka-event-bus %}) using <span markdown="span">[Scala][1] and [Akka][2]</span>, 
 </p>
 </div> 
 <div class="intro-img"><img class="article-image" src="{{ASSET_PATH}}/bootstrap/img/eventbus_250.jpg"/></div>
@@ -188,7 +188,7 @@ object Main {
 {% endhighlight %}
 
 That's all for now. 
-In an upcoming article, I will demonstrate the publish/subscribe pattern using the [Akka][2] [EventBus][11] and `LookupClassification`
+In an upcoming article, I will demonstrate the publish/subscribe pattern using the [Akka][2] [EventBus][11] and `LookupClassification`. Edit, the article in question is now up: [Publish/Subscribe using Scala and Akka EventBus]({% post_url 2014-04-23-scala-and-the-akka-event-bus %})
 <br/>
 <br/>
 <br/>
