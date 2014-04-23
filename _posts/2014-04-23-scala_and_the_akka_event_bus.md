@@ -37,7 +37,7 @@ Just give me the code: [GitHub][4]
 The [Akka docs][3] describe subchannel classification as follows: 
 **_If classifiers form a hierarchy and it is desired that subscription be possible not only at the leaf nodes, this classification may be just the right one._**
 
-If you're familiar with [REST][5] then it's probably easiest explained this way: `/event/42` is a subchannel of `/event`, therefore any subscription to `/event/42` will only receive that event, whereas subscriptions to `/event` will receive all "events". **Note:** I may be referring to events, payloads and/or messages throughout this article and they are to be treated as synonyms.
+It's probably easiest explained this way: `/event/42` is a subchannel of `/event`, therefore any subscription to `/event/42` will only receive that event, whereas subscriptions to `/event` will receive all "events". **Note:** I may be referring to events, payloads and/or messages throughout this article and they are to be treated as synonyms.
 <br/>
 <br/>
 
@@ -255,7 +255,6 @@ That's it for now. Bye.
 [2]:http://akka.io/
 [3]:http://doc.akka.io/docs/akka/snapshot/scala/event-bus.html
 [4]:https://github.com/benhowell/examples/tree/master/AkkaEventBus
-[5]:http://en.wikipedia.org/wiki/Representational_state_transfer
 [6]:http://doc.akka.io/api/akka/snapshot/index.html#akka.event.SubchannelClassification
 [7]:https://github.com/akka/akka/blob/master/akka-actor/src/main/scala/akka/event/EventBus.scala
 [8]:http://doc.akka.io/docs/akka/snapshot/scala/actors.html
