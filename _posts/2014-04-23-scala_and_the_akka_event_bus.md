@@ -15,7 +15,7 @@ tags : [akka, EventBus, scala, concurrent, asynchronous, Publish/Subscribe, begi
 This post in the second in a series on implementing publish/subscribe with <span markdown="span">[Akka][2]</span> and <span markdown="span">[Scala][1]</span>. The first post, <span markdown="span">[Publish/Subscribe using Scala and Akka EventStream]({% post_url 2014-04-18-scala-and-the-akka-eventstream %})</span> covers some facets of Scala and Akka that'll be skipped over in this article, so it may be worth a look if things aren't clear.
 </p>
 <p>
-In <span markdown="span">[Akka][2]</span> based publish/subscribe systems, publishers post messages to an <span markdown="span">[event bus][3]</span>, and subscribers register subscriptions with that <span markdown="span">[event bus][3]</span>. The bus takes care of filtering messages and delivering specific messages to those who have registered an interest in the channel that message is broadcast to. Subscribers can register or deregister their subscriptions for any particular channel(s) at any time.
+In <span markdown="span">[Akka][2]</span> based publish/subscribe systems, publishers post messages to an <span markdown="span">[event bus][3]</span>, and subscribers register subscriptions with that <span markdown="span">[event bus][3]</span>. The bus takes care of filtering messages and delivering specific messages to those who have registered an interest in the channel that message is published to. Subscribers can register or deregister their subscriptions for any particular channel(s) at any time.
 </p>
 <p>
 In this article we'll implement an event bus using lookup classifiers with subchannel classification.
@@ -143,7 +143,7 @@ object Actors {
 <br/>
 
 #### Please explain.
-On line 3 we define our `Subscription` actor who will be able to subscribe to and publish events on the event bus. `Subscription`. Subscription takes a function `f: (Any, Subscription, ActorRef)` as a parameter argument and retuns `Unit` (equivalent to Java void). Within our `Subscriber` we need to override the `receive` function from `Actor` to tell our subscription to execute the function passed in at contruction time when receiving a message matching `(payload: Any)`. 
+On line 3 we define our `Subscription` actor who will be able to subscribe to and publish events on the event bus. `Subscription` takes a function `f: (Any, Subscription, ActorRef)` as a parameter argument and retuns `Unit` (equivalent to Java void). Within our `Subscription` we need to override the `receive` function from `Actor` to tell our subscription to execute the function passed in at contruction time when receiving a message matching `(payload: Any)`. 
 
 
 Next, on line 9, we create an `ActorSystem` which is used to supervise top level actors. Only one of these can be built per application.
@@ -155,7 +155,7 @@ On line 11 we define a function to create our actors. The first parameter is the
 A final thing of note here is line 14. In scala, the return keyword is redundant as whatever is on the last line of the function is returned.
 
 
-Finally, on lines 18 and 22, we define our various receive functions that'll be used by subscribers (remember, we inject these into `Subscription` upon creation, which we will see an example of soon).
+Finally, on lines 18 and 22, we define our various receive functions that'll be used by subscribers (remember, we inject these into `Subscription` upon creation, which we will see an example of in `Main.scala`).
 
 
 Oh, you'll also notice value substitution in strings like so `s"$sender -> $receiver: $payload"`
