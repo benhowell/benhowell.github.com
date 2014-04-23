@@ -65,11 +65,9 @@ object SCEventBus extends EventBus with SubchannelClassification {
     subscriber.tell(event._2, event._3)
 }
 {% endhighlight %}
+<br/>
+<br/>
 
-
-{:title="The blockquote title"}
-asdasdasdasd
-asdasd
 
 
 #### Please explain.
@@ -98,9 +96,9 @@ override protected def publish(event: Event, subscriber: Subscriber): Unit =
     subscriber.tell(event._2, event._3)
 {% endhighlight %}
 
-`publish` takes an `Event` (our `(String, Any, ActorRef)` tuple and a `Subscriber` (our `ActorRef` who's subscribed to the channel the event is being published to). **Note:** _Magic_. The `Subscriber` parameter is supplied to the `publish` function in the background (meaning that you don't supply it in your call to `publish`), which will become apparent a bit later on in the article. Again, If you're intertested in the _magic_, take a look at the Akka EventBus code on [GitHub][7]. Therefore `publish` must be being called ( _magic_ ) for every subscriber listening to the channel the event is being published to.
+`publish` takes an `Event` (our `(String, Any, ActorRef)` tuple and a `Subscriber` (our `ActorRef` who's subscribed to the channel the event is being published to)[^3].
 
-Now, we simply send our event stuff to the subscriber using the `tell`[^1] function which means "fire and forget" sending a message asynchronously and returns immediately.[^2]
+Now, we simply send our event payload and sender (2nd and 3rd tuple parameter) to the subscriber using the `tell`[^1] function which enacts a "fire and forget" strategy of sending a message asynchronously and returning immediately[^2].
 
 The last thing to mention here is that our choice to use `tell` rather than `!` is a deliberate one[^1].
 <br/>
@@ -138,12 +136,23 @@ object Actors {
   }
 }
 {% endhighlight %}
-
+<br/>
+<br/>
 
 #### Please explain.
+On line 3 we define our `Subscription` actor who will be able to subscribe to and publish events on the event bus. `Subscription`. Subscription takes a function `f: (Any, Subscription, ActorRef)` as a parameter argument and retuns `Unit` (equivalent to Java void). Within our `Subscriber` we need to override the `receive` function from `Actor` to tell our subscription to execute the function passed in at contruction time when receiving a message matching `(payload: Any)`. 
+
+Next, on line 9, we create an `ActorSystem` which is used to supervise top level actors. Only one of these can be built per application.
+
+On line 11 we define a function to create our actors. The first parameter is the `Class[_]` parameter defining the class type that implements the actor we wish to construct. This particular function implementation is a generic function which has other potential uses outside this example which is why we have simply used the "place holder" `_` in our Class[] parameter as we don't wish to hardcode it into the function definition. In our case we will be passing the `Subscription` type, i.e. `ClassOf[Subscription]` to this function. The next parameter, `name` is simply the name of the actor/subscriber and `args` contains the arguments needed by the constructor that implements the actor we create (e.g. the construction arguments needed by `Subscription` - a function with the signature `f: (Any, Subscription, ActorRef)`. This function then goes about constructing the actor in the [usual way][8].
+
+A final thing of note here is line 14. In scala, the return keyword is redundant as whatever is on the last line of the function is returned.
+
+Finally, on lines 18 and 22, we define our various receive functions that'll be used by subscribers (remember, we inject these into `Subscription` upon creation, which we will see an example of soon).
 
 
 
+Now we'll create a simple logger to complement our demo.
 
 **Logger.scala**
 {% highlight scala linenos=table %}
@@ -164,12 +173,11 @@ object Logger {
   def stop(ps: PrintStream) = ps.close()
 }
 {% endhighlight %}
+<br/>
+<br/>
 
 
-#### Please explain.
-
-
-
+All that's left to do is write a test program to demonstrate our subchannel classification publish/subscribe system.
 
 **Main.scala**
 {% highlight scala linenos=table %}
@@ -190,7 +198,7 @@ object Main extends App{
 
   val itemSubscriber = Actors.create(
     classOf[Subscription], "itemSubscriber", Actors.onReceive(log))
-  
+
   // set up subscriptions
   SCEventBus.subscribe(rootSubscriber, "/")
   SCEventBus.subscribe(eventSubscriber, "/event")
@@ -213,31 +221,25 @@ object Main extends App{
 
 #### Please explain.
 
+Not much to tell here other than a few cursory notes.
 
+On line 7 you'll notice a call to `Logger.log(ps, _: String)`. We have passed a placeholder `_` as our second parameter to this function creating what's called a "partially applied function". This function basically takes the parameters we have supplied and returns a new function that only takes the parameters we have omitted. Now the `log` val contains a function that takes a `String` only. 
 
+Lines 20, 21, 22 are calls to publish that take a `(channel, payload, sender)` tuple as it's only parameter[^3]. 
+<br />
+<br />
 
-
-
-
-
-
-
-
-
-
-
-
+That's it for now.
 <br />
 <br />
 <br />
 
 #### Notes
 [^1]: You'll often see `tell` represented in an alternative form, namely `!`. e.g. `subscriber ! event.payload`. **Note:** _Magic_. Normally, when the information is available, the `!` call silently sends a second parameter containing the `ActorRef` of the `Actor` sending the event, along with the payload. e.g `subscriber ! event.payload` is the same as `subscriber.tell(event.payload, sender)`, **however**, [EventBus][3] does not preserve the sender of the published messages. For this reason we are explicitly wrapping our sender in our event and then using the explicit `tell` call. 
+
 [^2]: Another function call: `ask` (rather than tell) sends a message asynchronously and returns a Future representing a possible reply. Ask can also be represented as `?`. e.g. `subscriber ? event.payload`.
 
-
-
-
+[^3]: **Note:** _Magic_. The `Subscriber` parameter is supplied to the `publish` function in the background (meaning that you don't supply it in your call to `publish`), which will become apparent a bit later on in the article. Again, If you're intertested in the _magic_, take a look at the Akka EventBus code on [GitHub][7]. Therefore `publish` must be being called ( _magic_ ) for every subscriber listening to the channel the event is being published to.
 
 
 [1]:http://www.scala-lang.org/
@@ -247,69 +249,4 @@ object Main extends App{
 [5]:http://en.wikipedia.org/wiki/Representational_state_transfer
 [6]:http://doc.akka.io/api/akka/snapshot/index.html#akka.event.SubchannelClassification
 [7]:https://github.com/akka/akka/blob/master/akka-actor/src/main/scala/akka/event/EventBus.scala
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-In an upcoming article, I will demonstrate the publish/subscribe pattern using the Akka EventBus andLookupClassification
-
-
-http://www.razko.nl/blog/2013/10/10/using-akka-event-bus/
-Subchannel classification
-
-The subchannel specification is a EventBus which supports a hierachy of channels or classifiers. This first example focuses on a simple string based approach which allows to listen to a top level channel and their leafs.
-
-The example below shows subcribers and publishers which become increasingly more specific, and that previous subscribers which are higher up the hierachy will catch the upcoming more specific publishers.
-
-Downfalls
-
-The sender is not preserved when receiving a message which passed through a EventBus, to solve this you need to pass the ActorRef manually
-
-
-
-
-
-Pub Sub is more simple to manage in many ways – something publishes, something subscribes, and that’s all there is to it. However, it breaks the idea of encapsulation really thoroughly. Event Emitter on the other hand has a higher barrier to entry – you have to “know” about the thing you want to listen to events on, but it does keep things much more contained with known boundaries.
-
-The question then is, what are you building? If you’re sticking very strictly to something like Nikolas Zakas’ sandboxed model (which seems to be a very nice fit for the Yahoo homepage, but not every kind of web page) then you can stick to Event Emitter and you don’t need to worry about much else. If you’re building a complex, rich, interconnected UI you’re almost certainly going to get some benefit from using Pub Sub.
-
-I would also suggest that a lot of things that happen “globally” could be done very nicely with Pub Sub. Take logging for example – whether you’re using console.log or other global logging method, it might make much more sense to publish on a logging topic – and allow anything that wants to subscribe to it, whether that’s a user notification system, or for debugging, or whatever. Another example might be network activity – by publishing individual network events globally, it becomes much easier to manage user notification (for example with a single compound spinner / loading bar).
-
-
-
-
-
-/*
-  http://doc.akka.io/docs/akka/snapshot/scala/actors.html#Send%20messages
-
-  Messages are sent to an Actor through one of the following methods.
-
-! means “fire-and-forget”, e.g. send a message asynchronously and return immediately. Also known as tell.
-? sends a message asynchronously and returns a Future representing a possible reply. Also known as ask.
-
-
-Tell: Fire-forget
-This is the preferred way of sending messages. No blocking waiting for a message. This gives the best concurrency and scalability characteristics.
-
-actorRef ! message
-If invoked from within an Actor, then the sending actor reference will be implicitly passed along with the message and available to the receiving Actor in its sender(): ActorRef member method. The target actor can use this to reply to the original sender, by using sender() ! replyMsg.
-
-If invoked from an instance that is not an Actor the sender will be deadLetters actor reference by default.
-
-   */
+[8]:http://doc.akka.io/docs/akka/snapshot/scala/actors.html
