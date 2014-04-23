@@ -70,6 +70,15 @@ task :post do
     post.puts "tags: #{tags}"
     post.puts "---"
     post.puts "{% include JB/setup %}"
+    
+    post.puts '<div class="intro">'
+    post.puts '  <div class="intro-txt">'
+    post.puts '    ???????????????????????'
+    post.puts '  </div>' 
+    post.puts '  <div class="intro-img">'
+    post.puts '    <img class="article-image" src="{{ASSET_PATH}}/bootstrap/img/qn.jpg"/>'
+    post.puts '  </div>'
+    post.puts '</div>'
   end
 end # task :post
 
