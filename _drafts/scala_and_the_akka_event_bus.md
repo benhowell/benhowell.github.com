@@ -141,20 +141,25 @@ object Actors {
 }
 {% endhighlight %}
 <br/>
-<br/>
 
 #### Please explain.
 On line 3 we define our `Subscription` actor who will be able to subscribe to and publish events on the event bus. `Subscription`. Subscription takes a function `f: (Any, Subscription, ActorRef)` as a parameter argument and retuns `Unit` (equivalent to Java void). Within our `Subscriber` we need to override the `receive` function from `Actor` to tell our subscription to execute the function passed in at contruction time when receiving a message matching `(payload: Any)`. 
 
+
 Next, on line 9, we create an `ActorSystem` which is used to supervise top level actors. Only one of these can be built per application.
+
 
 On line 11 we define a function to create our actors. The first parameter is the `Class[_]` parameter defining the class type that implements the actor we wish to construct. This particular function implementation is a generic function which has other potential uses outside this example which is why we have simply used the "place holder" `_` in our Class[] parameter as we don't wish to hardcode it into the function definition. In our case we will be passing the `Subscription` type, i.e. `ClassOf[Subscription]` to this function. The next parameter, `name` is simply the name of the actor/subscriber and `args` contains the arguments needed by the constructor that implements the actor we create (e.g. the construction arguments needed by `Subscription` - a function with the signature `f: (Any, Subscription, ActorRef)`. This function then goes about constructing the actor in the [usual way][8].
 
+
 A final thing of note here is line 14. In scala, the return keyword is redundant as whatever is on the last line of the function is returned.
+
 
 Finally, on lines 18 and 22, we define our various receive functions that'll be used by subscribers (remember, we inject these into `Subscription` upon creation, which we will see an example of soon).
 
 
+Oh, you'll also notice value substitution in strings like so `s"$sender -> $receiver: $payload"`
+<br/>
 
 Now we'll create a simple logger to complement our demo.
 
