@@ -160,6 +160,7 @@ Finally, on lines 18 and 22, we define our various receive functions that'll be 
 
 Oh, you'll also notice value substitution in strings like so `s"$sender -> $receiver: $payload"`
 <br/>
+<br/>
 
 Now we'll create a simple logger to complement our demo.
 
@@ -229,7 +230,6 @@ object Main extends App{
 
 
 #### Please explain.
-
 Not much to tell here other than a few cursory notes.
 
 On line 7 you'll notice a call to `Logger.log(ps, _: String)`. We have passed a placeholder `_` as our second parameter to this function creating what's called a "partially applied function". This function basically takes the parameters we have supplied and returns a new function that only takes the parameters we have omitted. Now the `log` val contains a function that takes a `String` only. 
@@ -238,7 +238,7 @@ Lines 20, 21, 22 are calls to publish that take a `(channel, payload, sender)` t
 <br />
 <br />
 
-That's it for now.
+That's it for now. Bye.
 <br />
 <br />
 <br />
