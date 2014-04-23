@@ -46,7 +46,7 @@ If you're familiar with [REST][5] then it's probably easiest explained this way:
 Enough of that. Let's build our subchannel classification event bus using [Akka][2] [EventBus][3].
 
 **SCEventBus.scala**
-{% highlight scala linenos %}
+{% highlight scala linenos=table %}
 import akka.util.Subclassification
 import akka.actor.ActorRef
 import akka.event.{EventBus, SubchannelClassification}
