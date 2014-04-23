@@ -67,19 +67,24 @@ object SCEventBus extends EventBus with SubchannelClassification {
 {% endhighlight %}
 
 
+{:title="The blockquote title"}
+
+
+
 
 #### Please explain.
-Here we've created our Subchannel classifying event bus by mixing in the [EventBus][3] traits and the [SubchannelClassification][6] trait. Next (lines 6, 7, 8) we must define the abstract types: 
-*	`Event` is the type of all events published on that bus
-*	`Subscriber` is the type of subscribers allowed to register on that event bus
-*	`Classifier` defines the classifier to be used in selecting subscribers for dispatching events
+Here we've created our Subchannel classifying event bus by mixing in the [EventBus][3] traits and the [SubchannelClassification][6] trait. Next (lines 6, 7, 8) we must define the abstract types:
+
+ * `Event` is the type of all events published on that bus
+ * `Subscriber` is the type of subscribers allowed to register on that event bus
+ * `Classifier` defines the classifier to be used in selecting subscribers for dispatching events
 
 There's a lot of _magic_ going on in the background which requires this type aliasing. If you're intertested in what's happening behind the scenes, take a look at the Akka EventBus code on [GitHub][7].
 
 On line 6 we are defining our event, which in this case is a tuple with three items consisting of:
-* `String` representing the channel the event is to be published to (e.g. `/event/42`)
-* `Any` representing the actual payload to be published
-* `ActorRef` representing the sender of the event (EventBus does not preserve the publisher of events)
+ * `String` representing the channel the event is to be published to (e.g. `/event/42`)
+ * `Any` representing the actual payload to be published
+ * `ActorRef` representing the sender of the event (EventBus does not preserve the publisher of events)
 
 On line 10 we're simply defining how our messages will be classified, and in this case, we're supplying the first item of the event tuple `event._1`, which as explained above is our channel parameter.
 
