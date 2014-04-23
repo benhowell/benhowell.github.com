@@ -38,7 +38,7 @@ Let's build our first example using the [Akka][2] main event bus: [EventStream][
 <br />
 
 **EventStream.scala**
-{% highlight scala %}
+{% highlight scala linenos=table %}
 import akka.actor.{Actor, Props, ActorSystem}
 
 sealed class Subscriber(f: (String, Any) => Unit) extends Actor {
@@ -70,7 +70,7 @@ Congratulations, you have now created your entire publish/subscribe infrastructu
 #### Please explain.
 First we create our `Subscriber` who will listen for messages on the event stream bus. This [Actor][5] will act on any messages matching the class `(String, Any)`, which is simply a tuple of `String` and `Any`[^3], however you can create any class of message you desire[^4]. Within our `Subscriber` we need to override the `receive` function from `Actor` to tell our subscriber what to do when receiving a message matching the `(String, Any)` class. Upon construction of our subscriber we pass in the function `f: (String, Any) => Option[Unit]` which will be executed by the receive function each time a new message is received. The `sealed` keyword means that this class can only be referred to within the file it is declared in, in this case, only EventStream.scala. One last thing worth mentioning here is that in the [Scala][1] language, `object` declares a singleton. 
 
-{% highlight scala %}
+{% highlight scala linenos=table %}
 sealed class Subscriber(f: (String, Any) => Unit) extends Actor {
   override def receive = { case (topic: String, payload: Any) => f(topic, payload) }
 }
@@ -80,7 +80,7 @@ sealed class Subscriber(f: (String, Any) => Unit) extends Actor {
 Next, we create an `ActorSystem` which is used to supervise top level actors. As the comments suggest, only one of these can be built per application.
 <br/>
 
-{% highlight scala %}
+{% highlight scala linenos=table %}
 // ActorSystem is a heavy object: create only one per application
 // http://doc.example.io/docs/example/snapshot/scala/actors.html
 val system = ActorSystem("actorsystem")
@@ -89,13 +89,13 @@ val system = ActorSystem("actorsystem")
 
 Now we define our subscribe function which takes a function `f: (String, Any) => Option[Unit]` and a `name` to represent the entity creating the subscription. Create our `props` [Props][6] object which is merely a configuration class for the creation of Actors. Our `props` constructor takes the `Subscriber` type class we defined earlier, plus the function argument `f` which we in turn use to create our subscriber. Finally, we register this subscriber with the `system.eventStream` and start listening for messages. 
 
-{% highlight scala %}
+{% highlight scala linenos=table %}
 def subscribe(f: (String, Any) => Option[Unit], name: String) = {
   val props = Props(classOf[Subscriber], f)
   val subscriber = system.actorOf(props, name = name)
   system.eventStream.subscribe(subscriber, classOf[(String, Any)])
 }
-{% endhighlight %}
+{% endhighlight linenos=table %}
 
 Our work here is done.
 <br/>
@@ -104,7 +104,7 @@ Our work here is done.
 Now to demo the system, we'll create a couple of simple subscribers.
 
 **Foo.scala**
-{% highlight scala %}
+{% highlight scala linenos=table %}
 object Foo {
   val onEvent = (topic: String, payload: Any) => Some(topic) collect {
     case "topic A" => println("Foo received: topic = " + topic + ", payload = " + payload)
@@ -114,7 +114,7 @@ object Foo {
 <br/>
 
 **Bar.scala**
-{% highlight scala %}
+{% highlight scala linenos=table %}
 object Bar {
   val onEvent = (topic: String, payload: Any) => Some(topic) collect {
     case "topic B" =>
@@ -133,7 +133,7 @@ In Foo.scala and Bar.scala above, we've declared the function `(topic: String, p
 Lastly, we'll finish off with a subscriber that requires extra parameters for its `onEvent` function.
 
 **Logger.scala**
-{% highlight scala %}
+{% highlight scala linenos=table %}
 import java.io._
 
 object Logger {
@@ -159,7 +159,7 @@ To do this, we will define a function that takes the extra parameter(s), in this
 
 All that's left to do is write a test program to demonstrate our publish/subscribe system.
 
-{% highlight scala %}
+{% highlight scala linenos=table %}
 import java.io.{File, FileOutputStream, PrintStream}
 
 object Main {
