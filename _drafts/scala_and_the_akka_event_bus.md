@@ -66,9 +66,6 @@ object SCEventBus extends EventBus with SubchannelClassification {
 }
 {% endhighlight %}
 <br/>
-<br/>
-
-
 
 #### Please explain.
 Here we've created our Subchannel classifying event bus by mixing in the [EventBus][3] traits and the [SubchannelClassification][6] trait. Next (lines 6, 7, 8) we must define the abstract types:
