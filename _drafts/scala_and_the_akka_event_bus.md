@@ -27,7 +27,6 @@ In this article we'll implement an event bus using lookup classifiers with subch
 <br/>
 <br/>
 
-
 #### TL;DR
 Just give me the code: [GitHub][4]
 <br/>
