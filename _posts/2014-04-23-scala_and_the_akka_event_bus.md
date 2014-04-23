@@ -75,7 +75,7 @@ Here we've created our Subchannel classifying event bus by mixing in the [EventB
  * `Classifier` defines the classifier to be used in selecting subscribers for dispatching events
 
  
-There's a lot of _magic_ going on in the background which requires this type aliasing. If you're intertested in what's happening behind the scenes, take a look at the Akka EventBus code on [GitHub][7].
+There's a lot of stuff going on in the background which requires this type aliasing. If you're intertested in what's happening behind the scenes, take a look at the Akka EventBus code on [GitHub][7].
 
 
 On line 6 we are defining our event, which in this case is a tuple with three items consisting of:
@@ -244,11 +244,11 @@ That's it for now. Bye.
 <br />
 
 #### Notes
-[^1]: You'll often see `tell` represented in an alternative form, namely `!`. e.g. `subscriber ! event.payload`. **Note:** _Magic_. Normally, when the information is available, the `!` call silently sends a second parameter containing the `ActorRef` of the `Actor` sending the event, along with the payload. e.g `subscriber ! event.payload` is the same as `subscriber.tell(event.payload, sender)`, **however**, [EventBus][3] does not preserve the sender of the published messages. For this reason we are explicitly wrapping our sender in our event and then using the explicit `tell` call. 
+[^1]: You'll often see `tell` represented in an alternative form, namely `!`. e.g. `subscriber ! event.payload`. **Note:** Normally, when the information is available, the `!` call silently sends a second parameter containing the `ActorRef` of the `Actor` sending the event, along with the payload. e.g `subscriber ! event.payload` is the same as `subscriber.tell(event.payload, sender)`, **however**, [EventBus][3] does not preserve the sender of the published messages. For this reason we are explicitly wrapping our sender in our event and then using the explicit `tell` call. **Note++:** If no information is available, or an event is sent from something other than an actor, the `!` call will report the sender as `DeadLetter`.
 
 [^2]: Another function call: `ask` (rather than tell) sends a message asynchronously and returns a Future representing a possible reply. Ask can also be represented as `?`. e.g. `subscriber ? event.payload`.
 
-[^3]: **Note:** _Magic_. The `Subscriber` parameter is supplied to the `publish` function in the background (meaning that you don't supply it in your call to `publish`), which will become apparent a bit later on in the article. Again, If you're intertested in the _magic_, take a look at the Akka EventBus code on [GitHub][7]. Therefore `publish` must be being called ( _magic_ ) for every subscriber listening to the channel the event is being published to.
+[^3]: **Note:** The `Subscriber` parameter is supplied to the `publish` function in the background (meaning that you don't supply it in your call to `publish`), which will become apparent a bit later on in the article. Again, If you're intertested in what's happening, take a look at the Akka EventBus code on [GitHub][7].
 
 
 [1]:http://www.scala-lang.org/
