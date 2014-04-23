@@ -75,6 +75,117 @@ object SCEventBus extends EventBus with SubchannelClassification {
 
 
 
+**Actors.scala**
+{% highlight scala linenos=table %}
+import akka.actor.{Actor, ActorRef, Props, ActorSystem}
+
+sealed class Subscription(f: (Any, Subscription, ActorRef) => Unit) extends Actor {
+  override def receive = { case (payload: Any) => f(payload, this, sender) }
+}
+
+object Actors {
+
+  val system = ActorSystem()
+
+  def create(actorType: Class[_], name: String, args: AnyRef): ActorRef = {
+    val props = Props(actorType, args)
+    val actor = system.actorOf(props, name = name)
+    actor
+  }
+
+  // receive handlers
+  def onReceive = (payload: Any, receiver: Any, sender: ActorRef) => {
+    println(s"$sender -> $receiver: $payload")
+  }
+
+  def onReceive(log: (String) => Unit) =
+    (payload: Any, receiver: Any, sender: ActorRef) => {
+      log(s"$sender -> $receiver: $payload")
+      println(s"$sender -> $receiver: $payload")
+  }
+}
+{% endhighlight %}
+
+
+#### Please explain.
+
+
+
+
+**Logger.scala**
+{% highlight scala linenos=table %}
+import java.io.{PrintStream, IOException}
+
+object Logger {
+
+  val log = (ps: PrintStream, msg: String) => {
+    try {
+      ps.println(msg)
+    }
+    catch {
+      case ioe: IOException => println("IOException: " + ioe.toString)
+      case e: IOException => println("Exception: " + e.toString)
+    }
+  }
+
+  def stop(ps: PrintStream) = ps.close()
+}
+{% endhighlight %}
+
+
+#### Please explain.
+
+
+
+
+**Main.scala**
+{% highlight scala linenos=table %}
+import java.io.{File, FileOutputStream, PrintStream}
+
+object Main extends App{
+
+  // set up logger
+  val ps = new PrintStream(new FileOutputStream(new File("output.txt")))
+  val log = Logger.log(ps, _: String)
+
+  // create subscribers
+  val rootSubscriber = Actors.create(
+    classOf[Subscription], "rootSubscriber", Actors.onReceive)
+
+  val eventSubscriber = Actors.create(
+    classOf[Subscription], "eventSubscriber", Actors.onReceive)
+
+  val itemSubscriber = Actors.create(
+    classOf[Subscription], "itemSubscriber", Actors.onReceive(log))
+  
+  // set up subscriptions
+  SCEventBus.subscribe(rootSubscriber, "/")
+  SCEventBus.subscribe(eventSubscriber, "/event")
+  SCEventBus.subscribe(itemSubscriber, "/event/42")
+
+  // create event publisher
+  val eventPublisher = Actors.create(
+    classOf[Subscription], "eventPublisher", Actors.onReceive)
+
+  // generate some events
+  SCEventBus.publish(("/", "payload A", eventPublisher))
+  SCEventBus.publish(("/event", "payload B", eventPublisher))
+  SCEventBus.publish(("/event/42", "payload C", eventPublisher))
+
+  // clean up
+  Logger.stop(ps)
+}
+{% endhighlight %}
+
+
+#### Please explain.
+
+
+
+
+
+
+
 
 
 
