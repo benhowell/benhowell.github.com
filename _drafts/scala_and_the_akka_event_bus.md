@@ -21,7 +21,7 @@ Publish/Subscribe (aka: pub/sub) is a messaging pattern that helps decouple<span
 In this article we'll implement a lookup classification system with subchannel classification.
 </p>
 </div> 
-<div class="intro-img"><img class="article-image" src="{{ASSET_PATH}}/bootstrap/img/eventbus_250.jpg"/></div>
+<div class="intro-img"><img class="article-image" src="{{ASSET_PATH}}/bootstrap/img/eventbus_subchannel_250.jpg"/></div>
 </div>
 <br/>
 <br/>
