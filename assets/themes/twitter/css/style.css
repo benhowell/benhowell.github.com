@@ -117,6 +117,10 @@ img.brand-image {
   text-align: center;
 }
 
+.gplus {
+  padding-left: 5px;
+}
+
 .hn {
   width: 30px;
   padding: 4px 4px 6px;
@@ -125,17 +129,6 @@ img.brand-image {
 .reddit {
   padding-left: 3px;
 }
-/*.mini-social {
-  border-bottom: 1px dotted #ccc;
-  border-top: 1px dotted #ccc;
-  float: left;
-  margin: 0;
-  width: 800px;
-}*/
-
-
-
-
 
   
 .social-header {
