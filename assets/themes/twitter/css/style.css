@@ -108,13 +108,13 @@ img.brand-image {
 .mini-social-header {
   padding: 0 5px;
   float: left;
-  width: 140px;
-  font-weight: 500;
+  width: 120px;
+  font-weight: 600;
 }
 
 .mini-social-section {
   float: left;
-  width: 100px;
+  width: 80px;
   height:23px;
   padding: 5px 5px 5px;
   text-align: center;
