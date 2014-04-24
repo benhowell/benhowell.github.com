@@ -1,9 +1,9 @@
 ---
 layout: post
-category : software management
+category : people
 title: Is the Open Plan Office Really Worth it?
-tagline: "software management"
-tags : [software management, open plan, introvert]
+tagline: "people"
+tags : [people, open plan, introvert]
 ---
 {% include JB/setup %}
 
