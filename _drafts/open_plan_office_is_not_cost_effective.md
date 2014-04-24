@@ -1,13 +1,28 @@
 ---
 layout: post
 category : software management
-title: The Open Plan Office is Not Cost Effective
+title: Is the open plan office detrimental to your business?
 tagline: "software management"
 tags : [software management, open plan, introvert]
 ---
 {% include JB/setup %}
 
-
+<div class="intro">
+<div class="intro-txt">
+<p>
+???
+</p>
+<p>
+???
+</p>
+<p>
+???
+</p>
+</div> 
+<div class="intro-img"><img class="article-image" src="{{ASSET_PATH}}/bootstrap/img/open_office_250.jpg"/></div>
+</div>
+<br/>
+<br/>
 
 ## Background noise, talking, stuff, etc.
 
