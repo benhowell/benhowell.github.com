@@ -103,6 +103,31 @@ img.brand-image {
   text-decoration: none;
   
 }
+
+
+.mini-social-header {
+  padding: 0 5px;
+}
+
+.mini-social-section {
+  border-right: 1px dotted #ccc;
+  float: left;
+  width: 60px;
+  height:23px;
+  padding: 5px 10px 3px;
+  text-align: center;
+}
+
+/*.mini-social {
+  border-bottom: 1px dotted #ccc;
+  border-top: 1px dotted #ccc;
+  float: left;
+  margin: 0;
+  width: 800px;
+}*/
+
+
+
   
 .social-header {
   padding: 0 20px;
