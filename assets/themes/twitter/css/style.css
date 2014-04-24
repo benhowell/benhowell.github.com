@@ -124,6 +124,10 @@ img.brand-image {
   width: 30px;
   padding: 4px 4px 6px;
 }
+
+.reddit {
+  padding-left: 4px;
+}
 /*.mini-social {
   border-bottom: 1px dotted #ccc;
   border-top: 1px dotted #ccc;
