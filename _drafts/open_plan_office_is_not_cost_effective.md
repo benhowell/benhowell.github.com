@@ -1,7 +1,7 @@
 ---
 layout: post
 category : software management
-title: Is the open plan office really worth it?
+title: Is the Open Plan Office Really Worth it?
 tagline: "software management"
 tags : [software management, open plan, introvert]
 ---
