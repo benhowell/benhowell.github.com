@@ -109,13 +109,14 @@ img.brand-image {
   padding: 0 5px;
   float: left;
   width: 140px;
+  font-weight: 500;
 }
 
 .mini-social-section {
   float: left;
-  width: 140px;
+  width: 100px;
   height:23px;
-  padding: 5px 10px 3px;
+  padding: 5px 5px 5px;
   text-align: center;
 }
 
@@ -127,23 +128,7 @@ img.brand-image {
   width: 800px;
 }*/
 
-.mini-social-box {
-/*   background: white; */
-  border: 1px solid #B3B3B3;
-  border-radius: 4px;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  box-shadow: 0 0 3px rgba(0,0,0,.1);
-  -moz-box-shadow: 0 0 3px rgba(0,0,0,.1);
-  -webkit-box-shadow: 0 0 3px rgba(0,0,0,.1);
-  color: #333;
-  margin: 10px 0 0;
-  overflow: hidden;
-  padding: 5px 0;
-  position: relative;
-  text-decoration: none;
-  
-}
+
 
 
 
