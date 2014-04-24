@@ -107,6 +107,8 @@ img.brand-image {
 
 .mini-social-header {
   padding: 0 5px;
+  float: left;
+  width: 100px;
 }
 
 .mini-social-section {
