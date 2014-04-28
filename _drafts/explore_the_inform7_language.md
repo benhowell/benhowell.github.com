@@ -7,3 +7,14 @@ tags : [Inform7, explore, language, DSL, interactive fiction]
 ---
 {% include JB/setup %}
 
+
+
+how about DSL: Interactive Fiction.
+
+twine
+inform7
+tads
+quest
+hugo
+inklewriter
+choicescript
