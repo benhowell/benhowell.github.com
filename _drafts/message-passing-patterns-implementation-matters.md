@@ -1,15 +1,32 @@
 ---
 layout: post
-category : design
-title: Message passing patterns. Implementation matters.
+title: "Message passing patterns. Implementation matters"
+description: "hello"
 tagline: "design"
+category: design
 tags : [concurrent, asynchronous, pattern, design]
 ---
 {% include JB/setup %}
+<div class="intro">
+  <div class="intro-txt">
+  <span markdown="span">
+  [Message passing][1] is such a fundamental exercise in our daily programming lives that we barely give it a second thought. That is, until we have to. Issues such as scalability, concurrency and asynchonicity, amongst others, eventually force us to look for alternatives to the regular `x.call(y)` way of doing things. Indeed some languages actually force us to do so (which I may or may not cover in an upcoming article... ;-) ). In this article, we'll take a look at some alternative message passing strategies and outline the pro's and con's of each.
+  </span>
+  </div>
+  <div class="intro-img">
+    <img class="article-image" src="{{ASSET_PATH}}/bootstrap/img/qn.png"/>
+  </div>
+</div>
+
+
+
+
+
+
 
 
 ## Fundamentals at an atomic level.
-[Message passing][1] is such a fundamental exercise in our daily programming lives that we barely give it a second thought. That is, until we have to. Issues such as scalability, concurrency and asynchonicity, to name just a few, eventually force us to look for alternatives to the regular `A.call(B)` way of doing things. Indeed some languages actually force us to do so (which I may or may not cover in an upcoming article... ;-) ). In this article, we'll take a look at some alternative message passing strategies and outline the pro's and con's of each.
+
 
 
 
