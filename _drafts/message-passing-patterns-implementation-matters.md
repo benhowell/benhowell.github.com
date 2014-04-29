@@ -10,12 +10,15 @@ tags : [concurrent, asynchronous, pattern, design]
 <div class="intro">
   <div class="intro-txt">
   <p>
-  <span markdown="span">[Message passing][1]</span> is such a fundamental exercise in our daily programming lives that we barely give it a second thought. That is, until we have to. Issues such as scalability, concurrency and asynchonicity, amongst others, eventually force us to look for alternatives to the regular <span markdown="span">`x.call(y)`</span> way of doing things. Indeed some languages actually force us to do so (which I may or may not cover in an upcoming article... ;-) ). 
+  Function/method/subroutine invocation is such a fundamental exercise in our daily programming lives that we barely give it a second thought. That is, until we have to. Issues such as scalability, concurrency and asynchonicity, amongst others, sometimes force us to look for alternatives to the regular <span markdown="span">`x.call(y)`</span> way of doing things. Indeed some languages actually force us to do so. 
   </p>
   <p>
-  In this article, we'll take a look at some alternative message passing strategies and outline the pro's and con's of each.
+  In this article, we'll take a look at some alternative invocation strategies and outline the pro's and con's of each. I will be using the term "invocation" rather loosely and both reactive and responsive methods of executing code are encompassed. I will also only refer to functions from this point on but the same tenets hold true for methods and subroutines[^1].
   </p>
 
+  
+  
+  
   </div>
   <div class="intro-img-border">
   <div class="intro-img-bevel">
@@ -31,18 +34,40 @@ tags : [concurrent, asynchronous, pattern, design]
 
 
 
+### Invocation
+/ˌɪnvə(ʊ)ˈkeɪʃ(ə)n/
+noun
+_The action of invoking someone or something._
+or
+_To activate. One usually speaks of invoking a function or routine in a program. In this sense, the term invoke is synonymous with call._
+
+
 
 
 ### Fundamentals at an atomic level.
-Well, almost atomic. Message passing forms the bridges between our otherwise disparate software components (provided we're [separating our concerns][2]).
+Well, almost atomic. 
+
+
+
+Invocation forms the bridges between our otherwise disparate program modules (provided we're [separating our concerns][2]) allowing us to compose solutions in software.
+
+
+
+Functions are invoked as functions or as methods with an invocation expression (Invocation Expressions). An invocation expression consists of a function expression that evaluates to a function object followed by an open parenthesis, a comma-separated list of zero or more argument expressions, and a close parenthesis. If the function expression is a property-access expression—if the function is the property of an object or an element of an array—then it is a method invocation expression. That case will be explained below. The following code includes a number of regular function invocation expressions:
 
 
 
 
 
 
+
+
+
+
+[message passing][1]
 [1]:http://en.wikipedia.org/wiki/Message_passing
 [2]:http://en.wikipedia.org/wiki/Separation_of_concerns
+
 
 
 
@@ -154,7 +179,8 @@ Here is a simple example of the code needed to announce the change:
 
 
 
-
+#### Notes
+[^1]: Functions are routines for which all needed data is passed explicitly as parameters upon invocation. Methods are merely functions that reside within objects, and are able to operate on data within those objects without the need for that data to be passed explicitly upon invocation. 
 
 
 
