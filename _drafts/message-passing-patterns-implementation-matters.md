@@ -65,7 +65,7 @@ Cons:
 <br/>
 <br/>
  
-#### Observer Pattern and Observable
+#### Observer Pattern and Observables
 The [Observer pattern][3] is similar to the "Plain Old Function Call" above, in that it is also a synchronous call and whilst allowing for separation of concerns, still suffers the same cons. Generally, in observer/observable implmentations, `observer`s register their interest (using a callback function) with certain events executed on the `observable`. The `observable` maintains this list of `observer`s callbacks and each time an event occurs, the `observable` iterates over its list and calls each callback function in sequence.
 
 Pros:
@@ -106,8 +106,10 @@ Rich Hickey explains it beautifully:
 _If you're architecting a system where this thing deals with the input and then this thing has to do the next part of the job, well if thing "A" calls thing "B", you've just complected it. Now you have a when and where thing because now "A" needs to know where "B" is in order to call "B" and when that happens is whenever "A" does it. Stick a queue in there. Queues are the way to just get rid of this problem. If you're not using queues extensively then you should start, right away, like right after this talk._
 -- <cite>[Rich Hickey - Simple Made Easy][4]</cite>
 
+...which brings to our asynchronous messaging patterns...
 
-
+<br/>
+<br/>
 
 
 
