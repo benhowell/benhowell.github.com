@@ -58,14 +58,9 @@ Cons:
 
  * cannot execute tasks concurrently
  
- * is no good for loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in execution speed due to an increase in observers (e.g. when the execution time spent collectively calling the observers callbacks exceeds the loop time interval).
+ * is no good for loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions
  
- * observers must be persistant for the life time of the observable or be handled by the observable (e.g. if for any reason the observer dies, or stops executing or whatever, the observable needs to explicitly handle the exception)
- 
- * control flow is harder to understand due to an iversion of control flow.
- 
- * much more boilerplate is required such as events, event listener interfaces (containing the observables callback handlers) and the event trigger functionality to iterate over and call all the callbacks.
- 
+
  
  
  
@@ -84,9 +79,15 @@ Pros:
  
 Cons:
 
- * tasks that need to run concurrently
+ * cannot execute tasks concurrently
  
- * loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown
+ * is no good for loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in execution speed due to an increase in observers (e.g. when the execution time spent collectively calling the observers callbacks exceeds the loop time interval).
+ 
+ * observers must be persistant for the life time of the observable or be handled by the observable (e.g. if for any reason the observer dies, or stops executing or whatever, the observable needs to explicitly handle the exception)
+ 
+ * control flow is harder to understand due to an iversion of control flow.
+ 
+ * much more boilerplate is required such as events, event listener interfaces (containing the observables callback handlers) and the event trigger functionality to iterate over and call all the callbacks.
 <br/>
 <br/>
 
