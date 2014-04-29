@@ -29,8 +29,8 @@ tags : [concurrent, asynchronous, pattern, design]
 
 
 
-## Fundamentals at an atomic level.
-
+### Fundamentals at an atomic level.
+Well, almost atomic. Message passing forms the bridges between our otherwise disparate software components(provided we're [separating our concerns][2]).
 
 
 
@@ -38,6 +38,7 @@ tags : [concurrent, asynchronous, pattern, design]
 
 
 [1]:http://en.wikipedia.org/wiki/Message_passing
+[2]:http://en.wikipedia.org/wiki/Separation_of_concerns
 
 
 
@@ -144,3 +145,18 @@ Each of the applications acting as an Observer (e.g., a dependent) creates a Top
 This establishes a connection between the subject and the observers through the channel. Now, whenever the subject has a change to announce, it does so by sending a message. The channel will ensure that each of the observers receives a copy of this message.
 
 Here is a simple example of the code needed to announce the change:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
