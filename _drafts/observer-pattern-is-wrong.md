@@ -1,17 +1,39 @@
 ---
 layout: post
 category : design
-title: Observer pattern. In most cases. wrong.
+title: Message passing patterns. Implementation matters.
 tagline: "design"
-tags : [akka, EventSystem, scala, concurrent, asynchronous]
+tags : [concurrent, asynchronous, pattern, design]
 ---
 {% include JB/setup %}
 
 
+## Fundamentals at an atomic level.
+[Message passing][1] is such a fundamental exercise in our daily programming lives that we barely give it a second thought. That is, until we have to. Issues such as scalability, concurrency and asynchonicity, to name just a few, eventually force us to look for alternatives to the regular `A.call(B)` way of doing things. Indeed some languages actually force us to do so (which I may or may not cover in an upcoming article... ;-) ). In this article, we'll take a look at some alternative message passing strategies and outline the pro's and con's of each.
+
+
+
+
+
+
+[1]:http://en.wikipedia.org/wiki/Message_passing
+
+
+
+
+
+
+
+
+
+
+http://www.marco.panizza.name/dispenseTM/slides/exerc/eventNotifier/eventNotifier.html
 
 
 
 ## Observer pattern. In most cases: wrong.
+
+
 - The thing being observed should not need to know about who is observing it.
 - If you want to replace the thing being observed, your code is tighty bound to that specific implementation that you need to rewrite it for the new implementation.
 - The larger the number of observers for thing "A", the larger the performance bottleneck becomes at thing "A" because thing "A" must now, sequentially notify each observer individually of each event they've registered to observe. Imagine if television worked this way, that is, for every show, they must individually stream that show to each person individually, in sequence. 
@@ -46,6 +68,24 @@ http://www.dalnefre.com/wp/2011/05/actors-make-better-observers/
 
 The publish/subscribe pattern can also be used within applications to provide scalability as an alternative to the more traditional Observable/Observer pattern as it offers some distinct advantages which I will address in a future article.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The observer pattern is a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods. It is mainly used to implement distributed event handling systems. The Observer pattern is also a key part in the familiar model–view–controller (MVC) architectural pattern.[1] In fact the observer pattern was first implemented in Smalltalk's MVC based user interface framework.[2] The observer pattern is implemented in numerous programming libraries and systems, including almost all GUI toolkits.
+
+Related patterns: Publish–subscribe pattern, mediator, singleton.
 
 
 
