@@ -97,6 +97,7 @@ Cons:
 
 
 **A Brief Interlude...**
+
 Both the "Plain Old Function Call" and "Observer Pattern" above suffer from being synchronous in nature. Synchronicity requires message passing be done in a where and when fashion.
 
 Rich Hickey explains it beautifully:
