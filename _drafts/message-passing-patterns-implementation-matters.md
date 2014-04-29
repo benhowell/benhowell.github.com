@@ -20,9 +20,6 @@ tags : [concurrent, asynchronous, pattern, design]
   <p>
   In this article, we'll take a look at some invocation strategies and outline the pro's and con's of each.
   </p>
-  <p>
-  I will be using the term "invocation" rather loosely and both reactive and responsive methods of executing code are encompassed. I'll also be referring to functions throughout the article, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well.
-  </p>
   </div>
   <div class="intro-img-border">
   <div class="intro-img-bevel">
@@ -42,10 +39,8 @@ tags : [concurrent, asynchronous, pattern, design]
 
 
 
-### Fundamental Glue
-Invocation forms bridges between our otherwise disparate program modules (provided we're [separating our concerns][2]) allowing us to compose solutions to problems in software.
-
-
+#### Fundamental 
+Function invocation forms the scaffolding between our otherwise disparate program modules (provided we're [separating our concerns][2]) allowing us to compose solutions to problems in software. I will be using the term "invocation" throughout the article rather loosely and both reactive and responsive methods of executing code are encompassed by this term. I'll also be referring to functions, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well.
 
 
 
@@ -62,25 +57,24 @@ Bad for:
  * tasks that need to run concurrently
  
  * loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown.
-
-
- 
-
- 
- 
+<br/>
+<br/>
  
 #### Message Queue
-
-
+<br/>
+<br/>
 
 #### Mediator?
-
+<br/>
+<br/>
 
 #### Observer, Observbale
-
+<br/>
+<br/>
 
 #### Message Bus
-
+<br/>
+<br/>
 
 
 
