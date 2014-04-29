@@ -10,10 +10,10 @@ tags : [concurrent, asynchronous, pattern, design]
 <div class="intro">
   <div class="intro-txt">
   <p>
-  ### Invocation
+  <span markdown="span">### Invocation</span>
 /ˌɪnvə(ʊ)ˈkeɪʃ(ə)n/
 
-_To activate. One usually speaks of invoking a function or routine in a program. In this sense, the term invoke is synonymous with call._
+<span markdown="span">_To activate. One usually speaks of invoking a function or routine in a program. In this sense, the term invoke is synonymous with call._</span>
 <br/>
 <br/>
 </p>
