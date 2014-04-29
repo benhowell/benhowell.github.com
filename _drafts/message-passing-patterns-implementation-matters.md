@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Message passing patterns. Implementation matters"
+title: "Invocation matters"
 description: "hello"
 tagline: "design"
 category: design
@@ -10,7 +10,7 @@ tags : [concurrent, asynchronous, pattern, design]
 <div class="intro">
   <div class="intro-txt">
   <p>
-  <span markdown="span">[Message passing][1]</span> is such a fundamental exercise in our daily programming lives that we barely give it a second thought. That is, until we have to. Issues such as scalability, concurrency and asynchonicity, amongst others, eventually force us to look for alternatives to the regular `x.call(y)` way of doing things. Indeed some languages actually force us to do so (which I may or may not cover in an upcoming article... ;-) ). 
+  <span markdown="span">[Message passing][1]</span> is such a fundamental exercise in our daily programming lives that we barely give it a second thought. That is, until we have to. Issues such as scalability, concurrency and asynchonicity, amongst others, eventually force us to look for alternatives to the regular <span markdown="span">`x.call(y)`</span> way of doing things. Indeed some languages actually force us to do so (which I may or may not cover in an upcoming article... ;-) ). 
   </p>
   <p>
   In this article, we'll take a look at some alternative message passing strategies and outline the pro's and con's of each.
@@ -18,7 +18,9 @@ tags : [concurrent, asynchronous, pattern, design]
   
   </div>
   <div class="intro-img">
-    <img class="article-image" src="{{ASSET_PATH}}/bootstrap/img/qn.png"/>
+  <div class="bevel">
+  <img class="article-image" title="Invocation by Gustave Doré." src="{{ASSET_PATH}}/bootstrap/img/Gustave_dore_crusades_invocation_to_muhammad.jpg"/>
+  </div>
   </div>
 </div>
 
@@ -30,7 +32,7 @@ tags : [concurrent, asynchronous, pattern, design]
 
 
 ### Fundamentals at an atomic level.
-Well, almost atomic. Message passing forms the bridges between our otherwise disparate software components(provided we're [separating our concerns][2]).
+Well, almost atomic. Message passing forms the bridges between our otherwise disparate software components (provided we're [separating our concerns][2]).
 
 
 
