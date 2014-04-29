@@ -20,6 +20,8 @@ tags : [concurrent, asynchronous, pattern, design]
   <p>
   In this article, we'll take a look at some invocation strategies and outline the pro's and con's of each.
   </p>
+  <br/>
+  <br/>
   </div>
   <div class="intro-img-border">
   <div class="intro-img-bevel">
