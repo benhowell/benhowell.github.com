@@ -31,8 +31,6 @@ tags : [concurrent, asynchronous, pattern, design]
 </div>
 <br/>
 <br/>
-<br/>
-<br/>
 
 
 
@@ -43,7 +41,8 @@ tags : [concurrent, asynchronous, pattern, design]
 
 #### Fundamental 
 Function invocation forms the scaffolding between our otherwise disparate program modules (provided we're [separating our concerns][2]) allowing us to compose solutions to problems in software. I will be using the term "invocation" throughout the article rather loosely and both reactive and responsive methods of executing code are encompassed by this term. I'll also be referring to functions, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well.
-
+<br/>
+<br/>
 
 
 #### Plain Old Function Call
