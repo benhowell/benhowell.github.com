@@ -166,7 +166,7 @@ img.brand-image {
 }
   
 .intro-img {
-/*   float: left; */
+  float: left;
   margin-left: 15px;
   width: 250px;
 }
