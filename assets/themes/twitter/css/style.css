@@ -166,12 +166,13 @@ img.brand-image {
 }
   
 .intro-img {
-  float: left;
+/*   float: left; */
   margin-left: 15px;
   width: 250px;
 }
  
 .intro-img bevel {
+  float: left;
   border-color: green; 
   border-style: solid; 
   border-width: 2px;
