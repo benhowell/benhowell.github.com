@@ -39,7 +39,7 @@ tags : [concurrent, asynchronous, pattern, design]
 
 
 #### Fundamental 
-Function invocation forms the scaffolding between our otherwise disparate program modules (provided we're [separating our concerns][2]) allowing us to compose solutions to problems in software. I will be using the term "invocation" throughout the article rather loosely and both reactive and responsive methods of executing code are encompassed by this term. I'll also be referring to functions, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well.
+Function invocation forms the scaffolding between our otherwise disparate program modules (provided we're [separating our concerns][2]) allowing us to compose solutions to problems in software. I will be using the term "invocation" and/or "call" throughout the article rather loosely and both reactive and responsive methods of executing code are encompassed by these terms for the purpose of this article. I'll also be referring to functions, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well.
 <br/>
 <br/>
 
@@ -59,16 +59,14 @@ Cons:
  * cannot execute tasks concurrently
  
  * is no good for loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions
- 
 
  
  
- 
 <br/>
 <br/>
  
-#### Observer, Observable
-The [Observer pattern][3] is similar to the "Plain Old Function Call" above, in that it is also a synchronous call and whilst allowing for separation of concerns, still suffers the same cons. Generally, in observer/observable implmentations, `observers` register their interest (using a callback function) with certain events executed on the `observable`. The `observable` maintains this list of `observers` callbacks and each time an event occurs, the `observable` iterates over it's list and calls each callback function in sequence.
+#### Observer Pattern and Observable
+The [Observer pattern][3] is similar to the "Plain Old Function Call" above, in that it is also a synchronous call and whilst allowing for separation of concerns, still suffers the same cons. Generally, in observer/observable implmentations, `observer`s register their interest (using a callback function) with certain events executed on the `observable`. The `observable` maintains this list of `observer`s callbacks and each time an event occurs, the `observable` iterates over its list and calls each callback function in sequence.
 
 Pros:
 
@@ -83,7 +81,7 @@ Cons:
 
  * cannot execute tasks concurrently
  
- * is no good for loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in execution speed due to an increase in observers, e.g. when the execution time spent collectively calling the observers callbacks exceeds the loop time interval. In other words, the larger the number of observers for thing "X", the larger the performance bottleneck becomes at thing "X" because thing "X" must now, sequentially notify each observer individually of each event they've registered to observe.
+ * is no good for loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in execution speed due to an increase in observers. In other words, the larger the number of observers for thing "X", the larger the performance bottleneck becomes at thing "X" because thing "X" must now, sequentially notify each observer individually of each event they've registered to observe.
  
  * observers must be persistant for the life time of the observable or be handled by the observable (e.g. if for any reason the observer dies, or stops executing or whatever, the observable needs to explicitly handle the exception)
  
@@ -94,6 +92,24 @@ Cons:
  * a lot of boilerplate is required for each implementation such as events, event listener interfaces (containing the observables callback handlers) and the event trigger functionality to iterate over and call all the callbacks.
 <br/>
 <br/>
+
+
+
+
+**A Brief Interlude...**
+Both the "Plain Old Function Call" and "Observer Pattern" above suffer from being synchronous in nature. Synchronicity requires message passing be done in a where and when fashion.
+
+Rich Hickey explains it beautifully:
+
+**_If you're architecting a system where this thing deals with the input and then this thing has to do the next part of the job, well if thing "A" calls thing "B", you've just complected it. Now you have a when and where thing because now "A" needs to know where "B" is in order to call "B" and when that happens is whenever "A" does it. Stick a queue in there. Queues are the way to just get rid of this problem. If you're not using queues extensively then you should start, right away, like right after this talk._**
+-- <cite>[Rich Hickey - Simple Made Easy][4]</cite>
+
+
+
+
+
+
+
 
  
 #### Message Queue
@@ -116,7 +132,7 @@ Cons:
 [1]:http://en.wikipedia.org/wiki/Message_passing
 [2]:http://en.wikipedia.org/wiki/Separation_of_concerns
 [3]:http://en.wikipedia.org/wiki/Observer_pattern
-
+[4]:http://www.infoq.com/presentations/Simple-Made-Easy
 
 
 
@@ -139,10 +155,9 @@ http://www.marco.panizza.name/dispenseTM/slides/exerc/eventNotifier/eventNotifie
 
 
 
-**_If you're architecting a system where this thing deals with the input and then this thing has to do the next part of the job, well if thing "A" calls thing "B", you've just complected it. Now you have a when and where thing because now "A" needs to know where "B" is in order to call "B" and when that happens is whenever "A" does it. Stick a queue in there. Queues are the way to just get rid of this problem. If you're not using queues extensively then you should start, right away, like right after this talk._**
--- <cite>[Rich Hickey - Simple Made Easy][1]</cite>
 
-[1]:http://www.infoq.com/presentations/Simple-Made-Easy
+
+
 
 **Summary:** Observer pattern is synchronous and sequential, complects unnecessarily and doesn't scale.
 
