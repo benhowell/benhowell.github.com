@@ -13,12 +13,9 @@ tags : [concurrent, asynchronous, pattern, design]
   Function/method/subroutine invocation is such a fundamental exercise in our daily programming lives that we barely give it a second thought. That is, until we have to. Issues such as scalability, concurrency and asynchonicity, amongst others, sometimes force us to look for alternatives to the regular <span markdown="span">`x.call(y)`</span> way of doing things. Indeed some languages actually force us to do so. 
   </p>
   <p>
-  In this article, we'll take a look at some alternative invocation strategies and outline the pro's and con's of each. I will be using the term "invocation" rather loosely and both reactive and responsive methods of executing code are encompassed. I will also only refer to functions from this point on but the same tenets hold true for methods and subroutines[^1].
+  In this article, we'll take a look at some alternative invocation strategies and outline the pro's and con's of each. I will be using the term "invocation" rather loosely and both reactive and responsive methods of executing code are encompassed. I will also be referring to functions throughout the article, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well.
   </p>
 
-  
-  
-  
   </div>
   <div class="intro-img-border">
   <div class="intro-img-bevel">
@@ -36,9 +33,13 @@ tags : [concurrent, asynchronous, pattern, design]
 
 ### Invocation
 /ˌɪnvə(ʊ)ˈkeɪʃ(ə)n/
+
 noun
+
 _The action of invoking someone or something._
+
 or
+
 _To activate. One usually speaks of invoking a function or routine in a program. In this sense, the term invoke is synonymous with call._
 
 
