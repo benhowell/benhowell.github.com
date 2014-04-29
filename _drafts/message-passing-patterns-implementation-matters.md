@@ -15,11 +15,13 @@ tags : [concurrent, asynchronous, pattern, design]
   <p>
   In this article, we'll take a look at some alternative message passing strategies and outline the pro's and con's of each.
   </p>
-  
+
   </div>
-  <div class="intro-img-border" style="border-color:black;border-style:solid;border-width:1px;" >
+  <div class="intro-img-border">
+  <div class="intro-img-bevel">
   <div class="intro-img">
   <img class="article-image" title="Invocation by Gustave Doré." src="{{ASSET_PATH}}/bootstrap/img/Gustave_dore_crusades_invocation_to_muhammad.jpg"/>
+  </div>
   </div>
   </div>
 </div>
