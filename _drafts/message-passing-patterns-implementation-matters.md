@@ -17,8 +17,8 @@ tags : [concurrent, asynchronous, pattern, design]
   </p>
   
   </div>
+  <div class="intro-img-border" style="border-color:black;border-style:solid;border-width:1px;" >
   <div class="intro-img">
-  <div class="bevel">
   <img class="article-image" title="Invocation by Gustave Doré." src="{{ASSET_PATH}}/bootstrap/img/Gustave_dore_crusades_invocation_to_muhammad.jpg"/>
   </div>
   </div>

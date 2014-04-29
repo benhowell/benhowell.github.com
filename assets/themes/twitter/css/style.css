@@ -164,6 +164,12 @@ img.brand-image {
   float: left;
   width: 530px;
 }
+
+.intro-img-border {
+  border-color: black; 
+  border-style: solid; 
+  border-width: 1px; 
+}
   
 .intro-img {
   float: left;
