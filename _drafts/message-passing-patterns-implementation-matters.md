@@ -90,6 +90,7 @@ Cons:
  * control flow is harder to understand due to an iversion of control flow .
  
  * a lot of boilerplate is required for each implementation such as events, event listener interfaces (containing the observables callback handlers) and the event trigger functionality to iterate over and call all the callbacks.
+ 
 <br/>
 <br/>
 
