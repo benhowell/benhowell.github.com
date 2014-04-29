@@ -76,6 +76,8 @@ Pros:
  
  * good for calling functions where a [separation of concern][2] exists
  
+ * removes the need for the observable to know how to call its observers (other than by the event handling function registered by the observer)
+ 
  
 Cons:
 
@@ -85,7 +87,9 @@ Cons:
  
  * observers must be persistant for the life time of the observable or be handled by the observable (e.g. if for any reason the observer dies, or stops executing or whatever, the observable needs to explicitly handle the exception)
  
- * control flow is harder to understand due to an iversion of control flow.
+ * all observers must adhere to a common event handling interface creating a semantic coupling between otherwise unrelated entities. 
+ 
+ * control flow is harder to understand due to an iversion of control flow .
  
  * a lot of boilerplate is required for each implementation such as events, event listener interfaces (containing the observables callback handlers) and the event trigger functionality to iterate over and call all the callbacks.
 <br/>
