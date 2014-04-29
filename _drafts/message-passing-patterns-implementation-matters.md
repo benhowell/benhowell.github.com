@@ -19,7 +19,7 @@ tags : [concurrent, asynchronous, pattern, design]
 <br/>
 </p>
   <p>
-  Function/method/subroutine invocation is such a fundamental exercise in our daily programming lives that we barely give it a second thought. That is, until we have to. Issues such as scalability, concurrency and asynchonicity, amongst others, sometimes force us to look for alternatives to the regular <span markdown="span">`X.call(Y)`</span> way of doing things. Indeed some languages actually force us to do so. 
+  Function invocation is such a fundamental exercise in our daily programming lives that we barely give it a second thought. That is, until we have to. Issues such as scalability and concurrency, amongst others, sometimes force us to look for alternatives to the regular <span markdown="span">`X.call(Y)`</span> way of doing things. Indeed some libraries and languages actually force us to do so.
   </p>
   <p>
   In this article, we'll take a look at some invocation strategies and outline the pro's and con's of each.
@@ -27,7 +27,6 @@ tags : [concurrent, asynchronous, pattern, design]
   <p>
   I will be using the term "invocation" rather loosely and both reactive and responsive methods of executing code are encompassed. I'll also be referring to functions throughout the article, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well.
   </p>
-
   </div>
   <div class="intro-img-border">
   <div class="intro-img-bevel">
