@@ -18,7 +18,7 @@ tags : [concurrent, asynchronous, pattern, design]
   Function invocation is such a fundamental exercise in our daily programming lives that we barely give it a second thought. That is, until we have to. Issues such as scalability and concurrency, amongst others, sometimes force us to look for alternatives to the regular <span markdown="span">`X.call(Y)`</span> way of doing things. Indeed some libraries and languages actually force us to do so.
   </p>
   <p>
-  In this article, we'll take a look at some invocation strategies and outline the pro's and con's of each.
+  In this article, we'll take a look at some invocation strategies and outline the pros and cons of each.
   </p>
   <br/>
   </div>
@@ -45,20 +45,93 @@ Function invocation forms the scaffolding between our otherwise disparate progra
 
 
 #### Plain Old Function Call
-`X.call(Y)`. This is a very straight forward strategy to use and couldn't be simpler. Very succinct and no thought needed. 
-Good for: 
+`X.call(Y)`. This is a very straight forward, synchronous strategy to use and couldn't be simpler. Very succinct and no thought needed. 
+Pros:
 
- * invoking functions within the same module
+ * good for invoking functions within the same module
  
- * for calling functions where no logical [separation of concern][2] exists
+ * good for calling functions where no logical [separation of concern][2] exists
  
-Bad for: 
+ 
+Cons:
 
  * tasks that need to run concurrently
  
- * loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown.
+ * loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown
 <br/>
 <br/>
+ 
+#### Observer, Observable
+The [Observer pattern][3] is similar to the "Plain Old Function Call" above, in that it is also a synchronous call and suffers the same cons. Generally, in observer/observable inplmentations, `observers` register their interest with certain events executed on the `observable`. The `observable` maintains a list of `observers` and each time an event occurs,
+
+
+
+**TimerTickEventListener.java**
+{% highlight java linenos=table %}
+public interface TimerTickEventListener {
+  void handleTimerTickEvent(EventObject event);
+}
+{% endhighlight %}
+
+
+
+
+**TimerTickEventListener.java**
+{% highlight java linenos=table %}
+public class Timer {
+
+	
+	public void addEventListener(TimerTickEventListener listener) {
+    listeners.add(listener);
+	}
+	
+	public void removeEventListener(TimerTickEventListener listener) {
+    listeners.remove(listener);
+	}
+	
+	public void oneShot() {
+		scheduledFuture = executor.schedule(new Runnable() {
+			public void run() {
+		    triggerTimerTickEvent();
+			}
+		}, interval, TimeUnit.SECONDS);
+	}
+	
+	public void start() {
+
+		scheduledFuture = executor.scheduleAtFixedRate(new Runnable() {
+			public void run() {
+		    triggerTimerTickEvent();
+			}
+		},interval, interval, TimeUnit.SECONDS);
+	}
+	
+	private void triggerTimerTickEvent() {
+		TimerTickEvent event = new TimerTickEvent(this);
+    for (TimerTickEventListener listener : listeners) {
+      listener.handleTimerTickEvent(event);
+    }
+	}
+}
+{% endhighlight %}
+
+
+
+
+
+
+
+
+
+
+
+
+The observer pattern is a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods. It is mainly used to implement distributed event handling systems. The Observer pattern is also a key part in the familiar model–view–controller (MVC) architectural pattern.[1] In fact the observer pattern was first implemented in Smalltalk's MVC based user interface framework.[2] The observer pattern is implemented in numerous programming libraries and systems, including almost all GUI toolkits.
+
+
+<br/>
+<br/>
+ 
  
 #### Message Queue
 <br/>
@@ -68,9 +141,7 @@ Bad for:
 <br/>
 <br/>
 
-#### Observer, Observbale
-<br/>
-<br/>
+
 
 #### Message Bus
 <br/>
@@ -81,6 +152,7 @@ Bad for:
 
 [1]:http://en.wikipedia.org/wiki/Message_passing
 [2]:http://en.wikipedia.org/wiki/Separation_of_concerns
+[3]:http://en.wikipedia.org/wiki/Observer_pattern
 
 
 
