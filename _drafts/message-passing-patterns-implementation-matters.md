@@ -81,83 +81,16 @@ Cons:
 
  * cannot execute tasks concurrently
  
- * is no good for loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in execution speed due to an increase in observers (e.g. when the execution time spent collectively calling the observers callbacks exceeds the loop time interval).
+ * is no good for loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in execution speed due to an increase in observers, e.g. when the execution time spent collectively calling the observers callbacks exceeds the loop time interval. In other words, the larger the number of observers for thing "X", the larger the performance bottleneck becomes at thing "X" because thing "X" must now, sequentially notify each observer individually of each event they've registered to observe.
  
  * observers must be persistant for the life time of the observable or be handled by the observable (e.g. if for any reason the observer dies, or stops executing or whatever, the observable needs to explicitly handle the exception)
  
  * control flow is harder to understand due to an iversion of control flow.
  
- * much more boilerplate is required such as events, event listener interfaces (containing the observables callback handlers) and the event trigger functionality to iterate over and call all the callbacks.
+ * a lot of boilerplate is required for each implementation such as events, event listener interfaces (containing the observables callback handlers) and the event trigger functionality to iterate over and call all the callbacks.
 <br/>
 <br/>
 
-
-**TimerTickEventListener.java**
-{% highlight java linenos=table %}
-public interface TimerTickEventListener {
-  void handleTimerTickEvent(EventObject event);
-}
-{% endhighlight %}
-
-
-
-
-**TimerTickEventListener.java**
-{% highlight java linenos=table %}
-public class Timer {
-
-	
-	public void addEventListener(TimerTickEventListener listener) {
-    listeners.add(listener);
-	}
-	
-	public void removeEventListener(TimerTickEventListener listener) {
-    listeners.remove(listener);
-	}
-	
-	public void oneShot() {
-		scheduledFuture = executor.schedule(new Runnable() {
-			public void run() {
-		    triggerTimerTickEvent();
-			}
-		}, interval, TimeUnit.SECONDS);
-	}
-	
-	public void start() {
-
-		scheduledFuture = executor.scheduleAtFixedRate(new Runnable() {
-			public void run() {
-		    triggerTimerTickEvent();
-			}
-		},interval, interval, TimeUnit.SECONDS);
-	}
-	
-	private void triggerTimerTickEvent() {
-		TimerTickEvent event = new TimerTickEvent(this);
-    for (TimerTickEventListener listener : listeners) {
-      listener.handleTimerTickEvent(event);
-    }
-	}
-}
-{% endhighlight %}
-
-
-
-
-
-
-
-
-
-
-
-
-The observer pattern is a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods. It is mainly used to implement distributed event handling systems. The Observer pattern is also a key part in the familiar model–view–controller (MVC) architectural pattern.[1] In fact the observer pattern was first implemented in Smalltalk's MVC based user interface framework.[2] The observer pattern is implemented in numerous programming libraries and systems, including almost all GUI toolkits.
-
-
-<br/>
-<br/>
- 
  
 #### Message Queue
 <br/>
@@ -201,12 +134,6 @@ http://www.marco.panizza.name/dispenseTM/slides/exerc/eventNotifier/eventNotifie
 
 
 
-## Observer pattern. In most cases: wrong.
-
-
-- The thing being observed should not need to know about who is observing it.
-- If you want to replace the thing being observed, your code is tighty bound to that specific implementation that you need to rewrite it for the new implementation.
-- The larger the number of observers for thing "A", the larger the performance bottleneck becomes at thing "A" because thing "A" must now, sequentially notify each observer individually of each event they've registered to observe. Imagine if television worked this way, that is, for every show, they must individually stream that show to each person individually, in sequence. 
 
 **_If you're architecting a system where this thing deals with the input and then this thing has to do the next part of the job, well if thing "A" calls thing "B", you've just complected it. Now you have a when and where thing because now "A" needs to know where "B" is in order to call "B" and when that happens is whenever "A" does it. Stick a queue in there. Queues are the way to just get rid of this problem. If you're not using queues extensively then you should start, right away, like right after this talk._**
 -- <cite>[Rich Hickey - Simple Made Easy][1]</cite>
