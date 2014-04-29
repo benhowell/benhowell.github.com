@@ -37,12 +37,6 @@ tags : [concurrent, asynchronous, pattern, design]
 ### Invocation
 /ˌɪnvə(ʊ)ˈkeɪʃ(ə)n/
 
-noun
-
-_The action of invoking someone or something._
-
-or
-
 _To activate. One usually speaks of invoking a function or routine in a program. In this sense, the term invoke is synonymous with call._
 <br/>
 <br/>
