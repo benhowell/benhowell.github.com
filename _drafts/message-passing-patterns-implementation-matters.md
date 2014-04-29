@@ -45,7 +45,8 @@ Function invocation forms the scaffolding between our otherwise disparate progra
 
 
 #### Plain Old Function Call
-`X.call(Y)`. This is a very straight forward, synchronous strategy to use and couldn't be simpler. Very succinct and no thought needed. 
+`X.call(Y)`. This is a very straight forward, synchronous strategy to use and couldn't be simpler. Very succinct and no thought needed.
+
 Pros:
 
  * good for invoking functions within the same module
@@ -55,15 +56,39 @@ Pros:
  
 Cons:
 
+ * cannot execute tasks concurrently
+ 
+ * is no good for loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in execution speed due to an increase in observers (e.g. when the execution time spent collectively calling the observers callbacks exceeds the loop time interval).
+ 
+ * observers must be persistant for the life time of the observable or be handled by the observable (e.g. if for any reason the observer dies, or stops executing or whatever, the observable needs to explicitly handle the exception)
+ 
+ * control flow is harder to understand due to an iversion of control flow.
+ 
+ * much more boilerplate is required such as events, event listener interfaces (containing the observables callback handlers) and the event trigger functionality to iterate over and call all the callbacks.
+ 
+ 
+ 
+ 
+<br/>
+<br/>
+ 
+#### Observer, Observable
+The [Observer pattern][3] is similar to the "Plain Old Function Call" above, in that it is also a synchronous call and whilst allowing for separation of concerns, still suffers the same cons. Generally, in observer/observable implmentations, `observers` register their interest (using a callback function) with certain events executed on the `observable`. The `observable` maintains this list of `observers` callbacks and each time an event occurs, the `observable` iterates over it's list and calls each callback function in sequence.
+
+Pros:
+
+ * good for invoking functions within the same module
+ 
+ * good for calling functions where a [separation of concern][2] exists
+ 
+ 
+Cons:
+
  * tasks that need to run concurrently
  
  * loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown
 <br/>
 <br/>
- 
-#### Observer, Observable
-The [Observer pattern][3] is similar to the "Plain Old Function Call" above, in that it is also a synchronous call and suffers the same cons. Generally, in observer/observable inplmentations, `observers` register their interest with certain events executed on the `observable`. The `observable` maintains a list of `observers` and each time an event occurs,
-
 
 
 **TimerTickEventListener.java**
