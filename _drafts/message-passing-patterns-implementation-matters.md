@@ -10,6 +10,14 @@ tags : [concurrent, asynchronous, pattern, design]
 <div class="intro">
   <div class="intro-txt">
   <p>
+  ### Invocation
+/ˌɪnvə(ʊ)ˈkeɪʃ(ə)n/
+
+_To activate. One usually speaks of invoking a function or routine in a program. In this sense, the term invoke is synonymous with call._
+<br/>
+<br/>
+</p>
+  <p>
   Function/method/subroutine invocation is such a fundamental exercise in our daily programming lives that we barely give it a second thought. That is, until we have to. Issues such as scalability, concurrency and asynchonicity, amongst others, sometimes force us to look for alternatives to the regular <span markdown="span">`X.call(Y)`</span> way of doing things. Indeed some languages actually force us to do so. 
   </p>
   <p>
@@ -34,12 +42,7 @@ tags : [concurrent, asynchronous, pattern, design]
 
 
 
-### Invocation
-/ˌɪnvə(ʊ)ˈkeɪʃ(ə)n/
 
-_To activate. One usually speaks of invoking a function or routine in a program. In this sense, the term invoke is synonymous with call._
-<br/>
-<br/>
 
 
 
