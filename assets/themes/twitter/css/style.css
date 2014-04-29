@@ -163,6 +163,7 @@ img.brand-image {
 .intro-txt {
   float: left;
   width: 530px;
+  margin-right: 17px;
 }
 
 .intro-img-border {
@@ -174,7 +175,6 @@ img.brand-image {
   
 .intro-img {
   float: left;
-  margin-left: 17px;
   width: 250px;
 }
   
