@@ -20,8 +20,14 @@ The publish/subscribe pattern can also be used within applications to provide sc
 <p>
 In the next few articles we'll look at some using <span markdown="span">[Scala][1] and [Akka][2]</span>, such as this: <span markdown="span">[Publish/Subscribe using Scala and Akka EventBus]({% post_url 2014-04-23-scala_and_the_akka_event_bus %})</span>
 </p>
-</div> 
-<div class="intro-img"><img class="article-image" src="{{ASSET_PATH}}/bootstrap/img/eventbus_250.jpg"/></div>
+</div>
+<div class="intro-img-border">
+<div class="intro-img-bevel">
+<div class="intro-img">
+<img class="article-image" src="{{ASSET_PATH}}/bootstrap/img/eventbus_250.jpg"/>
+</div>
+</div>
+</div>
 </div>
 <br />
 <br />
