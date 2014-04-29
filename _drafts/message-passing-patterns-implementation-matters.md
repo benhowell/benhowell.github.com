@@ -13,7 +13,10 @@ tags : [concurrent, asynchronous, pattern, design]
   Function/method/subroutine invocation is such a fundamental exercise in our daily programming lives that we barely give it a second thought. That is, until we have to. Issues such as scalability, concurrency and asynchonicity, amongst others, sometimes force us to look for alternatives to the regular <span markdown="span">`x.call(y)`</span> way of doing things. Indeed some languages actually force us to do so. 
   </p>
   <p>
-  In this article, we'll take a look at some alternative invocation strategies and outline the pro's and con's of each. I will be using the term "invocation" rather loosely and both reactive and responsive methods of executing code are encompassed. I will also be referring to functions throughout the article, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well.
+  In this article, we'll take a look at some alternative invocation strategies and outline the pro's and con's of each. I will be using the term "invocation" rather loosely and both reactive and responsive methods of executing code are encompassed. 
+  </p>
+  <p>
+  I will also be referring to functions throughout the article, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well.
   </p>
 
   </div>
@@ -41,20 +44,14 @@ _The action of invoking someone or something._
 or
 
 _To activate. One usually speaks of invoking a function or routine in a program. In this sense, the term invoke is synonymous with call._
+<br/>
+<br/>
 
 
 
+### Fundamental glue.
+Invocation forms the bridges between our otherwise disparate program modules (provided we're [separating our concerns][2]) allowing us to compose problem solutions in software.
 
-### Fundamentals at an atomic level.
-Well, almost atomic. 
-
-
-
-Invocation forms the bridges between our otherwise disparate program modules (provided we're [separating our concerns][2]) allowing us to compose solutions in software.
-
-
-
-Functions are invoked as functions or as methods with an invocation expression (Invocation Expressions). An invocation expression consists of a function expression that evaluates to a function object followed by an open parenthesis, a comma-separated list of zero or more argument expressions, and a close parenthesis. If the function expression is a property-access expression—if the function is the property of an object or an element of an array—then it is a method invocation expression. That case will be explained below. The following code includes a number of regular function invocation expressions:
 
 
 
