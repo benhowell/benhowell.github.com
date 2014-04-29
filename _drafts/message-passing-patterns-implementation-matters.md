@@ -10,10 +10,10 @@ tags : [concurrent, asynchronous, pattern, design]
 <div class="intro">
   <div class="intro-txt">
   <p>
-  Function/method/subroutine invocation is such a fundamental exercise in our daily programming lives that we barely give it a second thought. That is, until we have to. Issues such as scalability, concurrency and asynchonicity, amongst others, sometimes force us to look for alternatives to the regular <span markdown="span">`x.call(y)`</span> way of doing things. Indeed some languages actually force us to do so. 
+  Function/method/subroutine invocation is such a fundamental exercise in our daily programming lives that we barely give it a second thought. That is, until we have to. Issues such as scalability, concurrency and asynchonicity, amongst others, sometimes force us to look for alternatives to the regular <span markdown="span">`X.call(Y)`</span> way of doing things. Indeed some languages actually force us to do so. 
   </p>
   <p>
-  In this article, we'll take a look at some alternative invocation strategies and outline the pro's and con's of each.
+  In this article, we'll take a look at some invocation strategies and outline the pro's and con's of each.
   </p>
   <p>
   I will be using the term "invocation" rather loosely and both reactive and responsive methods of executing code are encompassed. I'll also be referring to functions throughout the article, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well.
@@ -43,22 +43,53 @@ _To activate. One usually speaks of invoking a function or routine in a program.
 
 
 
-### Fundamental glue.
-Invocation forms the bridges between our otherwise disparate program modules (provided we're [separating our concerns][2]) allowing us to compose problem solutions in software.
+### Fundamental Glue
+Invocation forms bridges between our otherwise disparate program modules (provided we're [separating our concerns][2]) allowing us to compose solutions to problems in software.
 
 
 
 
 
+#### Plain Old Function Call
+`X.call(Y)`. This is a very straight forward strategy to use and couldn't be simpler. Very succinct and no thought needed. 
+Good for: 
+ * invoking functions within the same module
+ * for calling functions where no logical [separation of concern][2] exists
+Bad for: 
+ * tasks that need to run concurrently
+ * loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown.
+
+
+ 
+
+ 
+ 
+ 
+#### Message Queue
+
+
+
+#### Mediator?
+
+
+#### Observer, Observbale
+
+
+#### Message Bus
 
 
 
 
 
-
-[message passing][1]
 [1]:http://en.wikipedia.org/wiki/Message_passing
 [2]:http://en.wikipedia.org/wiki/Separation_of_concerns
+
+
+
+
+
+
+
 
 
 
@@ -115,7 +146,7 @@ The publish/subscribe pattern can also be used within applications to provide sc
 
 
 
-
+[message passing][1]
 
 
 
