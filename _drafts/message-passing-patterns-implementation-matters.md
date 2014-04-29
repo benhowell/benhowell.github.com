@@ -53,10 +53,15 @@ Invocation forms bridges between our otherwise disparate program modules (provid
 #### Plain Old Function Call
 `X.call(Y)`. This is a very straight forward strategy to use and couldn't be simpler. Very succinct and no thought needed. 
 Good for: 
+
  * invoking functions within the same module
+ 
  * for calling functions where no logical [separation of concern][2] exists
+ 
 Bad for: 
+
  * tasks that need to run concurrently
+ 
  * loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown.
 
 
