@@ -45,7 +45,6 @@ tags : [concurrent, asynchronous, pattern, design]
 
 #### Fundamental 
 Function invocation forms the scaffolding between our otherwise disparate program modules (provided we're [separating our concerns][2]) allowing us to compose solutions to problems in software. I will be using the term "invocation" and/or "call" throughout the article rather loosely and both reactive and responsive methods of executing code are encompassed by these terms for the purpose of this article. I'll also be referring to functions, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well.
-
 <br/>
 <br/>
 
@@ -64,7 +63,6 @@ Cons:
  * cannot execute tasks concurrently
  
  * is no good for loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions
-
 <br/>
 <br/>
  
@@ -93,7 +91,6 @@ Cons:
  * control flow is harder to understand due to an iversion of control flow .
  
  * a lot of boilerplate is required for each implementation such as events, event listener interfaces (containing the observables callback handlers) and the event trigger functionality to iterate over and call all the callbacks. This boilerplate scales linearly with each new event type.
- 
 <br/>
 <br/>
 
@@ -107,24 +104,20 @@ _If you're architecting a system where this thing deals with the input and then 
 -- <cite>[Rich Hickey - Simple Made Easy][4]</cite>
 
 ...which brings to our asynchronous messaging patterns...
-
 <br/>
 <br/>
 
 #### Message Queue
-
 <br/>
 <br/>
 
 #### Mediator?
-
 <br/>
 <br/>
 
 
 
 #### Message Bus
-
 <br/>
 <br/>
 
