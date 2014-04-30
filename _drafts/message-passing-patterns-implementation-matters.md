@@ -11,8 +11,9 @@ tags : [concurrent, asynchronous, pattern, design]
 <div class="intro-txt">
 <p>
 <span markdown="span">
-#### Invocation
+**Invocation**
 </span>
+
 /ˌɪnvə(ʊ)ˈkeɪʃ(ə)n/
 </p>
 <p>
