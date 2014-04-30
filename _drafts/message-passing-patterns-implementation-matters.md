@@ -92,43 +92,16 @@ Cons:
 
 **A Brief Interlude...**
 
-Both the "Plain Old Function Call" and "Observer Pattern" above suffer from being synchronous in nature. Synchronicity requires message passing be done in a _where_ and _when_ fashion.
+Both the "Plain Old Function Call" and "Observer Pattern" above are synchronous in nature. Synchronicity requires message passing be done in a _where_ and _when_ fashion.
 
-Rich Hickey explains it succinctly:
+Rich Hickey explains it nicely:
 
 _If you're architecting a system where this thing deals with the input and then this thing has to do the next part of the job, well if thing "A" calls thing "B", you've just complected it. Now you have a when and where thing because now "A" needs to know where "B" is in order to call "B" and when that happens is whenever "A" does it. Stick a queue in there. Queues are the way to just get rid of this problem. If you're not using queues extensively then you should start, right away, like right after this talk._
 -- <cite>[Rich Hickey - Simple Made Easy][4]</cite>
 
+In sytems where you can describe something happening as an "event" (e.g. input has been parsed, button has been pressed, some process has completed, a new data point has arrived, whatever), then synchronous execution may not be good enough. We wouldn't want, for example, our UI to hang and become unresponsive while another piece of code handles the button press event and the actions that entails, nor would we want to wait until a data point has been processed before being able to accept another data point in the stream. In fact, most software would benefit by the reduction in entanglement asynchronous messaging patterns provide. To conclude, **unless the thing that generates the event needs to stop immediately and await the result of some other process that uses that event before being able to continue executing, then you'll benefit from asynchronous messaging** (and if this _is_ the case I would seriously consider refactoring your design).
 
-
-
-
-
-
-
-However, scenarios exist in which synchronous behaviour is not appropriate. For example, AJAX (Asynchronous Javascript and XML) can be used to asynchronously send text or XML messages to update part of a web page with more relevant information.
-
-Other asynchronous examples exist in event notification systems and publish/subscribe systems.
-
-An application may need to notify another that an event has occurred, but does not need to wait for a response.
-In publish/subscribe systems, an application "publishes" information for any number of clients to read.
-In both of the above examples it would not make sense for the sender of the information to have to wait if, for example, one of the recipients had crashed.
-
-Applications need not be exclusively synchronous or asynchronous. An interactive application may need to respond to certain parts of a request immediately (such as telling a customer that a sales request has been accepted, and handling the promise to draw on inventory), but may queue other parts (such as completing calculation of billing, forwarding data to the central accounting system, and calling on all sorts of other services) to be done some time later.
-
-In all these sorts of situations, having a subsystem which performs message-queuing (or alternatively, a broadcast messaging system) can help improve the behaviour of the overall system.
-
-
-
-
-
-
-
-
-
-
-
-...which brings to our asynchronous messaging patterns...
+...which brings us to our asynchronous messaging patterns...
 <br/>
 <br/>
 
@@ -150,6 +123,25 @@ In all these sorts of situations, having a subsystem which performs message-queu
 Message queues provide an asynchronous communications protocol, meaning that the sender and receiver of the message do not need to interact with the message queue at the same time. Messages placed onto the queue are stored until the recipient retrieves them. Message queues have implicit or explicit limits on the size of data that may be transmitted in a single message and the number of messages that may remain outstanding on the queue.
 
 Many implementations of message queues function internally: within an operating system or within an application. Such queues exist for the purposes of that system only.[1][2][3]
+
+
+
+
+
+
+An application may need to notify another that an event has occurred, but does not need to wait for a response.
+In publish/subscribe systems, an application "publishes" information for any number of clients to read.
+In both of the above examples it would not make sense for the sender of the information to have to wait if, for example, one of the recipients had crashed.
+
+Applications need not be exclusively synchronous or asynchronous. An interactive application may need to respond to certain parts of a request immediately (such as telling a customer that a sales request has been accepted, and handling the promise to draw on inventory), but may queue other parts (such as completing calculation of billing, forwarding data to the central accounting system, and calling on all sorts of other services) to be done some time later.
+
+In all these sorts of situations, having a subsystem which performs message-queuing (or alternatively, a broadcast messaging system) can help improve the behaviour of the overall system.
+
+
+
+
+
+
 
 <br/>
 <br/>
