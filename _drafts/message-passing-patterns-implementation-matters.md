@@ -9,7 +9,7 @@ tags : [concurrent, asynchronous, pattern, design]
 {% include JB/setup %}
 <div class="intro">
   <div class="intro-txt">
-<h3> Invocation</h3>
+Invocation
 /ˌɪnvə(ʊ)ˈkeɪʃ(ə)n/
 <p>
 <span markdown="span">_To activate. One usually speaks of invoking a function or routine in a program. In this sense, the term invoke is synonymous with call._</span>
