@@ -49,7 +49,7 @@ Function invocation forms the scaffolding between our otherwise disparate progra
 <br/>
 
 #### Plain Old Function Call
-`X.call(Y)`. This is a very straight forward, synchronous strategy to use and couldn't be simpler. Very succinct and no thought needed.
+`X.call(Y)`. This is a very straightforward, synchronous strategy to use and couldn't be simpler. Very succinct and no thought needed.
 
 Pros:
 
@@ -60,7 +60,7 @@ Pros:
  
 Cons:
 
- * cannot execute tasks concurrently
+ * does not execute tasks concurrently
  
  * is no good for loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions
 <br/>
@@ -78,7 +78,7 @@ Pros:
  
 Cons:
 
- * cannot execute tasks concurrently
+ * does not execute tasks concurrently
  
  * is no good for loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in execution speed due to an increase in observers. In other words, the larger the number of observers for thing "X", the larger the performance bottleneck becomes at thing "X" because thing "X" must now, sequentially notify each observer individually of each event they've registered to observe.
  
@@ -92,7 +92,7 @@ Cons:
 
 **A Brief Interlude...**
 
-Both the "Plain Old Function Call" and "Observer Pattern" above suffer from being synchronous in nature. Synchronicity requires message passing be done in a where and when fashion.
+Both the "Plain Old Function Call" and "Observer Pattern" above suffer from being synchronous in nature. Synchronicity requires message passing be done in a _where_ and _when_ fashion.
 
 Rich Hickey explains it succinctly:
 
@@ -103,7 +103,39 @@ _If you're architecting a system where this thing deals with the input and then 
 <br/>
 <br/>
 
+
+
+
+Synchronous vs. asynchronous[edit]
+Many of the more widely known communications protocols in use operate synchronously. The HTTP protocol – used in the World Wide Web and in web services – offers an obvious example where a user sends a request for a web page and then waits for a reply.
+
+However, scenarios exist in which synchronous behaviour is not appropriate. For example, AJAX (Asynchronous Javascript and XML) can be used to asynchronously send text or XML messages to update part of a web page with more relevant information. Google uses this approach for their Google Suggest, a search feature which sends the user's partially typed queries to Google's servers and returns a list of possible full queries the user might be in the process of typing. This list is asynchronously updated as the user types.
+
+Other asynchronous examples exist in event notification systems and publish/subscribe systems.
+
+An application may need to notify another that an event has occurred, but does not need to wait for a response.
+In publish/subscribe systems, an application "publishes" information for any number of clients to read.
+In both of the above examples it would not make sense for the sender of the information to have to wait if, for example, one of the recipients had crashed.
+
+Applications need not be exclusively synchronous or asynchronous. An interactive application may need to respond to certain parts of a request immediately (such as telling a customer that a sales request has been accepted, and handling the promise to draw on inventory), but may queue other parts (such as completing calculation of billing, forwarding data to the central accounting system, and calling on all sorts of other services) to be done some time later.
+
+In all these sorts of situations, having a subsystem which performs message-queuing (or alternatively, a broadcast messaging system) can help improve the behaviour of the overall system.
+
+
+
+
+
+
 #### Message Queue
+
+
+
+
+
+Message queues provide an asynchronous communications protocol, meaning that the sender and receiver of the message do not need to interact with the message queue at the same time. Messages placed onto the queue are stored until the recipient retrieves them. Message queues have implicit or explicit limits on the size of data that may be transmitted in a single message and the number of messages that may remain outstanding on the queue.
+
+Many implementations of message queues function internally: within an operating system or within an application. Such queues exist for the purposes of that system only.[1][2][3]
+
 <br/>
 <br/>
 
