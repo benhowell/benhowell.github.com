@@ -44,7 +44,7 @@ tags : [concurrent, asynchronous, pattern, design]
 
 
 #### Fundamental 
-Function invocation forms the scaffolding between our otherwise disparate program modules (provided we're [separating our concerns][2]) allowing us to compose solutions to problems in software. I will be using the term "invocation" and/or "call" throughout the article rather loosely and both reactive and responsive methods of executing code are encompassed by these terms for the purpose of this article. I'll also be referring to functions, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well.
+Function invocation forms the scaffolding between our otherwise disparate bits of code (provided we're [separating our concerns][2]) allowing us to compose solutions to problems with software. I will be using the term "invocation" and/or "call" throughout the article rather loosely and both reactive and responsive methods of executing code are encompassed by these terms for the purpose of this article. I'll also be referring to functions, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well.
 <br/>
 <br/>
 
@@ -80,13 +80,13 @@ Cons:
 
  * does not execute tasks concurrently
  
- * is no good for loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in execution speed due to an increase in observers. In other words, the larger the number of observers for thing "X", the larger the performance bottleneck becomes at thing "X" because thing "X" must now, sequentially notify each observer individually of each event they've registered to observe.
+ * is no good for loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in execution speed due to an increase in observers. In other words, the larger the number of observers for thing "X", the larger the performance bottleneck becomes at thing "X" because thing "X" must now sequentially execute each observers callback individually each time the event they've registered to observe occurs.
  
- * observers must be persistant for the life time of the observable or be handled by the observable (e.g. if for any reason the observer dies, or stops executing or whatever, the observable needs to explicitly handle the exception)
+ * if for any reason the observer dies, or stops executing or whatever, the observable needs to explicitly handle the exception.
  
- * control flow is harder to understand due to an iversion of control flow .
+ * control flow is harder to understand due to an inversion of control flow .
  
- * a lot of boilerplate is required for each implementation such as events, event listener interfaces (containing the observables callback handlers) and the event trigger functionality to iterate over and call all the callbacks. This boilerplate scales linearly with each new event type.
+ * a lot of boilerplate is required for each implementation such as events, event listener interfaces (containing the observables callback handlers) and the event trigger functionality to iterate over and call all the callbacks. This boilerplate grows linearly with each new event type.
 <br/>
 <br/>
 
@@ -99,17 +99,14 @@ Rich Hickey explains it succinctly:
 _If you're architecting a system where this thing deals with the input and then this thing has to do the next part of the job, well if thing "A" calls thing "B", you've just complected it. Now you have a when and where thing because now "A" needs to know where "B" is in order to call "B" and when that happens is whenever "A" does it. Stick a queue in there. Queues are the way to just get rid of this problem. If you're not using queues extensively then you should start, right away, like right after this talk._
 -- <cite>[Rich Hickey - Simple Made Easy][4]</cite>
 
-...which brings to our asynchronous messaging patterns...
-<br/>
-<br/>
 
 
 
 
-Synchronous vs. asynchronous[edit]
-Many of the more widely known communications protocols in use operate synchronously. The HTTP protocol – used in the World Wide Web and in web services – offers an obvious example where a user sends a request for a web page and then waits for a reply.
 
-However, scenarios exist in which synchronous behaviour is not appropriate. For example, AJAX (Asynchronous Javascript and XML) can be used to asynchronously send text or XML messages to update part of a web page with more relevant information. Google uses this approach for their Google Suggest, a search feature which sends the user's partially typed queries to Google's servers and returns a list of possible full queries the user might be in the process of typing. This list is asynchronously updated as the user types.
+
+
+However, scenarios exist in which synchronous behaviour is not appropriate. For example, AJAX (Asynchronous Javascript and XML) can be used to asynchronously send text or XML messages to update part of a web page with more relevant information.
 
 Other asynchronous examples exist in event notification systems and publish/subscribe systems.
 
@@ -120,6 +117,24 @@ In both of the above examples it would not make sense for the sender of the info
 Applications need not be exclusively synchronous or asynchronous. An interactive application may need to respond to certain parts of a request immediately (such as telling a customer that a sales request has been accepted, and handling the promise to draw on inventory), but may queue other parts (such as completing calculation of billing, forwarding data to the central accounting system, and calling on all sorts of other services) to be done some time later.
 
 In all these sorts of situations, having a subsystem which performs message-queuing (or alternatively, a broadcast messaging system) can help improve the behaviour of the overall system.
+
+
+
+
+
+
+
+
+
+
+
+...which brings to our asynchronous messaging patterns...
+<br/>
+<br/>
+
+
+
+
 
 
 
