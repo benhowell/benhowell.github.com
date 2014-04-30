@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Invocation matters"
-description: "hello"
+title: "Invocation Matters"
+description: "Invocation Matters"
 tagline: "design"
 category: design
 tags : [concurrent, asynchronous, pattern, design]
@@ -9,7 +9,9 @@ tags : [concurrent, asynchronous, pattern, design]
 {% include JB/setup %}
 <div class="intro">
 <div class="intro-txt">
-<span markdown="span">#### Invocation</span>
+<span markdown="span">
+#### Invocation
+</span>
 /ˌɪnvə(ʊ)ˈkeɪʃ(ə)n/
 <p>
 <span markdown="span">_To activate. One usually speaks of invoking a function or routine in a program. In this sense, the term invoke is synonymous with call._</span>
