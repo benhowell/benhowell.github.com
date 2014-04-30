@@ -45,9 +45,9 @@ tags : [concurrent, asynchronous, pattern, design]
 
 #### Fundamental 
 Function invocation forms the scaffolding between our otherwise disparate program modules (provided we're [separating our concerns][2]) allowing us to compose solutions to problems in software. I will be using the term "invocation" and/or "call" throughout the article rather loosely and both reactive and responsive methods of executing code are encompassed by these terms for the purpose of this article. I'll also be referring to functions, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well.
-<br/>
-<br/>
 
+<br/>
+<br/>
 
 #### Plain Old Function Call
 `X.call(Y)`. This is a very straight forward, synchronous strategy to use and couldn't be simpler. Very succinct and no thought needed.
@@ -65,8 +65,6 @@ Cons:
  
  * is no good for loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions
 
- 
- 
 <br/>
 <br/>
  
@@ -99,9 +97,6 @@ Cons:
 <br/>
 <br/>
 
-
-
-
 **A Brief Interlude...**
 
 Both the "Plain Old Function Call" and "Observer Pattern" above suffer from being synchronous in nature. Synchronicity requires message passing be done in a where and when fashion.
@@ -116,22 +111,20 @@ _If you're architecting a system where this thing deals with the input and then 
 <br/>
 <br/>
 
-
-
-
-
- 
 #### Message Queue
+
 <br/>
 <br/>
 
 #### Mediator?
+
 <br/>
 <br/>
 
 
 
 #### Message Bus
+
 <br/>
 <br/>
 
