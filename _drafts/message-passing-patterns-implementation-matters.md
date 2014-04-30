@@ -70,8 +70,6 @@ Cons:
 The [Observer pattern][3] is similar to the "Plain Old Function Call" above, in that it is also a synchronous call and whilst allowing for separation of concerns, still suffers the same cons. Generally, in observer/observable implmentations, `observer`s register their interest (using a callback function) with certain events executed on the `observable`. The `observable` maintains this list of `observer`s callbacks and each time an event occurs, the `observable` iterates over its list and calls each callback function in sequence.
 
 Pros:
-
- * good for invoking functions within the same module
  
  * good for calling functions where a [separation of concern][2] exists
  
@@ -85,8 +83,6 @@ Cons:
  * is no good for loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in execution speed due to an increase in observers. In other words, the larger the number of observers for thing "X", the larger the performance bottleneck becomes at thing "X" because thing "X" must now, sequentially notify each observer individually of each event they've registered to observe.
  
  * observers must be persistant for the life time of the observable or be handled by the observable (e.g. if for any reason the observer dies, or stops executing or whatever, the observable needs to explicitly handle the exception)
- 
- * all observers must adhere to a common event handling interface creating a semantic coupling between otherwise unrelated entities. 
  
  * control flow is harder to understand due to an iversion of control flow .
  
