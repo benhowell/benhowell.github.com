@@ -18,7 +18,7 @@ tags : [scalable, concurrent, asynchronous, patterns, design, publish/subscribe]
 
 <p>
 <span markdown="span">_To activate. The action of invoking someone or something._</span>
-
+<br/>
 From the Latin verb invocare "to call on, invoke, to give".
 </p>
   <p>
