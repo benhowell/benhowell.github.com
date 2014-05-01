@@ -64,7 +64,7 @@ Cons:
 
  * does not execute tasks concurrently
  
- * isn't great for loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions. In other words, if the time bound of the functions being called within the loop are unknown or otherwise relatively expensive compared to the loop execution speed itself, you may not be able to process events as quickly as they arrive or are generated.
+ * isn't great for loops (UI, game, long running listener tasks, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions. In other words, if the time bound of the functions being called within the loop are unknown or otherwise relatively expensive compared to the loop execution speed itself, you may not be able to process events as quickly as they arrive or are generated.
  
 <br/>
 <br/>
@@ -74,9 +74,9 @@ The [Observer pattern][3] is similar to the "Plain Old Function Call" above, in 
 
 Pros:
  
- * good for calling functions where a [separation of concern][2] exists
+ * provides a mechanism for implementing [open/closed principle][5](OCP). In other words, if we can add more functionality to our system (e.g. another observer) without changing the functionality of the thing that generates events (i.e. the observable) then we have OCP, that is software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification[^2].
  
- * removes the need for the observable to know how to call its observers (other than by the event handling function registered by the observer)
+ * removes the need for the observable to know how to call its individual observers (other than by the event handling function registered by the observer)
  
  
 Cons:
@@ -168,7 +168,7 @@ In all these sorts of situations, having a subsystem which performs message-queu
 [2]:http://en.wikipedia.org/wiki/Separation_of_concerns
 [3]:http://en.wikipedia.org/wiki/Observer_pattern
 [4]:http://www.infoq.com/presentations/Simple-Made-Easy
-
+[5]:http://en.wikipedia.org/wiki/Open/closed_principle
 
 
 
@@ -281,7 +281,7 @@ Here is a simple example of the code needed to announce the change:
 
 #### Notes
 [^1]: Functions are routines for which all needed data is passed explicitly as parameters upon invocation. Methods are merely functions that reside within objects, and are able to operate on data within those objects without the need for that data to be passed explicitly upon invocation. 
-
+[^2]: Meyer, Bertrand (1988). Object-Oriented Software Construction. Prentice Hall. ISBN 0-13-629049-3.
 
 
 
