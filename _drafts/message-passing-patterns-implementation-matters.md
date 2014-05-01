@@ -44,7 +44,7 @@ tags : [concurrent, asynchronous, pattern, design]
 
 
 #### Fundamentally Speaking
-Function invocation forms the scaffolding between our otherwise disparate bits of code (provided we're [separating our concerns][2]) allowing us to compose solutions to problems with software. I will be using the term "invocation" and/or "call" throughout the article rather loosely and both reactive and responsive methods of executing code are encompassed by these terms for the purpose of this article. I'll also be referring to functions, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well. This article does not cover "Message Passing" in it's strict definition (i.e. function/method invocation as you would see in Smalltalk and Objective C).
+Function invocation forms the scaffolding between our otherwise disparate bits of code (provided we're [separating our concerns][2]) allowing us to compose solutions to problems with software. I will be using the term "invocation" and/or "call" throughout the article rather loosely and both reactive and responsive methods of executing code are encompassed by these terms for the purpose of this article. I'll also be referring to functions, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well.
 <br/>
 <br/>
 
@@ -92,7 +92,7 @@ Cons:
 
 **A Brief Interlude...**
 
-Both the "Plain Old Function Call" and "Observer Pattern" above are synchronous in nature. Synchronicity requires message passing be done in a _where_ and _when_ fashion.
+Both the "Plain Old Function Call" and "Observer Pattern" above are synchronous in nature. Synchronicity requires function invocation be done in a _where_ and _when_ fashion.
 
 Rich Hickey explains it nicely:
 
@@ -117,7 +117,7 @@ In sytems where you can describe something happening as an "event" (e.g. input h
 #### Message Queue
 
 
-
+implemented with actors is a type of message passing system. something about alan kay, something about smalltalk and something about mathematical models proving that message passing is no different to invocation.
 
 
 Message queues provide an asynchronous communications protocol, meaning that the sender and receiver of the message do not need to interact with the message queue at the same time. Messages placed onto the queue are stored until the recipient retrieves them. Message queues have implicit or explicit limits on the size of data that may be transmitted in a single message and the number of messages that may remain outstanding on the queue.
@@ -153,6 +153,8 @@ In all these sorts of situations, having a subsystem which performs message-queu
 
 
 #### Message Bus
+
+
 <br/>
 <br/>
 
