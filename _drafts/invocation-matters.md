@@ -4,7 +4,7 @@ title: "Invocation Matters"
 description: "Invocation Matters"
 tagline: "design"
 category: design
-tags : [concurrent, asynchronous, pattern, design]
+tags : [concurrent, asynchronous, patterns, design, publish/subscribe]
 ---
 {% include JB/setup %}
 <div class="intro">
