@@ -64,7 +64,8 @@ Cons:
 
  * does not execute tasks concurrently
  
- * is no good for loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions
+ * isn't great for loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions. In other words, if the time bound of the functions being called within the loop are unknown or otherwise relatively expensive compared to the loop execution speed itself, you may not be able to process events as quickly as they arrive or are generated.
+ 
 <br/>
 <br/>
  
@@ -82,7 +83,7 @@ Cons:
 
  * does not execute tasks concurrently
  
- * is no good for loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in execution speed due to an increase in observers. In other words, the larger the number of observers for thing "X", the larger the performance bottleneck becomes at thing "X" because thing "X" must now sequentially execute each observers callback individually each time the event they've registered to observe occurs.
+ * isn't great for loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions. In other words, the larger the number of observers for thing "X", the larger the performance bottleneck becomes at thing "X" because thing "X" must now sequentially execute each observers callback individually each time the event they've registered to observe occurs.
  
  * if for any reason the observer dies, or stops executing or whatever, the observable needs to explicitly handle the exception.
  
