@@ -43,8 +43,8 @@ tags : [concurrent, asynchronous, pattern, design]
 
 
 
-#### Fundamental 
-Function invocation forms the scaffolding between our otherwise disparate bits of code (provided we're [separating our concerns][2]) allowing us to compose solutions to problems with software. I will be using the term "invocation" and/or "call" throughout the article rather loosely and both reactive and responsive methods of executing code are encompassed by these terms for the purpose of this article. I'll also be referring to functions, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well.
+#### Fundamentally Speaking
+Function invocation forms the scaffolding between our otherwise disparate bits of code (provided we're [separating our concerns][2]) allowing us to compose solutions to problems with software. I will be using the term "invocation" and/or "call" throughout the article rather loosely and both reactive and responsive methods of executing code are encompassed by these terms for the purpose of this article. I'll also be referring to functions, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well. This article does not cover "Message Passing" in it's strict definition (i.e. function/method invocation as you would see in Smalltalk and Objective C).
 <br/>
 <br/>
 
