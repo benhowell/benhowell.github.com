@@ -4,7 +4,7 @@ title: "Invocation Matters"
 description: "Invocation Matters"
 tagline: "design"
 category: design
-tags : [concurrent, asynchronous, patterns, design, publish/subscribe]
+tags : [scalable, concurrent, asynchronous, patterns, design, publish/subscribe]
 ---
 {% include JB/setup %}
 <div class="intro">
@@ -17,13 +17,13 @@ tags : [concurrent, asynchronous, patterns, design, publish/subscribe]
 /ˌɪnvə(ʊ)ˈkeɪʃ(ə)n/
 
 <p>
-<span markdown="span">_To activate. One usually speaks of invoking a function or routine in a program. In this sense, the term invoke is synonymous with call._</span>
+<span markdown="span">_To activate. The action of invoking someone or something._</span>From the Latin verb invocare "to call on, invoke, to give".
 </p>
   <p>
   Function invocation is such a fundamental exercise in our daily programming lives that we barely give it a second thought. That is, until we have to. Issues such as scalability and concurrency, amongst others, sometimes force us to look for alternatives to the regular <span markdown="span">`X.call(Y)`</span> way of doing things. Indeed some libraries and languages actually force us to do so.
   </p>
   <p>
-  In this article, we'll take a look at some invocation strategies and outline the pros and cons of each.
+  In this article, we'll take a look at various invocation patterns and outline the pros and cons of each.
   </p>
   <br/>
   </div>
@@ -44,7 +44,7 @@ tags : [concurrent, asynchronous, patterns, design, publish/subscribe]
 
 
 #### Fundamentally Speaking
-Function invocation forms the scaffolding between our otherwise disparate bits of code (provided we're [separating our concerns][2]) allowing us to compose solutions to problems with software. I will be using the term "invocation" and/or "call" throughout the article rather loosely and both reactive and responsive methods of executing code are encompassed by these terms for the purpose of this article. I'll also be referring to functions, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well.
+Function invocation forms the scaffolding between our otherwise disparate bits of code (provided we're [separating our concerns][2]) allowing us to compose solutions to problems with software. I will be using the term "invocation" and/or "call" throughout the article rather loosely and both responsive and reactive methods of executing functions are encompassed by these terms for the purpose of this article. I'll also be referring to functions, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well.
 <br/>
 <br/>
 

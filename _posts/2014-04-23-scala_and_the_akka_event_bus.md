@@ -3,7 +3,7 @@ layout: post
 category : examples
 title: Publish/Subscribe using Scala and Akka EventBus
 tagline: "example"
-tags : [akka, EventBus, scala, concurrent, asynchronous, Publish/Subscribe, beginner, example, tutorial]
+tags : [akka, EventBus, scala, concurrent, asynchronous, publish/subscribe, beginner, example, tutorial]
 ---
 {% include JB/setup %}
 
