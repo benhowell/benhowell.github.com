@@ -30,7 +30,7 @@ From the Latin verb invocare "to call on, invoke, to give".
   <li>Plain Old Function Call</li>
   <li>Observer Pattern and Observables</li>
   <li>Message Queue</li>
-  <li>Event Bus</li>
+  <li>Event Bus</lee>
   </ul>
   
   </p>
@@ -48,7 +48,7 @@ From the Latin verb invocare "to call on, invoke, to give".
 <br/>
 <br/>
 
-Invocation forms the scaffolding between our otherwise disparate bits of code allowing us to compose solutions to problems with software. When I say "invocation", I'm talking about you, the omnipresent programmer, kicking some action off in code. Therefore the term "invocation" and/or "call", for the purposes of this article will cover both responsive and reactive methods of execution. I'll also be referring to functions, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well. Oh yeah, I may use any (or any part) of the following terms and thay are to be treated as synonyms: "publisher and subscriber", "producer and consumer", "caller and callee", "observer and observable".
+Invocation forms the scaffolding between our otherwise disparate bits of code allowing us to compose solutions to problems with software. When I say "invocation", I'm talking about you, the omnipresent programmer, kicking some action off in code. Therefore the term "invocation" and/or "call", for the purposes of this article will cover both responsive and reactive methods of execution. I'll also be referring to functions, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well. Oh yeah, I may use any (or any part) of the following terms and they are to be treated as synonyms: "publisher and subscriber", "producer and consumer", "caller and callee", "observer and observable".
 <br/>
 <br/>
 
@@ -77,7 +77,7 @@ Use:
 <br/>
  
 #### Observer Pattern and Observables
-The [observer pattern][3] is similar to the "plain old function call" above, in that it is also a synchronous call and whilst allowing for [separation of concerns][2], still suffers the same cons. Generally, in observer/observable implmentations, observers register their interest (using a callback) with certain events executed on the observable. The observable maintains this list of observer callbacks and each time an event occurs, the observable iterates over its list and calls each callback function in sequence. The observable is not tightly coupled with the entities observing it and doesn't care if it is not being observed at all. 
+The [observer pattern][3] is similar to the "plain old function call" above, in that it is also a synchronous call and whilst allowing for [separation of concerns][2], still suffers the same cons. Generally, in observer/observable implementations, observers register their interest (using a callback) with certain events executed on the observable. The observable maintains this list of observer callbacks and each time an event occurs, the observable iterates over its list and calls each callback function in sequence. The observable is not tightly coupled with the entities observing it and doesn't care if it is not being observed at all. 
 
 Pros:
  
@@ -116,7 +116,7 @@ Both the "Plain Old Function Call" and "Observer Pattern" above are synchronous 
 _If you're architecting a system where this thing deals with the input and then this thing has to do the next part of the job, well if thing "A" calls thing "B", you've just complected it. Now you have a when and where thing because now "A" needs to know where "B" is in order to call "B" and when that happens is whenever "A" does it. Stick a queue in there. Queues are the way to just get rid of this problem. If you're not using queues extensively then you should start, right away, like right after this talk._
 -- <cite>[Rich Hickey - Simple Made Easy][4]</cite>
 
-In sytems where you can describe something happening as an "event" or state change (e.g. input has been parsed, button has been pressed, some process has completed, a new data point has arrived, whatever), then synchronous execution may not be good enough. We wouldn't want, for example, our UI thread to hang and become unresponsive while another piece of code handles the button press event, nor would we want to wait until a data point has been processed before being able to accept another data point in the stream. 
+In systems where you can describe something happening as an "event" or state change (e.g. input has been parsed, button has been pressed, some process has completed, a new data point has arrived, whatever), then synchronous execution may not be good enough. We wouldn't want, for example, our UI thread to hang and become unresponsive while another piece of code handles the button press event, nor would we want to wait until a data point has been processed before being able to accept another data point in the stream. 
 
 ...which brings us to our asynchronous messaging patterns...
 <br/>
@@ -175,7 +175,7 @@ Use:
  
  * when not needing a guarantee that an event or message will be acted upon in a timely manner.
  
- * when one entity needs to notify another entity or entities of an event but doesn't require a reponse.
+ * when one entity needs to notify another entity or entities of an event but doesn't require a response.
 <br/>
 <br/>
 
@@ -219,9 +219,9 @@ Use:
  
  * when not needing a guarantee that an event or message will be acted upon in a timely manner.
  
- * when one entity needs to notify another entity or entities of an event but doesn't require a reponse.
+ * when one entity needs to notify another entity or entities of an event but doesn't require a response.
  
- * when publishers and consumers of various subsystems within your application are not impedence mismatched.
+ * when publishers and consumers of various subsystems within your application are not impedance mismatched.
  
  * when global consumers are needed (e.g. loggers). 
 <br/>
@@ -229,7 +229,7 @@ Use:
 
 #### Conclusion
 
-The choice of invocation should be a considered one. Sometimes we need an immediate response before we can continue, sometimes we don't require a response but need immediate execution and for these situations a synchronous invocation pattern might be best. On the other hand if we want a responsive process and don't require a response from events or state changes, then an asynchronous publish/subscribe pattern may be best. Other considerations like the amount of inter-process communication may mean we implement a single event bus, but then again, we might want to use individual message queues for high velocity parts of our system to avoid any possible bottlenecks with slow consumers on the event bus. Perhaps we need concurrency for some reason or another? Also there's decoupling, reuse, extensibility and amount of boilerplate to consider as well! 
+The choice of invocation should be a considered one. Sometimes we need an immediate response before we can continue, sometimes we don't require a response but need immediate execution and for these situations a synchronous invocation pattern might be best. On the other hand if we want a responsive process and don't require a response from events or state changes, then an asynchronous publish/subscribe pattern may be best. Other considerations like the amount of inter-process communication may mean we implement a single event bus, but then again, we might want to use individual message queues for high velocity parts of our system to avoid any possible bottlenecks with slow consumers on the event bus. Perhaps we need concurrency for some reason or another? Also there's decoupling, reuse, extensibility and amount of boilerplate to consider as well!
 
 Ultimately, the best solution could be a mixture of all the above patterns, both synchronous and asynchronous, or indeed the (infinitely) many other patterns not covered here. 
 <br/>
