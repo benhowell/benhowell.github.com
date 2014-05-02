@@ -73,11 +73,11 @@ Cons:
 <br/>
  
 #### Observer Pattern and Observables
-The [observer pattern][3] is similar to the "plain old function call" above, in that it is also a synchronous call and whilst allowing for [separation of concerns][2], still suffers the same cons. Generally, in observer/observable implmentations, observers register their interest (using a callback function) with certain events executed on the observable. The observable maintains this list of observers callbacks and each time an event occurs, the observable iterates over its list and calls each callback function in sequence.
+The [observer pattern][3] is similar to the "plain old function call" above, in that it is also a synchronous call and whilst allowing for [separation of concerns][2], still suffers the same cons. Generally, in observer/observable implmentations, observers register their interest (using a callback) with certain events executed on the observable. The observable maintains this list of observer callbacks and each time an event occurs, the observable iterates over its list and calls each callback function in sequence.
 
 Pros:
  
- * provides a mechanism for implementing [open/closed principle][5] (OCP). In other words, if we can add more functionality to our system (e.g. another observer) without changing the functionality of the thing that generates events (i.e. the observable) then we have OCP, that is software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification[^2].
+ * provides a mechanism for implementing [open/closed principle][5] (OCP). In other words, if we can add more functionality to our system (e.g. another observer) without changing the functionality of the thing that generates events (i.e. the observable) then we have OCP. Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification -- <cite>Meyer, Bertrand (1988)</cite>[^2].
  
  * removes the need for the observable to know how to call its individual observers (other than by the event handling function registered by the observer).
  
