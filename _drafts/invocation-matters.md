@@ -232,7 +232,8 @@ Use:
 The choice of invocation should be a considered one. Sometimes we need an immediate response before we can continue, sometimes we don't require a response but need immediate execution and for these situations then a synchronous invocation pattern is probably best. On the other hand if we want a responsive process and don't require a response from events or state changes, then an asynchronous publish/subscribe pattern may be best. Other considerations like the amount of inter-process communication may mean we implement a single event bus, but then again, we might want to use individual message queues for high velocity parts of our system to avaoid any possible bottlenecks with slow consumers on the event bus. Furthermore, there's decoupling, reuse, extensibility and amount of boilerplate to consider as well! 
 
 Ultimately, the best solution could be a mixture of all the above patterns, both synchronous and asynchronous, or indeed the (infinitely) many other patterns not covered here. 
-
+<br/>
+<br/>
 
 [1]:http://en.wikipedia.org/wiki/Message_passing
 [2]:http://en.wikipedia.org/wiki/Separation_of_concerns
