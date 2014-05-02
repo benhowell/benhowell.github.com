@@ -77,7 +77,7 @@ The [observer pattern][3] is similar to the "plain old function call" above, in 
 
 Pros:
  
- * provides a mechanism for implementing [open/closed principle][5] (OCP). In other words, if we can add more functionality to our system (e.g. another observer) without changing the functionality of the thing that generates events (i.e. the observable) then we have OCP. Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification -- <cite>[Meyer, Bertrand (1988)][^2]</cite>.
+ * provides a mechanism for implementing [open/closed principle][5] (OCP). In other words, if we can add more functionality to our system (e.g. another observer) without changing the functionality of the thing that generates events (i.e. the observable) then we have OCP. Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification -- <cite>[Meyer, Bertrand (1988)][6]</cite>[^2].
  
  * removes the need for the observable to know how to call its individual observers (other than by the event handling function registered by the observer).
  
@@ -293,7 +293,7 @@ Then keep adding handlers as needed Open for Extension Closed for Modification
 [3]:http://en.wikipedia.org/wiki/Observer_pattern
 [4]:http://www.infoq.com/presentations/Simple-Made-Easy
 [5]:http://en.wikipedia.org/wiki/Open/closed_principle
-
+[6]:http://www.amazon.com/Object-Oriented-Software-Construction-CD-ROM-Edition/dp/0136291554
 
 
 
