@@ -68,7 +68,7 @@ Cons:
  
  * inefficient and unmanageable when more than a small number of "other parties" need to be notified of events (i.e. a many-to-one relationship). 
  
- * isn't great for loops (UI, game, long running listener or polling tasks, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions. In other words, if the time bound of the functions being called within the loop are unknown or expensive compared to the loop execution speed itself, you may not be able to process events as quickly as they are generated.
+ * isn't great for loops (UI thread, game, long running listener or polling tasks, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions. In other words, if the time bound of the functions being called within the loop are unknown or expensive compared to the loop execution speed itself, you may not be able to process events as quickly as they are generated.
  
 Use:
 
@@ -92,7 +92,7 @@ Cons:
 
  * does not execute tasks concurrently
  
- * isn't great for loops (UI, game, long running listener or polling tasks, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions. In other words, the larger the number of observers for thing "X", the larger the performance bottleneck becomes at thing "X" because thing "X" must now sequentially execute each observers callback individually each time the event they've registered to observe occurs.
+ * isn't great for loops (UI thread, game, long running listener or polling tasks, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions. In other words, the larger the number of observers for thing "X", the larger the performance bottleneck becomes at thing "X" because thing "X" must now sequentially execute each observers callback individually each time the event they've registered to observe occurs.
  
  * if for any reason the observer dies or stops executing, the observable needs to explicitly handle the exception.
  
@@ -118,7 +118,7 @@ Both the "Plain Old Function Call" and "Observer Pattern" above are synchronous 
 _If you're architecting a system where this thing deals with the input and then this thing has to do the next part of the job, well if thing "A" calls thing "B", you've just complected it. Now you have a when and where thing because now "A" needs to know where "B" is in order to call "B" and when that happens is whenever "A" does it. Stick a queue in there. Queues are the way to just get rid of this problem. If you're not using queues extensively then you should start, right away, like right after this talk._
 -- <cite>[Rich Hickey - Simple Made Easy][4]</cite>
 
-In sytems where you can describe something happening as an "event" or state change (e.g. input has been parsed, button has been pressed, some process has completed, a new data point has arrived, whatever), then synchronous execution may not be good enough. We wouldn't want, for example, our UI to hang and become unresponsive while another piece of code handles the button press event and the actions that entails, nor would we want to wait until a data point has been processed before being able to accept another data point in the stream. In fact, most software would benefit by the reduction in entanglement asynchronous messaging patterns provide. To conclude, **unless the thing that generates the event needs to stop immediately and await the result of some other process that uses that event before being able to continue executing, then you'll benefit from asynchronous messaging** (and if this _is_ the case I would seriously consider refactoring your design).
+In sytems where you can describe something happening as an "event" or state change (e.g. input has been parsed, button has been pressed, some process has completed, a new data point has arrived, whatever), then synchronous execution may not be good enough. We wouldn't want, for example, our UI thread to hang and become unresponsive while another piece of code handles the button press event, nor would we want to wait until a data point has been processed before being able to accept another data point in the stream. 
 
 ...which brings us to our asynchronous messaging patterns...
 <br/>
@@ -129,6 +129,22 @@ In sytems where you can describe something happening as an "event" or state chan
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### Message Queue
 
 The Pattern
 
@@ -145,21 +161,6 @@ I think of it in terms of pushing and pulling. You have some code A that wants a
 Meanwhile, the natural way for B to process that request is by pulling it in at a convenient time in its run cycle. When you have a push model on one end and a pull model on the other, you need a buffer between them. That’s what a queue provides that simpler decoupling patterns don’t.
 
 Queues give control to the code that pulls from it: the receiver can delay processing, aggregate requests, or discard them entirely. But it does this by taking control away from the sender. All it can do is throw a request on the queue and hope for the best. This makes queues a poor fit when the sender needs a response.
-
-
-
-
-
-
-
-
-
-
-
-
-
-#### Message Queue
-
 
 implemented with actors is a type of message passing system. something about alan kay, something about smalltalk and something about mathematical models proving that message passing is no different to invocation.
 
