@@ -25,7 +25,14 @@ From the Latin verb invocare "to call on, invoke, to give".
   Function invocation is such a fundamental exercise in our daily programming lives that we barely give it a second thought. That is, until we have to. Issues such as scalability and concurrency, amongst others, sometimes force us to look for alternatives to the regular <span markdown="span">`X.call(Y)`</span> way of doing things. Indeed some libraries and languages actually force us to do so.
   </p>
   <p>
-  In this article, we'll take a look at various invocation patterns and outline the pros and cons of each.
+  In this article, we'll take a look the following invocation patterns and outline the pros and cons of each:
+  <ul>
+  <li>Plain Old Function Call</li>
+  <li>Observer Pattern and Observables</li>
+  <li>Message Queue</li>
+  <li>Event Bus</li>
+  </ul>
+  
   </p>
   <br/>
   </div>
@@ -227,13 +234,10 @@ Now if you consider a user with about 1 million followers, that person does not 
 <br/>
 <br/>
 
-#### Mediator?
-<br/>
-<br/>
 
 
 
-#### Message Bus
+#### Event Bus
 
 Some people like it because it is the embodiment of the Facade or Mediator pattern. It centralizes cross-cutting activities like logging, alerting, monitoring, security, etc.
 
