@@ -72,13 +72,13 @@ Cons:
 
  * tightly couples the caller and callee in both space and time.
  
- * isn't great for loops (UI, game, long running listener tasks, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions. In other words, if the time bound of the functions being called within the loop are unknown or otherwise relatively expensive compared to the loop execution speed itself, you may not be able to process events as quickly as they arrive or are generated.
+ * isn't great for loops (UI, game, long running listener or polling tasks, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions. In other words, if the time bound of the functions being called within the loop are unknown or otherwise relatively expensive compared to the loop execution speed itself, you may not be able to process events as quickly as they arrive or are generated.
  
 <br/>
 <br/>
  
 #### Observer Pattern and Observables
-The [Observer pattern][3] is similar to the "Plain Old Function Call" above, in that it is also a synchronous call and whilst allowing for separation of concerns, still suffers the same cons. Generally, in observer/observable implmentations, `observer`s register their interest (using a callback function) with certain events executed on the `observable`. The `observable` maintains this list of `observer`s callbacks and each time an event occurs, the `observable` iterates over its list and calls each callback function in sequence.
+The [observer pattern][3] is similar to the "plain old function call" above, in that it is also a synchronous call and whilst allowing for [separation of concern][2], still suffers the same cons. Generally, in observer/observable implmentations, observers register their interest (using a callback function) with certain events executed on the observable. The observable maintains this list of observers callbacks and each time an event occurs, the observable iterates over its list and calls each callback function in sequence.
 
 Pros:
  
