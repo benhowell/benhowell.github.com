@@ -59,14 +59,16 @@ Pros:
 
  * good for calling functions where no logical [separation of concern][2] exists.
  
- * if the thing that performs the invocation needs to stop immediately and await the result of the call before being able to continue executing.
+ * good if the thing that performs the invocation needs to stop immediately and await the result of the call before being able to continue executing.
  
  
 Cons:
 
  * tightly couples the caller and callee in both space and time.
  
- * isn't great for loops (UI, game, long running listener or polling tasks, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions. In other words, if the time bound of the functions being called within the loop are unknown or otherwise relatively expensive compared to the loop execution speed itself, you may not be able to process events as quickly as they arrive or are generated.
+ * inefficient and unmanageable when more than a small number of "other parties" need to be notified of events.
+ 
+ * isn't great for loops (UI, game, long running listener or polling tasks, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions. In other words, if the time bound of the functions being called within the loop are unknown or expensive compared to the loop execution speed itself, you may not be able to process events as quickly as they are generated.
  
 <br/>
 <br/>
