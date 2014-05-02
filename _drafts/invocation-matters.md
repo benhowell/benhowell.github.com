@@ -4,7 +4,7 @@ title: "Invocation Matters"
 description: "Invocation Matters"
 tagline: "design"
 category: design
-tags : [scalable, concurrent, asynchronous, patterns, design, publish/subscribe]
+tags : [reactive, scalable, concurrent, asynchronous, patterns, design, publish/subscribe]
 ---
 {% include JB/setup %}
 <div class="intro">
@@ -45,8 +45,8 @@ From the Latin verb invocare "to call on, invoke, to give".
 
 
 
-#### Fundamentally Speaking
-Invocation forms the scaffolding between our otherwise disparate bits of code (provided we're [separating our concerns][2]) allowing us to compose solutions to problems with software. When I say "invocation", I'm talking about you, the omnipresent programmer, invoking something or otherwise the mechanics of kicking some action off in code. Therefore the term "invocation" and/or "call", for the purposes of this article will cover both responsive and reactive methods of executing functions. I'll also be referring to functions, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well.
+#### Formally Speaking
+Invocation forms the scaffolding between our otherwise disparate bits of code (provided we're [separating our concerns][2]) allowing us to compose solutions to problems with software. When I say "invocation", I'm talking about you, the omnipresent programmer, kicking some action off in code. Therefore the term "invocation" and/or "call", for the purposes of this article will cover both responsive and reactive methods of execution. I'll also be referring to functions, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well.
 <br/>
 <br/>
 
@@ -91,8 +91,35 @@ Cons:
  
  * a lot of boilerplate is required for each implementation such as events, event listener interfaces (containing the observables callback handlers) and the event trigger functionality to iterate over and call all the callbacks. This boilerplate grows linearly with each new event type. Of course, YMMV depending on language.
  
+ 
+Uses:
+
+ * when you have a one to many relationship
+ 
+ The observer pattern is used when:
+the change of a state in one object must be reflected in another object without keeping the objects tight coupled.
+the framework we are writing needs to be enhanced in future with new observers with minimal changes.
+Event management - This is one of the domains where the Observer patterns is extensively used. Swing and .Net are extensively using the Observer pattern for implementing the events mechanism.
+ 
+ 
 <br/>
 <br/>
+
+Now, to do this we have to call some kind of method. We don't want the Observable class to be tightly coupled with the classes that are interested in observing it. It doesn't care who it is as long as it fulfils certain criteria. (Imagine it is a radio station, it doesn't care who is listening as long as they have an FM radio tuned on their frequency). To achieve that we use an interface, referred to as the Observer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 **A Brief Interlude...**
 
@@ -116,6 +143,7 @@ In sytems where you can describe something happening as an "event" (e.g. input h
 
 
 The Pattern
+
 A queue stores a series of notifications or requests in first-in, first-out order. Sending a notification enqueues the request and returns. The request processor then processes items from the queue at a later time.
 
 Requests can be handled directly, or routed to interested parties. This decouples the sender from the receiver both statically and in time.
@@ -166,8 +194,32 @@ Applications need not be exclusively synchronous or asynchronous. An interactive
 In all these sorts of situations, having a subsystem which performs message-queuing (or alternatively, a broadcast messaging system) can help improve the behaviour of the overall system.
 
 
+1. Decoupling heavy-weight processing from a live user request. Essentially a way to say "do this work as soon as possible" when you don't need to block for the answer. One motivation for this may be to allow message processors to run at full tilt (100% cpu utilization or whatever) without impact to the latency sensitive message producer. Note that this only actually makes sense if the cost of sending the message to the queue is lower than the cost of processing it (which is often not true in these days of plentiful cpu).
 
+2. As a buffer to help batch up messages for some kind of bulk processing--say a JDBC batch insert into a database or adding to an HDFS file. In each of these cases adding one message at a time would be very inefficient, so you need a temporary holding place.
 
+3. Dividing up work among multiple worker nodes that feed off the queue as a way to balance work over multiple machines to get a poor man's distributed processing.
+
+You don't need a special purpose queue, though, to accomplish many of these things. You often see people just polling for new records in a database as a simple way to build a queue, and in many cases there is nothing wrong with that. Likewise many other uses can be avoided by just co-locating processing steps and using a simple in-memory queue to buffer in between.
+
+Any time you have a task to do that is not part of the base task the user is having on your website. Here's a few examples of what this could mean:
+
+Picture resize: your user uploads pictures to your website. They need to be resized, or maybe you need to create thumbnails of those to show a preview somewhere. The user does not "care" about this, he has finished uploading his stuff, he should not have to wait for you to process them before having a response. So you queue that task to somewhere else. The result of the resizing task does not impact the response (meaning that on the contrary, validating that a pdf doc does not contain profanity before accepting it, should not be done in a queue because you need that info to generate your response).
+Video encoding: if you're building Youtube, you probably are not going to ask your user to wait until his video has been converted from avi to flash / x264 / webM before telling him his file was uploaded correctly.
+Sending emails
+Search engine indexing: say you're building a CRM, your user modifies the info of a client company. That the info is correctly saved in DB is enough to send a reply to the user. Integrating that new info in your search engine index can happen minutes later without it being an issue.
+Pushing a tweet: if your user has set that his account on your app (let's say a blog engine) has to be integrated with his twitter account, if his blog post has been saved and published, it's enough for you to tell him "everything went fine", and then put the tweet to be sent in a message queue so an other server will do that. Here it's no big deal if you run your blogs as single instances, but if this is part of the response generation, then what happens when twitter is down? Can you still save your post? If yes, then the tweet won't be sent... If it's in a message queue, even with twitter down (or you exceeding your twitter api limit), the message will stay there until it can actually be consumed. Also if your blog platform becomes the next tumblr, you'll have so many tweets to send that it's going to become a big deal and you'll need to completely have it separated from the base app.
+
+So any time something is not part of the most basic transaction the user is trying to do, and the result does not impact the response you're sending to the user, there is a potential use case for a message queue!
+
+UPDATE: I didn't see the second part of the question at first. For sending emails in the app we're building, the basic info regarding the email to be sent is saved into DB, then every X amount of time, we check the DB for new records and send emails accordingly. Doing it this way allows us to do some grouping of emails. For example if say a contract has been created for company XYZ, then the services A and B were added to that contract. Then later in the afternoon, B was removed and C was added. Then it went from a "proposal" contract to a "request for quotation". The guy who needs to approve it and decided to receive updates only once a day does not want to receive notifications about each of those steps. So having a DB where you'll store maybe the contract's id will allow you to group these, where on the opposite a message queue usually won't.
+
+UPDATE 2:
+Just read an article this morning that tells how it works in the case of Twitter for example.
+When you connect to your twitter timeline, the timeline is not built everytime you connect by querying the tweets from people you were following and sorting them by time of tweet as this would not be efficient for response time.
+Instead what they do is everytime someone posts a tweet, they will write this tweet to the timelines of all the followers. Timelines are kept in cache and this way they are always pre-built and available without much computing (less efficient on the storage side, more efficient on the computing needs side).
+
+Now if you consider a user with about 1 million followers, that person does not want to wait until twitter has finished saving his tweet 1 million times. Therefore a message queue is used. Like a big pipe sending to different servers that "this tweet just happened, need to update the appropriate timelines now". The process could take half a millisecond or a minute, there would be no difference for the person who sent the tweet. The only person this could make a difference to are the 1 million followers because some of them will have the new tweet pushed to their timelines before others.
 
 
 
@@ -181,6 +233,51 @@ In all these sorts of situations, having a subsystem which performs message-queu
 
 
 #### Message Bus
+
+Some people like it because it is the embodiment of the Facade or Mediator pattern. It centralizes cross-cutting activities like logging, alerting, monitoring, security, etc.
+
+Some people don't like it because it is often a Singleton point of failure. Everything has to know about it.
+
+
+I am considering using a In memory Event Bus for my regular java code and my rationale is as follows
+
+Each object in the system can listen to each message, and I think it's bad, it breaks the Encapsulation principle (each object knows about everything)
+
+I am not sure if this is really true, I class needs to register with the event bus to start with, similar to observer pattern, Once a class has registered with the Event Bus, only the methods which have the appropriate signature and annotation are notified.
+
+and Single Responsibility principle (eg when some object needs to a new type of message, event bus often needs to be changed for example to add a new Listener class or a new method in the Listener class).
+
+I totally disagree with
+
+event bus often needs to be changed
+
+The event bus is never changed
+
+I agree with
+
+add a new Listener class or a new method in the Listener class
+How does this break SRP ?, I can have a BookEventListener which subscribes to all events pertaining to my Book Entity, and yes I can add methods to this class but still this class is cohesive ...
+
+Why I plan to use it ? It helps me model the "when" of my domain ....
+
+Usually we hear some thing like send a mail "when" book is purchased
+
+we go write down
+
+book.purchase();
+sendEmail()
+Then we are told add a audit log when a book is purchased , we go to the above snippet
+
+book.purchase();
+sendEmail();
+**auditBook();**
+Right there OCP violated
+
+I Prefer
+
+book.purchase();
+EventBus.raiseEvent(bookPurchasedEvent);
+Then keep adding handlers as needed Open for Extension Closed for Modification
 
 
 <br/>
