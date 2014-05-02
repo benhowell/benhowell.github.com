@@ -49,7 +49,6 @@ From the Latin verb invocare "to call on, invoke, to give".
 <br/>
 
 Invocation forms the scaffolding between our otherwise disparate bits of code allowing us to compose solutions to problems with software. When I say "invocation", I'm talking about you, the omnipresent programmer, kicking some action off in code. Therefore the term "invocation" and/or "call", for the purposes of this article will cover both responsive and reactive methods of execution. I'll also be referring to functions, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well.
-
 <br/>
 <br/>
 
@@ -70,7 +69,6 @@ Cons:
  * inefficient and unmanageable when more than a small number of "other parties" need to be notified of events (i.e. a many-to-one relationship). 
  
  * isn't great for loops (UI, game, long running listener or polling tasks, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions. In other words, if the time bound of the functions being called within the loop are unknown or expensive compared to the loop execution speed itself, you may not be able to process events as quickly as they are generated.
- 
 <br/>
 <br/>
  
