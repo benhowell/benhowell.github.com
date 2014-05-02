@@ -22,7 +22,7 @@ tags : [reactive, scalable, concurrent, asynchronous, patterns, design, publish/
 From the Latin verb invocare "to call on, invoke, to give".
 </p>
   <p>
-  Function invocation is such a fundamental exercise in our daily programming lives that we barely give it a second thought. That is, unless we have to. Issues such as scalability, portability, modularity and concurrency, amongst others, sometimes force us to look for alternatives to the regular <span markdown="span">`X.call(Y)`</span> way of doing things. Indeed some libraries and languages actually force us to do so.
+  Function invocation is such a fundamental exercise in our daily programming lives that we barely give it a second thought. That is, unless we have to. Issues such as scalability, portability, modularity and concurrency amongst others, sometimes force us to look for alternatives to the regular way of doing things. Indeed some libraries and languages actually force us to do so.
   </p>
   <p>
   In this article, we'll take a look the following patterns and outline the pros and cons of each:
