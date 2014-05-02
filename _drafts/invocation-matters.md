@@ -48,7 +48,7 @@ From the Latin verb invocare "to call on, invoke, to give".
 <br/>
 <br/>
 
-Invocation forms the scaffolding between our otherwise disparate bits of code allowing us to compose solutions to problems with software. When I say "invocation", I'm talking about you, the omnipresent programmer, kicking some action off in code. Therefore the term "invocation" and/or "call", for the purposes of this article will cover both responsive and reactive methods of execution. I'll also be referring to functions, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well.
+Invocation forms the scaffolding between our otherwise disparate bits of code allowing us to compose solutions to problems with software. When I say "invocation", I'm talking about you, the omnipresent programmer, kicking some action off in code. Therefore the term "invocation" and/or "call", for the purposes of this article will cover both responsive and reactive methods of execution. I'll also be referring to functions, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well. Oh yeah, I may use any (or any part) of the following terms and thay are to be treated as synonyms: "publisher and subscriber", "producer and consumer", "caller and callee", "observer and observable".
 <br/>
 <br/>
 
@@ -68,7 +68,7 @@ Cons:
  
  * inefficient and unmanageable when more than a small number of "other parties" need to be notified of events (i.e. a many-to-one relationship). 
  
- * isn't great for loops (UI thread, game, long running listener or polling tasks, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions. In other words, if the time bound of the functions being called within the loop are unknown or expensive compared to the loop execution speed itself, you may not be able to process events as quickly as they are generated.
+ * isn't great for responsive system (UI thread, game loop, long running listener or polling tasks, operating system kernel, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions. In other words, if the time bound of the functions being called within the loop are unknown or expensive compared to the loop execution speed itself, you may not be able to process events as quickly as they are generated.
  
 Use:
 
@@ -81,18 +81,15 @@ The [observer pattern][3] is similar to the "plain old function call" above, in 
 
 Pros:
  
- * provides a mechanism for implementing [open/closed principle][5] (OCP). In other words, if we can add more functionality to our system (e.g. another observer) without changing the functionality of the thing that generates events (i.e. the observable) then we have OCP. Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification -- <cite>[Meyer, Bertrand (1988)][6]</cite>[^2].
+ * provides a mechanism for implementing [open/closed principle][5] (OCP). In other words, if we can add more functionality to our system (e.g. another observer) without changing the functionality of the thing that generates events (i.e. the observable) then we have OCP. _Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification_ -- <cite>[Meyer, Bertrand (1988)][6]</cite>[^2].
  
  * removes the need for the observable to know how to call its individual observers (other than by the event handling function registered by the observer).
- 
- * efficient and manageable (in development terms) when many "other parties" need to be notified of events (i.e. a many-to-one relationship).
- 
  
 Cons:
 
  * does not execute tasks concurrently
  
- * isn't great for loops (UI thread, game, long running listener or polling tasks, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions. In other words, the larger the number of observers for thing "X", the larger the performance bottleneck becomes at thing "X" because thing "X" must now sequentially execute each observers callback individually each time the event they've registered to observe occurs.
+ * isn't great for responsive system (UI thread, game loop, long running listener or polling tasks, operating system kernel, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions. In other words, the larger the number of observers for thing "X", the larger the performance bottleneck becomes at thing "X" because thing "X" must now sequentially execute each observers callback individually each time the event they've registered to observe occurs.
  
  * if for any reason the observer dies or stops executing, the observable needs to explicitly handle the exception.
  
@@ -100,6 +97,7 @@ Cons:
  
  * a lot of boilerplate is required for each implementation for things such as events, event listener interfaces (containing the observables callback handlers) and the event trigger functionality to iterate over and call all the callbacks. This boilerplate grows linearly with each new event type. Of course, YMMV a bit depending on language.
  
+ * more complex to implement than other patterns (see "Message Queue" below). 
  
 Use:
 
@@ -145,73 +143,39 @@ In sytems where you can describe something happening as an "event" or state chan
 
 
 #### Message Queue
+The [message queue][7] is an asynchronous messaging pattern that uses a first in, first out (FIFO) queue as a buffer between caller and callee. When an event or state change occurs, a caller can enqueue a message on the message queue, and, at a later point in time, a consumer can process that message or event by removing it from that queue. The consumer will process messages in the order of arrival (FIFO). Message queues decouple caller and callee in both space and time, that is "X" doesn't care where "Y" is or when (or if) "Y" will act on an event or message. The callee can process messages from the queue when it's good and ready which means the producer is no longer in control. Message queues may also have rules for message expiry and the like but that is beyond the scope of this article. The message queue pattern is a version of the publish/subscribe pattern, and you can find a complete code example in a previous article: [Publish/Subscribe using Scala and Akka EventStream]({% post_url 2014-04-18-scala-and-the-akka-eventstream %})
 
-The Pattern
+Pros:
 
-A queue stores a series of notifications or requests in first-in, first-out order. Sending a notification enqueues the request and returns. The request processor then processes items from the queue at a later time.
+ * decouples caller and callee in both space and time.
 
-Requests can be handled directly, or routed to interested parties. This decouples the sender from the receiver both statically and in time.
+ * efficient and manageable (in development terms) when many "other parties" need to be notified of events (i.e. a many-to-one relationship).
+ 
+ * allows concurrent execution
+ 
+ * good for loops (UI thread, game, long running listener or polling tasks, etc.) as execution is not blocked within the loop. As soon as an event or message is pushed onto the message queue, execution continues.
+ 
+ * consumers can increase without modification to caller.
+ 
+ * execution speed of the caller is not affected by a growth in consumers or in the time taken to execute messages in the queue.
+ 
+ * simple to implement.
 
-When to Use It
-If you just want to decouple who receives a message from its sender, patterns like Observer and Command will take care of you with less complexity. You only need a queue when you want to decouple something in time.
+Cons:
 
-I mention this in nearly every chapter, but it’s worth emphasizing. Complexity slows you down, so treat simplicity as a precious resource.
-I think of it in terms of pushing and pulling. You have some code A that wants another chunk B to do some work. The natural way for A to initiate that is by pushing the request to B.
+ * no guarantees that the message or event will be executed in a timely manner, or even at all.
+ 
+ * not good when you need immediate feedback from the callee before being able to continue execution.
 
-Meanwhile, the natural way for B to process that request is by pulling it in at a convenient time in its run cycle. When you have a push model on one end and a pull model on the other, you need a buffer between them. That’s what a queue provides that simpler decoupling patterns don’t.
+Use:
 
-Queues give control to the code that pulls from it: the receiver can delay processing, aggregate requests, or discard them entirely. But it does this by taking control away from the sender. All it can do is throw a request on the queue and hope for the best. This makes queues a poor fit when the sender needs a response.
-
-implemented with actors is a type of message passing system. something about alan kay, something about smalltalk and something about mathematical models proving that message passing is no different to invocation.
-
-
-Message queues provide an asynchronous communications protocol, meaning that the sender and receiver of the message do not need to interact with the message queue at the same time. Messages placed onto the queue are stored until the recipient retrieves them. Message queues have implicit or explicit limits on the size of data that may be transmitted in a single message and the number of messages that may remain outstanding on the queue.
-
-Many implementations of message queues function internally: within an operating system or within an application. Such queues exist for the purposes of that system only.[1][2][3]
-
-
-
-
-
-
-An application may need to notify another that an event has occurred, but does not need to wait for a response.
-In publish/subscribe systems, an application "publishes" information for any number of clients to read.
-In both of the above examples it would not make sense for the sender of the information to have to wait if, for example, one of the recipients had crashed.
-
-Applications need not be exclusively synchronous or asynchronous. An interactive application may need to respond to certain parts of a request immediately (such as telling a customer that a sales request has been accepted, and handling the promise to draw on inventory), but may queue other parts (such as completing calculation of billing, forwarding data to the central accounting system, and calling on all sorts of other services) to be done some time later.
-
-In all these sorts of situations, having a subsystem which performs message-queuing (or alternatively, a broadcast messaging system) can help improve the behaviour of the overall system.
-
-
-1. Decoupling heavy-weight processing from a live user request. Essentially a way to say "do this work as soon as possible" when you don't need to block for the answer. One motivation for this may be to allow message processors to run at full tilt (100% cpu utilization or whatever) without impact to the latency sensitive message producer. Note that this only actually makes sense if the cost of sending the message to the queue is lower than the cost of processing it (which is often not true in these days of plentiful cpu).
-
-2. As a buffer to help batch up messages for some kind of bulk processing--say a JDBC batch insert into a database or adding to an HDFS file. In each of these cases adding one message at a time would be very inefficient, so you need a temporary holding place.
-
-3. Dividing up work among multiple worker nodes that feed off the queue as a way to balance work over multiple machines to get a poor man's distributed processing.
-
-You don't need a special purpose queue, though, to accomplish many of these things. You often see people just polling for new records in a database as a simple way to build a queue, and in many cases there is nothing wrong with that. Likewise many other uses can be avoided by just co-locating processing steps and using a simple in-memory queue to buffer in between.
-
-Any time you have a task to do that is not part of the base task the user is having on your website. Here's a few examples of what this could mean:
-
-Picture resize: your user uploads pictures to your website. They need to be resized, or maybe you need to create thumbnails of those to show a preview somewhere. The user does not "care" about this, he has finished uploading his stuff, he should not have to wait for you to process them before having a response. So you queue that task to somewhere else. The result of the resizing task does not impact the response (meaning that on the contrary, validating that a pdf doc does not contain profanity before accepting it, should not be done in a queue because you need that info to generate your response).
-Video encoding: if you're building Youtube, you probably are not going to ask your user to wait until his video has been converted from avi to flash / x264 / webM before telling him his file was uploaded correctly.
-Sending emails
-Search engine indexing: say you're building a CRM, your user modifies the info of a client company. That the info is correctly saved in DB is enough to send a reply to the user. Integrating that new info in your search engine index can happen minutes later without it being an issue.
-Pushing a tweet: if your user has set that his account on your app (let's say a blog engine) has to be integrated with his twitter account, if his blog post has been saved and published, it's enough for you to tell him "everything went fine", and then put the tweet to be sent in a message queue so an other server will do that. Here it's no big deal if you run your blogs as single instances, but if this is part of the response generation, then what happens when twitter is down? Can you still save your post? If yes, then the tweet won't be sent... If it's in a message queue, even with twitter down (or you exceeding your twitter api limit), the message will stay there until it can actually be consumed. Also if your blog platform becomes the next tumblr, you'll have so many tweets to send that it's going to become a big deal and you'll need to completely have it separated from the base app.
-
-So any time something is not part of the most basic transaction the user is trying to do, and the result does not impact the response you're sending to the user, there is a potential use case for a message queue!
-
-UPDATE: I didn't see the second part of the question at first. For sending emails in the app we're building, the basic info regarding the email to be sent is saved into DB, then every X amount of time, we check the DB for new records and send emails accordingly. Doing it this way allows us to do some grouping of emails. For example if say a contract has been created for company XYZ, then the services A and B were added to that contract. Then later in the afternoon, B was removed and C was added. Then it went from a "proposal" contract to a "request for quotation". The guy who needs to approve it and decided to receive updates only once a day does not want to receive notifications about each of those steps. So having a DB where you'll store maybe the contract's id will allow you to group these, where on the opposite a message queue usually won't.
-
-UPDATE 2:
-Just read an article this morning that tells how it works in the case of Twitter for example.
-When you connect to your twitter timeline, the timeline is not built everytime you connect by querying the tweets from people you were following and sorting them by time of tweet as this would not be efficient for response time.
-Instead what they do is everytime someone posts a tweet, they will write this tweet to the timelines of all the followers. Timelines are kept in cache and this way they are always pre-built and available without much computing (less efficient on the storage side, more efficient on the computing needs side).
-
-Now if you consider a user with about 1 million followers, that person does not want to wait until twitter has finished saving his tweet 1 million times. Therefore a message queue is used. Like a big pipe sending to different servers that "this tweet just happened, need to update the appropriate timelines now". The process could take half a millisecond or a minute, there would be no difference for the person who sent the tweet. The only person this could make a difference to are the 1 million followers because some of them will have the new tweet pushed to their timelines before others.
-
-
-
+ * when you want to decouple caller and callee in both space and time.
+ 
+ * when you need to maintain a responsive system (UI thread, game loop, long running listener or polling tasks, operating system kernel, etc.).
+ 
+ * when not needing a guarantee that an event or message will be acted upon in a timely manner.
+ 
+ * when one entitee needs to notify another entity of an event but doesn't require a reponse.
 <br/>
 <br/>
 
@@ -272,13 +236,74 @@ Then keep adding handlers as needed Open for Extension Closed for Modification
 
 
 
+
+
+In publish/subscribe systems, an application "publishes" information for any number of clients to read.
+In both of the above examples it would not make sense for the sender of the information to have to wait if, for example, one of the recipients had crashed.
+
+Applications need not be exclusively synchronous or asynchronous. An interactive application may need to respond to certain parts of a request immediately (such as telling a customer that a sales request has been accepted, and handling the promise to draw on inventory), but may queue other parts (such as completing calculation of billing, forwarding data to the central accounting system, and calling on all sorts of other services) to be done some time later.
+
+In all these sorts of situations, having a subsystem which performs message-queuing (or alternatively, a broadcast messaging system) can help improve the behaviour of the overall system.
+
+
+
+
+
+1. Decoupling heavy-weight processing from a live user request. Essentially a way to say "do this work as soon as possible" when you don't need to block for the answer. One motivation for this may be to allow message processors to run at full tilt (100% cpu utilization or whatever) without impact to the latency sensitive message producer. Note that this only actually makes sense if the cost of sending the message to the queue is lower than the cost of processing it (which is often not true in these days of plentiful cpu).
+
+2. As a buffer to help batch up messages for some kind of bulk processing--say a JDBC batch insert into a database or adding to an HDFS file. In each of these cases adding one message at a time would be very inefficient, so you need a temporary holding place.
+
+3. Dividing up work among multiple worker nodes that feed off the queue as a way to balance work over multiple machines to get a poor man's distributed processing.
+
+You don't need a special purpose queue, though, to accomplish many of these things. You often see people just polling for new records in a database as a simple way to build a queue, and in many cases there is nothing wrong with that. Likewise many other uses can be avoided by just co-locating processing steps and using a simple in-memory queue to buffer in between.
+
+Any time you have a task to do that is not part of the base task the user is having on your website. Here's a few examples of what this could mean:
+
+Picture resize: your user uploads pictures to your website. They need to be resized, or maybe you need to create thumbnails of those to show a preview somewhere. The user does not "care" about this, he has finished uploading his stuff, he should not have to wait for you to process them before having a response. So you queue that task to somewhere else. The result of the resizing task does not impact the response (meaning that on the contrary, validating that a pdf doc does not contain profanity before accepting it, should not be done in a queue because you need that info to generate your response).
+Video encoding: if you're building Youtube, you probably are not going to ask your user to wait until his video has been converted from avi to flash / x264 / webM before telling him his file was uploaded correctly.
+Sending emails
+Search engine indexing: say you're building a CRM, your user modifies the info of a client company. That the info is correctly saved in DB is enough to send a reply to the user. Integrating that new info in your search engine index can happen minutes later without it being an issue.
+Pushing a tweet: if your user has set that his account on your app (let's say a blog engine) has to be integrated with his twitter account, if his blog post has been saved and published, it's enough for you to tell him "everything went fine", and then put the tweet to be sent in a message queue so an other server will do that. Here it's no big deal if you run your blogs as single instances, but if this is part of the response generation, then what happens when twitter is down? Can you still save your post? If yes, then the tweet won't be sent... If it's in a message queue, even with twitter down (or you exceeding your twitter api limit), the message will stay there until it can actually be consumed. Also if your blog platform becomes the next tumblr, you'll have so many tweets to send that it's going to become a big deal and you'll need to completely have it separated from the base app.
+
+So any time something is not part of the most basic transaction the user is trying to do, and the result does not impact the response you're sending to the user, there is a potential use case for a message queue!
+
+UPDATE: I didn't see the second part of the question at first. For sending emails in the app we're building, the basic info regarding the email to be sent is saved into DB, then every X amount of time, we check the DB for new records and send emails accordingly. Doing it this way allows us to do some grouping of emails. For example if say a contract has been created for company XYZ, then the services A and B were added to that contract. Then later in the afternoon, B was removed and C was added. Then it went from a "proposal" contract to a "request for quotation". The guy who needs to approve it and decided to receive updates only once a day does not want to receive notifications about each of those steps. So having a DB where you'll store maybe the contract's id will allow you to group these, where on the opposite a message queue usually won't.
+
+UPDATE 2:
+Just read an article this morning that tells how it works in the case of Twitter for example.
+When you connect to your twitter timeline, the timeline is not built everytime you connect by querying the tweets from people you were following and sorting them by time of tweet as this would not be efficient for response time.
+Instead what they do is everytime someone posts a tweet, they will write this tweet to the timelines of all the followers. Timelines are kept in cache and this way they are always pre-built and available without much computing (less efficient on the storage side, more efficient on the computing needs side).
+
+Now if you consider a user with about 1 million followers, that person does not want to wait until twitter has finished saving his tweet 1 million times. Therefore a message queue is used. Like a big pipe sending to different servers that "this tweet just happened, need to update the appropriate timelines now". The process could take half a millisecond or a minute, there would be no difference for the person who sent the tweet. The only person this could make a difference to are the 1 million followers because some of them will have the new tweet pushed to their timelines before others.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [1]:http://en.wikipedia.org/wiki/Message_passing
 [2]:http://en.wikipedia.org/wiki/Separation_of_concerns
 [3]:http://en.wikipedia.org/wiki/Observer_pattern
 [4]:http://www.infoq.com/presentations/Simple-Made-Easy
 [5]:http://en.wikipedia.org/wiki/Open/closed_principle
 [6]:http://www.amazon.com/Object-Oriented-Software-Construction-CD-ROM-Edition/dp/0136291554
-
+[7]:http://en.wikipedia.org/wiki/Message_queue
 
 
 
