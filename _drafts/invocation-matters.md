@@ -22,10 +22,10 @@ tags : [reactive, scalable, concurrent, asynchronous, patterns, design, publish/
 From the Latin verb invocare "to call on, invoke, to give".
 </p>
   <p>
-  Function invocation is such a fundamental exercise in our daily programming lives that we barely give it a second thought. That is, until we have to. Issues such as scalability and concurrency, amongst others, sometimes force us to look for alternatives to the regular <span markdown="span">`X.call(Y)`</span> way of doing things. Indeed some libraries and languages actually force us to do so.
+  Function invocation is such a fundamental exercise in our daily programming lives that we barely give it a second thought. That is, unless we have to. Issues such as scalability, portability, modularity and concurrency, amongst others, sometimes force us to look for alternatives to the regular <span markdown="span">`X.call(Y)`</span> way of doing things. Indeed some libraries and languages actually force us to do so.
   </p>
   <p>
-  In this article, we'll take a look the following invocation patterns and outline the pros and cons of each:
+  In this article, we'll take a look the following patterns and outline the pros and cons of each:
   <ul>
   <li>Plain Old Function Call</li>
   <li>Observer Pattern and Observables</li>
@@ -63,14 +63,14 @@ Invocation forms the scaffolding between our otherwise disparate bits of code (p
 
 Pros:
 
- * good for invoking functions within the same module
+ * good for calling functions where no logical [separation of concern][2] exists.
  
- * good for calling functions where no logical [separation of concern][2] exists
+ * if the thing that performs the invocation needs to stop immediately and await the result of the call before being able to continue executing.
  
  
 Cons:
 
- * does not execute tasks concurrently
+ * tightly couples the caller and callee in both space and time.
  
  * isn't great for loops (UI, game, long running listener tasks, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions. In other words, if the time bound of the functions being called within the loop are unknown or otherwise relatively expensive compared to the loop execution speed itself, you may not be able to process events as quickly as they arrive or are generated.
  
