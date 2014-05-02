@@ -66,9 +66,9 @@ Cons:
 
  * tightly couples the caller and callee in both space and time.
  
- * inefficient and unmanageable when more than a small number of "other parties" need to be notified of events (i.e. a many-to-one relationship). 
+ * inefficient and unmanageable when more than a small number of "other parties" need to be notified of events (i.e. a one-to-many relationship). 
  
- * isn't great for responsive system (UI thread, game loop, long running listener or polling tasks, operating system kernel, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions. In other words, if the time bound of the functions being called within the loop are unknown or expensive compared to the loop execution speed itself, you may not be able to process events as quickly as they are generated.
+ * isn't great for responsive systems (UI thread, game loop, long running listener or polling tasks, operating system kernel, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions. In other words, if the time bound of the functions being called within the loop are unknown or expensive compared to the loop execution speed itself, you may not be able to process events as quickly as they are generated.
  
 Use:
 
@@ -89,7 +89,7 @@ Cons:
 
  * does not execute tasks concurrently
  
- * isn't great for responsive system (UI thread, game loop, long running listener or polling tasks, operating system kernel, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions. In other words, the larger the number of observers for thing "X", the larger the performance bottleneck becomes at thing "X" because thing "X" must now sequentially execute each observers callback individually each time the event they've registered to observe occurs.
+ * isn't great for responsive systems (UI thread, game loop, long running listener or polling tasks, operating system kernel, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions. In other words, the larger the number of observers for thing "X", the larger the performance bottleneck becomes at thing "X" because thing "X" must now sequentially execute each observers callback individually each time the event they've registered to observe occurs.
  
  * if for any reason the observer dies or stops executing, the observable needs to explicitly handle the exception.
  
@@ -143,17 +143,17 @@ In sytems where you can describe something happening as an "event" or state chan
 
 
 #### Message Queue
-The [message queue][7] is an asynchronous messaging pattern that uses a first in, first out (FIFO) queue as a buffer between caller and callee. When an event or state change occurs, a caller can enqueue a message on the message queue, and, at a later point in time, a consumer can process that message or event by removing it from that queue. The consumer will process messages in the order of arrival (FIFO). Message queues decouple caller and callee in both space and time, that is "X" doesn't care where "Y" is or when (or if) "Y" will act on an event or message. The callee can process messages from the queue when it's good and ready which means the producer is no longer in control. Message queues may also have rules for message expiry and the like but that is beyond the scope of this article. The message queue pattern is a version of the publish/subscribe pattern, and you can find a complete code example in a previous article: [Publish/Subscribe using Scala and Akka EventStream]({% post_url 2014-04-18-scala-and-the-akka-eventstream %})
+The [message queue][7] is an asynchronous messaging pattern that uses a first in, first out (FIFO) queue as a buffer between caller and callee. When an event or state change occurs, a caller can enqueue a message on the message queue, and, at a later point in time, a consumer can process that message or event by removing it from that queue. The consumer will process messages in the order of arrival (FIFO). Message queues decouple caller and callee in both space and time, that is "X" doesn't care where "Y" is or when (or if) "Y" will act on an event or message. The callee can process messages from the queue when it's good and ready which means the producer is no longer in control. Message queues may also have rules for message expiry and the like but that's beyond the scope of this article. The message queue pattern is a version of the publish/subscribe pattern, and you can find a complete code example in a previous article: [Publish/Subscribe using Scala and Akka EventStream]({% post_url 2014-04-18-scala-and-the-akka-eventstream %})
 
 Pros:
 
  * decouples caller and callee in both space and time.
 
- * efficient and manageable (in development terms) when many "other parties" need to be notified of events (i.e. a many-to-one relationship).
+ * efficient and manageable (in development terms) when many "other parties" need to be notified of events (i.e. a one-to-many relationship).
  
  * allows concurrent execution
  
- * good for loops (UI thread, game, long running listener or polling tasks, etc.) as execution is not blocked within the loop. As soon as an event or message is pushed onto the message queue, execution continues.
+ * good for responsive systems (UI thread, game, long running listener or polling tasks, etc.) as execution is not blocked within the loop. As soon as an event or message is pushed onto the message queue, execution continues.
  
  * consumers can increase without modification to caller.
  
