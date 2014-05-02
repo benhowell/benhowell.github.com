@@ -46,7 +46,7 @@ From the Latin verb invocare "to call on, invoke, to give".
 
 
 #### Fundamentally Speaking
-Function invocation forms the scaffolding between our otherwise disparate bits of code (provided we're [separating our concerns][2]) allowing us to compose solutions to problems with software. I will be using the term "invocation" and/or "call" throughout the article rather loosely and both responsive and reactive methods of executing functions are encompassed by these terms for the purpose of this article. I'll also be referring to functions, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well.
+Invocation forms the scaffolding between our otherwise disparate bits of code (provided we're [separating our concerns][2]) allowing us to compose solutions to problems with software. When I say "invocation", I'm talking about you, the omnipresent programmer, invoking something or otherwise the mechanics of kicking some action off in code. Therefore the term "invocation" and/or "call", for the purposes of this article will cover both responsive and reactive methods of executing functions. I'll also be referring to functions, however the same arguments can be applied to <span markdown="span">methods[^1]</span> as well.
 <br/>
 <br/>
 
@@ -74,7 +74,7 @@ The [Observer pattern][3] is similar to the "Plain Old Function Call" above, in 
 
 Pros:
  
- * provides a mechanism for implementing [open/closed principle][5](OCP). In other words, if we can add more functionality to our system (e.g. another observer) without changing the functionality of the thing that generates events (i.e. the observable) then we have OCP, that is software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification[^2].
+ * provides a mechanism for implementing [open/closed principle][5] (OCP). In other words, if we can add more functionality to our system (e.g. another observer) without changing the functionality of the thing that generates events (i.e. the observable) then we have OCP, that is software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification[^2].
  
  * removes the need for the observable to know how to call its individual observers (other than by the event handling function registered by the observer)
  
@@ -85,11 +85,12 @@ Cons:
  
  * isn't great for loops (UI, game, long running task, etc.) where the time bound of the invoked function(s) is unknown or susceptible to slow down in the calling of dependent functions. In other words, the larger the number of observers for thing "X", the larger the performance bottleneck becomes at thing "X" because thing "X" must now sequentially execute each observers callback individually each time the event they've registered to observe occurs.
  
- * if for any reason the observer dies, or stops executing or whatever, the observable needs to explicitly handle the exception.
+ * if for any reason the observer dies or stops executing, the observable needs to explicitly handle the exception.
  
- * control flow is harder to understand due to an inversion of control flow .
+ * code is harder to understand due to an inversion of control flow (not to mention the extra boilerplate, especially in Java and C#).
  
- * a lot of boilerplate is required for each implementation such as events, event listener interfaces (containing the observables callback handlers) and the event trigger functionality to iterate over and call all the callbacks. This boilerplate grows linearly with each new event type.
+ * a lot of boilerplate is required for each implementation such as events, event listener interfaces (containing the observables callback handlers) and the event trigger functionality to iterate over and call all the callbacks. This boilerplate grows linearly with each new event type. Of course, YMMV depending on language.
+ 
 <br/>
 <br/>
 
@@ -107,6 +108,30 @@ In sytems where you can describe something happening as an "event" (e.g. input h
 ...which brings us to our asynchronous messaging patterns...
 <br/>
 <br/>
+
+
+
+
+
+
+
+The Pattern
+A queue stores a series of notifications or requests in first-in, first-out order. Sending a notification enqueues the request and returns. The request processor then processes items from the queue at a later time.
+
+Requests can be handled directly, or routed to interested parties. This decouples the sender from the receiver both statically and in time.
+
+When to Use It
+If you just want to decouple who receives a message from its sender, patterns like Observer and Command will take care of you with less complexity. You only need a queue when you want to decouple something in time.
+
+I mention this in nearly every chapter, but it’s worth emphasizing. Complexity slows you down, so treat simplicity as a precious resource.
+I think of it in terms of pushing and pulling. You have some code A that wants another chunk B to do some work. The natural way for A to initiate that is by pushing the request to B.
+
+Meanwhile, the natural way for B to process that request is by pulling it in at a convenient time in its run cycle. When you have a push model on one end and a pull model on the other, you need a buffer between them. That’s what a queue provides that simpler decoupling patterns don’t.
+
+Queues give control to the code that pulls from it: the receiver can delay processing, aggregate requests, or discard them entirely. But it does this by taking control away from the sender. All it can do is throw a request on the queue and hope for the best. This makes queues a poor fit when the sender needs a response.
+
+
+
 
 
 
