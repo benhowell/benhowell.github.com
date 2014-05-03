@@ -1,16 +1,16 @@
 ---
 layout: post
 category : people
-title: Is the Open Plan Office Really Worth it?
+title: Is Collaboration and Open Communication Really Worth it?
 tagline: "people"
-tags : [people, open plan, introvert, management, collaboration, privacy, efficiency]
+tags : [people, open plan, introvert, extrovert, management, collaboration, communication, privacy, efficiency]
 ---
 {% include JB/setup %}
 
 <div class="intro">
 <div class="intro-txt">
 <p>
-
+Open plan work environments. Often touted as preferrable when compared to private work areas and offices because of the open collaboration, communication, social interraction and team building they _apparently_ foster. Not to mention the actual reduction in bottom line costs of accomodating staff. But is any of this actually true? Shouldn't we be looking at empirical studies to determine whether or not the percieived benefits are grounded in truth and reality? Do the cost savings of open plan work environments really stack up?
 </p>
 <p>
 ???
@@ -25,7 +25,7 @@ tags : [people, open plan, introvert, management, collaboration, privacy, effici
 <br/>
 
 
-_Without great solitude, no serious work is possible_ -- <cite>[Picasso][1]</cite>
+
 
 
 ## Background noise, talking, stuff, etc.
