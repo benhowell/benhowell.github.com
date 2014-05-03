@@ -2,13 +2,13 @@ body {
   background-color: #f0f0f0; 
 }
 
-hr {
+/*hr {
   height: 1px;
   color: #cccccc;
   background: #cccccc;
   font-size: 0;
   border: 0;
-}
+}*/
 
 /* Custom container */
 .container-narrow {
@@ -117,6 +117,7 @@ img.brand-image {
 
 .mini-social-hr {
   margin: 5px 0;
+  
 }
 
 .mini-social-section {
