@@ -2,6 +2,7 @@
 .container-narrow {
   margin: 0 auto;
   max-width: 800px;
+  background-color: #f0f0f0;
 }
 
 .container-meta {
