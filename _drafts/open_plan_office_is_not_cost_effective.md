@@ -10,13 +10,13 @@ tags : [people, open plan, introvert, extrovert, management, collaboration, comm
 <div class="intro">
 <div class="intro-txt">
 <p>
-Open plan work environments. Often touted as superior when compared to private work areas and offices because of the open collaboration, communication, social interraction and team building they <i>apparently</i> foster. Not to mention the actual reduction in bottom line costs of accomodating staff.
+Open plan work environments. Often touted as superior when compared to private work areas and offices not only because of the reduction in costs of accomodating staff, but also because of the open collaboration, communication, social interraction and team building they <i>apparently</i> foster.
 </p>
 <p>
-But is any of this actually true? Shouldn't we be looking at empirical studies to determine whether or not the percieived benefits are grounded in truth and reality? Do the cost savings of open plan work environments really stack up?
+But is any of this actually true? Shouldn't we be looking at empirical studies to determine whether or not the percieved benefits are grounded in truth and reality? Do the cost savings of open plan work environments really stack up?
 </p>
 <p>
-???
+Are managers building work spaces that employees prefer to work in, or are they building work spaces that are preferable for getting work done? Both? Neither? Let's find out.
 </p>
 </div> 
 <div class="intro-img"><img class="article-image" src="{{ASSET_PATH}}/bootstrap/img/open_office_250.jpg"/></div>
@@ -35,7 +35,9 @@ yep, so what to do? Many people retreat into a pair of headphones and listen to 
 ## Music is as distracting as noise: the differential distraction of background music and noise on the cognitive test performance of introverts and extraverts
 
 
-I know some kick arse developers who can hammer out robust, coherent and understandable code when afforded a little peace, yet these same people fail to function in the maelstrom of ... and cacophany ... that we call an office these days. Yes, open plan. In what other alternate universe would it be acceptible to prevent the intricate knowledge work of a professional taking place in order to promote "collaboration" and "team work"? exhausting and unproductive
+I know some kick arse developers who can hammer out robust, coherent and understandable code when afforded a little peace, yet these same people fail to function in the maelstrom of ... and cacophany ... that we call an office these days. Yes, open plan. In what other alternate universe would it be acceptible to prevent the intricate knowledge work of a professional taking place in order to promote "collaboration" and "team work"? 
+
+exhausting and unproductive
 
 Picasso:
 "Without great solitude, no serious work is possible," Picasso said.
@@ -54,6 +56,14 @@ We need to promote a new image for today’s programmer; especially when it come
 
 
 
+### Solitude Matters
+
+### Transcendent power of Solitude
+
+** generate ideas free from the distortions of group dynamics
+
+the more freedom you give to introverts to be themselves, the better the solutions they like do
+1. stop the madness for constant group work... need much more privacy, much more freedom and much more autonomy at work
 
 
 
