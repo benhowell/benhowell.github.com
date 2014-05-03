@@ -10,10 +10,10 @@ tags : [people, open plan, introvert, extrovert, management, collaboration, comm
 <div class="intro">
 <div class="intro-txt">
 <p>
-Open plan work environments. Often touted as preferrable when compared to private work areas and offices because of the open collaboration, communication, social interraction and team building they _apparently_ foster. Not to mention the actual reduction in bottom line costs of accomodating staff. But is any of this actually true? Shouldn't we be looking at empirical studies to determine whether or not the percieived benefits are grounded in truth and reality? Do the cost savings of open plan work environments really stack up?
+Open plan work environments. Often touted as superior when compared to private work areas and offices because of the open collaboration, communication, social interraction and team building they <i>apparently</i> foster. Not to mention the actual reduction in bottom line costs of accomodating staff.
 </p>
 <p>
-???
+But is any of this actually true? Shouldn't we be looking at empirical studies to determine whether or not the percieived benefits are grounded in truth and reality? Do the cost savings of open plan work environments really stack up?
 </p>
 <p>
 ???
