@@ -1,5 +1,13 @@
-body{
- background-color: #f0f0f0; 
+body {
+  background-color: #f0f0f0; 
+}
+
+hr {
+  height: 1px;
+  color: #cccccc;
+  background: #cccccc;
+  font-size: 0;
+  border: 0;
 }
 
 /* Custom container */
