@@ -16,7 +16,7 @@ Open plan work environments. Often touted as superior when compared to private w
 But is any of this actually true? Shouldn't we be looking at empirical studies to determine whether or not the percieved benefits are grounded in truth and reality? Do the cost savings of open plan work environments really stack up?
 </p>
 <p>
-Are open plan work spaces an environment employees prefer to work in, or are they an environment which is preferable for getting work done? Both? Neither? Let's find out.
+Are open plan work spaces an environment employees prefer to work in, or are they an environment which is preferable for getting work done? Both? Neither? 
 </p>
 </div> 
 <div class="intro-img"><img class="article-image" src="{{ASSET_PATH}}/bootstrap/img/open_office_250.jpg"/></div>
@@ -25,7 +25,7 @@ Are open plan work spaces an environment employees prefer to work in, or are the
 <br/>
 
 
-"Open plan". Words that make an introvert cringe and an extrovert smile. Today I won't be running the introvert vs extrovert argument, although perfectly valid, for this article. I will however debate the topic with everyone in mind and what might be best for all, including the company.
+"Open plan". Words that make an introvert cringe and an extrovert jump for joy and then talk to someone about it for the next ten minutes. Today I won't be running the introvert vs extrovert argument, although perfectly valid, for this article. I will however debate the topic with everyone in mind and what might be best for all, including the company.
 
 #### The Argument for Open Plan Work Spaces
 blah
