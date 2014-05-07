@@ -40,5 +40,5 @@ tagline: Supporting tagline
 </div>
 
 </div>
-<div><br/><hr></div>
+<div><hr></div>
 {% endfor %}
