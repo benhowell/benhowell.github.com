@@ -195,6 +195,11 @@ img.brand-image {
   float: left;
   width: 250px;
 }
+
+.resize {
+  width:100px;
+  height: auto;
+}
   
 .intro-img-bevel {
   float: left;
