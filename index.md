@@ -15,7 +15,7 @@ tagline: Supporting tagline
   <p>
   <strong>{{ post.date | date: "%B %e, %Y" }}</strong><br>
   {{ post.content | strip_html | truncatewords:40 }}<br>
-  <a href="{{ post.url }}">Read more</a><br/>
+  <a href="{{ post.url }}">Read more</a><br/><hr>
   </p>
   </div>
   
@@ -26,7 +26,7 @@ tagline: Supporting tagline
   </div>
   </div>
   </div>
-  <hr>
+  
   </div>
   {% endfor %}
 </div>
