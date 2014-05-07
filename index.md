@@ -22,7 +22,7 @@ tagline: Supporting tagline
   <div class="intro-img-border">
   <div class="intro-img-bevel">
   <div class="intro-img-sml">
-  <img class="intro-img-small" src="{{ASSET_PATH}}/bootstrap/img/eventbus_250.jpg"/>
+  <img class="intro-img-small" src="{{ASSET_PATH}}/{{post.article_img}}"/>
   </div>
   </div>
   </div>
