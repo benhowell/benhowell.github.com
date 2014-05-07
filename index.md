@@ -22,7 +22,7 @@ tagline: Supporting tagline
   <div class="intro-img-border">
   <div class="intro-img-bevel">
   <div class="intro-img-index-box">
-  <img class="intro-img-index" src="{{ASSET_PATH}}/{{post.article_img}}"/>
+  <img class="intro-img-index" src="{{ASSET_PATH}}/{{post.article_img}}" title="{{post.article_img_title}}"/>
   </div>
   </div>
   </div>
