@@ -7,6 +7,7 @@ tagline: Supporting tagline
 <br/>
 <br/>
 
+<div class="blog-index">
 {% for post in site.posts %}
 
 <div class="intro">
@@ -31,3 +32,4 @@ tagline: Supporting tagline
 </div>
 <div><hr class="mini-social-hr"></div>
 {% endfor %}
+</div>
