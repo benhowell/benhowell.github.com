@@ -5,6 +5,7 @@ title: Publish/Subscribe using Scala and Akka EventBus
 tagline: "example"
 tags : [akka, EventBus, scala, concurrent, asynchronous, publish/subscribe, beginner, example, tutorial]
 article_img: bootstrap/img/eventbus_subchannel_250.jpg
+article_img_title: "Event bus with subchannel classification by Anonymous"
 ---
 {% include JB/setup %}
 
@@ -25,7 +26,7 @@ In this article we'll implement an event bus using lookup classifiers with subch
 <div class="intro-img-border">
 <div class="intro-img-bevel">
 <div class="intro-img">
-<img class="article-image" src="{{ASSET_PATH}}/{{page.article_img}}"/>
+<img class="article-image" title="{{page.article_img_title}}" src="{{ASSET_PATH}}/{{page.article_img}}"/>
 </div>
 </div>
 </div>
