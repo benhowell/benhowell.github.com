@@ -18,6 +18,7 @@ tagline: Supporting tagline
   <a href="{{ post.url }}">Read more</a><br/><hr>
   </p>
   </div>
+  <img class="intro-img-small" src="{{ASSET_PATH}}/bootstrap/img/eventbus_250.jpg"/>
   </div>
   {% endfor %}
 </div>
