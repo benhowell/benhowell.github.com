@@ -19,15 +19,15 @@ tagline: Supporting tagline
 
 
 
-
+{% for post in site.posts %}
 <div class="intro">
 <div class="intro-txt">
 <div class="blog-index">
-  {% for post in site.posts %}
+  
   <h3><a href="{{ post.url }}">{{ post.title }}</a></h3><p><strong>{{ post.date | date: "%B %e, %Y" }}</strong><br>
   {{ post.content | strip_html | truncatewords:40 }}<br>
   <a href="{{ post.url }}">Read more</a><br/><hr>
-  {% endfor %}
+  
 </div>
 </div>
 <div class="intro-img-border">
@@ -38,3 +38,4 @@ tagline: Supporting tagline
 </div>
 </div>
 </div>
+{% endfor %}
