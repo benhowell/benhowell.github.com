@@ -31,7 +31,7 @@ tagline: Supporting tagline
 <div class="intro-img-border">
 <div class="intro-img-bevel">
 <div class="intro-img">
-<img class="article-image" src="{{ASSET_PATH}}/bootstrap/img/eventbus_250.jpg"/>
+<span markdown="span"><img class="article-image" src="{{ASSET_PATH}}/bootstrap/img/eventbus_250.jpg"/></span>
 </div>
 </div>
 </div>
