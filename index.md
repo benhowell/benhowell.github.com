@@ -29,5 +29,5 @@ tagline: Supporting tagline
 </div>
 
 </div>
-<br/><hr>
+<span markdown="span"><br/><hr></span>
 {% endfor %}
