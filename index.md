@@ -24,13 +24,10 @@ tagline: Supporting tagline
 <div class="intro">
 
 <div class="intro-txt">
+<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 <p>
-
-</p>
-<p>
-{{ post.content | strip_html | truncatewords:40 }}
-</p>
-<p>
+<strong>{{ post.date | date: "%B %e, %Y" }}</strong><br/>
+{{ post.content | strip_html | truncatewords:40 }}<br/>
 <a href="{{ post.url }}">Read more</a>
 </p>
 </div>
