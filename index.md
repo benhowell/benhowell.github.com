@@ -29,6 +29,5 @@ tagline: Supporting tagline
 </div>
 
 </div>
-<br/>
-<p><hr></p>
+<hr class="mini-social-hr">
 {% endfor %}
