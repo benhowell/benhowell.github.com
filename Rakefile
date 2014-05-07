@@ -69,6 +69,7 @@ task :post do
     post.puts 'tagline: ""'
     post.puts "category: #{category}"
     post.puts "tags: #{tags}"
+    post.puts "article_img: bootstrap/img/qn.png"
     post.puts "---"
     post.puts "{% include JB/setup %}"
     
@@ -81,7 +82,7 @@ task :post do
     post.puts '<div class="intro-img-border">'
     post.puts '<div class="intro-img-bevel">'
     post.puts '<div class="intro-img">'
-    post.puts '<img class="article-image" src="{{ASSET_PATH}}/bootstrap/img/qn.png"/>'
+    post.puts '<img class="article-image" src="{{ASSET_PATH}}/{{page.article_img}}"/>'
     post.puts '</div>'
     post.puts '</div>'
     post.puts '</div>'

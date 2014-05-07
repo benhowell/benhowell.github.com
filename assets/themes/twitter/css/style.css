@@ -196,12 +196,17 @@ img.brand-image {
   width: 250px;
 }
 
-.intro-img-sml {
+.intro-txt-index {
+  float: left;
+  width: 655px;
+  margin-right: 12px;
+}
+.intro-img-index-box {
   float: left;
   width: 125px;
 }
 
-.intro-img-small {
+.intro-img-index {
   width:125px;
   height: auto;
 }

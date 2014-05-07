@@ -4,6 +4,7 @@ category : ideas
 title: ideas
 tagline: "ideas"
 tags : [ideas]
+article_img: bootstrap/img/qn.png
 ---
 {% include JB/setup %}
 

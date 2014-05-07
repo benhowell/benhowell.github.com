@@ -10,7 +10,7 @@ tagline: Supporting tagline
 <div class="blog-index">
   {% for post in site.posts %}
   <div class="intro">
-  <div class="intro-txt">
+  <div class="intro-txt-index">
   <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
   <p>
   <strong>{{ post.date | date: "%B %e, %Y" }}</strong><br>
@@ -21,8 +21,8 @@ tagline: Supporting tagline
   
   <div class="intro-img-border">
   <div class="intro-img-bevel">
-  <div class="intro-img-sml">
-  <img class="intro-img-small" src="{{ASSET_PATH}}/{{post.article_img}}"/>
+  <div class="intro-img-index-box">
+  <img class="intro-img-index" src="{{ASSET_PATH}}/{{post.article_img}}"/>
   </div>
   </div>
   </div>
