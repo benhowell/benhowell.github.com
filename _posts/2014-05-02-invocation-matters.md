@@ -6,7 +6,7 @@ tagline: "design"
 category: design
 tags : [reactive, scalable, concurrent, asynchronous, patterns, design, publish/subscribe]
 article_img: bootstrap/img/Gustave_dore_crusades_invocation_to_muhammad.jpg
-article_img_title="Invocation by Gustave Doré."
+article_img_title: "Invocation by Gustave Doré."
 ---
 {% include JB/setup %}
 <div class="intro">
@@ -41,7 +41,7 @@ From the Latin verb invocare "to call on, invoke, to give".
   <div class="intro-img-border">
   <div class="intro-img-bevel">
   <div class="intro-img">
-  <img class="article-image" title="{{page.article_img_title}}" src="{{ASSET_PATH}}/{{page.article_img}}"/>
+  <img class="article-image" title={{page.article_img_title}} src="{{ASSET_PATH}}/{{page.article_img}}"/>
   </div>
   </div>
   </div>
