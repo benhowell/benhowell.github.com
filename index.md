@@ -17,5 +17,6 @@ tagline: Supporting tagline
   <a href="{{ post.url }}">Read more</a><br/><hr>
   </p>
   </div>
+  <div></div>
   {% endfor %}
 </div>
