@@ -8,7 +8,7 @@ tagline: Supporting tagline
 <br/>
 
 <div class="blog-index">
-<div class="intro-text">
+<div class="intro-txt">
   {% for post in site.posts %}
   <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
   <p>
