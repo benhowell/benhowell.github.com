@@ -25,10 +25,10 @@ tagline: Supporting tagline
 
 <div class="intro-txt">
 <p>
-asdasd
+<h3><a href="{{ post.url }}">{{ post.title }}</a></h3><p><strong>{{ post.date | date: "%B %e, %Y" }}</strong>
 </p>
 <p>
-asdasd
+
 </p>
 <p>
 <a href="{{ post.url }}">Read more</a>
