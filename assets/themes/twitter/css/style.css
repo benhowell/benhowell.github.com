@@ -196,8 +196,13 @@ img.brand-image {
   width: 250px;
 }
 
+.intro-img-sml {
+  float: left;
+  width: 125px;
+}
+
 .intro-img-small {
-  width:100px;
+  width:125px;
   height: auto;
 }
   
