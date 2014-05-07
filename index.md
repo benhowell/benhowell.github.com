@@ -20,7 +20,6 @@ tagline: Supporting tagline
 
 
 {% for post in site.posts %}
-
 <div class="intro">
 
 <div class="intro-txt">
@@ -39,7 +38,6 @@ tagline: Supporting tagline
 </div>
 </div>
 </div>
-
-</div>
 <br/><hr/>
+</div>
 {% endfor %}
