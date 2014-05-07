@@ -8,6 +8,7 @@ tagline: Supporting tagline
 <br/>
 
 {% for post in site.posts %}
+
 <div class="intro">
 
 <div class="intro-txt">
