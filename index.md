@@ -22,11 +22,11 @@ tagline: Supporting tagline
 {% for post in site.posts %}
 <div class="intro">
 <div class="intro-txt">
-<div class="blog-index">
+<!-- <div class="blog-index"> -->
 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3><p><strong>{{ post.date | date: "%B %e, %Y" }}</strong><br>
 {{ post.content | strip_html | truncatewords:40 }}<br>
 <a href="{{ post.url }}">Read more</a>
-</div>
+<!-- </div> -->
 </div>
 <div class="intro-img-border">
 <div class="intro-img-bevel">
