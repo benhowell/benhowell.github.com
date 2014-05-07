@@ -28,10 +28,11 @@ tagline: Supporting tagline
 <a href="{{ post.url }}">Read more</a>
 <!-- </div> -->
 </div>
+
 <div class="intro-img-border">
 <div class="intro-img-bevel">
 <div class="intro-img-sml">
-<span markdown="span"><img class="intro-img-small" src="{{ASSET_PATH}}/bootstrap/img/eventbus_250.jpg"/></span>
+<img class="intro-img-small" src="{{ASSET_PATH}}/bootstrap/img/eventbus_250.jpg"/>
 </div>
 </div>
 </div>
