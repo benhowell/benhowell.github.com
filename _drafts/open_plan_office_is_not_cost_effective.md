@@ -75,8 +75,12 @@ http://www.pistoncloud.com/2014/02/do-successful-programmers-need-to-be-introver
 <i>Pair programming is a bit of a pipe dream for most organizations, but if you have gregarious developers who talk to one another, they will at least understand what is going on in each other’s development trees. That means, also, working in group settings. It doesn’t have to be in the office all the time. Some deep code changes require getting away from all distractions for a bit, but if the results of that deep dive don’t come to light in the group, the knowledge only lives in the mind of the hermit and doesn’t ever benefit the organization as a whole.</i>
 </p>
 <p>
-I don't write code, no. I just change it sometimes, and sometimes I even get to make _"deep code changes"_.
+I don't write code, no. I just change it sometimes, and sometimes I even get to make <i>"deep code changes"</i>
 </p>
+<p>
+Having been so thoroughly enlightened by this article, I'm at a loss to know where the concept of "code monkey" and "interchangable cog" come from. "Where's Bob?" "Oh, he needs some quiet time now. He is changing some code".
+</p>
+
 </div> 
 
 <div class="intro-img-border">
@@ -87,6 +91,10 @@ I don't write code, no. I just change it sometimes, and sometimes I even get to 
 </div> 
 </div>
 </div>
+
+
+
+
 
 [epic][4]. 
 
