@@ -65,12 +65,32 @@ Oh the joyful imagary this creates in my mind. I've always wanted to do intricat
 
 
 
+
+
+
 http://www.pistoncloud.com/2014/02/do-successful-programmers-need-to-be-introverted/
-"""
-Pair programming is a bit of a pipe dream for most organizations, but if you have gregarious developers who talk to one another, they will at least understand what is going on in each other’s development trees. That means, also, working in group settings. It doesn’t have to be in the office all the time. Some deep code changes require getting away from all distractions for a bit, but if the results of that deep dive don’t come to light in the group, the knowledge only lives in the mind of the hermit and doesn’t ever benefit the organization as a whole.
-"""
-[epic][4]. I don't write code, no. I just change it sometimes, and sometimes I even get to make """deep code changes""".
-![too](../assets/themes/twitter/bootstrap/img/deep_code_change.jpg 'Deep code change')
+
+<div class="intro">
+<div class="intro-txt">
+<p>
+_Pair programming is a bit of a pipe dream for most organizations, but if you have gregarious developers who talk to one another, they will at least understand what is going on in each other’s development trees. That means, also, working in group settings. It doesn’t have to be in the office all the time. Some deep code changes require getting away from all distractions for a bit, but if the results of that deep dive don’t come to light in the group, the knowledge only lives in the mind of the hermit and doesn’t ever benefit the organization as a whole._
+</p>
+<p>
+I don't write code, no. I just change it sometimes, and sometimes I even get to make _"deep code changes"_.
+</p>
+</div> 
+
+<div class="intro-img-border">
+<div class="intro-img-bevel">
+<div class="intro-img">
+<div class="intro-img"><img class="article-image" title= "Deep Code Change" src="{{ASSET_PATH}}/bootstrap/img/deep_code_change.jpg"/></div>
+</div> 
+</div> 
+</div>
+</div>
+
+[epic][4]. 
+
 
 
 [4]:http://thebestpageintheuniverse.net/c.cgi?u=epic
