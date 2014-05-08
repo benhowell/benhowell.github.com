@@ -72,7 +72,7 @@ http://www.pistoncloud.com/2014/02/do-successful-programmers-need-to-be-introver
 <div class="intro">
 <div class="intro-txt">
 <p>
-<span class="markdown">_Pair programming is a bit of a pipe dream for most organizations, but if you have gregarious developers who talk to one another, they will at least understand what is going on in each other’s development trees. That means, also, working in group settings. It doesn’t have to be in the office all the time. Some deep code changes require getting away from all distractions for a bit, but if the results of that deep dive don’t come to light in the group, the knowledge only lives in the mind of the hermit and doesn’t ever benefit the organization as a whole._</span>
+<i>Pair programming is a bit of a pipe dream for most organizations, but if you have gregarious developers who talk to one another, they will at least understand what is going on in each other’s development trees. That means, also, working in group settings. It doesn’t have to be in the office all the time. Some deep code changes require getting away from all distractions for a bit, but if the results of that deep dive don’t come to light in the group, the knowledge only lives in the mind of the hermit and doesn’t ever benefit the organization as a whole.</i>
 </p>
 <p>
 I don't write code, no. I just change it sometimes, and sometimes I even get to make _"deep code changes"_.
