@@ -14,10 +14,10 @@ article_img: bootstrap/img/open_office_250.jpg
 Open plan work environments. Often touted as superior when compared to private work areas and offices not only because of the reduction in costs of accomodating staff, but also because of the open collaboration, communication, social interraction and team building they <i>apparently</i> foster.
 </p>
 <p>
-But is any of this actually true? Shouldn't we be looking at empirical studies to determine whether or not the percieved benefits are grounded in truth and reality? Do the cost savings of open plan work environments really stack up? Well, I know of plenty of studies and academic papers on the matter, but I'm not willing to pay for them for the sake of this article so at best I will cite them and summarise their results. I will however try to appeal to the common sense, logical reasoning and empathy of you, the reader.
+But does any of this actually matter? Shouldn't we be looking at empirical studies to determine whether or not the percieved benefits are grounded in truth and reality? Do the cost savings of open plan work environments really stack up? In this article I'll try to appeal to the common sense, logical reasoning and empathy of you, the reader.
 </p>
 <p>
-Are open plan work spaces an environment employees prefer to work in, or are they an environment which is preferable for getting work done? Both? Neither? 
+Cue the rant... 
 </p>
 </div> 
 
@@ -121,6 +121,10 @@ http://www.emeraldinsight.com/journals.htm?articleid=17048072
 http://www.sciencedirect.com/science/article/pii/S0272494413000340
 
 
+
+
+
+Well, I know of plenty of studies and academic papers on the matter, but I'm not willing to pay for them for the sake of this article so at best I will cite them and summarise their results.
 
 
 
