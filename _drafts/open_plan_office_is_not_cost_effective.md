@@ -55,11 +55,10 @@ Ah, knowledge work. Software engineering, design, development, programming, what
 [3]:http://blog.founddrama.net/2012/08/agile-for-the-introvert/comment-page-1/
 
 
-"""
-First, the bad uncomfortable news: Sometimes there is absolutely no substitute for a good ol’ fashioned Agile bullpen. You’ll be better off if you accept this now. While (as an introvert) this is usually the last thing on Earth that I want to do, there are situations that demand it. If you’re up against an important deadline delivery, then you know that you need all the communication bandwidth you can get. Sometimes it’s easier to just have everyone in a room, stand up, shout out the latest critical changes, kick off the integration build, and move on to the next thing. (Where I come from, we call this “Thunderdoming.”)
-"""
 
-Oh the joyful imagary this creates in my mind. I've always wanted to do intricate work in the middle of an old fashioned stock exchange with people """shouting out the latest critical changes""". Critical changes requiring concentration and some level of intelligence and thought in a roudy stock exchange type arena. Awesome.
+_First, the bad uncomfortable news: Sometimes there is absolutely no substitute for a good ol’ fashioned Agile bullpen. You’ll be better off if you accept this now. While (as an introvert) this is usually the last thing on Earth that I want to do, there are situations that demand it. If you’re up against an important deadline delivery, then you know that you need all the communication bandwidth you can get. Sometimes it’s easier to just have everyone in a room, stand up, shout out the latest critical changes, kick off the integration build, and move on to the next thing. (Where I come from, we call this “Thunderdoming.”)_ "Thunderdoming"... another entry for my corporate dinner diary.
+
+Oh the joyful imagary this creates in my mind. I've always wanted to do intricate work in the middle of an old fashioned stock exchange with people _"shouting out the latest critical changes"_. Critical changes requiring concentration and some level of intelligence and thought in a roudy stock exchange type arena. Awesome.
 
 
 
@@ -73,7 +72,7 @@ http://www.pistoncloud.com/2014/02/do-successful-programmers-need-to-be-introver
 <div class="intro">
 <div class="intro-txt">
 <p>
-_Pair programming is a bit of a pipe dream for most organizations, but if you have gregarious developers who talk to one another, they will at least understand what is going on in each other’s development trees. That means, also, working in group settings. It doesn’t have to be in the office all the time. Some deep code changes require getting away from all distractions for a bit, but if the results of that deep dive don’t come to light in the group, the knowledge only lives in the mind of the hermit and doesn’t ever benefit the organization as a whole._
+<span class="markdown">_Pair programming is a bit of a pipe dream for most organizations, but if you have gregarious developers who talk to one another, they will at least understand what is going on in each other’s development trees. That means, also, working in group settings. It doesn’t have to be in the office all the time. Some deep code changes require getting away from all distractions for a bit, but if the results of that deep dive don’t come to light in the group, the knowledge only lives in the mind of the hermit and doesn’t ever benefit the organization as a whole._</span>
 </p>
 <p>
 I don't write code, no. I just change it sometimes, and sometimes I even get to make _"deep code changes"_.
