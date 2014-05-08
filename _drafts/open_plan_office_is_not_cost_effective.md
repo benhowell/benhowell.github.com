@@ -20,7 +20,14 @@ But is any of this actually true? Shouldn't we be looking at empirical studies t
 Are open plan work spaces an environment employees prefer to work in, or are they an environment which is preferable for getting work done? Both? Neither? 
 </p>
 </div> 
+
+<div class="intro-img-border">
+<div class="intro-img-bevel">
+<div class="intro-img">
 <div class="intro-img"><img class="article-image" src="{{ASSET_PATH}}/{{page.article_img}}"/></div>
+</div> 
+</div> 
+</div>
 </div>
 <br/>
 <br/>
