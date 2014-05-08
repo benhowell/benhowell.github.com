@@ -36,20 +36,53 @@ Are open plan work spaces an environment employees prefer to work in, or are the
 "Open plan". Words that make an introvert cringe and an extrovert jump for joy and then talk to someone about it for the next ten minutes. Today I won't be running the introvert vs extrovert argument (although perfectly valid) for this article. I will however debate the topic with everyone in mind and what might be best for all, including the company.
 
 #### The Argument for Open Plan Work Spaces
-I'll just quote from an absurd article titled: "Productivity Hacks: The Open Plan Office" to get this ball of mud rolling. I'll also add my own commentary bracketed and in italics.
+I'll just quote from an absurd article titled: [Productivity Hacks: The Open Plan Office][2] to get this ball of mud rolling. I'll also add my own commentary bracketed and in italics.
 """
 I have always insisted on having an open plan office. It makes things so much easier when you can simply get up and walk over to a colleague ( _and obliterate the state machine he/she has been carefully crafting in their head over the last 10 minutes of intense concentration absolutely smashing the stack_ ) if you need to discuss something ( _"Hey, I just sent you an email..._ ). Ideas flow a lot more freely ( _frivolous chit chat_ )...
 """
+Don't you love this hip and cute market speak? "Productivity Hacks"... I've noted that one in my diary for the next corporate dinner I'm invited to. Should definitely turn some heads!
 
-Ah, knowledge work. Software engineering, design, development, programming, whatever you want to call it, it all requires at least a small amount of concentration and as little cognitive annoyance as is practicable (particularly visual and aural). Great. 
+Ah, knowledge work. Software engineering, design, development, programming, whatever you want to call it, it all requires at least a small amount of concentration and as little cognitive distraction and annoyance as is practicable (particularly visual and aural). Great. 
 
 
+
+[2]:http://www.linkedin.com/today/post/article/20140121120012-32175171-productivity-hacks-the-open-plan-office
+
+
+
+
+[agile for the introvert][3]
+[3]:http://blog.founddrama.net/2012/08/agile-for-the-introvert/comment-page-1/
 
 
 """
 First, the bad uncomfortable news: Sometimes there is absolutely no substitute for a good ol’ fashioned Agile bullpen. You’ll be better off if you accept this now. While (as an introvert) this is usually the last thing on Earth that I want to do, there are situations that demand it. If you’re up against an important deadline delivery, then you know that you need all the communication bandwidth you can get. Sometimes it’s easier to just have everyone in a room, stand up, shout out the latest critical changes, kick off the integration build, and move on to the next thing. (Where I come from, we call this “Thunderdoming.”)
 """
-wtf?
+
+Oh the joyful imagary this creates in my mind. I've always wanted to do intricate work in the middle of an old fashioned stock exchange with people """shouting out the latest critical changes""". Critical changes requiring concentration and some level of intelligence and thought in a roudy stock exchange type arena. Awesome.
+
+
+
+
+
+http://www.pistoncloud.com/2014/02/do-successful-programmers-need-to-be-introverted/
+"""
+Pair programming is a bit of a pipe dream for most organizations, but if you have gregarious developers who talk to one another, they will at least understand what is going on in each other’s development trees. That means, also, working in group settings. It doesn’t have to be in the office all the time. Some deep code changes require getting away from all distractions for a bit, but if the results of that deep dive don’t come to light in the group, the knowledge only lives in the mind of the hermit and doesn’t ever benefit the organization as a whole.
+"""
+[epic][4]. I don't write code, no. I just change it sometimes, and sometimes I even get to make """deep code changes""".
+![too](../assets/themes/twitter/bootstrap/img/deep_code_change.jpg 'Deep code change')
+
+
+[4]:http://thebestpageintheuniverse.net/c.cgi?u=epic
+
+
+
+
+
+
+
+
+
 
 
 
