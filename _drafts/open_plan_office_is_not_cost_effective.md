@@ -33,10 +33,11 @@ Shall we get started? Yes. Rhetorical.
 <br/>
 
 
-"Open plan". Words that make an introvert cringe and an extrovert jump for joy and then talk at someone about it for the next ten minutes. Today I won't be running the introvert vs extrovert argument (although perfectly valid) for this article. I will however debate the topic with everyone in mind and what might be best for all, including the company.
+"Open plan". Words that make an introvert cringe and an extrovert jump for joy and then talk at someone about it for the next ten minutes preventing you from thinking straight.
 
 Ah, knowledge work. Software engineering, design, development, programming, whatever you want to call what we do, it all requires at least a small amount of concentration and as little cognitive distraction and annoyance as is practicable (particularly visual and aural). Great. Oh yeah, a bit of respect for the mental difficulty and professionalism of our trade wouldn't go astray either. 
-
+<br/>
+<br/>
 
 #### The Argument for Open Plan Work Spaces
 I'll just quote from an absurd article titled: [Productivity Hacks: The Open Plan Office][2] to get this ball of mud rolling. Also: don't you love the cute, hip marketing speak? "Productivity Hacks"... I've noted that one in my diary for the next corporate dinner I'm invited to. Should definitely turn some heads!
@@ -47,6 +48,10 @@ _"I have always insisted on having an open plan office. It makes things so much 
 ( **Hey, I just sent you an email...** )
 
 
+
+
+
+hamming, open door to office (not open office) 
 
 
 
