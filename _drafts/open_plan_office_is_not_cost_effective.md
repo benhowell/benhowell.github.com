@@ -78,7 +78,7 @@ http://www.pistoncloud.com/2014/02/do-successful-programmers-need-to-be-introver
 I don't write code, no. I just change it sometimes, and sometimes I even get to make <i>"deep code changes"</i>
 </p>
 <p>
-Having been so thoroughly enlightened by this article, I'm at a loss to know where the concept of "code monkey" and "interchangable cog" come from. "Where's Bob?" "Oh, he needs some quiet time now. He is changing some code".
+Having been so thoroughly enlightened by this article, I'm at a loss to know where the concept of "code monkey" and "interchangable cog" come from. "Where's Bob?" "Oh, he needs some quiet time now. He's changing some code".
 </p>
 
 </div> 
@@ -107,6 +107,8 @@ Having been so thoroughly enlightened by this article, I'm at a loss to know whe
 
 
 
+http://www.emeraldinsight.com/journals.htm?articleid=17048072
+http://www.sciencedirect.com/science/article/pii/S0272494413000340
 
 
 
@@ -125,7 +127,7 @@ Having been so thoroughly enlightened by this article, I'm at a loss to know whe
 <br/>
 
 ** **
-I know some kick arse developers who can hammer out robust, coherent and understandable code when afforded a little peace, yet these same people fail to function in the maelstrom of ... and cacophany ... that we call an office these days. Yes, open plan. In what other alternate universe would it be acceptible to prevent the intricate knowledge work of a professional taking place in order to promote "collaboration" and "team work"? 
+I know some kick arse developers who can hammer out robust, coherent and understandable code when afforded a little peace, yet these same people fail to function at a third of their ability in the maelstrom of movement and cacophany of yakking about kids and weekend activities that we sadly call an office these days. Yes, open plan. In what other alternate universe would it be acceptible to prevent the intricate knowledge work of a professional taking place in order to promote "collaboration" and "team work"?
 
 
 
