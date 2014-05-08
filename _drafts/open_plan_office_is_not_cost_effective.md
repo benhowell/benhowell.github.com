@@ -52,6 +52,7 @@ Ah, knowledge work. Software engineering, design, development, programming, what
 
 
 [agile for the introvert][3]
+
 [3]:http://blog.founddrama.net/2012/08/agile-for-the-introvert/comment-page-1/
 
 
