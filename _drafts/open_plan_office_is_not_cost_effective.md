@@ -1,9 +1,10 @@
 ---
 layout: post
 category : people
-title: Is Collaboration and Open Communication Really Worth it?
+title: Open Plan is no Plan
 tagline: "people"
-tags : [people, open plan, introvert, extrovert, management, collaboration, communication, privacy, efficiency]
+tags : [people, open plan, introvert, extrovert, management, collaboration, privacy, efficiency]
+article_img: bootstrap/img/open_office_250.jpg
 ---
 {% include JB/setup %}
 
@@ -13,34 +14,55 @@ tags : [people, open plan, introvert, extrovert, management, collaboration, comm
 Open plan work environments. Often touted as superior when compared to private work areas and offices not only because of the reduction in costs of accomodating staff, but also because of the open collaboration, communication, social interraction and team building they <i>apparently</i> foster.
 </p>
 <p>
-But is any of this actually true? Shouldn't we be looking at empirical studies to determine whether or not the percieved benefits are grounded in truth and reality? Do the cost savings of open plan work environments really stack up?
+But is any of this actually true? Shouldn't we be looking at empirical studies to determine whether or not the percieved benefits are grounded in truth and reality? Do the cost savings of open plan work environments really stack up? Well, I know of plenty of studies and academic papers on the matter, but I'm not willing to pay for them for the sake of this article so at best I will cite them and summarise their results. I will however try to appeal to the common sense, logical reasoning and empathy of you, the reader.
 </p>
 <p>
 Are open plan work spaces an environment employees prefer to work in, or are they an environment which is preferable for getting work done? Both? Neither? 
 </p>
 </div> 
-<div class="intro-img"><img class="article-image" src="{{ASSET_PATH}}/bootstrap/img/open_office_250.jpg"/></div>
+<div class="intro-img"><img class="article-image" src="{{ASSET_PATH}}/{{page.article_img}}"/></div>
 </div>
 <br/>
 <br/>
 
 
-"Open plan". Words that make an introvert cringe and an extrovert jump for joy and then talk to someone about it for the next ten minutes. Today I won't be running the introvert vs extrovert argument, although perfectly valid, for this article. I will however debate the topic with everyone in mind and what might be best for all, including the company.
+"Open plan". Words that make an introvert cringe and an extrovert jump for joy and then talk to someone about it for the next ten minutes. Today I won't be running the introvert vs extrovert argument (although perfectly valid) for this article. I will however debate the topic with everyone in mind and what might be best for all, including the company.
 
 #### The Argument for Open Plan Work Spaces
-blah
-blah
+I'll just quote from an absurd article titled: "Productivity Hacks: The Open Plan Office" to get this ball of mud rolling. I'll also add my own commentary bracketed and in italics.
+"""
+I have always insisted on having an open plan office. It makes things so much easier when you can simply get up and walk over to a colleague ( _and obliterate the state machine he/she has been carefully crafting in their head over the last 10 minutes of intense concentration absolutely smashing the stack_ ) if you need to discuss something ( _"Hey, I just sent you an email..._ ). Ideas flow a lot more freely ( _frivolous chit chat_ )...
+"""
+
+Ah, knowledge work. Software engineering, design, development, programming, whatever you want to call it, it all requires at least a small amount of concentration and as little cognitive annoyance as is practicable (particularly visual and aural). Great. 
+
+
+
+
+"""
+First, the bad uncomfortable news: Sometimes there is absolutely no substitute for a good ol’ fashioned Agile bullpen. You’ll be better off if you accept this now. While (as an introvert) this is usually the last thing on Earth that I want to do, there are situations that demand it. If you’re up against an important deadline delivery, then you know that you need all the communication bandwidth you can get. Sometimes it’s easier to just have everyone in a room, stand up, shout out the latest critical changes, kick off the integration build, and move on to the next thing. (Where I come from, we call this “Thunderdoming.”)
+"""
+wtf?
+
+
+
 <br/>
 <br/>
 
 #### The data
 **Distraction**
-blah
+
+
+
 <br/>
 <br/>
 
-**sub topic background Noise, talking, etc**
+** **
 I know some kick arse developers who can hammer out robust, coherent and understandable code when afforded a little peace, yet these same people fail to function in the maelstrom of ... and cacophany ... that we call an office these days. Yes, open plan. In what other alternate universe would it be acceptible to prevent the intricate knowledge work of a professional taking place in order to promote "collaboration" and "team work"? 
+
+
+
+
 
 Noise and consequence
 
