@@ -37,10 +37,10 @@ Are open plan work spaces an environment employees prefer to work in, or are the
 
 #### The Argument for Open Plan Work Spaces
 I'll just quote from an absurd article titled: [Productivity Hacks: The Open Plan Office][2] to get this ball of mud rolling. I'll also add my own commentary bracketed and in italics.
-"""
-I have always insisted on having an open plan office. It makes things so much easier when you can simply get up and walk over to a colleague ( _and obliterate the state machine he/she has been carefully crafting in their head over the last 10 minutes of intense concentration absolutely smashing the stack_ ) if you need to discuss something ( _"Hey, I just sent you an email..._ ). Ideas flow a lot more freely ( _frivolous chit chat_ )...
-"""
-Don't you love this hip and cute market speak? "Productivity Hacks"... I've noted that one in my diary for the next corporate dinner I'm invited to. Should definitely turn some heads!
+
+_I have always insisted on having an open plan office. It makes things so much easier when you can simply get up and walk over to a colleague_ ( **and obliterate the state machine he/she has been carefully crafting in their head over the last 10 minutes of intense concentration absolutely smashing the stack** ) _if you need to discuss something_ ( **Hey, I just sent you an email...** ). _Ideas flow a lot more freely_ ( **frivolous chit chat** )...
+
+Don't you love the cute, hip market speak? "Productivity Hacks"... I've noted that one in my diary for the next corporate dinner I'm invited to. Should definitely turn some heads!
 
 Ah, knowledge work. Software engineering, design, development, programming, whatever you want to call it, it all requires at least a small amount of concentration and as little cognitive distraction and annoyance as is practicable (particularly visual and aural). Great. 
 
