@@ -11,13 +11,13 @@ article_img: bootstrap/img/open_office_250.jpg
 <div class="intro">
 <div class="intro-txt">
 <p>
-Open plan work environments. Often touted as superior when compared to private work areas and offices not only because of the reduction in costs of accomodating staff, but also because of the open collaboration, communication, social interraction and team building they <i>apparently</i> foster.
+Open plan work environments. Often touted as superior when compared to private work areas and offices not only because of the reduction in costs of accommodating staff, but also because of the open collaboration, communication, social interaction and team building they <i>apparently</i> foster.
 </p>
 <p>
-But does any of this actually stack up? Shouldn't we be looking at empirical studies to determine whether or not the percieved benefits are grounded in truth and reality rather than swallow our gutful of marketing speak about the so-called benefits? Are the cost savings economically sound?
+But does any of this actually stack up? Shouldn't we be looking at empirical studies to determine whether or not the perceived benefits are grounded in truth and reality rather than swallow our gutful of marketing speak about the so-called benefits? Are the cost savings economically sound?
 </p>
 <p>
-In this article I'll try to appeal to your common sense, logical reasoning and empathy, and will employ such tactics as scepticism, derision, sarcasm and flat out cynicism to prove beyond a shadow of a doubt the ultimate conclusion on the matter. I will conclude the piece with some sobering and undisputable truths.
+In this article I'll try to appeal to your common sense, logical reasoning and empathy, and will employ such tactics as scepticism, derision, sarcasm and flat out cynicism to prove beyond a shadow of a doubt the ultimate conclusion on the matter. I will conclude the piece with some sobering and indisputable truths.
 Shall we get started? Rhetorical.
 </p>
 </div> 
@@ -65,7 +65,7 @@ _First, the bad uncomfortable news: Sometimes there is absolutely no substitute 
 
 "Thunderdoming"... another entry for my corporate dinner diary. Thanks!
 
-Oh the joyful imagary this creates in my mind. I've always wanted to do intricate work in the middle of an old fashioned stock exchange with people _"shouting out the latest critical changes"_. Critical changes requiring concentration and some level of intelligence and thought in a roudy stock exchange type arena. I guess the philosophy naturally extends to having physicists trying to crack out some string theory equations or multi-polarization of qubits proofs all packed into an open area with random people standing up and shouting random equations and theorems. I suppose brain surgeons, watch makers, and all manner of other knowledge workers would all benefit from this arrangement too. Working with this person would be [epic][6].
+Oh the joyful imagery this creates in my mind. I've always wanted to do intricate work in the middle of an old fashioned stock exchange with people _"shouting out the latest critical changes"_. Critical changes requiring concentration and some level of intelligence and thought in a rowdy stock exchange type arena. I guess the philosophy naturally extends to having physicists trying to crack out some string theory equations or multi-polarization of qubits proofs all packed into an open area with random people standing up and shouting random equations and theorems. I suppose brain surgeons, watch makers, and all manner of other knowledge workers would all benefit from this arrangement too. Working with this person would be [epic][6].
 <br/>
 <br/>
 
@@ -87,14 +87,14 @@ Now on to a fine piece of generalisation: [Do Successful Programmers Need to Be 
 <i>Pair programming is a bit of a pipe dream for most organizations, but if you have gregarious developers who talk to one another, they will at least understand what is going on in each other’s development trees. That means, also, working in group settings. It doesn’t have to be in the office all the time. Some deep code changes require getting away from all distractions for a bit, but if the results of that deep dive don’t come to light in the group, the knowledge only lives in the mind of the hermit and doesn’t ever benefit the organization as a whole.</i>
 </p>
 <p>
-Systems design? Achitecture? Nope. Algorithms or systems integration? Never. I don't even write code, no. I just change it sometimes, and sometimes I even get to make <i>"deep code changes"</i>. Of course, as a software engineer I go deep so very rarely that we need to call this sort of specialised and rare occurrence a <i>"deep dive"</i>. Upon return we must broadcast to "the group" what we did on our little self indulgent sabbatical because you know, it'll live in our heads because we're hermits and no one actually writes documentation, creates coherent code, comments their work or uses those wiki/issue tracking/version control thingies, do they? Of course, the rest of our work can be done amongst distractions. 
+Systems design? Architecture? Nope. Algorithms or systems integration? Never. I don't even write code, no. I just change it sometimes, and sometimes I even get to make <i>"deep code changes"</i>. Of course, as a software engineer I go deep so very rarely that we need to call this sort of specialised and rare occurrence a <i>"deep dive"</i>. Upon return we must broadcast to "the group" what we did on our little self indulgent sabbatical because you know, it'll live in our heads because we're hermits and no one actually writes documentation, creates coherent code, comments their work or uses those wiki/issue tracking/version control thingies, do they? Of course, the rest of our work can be done amongst distractions. 
 </p>
 </div> 
 </div>
 <br/>
 <br/>
 
-Having been so thoroughly enlightened by this article, I haven't the slightest clue where the concept of "code monkey" and "interchangable cog" come from. Obviously the author has a lot of respect for developers.
+Having been so thoroughly enlightened by this article, I haven't the slightest clue where the concept of "code monkey" and "interchangeable cog" come from. Obviously the author has a lot of respect for developers.
 
 Alice: "Where's Chuck?".<br/>
 Bob: "He's changing some code".<br/>
@@ -109,9 +109,9 @@ Cheers for the excellent corporate dinner diary entry: "deep dive".
 
 #### The Argument against Open Plan Work Spaces
 
-In 1998, a study by Banbury and Berry[^2] found that all background noise, even in the absense of speech, had a significant negative impact on ability to do mental arithmetic and on memory. Coffee grinders, mobile phones, keyboard tapping, mouse clicking, you name it, even in the absense of speech or even any visual distraction is detrimental to mental acuity. 
+In 1998, a study by Banbury and Berry[^2] found that all background noise, even in the absence of speech, had a significant negative impact on ability to do mental arithmetic and on memory. Coffee grinders, mobile phones, keyboard tapping, mouse clicking, you name it, even in the absence of speech or even any visual distraction is detrimental to mental acuity. 
 
-Ok, so noise is a problem, that's now clear from the studies, so why not just isolate yourself in a pair of headphones and crank some metal? Well, many people retreat into a pair of headphones and listen to music to try to block out all other auditory distractions. Unfortunately, Furnham and Strbac[^3] show this is detrimental to cognitive performance too (but at least to me, more tolerable than the yakity yak!). 
+OK, so noise is a problem, that's now clear from the studies, so why not just isolate yourself in a pair of headphones and crank some metal? Well, many people retreat into a pair of headphones and listen to music to try to block out all other auditory distractions. Unfortunately, Furnham and Strbac[^3] show this is detrimental to cognitive performance too (but at least to me, more tolerable than the yakity yak!). 
 
 Sundstrom et al.[^4], showed as far back as 1980, that privacy afforded by architecture is directly correlated with ones feeling of psychological privacy which in turn was shown to be directly correlated with higher workplace performance and career satisfaction. Openness, it was concluded was directly related to increased disturbances and decreased privacy. Most negatively affected were those with the most demanding roles as, what comes as no surprise, those roles require peace, privacy and lack of interruption in order to perform at the required level. Not overwhelmingly surprising but worth noting nonetheless, is that no matter the role of employee, the overwhelming preference was for private working conditions, and the performance of even "non-complex" roles saw increased productivity when afforded privacy. 
 
@@ -126,9 +126,6 @@ The subjects work in their normal working environments, for their regular hours,
 <img class="article-image" title="Peopleware Productivity Study Results" src="{{ASSET_PATH}}/bootstrap/img/peopleware_productivity.png"/>
 </div>
 </div>
-<br/>
-<br/>
-
 
 _The top quartile, those who did the exercise most rapidly and effectively, work in space that is substantially different from that of the bottom quartile. The-top performers' space is quieter, more private, better protected from interruption, and there is more of it._
 
@@ -142,15 +139,16 @@ Why care? If it 1) dramatically increases the productivity of your current emplo
 
 #### Conclusion
 
-I know some great developers who can design beautiful and succinct systems, integrate disparate bits of hardware with efficient software to create seamless products, hammer out robust, coherent and understandable code and software systems, both within teams and by themselves when afforded a little peace. Yet, these same people fail to function at a third of their ability in the maelstrom of movement and cacophany of yakking about what we're having for lunch, kids and weekend activities that we sadly call an office these days. In what other alternate universe would it be acceptible to prevent the intricate knowledge work of a professional taking place in order to promote "collaboration" and "team work" and to save a few bucks on the side? It's clear that the few who make noises about these issues (those targetted in the introductory quotes) are just the few that recognise a problem that affects _all_ developers whether or not they _like_ working in an open plan anti-pattern. Is the open plan office economically sound? It's overwhelming clear that it is not.
+I know some great developers who can design beautiful and succinct systems, integrate disparate bits of hardware with efficient software to create seamless products, hammer out robust, coherent and understandable code and software systems, both within teams and by themselves when afforded a little peace. Yet, these same people fail to function at a third of their ability in the maelstrom of movement and cacophony of yakking about what we're having for lunch, kids and weekend activities that we sadly call an office these days. In what other alternate universe would it be acceptable to prevent the intricate knowledge work of a professional taking place in order to promote "collaboration" and "team work" and to save a few bucks on the side? It's clear that the few who make noises about these issues (those targeted in the introductory quotes) are just the few that recognise a problem that affects _all_ developers whether or not they _like_ working in an open plan anti-pattern. Is the open plan office economically sound? It's overwhelming clear that it is not.
 
-hamming, open door to office (not open office) 
+To wrap this up, I suggest we look at an open door policy rather than an open office policy, and shall leave you with one final piece of advice from [A Stroke of Genius: Striving for Greatness in All You Do][10] 
+_Some people work with their doors open in clear view of those who pass by, while others carefully protect themselves from interruptions. Those with the door open get less work done each day, but those with their door closed tend not know what to work on, nor are they apt to hear the clues to the missing piece to one of their "list" problems. I cannot prove that the open door produces the open mind, or the other way around. I only can observe the correlation. I suspect that each reinforces the other, that an open door will more likely lead you and important problems than will a closed door._ -- <cite>[R. W. Hamming][11]</cite>.
 <br/>
 <br/>
 
-And please, enough of the loud eating, drink slurping and foul smelling food.
 I'd love to debate this topic further with you so please indulge me with your comments! 
-
+<br/>
+<br/>
 
 
 
@@ -173,6 +171,8 @@ I'd love to debate this topic further with you so please indulge me with your co
 [7]:http://www.pistoncloud.com/2014/02/do-successful-programmers-need-to-be-introverted/
 [8]:http://senate.ucsf.edu/2013-2014/mb4-brennan%20et%20al%20article%20on%20moving%20into%20open%20space%20offices.pdf
 [9]:http://www.amazon.com/Peopleware-Productive-Projects-Second-Edition/dp/0932633439
+[10]:http://www.mccurley.org/advice/hamming_advice.html
+[11]:http://en.wikipedia.org/wiki/Richard_Hamming
 
 
 
