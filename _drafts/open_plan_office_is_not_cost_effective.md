@@ -98,14 +98,13 @@ http://www.pistoncloud.com/2014/02/do-successful-programmers-need-to-be-introver
 <p>
 I don't write code, no. I just change it sometimes, and sometimes I even get to make <i>"deep code changes"</i>. Of course, as a developer I go deep so very rarely that we should call this a _"deep dive"_ to reflect it's rarety and must broadcast to "the group" what we did on our little self indulgent sabbatical. Of course, the rest of our work can be done amongst distractions. I'm not quite sure if we're all being labelled hermits here or if it is just those amongst us that've written code by themselves? Anyway, I accept the compliment! Oh and thanks for the excellent corporate dinner diary entry: "deep dive".
 </p>
+</div> 
 <p>
 Having been so thoroughly enlightened by this article, I'm at a loss to know where the concept of "code monkey" and "interchangable cog" come from. Obviously there's a lot of respect for developers at that company.
 </p>
 Alice: "Where's Chuck?".<br/>
 Bob: "He's changing some code".<br/>
 Alice: "Hermit!".<br/>
-</div> 
-
 
 </div>
 
