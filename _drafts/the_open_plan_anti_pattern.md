@@ -131,6 +131,7 @@ The subjects work in their normal working environments, for their regular hours,
 <br/>
 <br/>
 
+<
 _The top quartile, those who did the exercise most rapidly and effectively, work in space that is substantially different from that of the bottom quartile. The-top performers' space is quieter, more private, better protected from interruption, and there is more of it._
 
 So, as argued by Tom DeMarco: is it the quiet privacy of workplace that produces such stark differences? Is it just the fact that the brighter people gravitate towards companies and institutions that provide such private and quiet work spaces? Is a combination of the two?

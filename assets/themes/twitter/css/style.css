@@ -238,7 +238,7 @@ a.notes {
 }
 
 
-.ntro-img-border:after {
+.intro-img-border:after {
     content:'';
     display:block;
     clear: both;
