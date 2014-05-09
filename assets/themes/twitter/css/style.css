@@ -238,6 +238,10 @@ a.notes {
 }
 
 
-
+.ntro-img-border:after {
+    content:'';
+    display:block;
+    clear: both;
+}
 
 
