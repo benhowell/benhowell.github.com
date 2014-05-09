@@ -122,10 +122,16 @@ In the classic book [Peopleware][9], Tom DeMarco describes in detail a long runn
 The subjects work in their normal working environments, for their regular hours, using the same tools. languages and computers they would normally use for their regular project work.
 
 <div>
+<div class="intro-img-border">
+<div class="intro-img-bevel">
+<!-- <div class="intro-img"> -->
 <img class="article-image" title="Peopleware Productivity Study Results" src="{{ASSET_PATH}}/bootstrap/img/peopleware_productivity.png"/>
+</div>
+</div> 
 </div>
 <br/>
 <br/>
+
 
 _The top quartile, those who did the exercise most rapidly and effectively, work in space that is substantially different from that of the bottom quartile. The-top performers' space is quieter, more private, better protected from interruption, and there is more of it._
 
