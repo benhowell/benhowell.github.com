@@ -129,7 +129,7 @@ The subjects work in their normal working environments, for their regular hours,
 
 _The top quartile, those who did the exercise most rapidly and effectively, work in space that is substantially different from that of the bottom quartile. The-top performers' space is quieter, more private, better protected from interruption, and there is more of it._
 
-So, as argued by Tom DeMarco: is it the quiet privacy of workplace that produces such stark differences? Is it just the fact that the brighter people gravitate towards companies and institutions that provide such private and quiet work spaces? Is a combination of the two?
+So, as argued by Tom DeMarco: is it the quiet privacy of workplace that produces such stark differences? Is it just the fact that the brighter people gravitate towards companies and institutions that provide such private and quiet work spaces? Is it a combination of the two?
 
 Why care? If it 1) dramatically increases the productivity of your current employees, or 2) attracts better employees to your institution then both are reasonable and sane things to do which not only provide greater psychological benefits for your employees but also produces a better bottom line through productivity, quality and efficiency.
 <br/>
