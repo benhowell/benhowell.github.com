@@ -87,22 +87,18 @@ Now on to a fine piece of generalisation: [Do Successful Programmers Need to Be 
 <p>
 Systems design? Achitecture? Nope. Algorithms or systems integration? Never. I don't even write code, no. I just change it sometimes, and sometimes I even get to make <i>"deep code changes"</i>. Of course, as a software engineer I go deep so very rarely that we need to call this sort of specialised and rare occurrence a <i>"deep dive"</i>. Upon return we must broadcast to "the group" what we did on our little self indulgent sabbatical because you know, it'll live in our heads because we're hermits and no one actually writes documentation, creates coherent code, comments their work or uses those wiki/issue tracking/version control thingies, do they? Of course, the rest of our work can be done amongst distractions. 
 </p>
-Cheers for the excellent corporate dinner diary entry: "deep dive".
-
 </div> 
 </div>
 <br/>
 <br/>
 
-<p>
 Having been so thoroughly enlightened by this article, I haven't the slightest clue where the concept of "code monkey" and "interchangable cog" come from. Obviously the author has a lot of respect for developers.
-</p>
-<p>
+
 Alice: "Where's Chuck?".<br/>
 Bob: "He's changing some code".<br/>
 Alice: "Hermit!".<br/>
-</p>
 
+Cheers for the excellent corporate dinner diary entry: "deep dive".
 
 
 
