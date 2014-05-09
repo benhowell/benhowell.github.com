@@ -43,8 +43,6 @@ To get this [big ball of mud rolling][1], I'll quote from an article titled: [Pr
 
 _"I have always insisted on having an open plan office. It makes things so much easier when you can simply get up and walk over to a colleague if you need to discuss something. Ideas flow a lot more freely..."_
 
-Don't you love the hip marketing speak? "Productivity Hacks"... I've noted that one in my diary for the next corporate dinner I'm invited to. Should definitely turn some heads!
-
 I agree! Unwanted distractions and careless ad-hoc interruptions are a sure-fire method of boosting productivity. Oh, unless he literally means to chop roughly and indiscriminately this ruining productivity? Hmm...
 
 <p>
@@ -54,32 +52,49 @@ Alice: "Never mind, it's all in the email".<br/>
 </p>
 
 
+"Productivity Hacks"... I've noted that one in my diary for the next corporate dinner I'm invited to. Should definitely turn some heads!
+<br/>
+<br/>
+
+
+Next up: [Agile for the Introvert][3], because it is only introverts who selfishly think that [without great solitude, no serious work is possible][4].
+
+_First, the bad uncomfortable news: Sometimes there is absolutely no substitute for a good ol’ fashioned Agile bullpen. You’ll be better off if you accept this now. While (as an introvert) this is usually the last thing on Earth that I want to do, there are situations that demand it. If you’re up against an important deadline delivery, then you know that you need all the communication bandwidth you can get. Sometimes it’s easier to just have everyone in a room, stand up, shout out the latest critical changes, kick off the integration build, and move on to the next thing. (Where I come from, we call this “Thunderdoming.”)_ "Thunderdoming"... another entry for my corporate dinner diary. Thanks!
+
+Oh the joyful imagary this creates in my mind. I've always wanted to do intricate work in the middle of an old fashioned stock exchange with people _"shouting out the latest critical changes"_. Critical changes requiring concentration and some level of intelligence and thought in a roudy stock exchange type arena. I guess the philosophy naturally extends to having physicists trying to crack out some string theory equations or multi-polarization of qubits proofs all packed into an open area with random people standing up and shouting random terms and numbers. I suppose brain surgeons, watch makers, and all manner of other knowledge workers would all benefit from this arrangement too. Working with this person would be [epic][4].
 
 
 
-hamming, open door to office (not open office) 
 
 
 
-[1]:http://en.wikipedia.org/wiki/Big_ball_of_mud
-[2]:http://www.linkedin.com/today/post/article/20140121120012-32175171-productivity-hacks-the-open-plan-office
+
 
 
 
 
 [agile for the introvert][3]
 
+[1]:http://en.wikipedia.org/wiki/Big_ball_of_mud
+[2]:http://www.linkedin.com/today/post/article/20140121120012-32175171-productivity-hacks-the-open-plan-office
 [3]:http://blog.founddrama.net/2012/08/agile-for-the-introvert/comment-page-1/
+[4]:http://en.wikipedia.org/wiki/Pablo_Picasso
 
 
 
-_First, the bad uncomfortable news: Sometimes there is absolutely no substitute for a good ol’ fashioned Agile bullpen. You’ll be better off if you accept this now. While (as an introvert) this is usually the last thing on Earth that I want to do, there are situations that demand it. If you’re up against an important deadline delivery, then you know that you need all the communication bandwidth you can get. Sometimes it’s easier to just have everyone in a room, stand up, shout out the latest critical changes, kick off the integration build, and move on to the next thing. (Where I come from, we call this “Thunderdoming.”)_ "Thunderdoming"... another entry for my corporate dinner diary. Thanks!
 
-Oh the joyful imagary this creates in my mind. I've always wanted to do intricate work in the middle of an old fashioned stock exchange with people _"shouting out the latest critical changes"_. Critical changes requiring concentration and some level of intelligence and thought in a roudy stock exchange type arena. I guess the philosophy naturally extends to having physicists trying to crack out some string theory equations or multi-polarization of qubits proofs all packed into an open area with random people standing up and shouting random terms and numbers. I suppose brain surgeons, watch makers, and all manner of other knowledge workers would all benefit from this arrangement too. Working at this place would be [epic][4].
 
 
 **getting away from all distractions for a bit**? wtf?
 
+
+
+
+
+
+
+
+hamming, open door to office (not open office) 
 
 
 
