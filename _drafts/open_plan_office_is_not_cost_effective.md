@@ -41,7 +41,7 @@ Ah, knowledge work. Software engineering, design, development, programming, what
 #### The Argument for Open Plan Work Spaces
 To get this [big ball of mud rolling][1], I'll quote from an article titled: [Productivity Hacks: The Open Plan Office][2].
 
-_"I have always insisted on having an open plan office. It makes things so much easier when you can simply get up and walk over to a colleague if you need to discuss something. Ideas flow a lot more freely..."_
+_I have always insisted on having an open plan office. It makes things so much easier when you can simply get up and walk over to a colleague if you need to discuss something. Ideas flow a lot more freely..._
 
 I couldn't agree more! Unwanted distractions and careless ad-hoc interruptions are a sure-fire method of boosting productivity. Actively prohibiting [flow][5] is a small price to pay for such productivity gains. Oh, unless he literally means to chop his productivity down with rough and indiscriminately blows? Hmm.
 
@@ -59,47 +59,15 @@ Alice: "Never mind, it's all in the email".<br/>
 
 Next up: [Agile for the Introvert][3], because it is only introverts who selfishly think that [without great solitude, no serious work is possible][4].
 
-_First, the bad uncomfortable news: Sometimes there is absolutely no substitute for a good ol’ fashioned Agile bullpen. You’ll be better off if you accept this now. While (as an introvert) this is usually the last thing on Earth that I want to do, there are situations that demand it. If you’re up against an important deadline delivery, then you know that you need all the communication bandwidth you can get. Sometimes it’s easier to just have everyone in a room, stand up, shout out the latest critical changes, kick off the integration build, and move on to the next thing. (Where I come from, we call this “Thunderdoming.”)_ "Thunderdoming"... another entry for my corporate dinner diary. Thanks!
+_First, the bad uncomfortable news: Sometimes there is absolutely no substitute for a good ol’ fashioned Agile bullpen. You’ll be better off if you accept this now. While (as an introvert) this is usually the last thing on Earth that I want to do, there are situations that demand it. If you’re up against an important deadline delivery, then you know that you need all the communication bandwidth you can get. Sometimes it’s easier to just have everyone in a room, stand up, shout out the latest critical changes, kick off the integration build, and move on to the next thing. (Where I come from, we call this “Thunderdoming.”)_ 
 
-Oh the joyful imagary this creates in my mind. I've always wanted to do intricate work in the middle of an old fashioned stock exchange with people _"shouting out the latest critical changes"_. Critical changes requiring concentration and some level of intelligence and thought in a roudy stock exchange type arena. I guess the philosophy naturally extends to having physicists trying to crack out some string theory equations or multi-polarization of qubits proofs all packed into an open area with random people standing up and shouting random terms and numbers. I suppose brain surgeons, watch makers, and all manner of other knowledge workers would all benefit from this arrangement too. Working with this person would be [epic][4].
+"Thunderdoming"... another entry for my corporate dinner diary. Thanks!
 
+Oh the joyful imagary this creates in my mind. I've always wanted to do intricate work in the middle of an old fashioned stock exchange with people _"shouting out the latest critical changes"_. Critical changes requiring concentration and some level of intelligence and thought in a roudy stock exchange type arena. I guess the philosophy naturally extends to having physicists trying to crack out some string theory equations or multi-polarization of qubits proofs all packed into an open area with random people standing up and shouting random equations and theorems. I suppose brain surgeons, watch makers, and all manner of other knowledge workers would all benefit from this arrangement too. Working with this person would be [epic][6].
+<br/>
+<br/>
 
-
-
-
-
-
-
-
-
-
-[agile for the introvert][3]
-
-[1]:http://en.wikipedia.org/wiki/Big_ball_of_mud
-[2]:http://www.linkedin.com/today/post/article/20140121120012-32175171-productivity-hacks-the-open-plan-office
-[3]:http://blog.founddrama.net/2012/08/agile-for-the-introvert/comment-page-1/
-[4]:http://en.wikipedia.org/wiki/Pablo_Picasso
-[5]:http://en.wikipedia.org/wiki/Flow_(psychology)
-
-
-
-
-
-**getting away from all distractions for a bit**? wtf?
-
-
-
-
-
-
-
-
-hamming, open door to office (not open office) 
-
-
-
-
-http://www.pistoncloud.com/2014/02/do-successful-programmers-need-to-be-introverted/
+Now on to a fine piece of generalisation: [Do Successful Programmers Need to Be Introverted?][7]
 
 <div class="intro">
 
@@ -139,7 +107,42 @@ Alice: "Hermit!".<br/>
 
 
 
-[4]:http://thebestpageintheuniverse.net/c.cgi?u=epic
+
+
+[1]:http://en.wikipedia.org/wiki/Big_ball_of_mud
+[2]:http://www.linkedin.com/today/post/article/20140121120012-32175171-productivity-hacks-the-open-plan-office
+[3]:http://blog.founddrama.net/2012/08/agile-for-the-introvert/comment-page-1/
+[4]:http://en.wikipedia.org/wiki/Pablo_Picasso
+[5]:http://en.wikipedia.org/wiki/Flow_(psychology)
+[6]:http://thebestpageintheuniverse.net/c.cgi?u=epic
+[7]:http://www.pistoncloud.com/2014/02/do-successful-programmers-need-to-be-introverted/
+
+
+
+
+**getting away from all distractions for a bit**? wtf?
+
+
+
+
+
+
+
+
+hamming, open door to office (not open office) 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
