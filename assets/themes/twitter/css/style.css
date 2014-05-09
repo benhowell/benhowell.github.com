@@ -180,6 +180,9 @@ img.brand-image {
   width: 800px;
 }
 
+/*
+ * image at right of text
+ */
 .intro-txt {
   float: left;
   width: 530px;
@@ -223,3 +226,18 @@ img.brand-image {
 a.notes {
   color:#FF4500;
 }
+
+
+/*
+ * image at left of text
+ */
+.intro-txt-right-of-img {
+  float: left;
+  width: 530px;
+  margin-left: 12px;
+}
+
+
+
+
+

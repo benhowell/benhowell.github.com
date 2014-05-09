@@ -33,7 +33,7 @@ Shall we get started? Yes. Rhetorical.
 <br/>
 
 
-"Open plan". Words that make an introvert cringe and an extrovert jump for joy and then talk at someone about it for the next ten minutes preventing you from thinking straight.
+"Open plan". Words that make an introvert cringe and an extrovert jump for joy and then talk at someone about it for the next ten minutes preventing you from thinking straight and therefore getting any work done[^1].
 
 Ah, knowledge work. Software engineering, design, development, programming, whatever you want to call what we do, it all requires at least a small amount of concentration and as little cognitive distraction and annoyance as is practicable (particularly visual and aural). Great. Oh yeah, a bit of respect for the mental difficulty and professionalism of our trade wouldn't go astray either. 
 <br/>
@@ -69,10 +69,10 @@ hamming, open door to office (not open office)
 
 _First, the bad uncomfortable news: Sometimes there is absolutely no substitute for a good ol’ fashioned Agile bullpen. You’ll be better off if you accept this now. While (as an introvert) this is usually the last thing on Earth that I want to do, there are situations that demand it. If you’re up against an important deadline delivery, then you know that you need all the communication bandwidth you can get. Sometimes it’s easier to just have everyone in a room, stand up, shout out the latest critical changes, kick off the integration build, and move on to the next thing. (Where I come from, we call this “Thunderdoming.”)_ "Thunderdoming"... another entry for my corporate dinner diary. Thanks!
 
-Oh the joyful imagary this creates in my mind. I've always wanted to do intricate work in the middle of an old fashioned stock exchange with people _"shouting out the latest critical changes"_. Critical changes requiring concentration and some level of intelligence and thought in a roudy stock exchange type arena. I guess the philosophy naturally extends to having physicists trying to crack out some string theory equations or multi-polarization of qubits proofs all packed into an open area with random people standing up and shouting random terms and numbers. I suppose brain surgeons, watch makers, and all manner of other knowledge workers would all benefit from this arrangement too. Awesome. 
+Oh the joyful imagary this creates in my mind. I've always wanted to do intricate work in the middle of an old fashioned stock exchange with people _"shouting out the latest critical changes"_. Critical changes requiring concentration and some level of intelligence and thought in a roudy stock exchange type arena. I guess the philosophy naturally extends to having physicists trying to crack out some string theory equations or multi-polarization of qubits proofs all packed into an open area with random people standing up and shouting random terms and numbers. I suppose brain surgeons, watch makers, and all manner of other knowledge workers would all benefit from this arrangement too. Working at this place would be [epic][4].
 
 
-
+**getting away from all distractions for a bit**? wtf?
 
 
 
@@ -91,17 +91,19 @@ http://www.pistoncloud.com/2014/02/do-successful-programmers-need-to-be-introver
 </div>
 
 
-<div class="intro-txt">
+<div class="intro-txt-right-of-img">
 <p>
 <i>Pair programming is a bit of a pipe dream for most organizations, but if you have gregarious developers who talk to one another, they will at least understand what is going on in each other’s development trees. That means, also, working in group settings. It doesn’t have to be in the office all the time. Some deep code changes require getting away from all distractions for a bit, but if the results of that deep dive don’t come to light in the group, the knowledge only lives in the mind of the hermit and doesn’t ever benefit the organization as a whole.</i>
 </p>
 <p>
-I don't write code, no. I just change it sometimes, and sometimes I even get to make <i>"deep code changes"</i>. Of course, as a developer I go deep so very rarely that we should call this a _"deep dive"_ to reflect it's rarety and in order to not be classified a hermit, we must broadcast to "the group" what we did on our little self indulgent sabbatical. The other 99% of the time we should work in the group.
+I don't write code, no. I just change it sometimes, and sometimes I even get to make <i>"deep code changes"</i>. Of course, as a developer I go deep so very rarely that we should call this a _"deep dive"_ to reflect it's rarety and must broadcast to "the group" what we did on our little self indulgent sabbatical. Of course, the rest of our work can be done amongst distractions. I'm not quite sure if we're all being labelled hermits here or if it is just those amongst us that've written code by themselves? Anyway, I accept the compliment! Oh and thanks for the excellent corporate dinner diary entry: "deep dive".
 </p>
 <p>
-Having been so thoroughly enlightened by this article, I'm at a loss to know where the concept of "code monkey" and "interchangable cog" come from. "Where's Bob?" "Oh, he needs some quiet time now. He's changing some code".
+Having been so thoroughly enlightened by this article, I'm at a loss to know where the concept of "code monkey" and "interchangable cog" come from. Obviously there's a lot of respect for developers at that company.
 </p>
-
+Alice: "Where's Chuck?".<br/>
+Bob: "He's changing some code".<br/>
+Alice: "Hermit!".<br/>
 </div> 
 
 
@@ -111,7 +113,7 @@ Having been so thoroughly enlightened by this article, I'm at a loss to know whe
 
 
 
-[epic][4]. 
+
 
 
 
@@ -224,6 +226,6 @@ http://www.businessinsider.com.au/why-the-open-office-makes-you-distracted-exhau
 http://www.theatlantic.com/magazine/archive/2014/04/the-optimal-office/358640/
 
 
-
+[^1]: I'm not really picking on extroverts, after all, they need peace to get great work done too. Besides, some of my best friends are extroverts.
 
 
