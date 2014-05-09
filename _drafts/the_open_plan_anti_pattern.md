@@ -14,9 +14,10 @@ article_img: bootstrap/img/open_office_250.jpg
 Open plan work environments. Often touted as superior when compared to private work areas and offices not only because of the reduction in costs of accomodating staff, but also because of the open collaboration, communication, social interraction and team building they <i>apparently</i> foster.
 </p>
 <p>
-But does any of this actually stack up? Shouldn't we be looking at empirical studies to determine whether or not the percieved benefits are grounded in truth and reality rather than swallow our gutful of marketing speak about the so-called benefits? Are the cost savings economically sound? In this article I'll try to appeal to your common sense, logical reasoning and empathy, and will employ such tactics as scepticism, derision, sarcasm and flat out cynicism to prove beyond a shadow of a doubt the ultimate conclusion on the matter.
+But does any of this actually stack up? Shouldn't we be looking at empirical studies to determine whether or not the percieved benefits are grounded in truth and reality rather than swallow our gutful of marketing speak about the so-called benefits? Are the cost savings economically sound?
 </p>
 <p>
+In this article I'll try to appeal to your common sense, logical reasoning and empathy, and will employ such tactics as scepticism, derision, sarcasm and flat out cynicism to prove beyond a shadow of a doubt the ultimate conclusion on the matter. I will conclude the piece with some sobering and undisputable truths.
 Shall we get started? Rhetorical.
 </p>
 </div> 
@@ -39,6 +40,7 @@ Ah, knowledge work. Software engineering, design, development, programming, what
 <br/>
 
 #### The Argument for Open Plan Work Spaces
+
 To get this [big ball of mud rolling][1], I'll quote from an article titled: [Productivity Hacks: The Open Plan Office][2].
 
 _I have always insisted on having an open plan office. It makes things so much easier when you can simply get up and walk over to a colleague if you need to discuss something. Ideas flow a lot more freely..._
@@ -107,118 +109,47 @@ Cheers for the excellent corporate dinner diary entry: "deep dive".
 
 #### The Argument against Open Plan Work Spaces
 
+In 1998, a study by Banbury and Berry[^2] found that all background noise, even in the absense of speech, had a significant negative impact on ability to do mental arithmetic and on memory. Coffee grinders, mobile phones, keyboard tapping, mouse clicking, you name it, even in the absense of speech or even any visual distraction is detrimental to mental acuity. 
 
+Ok, so noise is a problem, that's now clear from the studies, so why not just isolate yourself in a pair of headphones and crank some metal? Well, many people retreat into a pair of headphones and listen to music to try to block out all other auditory distractions. Unfortunately, Furnham and Strbac[^3] show this is detrimental to cognitive performance too (but at least to me, more tolerable than the yakity yak!). 
 
+Sundstrom et al.[^4], showed as far back as 1980, that privacy afforded by architecture is directly correlated with ones feeling of psychological privacy which in turn was shown to be directly correlated with higher workplace performance and career satisfaction. Openness, it was concluded was directly related to increased disturbances and decreased privacy. Most negatively affected were those with the most demanding roles as, what comes as no surprise, those roles require peace, privacy and lack of interruption in order to perform at the required level. Not overwhelmingly surprising but worth noting nonetheless, is that no matter the role of employee, the overwhelming preference was for private working conditions, and the performance of even "non-complex" roles saw increased productivity when afforded privacy. 
 
+In a study of employees from a Canadian oil company conducted by Brennan et al.[^5] called [Traditional versus Open Office Design: A Longitudinal Field Study][8] in 2002 it was concluded that on the subjects of work place satisfaction, self assessment and relationships with other workers, the overwhelming perception of the employees was negative towards the open plan concept that replaced their previous private work spaces.
 
+In the classic book [Peopleware][9], Tom DeMarco describes in detail a long running study, started in 1977 called "Coding War Games: Observed Productivity Factors". From 1984 to 1986, more than 600 developers from 92 companies have participated in these games. In this study, participants compete against each other on an identical software engineering task, designing, coding, and testing a medium-sized program to spec, recording the time spent on tasks in a log as they go. Once the projects are complete they are subjected to acceptance testing.
 
+The subjects work in their normal working environments, for their regular hours, using the same tools. languages and computers they would normally use for their regular project work.
 
-
-
-
-
-
-http://www.emeraldinsight.com/journals.htm?articleid=17048072
-http://www.sciencedirect.com/science/article/pii/S0272494413000340
-
-
-
-
-
-Well, I know of plenty of studies and academic papers on the matter, but I'm not willing to pay for them for the sake of this article so at best I will cite them and summarise their results.
-
-
-
-
+<div class="intro-img-border">
+<div class="intro-img-bevel">
+<div class="intro-img">
+<img class="article-image" title="Peopleware Productivity Study Results" src="{{ASSET_PATH}}/bootstrap/img/peopleware_productivity.png"/>
+</div> 
+</div> 
+</div>
 <br/>
 <br/>
 
-#### The data
-**Distraction**
+_The top quartile, those who did the exercise most rapidly and effectively, work in space that is substantially different from that of the bottom quartile. The-top performers' space is quieter, more private, better protected from interruption, and there is more of it._
 
-hamming, open door to office (not open office) 
+So, as argued by Tom DeMarco: is it the quiet privacy of workplace that produces such stark differences? Is it just the fact that the brighter people gravitate towards companies and institutions that provide such private and quiet work spaces? Is a combination of the two?
 
+Why care? If it 1) dramatically increases the productivity of your current employees, or 2) attracts better employees to your institution then both are reasonable and sane things to do which not only provide greater psychological benefits for your employees but also a better bottom through productivity, quality and efficiency.
 <br/>
 <br/>
 
-** **
 
-
-
-
-
-
-Noise and consequence
-
-The funny part about the extrovert workplace or culture is that there really isn't any proof that it works. The merits of collaboration are asserted, not proven. I would say that we end up with offices that extroverts like to work in, not necessarily offices that get work done. Remember those Harvard Business School extroverts? They are probably the ones who end up being the managers who decide how the office should look and push for socially intensive "collaboration". But these choices hurt everyone's work performance, not just introverts'. For example, Cain points out that brainstorming doesn't work: studies show people generate better ideas individually.
-
-For software development, Cain cites Tom DeMarco's work, also documented in his classic book Peopleware. DeMarco ran the Coding War Games, a study testing programming performance of over 600 programmers from 92 companies. The best outperformed the worst by 10 to 1. Folks, this is the origin of the "good programmers are 10 times more productive" axiom. There was no correlation between performance and experience, time nor salary. What is significant is that programmers from the same companies performed at the same level, even though they did not work together! The key piece of data is that top performers worked for companies that gave them the most privacy, personal space and a distraction-free environment. Another study tells us that office noise reduces knowledge worker productivity by 66%. Yikes.
-
-Proponents of collaboration may have been inspired by open source projects on the Internet (Linux, for example) as examples of successful collaboration. But Cain points out that there is a significant difference with online collaboration: developers are physically isolated. They work alone, and only interact when they want to. The tools of collaboration -- email, mailing lists/forums and bug tracking software -- are asynchronous and undisruptive. This works great for introverts.
-
-Cain names numerous famous introverts (e.g., Newton, Einstein, Chopin, Spielberg, Ghandi, Wozniak) and describes many strengths associated with introversion. A third to half of all people are introverts. The bottom line is that it makes no business sense to alienate a substantial part of the world with so much to contribute. Ideally, the physical workspace should allow options so introverts and extroverts can pick an environment suited to their temperament. She also wrote of "restorative niches", opportunities for solitude so introverts can recharge. I am fortunate to be allowed to work from home a couple of days a week. Most importantly, in my opinion, we need to appreciate the differences in our temperaments and accommodate them so both introverts and extroverts feel welcome in the modern workplace. 
-
-With a lack of privacy comes noise—the talking, typing, and even chewing of one’s co-workers. A 1998 study found that background noise, whether or not it included speech, impaired both memory and the ability to do mental arithmetic [4], 
-
-[4] Banbury and Berry, “Disruption of Office-Related Tasks by Speech and Office Noise” (British Journal of Psychology, 1998)
-<br/>
-<br/>
-
-**sub topic Music is as distracting as noise: the differential distraction of background music and noise on the cognitive test performance of introverts and extraverts**
-yep, so what to do? Many people retreat into a pair of headphones and listen to music to try to block out all other auditory distractions. Unfortunately, studies show this is detrimental to cognitive performance too. 
-
-while another study found that even music hindered performance [5].
-[5] Furnham and Strbac, “Music Is as Distracting as Noise” (Ergonomics, 2002)
-<br/>
-<br/>
-
-**Privacy**
-In 1980, a group of psychology researchers published a study suggesting that this sacrifice might have unintended consequences. They found that “architectural privacy” (the ability to close one’s door, say) went hand in hand with a sense of “psychological privacy” (feeling “control over access to oneself or one’s group”). And a healthy dose of psychological privacy correlated with greater job satisfaction and performance [3]. 
-
-[3] Sundstrom et al., “Privacy at Work: Architectural Correlates of Job Satisfaction and Job Performance” (Academy of Management Journal, March 1980)
-<br/>
-<br/>
-
-**Productivity**
-exhausting and unproductive
-http://www.businessinsider.com.au/why-the-open-office-makes-you-distracted-exhausted-and-insecure-2014-4
-http://www.theatlantic.com/magazine/archive/2014/04/the-optimal-office/358640/
-<br/>
-<br/>
-
-**knowledge work and innovation**
-Solitude Matters
-
-Transcendent power of Solitude
-
-generate ideas free from the distortions of group dynamics
-
-the more freedom you give to introverts to be themselves, the better the solutions they like do
-1. stop the madness for constant group work... need much more privacy, much more freedom and much more autonomy at work
-<br/>
-<br/>
-
-**introverts vs extroverts**
-yeah, yeah, i said I wouldnt do it.
-
-heavy emphasis on collaboration, open plan offices, people packed together into team rooms, constant verbal interaction such as all-day pair programming, lack of privacy, and of course noise. The workplace is now a high-stimulation environment
-
-Introvert, extrovert
-
-Cain's definition of introversion and extroversion is pretty much what you would expect if you are familiar with Myers-Briggs. She emphasizes that "introvert" does not mean shy nor anti-social. Rather, an introvert tends to focus on the inner world of thought and feeling, enjoys solitude, dislike conflict and focus well. An extrovert would be the opposite, focusing on the exterior world and social interaction, are comfortable with conflict and enjoy multitasking. Another way to look at this is to say that introverts are more sensitive to outside stimulation, such as noise or people, and thrive at lower levels of such stimulation. Conversely, an extrovert needs a greater intensity of stimulation to feel "right". An introvert needs solitude to recharge after experiencing elevated levels of stimulation. An extrovert is the opposite: he recharges with social interaction.
-
-The difference between introverts and extroverts -- keep in mind this is a continuum rather than a binary distinction -- in terms of optimal stimulation levels helps explain work environment preferences. An introvert works best in a relatively quiet, distraction-free environment, such as a private office. An extrovert is energized by the constant social interaction of pair programming and the bustling activity of an open plan office.
-
-There have always been introverts and extroverts, so why does the work environment tend to favor the latter? It's not just the cost-savings from packing more people into less space. Cain points out that there has been a change of culture in the US. (I am writing specifically of US culture because not all cultures have the same antipathy towards introversion).
-<br/>
-<br/>
 
 #### Conclusion
 
-I know some great developers who can design beautiful and succinct systems, integrate disparate bits of hardware with efficient software to create seamless products, hammer out robust, coherent and understandable code and software systems, both within teams and by themselves when afforded a little peace. Yet, these same people fail to function at a third of their ability in the maelstrom of movement and cacophany of yakking about what we're having for lunch, kids and weekend activities that we sadly call an office these days. In what other alternate universe would it be acceptible to prevent the intricate knowledge work of a professional taking place in order to promote "collaboration" and "team work" and to save a few bucks on the side? It's clear that the few who make noises about these issues (i.e. the [minority?] targetted in the introductory quotes) are just the few that recognise a problem that affects _all_ developers. Is the open plan office economically sound? It's overwhelming clear that it is not.
+I know some great developers who can design beautiful and succinct systems, integrate disparate bits of hardware with efficient software to create seamless products, hammer out robust, coherent and understandable code and software systems, both within teams and by themselves when afforded a little peace. Yet, these same people fail to function at a third of their ability in the maelstrom of movement and cacophany of yakking about what we're having for lunch, kids and weekend activities that we sadly call an office these days. In what other alternate universe would it be acceptible to prevent the intricate knowledge work of a professional taking place in order to promote "collaboration" and "team work" and to save a few bucks on the side? It's clear that the few who make noises about these issues (those targetted in the introductory quotes) are just the few that recognise a problem that affects _all_ developers whether or not they _like_ working in an open plan anti-pattern. Is the open plan office economically sound? It's overwhelming clear that it is not.
+
+hamming, open door to office (not open office) 
 <br/>
 <br/>
 
+And please, enough of the loud eating, drink slurping and foul smelling food.
 I'd love to debate this topic further with you so please indulge me with your comments! 
 
 
@@ -228,9 +159,10 @@ I'd love to debate this topic further with you so please indulge me with your co
 #### Notes
 
 [^1]: I've got nothing against extroverts, honestly, after all, they need peace to get great work done too. Besides, some of my best friends are extroverts.
-
-
-
+[^2]: Reference: Banbury and Berry, “Disruption of Office-Related Tasks by Speech and Office Noise” (British Journal of Psychology, 1998)
+[^3]: Furnham and Strbac, “Music Is as Distracting as Noise” (Ergonomics, 2002)
+[^4]: Sundstrom et al., “Privacy at Work: Architectural Correlates of Job Satisfaction and Job Performance” (Academy of Management Journal, March 1980)
+[^5]: Brennan et al., “Traditional Versus Open Office Design” (Environment and Behavior, May 2002)
 
 
 [1]:http://en.wikipedia.org/wiki/Big_ball_of_mud
@@ -240,8 +172,8 @@ I'd love to debate this topic further with you so please indulge me with your co
 [5]:http://en.wikipedia.org/wiki/Flow_(psychology)
 [6]:http://thebestpageintheuniverse.net/c.cgi?u=epic
 [7]:http://www.pistoncloud.com/2014/02/do-successful-programmers-need-to-be-introverted/
-
-
+[8]:http://senate.ucsf.edu/2013-2014/mb4-brennan%20et%20al%20article%20on%20moving%20into%20open%20space%20offices.pdf
+[9]:http://www.amazon.com/Peopleware-Productive-Projects-Second-Edition/dp/0932633439
 
 
 
