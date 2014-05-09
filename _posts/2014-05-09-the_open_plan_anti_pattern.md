@@ -3,7 +3,7 @@ layout: post
 category : people
 title: The Open Plan Anti-pattern
 tagline: "people"
-tags : [people, open plan, introvert, extrovert, management, collaboration, privacy, efficiency]
+tags : [people, open plan, introvert, extrovert, management, collaboration, privacy, efficiency, psychology]
 article_img: bootstrap/img/open_office_250.jpg
 ---
 {% include JB/setup %}
@@ -113,7 +113,7 @@ In 1998, a study by Banbury and Berry[^2] found that all background noise, even 
 
 OK, so noise is a problem, that's now clear from the studies, so why not just isolate yourself in a pair of headphones and crank some metal? Well, many people retreat into a pair of headphones and listen to music to try to block out all other auditory distractions. Unfortunately, Furnham and Strbac[^3] show this is detrimental to cognitive performance too (but at least to me, more tolerable than the yakity yak!). 
 
-Sundstrom et al.[^4], showed as far back as 1980, that privacy afforded by architecture is directly correlated with ones feeling of psychological privacy which in turn was shown to be directly correlated with higher workplace performance and career satisfaction. Openness, it was concluded was directly related to increased disturbances and decreased privacy. Most negatively affected were those with the most demanding roles as, what comes as no surprise, those roles require peace, privacy and lack of interruption in order to perform at the required level. Not overwhelmingly surprising but worth noting nonetheless, is that no matter the role of employee, the overwhelming preference was for private working conditions, and the performance of even "non-complex" roles saw increased productivity when afforded privacy. 
+Sundstrom et al.[^4], showed as far back as 1980, that privacy afforded by architecture is directly correlated with one's feeling of psychological privacy which in turn was shown to be directly correlated with higher workplace performance and career satisfaction. Openness, it was concluded, was directly related to increased disturbances and decreased privacy. Most negatively affected were those with the most demanding roles as, what comes as no surprise, those roles require peace, privacy and lack of interruption in order to perform at the required level. Not surprising but worth noting nonetheless, is that no matter the role of employee, the overwhelming preference was for private working conditions, and the performance of even "non-complex" roles saw increased productivity when afforded privacy. 
 
 In a study of employees from a Canadian oil company conducted by Brennan et al.[^5] called [Traditional versus Open Office Design: A Longitudinal Field Study][8] in 2002 it was concluded that on the subjects of work place satisfaction, self assessment and relationships with other workers, the overwhelming perception of the employees was negative towards the open plan concept that replaced their previous private work spaces.
 
@@ -131,7 +131,7 @@ _The top quartile, those who did the exercise most rapidly and effectively, work
 
 So, as argued by Tom DeMarco: is it the quiet privacy of workplace that produces such stark differences? Is it just the fact that the brighter people gravitate towards companies and institutions that provide such private and quiet work spaces? Is a combination of the two?
 
-Why care? If it 1) dramatically increases the productivity of your current employees, or 2) attracts better employees to your institution then both are reasonable and sane things to do which not only provide greater psychological benefits for your employees but also a better bottom through productivity, quality and efficiency.
+Why care? If it 1) dramatically increases the productivity of your current employees, or 2) attracts better employees to your institution then both are reasonable and sane things to do which not only provide greater psychological benefits for your employees but also produces a better bottom line through productivity, quality and efficiency.
 <br/>
 <br/>
 
@@ -139,7 +139,7 @@ Why care? If it 1) dramatically increases the productivity of your current emplo
 
 #### Conclusion
 
-I know some great developers who can design beautiful and succinct systems, integrate disparate bits of hardware with efficient software to create seamless products, hammer out robust, coherent and understandable code and software systems, both within teams and by themselves when afforded a little peace. Yet, these same people fail to function at a third of their ability in the maelstrom of movement and cacophony of yakking about what we're having for lunch, kids and weekend activities that we sadly call an office these days. In what other alternate universe would it be acceptable to prevent the intricate knowledge work of a professional taking place in order to promote "collaboration" and "team work" and to save a few bucks on the side? It's clear that the few who make noises about these issues (those targeted in the introductory quotes) are just the few that recognise a problem that affects _all_ developers whether or not they _like_ working in an open plan anti-pattern. Is the open plan office economically sound? It's overwhelming clear that it is not.
+I know some great developers who can design beautiful and succinct systems, integrate disparate bits of hardware with efficient software to create seamless products, hammer out robust, coherent and understandable code and software systems, both within teams and by themselves when afforded a little peace. Yet, these same people fail to function at a third of their ability in the maelstrom of movement and cacophony of yakking about what we're having for lunch, kids and weekend activities that we sadly call an office these days. In what other alternative universe would it be acceptable to prevent the intricate knowledge work of a professional taking place in order to promote "collaboration" and "team work" and to save a few bucks on the side? It's clear that the few who make noises about these issues (those targeted in the introductory quotes) are just the few that recognise a problem that affects _all_ developers whether or not they _like_ working in an open plan anti-pattern. Is the open plan office economically sound? It's overwhelming clear that it is not.
 
 To wrap this up, I suggest we look at an open door policy rather than an open office policy, and shall leave you with one final piece of advice from [A Stroke of Genius: Striving for Greatness in All You Do][10]:
 
