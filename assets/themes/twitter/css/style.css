@@ -236,12 +236,3 @@ a.notes {
   width: 530px;
   margin-left: 12px;
 }
-
-
-.intro-img-border:after {
-    content:'';
-    display:block;
-    clear: both;
-}
-
-
