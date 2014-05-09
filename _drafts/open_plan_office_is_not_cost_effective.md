@@ -40,15 +40,13 @@ Ah, knowledge work. Software engineering, design, development, programming, what
 
 #### The Argument for Open Plan Work Spaces
 To get this [big ball of mud rolling][1], I'll quote from an absurd article titled: [Productivity Hacks: The Open Plan Office][2]. Oh, this one's a doosie! 
-<p>
+
 _"I have always insisted on having an open plan office. It makes things so much easier when you can simply get up and walk over to a colleague if you need to discuss something. Ideas flow a lot more freely..."_
-</p>
-<p>
+
 Don't you love the cute, hip marketing speak? "Productivity Hacks"... I've noted that one in my diary for the next corporate dinner I'm invited to. Should definitely turn some heads!
-</p>
-<p>
-Unwanted distractions and careless ad-hoc interruptions are a sure-fire method of boosting productivity.
-</p>
+
+I agree! Unwanted distractions and careless ad-hoc interruptions are a sure-fire method of boosting productivity.
+
 <p>
 Alice: "Hey, I just sent you an email".<br/>
 Bob (still incoherent after being suddenly jolted out of his code trance...): "I had a complete state machine in my head that took a good 30 minutes to craft and in one fell swoop you have smashed the stack". What was that you said?<br/>
