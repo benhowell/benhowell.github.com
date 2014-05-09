@@ -215,7 +215,7 @@ There have always been introverts and extroverts, so why does the work environme
 
 #### Conclusion
 
-I know some kick arse developers who can hammer out robust, coherent and understandable code when afforded a little peace, yet these same people fail to function at a third of their ability in the maelstrom of movement and cacophany of yakking about kids and weekend activities that we sadly call an office these days. Yes, open plan. In what other alternate universe would it be acceptible to prevent the intricate knowledge work of a professional taking place in order to promote "collaboration" and "team work"?
+I know some kick arse developers who can design beautiful succinct systems, integrate disparate bits of hardware with efficient software to create seemless products, hammer out robust, coherent and understandable code and software systems when afforded a little peace, yet these same people fail to function at a third of their ability in the maelstrom of movement and cacophany of yakking about kids and weekend activities that we sadly call an office these days. In what other alternate universe would it be acceptible to prevent the intricate knowledge work of a professional taking place in order to promote "collaboration" and "team work" and to save a few bucks on the side? It's clear that the few who make noises about these issues (i.e. the [perhaps] minority targetted in the introductory quotes) are just the few that recognise a problem that affects _all_ developers. Is the open plan office economically sound? It's overwhelming clear that it is not.
 
 I'd love to debate this topic further with you so please indulge me with your comments! 
 
