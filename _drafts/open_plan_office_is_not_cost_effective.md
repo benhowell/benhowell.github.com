@@ -43,7 +43,7 @@ To get this [big ball of mud rolling][1], I'll quote from an article titled: [Pr
 
 _"I have always insisted on having an open plan office. It makes things so much easier when you can simply get up and walk over to a colleague if you need to discuss something. Ideas flow a lot more freely..."_
 
-I couldn't agree more! Unwanted distractions and careless ad-hoc interruptions are a sure-fire method of boosting productivity. Actively prohibiting [flow][5] is a small price to pay for such productivity gains. Oh, unless he literally means to chop his productivity down woth rough and indiscriminately blows? That wouldn't be good.
+I couldn't agree more! Unwanted distractions and careless ad-hoc interruptions are a sure-fire method of boosting productivity. Actively prohibiting [flow][5] is a small price to pay for such productivity gains. Oh, unless he literally means to chop his productivity down with rough and indiscriminately blows? Hmm.
 
 <p>
 Alice: "Hey, I just sent you an email".<br/>
