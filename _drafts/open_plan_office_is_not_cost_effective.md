@@ -39,7 +39,7 @@ Ah, knowledge work. Software engineering, design, development, programming, what
 <br/>
 
 #### The Argument for Open Plan Work Spaces
-To get this [big ball of mud rolling][1], I'll quote from an article titled: [Productivity Hacks: The Open Plan Office][2]. Oh, this one's a doosie! 
+To get this [big ball of mud rolling][1], I'll quote from an article titled: [Productivity Hacks: The Open Plan Office][2].
 
 _"I have always insisted on having an open plan office. It makes things so much easier when you can simply get up and walk over to a colleague if you need to discuss something. Ideas flow a lot more freely..."_
 
@@ -79,7 +79,7 @@ Oh the joyful imagary this creates in my mind. I've always wanted to do intricat
 [2]:http://www.linkedin.com/today/post/article/20140121120012-32175171-productivity-hacks-the-open-plan-office
 [3]:http://blog.founddrama.net/2012/08/agile-for-the-introvert/comment-page-1/
 [4]:http://en.wikipedia.org/wiki/Pablo_Picasso
-
+[5]:http://en.wikipedia.org/wiki/Flow_(psychology)
 
 
 
