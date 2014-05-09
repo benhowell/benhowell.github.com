@@ -47,7 +47,7 @@ I agree! Unwanted distractions and careless ad-hoc interruptions are a sure-fire
 
 <p>
 Alice: "Hey, I just sent you an email".<br/>
-Bob (still incoherent after being suddenly jolted out of his code trance...): "I had a complete state machine in my head that took a good 30 minutes to craft and in one fell swoop you have smashed the stack". What was that you said?<br/>
+Bob (still incoherent after being suddenly jolted out of his code trance...): "I had a complete state machine in my head that took a good 30 minutes to craft and in one fell swoop you have smashed the stack. What was it you wanted again?".<br/>
 Alice: "Never mind, it's all in the email".<br/>
 </p>
 
