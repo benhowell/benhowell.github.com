@@ -99,42 +99,13 @@ Bob: "He's changing some code".<br/>
 Alice: "Hermit!".<br/>
 
 Cheers for the excellent corporate dinner diary entry: "deep dive".
+<br/>
+<br/>
 
 
 
 
-
-
-
-
-[1]:http://en.wikipedia.org/wiki/Big_ball_of_mud
-[2]:http://www.linkedin.com/today/post/article/20140121120012-32175171-productivity-hacks-the-open-plan-office
-[3]:http://blog.founddrama.net/2012/08/agile-for-the-introvert/comment-page-1/
-[4]:http://en.wikipedia.org/wiki/Pablo_Picasso
-[5]:http://en.wikipedia.org/wiki/Flow_(psychology)
-[6]:http://thebestpageintheuniverse.net/c.cgi?u=epic
-[7]:http://www.pistoncloud.com/2014/02/do-successful-programmers-need-to-be-introverted/
-
-
-
-
-**getting away from all distractions for a bit**? wtf?
-
-
-
-
-
-
-
-
-hamming, open door to office (not open office) 
-
-
-
-
-
-
-
+#### The Argument against Open Plan Work Spaces
 
 
 
@@ -165,7 +136,7 @@ Well, I know of plenty of studies and academic papers on the matter, but I'm not
 #### The data
 **Distraction**
 
-
+hamming, open door to office (not open office) 
 
 <br/>
 <br/>
@@ -248,7 +219,29 @@ There have always been introverts and extroverts, so why does the work environme
 http://www.businessinsider.com.au/why-the-open-office-makes-you-distracted-exhausted-and-insecure-2014-4
 http://www.theatlantic.com/magazine/archive/2014/04/the-optimal-office/358640/
 
+#### Notes
 
 [^1]: I've got nothing against extroverts, honestly, after all, they need peace to get great work done too. Besides, some of my best friends are extroverts.
+
+
+
+
+
+[1]:http://en.wikipedia.org/wiki/Big_ball_of_mud
+[2]:http://www.linkedin.com/today/post/article/20140121120012-32175171-productivity-hacks-the-open-plan-office
+[3]:http://blog.founddrama.net/2012/08/agile-for-the-introvert/comment-page-1/
+[4]:http://en.wikipedia.org/wiki/Pablo_Picasso
+[5]:http://en.wikipedia.org/wiki/Flow_(psychology)
+[6]:http://thebestpageintheuniverse.net/c.cgi?u=epic
+[7]:http://www.pistoncloud.com/2014/02/do-successful-programmers-need-to-be-introverted/
+
+
+
+
+
+
+
+
+
 
 
