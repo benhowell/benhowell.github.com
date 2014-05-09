@@ -249,3 +249,8 @@ a.notes {
   border-width: 3px;
   width: auto;
 }
+
+.article-image {
+  display:block;
+  margin:auto; 
+}
