@@ -14,10 +14,10 @@ article_img: bootstrap/img/open_office_250.jpg
 Open plan work environments. Often touted as superior when compared to private work areas and offices not only because of the reduction in costs of accomodating staff, but also because of the open collaboration, communication, social interraction and team building they <i>apparently</i> foster.
 </p>
 <p>
-But does any of this actually matter? Shouldn't we be looking at empirical studies to determine whether or not the percieved benefits are grounded in truth and reality? Do the cost savings of open plan work environments really stack up? In this article I'll try to appeal to your common sense, logical reasoning and empathy, and will employ such tactics as scepticism, derision, sarcasm and flat out cynicism to prove beyond a shadow of a doubt the ultimate conclusion on the matter.
+But does any of this actually stack up? Shouldn't we be looking at empirical studies to determine whether or not the percieved benefits are grounded in truth and reality rather than swallow our gutful of marketing speak about the so-called benefits? Are the cost savings economically sound? In this article I'll try to appeal to your common sense, logical reasoning and empathy, and will employ such tactics as scepticism, derision, sarcasm and flat out cynicism to prove beyond a shadow of a doubt the ultimate conclusion on the matter.
 </p>
 <p>
-Shall we get started? Yes. Rhetorical.
+Shall we get started? Rhetorical.
 </p>
 </div> 
 
@@ -32,20 +32,28 @@ Shall we get started? Yes. Rhetorical.
 <br/>
 <br/>
 
-
 "Open plan". Words that make an introvert cringe and an extrovert jump for joy and then talk at someone about it for the next ten minutes preventing you from thinking straight and therefore getting any work done[^1].
 
-Ah, knowledge work. Software engineering, design, development, programming, whatever you want to call what we do, it all requires at least a small amount of concentration and as little cognitive distraction and annoyance as is practicable (particularly visual and aural). Great. Oh yeah, a bit of respect for the mental difficulty and professionalism of our trade wouldn't go astray either. 
+Ah, knowledge work. Software engineering, design, development, programming, whatever you want to call what we do, it all requires at least a small amount of concentration and as little cognitive distraction and annoyance as is practicable (particularly visual and aural). Great. Oh yeah, a bit of respect for the knowledge, difficulty and professionalism of our trade wouldn't go astray either.
 <br/>
 <br/>
 
 #### The Argument for Open Plan Work Spaces
-I'll just quote from an absurd article titled: [Productivity Hacks: The Open Plan Office][2] to get this ball of mud rolling. Also: don't you love the cute, hip marketing speak? "Productivity Hacks"... I've noted that one in my diary for the next corporate dinner I'm invited to. Should definitely turn some heads!
-
+To get this [big ball of mud rolling][1], I'll quote from an absurd article titled: [Productivity Hacks: The Open Plan Office][2]. Oh, this one's a doosie! 
+<p>
 _"I have always insisted on having an open plan office. It makes things so much easier when you can simply get up and walk over to a colleague if you need to discuss something. Ideas flow a lot more freely..."_
-
-( **and obliterate the state machine he/she has been carefully crafting in their head over the last 10 minutes of intense concentration absolutely smashing the stack** )
-( **Hey, I just sent you an email...** )
+</p>
+<p>
+Don't you love the cute, hip marketing speak? "Productivity Hacks"... I've noted that one in my diary for the next corporate dinner I'm invited to. Should definitely turn some heads!
+</p>
+<p>
+Unwanted distractions and careless ad-hoc interruptions are a sure-fire method of boosting productivity.
+</p>
+<p>
+Alice: "Hey, I just sent you an email".<br/>
+Bob (still incoherent after being suddenly jolted out of his code trance...): "I had a complete state machine in my head that took a good 30 minutes to craft and in one fell swoop you have smashed the stack". What was that you said?<br/>
+Alice: "Never mind, it's all in the email".<br/>
+</p>
 
 
 
@@ -55,7 +63,7 @@ hamming, open door to office (not open office)
 
 
 
-
+[1]:http://en.wikipedia.org/wiki/Big_ball_of_mud
 [2]:http://www.linkedin.com/today/post/article/20140121120012-32175171-productivity-hacks-the-open-plan-office
 
 
@@ -225,6 +233,6 @@ http://www.businessinsider.com.au/why-the-open-office-makes-you-distracted-exhau
 http://www.theatlantic.com/magazine/archive/2014/04/the-optimal-office/358640/
 
 
-[^1]: I'm not really picking on extroverts, after all, they need peace to get great work done too. Besides, some of my best friends are extroverts.
+[^1]: I've got nothing against extroverts, honestly, after all, they need peace to get great work done too. Besides, some of my best friends are extroverts.
 
 
