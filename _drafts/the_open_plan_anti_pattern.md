@@ -1,7 +1,7 @@
 ---
 layout: post
 category : people
-title: Open Plan is no Plan
+title: The Open Plan Anti-pattern
 tagline: "people"
 tags : [people, open plan, introvert, extrovert, management, collaboration, privacy, efficiency]
 article_img: bootstrap/img/open_office_250.jpg
@@ -142,7 +142,7 @@ hamming, open door to office (not open office)
 <br/>
 
 ** **
-I know some kick arse developers who can hammer out robust, coherent and understandable code when afforded a little peace, yet these same people fail to function at a third of their ability in the maelstrom of movement and cacophany of yakking about kids and weekend activities that we sadly call an office these days. Yes, open plan. In what other alternate universe would it be acceptible to prevent the intricate knowledge work of a professional taking place in order to promote "collaboration" and "team work"?
+
 
 
 
@@ -181,6 +181,8 @@ In 1980, a group of psychology researchers published a study suggesting that thi
 
 **Productivity**
 exhausting and unproductive
+http://www.businessinsider.com.au/why-the-open-office-makes-you-distracted-exhausted-and-insecure-2014-4
+http://www.theatlantic.com/magazine/archive/2014/04/the-optimal-office/358640/
 <br/>
 <br/>
 
@@ -213,11 +215,13 @@ There have always been introverts and extroverts, so why does the work environme
 
 #### Conclusion
 
+I know some kick arse developers who can hammer out robust, coherent and understandable code when afforded a little peace, yet these same people fail to function at a third of their ability in the maelstrom of movement and cacophany of yakking about kids and weekend activities that we sadly call an office these days. Yes, open plan. In what other alternate universe would it be acceptible to prevent the intricate knowledge work of a professional taking place in order to promote "collaboration" and "team work"?
+
+I'd love to debate this topic further with you so please indulge me with your comments! 
 
 
 
-http://www.businessinsider.com.au/why-the-open-office-makes-you-distracted-exhausted-and-insecure-2014-4
-http://www.theatlantic.com/magazine/archive/2014/04/the-optimal-office/358640/
+
 
 #### Notes
 
