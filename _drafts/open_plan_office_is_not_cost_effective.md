@@ -103,7 +103,7 @@ I don't write code, no. I just change it sometimes, and sometimes I even get to 
 <br/>
 <br/>
 
-Having been so thoroughly enlightened by this article, I'm at a loss to know where the concept of "code monkey" and "interchangable cog" come from. Obviously there's a lot of respect for developers at that company.
+Having been so thoroughly enlightened by this article, I haven't the slightest clue where the concept of "code monkey" and "interchangable cog" come from. Obviously the author has a lot of respect for developers.
 <p>
 Alice: "Where's Chuck?".<br/>
 Bob: "He's changing some code".<br/>
