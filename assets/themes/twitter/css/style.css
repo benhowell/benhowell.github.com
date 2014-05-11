@@ -144,6 +144,7 @@ img.brand-image {
 
 .right{
   float: right;
+  width: 120px;
   border: 1px solid red;
   height:23px;
   padding: 5px 6px 5px;
