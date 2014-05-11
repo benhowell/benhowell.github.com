@@ -135,6 +135,17 @@ img.brand-image {
   text-align: center;
 }
 
+.mini-social-spacer {
+  float: left;
+  width: auto;
+  height:23px;
+  /*padding: 5px 6px 5px;
+  text-align: center;*/
+}
+
+
+
+
 .hn {
   width: 30px;
   padding: 4px 3px 6px;
