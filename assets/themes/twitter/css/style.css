@@ -135,9 +135,15 @@ img.brand-image {
   text-align: center;
 }
 
+/*.mini-last {
+  margin-right: 0;
+  padding-right: 0;
+  border-right: 0;
+  
+}*/
+
 .right{
   float: right;
-  width: 100%;
   border: 1px solid red;
   height:23px;
   padding: 5px 6px 5px;
