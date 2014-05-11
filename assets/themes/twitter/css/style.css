@@ -139,7 +139,7 @@ img.brand-image {
   float: left;
   width: auto;
   height:23px;
-  
+  display:block;
   /*padding: 5px 6px 5px;
   text-align: center;*/
 }
