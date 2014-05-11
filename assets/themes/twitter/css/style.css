@@ -136,10 +136,10 @@ img.brand-image {
 }
 
 .mini-social-spacer {
-  float: left;
+/*   float: left; */
   width: auto;
   height:23px;
-  display:block;
+  display: inline-block;
   /*padding: 5px 6px 5px;
   text-align: center;*/
 }
