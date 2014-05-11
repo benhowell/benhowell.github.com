@@ -136,8 +136,9 @@ img.brand-image {
 }
 
 .right{
-  float: right;
+  width: 100%;
 }
+
 .mini-social-spacer {
 /*   float: left; */
   width: auto;
