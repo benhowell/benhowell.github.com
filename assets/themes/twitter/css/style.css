@@ -137,8 +137,8 @@ img.brand-image {
 
 .right{
   float: left;
-  width: auto;
-  border: 1px solid red;
+  width: 100%;
+/*   border: 1px solid red; */
   height:23px;
   padding: 5px 6px 5px;
   text-align: right;
