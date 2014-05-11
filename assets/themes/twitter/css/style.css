@@ -135,34 +135,14 @@ img.brand-image {
   text-align: center;
 }
 
-/*.mini-last {
-  margin-right: 0;
-  padding-right: 0;
-  border-right: 0;
-  
-}*/
-
-.right{
+.follow-twitter{
   float: right;
   width: 120px;
-  border: 1px solid red;
   height:23px;
   padding: 5px 6px 5px;
   text-align: right;
   overflow: hidden;
 }
-
-.spacer {
-/*   float: left; */
-  width: auto;
-  height:23px;
-  display: inline-block;
-  /*padding: 5px 6px 5px;
-  text-align: center;*/
-}
-
-
-
 
 .hn {
   width: 30px;
