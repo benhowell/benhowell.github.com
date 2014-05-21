@@ -18,3 +18,4 @@ article_img: bootstrap/img/qn.png
  * mvc framework for scala using javafx 2
  * threading in javascript from java?
 
+‘The programmer, has to be able to think in terms of conceptual hierarchies that are much deeper than a single mind ever needed to face before.’
