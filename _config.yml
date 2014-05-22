@@ -11,8 +11,8 @@ titlecase: false
 markdown: kramdown
 
 # url redirect
-#gems:
-#  - jekyll-redirect-from
+gems:
+  - jekyll-redirect-from
 
 
 # Themes are encouraged to use these universal variables 
