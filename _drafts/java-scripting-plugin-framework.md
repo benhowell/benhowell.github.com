@@ -37,7 +37,7 @@ Just give me the code: [GitHub][1]
 
 
 #### Why write my own?
-Granted, there are plenty of Java plugin frameworks out there already, but there's no reason why you shouldn't build a simple plugin architecture yourself, and in many cases this may be the better solution as it allows you to customise the plugin system to precisely your requirements. Your custom design allows you to strictly define the API between your application and plugins which helps you avoid unneccessarily complecting your application to suit a common plugin framework or library, and, allows you to simplify how plugin providers write their components. Provided you've designed the API for your plugins to work with thoughtfully, you'll be suprised at how easy and succinct writing your framework can be.
+Granted, there are plenty of Java plugin frameworks out there already, but there's no reason why you shouldn't build a simple plugin architecture yourself, and in many cases this may be the better solution as it allows you to customise the plugin system to precisely your requirements. Your custom design allows you to strictly define the API between your application and plugins which helps you avoid unneccessarily complecting your application to suit a particular plugin framework or library, and, allows you to simplify how plugin providers write their components. Provided you've designed the API for your plugins thoughtfully, you'll be suprised at how easy and succinct writing your framework can be.
 <br/>
 <br/>
 
@@ -63,36 +63,10 @@ import javax.script.ScriptEngineFactory;
 import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
 
-
-/**
- ScriptManager allows execution of scripts such as JavaScript and Python Ruby,
- Groovy, Judoscript, Haskell, Tcl, Awk and PHP amongst others. Java8 supports
- over 30 different language engines.
-
- This implementation uses dynamic invocation of individual functions and
- objects within scripts using Invocable where available, and where not
- available, implements a graceful fallback strategy to compilation of script
- (if available) and passing the function name to execute to the script.
- Where neither Invocable nor Compilable are available, scripts are interpreted
- each time they are run.
-
- We can expose our application objects as global variables to a script. The
- script can access each variable and can call public methods on it. The syntax
- to access Java objects, methods and fields is dependent on the scripting
- language used.
-
- We can pass any object, value or variable to the script using the following:
- ScriptManager.setParameter("parameterName", Object);
-
- We can access any object, value or variable passed to or created by the script
- itself from java using the following:
- ScriptManager.getParameter("parameterName");
- */
-
-
 /**
  * Created by Ben Howell [ben@benhowell.net] on 22-May-2014.
  */
+ 
 public class ScriptManager {
 
   private ScriptEngineManager manager;
@@ -123,14 +97,6 @@ public class ScriptManager {
   }
 
   /**
-   * Retrieves the name of the plugin.
-   * @return the name of the plugin.
-   */
-  public String getName(){
-    return this.name;
-  }
-
-  /**
    * Sets a global variable in the script engine. This variable will be
    * callable from anywhere in the script.
    * @param name parameter name.
@@ -141,15 +107,6 @@ public class ScriptManager {
   }
 
   /**
-   * Retrieves a global variable from the script engine.
-   * @param name the name of the parameter to retrieve.
-   * @return the parameter requested.
-   */
-  public Object getParameter(String name) {
-    return this.engine.get(name);
-  }
-
-  /**
    * Convenience function for setting a number of parameters.
    * @param parameters HashMap of parameter name/value pairs.
    */
@@ -157,29 +114,6 @@ public class ScriptManager {
     for (Map.Entry<String, Object> entry : parameters.entrySet()){
       this.engine.put(entry.getKey(), entry.getValue());
     }
-  }
-
-  /**
-   * Returns the available engine types supported.
-   * @return the names of all engines supported.
-   */
-  public List<String> getAvailableEngines() {
-    List<String> engines = new ArrayList<String>();
-    for (ScriptEngineFactory factory : manager.getEngineFactories()) {
-      engines.add(factory.getLanguageName());
-    }
-    return engines;
-  }
-
-  /**
-   * Executes an entire script.
-   * @return the result.
-   */
-  public Object execute(){
-    if(this.isCompilable())
-      return execute(this.compiledScript);
-    else
-      return execute(this.script);
   }
 
   /**
@@ -378,13 +312,16 @@ public class ScriptManager {
 }
 {% endhighlight %}
 
-Hopefully the commenting in this file has explained most things.
+ScriptManager allows execution of scripts such as JavaScript and Python Ruby, Groovy, Judoscript, Haskell, Tcl, Awk and PHP amongst others. Java8 supports over 30 different language engines. This implementation uses dynamic invocation of individual functions and objects within scripts using Invocable where available, and where not available, implements a graceful fallback strategy to compilation of script (if available) and passing the function name to execute to the script. Where neither Invocable nor Compilable are available, scripts are interpreted each time they are run.
+
+We can expose our application objects as global variables to a script. The script can access each variable and can call public methods on it. The syntax to access Java objects, methods and fields is dependent on the scripting language used.
+
+We can pass any object, value or variable to the script using the following: ScriptManager.setParameter("parameterName", Object);
+We can access any object, value or variable passed to or created by the script itself from java using the following: ScriptManager.getParameter("parameterName");
+
+Hopefully the comments in the file above have explained almost everything, if not, ask me questions in the comments below.
 <br/>
 <br/>
-
-
-
-
 
 Now, let's define a set of delegate methods for our scripts. The content of the delegate will be determined by whatever API you want your application to expose to external plugins. They are by no means restricted in any way so anything you want to expose from within your application is fair game. 
 
