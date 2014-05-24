@@ -46,7 +46,7 @@ Let's get started right at the core of our application with our script manager. 
 
 
 **ScriptManager.java**
-{% highlight java linenos %}
+{% highlight java linenos = table %}
 package net.benhowell.example;
 
 import java.io.*;
@@ -319,7 +319,7 @@ We can expose our application objects as global variables to a script. The scrip
 We can pass any object, value or variable to the script using the following: ScriptManager.setParameter("parameterName", Object);
 We can access any object, value or variable passed to or created by the script itself from java using the following: ScriptManager.getParameter("parameterName");
 
-Hopefully the comments in the file above have explained almost everything, if not, ask me questions in the comments below.
+Hopefully the comments in the file above have explained almost everything, if not, please pose me questions in the comments section below.
 <br/>
 <br/>
 
