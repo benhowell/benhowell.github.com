@@ -11,7 +11,9 @@ article_img_title: Question Mark by Anonymous
 {% include JB/setup %}
 <div class="intro">
   <div class="intro-txt">
-    ???????????????????????
+  <p>
+    Plugins are a great way to allow extensions, added features and customisation to be added to your application over time. There are many software use cases that can benefit from a plugin architecture, such as stream processing engines (e.g. new data sources, filters, processing algorithms), software that involves content creation and editing of some kind such as text editors (e.g. font effects, layout management) and photo editors (e.g. lens effects, colourisation methods).
+  </p>
   </div>
 <div class="intro-img-border">
 <div class="intro-img-bevel">
@@ -27,6 +29,292 @@ article_img_title: Question Mark by Anonymous
 Just give me the code: [GitHub][1]
 <br/>
 <br/>
+
+
+
+
+
+
+The common examples are the plug-ins used in web browsers to add new features such as search-engines, virus scanners, or the ability to utilize a new file type such as a new video format. Well-known browser plug-ins include the Adobe Flash Player, the QuickTime Player, and the Java plug-in, which can launch a user-activated Java applet on a web page to its execution a local Java virtual machine.
+
+Add-on (or addon) is the general term for what enhances an application. It comprises snap-in, plug-in, theme and skin.[1] An extension add-on tailors the core features of an application by adding an optional module, whereas a plug-in add-on would tailor the outer layers of an application to personalize functionality.
+
+A theme or skin add-on is a preset package containing additional or changed graphical appearance details, achieved by the use of a graphical user interface (GUI) that can be applied to specific software and websites to suit the purpose, topic, or tastes of different users to customize the look and feel of a piece of computer software or an operating system front-end GUI (and window managers).
+
+
+
+
+
+
+
+There are plenty of plugin frameworks out there already, but you can build a simple plugin architecture yourself, and in some cases this may well be the better solution as it allows you to customise the plugin system to precisely your requirements, allows you to strictly define the API interface between your application and plugins which helps you avoid unneccessarily complecting your application to suit a common plugin framework library and allows you to simplify how plugin providers write their components. 
+
+
+
+
+
+
+
+
+
+Applications support plug-ins for many reasons. Some of the main reasons include:
+
+to enable third-party developers to create abilities which extend an application
+to support easily adding new features
+to reduce the size of an application
+to separate source code from an application because of incompatible software licenses.
+Specific examples of applications and why they use plug-ins:
+
+Audio editors use plug-ins to generate, process and/or analyse sound (Ardour, Audacity)
+Email clients use plug-ins to decrypt and encrypt email (Pretty Good Privacy)
+Graphics software use plug-ins to support file formats and process images (Adobe Photoshop, GIMP)
+Media players use plug-ins to support file formats and apply filters (foobar2000, GStreamer, Quintessential, VST, Winamp, XMMS)
+Microsoft Office uses plug-ins (better known as add-ins) to extend the abilities of its application by adding custom commands and specialized features
+Packet sniffers use plug-ins to decode packet formats (OmniPeek)
+Remote sensing applications use plug-ins to process data from different sensor types (Opticks)
+Smaart, an audio spectrum analysis application which accepts plug-ins for third-party digital signal processors
+Software development environments use plug-ins to support programming languages (Eclipse, jEdit, MonoDevelop)
+Web browsers use plug-ins (often implementing the NPAPI specification) to play video and presentation formats (Flash, QuickTime, Microsoft Silverlight, 3DMLW)
+
+
+
+
+
+
+
+
+/**
+
+ScriptManager allows execution of scripts such as JavaScript and Python
+with Java6. Java7 supports ruby, groovy, judoscript, haskell, tcl, awk, 
+e4x and, php as well.
+
+Scripts can be called from within any source, processor, timertask or
+listener, or can be a first class source, processor, timertask or listener in
+their own right.
+
+This current SMG scripting implementation uses dynamic invocation of 
+individual functions and objects within scripts using Invocable where 
+available, and where not available, implements a graceful fallback strategy 
+to compilation of script (if available) and passing the function name to 
+execute to the script (implementation of the handling of this parameter is 
+left to the script developers). Where neither Invocable nor Compilable are 
+available, scripts are interpreted each time they are run.
+
+NOTE: Unlike javax.script.ScriptEngineManager, the SMG ScriptManager will 
+only control a single ScriptEngine and script. Therefore, each script 
+requires a ScriptManager of it's own.
+
+We can expose our application objects as global variables to a script. The 
+script can access each variable and can call public methods on it. The syntax
+to access Java objects, methods and fields is dependent on the scripting 
+language used.
+
+We can pass any object or var to the script using the following:
+@code
+ScriptManager.setParameter("parameterName", Object);
+@endcode
+e.g.
+@code
+scriptManager.setParameter("dispatcher", dispatcher);
+@endcode
+We can also pass a collection of parameters:
+@code
+ScriptManager.setParameters(parameters);
+@endcode
+e.g.
+@code
+HashMap<String, Object> parameters = new HashMap<String, Object>();
+parameters.put("parameterName", Object);
+...
+scriptManager.setParameters(parameters);
+@endcode
+
+
+We can access any object or var passed to or created by the script itself from java using the following:
+@code
+ScriptManager.getParameter("parameterName");
+@endcode
+We must always cast objects when pulling them from a script. 
+@code
+Type myObject = (Type)ScriptManager.getParameter("parameterName");
+@endcode
+e.g.
+@code
+String myString = (String)scriptManager.getParameter("myString");
+@endcode
+
+
+Preferably, we should pass a delegate to the ScriptManager constructor.
+e.g.
+@code
+public interface MyScriptDelegate {
+	abstract void print(String s);
+	...
+}
+	
+MyScriptDelegate myScriptDelegate = new MyScriptDelegate() {	
+	public void print(String s) {
+		System.out.println(s);
+	}
+};
+	
+ScriptDelegate delegate = new ScriptDelegate("delegate", myScriptDelegate);
+ScriptManager scriptManager = new ScriptManager(scriptConfiguration, delegate);
+
+//meanwhile in your script (let's use javascript)...
+...
+var s = "Scripting is fun!";
+delegate.print(s);
+...
+@endcode
+	
+For concrete examples see:
+- au.csiro.ict.tasman.source.ScriptSource
+- au.csiro.ict.tasman.processor.ScriptProcessor
+- au.csiro.ict.tasman.timertask.ScriptTimerTask
+- <a href="gateway_8properties_8json_source.html">examples/scripting/marvlis/gateway.properties.json</a>
+- <a href="derwentbridgesource_8js_source.html">examples/scripting/marvlis/derwentbridgesource.js</a>
+- <a href="hydro__derwentbridgesource_8properties_8json[javascript]_source.html">examples/scripting/marvlis/hydro_derwentbridgesource.properties.json[javascript]</a>
+- <a href="derwentbridgesource_8py_source.html">examples/scripting/marvlis/derwentbridgesource.py</a>
+- <a href="hydro__derwentbridgesource_8properties_8json[python]_source.html">examples/scripting/marvlis/hydro_derwentbridgesource.properties.json[python]</a>
+- <a href="meadowbanksource_8py_source.html">examples/scripting/marvlis/meadowbanksource.py</a>
+- <a href="hydro__meadowbanksource_8properties_8json_source.html">examples/scripting/marvlis/hydro_meadowbanksource.properties.json</a>
+
+Scripts can be created and executed on the fly wherever needed.
+e.g.
+@code
+//executes dynamic, one pass, inline, non compiled code snippets (use sparingly!).
+private Object executeInlineScript(String engineName, String code, HashMap<String, Object> parameters) {
+	ScriptManager scriptManager = new ScriptManager(new ScriptConfiguration(engineName, code));
+	scriptManager.setParameters(parameters);
+	return scriptManager.execute();
+}
+@endcode
+
+
+
+Javascript Specific notes:
+For testing, scripts can be run directly on the command line with jrunscript or node.js.
+
+The built-in functions importPackage and importClass can be used to import Java packages and classes.
+@code
+// Import Java packages and classes 
+// like import package.*; in Java
+importPackage(java.awt);
+// like import java.awt.Frame in Java
+importClass(java.awt.Frame);
+// Create Java Objects by "new ClassName"
+var frame = new java.awt.Frame("hello");
+// Call Java public methods from script
+frame.setVisible(true);
+// Access "JavaBean" properties like "fields"
+print(frame.title);
+@endcode
+
+e.g.
+@code
+importClass(java.lang.Thread);
+importPackage(Packages.au.csiro.ict.tasman.datatype);
+...
+var m = new Message("a.b.c", mySample);
+...
+try {
+	Thread.sleep(10000);
+}
+...
+@endcode
+
+
+java.lang is not imported by default (unlike Java) because that would result in conflicts 
+with JavaScripts built-in Object, Boolean, Math and so on.
+
+importPackage and importClass functions "pollute" the global variable scope of JavaScript. 
+To avoid that, you can use JavaImporter.
+
+e.g.
+@code
+// create JavaImporter with specific packages and classes to import
+var SwingGui = new JavaImporter(
+	javax.swing,
+	javax.swing.event,
+	javax.swing.border,
+	java.awt.event
+);
+with (SwingGui) {
+	// within this 'with' statement, we can access Swing and AWT
+	// classes by unqualified (simple) names.
+
+	var mybutton = new JButton("test");
+	var myframe = new JFrame("test");
+}
+@endcode
+e.g.
+@code
+var JodaTime = new JavaImporter(
+	org.joda.time.DateTime,
+	org.joda.time.DateTimeZone
+);
+...
+with(JodaTime){
+	var d = new DateTime(DateTimeZone.UTC);
+	...
+}
+@endcode
+  
+Arrays: While creating a Java object is the same as in Java, to create Java arrays in JavaScript we need to 
+use Java reflection explicitly. But once created the element access or length access is the same as 
+in Java. Also, a script array can be used when a Java method expects a Java array (auto conversion). 
+So in most cases we don't have to create Java arrays explicitly.
+  	
+e.g.
+@code
+// create Java String array of 5 elements
+var a = java.lang.reflect.Array.newInstance(java.lang.String, 5);
+
+// Accessing elements and length access is by usual Java syntax
+a[0] = "scripting is great!";
+print(a.length);
+@endcode
+  	
+Strings: It's important to keep in mind that Java strings and JavaScript strings are not the same. 
+Java strings are instances of the type java.lang.String and have all the methods defined by that class. 
+JavaScript strings have methods defined by String.prototype. The most common stumbling block is length, 
+which is a method of Java strings and a dynamic property of JavaScript strings.
+
+Java scripting API implements a JSR-223 compliant framework for embedding script engines.
+The javascript engine is heavily based on the Rhino engine so that may be a good place to look 
+for more in-depth stuff.
+
+For more info: 
+- http://docs.oracle.com/javase/6/docs/technotes/guides/scripting/programmer_guide/index.html
+- https://developer.mozilla.org/en-US/docs/Scripting_Java
+
+
+
+@author Ben Howell <ben.howell@csiro.au>
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 **ScriptManager.java**
