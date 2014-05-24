@@ -5,8 +5,8 @@ description: ""
 tagline: "guide"
 category: guide
 tags: [java, python, jsr 223, plugin, framework, architecture, beginner, example, tutorial, guide]
-article_img: bootstrap/img/qn.png
-article_img_title: Question Mark by Anonymous
+article_img: bootstrap/img/plugin_250.jpg
+article_img_title: Yes, it is supposed to be a power point and power plug by Anonymous
 ---
 {% include JB/setup %}
 <div class="intro">
@@ -323,8 +323,6 @@ public class ScriptManager {
   }
 }
 {% endhighlight %}
-<br/>
-<br/>
 
 ScriptManager allows execution of scripts such as JavaScript, Python, Ruby, Groovy, Judoscript, Haskell, Tcl, Awk and PHP amongst others. Java8 currently has over 30 different language engines developed for it. This implementation uses dynamic invocation of individual functions and objects within scripts using Invocable where available, and where not available, implements a graceful fallback strategy to compilation of script and passing the function name to execute to the script (if available). Where neither Invocable nor Compilable are available, scripts are interpreted each time they are run.
 
