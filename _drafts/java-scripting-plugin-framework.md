@@ -20,7 +20,6 @@ article_img_title: Question Mark by Anonymous
   <p>
     In this article, we will take a comprehensive walk through of creating our own, complete plugin framework and then jump to the scripting side and implement some plugins to perform asynchronous tasks.
   </p>
-
   </div>
 <div class="intro-img-border">
 <div class="intro-img-bevel">
@@ -30,7 +29,8 @@ article_img_title: Question Mark by Anonymous
 </div>
 </div>
 </div>
-
+<br/>
+<br/>
 
 #### TL;DR
 Just give me the code: [GitHub][1]
