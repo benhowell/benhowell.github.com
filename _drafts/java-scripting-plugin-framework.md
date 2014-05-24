@@ -4,7 +4,7 @@ title: "Java Plugin Scripting Architecture"
 description: ""
 tagline: "guide"
 category: guide
-tags: [java, plugin, framework, architecture, beginner, example, tutorial, guide]
+tags: [java, plugin, framework, architecture, beginner, example, tutorial, guide, jsr 223]
 article_img: bootstrap/img/qn.png
 article_img_title: Question Mark by Anonymous
 ---
@@ -12,8 +12,15 @@ article_img_title: Question Mark by Anonymous
 <div class="intro">
   <div class="intro-txt">
   <p>
-    Plugins are a great way to allow extensions, added features and customisation to be added to your application over time. There are many software use cases that can benefit from a plugin architecture, such as stream processing engines (e.g. new data sources, filters, processing algorithms), software that involves content creation and editing of some kind such as text editors (e.g. font effects, layout management) and photo editors (e.g. lens effects, colourisation methods).
+    Plugins are a great way to allow extensions, features and customisation to be added to your application over time. There are many software use cases that can benefit from a plugin architecture, such as stream processing engines (e.g. new data sources, filters, processing algorithms) and software that involves content creation and editing such as text editors (e.g. font effects, layout management) and photo editors (e.g. lens effects, colourisation methods) to name but a few.
   </p>
+  <p>
+    Java scripting API implements a JSR 223 compliant framework for embedding script engines and the last time I counted, there were over 30 language engines implemented[^1].
+  </p>
+  <p>
+    In this article, we will take a comprehensive walk through of creating our own, complete plugin framework and then jump to the scripting side and implement some plugins to perform asynchronous tasks.
+  </p>
+
   </div>
 <div class="intro-img-border">
 <div class="intro-img-bevel">
@@ -29,6 +36,10 @@ article_img_title: Question Mark by Anonymous
 Just give me the code: [GitHub][1]
 <br/>
 <br/>
+
+
+
+
 
 
 
