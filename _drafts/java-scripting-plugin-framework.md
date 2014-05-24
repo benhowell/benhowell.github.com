@@ -37,9 +37,13 @@ Just give me the code: [GitHub][1]
 
 
 #### Why write my own?
-Granted, there are plenty of plugin frameworks out there already, but there's no reason why you shouldn't build a simple plugin architecture yourself, and in many cases this may be the better solution as it allows you to customise the plugin system to precisely your requirements. Your custom design allows you to strictly define the API interface between your application and plugins which helps you avoid unneccessarily complecting your application to suit a common plugin framework or library, and, allows you to simplify how plugin providers write their components.
+Granted, there are plenty of plugin frameworks out there already, but there's no reason why you shouldn't build a simple plugin architecture yourself, and in many cases this may be the better solution as it allows you to customise the plugin system to precisely your requirements. Your custom design allows you to strictly define the API interface between your application and plugins which helps you avoid unneccessarily complecting your application to suit a common plugin framework or library, and, allows you to simplify how plugin providers write their components. Provided you've designed the API for your plugins to work with carefully, you'll be suprised at how easy and succinct writing your framework can be.
+<br/>
+<br/>
 
+#### Let's get on with it then!
 Let's get started right at the core of our application with our script manager. We will use an instance of ScriptManager for each plugin added to the system.
+
 
 **ScriptManager.java**
 {% highlight java linenos %}
