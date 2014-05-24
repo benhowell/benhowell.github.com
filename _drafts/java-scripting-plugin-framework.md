@@ -312,7 +312,7 @@ public class ScriptManager {
 }
 {% endhighlight %}
 
-ScriptManager allows execution of scripts such as JavaScript, Python, Ruby, Groovy, Judoscript, Haskell, Tcl, Awk and PHP amongst others. Java8 supports over 30 different language engines. This implementation uses dynamic invocation of individual functions and objects within scripts using Invocable where available, and where not available, implements a graceful fallback strategy to compilation of script (if available) and passing the function name to execute to the script. Where neither Invocable nor Compilable are available, scripts are interpreted each time they are run.
+ScriptManager allows execution of scripts such as JavaScript, Python, Ruby, Groovy, Judoscript, Haskell, Tcl, Awk and PHP amongst others. Java8 supports over 30 different language engines. This implementation uses dynamic invocation of individual functions and objects within scripts using Invocable where available, and where not available, implements a graceful fallback strategy to compilation of script and passing the function name to execute to the script (if available). Where neither Invocable nor Compilable are available, scripts are interpreted each time they are run.
 
 We can expose our application objects, values and variables as global variables to a script. The script can access each variable and can call public methods on it. The syntax to access Java objects, methods and fields is dependent on the scripting language used.
 
@@ -350,12 +350,8 @@ public class ScriptDelegate {
 {% endhighlight %}
 
 The delegate above exposes some trivial methods as a demonstration of what a delegate may look like.
-
 <br/>
 <br/>
-
-
-
 
 Now we have all the infrastructure in place, we can write a little application to dynamically load our plugins and perform some task.
 
@@ -433,7 +429,9 @@ public final class Main {
 Hooray, we've build our plugin framework. 
 
 Noteworthy here is:
+
  * line 22 we are returned an instance of the plugin called (e.g. instatiated class object).
+ 
  * line 23 we set that instance as a parameter in the script engine so we can make calls similar to `self` or `this` within the running script itself.
 
 In this case we've favoured convention over configuration. We assume that all plugins are contained within the plugins directory. Further, we assume that the plugin itself is contained in a folder and it's file name is consistant with the language it is implemented in (i.e. a python plugin will be named `*.py`). Doing this allows us to dynamically load plugins at run time without prior knowledge of those plugins. Further, we have determined that each plugin script must at least contain the following 3 functions: `run()`, `isRunning()`, and `shutDown()`. Defining the call hooks for your API (either at the application or plugin side) should be a well thought through design choice and should be documented accordingly. The plugin developer documentation should very clearly spell out this binding contract (i.e. the required functions in their plugin). We could of course build tests into our application that checks for these mandatory functions at plugin load time, however that is beyond the scope of this article.
