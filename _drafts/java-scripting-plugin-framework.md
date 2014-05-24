@@ -430,7 +430,9 @@ public final class Main {
 }
 {% endhighlight %}
 
-In this case we've favoured convention over configuration. We assume that all plugins are contained within the plugins directory. Further, we assume that the plugin itself is contained in a folder and it's file name is consistant with the language it is implemented in (i.e. a python plugin will be named *.py). Doing this allows us to dynamically load plugins at run time without prior knowledge of those plugins. Further, we have determined that each plugin script must at least contain the following 3 functions: run(), isRunning(), and shutDown(). Defining the call hooks for your API (either at the application or plugin side) should be a well thought through design and should be documented accordingly. The plugin developer documentation should then very clearly spell out this binding contract (i.e. the required functions in plugins). We could of course build tests into our application that checks for these mandatory functions at plugin load time, however that is beyond the scope of this article.
+Hooray, we've build our plugin framework. 
+
+In this case we've favoured convention over configuration. We assume that all plugins are contained within the plugins directory. Further, we assume that the plugin itself is contained in a folder and it's file name is consistant with the language it is implemented in (i.e. a python plugin will be named `*.py`). Doing this allows us to dynamically load plugins at run time without prior knowledge of those plugins. Further, we have determined that each plugin script must at least contain the following 3 functions: `run()`, `isRunning()`, and `shutDown()`. Defining the call hooks for your API (either at the application or plugin side) should be a well thought through design choice and should be documented accordingly. The plugin developer documentation should very clearly spell out this binding contract (i.e. the required functions in their plugin). We could of course build tests into our application that checks for these mandatory functions at plugin load time, however that is beyond the scope of this article.
 
 <br/>
 <br/>
@@ -439,8 +441,7 @@ In this case we've favoured convention over configuration. We assume that all pl
 
 
 
-
-
+Ok, let's now jump to the other side and develop a plugin for our application. This will be a rather trivial bit of asynchronous code that simply runs in the background and pushes data into out application every few seconds. In this example, we will be streaming data about the current bitcoin market price.
 
 **bit_coin_price.py**
 {% highlight python linenos=table %}
