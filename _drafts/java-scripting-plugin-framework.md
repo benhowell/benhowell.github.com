@@ -123,12 +123,7 @@ public class ScriptManager {
   private void setEngine(String engineName) {
     this.engine = manager.getEngineByName(engineName);
   }
-{% endhighlight %}
-<br/>
-<br/>
 
-**ScriptManager.java** _cont..._
-{% highlight java linenos=table %}
   /**
    * Executes a function within the currently set script.
    * @param function the function to execute.
@@ -210,14 +205,7 @@ public class ScriptManager {
     //if not invocable or compilable, script will be interpreted
     // every time it is called.
   }
-{% endhighlight %}
-<br/>
-<br/>
 
-
-
-**ScriptManager.java** _cont..._
-{% highlight java linenos=table %}
   /**
    * Streams the script from file.
    * @returns entire script as a String.
