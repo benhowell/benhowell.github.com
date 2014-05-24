@@ -435,13 +435,8 @@ Noteworthy here is:
  * line 23 we set that instance as a parameter in the script engine so we can make calls similar to `self` or `this` within the running script itself.
 
 In this case we've favoured convention over configuration. We assume that all plugins are contained within the plugins directory. Further, we assume that the plugin itself is contained in a folder and it's file name is consistant with the language it is implemented in (i.e. a python plugin will be named `*.py`). Doing this allows us to dynamically load plugins at run time without prior knowledge of those plugins. Further, we have determined that each plugin script must at least contain the following 3 functions: `run()`, `isRunning()`, and `shutDown()`. Defining the call hooks for your API (either at the application or plugin side) should be a well thought through design choice and should be documented accordingly. The plugin developer documentation should very clearly spell out this binding contract (i.e. the required functions in their plugin). We could of course build tests into our application that checks for these mandatory functions at plugin load time, however that is beyond the scope of this article. Similarly, our delegate API(s) need to be well documented and supplied as part of the plugin developer documentation.
-
 <br/>
 <br/>
-
-
-
-
 
 Ok, let's now jump to the other side and develop a plugin for our application. This will be a rather trivial bit of asynchronous code that simply runs in the background and pushes data into our application every few seconds. In this example, we will be streaming data about the current bitcoin market price.
 
@@ -530,12 +525,91 @@ Noteworthy items here include:
  * the use of the `instance` object for calling of internal methods from `isRunning()`, and `shutDown()`
  
  * the use of the the delegate thoughout the script.
-
 <br/>
 <br/>
 
+**weather_watch.py**
+This is another plugin almost identical to the one above and is used for the purpose of demonstrating multiple plugins running at once.
+{% highlight python linenos=table %}
+"""
+* Crude example script.
+* Script is passed a ScriptDelegate which is accessed via the "delegate" variable.
+"""
+
+import time
+from threading import Thread, InterruptedException
+from urllib import urlopen
+from java.lang import Boolean
+
+def run():
+  """
+  This is the entry point for this script.
+  Returns the running script instance.
+  """
+  return WeatherWatch()
 
 
+def isRunning():
+  """
+  Return true if running, else false.
+  """
+  if instance is not None:
+    if instance.is_running():
+      return Boolean("True")
+  return Boolean("False")
+
+
+def shutDown():
+  """
+  Allows script to perform its own cleanup routine before shutting down.
+  """
+  instance.shut_down()
+
+
+class WeatherWatch():
+  def __init__(self):
+    """
+    Constructor.
+    """
+    self.thread_cancelled = False
+    self.thread = Thread(target=self.run)
+    self.thread.start()
+
+
+  def run(self):
+    """
+    Main loop.
+    """
+    while not self.thread_cancelled:
+      try:
+        for line in urlopen('http://api.openweathermap.org/data/2.5/weather?q=Hobart,au'):
+          delegate.dispatch(line + '\n')
+        time.sleep(5) # just wait around a bit...
+      except InterruptedException:
+        self.thread_cancelled = True
+
+
+  def is_running(self):
+    """
+    Returns true if main loop is running.
+    """
+    return self.thread.isAlive()
+
+
+  def shut_down(self):
+    """
+    Performs cleanup routine.
+    Return true after shutdown.
+    """
+    self.thread_cancelled = True
+    while self.thread.isAlive():
+      time.sleep(1)
+    return True
+{% endhighlight %}
+
+That brings to a conclusion our development of a custom plugin architecture. If you have any questions please leave them in the comments below and I'll be happy to reply.
+
+For the complete application source code please get it from my [GitHub][1].
 
 
 
