@@ -37,7 +37,7 @@ Just give me the code: [GitHub][1]
 
 
 #### Why write my own?
-Granted, there are plenty of plugin frameworks out there already, but there's no reason why you shouldn't build a simple plugin architecture yourself, and in many cases this may be the better solution as it allows you to customise the plugin system to precisely your requirements. Your custom design allows you to strictly define the API interface between your application and plugins which helps you avoid unneccessarily complecting your application to suit a common plugin framework or library, and, allows you to simplify how plugin providers write their components. Provided you've designed the API for your plugins to work with carefully, you'll be suprised at how easy and succinct writing your framework can be.
+Granted, there are plenty of Java plugin frameworks out there already, but there's no reason why you shouldn't build a simple plugin architecture yourself, and in many cases this may be the better solution as it allows you to customise the plugin system to precisely your requirements. Your custom design allows you to strictly define the API between your application and plugins which helps you avoid unneccessarily complecting your application to suit a common plugin framework or library, and, allows you to simplify how plugin providers write their components. Provided you've designed the API for your plugins to work with thoughtfully, you'll be suprised at how easy and succinct writing your framework can be.
 <br/>
 <br/>
 
@@ -50,9 +50,6 @@ Let's get started right at the core of our application with our script manager. 
 package net.benhowell.example;
 
 import java.io.*;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -66,8 +63,31 @@ import javax.script.ScriptEngineFactory;
 import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
 
-import org.python.core.Py;
-import org.python.core.PySystemState;
+
+/**
+ ScriptManager allows execution of scripts such as JavaScript and Python Ruby,
+ Groovy, Judoscript, Haskell, Tcl, Awk and PHP amongst others. Java8 supports
+ over 30 different language engines.
+
+ This implementation uses dynamic invocation of individual functions and
+ objects within scripts using Invocable where available, and where not
+ available, implements a graceful fallback strategy to compilation of script
+ (if available) and passing the function name to execute to the script.
+ Where neither Invocable nor Compilable are available, scripts are interpreted
+ each time they are run.
+
+ We can expose our application objects as global variables to a script. The
+ script can access each variable and can call public methods on it. The syntax
+ to access Java objects, methods and fields is dependent on the scripting
+ language used.
+
+ We can pass any object, value or variable to the script using the following:
+ ScriptManager.setParameter("parameterName", Object);
+
+ We can access any object, value or variable passed to or created by the script
+ itself from java using the following:
+ ScriptManager.getParameter("parameterName");
+ */
 
 
 /**
@@ -77,28 +97,37 @@ public class ScriptManager {
 
   private ScriptEngineManager manager;
   private String engineName;
+  private String name;
   private String script;
   private ScriptEngine engine;
   private CompiledScript compiledScript;
   private Invocable invocable;
-
 
   /**
    * Constructor. Creates script engine manager, loads script and sets delegate
    * parameter before script is parsed.
    * @param engineName the engine name that runs the script (e.g. "python",
    * "javascript", etc).
-   * @param script the plugin code URL (file:// or http://)
+   * @param scriptPath the plugin path
    * @param delegate the delegate containing application functions callable
    * from scripts.
    */
-  public ScriptManager(String engineName, String script, ScriptDelegate delegate) {
+  public ScriptManager(String engineName, File scriptPath, ScriptDelegate delegate) {
     this.manager = new ScriptEngineManager();
     this.engineName = engineName;
-    this.script = script;
+    this.name = scriptPath.getName();
+    this.script = scriptPath.getAbsolutePath();
     this.setEngine(engineName);
     this.setParameter("delegate", delegate);
     this.loadScript();
+  }
+
+  /**
+   * Retrieves the name of the plugin.
+   * @return the name of the plugin.
+   */
+  public String getName(){
+    return this.name;
   }
 
   /**
@@ -218,25 +247,10 @@ public class ScriptManager {
   }
 
   /**
-   * Sets the engine name that runs the script (e.g. "python", "javascript", etc).
-   * @param engineName the name of the engine that runs the script.
-   */
-  private void setEngineName(String engineName) {
-    this.engineName = engineName;
-  }
-
-  /**
    * Sets the engine type for this ScriptManager.
    * @param engineName the name of the engine to set.
-   * NOTE: if using python, you need jython installed.
    */
   private void setEngine(String engineName) {
-    // Special hack to set gateway lib path for jython
-    if(engineName.equalsIgnoreCase("python")) {
-      PySystemState engineSys = new PySystemState();
-      engineSys.path.append(Py.newString("/usr/lib/python2.7/"));
-      Py.setSystemState(engineSys);
-    }
     this.engine = manager.getEngineByName(engineName);
   }
 
@@ -270,42 +284,22 @@ public class ScriptManager {
 
   /**
    * Retrieves the script and stores it as a String for further use.
-   * @param code the script itself or the location of the script.
+   * @param scriptPath the script itself or the location of the script.
    */
-  private void setScript(String code) {
-    if(code != null) {
+  private void setScript(String scriptPath) {
+    if(scriptPath != null) {
       try {
         BufferedInputStream bis;
-        if(code.startsWith("http")) {
-          URL url;
-          url = new URL(code);
-          URLConnection con = url.openConnection();
-          bis = new BufferedInputStream(con.getInputStream());
-        }
-        else if(code.startsWith("file")) {
-          String filePath = new File("").getAbsolutePath();
-          bis = new BufferedInputStream(new FileInputStream(filePath+code.substring(7)));
-        }
-        else {
-          //assume inline code snippet
-          this.script = code;
-          return;
-        }
+        bis = new BufferedInputStream(new FileInputStream(scriptPath));
         InputStreamReader in = new InputStreamReader(bis);
         this.script = convertStreamToString(in);
-      }
-      catch (MalformedURLException e) {
-        System.out.println("error whilst retrieving script from file: " + e.toString());
       }
       catch (FileNotFoundException e) {
         System.out.println("error whilst retrieving script from file: " + e.toString());
       }
-      catch (IOException e) {
-        System.out.println("error whilst retrieving script from file: " + e.toString());
-      }
     }
     else {
-      System.out.println("code is null");
+      System.out.println("scriptPath is null");
     }
   }
 
@@ -333,7 +327,6 @@ public class ScriptManager {
    * @param script the script to compile.
    */
   private void setCompilable(String script) {
-    //if available, compile script.
     this.compiledScript = null;
     if(script == null) {
       System.out.println("script code has not been set");
@@ -385,6 +378,12 @@ public class ScriptManager {
 }
 {% endhighlight %}
 
+Hopefully the commenting in this file has explained most things.
+<br/>
+<br/>
+
+
+
 
 
 Now, let's define a set of delegate methods for our scripts. The content of the delegate will be determined by whatever API you want your application to expose to external plugins. They are by no means restricted in any way so anything you want to expose from within your application is fair game. 
@@ -415,221 +414,8 @@ public class ScriptDelegate {
 
 The delegate above exposes some trivial methods
 
-
-
-
-/**
-
-
-This current SMG scripting implementation uses dynamic invocation of 
-individual functions and objects within scripts using Invocable where 
-available, and where not available, implements a graceful fallback strategy 
-to compilation of script (if available) and passing the function name to 
-execute to the script (implementation of the handling of this parameter is 
-left to the script developers). Where neither Invocable nor Compilable are 
-available, scripts are interpreted each time they are run.
-
-NOTE: Unlike javax.script.ScriptEngineManager, the SMG ScriptManager will 
-only control a single ScriptEngine and script. Therefore, each script 
-requires a ScriptManager of it's own.
-
-We can expose our application objects as global variables to a script. The 
-script can access each variable and can call public methods on it. The syntax
-to access Java objects, methods and fields is dependent on the scripting 
-language used.
-
-We can pass any object or var to the script using the following:
-@code
-ScriptManager.setParameter("parameterName", Object);
-@endcode
-e.g.
-@code
-scriptManager.setParameter("dispatcher", dispatcher);
-@endcode
-We can also pass a collection of parameters:
-@code
-ScriptManager.setParameters(parameters);
-@endcode
-e.g.
-@code
-HashMap<String, Object> parameters = new HashMap<String, Object>();
-parameters.put("parameterName", Object);
-...
-scriptManager.setParameters(parameters);
-@endcode
-
-
-We can access any object or var passed to or created by the script itself from java using the following:
-@code
-ScriptManager.getParameter("parameterName");
-@endcode
-We must always cast objects when pulling them from a script. 
-@code
-Type myObject = (Type)ScriptManager.getParameter("parameterName");
-@endcode
-e.g.
-@code
-String myString = (String)scriptManager.getParameter("myString");
-@endcode
-
-
-Preferably, we should pass a delegate to the ScriptManager constructor.
-e.g.
-@code
-public interface MyScriptDelegate {
-	abstract void print(String s);
-	...
-}
-	
-MyScriptDelegate myScriptDelegate = new MyScriptDelegate() {	
-	public void print(String s) {
-		System.out.println(s);
-	}
-};
-	
-ScriptDelegate delegate = new ScriptDelegate("delegate", myScriptDelegate);
-ScriptManager scriptManager = new ScriptManager(scriptConfiguration, delegate);
-
-//meanwhile in your script (let's use javascript)...
-...
-var s = "Scripting is fun!";
-delegate.print(s);
-...
-@endcode
-	
-For concrete examples see:
-- au.csiro.ict.tasman.source.ScriptSource
-- au.csiro.ict.tasman.processor.ScriptProcessor
-- au.csiro.ict.tasman.timertask.ScriptTimerTask
-- <a href="gateway_8properties_8json_source.html">examples/scripting/marvlis/gateway.properties.json</a>
-- <a href="derwentbridgesource_8js_source.html">examples/scripting/marvlis/derwentbridgesource.js</a>
-- <a href="hydro__derwentbridgesource_8properties_8json[javascript]_source.html">examples/scripting/marvlis/hydro_derwentbridgesource.properties.json[javascript]</a>
-- <a href="derwentbridgesource_8py_source.html">examples/scripting/marvlis/derwentbridgesource.py</a>
-- <a href="hydro__derwentbridgesource_8properties_8json[python]_source.html">examples/scripting/marvlis/hydro_derwentbridgesource.properties.json[python]</a>
-- <a href="meadowbanksource_8py_source.html">examples/scripting/marvlis/meadowbanksource.py</a>
-- <a href="hydro__meadowbanksource_8properties_8json_source.html">examples/scripting/marvlis/hydro_meadowbanksource.properties.json</a>
-
-Scripts can be created and executed on the fly wherever needed.
-e.g.
-@code
-//executes dynamic, one pass, inline, non compiled code snippets (use sparingly!).
-private Object executeInlineScript(String engineName, String code, HashMap<String, Object> parameters) {
-	ScriptManager scriptManager = new ScriptManager(new ScriptConfiguration(engineName, code));
-	scriptManager.setParameters(parameters);
-	return scriptManager.execute();
-}
-@endcode
-
-
-
-Javascript Specific notes:
-For testing, scripts can be run directly on the command line with jrunscript or node.js.
-
-The built-in functions importPackage and importClass can be used to import Java packages and classes.
-@code
-// Import Java packages and classes 
-// like import package.*; in Java
-importPackage(java.awt);
-// like import java.awt.Frame in Java
-importClass(java.awt.Frame);
-// Create Java Objects by "new ClassName"
-var frame = new java.awt.Frame("hello");
-// Call Java public methods from script
-frame.setVisible(true);
-// Access "JavaBean" properties like "fields"
-print(frame.title);
-@endcode
-
-e.g.
-@code
-importClass(java.lang.Thread);
-importPackage(Packages.au.csiro.ict.tasman.datatype);
-...
-var m = new Message("a.b.c", mySample);
-...
-try {
-	Thread.sleep(10000);
-}
-...
-@endcode
-
-
-java.lang is not imported by default (unlike Java) because that would result in conflicts 
-with JavaScripts built-in Object, Boolean, Math and so on.
-
-importPackage and importClass functions "pollute" the global variable scope of JavaScript. 
-To avoid that, you can use JavaImporter.
-
-e.g.
-@code
-// create JavaImporter with specific packages and classes to import
-var SwingGui = new JavaImporter(
-	javax.swing,
-	javax.swing.event,
-	javax.swing.border,
-	java.awt.event
-);
-with (SwingGui) {
-	// within this 'with' statement, we can access Swing and AWT
-	// classes by unqualified (simple) names.
-
-	var mybutton = new JButton("test");
-	var myframe = new JFrame("test");
-}
-@endcode
-e.g.
-@code
-var JodaTime = new JavaImporter(
-	org.joda.time.DateTime,
-	org.joda.time.DateTimeZone
-);
-...
-with(JodaTime){
-	var d = new DateTime(DateTimeZone.UTC);
-	...
-}
-@endcode
-  
-Arrays: While creating a Java object is the same as in Java, to create Java arrays in JavaScript we need to 
-use Java reflection explicitly. But once created the element access or length access is the same as 
-in Java. Also, a script array can be used when a Java method expects a Java array (auto conversion). 
-So in most cases we don't have to create Java arrays explicitly.
-  	
-e.g.
-@code
-// create Java String array of 5 elements
-var a = java.lang.reflect.Array.newInstance(java.lang.String, 5);
-
-// Accessing elements and length access is by usual Java syntax
-a[0] = "scripting is great!";
-print(a.length);
-@endcode
-  	
-Strings: It's important to keep in mind that Java strings and JavaScript strings are not the same. 
-Java strings are instances of the type java.lang.String and have all the methods defined by that class. 
-JavaScript strings have methods defined by String.prototype. The most common stumbling block is length, 
-which is a method of Java strings and a dynamic property of JavaScript strings.
-
-Java scripting API implements a JSR-223 compliant framework for embedding script engines.
-The javascript engine is heavily based on the Rhino engine so that may be a good place to look 
-for more in-depth stuff.
-
-For more info: 
-- http://docs.oracle.com/javase/6/docs/technotes/guides/scripting/programmer_guide/index.html
-- https://developer.mozilla.org/en-US/docs/Scripting_Java
-
-
-
-@author Ben Howell <ben.howell@csiro.au>
- */
-
-
-
-
-
-
-
-
+<br/>
+<br/>
 
 
 
@@ -705,7 +491,8 @@ public final class Main {
 {% endhighlight %}
 
 
-
+<br/>
+<br/>
 
 
 
@@ -792,7 +579,8 @@ class BitCoinPriceWatch():
     return True
 {% endhighlight %}
 
-
+<br/>
+<br/>
 
 
 
