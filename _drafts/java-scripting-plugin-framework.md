@@ -15,7 +15,7 @@ article_img_title: Question Mark by Anonymous
     Plugins are a great way to allow extensions and customisation to be added to your application over time. There are many software use cases that can benefit from a plugin architecture, such as stream processing engines (e.g. new data sources, filters, processing algorithms) and software that involves content creation and editing such as text editors (e.g. font effects, layout management) and photo editors (e.g. lens effects, colourisation methods, file formats) to name but a few.
   </p>
   <p>
-    In this article, we will take a comprehensive walk through of creating our own, complete plugin framework in Java and then jump to the scripting side and implement some plugins to perform asynchronous tasks. For this article, I will be writing the plugins in python, however, the architecture will cater for any implemented language engine<span markdown="span">[^1]</span>.
+    In this article, we will take a comprehensive walk through of creating our own, complete plugin framework in Java and then jump to the scripting side and implement some plugins to perform asynchronous tasks. For this article, we will be writing our plugins in python, however, the architecture will cater for any implemented language engine<span markdown="span">[^1]</span>.
   </p>
   </div>
 <div class="intro-img-border">
@@ -42,7 +42,7 @@ Granted, there are plenty of plugin frameworks out there already, but there's no
 <br/>
 
 #### Let's get on with it then!
-Let's get started right at the core of our application with our script manager. We will use an instance of ScriptManager for each plugin added to the system.
+Let's get started right at the core of our application with our script manager. We will use an instance of ScriptManager for each plugin added to the system. ScriptManager will provide a number of execution mechanisms whilst providing for two-way communication with our plugins. 
 
 
 **ScriptManager.java**
@@ -387,6 +387,7 @@ public class ScriptManager {
 
 
 
+Now, let's define a set of delegate methods for our scripts. The content of the delegate will be determined by whatever API you want your application to expose to external plugins. They are by no means restricted in any way so anything you want to expose from within your application is fair game. 
 
 **ScriptDelegate.java**
 {% highlight java linenos %}
@@ -412,7 +413,7 @@ public class ScriptDelegate {
 }
 {% endhighlight %}
 
-
+The delegate above exposes some trivial methods
 
 
 
