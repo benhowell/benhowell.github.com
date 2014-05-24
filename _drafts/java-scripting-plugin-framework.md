@@ -210,7 +210,7 @@ public class ScriptManager {
     //if not invocable or compilable, script will be interpreted
     // every time it is called.
   }
- {% endhighlight %}
+{% endhighlight %}
 <br/>
 <br/>
 
