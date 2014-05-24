@@ -46,7 +46,7 @@ Let's get started right at the core of our application with our script manager. 
 
 
 **ScriptManager.java**
-{% highlight java linenos%}
+{% highlight java linenos=table %}
 package net.benhowell.example;
 
 import java.io.*;
@@ -125,8 +125,8 @@ public class ScriptManager {
   }
  
 {% endhighlight %}
-**ScriptManager.java**
-{% highlight java linenos%}
+**ScriptManager.java _cont_ **
+{% highlight java linenos=table %}
   /**
    * Executes a function within the currently set script.
    * @param function the function to execute.
