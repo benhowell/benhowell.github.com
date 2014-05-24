@@ -115,7 +115,18 @@ public class ScriptManager {
       this.engine.put(entry.getKey(), entry.getValue());
     }
   }
-
+ 
+  /**
+   * Sets the engine type for this ScriptManager.
+   * @param engineName the name of the engine to set.
+   */
+  private void setEngine(String engineName) {
+    this.engine = manager.getEngineByName(engineName);
+  }
+ 
+{% endhighlight %}
+**ScriptManager.java**
+{% highlight java linenos%}
   /**
    * Executes a function within the currently set script.
    * @param function the function to execute.
@@ -178,14 +189,6 @@ public class ScriptManager {
    */
   private Boolean isCompilable() {
     return compiledScript != null;
-  }
-
-  /**
-   * Sets the engine type for this ScriptManager.
-   * @param engineName the name of the engine to set.
-   */
-  private void setEngine(String engineName) {
-    this.engine = manager.getEngineByName(engineName);
   }
 
   /**
