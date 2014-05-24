@@ -12,7 +12,7 @@ tagline: Supporting tagline
   <div class="intro">
   <div class="intro-txt-index">
   <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-  {{ post.tagline }}<br>
+  <span class="faded">{{ post.tagline }}</span><br>
   {{ post.content | strip_html | truncatewords:40 }}<br>
   <a href="{{ post.url }}">Read more</a><br/><hr>
   

@@ -124,7 +124,6 @@ img.brand-image {
 
 .mini-social-hr {
   margin: 5px 0;
-  
 }
 
 .mini-social-section {
@@ -262,4 +261,10 @@ a.notes {
 .article-image {
   display:block;
   margin:auto; 
+}
+
+.faded {
+ font-weight: normal;
+  line-height: 1;
+  color: #999999; 
 }
