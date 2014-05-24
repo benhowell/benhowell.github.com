@@ -37,7 +37,7 @@ Just give me the code: [GitHub][1]
 
 
 #### Why write my own?
-Granted, there are plenty of Java plugin frameworks out there already, but there's no reason why you shouldn't build a simple plugin architecture yourself, and in many cases this may be the better solution as it allows you to customise the plugin system to precisely your requirements. Your custom design allows you to strictly define the API between your application and plugins which helps you avoid unneccessarily complecting your application to suit a particular plugin framework or library, and, allows you to simplify how plugin providers write their components. Provided you've designed the API for your plugins thoughtfully, you'll be suprised at how easy and succinct writing your framework can be.
+Granted, there are plenty of Java plugin frameworks out there already, but there's no reason why you shouldn't build a simple plugin architecture yourself, and in many cases this may be the better solution as it allows you to customise the plugin system to precisely your requirements. Your custom design allows you to strictly define the API between your application and plugins which helps you avoid unnecessarily complecting your application to suit a particular plugin framework or library, and, allows you to simplify how plugin providers write their components. Provided you've designed the API for your plugins thoughtfully, you'll be surprised at how quick and easy writing your framework can be.
 <br/>
 <br/>
 
@@ -114,6 +114,18 @@ public class ScriptManager {
     for (Map.Entry<String, Object> entry : parameters.entrySet()){
       this.engine.put(entry.getKey(), entry.getValue());
     }
+  }
+ 
+  /**
+   * Returns the available engine types supported.
+   * @return the names of all engines supported.
+   */
+  public List<String> getAvailableEngines() {
+    List<String> engines = new ArrayList<String>();
+    for (ScriptEngineFactory factory : manager.getEngineFactories()) {
+      engines.add(factory.getLanguageName());
+    }
+    return engines;
   }
  
   /**
@@ -311,8 +323,10 @@ public class ScriptManager {
   }
 }
 {% endhighlight %}
+<br/>
+<br/>
 
-ScriptManager allows execution of scripts such as JavaScript, Python, Ruby, Groovy, Judoscript, Haskell, Tcl, Awk and PHP amongst others. Java8 supports over 30 different language engines. This implementation uses dynamic invocation of individual functions and objects within scripts using Invocable where available, and where not available, implements a graceful fallback strategy to compilation of script and passing the function name to execute to the script (if available). Where neither Invocable nor Compilable are available, scripts are interpreted each time they are run.
+ScriptManager allows execution of scripts such as JavaScript, Python, Ruby, Groovy, Judoscript, Haskell, Tcl, Awk and PHP amongst others. Java8 currently has over 30 different language engines developed for it. This implementation uses dynamic invocation of individual functions and objects within scripts using Invocable where available, and where not available, implements a graceful fallback strategy to compilation of script and passing the function name to execute to the script (if available). Where neither Invocable nor Compilable are available, scripts are interpreted each time they are run.
 
 We can expose our application objects, values and variables as global variables to a script. The script can access each variable and can call public methods on it. The syntax to access Java objects, methods and fields is dependent on the scripting language used.
 
@@ -426,19 +440,28 @@ public final class Main {
 }
 {% endhighlight %}
 
-Hooray, we've build our plugin framework. 
+That's all there is to it. Seriously. We've just built our plugin framework. 
 
 Noteworthy here is:
 
- * line 22 we are returned an instance of the plugin called (e.g. instatiated class object from our script).
+ * line 22 we are returned an instance of the plugin called (e.g. instantiated class object from our script).
  
  * line 23 we set that instance as a parameter in the script engine so we can make calls similar to `self` or `this` within the running script itself.
 
-In this case we've favoured convention over configuration. We assume that all plugins are contained within the plugins directory. Further, we assume that the plugin itself is contained in a folder and it's file name is consistant with the language it is implemented in (i.e. a python plugin will be named `*.py`). Doing this allows us to dynamically load plugins at run time without prior knowledge of those plugins. Further, we have determined that each plugin script must at least contain the following 3 functions: `run()`, `isRunning()`, and `shutDown()`. Defining the call hooks for your API (either at the application or plugin side) should be a well thought through design choice and should be documented accordingly. The plugin developer documentation should very clearly spell out this binding contract (i.e. the required functions in their plugin). We could of course build tests into our application that checks for these mandatory functions at plugin load time, however that is beyond the scope of this article. Similarly, our delegate API(s) need to be well documented and supplied as part of the plugin developer documentation.
+**Concluding remarks**
+For this particular implementation of a plugin framework, we've favoured convention over configuration.
+
+ * We assume that all plugins are contained within the plugins directory. 
+ 
+ * We assume that the plugin itself is contained in a folder and it's file name is consistent with the language it is implemented in (i.e. a python plugin will be named `*.py`).
+ 
+ * We have determined that each plugin script must at least contain the following 3 functions: `run()`, `isRunning()`, and `shutDown()`.
+ 
+Doing all of this allows us to dynamically load plugins at run time without prior knowledge of those plugins. Defining the call hooks for your API (either at the application or plugin side) should be a well thought through design choice and should be documented accordingly. The plugin developer documentation should very clearly spell out this binding contract (i.e. the required functions in their plugin). We could of course build tests into our application that checks for these mandatory functions at plugin load time, however that is beyond the scope of this article. Similarly, our delegate API(s) need to be well documented and supplied as part of the plugin developer documentation.
 <br/>
 <br/>
 
-Ok, let's now jump to the other side and develop a plugin for our application. This will be a rather trivial bit of asynchronous code that simply runs in the background and pushes data into our application every few seconds. In this example, we will be streaming data about the current bitcoin market price.
+OK, let's now jump to the other side and develop a plugin for our application. This will be a rather trivial bit of asynchronous code that simply runs in the background and pushes data into our application every few seconds. In this example, we will be streaming data about the current bitcoin market price.
 
 **bit_coin_price.py**
 {% highlight python linenos=table %}
@@ -524,12 +547,13 @@ Noteworthy items here include:
  
  * the use of the `instance` object for calling of internal methods from `isRunning()`, and `shutDown()`
  
- * the use of the the delegate thoughout the script.
+ * the use of the the delegate throughout the script.
 <br/>
 <br/>
 
-**weather_watch.py**
 This is another plugin almost identical to the one above and is used for the purpose of demonstrating multiple plugins running at once.
+
+**weather_watch.py**
 {% highlight python linenos=table %}
 """
 * Crude example script.
@@ -609,8 +633,9 @@ class WeatherWatch():
 
 That brings to a conclusion our development of a custom plugin architecture. If you have any questions please leave them in the comments below and I'll be happy to reply.
 
-For the complete application source code please get it from my [GitHub][1].
-
+For the complete application source code please get it from my [Git Hub][1].
+<br/>
+<br/>
 
 
 #### Notes
