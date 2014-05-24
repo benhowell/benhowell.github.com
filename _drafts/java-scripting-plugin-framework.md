@@ -12,7 +12,7 @@ article_img_title: Question Mark by Anonymous
 <div class="intro">
   <div class="intro-txt">
   <p>
-    Plugins are a great way to allow extensions and customisation to be added to your application over time. There are many software use cases that can benefit from a plugin architecture, such as stream processing engines (e.g. new data sources, filters, processing algorithms) and software that involves content creation and editing such as text editors (e.g. font effects, layout management) and photo editors (e.g. lens effects, colourisation methods) to name but a few.
+    Plugins are a great way to allow extensions and customisation to be added to your application over time. There are many software use cases that can benefit from a plugin architecture, such as stream processing engines (e.g. new data sources, filters, processing algorithms) and software that involves content creation and editing such as text editors (e.g. font effects, layout management) and photo editors (e.g. lens effects, colourisation methods, file formats) to name but a few.
   </p>
   <p>
     In this article, we will take a comprehensive walk through of creating our own, complete plugin framework in Java and then jump to the scripting side and implement some plugins to perform asynchronous tasks. For this article, I will be writing the plugins in python, however, the architecture will cater for any implemented language engine[^2].
@@ -36,8 +36,8 @@ Just give me the code: [GitHub][1]
 <br/>
 
 
-### Why write my own?
-Granted, there are plenty of plugin frameworks out there already, but there's no reason why you shouldn't build a simple plugin architecture yourself, and in some cases this may be the better solution as it allows you to customise the plugin system to precisely your requirements. Your custom design allows you to strictly define the API interface between your application and plugins which helps you avoid unneccessarily complecting your application to suit a common plugin framework or library, and, allows you to simplify how plugin providers write their components.
+#### Why write my own?
+Granted, there are plenty of plugin frameworks out there already, but there's no reason why you shouldn't build a simple plugin architecture yourself, and in many cases this may be the better solution as it allows you to customise the plugin system to precisely your requirements. Your custom design allows you to strictly define the API interface between your application and plugins which helps you avoid unneccessarily complecting your application to suit a common plugin framework or library, and, allows you to simplify how plugin providers write their components.
 
 
 
@@ -51,46 +51,11 @@ Granted, there are plenty of plugin frameworks out there already, but there's no
 
 
 
-The common examples are the plug-ins used in web browsers to add new features such as search-engines, virus scanners, or the ability to utilize a new file type such as a new video format. Well-known browser plug-ins include the Adobe Flash Player, the QuickTime Player, and the Java plug-in, which can launch a user-activated Java applet on a web page to its execution a local Java virtual machine.
-
-Add-on (or addon) is the general term for what enhances an application. It comprises snap-in, plug-in, theme and skin.[1] An extension add-on tailors the core features of an application by adding an optional module, whereas a plug-in add-on would tailor the outer layers of an application to personalize functionality.
-
-A theme or skin add-on is a preset package containing additional or changed graphical appearance details, achieved by the use of a graphical user interface (GUI) that can be applied to specific software and websites to suit the purpose, topic, or tastes of different users to customize the look and feel of a piece of computer software or an operating system front-end GUI (and window managers).
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-Applications support plug-ins for many reasons. Some of the main reasons include:
-
-to enable third-party developers to create abilities which extend an application
-to support easily adding new features
-to reduce the size of an application
-to separate source code from an application because of incompatible software licenses.
-Specific examples of applications and why they use plug-ins:
-
-Audio editors use plug-ins to generate, process and/or analyse sound (Ardour, Audacity)
-Email clients use plug-ins to decrypt and encrypt email (Pretty Good Privacy)
-Graphics software use plug-ins to support file formats and process images (Adobe Photoshop, GIMP)
-Media players use plug-ins to support file formats and apply filters (foobar2000, GStreamer, Quintessential, VST, Winamp, XMMS)
-Microsoft Office uses plug-ins (better known as add-ins) to extend the abilities of its application by adding custom commands and specialized features
-Packet sniffers use plug-ins to decode packet formats (OmniPeek)
-Remote sensing applications use plug-ins to process data from different sensor types (Opticks)
-Smaart, an audio spectrum analysis application which accepts plug-ins for third-party digital signal processors
-Software development environments use plug-ins to support programming languages (Eclipse, jEdit, MonoDevelop)
-Web browsers use plug-ins (often implementing the NPAPI specification) to play video and presentation formats (Flash, QuickTime, Microsoft Silverlight, 3DMLW)
 
 
 
