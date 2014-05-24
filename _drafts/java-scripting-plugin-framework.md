@@ -54,6 +54,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
 import javax.script.Compilable;
 import javax.script.CompiledScript;
 import javax.script.Invocable;
@@ -62,6 +63,10 @@ import javax.script.ScriptEngineFactory;
 import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
 
+/**
+ * Created by Ben Howell [ben@benhowell.net] on 22-May-2014.
+ */
+ 
 public class ScriptManager {
 
   private ScriptEngineManager manager;
@@ -72,6 +77,15 @@ public class ScriptManager {
   private CompiledScript compiledScript;
   private Invocable invocable;
 
+  /**
+   * Constructor. Creates script engine manager, loads script and sets delegate
+   * parameter before script is parsed.
+   * @param engineName the engine name that runs the script (e.g. "python",
+   * "javascript", etc).
+   * @param scriptPath the plugin path
+   * @param delegate the delegate containing application functions callable
+   * from scripts.
+   */
   public ScriptManager(String engineName, File scriptPath, ScriptDelegate delegate) {
     this.manager = new ScriptEngineManager();
     this.engineName = engineName;
@@ -82,21 +96,42 @@ public class ScriptManager {
     this.loadScript();
   }
 
+  /**
+   * Sets a global variable in the script engine. This variable will be
+   * callable from anywhere in the script.
+   * @param name parameter name.
+   * @param value parameter value.
+   */
   public void setParameter(String name, Object value) {
     this.engine.put(name, value);
   }
 
+  /**
+   * Convenience function for setting a number of parameters.
+   * @param parameters HashMap of parameter name/value pairs.
+   */
   public void setParameters(HashMap<String, Object> parameters) {
     for (Map.Entry<String, Object> entry : parameters.entrySet()){
       this.engine.put(entry.getKey(), entry.getValue());
     }
   }
 
+  /**
+   * Executes a function within the currently set script.
+   * @param function the function to execute.
+   * @param parameters the parameters to set.
+   * @return the result.
+   */
   public Object executeFunction(String function, HashMap<String, Object> parameters){
     this.setParameters(parameters);
     return this.executeFunction(function);
   }
 
+  /**
+   * Executes a function within the currently set script.
+   * @param function the function to execute.
+   * @return the result.
+   */
   public Object executeFunction(String function){
     //if script engine is invocable, invoke method directly
     if(this.isInvocable()) {
@@ -127,18 +162,36 @@ public class ScriptManager {
     return null;
   }
 
+  /**
+   * Returns true if script is Invocable, else false.
+   * @return true if script is Invocable, else false.
+   */
   private Boolean isInvocable() {
     return invocable != null;
   }
 
+  /**
+   * Returns true if script is Compilable, else if script is Invocable or not
+   * Compilable returns false.
+   * @return true if script is Compilable, else if script is Invocable or not
+   * Compilable returns false.
+   */
   private Boolean isCompilable() {
     return compiledScript != null;
   }
 
+  /**
+   * Sets the engine type for this ScriptManager.
+   * @param engineName the name of the engine to set.
+   */
   private void setEngine(String engineName) {
     this.engine = manager.getEngineByName(engineName);
   }
 
+  /**
+   * Loads the script. Attempts to make script Invocable or Compilable as
+   * necessary.
+   */
   private void loadScript() {
     this.setScript(this.script);
 
@@ -153,11 +206,20 @@ public class ScriptManager {
     // every time it is called.
   }
 
+  /**
+   * Streams the script from file.
+   * @returns entire script as a String.
+   */
   private static String convertStreamToString(InputStreamReader is) {
     java.util.Scanner s = new java.util.Scanner(is).useDelimiter("\\A");
     return s.hasNext() ? s.next() : "";
   }
 
+
+  /**
+   * Retrieves the script and stores it as a String for further use.
+   * @param scriptPath the script itself or the location of the script.
+   */
   private void setScript(String scriptPath) {
     if(scriptPath != null) {
       try {
@@ -175,6 +237,10 @@ public class ScriptManager {
     }
   }
 
+  /**
+   * Attempts to interpret and set the given script to Invocable.
+   * @param script the script to make Invocable.
+   */
   private void setInvocable(String script) {
     //if available, set invocable interface
     this.invocable = null;
@@ -190,6 +256,10 @@ public class ScriptManager {
     }
   }
 
+  /**
+   * Attempts to compile the given script.
+   * @param script the script to compile.
+   */
   private void setCompilable(String script) {
     this.compiledScript = null;
     if(script == null) {
@@ -210,6 +280,11 @@ public class ScriptManager {
     }
   }
 
+  /**
+   * Interprets and executes a script.
+   * @param script the script to execute.
+   * @return the result (if any).
+   */
   public Object execute(String script){
     try {
       return this.engine.eval(script);
@@ -220,6 +295,11 @@ public class ScriptManager {
     return null;
   }
 
+  /**
+   * Executes a compiled script.
+   * @param script the script to execute.
+   * @return the result (if any).
+   */
   private Object execute(CompiledScript script){
     try {
       return script.eval();
@@ -269,12 +349,15 @@ public class ScriptDelegate {
 }
 {% endhighlight %}
 
-The delegate above exposes some trivial methods
+The delegate above exposes some trivial methods as a demonstration of what a delegate may look like.
 
 <br/>
 <br/>
 
 
+
+
+Now we have all the infrastructure in place, we can write a little application to initialise our application and dynamically load our plugins. 
 
 
 
@@ -347,6 +430,7 @@ public final class Main {
 }
 {% endhighlight %}
 
+In this case we've favoured convention over configuration. We assume that all plugins are contained within the plugins directory. Further, we assume that the plugin itself is contained in a folder and it's file name is consistant with the language it is implemented in (i.e. a python plugin will be named *.py). Doing this allows us to dynamically load plugins at run time without prior knowledge of those plugins. Further, we have determined that each plugin script must at least contain the following 3 functions: run(), isRunning(), and shutDown(). Defining the call hooks for your API (either at the application or plugin side) should be a well thought through design and should be documented accordingly. The plugin developer documentation should then very clearly spell out this binding contract (i.e. the required functions in plugins). We could of course build tests into our application that checks for these mandatory functions at plugin load time, however that is beyond the scope of this article.
 
 <br/>
 <br/>
