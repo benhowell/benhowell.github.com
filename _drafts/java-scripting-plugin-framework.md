@@ -36,11 +36,16 @@ Just give me the code: [GitHub][1]
 <br/>
 
 
+### Why write my own?
+Granted, there are plenty of plugin frameworks out there already, but there's no reason why you shouldn't build a simple plugin architecture yourself, and in some cases this may be the better solution as it allows you to customise the plugin system to precisely your requirements. Your custom design allows you to strictly define the API interface between your application and plugins which helps you avoid unneccessarily complecting your application to suit a common plugin framework or library, and, allows you to simplify how plugin providers write their components.
+
+
+
 
 
 <p>
-    Java scripting API implements a JSR 223 compliant framework for embedding script engines. The last time I looked, there were over 30 engines implemented[^1].
-  </p>
+  Java scripting API implements a JSR 223 compliant framework for embedding script engines. The last time I looked, there were over 30 engines implemented[^1].
+</p>
 
 
 
@@ -58,7 +63,7 @@ A theme or skin add-on is a preset package containing additional or changed grap
 
 
 
-There are plenty of plugin frameworks out there already, but you can build a simple plugin architecture yourself, and in some cases this may well be the better solution as it allows you to customise the plugin system to precisely your requirements, allows you to strictly define the API interface between your application and plugins which helps you avoid unneccessarily complecting your application to suit a common plugin framework library and allows you to simplify how plugin providers write their components. 
+
 
 
 
