@@ -2,7 +2,7 @@
 layout: post
 category : examples
 title: Publish/Subscribe using Scala and Akka EventBus
-tagline: "example"
+tagline: "comprehensive guide"
 tags : [akka, EventBus, scala, concurrent, asynchronous, publish/subscribe, beginner, example, tutorial]
 article_img: bootstrap/img/eventbus_subchannel_250.jpg
 article_img_title: "Event bus with subchannel classification by Anonymous"
