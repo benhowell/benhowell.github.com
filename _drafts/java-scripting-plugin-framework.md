@@ -4,7 +4,7 @@ title: "Java Plugin Scripting Architecture"
 description: ""
 tagline: "guide"
 category: guide
-tags: [java, plugin, framework, architecture, beginner, example, tutorial, guide, jsr 223]
+tags: [java, python, jsr 223, plugin, framework, architecture, beginner, example, tutorial, guide]
 article_img: bootstrap/img/qn.png
 article_img_title: Question Mark by Anonymous
 ---
@@ -15,10 +15,7 @@ article_img_title: Question Mark by Anonymous
     Plugins are a great way to allow extensions and customisation to be added to your application over time. There are many software use cases that can benefit from a plugin architecture, such as stream processing engines (e.g. new data sources, filters, processing algorithms) and software that involves content creation and editing such as text editors (e.g. font effects, layout management) and photo editors (e.g. lens effects, colourisation methods) to name but a few.
   </p>
   <p>
-    The last time I looked, Java had more than 30 language engines implemented[^1].
-  </p>
-  <p>
-    In this article, we will take a comprehensive walk through of creating our own, complete plugin framework and then jump to the scripting side and implement some plugins to perform asynchronous tasks.
+    In this article, we will take a comprehensive walk through of creating our own, complete plugin framework in Java and then jump to the scripting side and implement some plugins to perform asynchronous tasks. For this article, I will be writing the plugins in python, however, the architecture will cater for any implemented language engine[^2].
   </p>
   </div>
 <div class="intro-img-border">
@@ -41,7 +38,9 @@ Just give me the code: [GitHub][1]
 
 
 
-
+<p>
+    Java scripting API implements a JSR 223 compliant framework for embedding script engines. The last time I looked, there were over 30 engines implemented[^1].
+  </p>
 
 
 
