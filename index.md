@@ -11,8 +11,8 @@ tagline: Supporting tagline
   {% for post in site.posts %}
   <div class="intro">
   <div class="intro-txt-index">
-  <h3><a href="{{ post.url }}">{{ post.title }}</a><br>
-  <small>{{ post.tagline }}</small></h3>
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  <small>{{ post.tagline }}</small>
   {{ post.content | strip_html | truncatewords:40 }}<br>
   <a href="{{ post.url }}">Read more</a><br/><hr>
   
