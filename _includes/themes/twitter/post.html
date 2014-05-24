@@ -72,6 +72,9 @@
       </ul>
     </div>
     
+    <div class="date">
+      <span>{{ page.date | date_to_long_string }}</span>
+    </div>
     
     <div class="post-footer">
       <h3 class="social-header">Share this article</h3>
@@ -99,9 +102,7 @@
       })();
     </script>
     
-    <div class="date">
-      <span>{{ page.date | date_to_long_string }}</span>
-    </div>
+    
     <hr>
     {% include JB/comments %}
   </div>
