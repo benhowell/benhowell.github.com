@@ -56,6 +56,12 @@
   {% endunless %}  
 
     <hr>
+    
+    <div class="date">
+      <span>{{ page.date | date_to_long_string }}</span>
+    </div>
+    
+    
     <div class="pagination">
       <ul>
       {% if page.previous %}
@@ -72,9 +78,6 @@
       </ul>
     </div>
     
-    <div class="date">
-      <span>{{ page.date | date_to_long_string }}</span>
-    </div>
     
     <div class="post-footer">
       <h3 class="social-header">Share this article</h3>
