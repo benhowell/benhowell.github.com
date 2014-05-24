@@ -326,7 +326,7 @@ Hopefully the comments in the file above have explained almost everything, if no
 Now, let's define a set of delegate methods for our scripts. The content of the delegate will be determined by whatever API you want your application to expose to external plugins. They are by no means restricted in any way so anything you want to expose from within your application is fair game. 
 
 **ScriptDelegate.java**
-{% highlight java linenos %}
+{% highlight java linenos=table %}
 package net.benhowell.example;
 
 import java.util.List;
