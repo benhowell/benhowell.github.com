@@ -155,7 +155,7 @@ public class ScriptManager {
         System.out.println("ScriptException error: " + e.toString());
       }
       catch (NoSuchMethodException e) {
-        System.out.println("function: " + function + " not found in script: " + e.toString());
+        System.out.println("function: " + function + " not found: " + e.toString());
       }
     }
     //else pass function argument and execute script
@@ -213,6 +213,8 @@ public class ScriptManager {
 {% endhighlight %}
 <br/>
 <br/>
+
+
 
 **ScriptManager.java** _cont..._
 {% highlight java linenos=table %}
