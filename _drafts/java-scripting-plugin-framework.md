@@ -46,7 +46,7 @@ Let's get started right at the core of our application with our script manager. 
 
 
 **ScriptManager.java**
-{% highlight java linenos=table %}
+{% highlight java linenos=table nowrap=true %}
 package net.benhowell.example;
 
 import java.io.*;
