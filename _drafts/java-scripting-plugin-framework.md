@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "java scripting plugin framework"
+title: "Java Plugin Scripting Architecture"
 description: ""
 tagline: "guide"
 category: guide
-tags: [java, concurrent, asynchronous, plugin, architecture, beginner, example, tutorial, guide]
+tags: [java, plugin, framework, architecture, beginner, example, tutorial, guide]
 article_img: bootstrap/img/qn.png
 article_img_title: Question Mark by Anonymous
 ---
@@ -27,190 +27,6 @@ article_img_title: Question Mark by Anonymous
 Just give me the code: [GitHub][1]
 <br/>
 <br/>
-
-
-
-
-
-**bit_coin_price.py**
-{% highlight python linenos %}
-"""
-* Crude example script.
-* Script is passed a ScriptDelegate which is accessed via the "delegate" variable.
-"""
-
-import time
-from threading import Thread, InterruptedException
-from urllib import urlopen
-from java.lang import Boolean
-
-def run():
-  """
-  This is the entry point for this script.
-  Returns the running script instance.
-  """
-  return BitCoinPriceWatch()
-
-
-def isRunning():
-  """
-  Return true if running, else false.
-  """
-  if instance is not None:
-    if instance.is_running():
-      return Boolean("True")
-  return Boolean("False")
-
-
-def shutDown():
-  """
-  Allows script to perform its own cleanup routine before shutting down.
-  """
-  instance.shut_down()
-
-
-class BitCoinPriceWatch():
-  def __init__(self):
-    """
-    Constructor.
-    """
-    self.thread_cancelled = False
-    self.thread = Thread(target=self.run)
-    self.thread.start()
-
-
-  def run(self):
-    """
-    Main loop.
-    """
-    while not self.thread_cancelled:
-      try:
-        for line in urlopen('https://www.bitstamp.net/api/ticker/'):
-          delegate.dispatch(line + '\n')
-        time.sleep(4) # just wait around a bit...
-      except InterruptedException:
-        self.thread_cancelled = True
-
-
-  def is_running(self):
-    """
-    Returns true if main loop is running.
-    """
-    return self.thread.isAlive()
-
-
-  def shut_down(self):
-    """
-    Performs cleanup routine.
-    Return true after shutdown.
-    """
-    self.thread_cancelled = True
-    while self.thread.isAlive():
-      time.sleep(1)
-    return True
-{% endhighlight %}
-
-
-
-
-
-**Main.java**
-{% highlight java linenos %}
-
-package net.benhowell.example;
-
-import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
-
-/**
- * Created by Ben Howell [ben@benhowell.net] on 22-May-2014.
- */
-public final class Main {
-  public static void main(String[] args) {
-
-    String filePath = new File("").getAbsolutePath();
-    List<ScriptManager> managers = loadPlugins(filePath+"/plugins/");
-
-    System.out.println("Available script engines");
-    for(String engine: managers.get(0).getAvailableEngines()){
-      System.out.println("- engine: " + engine);
-    }
-
-    for(ScriptManager m: managers){
-      Object instance = m.executeFunction("run");
-      m.setParameter("instance", instance);
-      System.out.println(m.getName() + " running = " + m.executeFunction("isRunning"));
-    }
-
-    //whatever else your app does... probably an event loop or something...
-    try {
-      //run for 30 seconds
-      Thread.sleep(1000 * 30);
-    }
-    catch(InterruptedException e){}
-
-    for(ScriptManager m: managers){
-      System.out.println("shutting down: " + m.getName() + "...");
-      m.executeFunction("shutDown");
-    }
-
-    System.exit(0);
-  }
-
-  public static List<ScriptManager> loadPlugins(String directoryName) {
-    List<ScriptManager> managers = new ArrayList<ScriptManager>();
-    File directory = new File(directoryName);
-    File[] files = directory.listFiles();
-    for (File file : files) {
-      if (file.isDirectory()) {
-        System.out.println(file.toString());
-        for (File f : file.listFiles()) {
-          System.out.println(f.toString());
-          if(f.getAbsolutePath().endsWith(".py")){
-            managers.add(new ScriptManager("python", f, new ScriptDelegate()));
-          }
-          else if(f.getAbsolutePath().endsWith(".js")){
-            managers.add(new ScriptManager("javascript", f, new ScriptDelegate()));
-          }
-          // else: whatever other engines you want to support
-        }
-      }
-    }
-    return managers;
-  }
-}
-{% endhighlight %}
-
-
-
-**ScriptDelegate.java**
-{% highlight java linenos %}
-package net.benhowell.example;
-
-import java.util.List;
-
-/**
- * Created by Ben Howell [ben@benhowell.net] on 22-May-2014.
- */
-public class ScriptDelegate {
-
-  public void dispatch(String data){
-    System.out.println("new message: ");
-    System.out.println(" " + data);
-  }
-
-  public void dispatch(List<String> data){
-    System.out.println("new messages: ");
-    for(String d: data)
-      System.out.print(" " + d);
-  }
-}
-{% endhighlight %}
-
-
-
-
 
 
 **ScriptManager.java**
@@ -552,6 +368,209 @@ public class ScriptManager {
   }
 }
 {% endhighlight %}
+
+
+
+
+**ScriptDelegate.java**
+{% highlight java linenos %}
+package net.benhowell.example;
+
+import java.util.List;
+
+/**
+ * Created by Ben Howell [ben@benhowell.net] on 22-May-2014.
+ */
+public class ScriptDelegate {
+
+  public void dispatch(String data){
+    System.out.println("new message: ");
+    System.out.println(" " + data);
+  }
+
+  public void dispatch(List<String> data){
+    System.out.println("new messages: ");
+    for(String d: data)
+      System.out.print(" " + d);
+  }
+}
+{% endhighlight %}
+
+
+
+
+
+
+
+
+
+**Main.java**
+{% highlight java linenos %}
+
+package net.benhowell.example;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Created by Ben Howell [ben@benhowell.net] on 22-May-2014.
+ */
+public final class Main {
+  public static void main(String[] args) {
+
+    String filePath = new File("").getAbsolutePath();
+    List<ScriptManager> managers = loadPlugins(filePath+"/plugins/");
+
+    System.out.println("Available script engines");
+    for(String engine: managers.get(0).getAvailableEngines()){
+      System.out.println("- engine: " + engine);
+    }
+
+    for(ScriptManager m: managers){
+      Object instance = m.executeFunction("run");
+      m.setParameter("instance", instance);
+      System.out.println(m.getName() + " running = " + m.executeFunction("isRunning"));
+    }
+
+    //whatever else your app does... probably an event loop or something...
+    try {
+      //run for 30 seconds
+      Thread.sleep(1000 * 30);
+    }
+    catch(InterruptedException e){}
+
+    for(ScriptManager m: managers){
+      System.out.println("shutting down: " + m.getName() + "...");
+      m.executeFunction("shutDown");
+    }
+
+    System.exit(0);
+  }
+
+  public static List<ScriptManager> loadPlugins(String directoryName) {
+    List<ScriptManager> managers = new ArrayList<ScriptManager>();
+    File directory = new File(directoryName);
+    File[] files = directory.listFiles();
+    for (File file : files) {
+      if (file.isDirectory()) {
+        System.out.println(file.toString());
+        for (File f : file.listFiles()) {
+          System.out.println(f.toString());
+          if(f.getAbsolutePath().endsWith(".py")){
+            managers.add(new ScriptManager("python", f, new ScriptDelegate()));
+          }
+          else if(f.getAbsolutePath().endsWith(".js")){
+            managers.add(new ScriptManager("javascript", f, new ScriptDelegate()));
+          }
+          // else: whatever other engines you want to support
+        }
+      }
+    }
+    return managers;
+  }
+}
+{% endhighlight %}
+
+
+
+
+
+
+
+
+
+
+
+**bit_coin_price.py**
+{% highlight python linenos %}
+"""
+* Crude example script.
+* Script is passed a ScriptDelegate which is accessed via the "delegate" variable.
+"""
+
+import time
+from threading import Thread, InterruptedException
+from urllib import urlopen
+from java.lang import Boolean
+
+def run():
+  """
+  This is the entry point for this script.
+  Returns the running script instance.
+  """
+  return BitCoinPriceWatch()
+
+
+def isRunning():
+  """
+  Return true if running, else false.
+  """
+  if instance is not None:
+    if instance.is_running():
+      return Boolean("True")
+  return Boolean("False")
+
+
+def shutDown():
+  """
+  Allows script to perform its own cleanup routine before shutting down.
+  """
+  instance.shut_down()
+
+
+class BitCoinPriceWatch():
+  def __init__(self):
+    """
+    Constructor.
+    """
+    self.thread_cancelled = False
+    self.thread = Thread(target=self.run)
+    self.thread.start()
+
+
+  def run(self):
+    """
+    Main loop.
+    """
+    while not self.thread_cancelled:
+      try:
+        for line in urlopen('https://www.bitstamp.net/api/ticker/'):
+          delegate.dispatch(line + '\n')
+        time.sleep(4) # just wait around a bit...
+      except InterruptedException:
+        self.thread_cancelled = True
+
+
+  def is_running(self):
+    """
+    Returns true if main loop is running.
+    """
+    return self.thread.isAlive()
+
+
+  def shut_down(self):
+    """
+    Performs cleanup routine.
+    Return true after shutdown.
+    """
+    self.thread_cancelled = True
+    while self.thread.isAlive():
+      time.sleep(1)
+    return True
+{% endhighlight %}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
