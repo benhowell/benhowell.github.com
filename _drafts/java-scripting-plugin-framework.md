@@ -15,7 +15,7 @@ article_img_title: Question Mark by Anonymous
     Plugins are a great way to allow extensions and customisation to be added to your application over time. There are many software use cases that can benefit from a plugin architecture, such as stream processing engines (e.g. new data sources, filters, processing algorithms) and software that involves content creation and editing such as text editors (e.g. font effects, layout management) and photo editors (e.g. lens effects, colourisation methods, file formats) to name but a few.
   </p>
   <p>
-    In this article, we will take a comprehensive walk through of creating our own, complete plugin framework in Java and then jump to the scripting side and implement some plugins to perform asynchronous tasks. For this article, I will be writing the plugins in python, however, the architecture will cater for any implemented language engine[^2].
+    In this article, we will take a comprehensive walk through of creating our own, complete plugin framework in Java and then jump to the scripting side and implement some plugins to perform asynchronous tasks. For this article, I will be writing the plugins in python, however, the architecture will cater for any implemented language engine<span markdown="span">[^1]</span>.
   </p>
   </div>
 <div class="intro-img-border">
@@ -43,14 +43,6 @@ Granted, there are plenty of plugin frameworks out there already, but there's no
 
 
 
-<p>
-  Java scripting API implements a JSR 223 compliant framework for embedding script engines. The last time I looked, there were over 30 engines implemented[^1].
-</p>
-
-
-
-
-
 
 
 
@@ -66,13 +58,6 @@ Granted, there are plenty of plugin frameworks out there already, but there's no
 
 /**
 
-ScriptManager allows execution of scripts such as JavaScript and Python
-with Java6. Java7 supports ruby, groovy, judoscript, haskell, tcl, awk, 
-e4x and, php as well.
-
-Scripts can be called from within any source, processor, timertask or
-listener, or can be a first class source, processor, timertask or listener in
-their own right.
 
 This current SMG scripting implementation uses dynamic invocation of 
 individual functions and objects within scripts using Invocable where 
@@ -836,12 +821,8 @@ class BitCoinPriceWatch():
 
 
 
-
-
-
-
-
-
+#### Notes
+[^1]:Java scripting API implements a JSR 223 compliant framework for embedding script engines. The last time I looked, there were over 30 engines implemented, however the functionality of those engines and their maintenance and development vary so YMMV. Some of the more common languages are: awk, javascript, python and ruby. 
 
 
 
@@ -849,3 +830,11 @@ class BitCoinPriceWatch():
 
 
 [1]:https://github.com/benhowell/examples/tree/master/JavaPluginScripting
+
+
+
+
+
+
+
+
