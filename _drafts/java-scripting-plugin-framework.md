@@ -312,14 +312,15 @@ public class ScriptManager {
 }
 {% endhighlight %}
 
-ScriptManager allows execution of scripts such as JavaScript and Python Ruby, Groovy, Judoscript, Haskell, Tcl, Awk and PHP amongst others. Java8 supports over 30 different language engines. This implementation uses dynamic invocation of individual functions and objects within scripts using Invocable where available, and where not available, implements a graceful fallback strategy to compilation of script (if available) and passing the function name to execute to the script. Where neither Invocable nor Compilable are available, scripts are interpreted each time they are run.
+ScriptManager allows execution of scripts such as JavaScript, Python, Ruby, Groovy, Judoscript, Haskell, Tcl, Awk and PHP amongst others. Java8 supports over 30 different language engines. This implementation uses dynamic invocation of individual functions and objects within scripts using Invocable where available, and where not available, implements a graceful fallback strategy to compilation of script (if available) and passing the function name to execute to the script. Where neither Invocable nor Compilable are available, scripts are interpreted each time they are run.
 
-We can expose our application objects as global variables to a script. The script can access each variable and can call public methods on it. The syntax to access Java objects, methods and fields is dependent on the scripting language used.
+We can expose our application objects, values and variables as global variables to a script. The script can access each variable and can call public methods on it. The syntax to access Java objects, methods and fields is dependent on the scripting language used.
 
-We can pass any object, value or variable to the script using the following: ScriptManager.setParameter("parameterName", Object);
-We can access any object, value or variable passed to or created by the script itself from java using the following: ScriptManager.getParameter("parameterName");
+We can pass any object, value or variable to the script using the following call: `ScriptManager.setParameter("parameterName", Object);`
+We can access any object, value or variable passed to or created by the script itself from java using the following call: `ScriptManager.getParameter("parameterName");`
 
-Hopefully the comments in the file above have explained almost everything, if not, please pose me questions in the comments section below.
+Hopefully the comments in the file above have explained almost everything else, if not, please pose me questions in the comments section below as I'll be happy to go into further detail.
+
 <br/>
 <br/>
 
