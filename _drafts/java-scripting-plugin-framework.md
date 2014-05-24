@@ -320,7 +320,6 @@ We can pass any object, value or variable to the script using the following call
 We can access any object, value or variable passed to or created by the script itself from java using the following call: `ScriptManager.getParameter("parameterName");`
 
 Hopefully the comments in the file above have explained almost everything else, if not, please pose me questions in the comments section below as I'll be happy to go into further detail.
-
 <br/>
 <br/>
 
@@ -358,13 +357,13 @@ The delegate above exposes some trivial methods as a demonstration of what a del
 
 
 
-Now we have all the infrastructure in place, we can write a little application to initialise our application and dynamically load our plugins. 
+Now we have all the infrastructure in place, we can write a little application to dynamically load our plugins and perform some task.
 
 
 
 
 **Main.java**
-{% highlight java linenos %}
+{% highlight java linenos=table %}
 
 package net.benhowell.example;
 
@@ -444,7 +443,7 @@ In this case we've favoured convention over configuration. We assume that all pl
 
 
 **bit_coin_price.py**
-{% highlight python linenos %}
+{% highlight python linenos=table %}
 """
 * Crude example script.
 * Script is passed a ScriptDelegate which is accessed via the "delegate" variable.
