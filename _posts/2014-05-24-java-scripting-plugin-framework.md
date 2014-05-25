@@ -445,6 +445,8 @@ Noteworthy here is:
  * line 22 we are returned an instance of the plugin called (e.g. instantiated class object from our script).
  
  * line 23 we set that instance as a parameter in the script engine so we can make calls similar to `self` or `this` within the running script itself.
+<br/>
+<br/>
 
 **Concluding remarks**
 
