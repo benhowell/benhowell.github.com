@@ -447,6 +447,7 @@ Noteworthy here is:
  * line 23 we set that instance as a parameter in the script engine so we can make calls similar to `self` or `this` within the running script itself.
 
 **Concluding remarks**
+
 For this particular implementation of a plugin framework, we've favoured convention over configuration.
 
  * We assume that all plugins are contained within the plugins directory. 
