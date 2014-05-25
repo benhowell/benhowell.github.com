@@ -458,7 +458,7 @@ For this particular implementation of a plugin framework, we've favoured convent
  
  * We have determined that each plugin script must at least contain the following 3 functions: `run()`, `isRunning()`, and `shutDown()`.
  
-Doing all of this allows us to dynamically load plugins at run time without prior knowledge of those plugins. Defining the call hooks for your API (either at the application or plugin side) should be a well thought through design choice and should be documented accordingly. The plugin developer documentation should very clearly spell out this binding contract (i.e. the required functions in their plugin). We could of course build tests into our application that checks for these mandatory functions at plugin load time, however that is beyond the scope of this article. Similarly, our delegate API(s) need to be well documented and supplied as part of the plugin developer documentation.
+Doing all of this allows us to dynamically load plugins at run time without prior knowledge of those plugins[^2]. Defining the call hooks for your API (either at the application or plugin side) should be a well thought through design choice and should be documented accordingly. The plugin developer documentation should very clearly spell out this binding contract (i.e. the required functions in their plugin). We could of course build tests into our application that checks for these mandatory functions at plugin load time, however that is beyond the scope of this article. Similarly, our delegate API(s) need to be well documented and supplied as part of the plugin developer documentation.
 <br/>
 <br/>
 
@@ -641,7 +641,7 @@ For the complete application source code please get it from my [Git Hub][1].
 
 #### Notes
 [^1]:Java scripting API implements a JSR 223 compliant framework for embedding script engines. The last time I looked, there were over 30 engines implemented, however the functionality of those engines and their maintenance and development vary so YMMV. Some of the more common languages are: awk, javascript, python and ruby. 
-
+[^2]:Bear in mind that if you want to allow for complex plugins with more than one file (e.g. a python plugin with many files, and perhaps module directories), then the simple loader and conventions presented here are of course inadequate.
 
 
 
