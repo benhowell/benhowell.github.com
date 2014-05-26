@@ -647,7 +647,7 @@ For the complete application source code please get it from my [Git Hub][1].
 
 
 
-[1]:https://github.com/benhowell/examples/tree/master/JavaPluginScripting
+[1]:https://github.com/benhowell/JavaPluginScripting
 
 
 

@@ -217,7 +217,7 @@ In an upcoming article, I will demonstrate the publish/subscribe pattern using t
 [1]:http://www.scala-lang.org/
 [2]:http://akka.io/
 [3]:http://doc.akka.io/docs/akka/snapshot/scala/event-bus.html#event-stream
-[4]:https://github.com/benhowell/examples/tree/master/AkkaEventStream
+[4]:https://github.com/benhowell/AkkaEventStreamExample
 [5]:http://doc.akka.io/docs/akka/snapshot/scala/actors.html
 [6]:http://doc.akka.io/docs/akka/snapshot/scala/actors.html#props
 [7]:http://www.haskell.org/haskellwiki/Haskell

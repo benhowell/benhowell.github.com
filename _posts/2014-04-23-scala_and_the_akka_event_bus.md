@@ -262,7 +262,7 @@ That's it for now. Bye.
 [1]:http://www.scala-lang.org/
 [2]:http://akka.io/
 [3]:http://doc.akka.io/docs/akka/snapshot/scala/event-bus.html
-[4]:https://github.com/benhowell/examples/tree/master/AkkaEventBus
+[4]:https://github.com/benhowell/AkkaEventBusExample
 [6]:http://doc.akka.io/api/akka/snapshot/index.html#akka.event.SubchannelClassification
 [7]:https://github.com/akka/akka/blob/master/akka-actor/src/main/scala/akka/event/EventBus.scala
 [8]:http://doc.akka.io/docs/akka/snapshot/scala/actors.html
