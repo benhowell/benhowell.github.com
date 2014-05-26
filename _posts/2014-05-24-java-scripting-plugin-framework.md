@@ -15,7 +15,7 @@ article_img_title: Yes, it is supposed to be a power point and power plug by Ano
     Plugins are a great way to allow extensions and customisation to be added to your application over time. There are many software use cases that can benefit from a plugin architecture, such as stream processing engines (e.g. new data sources, filters, processing algorithms) and software that involves content creation and editing such as text editors (e.g. font effects, layout management) and photo editors (e.g. lens effects, colourisation methods, file formats) to name but a few.
   </p>
   <p>
-    In this article, we will take a comprehensive walk through of creating our own, complete plugin framework in Java and then jump to the scripting side and implement some plugins to perform asynchronous tasks. For this article, we will be writing our plugins in python, however, the architecture will cater for any implemented language engine<span markdown="span">[^1]</span>.
+    In this article, we will take a comprehensive walk through of creating our own, complete plugin framework in Java and then jump to the scripting side and implement some plugins to perform asynchronous tasks. For this article, we will be writing our plugins in python and javascript, however, the architecture will cater for any implemented language engine<span markdown="span">[^1]</span>.
   </p>
   </div>
 <div class="intro-img-border">
@@ -632,6 +632,7 @@ class WeatherWatch():
     return True
 {% endhighlight %}
 
+To wrap things up, there is also a multithreaded javascript plugin in the [Git Hub repository][1] if you're interested.
 That brings to a conclusion our development of a custom plugin architecture. If you have any questions please leave them in the comments below and I'll be happy to reply.
 
 For the complete application source code please get it from my [Git Hub][1].
