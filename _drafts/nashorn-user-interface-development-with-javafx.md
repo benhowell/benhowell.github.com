@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Developing user interfaces with Nashorn and JavaFX"
-description: ""
-tagline: ""
-category: 
+description: "guide"
+tagline: "guide"
+category: guide
 tags: [nashorn, javafx, UI]
 article_img: bootstrap/img/qn.png
 article_img_title: Question Mark by Anonymous
