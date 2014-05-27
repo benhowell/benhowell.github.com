@@ -5,8 +5,8 @@ description: "guide"
 tagline: "guide"
 category: guide
 tags: [nashorn, javafx, UI]
-article_img: bootstrap/img/qn.png
-article_img_title: Question Mark by Anonymous
+article_img: bootstrap/img/nashorn_javafx_250.jpg
+article_img_title: Panzer by Anonymous
 ---
 {% include JB/setup %}
 <div class="intro">
