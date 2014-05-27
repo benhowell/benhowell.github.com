@@ -18,7 +18,7 @@ Java 8 has introduced a bunch of great features, no doubt, but something getting
 In this article, I'll introduce `jjs`.`jjs` is the command line executor for Nashorn and could well add another handy tool to your toolkit.`-fx` switch allows you to execute full-blown JavaFX UI applications written in (Nashorn) Javascipt. That's right. You could probably draw a pretty close analogy with wxPython, but in this case, everything you need is already bundled in the distribution (Java 8).
   </p>
   <p>
-Let's get on with it.
+Alrighty, let's build a little toy app to introduce a few concepts. This should be enough to get you away and hacking with Nashorn and JavaFX.
   </p>
   </div>
 <div class="intro-img-border">
