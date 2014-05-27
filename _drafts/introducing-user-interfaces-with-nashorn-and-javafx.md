@@ -29,6 +29,14 @@ Alrighty, let's build a little toy app to introduce a few concepts. This should 
 </div>
 </div>
 </div>
+<br/>
+<br/>
+
+
+#### TL;DR
+Just give me the code: [GitHub][1]
+<br/>
+<br/>
 
 
 
@@ -126,3 +134,9 @@ function fileToURL(file) {
     return new File(file).toURI().toURL().toExternalForm();
 }
 {% endhighlight %}
+
+
+
+[1]:https://github.com/benhowell/NashornJavafxExample
+
+
