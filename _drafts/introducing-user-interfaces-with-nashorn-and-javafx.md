@@ -15,7 +15,7 @@ article_img_title: Panzer by Anonymous
 Java 8 has introduced a bunch of great features, no doubt, but something getting a little less attention is Nashorn. Nashorn is the replacement for the Rhino Javascript engine and could turn out to be a serious competitor for Google's V8. Almost everyone is aware of JSR-233 and the ability to embed Javascript in the backend using Java and the JVM. Well this has been the case since Java 6, so although Nashorn makes many, many improvements here, that is not the subject of this guide.
   </p>
   <p>
-In this article, I'll introduce <span class="markdown">`jjs`</span>. <span class="markdown">`jjs`</span> is the command line executor for Nashorn. The <span class="markdown">`-fx`</span> switch allows you to execute full-blown JavaFX UI applications written in (Nashorn) Javascipt. That's right. You could probably draw a pretty close analogy with wxPython, but in this case, everything you need is already bundled in the distribution (Java 8).    
+In this article, I'll introduce `jjs`.`jjs` is the command line executor for Nashorn and could well add another handy tool to your toolkit.`-fx` switch allows you to execute full-blown JavaFX UI applications written in (Nashorn) Javascipt. That's right. You could probably draw a pretty close analogy with wxPython, but in this case, everything you need is already bundled in the distribution (Java 8).
   </p>
   <p>
 Let's get on with it.
