@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Developing user interfaces with Nashorn and JavaFX"
+title: "Introducing user interfaces with Nashorn and JavaFX"
 description: "guide"
 tagline: "guide"
 category: guide
