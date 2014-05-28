@@ -141,7 +141,6 @@ function fileToURL(file) {
     return new File(file).toURI().toURL().toExternalForm();
 }
 {% endhighlight %}
-<br/>
 
 Our little app is done. To execute, just do this in the shell:
 {% highlight bash linenos=table %}
@@ -156,6 +155,7 @@ Noteworthy:
  * line 5 shows an alternative way to import whilst at the same time aliasing the imported class.
  
  * JavaFX CSS styling is very much CSS-like and works almost as you would expect. There are some inconsistancies with some attributes preprended with `fx-` whilst some others are not which can lead to a little guess work. [The full CSS reference documentation can be found here][4]. 
+<br/>
 <br/>
 
 Scoped imports still work as they did under Rhino and are still quite handy.
@@ -173,7 +173,6 @@ Scoped imports still work as they did under Rhino and are still quite handy.
     //...
   }
 {% endhighlight %}
-
 <br/>
 <br/>
 
