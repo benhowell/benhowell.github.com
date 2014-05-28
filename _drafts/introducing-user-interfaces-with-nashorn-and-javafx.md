@@ -30,7 +30,7 @@ Adding the <span markdown="span">`-fx`</span> switch to the <span markdown="span
 </div>
 </div>
 <p>
-Alrighty, let's build a little toy app to introduce a few concepts. This should be enough to get you away and hacking with Nashorn and JavaFX.
+Alrighty, let's build a little toy app to introduce a few concepts. This should be enough to get you away and hacking with Nashorn and JavaFX in Java.
 </p>
 <br/>
 
@@ -140,6 +140,7 @@ function fileToURL(file) {
 {% endhighlight %}
 
 Our little app is done. To execute, just do this in the shell:
+(oh, don't forget to add your own images and captions, or else get this entire project from [GitHub][1])
 {% highlight bash linenos=table %}
 jjs -fx slideshow.js
 {% endhighlight %}
