@@ -141,6 +141,8 @@ function fileToURL(file) {
     return new File(file).toURI().toURL().toExternalForm();
 }
 {% endhighlight %}
+<br/>
+<br/>
 
 Our little app is done. To execute, just do this in the shell:
 {% highlight bash linenos=table %}
