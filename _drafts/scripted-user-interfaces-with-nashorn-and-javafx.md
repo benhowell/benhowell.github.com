@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introducing scripted UI with Nashorn and JavaFX"
+title: "Scripted user interfaces with Nashorn and JavaFX"
 description: "guide"
 tagline: "guide"
 category: guide
