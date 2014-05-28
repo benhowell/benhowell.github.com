@@ -150,7 +150,7 @@ Noteworthy:
 
  * line 1, 2 and 3 are predefined includes for JavaFX saving us from importing and/or defining a lot of individual JavaFX classes. For a listing of all files included by these imports, please refer to the [Oracle documentation][3].
  
- * line 5 shows the regular way to import and aliasing a class or package.
+ * line 5 shows the regular way to import and alias a class or package.
  
  * JavaFX CSS styling works almost as you would expect. There are some inconsistencies with some attributes preprended with `fx-` whilst some others are not which can lead to a little guess work. [The full CSS reference documentation can be found here][4]. 
 <br/>
