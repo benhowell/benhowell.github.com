@@ -4,7 +4,7 @@ title: "Introducing scripted UI with Nashorn and JavaFX"
 description: "guide"
 tagline: "guide"
 category: guide
-tags: [nashorn, javafx, UI]
+tags: [nashorn, javafx, UI, jsr-223, java, beginner, example, tutorial, guide]
 article_img: bootstrap/img/nashorn_javafx_250.jpg
 article_img_title: Panzer by Anonymous
 ---
@@ -12,7 +12,7 @@ article_img_title: Panzer by Anonymous
 <div class="intro">
 <div class="intro-txt">
 <p>
-Java 8 has introduced a bunch of great features and one of the gems amongst those new features is <span markdown="span">[Nashorn][7]</span>. Nashorn is the replacement for the Rhino Javascript engine and could turn out to be a serious competitor for Google's V8. A lot of you are aware of JSR-233 and the ability to embed Javascript (and many other languages) in the backend using Java and the JVM. Well this has been the case since Java 6, so although Nashorn makes many, many improvements here, that is not the subject of this guide.
+Java 8 has introduced a bunch of great features and one of the gems amongst those new features is <span markdown="span">[Nashorn][7]</span>. Nashorn is the replacement for the Rhino Javascript engine and could turn out to be a serious competitor for Google's V8. A lot of you are aware of JSR-233 and the ability to embed Javascript (and many other languages) in the back end using Java and the JVM. Well this has been the case since Java 6, so although Nashorn makes many, many improvements here, that is not the subject of this guide.
 </p>
 <p>
 In this article, I'll introduce JavaScript in Java, known as <span markdown="span">`jjs`</span>. <span markdown="span">`jjs`</span> is a small wrapper around javax.script.ScriptEngine and provides a REPL and library for scripting in Javascript. For an in-depth example of building a plugin framework using the ScriptEngine, please see my former article <span markdown="span">[Java Plugin Scripting Architecture]({% post_url 2014-05-24-java-scripting-plugin-framework %})</span>.
@@ -150,9 +150,9 @@ Noteworthy:
 
  * line 1, 2 and 3 are predefined includes for JavaFX saving us from importing and/or defining a lot of individual JavaFX classes. For a listing of all files included by these imports, please refer to the [Oracle documentation][3].
  
- * line 5 shows an alternative way to import whilst at the same time aliasing the imported class.
+ * line 5 shows the regular way to import and aliasing a class or package.
  
- * JavaFX CSS styling is very much CSS-like and works almost as you would expect. There are some inconsistancies with some attributes preprended with `fx-` whilst some others are not which can lead to a little guess work. [The full CSS reference documentation can be found here][4]. 
+ * JavaFX CSS styling works almost as you would expect. There are some inconsistencies with some attributes preprended with `fx-` whilst some others are not which can lead to a little guess work. [The full CSS reference documentation can be found here][4]. 
 <br/>
 <br/>
 
@@ -187,7 +187,7 @@ importPackage(java.util.concurrent.locks);
 <br/>
 <br/>
 
-
+That brings to end this modest little introduction to UI scripted interfaces with Nashorn and JavaFX. If you have any questions please leave them in the comments below and I'll be happy to reply.
 
 
 
