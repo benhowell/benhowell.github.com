@@ -12,13 +12,13 @@ article_img_title: Panzer by Anonymous
 <div class="intro">
 <div class="intro-txt">
 <p>
-Java 8 has introduced a bunch of great features, no doubt, and one of the gems amongst those new features is Nashorn. Nashorn is the replacement for the Rhino Javascript engine and could turn out to be a serious competitor for Google's V8. A lot of you are aware of JSR-233 and the ability to embed Javascript (and many other languages) in the backend using Java and the JVM. Well this has been the case since Java 6, so although Nashorn makes many, many improvements here, that is not the subject of this guide.
+Java 8 has introduced a bunch of great features and one of the gems amongst those new features is Nashorn. Nashorn is the replacement for the Rhino Javascript engine and could turn out to be a serious competitor for Google's V8. A lot of you are aware of JSR-233 and the ability to embed Javascript (and many other languages) in the backend using Java and the JVM. Well this has been the case since Java 6, so although Nashorn makes many, many improvements here, that is not the subject of this guide.
 </p>
 <p>
-In this article, I'll introduce JavaScript in Java, known as `jjs`. `jjs` is a small wrapper around the javax ScriptEngine and provides a REPL and library for scripting in Javascript. For an in-depth discussion of the ScriptEngine, please see my former article <span markdown="span">[Java Plugin Scripting Architecture]({% post_url 2014-05-24-java-scripting-plugin-framework %})</span>.
+In this article, I'll introduce JavaScript in Java, known as <span markdown="span">`jjs`</span>. <span markdown="span">`jjs`</span> is a small wrapper around the javax ScriptEngine and provides a REPL and library for scripting in Javascript. For an in-depth discussion of the ScriptEngine, please see my former article <span markdown="span">[Java Plugin Scripting Architecture]({% post_url 2014-05-24-java-scripting-plugin-framework %})</span>.
 </p>
 <p>
-Adding the `-fx` switch to the `jjs` command allows you to execute fully blown JavaFX UI applications written in (Nashorn) Javascipt providing you with a pretty powerful UI scripting toolbox. You could probably draw a pretty close analogy with wxPython, but in this case, everything you need is already bundled in the Java 8 distribution.
+Adding the <span markdown="span">`-fx`</span> switch to the <span markdown="span">`jjs`</span> command allows you to execute fully blown JavaFX UI applications written in Javascipt providing you with a pretty powerful UI scripting toolbox. Maturity aside, you could probably draw a pretty close analogy with [wxPython][5], but in this case, everything you need is already bundled in the Java 8 distribution.
 </p>
 <p>
 Alrighty, let's build a little toy app to introduce a few concepts. This should be enough to get you away and hacking with Nashorn and JavaFX.
@@ -205,3 +205,4 @@ importPackage(java.util.concurrent.locks);
 [2]:http://docs.oracle.com/javafx/2/get_started/jfxpub-get_started.htm
 [3]:https://blogs.oracle.com/nashorn/entry/jjs_fx
 [4]:http://docs.oracle.com/javafx/2/api/javafx/scene/doc-files/cssref.html
+[5]:http://www.wxpython.org/
