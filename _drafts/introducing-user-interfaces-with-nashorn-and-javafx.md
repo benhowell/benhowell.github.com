@@ -12,7 +12,7 @@ article_img_title: Panzer by Anonymous
 <div class="intro">
 <div class="intro-txt">
 <p>
-Java 8 has introduced a bunch of great features and one of the gems amongst those new features is [Nashorn][7]. Nashorn is the replacement for the Rhino Javascript engine and could turn out to be a serious competitor for Google's V8. A lot of you are aware of JSR-233 and the ability to embed Javascript (and many other languages) in the backend using Java and the JVM. Well this has been the case since Java 6, so although Nashorn makes many, many improvements here, that is not the subject of this guide.
+Java 8 has introduced a bunch of great features and one of the gems amongst those new features is <span markdown="span">[Nashorn][7]</span>. Nashorn is the replacement for the Rhino Javascript engine and could turn out to be a serious competitor for Google's V8. A lot of you are aware of JSR-233 and the ability to embed Javascript (and many other languages) in the backend using Java and the JVM. Well this has been the case since Java 6, so although Nashorn makes many, many improvements here, that is not the subject of this guide.
 </p>
 <p>
 In this article, I'll introduce JavaScript in Java, known as <span markdown="span">`jjs`</span>. <span markdown="span">`jjs`</span> is a small wrapper around the javax ScriptEngine and provides a REPL and library for scripting in Javascript. For an in-depth discussion of the ScriptEngine, please see my former article <span markdown="span">[Java Plugin Scripting Architecture]({% post_url 2014-05-24-java-scripting-plugin-framework %})</span>.
