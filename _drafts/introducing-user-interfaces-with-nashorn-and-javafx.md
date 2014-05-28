@@ -138,9 +138,9 @@ function fileToURL(file) {
     return new File(file).toURI().toURL().toExternalForm();
 }
 {% endhighlight %}
+(oh, don't forget to add your own images and captions, or else get this entire project from [GitHub][1])
 
 Our little app is done. To execute, just do this in the shell:
-(oh, don't forget to add your own images and captions, or else get this entire project from [GitHub][1])
 {% highlight bash linenos=table %}
 jjs -fx slideshow.js
 {% endhighlight %}
