@@ -24,7 +24,7 @@ Adding the <span markdown="span">`-fx`</span> switch to the <span markdown="span
 <div class="intro-img-border">
 <div class="intro-img-bevel">
 <div class="intro-img">
-<img class="article-image" src="{{ASSET_PATH}}/{{page.article_img}}"/>
+<img class="article-image" title="{{page.article_img_title}}" src="{{ASSET_PATH}}/{{page.article_img}}"/>
 </div>
 </div>
 </div>
