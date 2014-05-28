@@ -174,7 +174,6 @@ Scoped imports still work as they did under Rhino and are still quite handy.
   }
 {% endhighlight %}
 <br/>
-<br/>
 
 Old school class imports (e.g. `importClass(...)` ) under Rhino no longer work natively with Nashorn. If you do have legacy code writen for Rhino, you can however load a compatibility library like so...
 
