@@ -146,7 +146,6 @@ Our little app is done. To execute, just do this in the shell:
 {% highlight bash linenos=table %}
 jjs -fx slideshow.js
 {% endhighlight %}
-
 <br/>
 <br/>
 
