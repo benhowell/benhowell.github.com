@@ -12,10 +12,10 @@ article_img_title: Panzer by Anonymous
 <div class="intro">
 <div class="intro-txt">
 <p>
-Java 8 has introduced a bunch of great features, no doubt, and one of the gems amongst those new features is Nashorn. Nashorn is the replacement for the Rhino Javascript engine and could turn out to be a serious competitor for Google's V8. A lot of devs are aware of JSR-233 and the ability to embed Javascript (and many other languages) in the backend using Java and the JVM. Well this has been the case since Java 6, so although Nashorn makes many, many improvements here, that is not the subject of this guide.
+Java 8 has introduced a bunch of great features, no doubt, and one of the gems amongst those new features is Nashorn. Nashorn is the replacement for the Rhino Javascript engine and could turn out to be a serious competitor for Google's V8. A lot of you are aware of JSR-233 and the ability to embed Javascript (and many other languages) in the backend using Java and the JVM. Well this has been the case since Java 6, so although Nashorn makes many, many improvements here, that is not the subject of this guide.
 </p>
 <p>
-In this article, I'll introduce `jjs`. `jjs` is the command line executor for Nashorn and could well add another handy tool to your toolkit. The `-fx` switch allows you to execute full-blown JavaFX UI applications written in (Nashorn) Javascipt. That's right. You could probably draw a pretty close analogy with wxPython, but in this case, everything you need is already bundled in the Java8 distribution.
+In this article, I'll introduce JavaScript in Java, known as `jjs`. `jjs` is a small wrapper around the javax ScriptEngine and provides a REPL and library for scripting in Javascript. Add to this the `-fx` switch allowing you to execute fully blown JavaFX UI applications written in (Nashorn) Javascipt and you have a pretty powerful UI scripting toolbox. You could probably draw a pretty close analogy with wxPython, but in this case, everything you need is already bundled in the Java8 distribution.
 </p>
 <p>
 Alrighty, let's build a little toy app to introduce a few concepts. This should be enough to get you away and hacking with Nashorn and JavaFX.
@@ -39,6 +39,9 @@ Just give me the code: [GitHub][1]
 <br/>
 <br/>
 
+
+#### Nuts and Bolts example
+Let's jump straight in with a complete little UI application. For those familiar with JavaFX, you'll be able to follow this example very easily, and for those that aren't, [this is a great place to get started with JavaFX][2][^1]
 
 
 **slideshow.js**
@@ -136,8 +139,30 @@ function fileToURL(file) {
 }
 {% endhighlight %}
 
+Our little app is done. 
+
+Noteworthy here is:
+
+ * line 22 we are returned an instance of the plugin called (e.g. instantiated class object from our script).
+
+<br/>
+<br/>
+
+
+
+To execute your new program:
+{% highlight bash linenos=table %}
+jjs -fx slideshow.js
+{% endhighlight %}
+
+<br/>
+<br/>
+
+#### Notes
+[^1]:All the available documentation from Oracle for getting started with JavaFX are specifically aimed at Java, howver the concepts map pretty much one-to-one with Nashorn.
 
 
 [1]:https://github.com/benhowell/NashornJavafxExample
+[2]:http://docs.oracle.com/javafx/2/get_started/jfxpub-get_started.htm
 
 
