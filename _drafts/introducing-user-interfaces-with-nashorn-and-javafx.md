@@ -142,7 +142,13 @@ function fileToURL(file) {
 }
 {% endhighlight %}
 
-Our little app is done. 
+Our little app is done. To execute, just do this in the shell:
+{% highlight bash linenos=table %}
+jjs -fx slideshow.js
+{% endhighlight %}
+
+<br/>
+<br/>
 
 Noteworthy:
 
@@ -186,13 +192,7 @@ importPackage(java.util.concurrent.locks);
 
 
 
-To execute your new program:
-{% highlight bash linenos=table %}
-jjs -fx slideshow.js
-{% endhighlight %}
 
-<br/>
-<br/>
 
 #### Notes
 [^1]:All the available documentation from Oracle for getting started with JavaFX are specifically aimed at Java, howver the concepts map pretty much one-to-one with Nashorn.
