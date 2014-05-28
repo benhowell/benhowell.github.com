@@ -184,11 +184,10 @@ importClass(java.lang.Thread);
 importClass(java.lang.Runnable);
 importPackage(java.util.concurrent.locks);
 {% endhighlight %}
+
+Which brings to an end this modest little introduction to UI scripted interfaces with Nashorn and JavaFX. If you have any questions please leave them in the comments below and I'll be happy to reply.
 <br/>
 <br/>
-
-That brings to end this modest little introduction to UI scripted interfaces with Nashorn and JavaFX. If you have any questions please leave them in the comments below and I'll be happy to reply.
-
 
 
 #### Notes
