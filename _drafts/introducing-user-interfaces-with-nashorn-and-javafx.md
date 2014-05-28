@@ -33,7 +33,6 @@ Adding the <span markdown="span">`-fx`</span> switch to the <span markdown="span
 Alrighty, let's build a little toy app to introduce a few concepts. This should be enough to get you away and hacking with Nashorn and JavaFX.
 </p>
 <br/>
-<br/>
 
 #### TL;DR
 Just give me the code: [GitHub][1]
