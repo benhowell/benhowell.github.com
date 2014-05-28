@@ -30,7 +30,7 @@ Adding the <span markdown="span">`-fx`</span> switch to the <span markdown="span
 </div>
 </div>
 <p>
-Alrighty, let's build a little toy app to introduce a few concepts. This should be enough to get you away and hacking with Nashorn and JavaFX in Java.
+Alrighty, let's build a little toy app to introduce a few concepts. This should be enough to get you away and hacking with Nashorn and JavaFX.
 </p>
 <br/>
 
@@ -41,7 +41,7 @@ Just give me the code: [GitHub][1]
 
 
 #### Nuts and Bolts example
-Let's jump straight in with a complete little UI application. For those familiar with JavaFX, this example will be easy to follow, and for those that aren't, [here is a great place to get started with JavaFX][2][^1]
+Let's jump straight in with a complete little UI application. For those familiar with JavaFX from Java, this example will be easy to follow, and for those that aren't, [here is a great place to get started with JavaFX in Java][2][^1]
 
 
 **slideshow.js**
