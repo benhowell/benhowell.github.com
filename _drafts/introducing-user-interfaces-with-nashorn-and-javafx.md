@@ -148,7 +148,6 @@ Our little app is done. To execute, just do this in the shell:
 jjs -fx slideshow.js
 {% endhighlight %}
 <br/>
-<br/>
 
 Noteworthy:
 
