@@ -13,8 +13,6 @@ article_img: bootstrap/img/qn.png
  * command pattern?
 
  * scala as a scripting language
- * plugin arch using scala and javascript/python and possibly scala script??
- * java plugin framework using javascript and python
  * mvc framework for scala using javafx 2
  * threading in javascript from java?
 
