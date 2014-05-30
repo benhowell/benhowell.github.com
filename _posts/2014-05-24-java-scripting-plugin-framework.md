@@ -6,7 +6,7 @@ tagline: "guide"
 category: guide
 tags: [java, python, jsr 223, plugin, framework, architecture, beginner, example, tutorial, guide]
 article_img: bootstrap/img/plugin_250.jpg
-article_img_title: Yes, it is supposed to be a power point and power plug by Anonymous
+article_img_title: Yes, it has a hairy lead by Anonymous
 ---
 {% include JB/setup %}
 <div class="intro">

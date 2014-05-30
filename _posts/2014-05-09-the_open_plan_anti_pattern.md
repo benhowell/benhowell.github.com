@@ -5,7 +5,7 @@ title: The Open Plan Anti-pattern
 tagline: "people"
 tags : [people, open plan, introvert, extrovert, management, collaboration, privacy, efficiency, psychology]
 article_img: bootstrap/img/open_office_250.jpg
-article_img_title: "Event bus by Anonymous"
+article_img_title: "FML by Anonymous"
 ---
 {% include JB/setup %}
 
