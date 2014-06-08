@@ -1,8 +1,9 @@
 ---
 layout: post
-category : examples
-title: Publish/Subscribe using Scala and Akka EventStream
+title: "Publish/Subscribe using Scala and Akka EventStream"
+description: "Publish/Subscribe using Scala and Akka EventStream"
 tagline: "guide"
+category : examples
 tags : [akka, EventSystem, scala, concurrent, asynchronous, publish/subscribe, beginner, example, tutorial, guide]
 article_img: bootstrap/img/eventbus_250.jpg
 article_img_title: "Event bus by Anonymous"

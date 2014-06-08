@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Java Plugin Scripting Architecture"
-description: ""
+description: "Java Plugin Scripting Architecture"
 tagline: "guide"
 category: guide
 tags: [java, python, jsr 223, plugin, framework, architecture, beginner, example, tutorial, guide]

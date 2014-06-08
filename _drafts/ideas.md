@@ -8,7 +8,7 @@ article_img: bootstrap/img/qn.png
 ---
 {% include JB/setup %}
 
-
+ * avx instructions in language x?
  * visitor pattern?
  * command pattern?
 

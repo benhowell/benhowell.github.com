@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Scripted user interfaces with Nashorn and JavaFX"
-description: "guide"
+description: "Scripted user interfaces with Nashorn and JavaFX"
 tagline: "guide"
 category: guide
 tags: [nashorn, javafx, UI, jsr-223, java, beginner, example, tutorial, guide]
