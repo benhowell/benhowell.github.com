@@ -36,7 +36,7 @@ Just give me the code: [GitHub][1]
 <br/>
 
 
-#### Why write my own?
+#### Why write your own framework?
 Granted, there are plenty of Java plugin frameworks out there already, but there's no reason why you shouldn't build a simple plugin architecture yourself, and in many cases this may be the better solution as it allows you to customise the plugin system to precisely your requirements. Your custom design allows you to strictly define the API between your application and plugins which helps you avoid unnecessarily complecting your application to suit a particular plugin framework or library, and, allows you to simplify how plugin providers write their components. Provided you've designed the API for your plugins thoughtfully, you'll be surprised at how quick and easy writing your framework can be.
 <br/>
 <br/>
