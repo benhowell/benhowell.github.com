@@ -632,11 +632,11 @@ class WeatherWatch():
     return True
 {% endhighlight %}
 
-To wrap things up, there is also a multithreaded javascript plugin in the [Git Hub repository][1] if you're interested.
+To wrap things up, there is also a multithreaded javascript plugin in the [GitHub repository][1] if you're interested.
 
 That brings to a conclusion our development of a custom plugin architecture. If you have any questions please leave them in the comments below and I'll be happy to reply.
 
-For the complete application source code please get it from my [Git Hub][1].
+For the complete application source code please get it from my [GitHub][1].
 <br/>
 <br/>
 
