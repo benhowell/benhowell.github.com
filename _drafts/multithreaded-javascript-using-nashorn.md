@@ -42,7 +42,7 @@ Just give me the code: [GitHub][2]
 <br/>
 <br/>
 
-Righto, let's get underway and write our first threaded object called "Sleeper". Sleepers only task is to provide an interruptable sleep routine. 
+Righto, let's get underway and write our first threaded object called "Sleeper". As the name suggests, Sleeper sleeps, however it provides us the added functionality of being interruptable (i.e. we can wake Sleeper when it is sleeping). 
 
 **sleep.js**
 {% highlight javascript linenos=table %}
