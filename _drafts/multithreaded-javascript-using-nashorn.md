@@ -18,7 +18,7 @@ Javascript has no native threading of it's own, but it is possible to craft perf
 In this article, we'll build a full working multithreaded example application for the <span markdown="span">[Nashorn Javascript engine][1]</span> bundled with Java 8. The techniques we establish here can readily be applied in UI applications with JavaFX, as presented in my article: <span markdown="span">[Scripted user interfaces with Nashorn and JavaFX]({% post_url 2014-05-28-scripted-user-interfaces-with-nashorn-and-javafx %})</span> as well as myriad other scenarios, such as cron jobs and shell scripts, similar in style to that of Python or Ruby in place of bash.
 </p>
 <p>
-Before we get underway, it's worth noting that we can access _anything and everything_ from Java directly in javascript including any third party library and of course, our own Java code. So we not only have access to Java threads, we can also make use of Java for other deficiencies in Javascript (file I/O for example).
+Before we get underway, it's worth noting that we can access _anything_ from Java in Javascript including third party libraries and our own Java code making up for any deficiencies of the language (file I/O for example).
 </p>
 
 
