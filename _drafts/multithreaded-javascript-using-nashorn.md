@@ -18,7 +18,7 @@ Javascript has no native threading of it's own, but it is possible to craft perf
 In this article, we'll build a full working multithreaded example application for the <span markdown="span">[Nashorn Javascript engine][1]</span> bundled with Java 8. The techniques we establish here can readily be applied in UI applications with JavaFX, as presented in my article: <span markdown="span">[Scripted user interfaces with Nashorn and JavaFX]({% post_url 2014-05-28-scripted-user-interfaces-with-nashorn-and-javafx %})</span> as well as myriad other scenarios, such as cron jobs and shell scripts, similar in style to that of Python or Ruby in place of bash.
 </p>
 <p>
-
+Before we get underway, it's worth noting that we can access _anything and everything_ from Java directly in javascript including any third party library and of course, our own Java code. So we not only have access to Java threads, we can also make use of Java for other deficiencies in Javascript (file I/O for example).
 </p>
 
 
@@ -38,6 +38,73 @@ In this article, we'll build a full working multithreaded example application fo
 Just give me the code: [GitHub][2]
 <br/>
 <br/>
+
+
+
+
+**sleep.js**
+{% highlight javascript linenos=table %}
+/**
+* An interruptable sleep routine.
+*/
+
+function Sleeper(){
+  var self = this;
+  this.lock = new java.util.concurrent.locks.ReentrantLock();
+  this.wake = this.lock.newCondition();
+
+  /**
+  * Starts a thread containing a sleep routine.
+  * @param interval the sleep interval in seconds.
+  */
+  this.sleep = function(interval){
+    self.thread = new Thread(new Runnable(){run: self.sleeper(self, interval)});
+    self.thread.start();
+    self.lock.lock();
+    self.wake.await();
+    self.lock.unlock();
+  };
+
+
+  /**
+  * Interruptable sleep thread.
+  * @param self a reference to our containing self who spawned this thread
+  * routine (i.e. Sleeper().this).
+  * @param interval the sleep interval in seconds
+  * @return the inner function declaration.
+  */
+  this.sleeper = function(self, interval){
+    function inner(){
+      try {
+	Thread.sleep(interval * 1000);
+      }
+      catch (e) {
+	if (!(e instanceof java.lang.InterruptedException)) {
+	  print("Unexpected error " + e.toString())
+	}
+      }
+      finally{
+	self.lock.lock();
+	self.wake.signalAll();
+	self.lock.unlock();
+      }
+    }
+    return inner;
+  };
+
+
+  /**
+  * Interrupts the sleep thread. This breaks sleep without waiting for sleep
+  * interval to complete.
+  */
+  this.waken = function(){
+    self.thread.interrupt();
+  };
+};
+{% endhighlight %}
+
+
+
 
 
 **example.js**
@@ -163,66 +230,7 @@ WebService.prototype.main = function(sleeper, endpoint){
 
 {% endhighlight %}
 
-**sleep.js**
-{% highlight javascript linenos=table %}
-/**
-* An interruptable sleep routine.
-*/
 
-function Sleeper(){
-  var self = this;
-  this.lock = new java.util.concurrent.locks.ReentrantLock();
-  this.wake = this.lock.newCondition();
-
-  /**
-  * Starts a thread containing a sleep routine.
-  * @param interval the sleep interval in seconds.
-  */
-  this.sleep = function(interval){
-    self.thread = new Thread(new Runnable(){run: self.sleeper(self, interval)});
-    self.thread.start();
-    self.lock.lock();
-    self.wake.await();
-    self.lock.unlock();
-  };
-
-
-  /**
-  * Interruptable sleep thread.
-  * @param self a reference to our containing self who spawned this thread
-  * routine (i.e. Sleeper().this).
-  * @param interval the sleep interval in seconds
-  * @return the inner function declaration.
-  */
-  this.sleeper = function(self, interval){
-    function inner(){
-      try {
-	Thread.sleep(interval * 1000);
-      }
-      catch (e) {
-	if (!(e instanceof java.lang.InterruptedException)) {
-	  print("Unexpected error " + e.toString())
-	}
-      }
-      finally{
-	self.lock.lock();
-	self.wake.signalAll();
-	self.lock.unlock();
-      }
-    }
-    return inner;
-  };
-
-
-  /**
-  * Interrupts the sleep thread. This breaks sleep without waiting for sleep
-  * interval to complete.
-  */
-  this.waken = function(){
-    self.thread.interrupt();
-  };
-};
-{% endhighlight %}
 
 
 
