@@ -48,6 +48,7 @@ First, let's look at how to create and start a thread.
 
 // import and alias Java Thread and Runnable classes
 var Thread = Java.type("java.lang.Thread");
+var Runnable = Java.type("java.lang.Runnable");
 
 // declare our thread
 this.thread = new Thread(new Runnable(){
