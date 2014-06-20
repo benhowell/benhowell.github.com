@@ -145,66 +145,20 @@ function Sleeper(){
 };
 {% endhighlight %}
 
+Hopefully the code comments explain things and it's is all pretty straight forward. 
 
+Noteworthy:
 
+ * Unlike its predecessor Rhino, Nashorn **does not** wrap exceptions in a Javascript javaException object.
+ 
+ 
 
+#### Ok, how about a proper working application?
+Alrighty, let's build a toy application. We'll build a stupidly simple threaded webservice which:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**example.js**
-{% highlight javascript linenos=table %}
-load('random_meme_generator.js')
-
-var Thread = Java.type("java.lang.Thread");
-
-var automeme = new WebService('http://api.automeme.net/text?lines=1');
-var bitcoin = new WebService('https://www.bitstamp.net/api/ticker/');
-var weather = new WebService('http://api.openweathermap.org/data/2.5/weather?q=Hobart,au');
-
-print("starting weather thread...");
-weather.run();
-print("starting bitcoin thread...");
-bitcoin.run();
-print("starting automeme thread...");
-automeme.run();
-
-
-//run for 15 seconds
-Thread.sleep(15000);
-
-//shut down weather
-print("stopping weather thread...");
-weather.shutdown();
-
-//run for 15 seconds
-Thread.sleep(15000);
-
-//shut down bitcoin
-print("stopping bitcoin thread...");
-bitcoin.shutdown();
-
-//run for 10 seconds
-Thread.sleep(10000);
-
-//shut down automeme
-print("stopping automeme thread...");
-automeme.shutdown();
-
-print("goodbye :)");
-
-{% endhighlight %}
+ * takes a url (endpoint) as input
+ * prints to the console what it receives when calling the endpoint
+ * sleeps for a random period between 0 and 10 seconds
 
 
 **webservice.js**
@@ -283,8 +237,72 @@ WebService.prototype.main = function(sleeper, endpoint){
   return inner;
 };
 
+{% endhighlight %}
+
+Noteworthy:
+
+ * 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**example.js**
+{% highlight javascript linenos=table %}
+load('random_meme_generator.js')
+
+var Thread = Java.type("java.lang.Thread");
+
+var automeme = new WebService('http://api.automeme.net/text?lines=1');
+var bitcoin = new WebService('https://www.bitstamp.net/api/ticker/');
+var weather = new WebService('http://api.openweathermap.org/data/2.5/weather?q=Hobart,au');
+
+print("starting weather thread...");
+weather.run();
+print("starting bitcoin thread...");
+bitcoin.run();
+print("starting automeme thread...");
+automeme.run();
+
+
+//run for 15 seconds
+Thread.sleep(15000);
+
+//shut down weather
+print("stopping weather thread...");
+weather.shutdown();
+
+//run for 15 seconds
+Thread.sleep(15000);
+
+//shut down bitcoin
+print("stopping bitcoin thread...");
+bitcoin.shutdown();
+
+//run for 10 seconds
+Thread.sleep(10000);
+
+//shut down automeme
+print("stopping automeme thread...");
+automeme.shutdown();
+
+print("goodbye :)");
 
 {% endhighlight %}
+
+
+
 
 
 
