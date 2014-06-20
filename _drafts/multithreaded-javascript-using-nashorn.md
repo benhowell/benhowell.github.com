@@ -259,7 +259,6 @@ bitcoin.run();
 print("starting automeme thread...");
 automeme.run();
 
-
 //run for 15 seconds
 Thread.sleep(15000);
 
@@ -282,7 +281,6 @@ print("stopping automeme thread...");
 automeme.shutdown();
 
 print("goodbye :)");
-
 {% endhighlight %}
 
 That's all there is to it.
