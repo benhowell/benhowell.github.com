@@ -82,7 +82,7 @@ Now, there are many ways to skin a cat, so I'm not saying this is the _only_ way
 
 
 #### How about a proper working example?
-Righto, let's get underway and write our first threaded object called "Sleeper". As the name suggests, Sleeper sleeps! However it does provide us with the added functionality of being interruptable (i.e. we can wake Sleeper while it is sleeping). 
+Righto, let's get underway and write our first threaded object called "Sleeper". As the name suggests, Sleeper sleeps! However it does provide us with the added functionality of being interruptable (i.e. we can wake Sleeper while it is sleeping). Here we will also introduce locks, in particular the [ReentrantLock][3]. ReentrantLock offers quite a few benefits over synchronized (which has even been dropped entirely in Java 8), such as lock timeouts, non-blocking lock aquisition and interruptibility. Interruptibility is something we will take advantage of in our sleeper.
 
 **sleep.js**
 {% highlight javascript linenos=table %}
@@ -306,3 +306,4 @@ chmod 755 example
 
 [1]:http://docs.oracle.com/javase/8/docs/technotes/guides/scripting/nashorn/intro.html
 [2]:https://github.com/benhowell/NashornMultithreadedExample
+[3]:http://docs.oracle.com/javase/8/docs/api/java/util/concurrent/locks/ReentrantLock.html
