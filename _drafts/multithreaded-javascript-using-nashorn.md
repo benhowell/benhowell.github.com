@@ -12,7 +12,7 @@ article_img_title: Multithreaded Garlic
 <div class="intro">
 <div class="intro-txt">
 <p>
-Javascript has no native threading of it's own, but it is possible to craft performant multithreaded code using Java threads inside javascript, in fact this has been possible since Java 6 with the initial release of the javax.scripting.ScriptEngine for the Rhino engine. 
+Javascript has no native threading of it's own, but it is possible to craft performant multithreaded code using Java threads inside javascript, in fact this has been possible since Java 6 with the initial release of the javax.scripting.ScriptEngine supporting the Rhino Javascript engine. 
 </p>
 <p>
 In this article, we'll build a full multithreaded example application for the <span markdown="span">[Nashorn Javascript engine][1]</span> bundled with Java 8. The techniques we establish here can be readily applied in UI applications with JavaFX, as presented in my article: <span markdown="span">[Scripted user interfaces with Nashorn and JavaFX]({% post_url 2014-05-28-scripted-user-interfaces-with-nashorn-and-javafx %})</span> as well as myriad other scenarios, such as shell scripts, similar in style to that of Python or Ruby in place of Bash.
@@ -42,7 +42,34 @@ Just give me the code: [GitHub][2]
 <br/>
 <br/>
 
+First, let's look at how to create and start a thread.
+
+{% highlight javascript linenos=table %}
+
+// import and alias Java Thread and Runnable classes
+var Thread = Java.type("java.lang.Thread");
+
+// declare our thread
+this.thread = new Thread(new Runnable(){
+  run: main()
+});
+
+// start our thread
+this.thread.start();
+return;
+
+{% endhighlight %}
+
+
+
+
+
 Righto, let's get underway and write our first threaded object called "Sleeper". As the name suggests, Sleeper sleeps, however it provides us the added functionality of being interruptable (i.e. we can wake Sleeper when it is sleeping). 
+
+
+
+
+
 
 **sleep.js**
 {% highlight javascript linenos=table %}
