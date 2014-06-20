@@ -62,7 +62,6 @@ return;
 {% endhighlight %}
 
 <br/>
-<br/>
 
 So far, so good. Line 7 determines which function shall be run inside the thread and in this case we've called it "main" but it could be named anything we choose. Our runnable function (in this case, "main") should have a structure similar to this:
 
