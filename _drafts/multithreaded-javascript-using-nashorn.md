@@ -61,7 +61,7 @@ return;
 
 {% endhighlight %}
 
-So far, so good. Line 7 determines which function shall be run inside the thread and in this case we've called it "main" but it could be named anything we choose. Our runnable function (in this case, "main") should have a structure similar to this:
+So far, so good. Line 7 determines which function shall be run inside the thread and in this case we've called it `main` but it could be named anything we choose. Our runnable function (in this case, `main`) should have a structure similar to this:
 
 {% highlight javascript linenos=table %}
 function main(){
@@ -82,7 +82,7 @@ Now, there are many ways to skin a cat, so I'm not saying this is the _only_ way
 
 
 #### How about a proper working example?
-Righto, let's get underway and write our first threaded object called "Sleeper". As the name suggests, Sleeper sleeps! However it does provide us with the added functionality of being interruptable (i.e. we can wake Sleeper while it is sleeping). Here we will also introduce locks, in particular the [ReentrantLock][3]. ReentrantLock offers quite a few benefits over synchronized (which has even been dropped entirely in Java 8), such as lock timeouts, non-blocking lock aquisition and interruptibility. Interruptibility is something we will take advantage of in our sleeper.
+Righto, let's get underway and write our first threaded object called `Sleeper`. As the name suggests, Sleeper sleeps! However it does provide us with the added functionality of being interruptable (i.e. we can wake Sleeper while it is sleeping). Here we will also introduce locks, in particular the [ReentrantLock][3]. ReentrantLock offers quite a few benefits over synchronized (which has even been dropped entirely in Java 8), such as lock timeouts, non-blocking lock aquisition and interruptibility. Interruptibility is something we will take advantage of in our sleeper.
 
 **sleep.js**
 {% highlight javascript linenos=table %}
@@ -145,12 +145,14 @@ function Sleeper(){
 };
 {% endhighlight %}
 
-Hopefully the code comments explain things and it's is all pretty straight forward. 
+Hopefully the code comments explain things well enough, if not, hit me up for more detail in the comments section. 
 
 Noteworthy:
 
  * Unlike its predecessor Rhino, Nashorn **does not** wrap exceptions in a Javascript javaException object.
  
+<br/>
+<br/>
  
 
 #### Ok, how about a proper working application?
@@ -187,7 +189,6 @@ function WebService(endpoint){
 */
 WebService.prototype.run = function(){
   var self = this;
-  
   this.threadCancelled = false;
   this.thread = new Thread(new Runnable(){
     run: self.main(self.sleeper, self.endpoint)
@@ -241,6 +242,7 @@ WebService.prototype.main = function(sleeper, endpoint){
 
 Noteworthy:
 
+ * on line 9 you'll see `load('sleep.js')`. load allows us to import scripts.
  * 
 
 
