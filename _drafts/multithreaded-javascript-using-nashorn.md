@@ -15,13 +15,11 @@ article_img_title: Multithreaded Garlic
 Javascript has no native threading of it's own, but it is possible to craft performant multithreaded code using Java threads inside javascript, in fact this has been possible since Java 6 with the initial release of the javax.scripting.ScriptEngine supporting the Rhino Javascript engine. 
 </p>
 <p>
-In this article, we'll build a full multithreaded example application for the <span markdown="span">[Nashorn Javascript engine][1]</span> bundled with Java 8. The techniques we establish here can be readily applied in UI applications with JavaFX, as presented in my article: <span markdown="span">[Scripted user interfaces with Nashorn and JavaFX]({% post_url 2014-05-28-scripted-user-interfaces-with-nashorn-and-javafx %})</span> as well as myriad other scenarios, such as shell scripts, similar in style to that of Python or Ruby in place of Bash.
+In this article, we'll build a full multithreaded example application for the <span markdown="span">[Nashorn Javascript engine][1]</span> bundled with Java 8. The techniques we establish here can be readily applied in UI applications with JavaFX, as presented in: <span markdown="span">[Scripted user interfaces with Nashorn and JavaFX]({% post_url 2014-05-28-scripted-user-interfaces-with-nashorn-and-javafx %})</span> as well as myriad other scenarios, such as plugin scripts for Java applications and cron jobs and shell scripts, not dissimilar in style to that of Python or Ruby in place of Bash.
 </p>
 <p>
-It's worth noting that we can access _anything_ from Java in Javascript including third party libraries and our own Java code making up for any deficiencies of the language (file I/O for example).
+It's worth noting that we can access <span markdown="span">_anything_</span> from Java in Javascript including third party libraries and our own Java code making up for any deficiencies of the Javascript language (file I/O for example).
 </p>
-
-
 
 </div>
 <div class="intro-img-border">
@@ -78,11 +76,8 @@ Now, there are many ways to skin a cat, so I'm not saying this is the _only_ way
 <br/>
 <br/>
 
-
-
-
 #### How about a proper working example?
-Righto, let's get underway and write our first threaded object called `Sleeper`. As the name suggests, Sleeper sleeps! However it does provide us with the added functionality of being interruptable (i.e. we can wake Sleeper while it is sleeping). Here we will also introduce locks, in particular the [ReentrantLock][3]. ReentrantLock offers quite a few benefits over synchronized (which has even been dropped entirely in Java 8), such as lock timeouts, non-blocking lock aquisition and interruptibility. Interruptibility is something we will take advantage of in our sleeper.
+Righto, let's get underway and write our first threaded object called `Sleeper`. As the name suggests, Sleeper sleeps! However it does provide us with the added functionality of being interruptable (i.e. we can wake Sleeper while it is sleeping). Here we will also introduce locks, in particular the [ReentrantLock][3]. ReentrantLock offers quite a few benefits over synchronized (which has even been dropped entirely in Java 8), such as lock timeouts, non-blocking lock aquisition and interruptibility. Interruptibility is something we will take advantage of in our sleeper, which would prove handy in cases where you would want to cleanly shut down a service that contained a particularly long sleep cycle.
 
 **sleep.js**
 {% highlight javascript linenos=table %}
@@ -145,7 +140,7 @@ function Sleeper(){
 };
 {% endhighlight %}
 
-Hopefully the code comments explain things well enough, if not, hit me up for more detail in the comments section. 
+Hopefully the code comments explain things well enough, if not, hit me up for more detail in the comments section below. 
 
 Noteworthy:
 
@@ -161,7 +156,8 @@ Alrighty, let's build a toy application. We'll build a stupidly simple threaded 
  * takes a url (endpoint) as input
  * prints to the console what it receives when calling the endpoint
  * sleeps for a random period between 0 and 10 seconds
-
+ 
+To make this webservice complete, we'll also add a `run` function and `shutdown` function.
 
 **webservice.js**
 {% highlight javascript linenos=table %}
@@ -242,23 +238,13 @@ WebService.prototype.main = function(sleeper, endpoint){
 
 Noteworthy:
 
- * on line 9 you'll see `load('sleep.js')`. load allows us to import scripts.
+ * on line 9 you'll see `load('sleep.js')`. `load` allows us to import scripts.
  * on line 55 you'll see a "scoped import". We can use this scope to then call packages and/or classes directly by wrapping them in a `with` block as shown on line 61.
 
+<br/>
+<br/>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+Now we have our little webservice which uses our little sleeper, we can write a little script to demonstrate everything :)
 
 **example.js**
 {% highlight javascript linenos=table %}
@@ -303,21 +289,23 @@ print("goodbye :)");
 
 {% endhighlight %}
 
+That's all there is to it. If you really, really want to write multithreaded code with Javascript, you can and there are many legitimate reasons you may choose to do so.
 
+<br/>
+<br/>
 
+#### Shebang
+If you want to run your scripts as system executables, you can use the shebang (#!) at the beginning of a script file. Just add `#!/usr/bin/jjs` as the first line in your script. For example, this is how we would do it for the script above:
 
-
-
-
-
-
-Shebang
-You can use the shebang (#!) at the beginning of a script file to enable the script file to run as a shell executable. If you specify the path to the jjs tool in the shebang, then when you execute the script, the shell runs the jjs tool instead, and passes the script file to it.
-
-#!/usr/bin/jjs
+{% highlight bash linenos=table %}
 mv example.js example
 chmod 755 example
 ./example
+{% endhighlight %}
+
+
+**Concluding remarks**
+
 
 
 #### Notes
