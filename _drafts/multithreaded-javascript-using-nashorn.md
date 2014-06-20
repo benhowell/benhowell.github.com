@@ -243,7 +243,7 @@ WebService.prototype.main = function(sleeper, endpoint){
 Noteworthy:
 
  * on line 9 you'll see `load('sleep.js')`. load allows us to import scripts.
- * 
+ * on line 55 you'll see a "scoped import". We can use this scope to then call packages and/or classes directly by wrapping them in a `with` block as shown on line 61.
 
 
 
