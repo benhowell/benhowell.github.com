@@ -12,7 +12,7 @@ article_img_title: Multithreaded Garlic
 <div class="intro">
 <div class="intro-txt">
 <p>
-Javascript has no native threading of it's own, but it is possible to craft performant multithreaded code using Java threads inside javascript, in fact this has been possible since Java 6 with the initial release of the javax.scripting.ScriptEngine supporting the Rhino Javascript engine. 
+Javascript has no native threading of its own, but it is possible to craft performant multithreaded code using Java threads inside javascript, in fact this has been possible since Java 6 with the initial release of the javax.scripting.ScriptEngine supporting the Rhino Javascript engine. 
 </p>
 <p>
 In this article, we'll build a full multithreaded example application for the <span markdown="span">[Nashorn Javascript engine][1]</span> bundled with Java 8. The techniques we establish here can be readily applied in UI applications with JavaFX, as presented in: <span markdown="span">[Scripted user interfaces with Nashorn and JavaFX]({% post_url 2014-05-28-scripted-user-interfaces-with-nashorn-and-javafx %})</span> as well as myriad other scenarios, such as plugin scripts for Java applications and cron jobs and shell scripts, not dissimilar in style to that of Python or Ruby in place of Bash.
