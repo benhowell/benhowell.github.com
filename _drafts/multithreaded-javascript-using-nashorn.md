@@ -61,6 +61,27 @@ return;
 
 {% endhighlight %}
 
+<br/>
+<br/>
+
+So far, so good. Line 7 determines which function shall be run inside the thread and in this case we've called it "main" but it could be named anything we choose. Our runnable function (in this case, "main") should have a structure similar to this:
+
+{% highlight javascript linenos=table %}
+function main(){
+  function inner(){
+    //do stuff
+  }
+  return inner;
+};
+
+{% endhighlight %}
+
+Now, there are many ways to skin a cat, so I'm not saying this is the _only_ way to do things.
+
+<br/>
+<br/>
+
+
 
 
 
@@ -275,6 +296,7 @@ chmod 755 example
 
 
 #### Notes
+[^1]: 
 
 
 [1]:http://docs.oracle.com/javase/8/docs/technotes/guides/scripting/nashorn/intro.html
