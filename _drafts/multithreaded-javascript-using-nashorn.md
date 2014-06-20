@@ -289,27 +289,23 @@ print("goodbye :)");
 
 {% endhighlight %}
 
-That's all there is to it. If you really, really want to write multithreaded code with Javascript, you can and there are many legitimate reasons you may choose to do so.
+That's all there is to it.
 
 <br/>
 <br/>
 
 #### Shebang
-If you want to run your scripts as system executables, you can use the shebang (#!) at the beginning of a script file. Just add `#!/usr/bin/jjs` as the first line in your script. For example, this is how we would do it for the script above:
-
-{% highlight bash linenos=table %}
-mv example.js example
-chmod 755 example
-./example
-{% endhighlight %}
+If you want to run your scripts as system executables, you can use the shebang (#!) at the beginning of a script file. Just add `#!/usr/bin/jjs` as the first line in your script.
 
 
 **Concluding remarks**
+If you really, really want to write multithreaded code with Javascript, you can and there are many legitimate reasons you may choose to do so. Those reasons may include scripted user interfaces using JavaFX, scripted plugins for a Java application or system, cron and shell scripts. Even if just for no reason at all, mashing languages together to produce new functionality is fun and educational. I hope you enjoyed this article, and as ever, if you have comments or questions, please leave them below and I'll be happy to reply.
 
+For similar articles, please see:
 
+ * [Scripted user interfaces with Nashorn and JavaFX]({% post_url 2014-05-28-scripted-user-interfaces-with-nashorn-and-javafx %})
+ * [Java Plugin Scripting Architecture]({% post_url 2014-05-24-java-scripting-plugin-framework %})
 
-#### Notes
-[^1]: 
 
 
 [1]:http://docs.oracle.com/javase/8/docs/technotes/guides/scripting/nashorn/intro.html
