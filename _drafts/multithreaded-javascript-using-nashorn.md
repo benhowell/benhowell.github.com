@@ -30,7 +30,6 @@ It's worth noting that we can access <span markdown="span">_anything_</span> fro
 </div>
 </div>
 </div>
-
 <br/>
 <br/>
 
@@ -72,7 +71,6 @@ function main(){
 {% endhighlight %}
 
 Now, there are many ways to skin a cat, so I'm not saying this is the _only_ way to do things.
-
 <br/>
 <br/>
 
@@ -145,7 +143,6 @@ Hopefully the code comments explain things well enough, if not, hit me up for mo
 Noteworthy:
 
  * Unlike its predecessor Rhino, Nashorn **does not** wrap exceptions in a Javascript javaException object.
- 
 <br/>
 <br/>
  
@@ -240,7 +237,6 @@ Noteworthy:
 
  * on line 9 you'll see `load('sleep.js')`. `load` allows us to import scripts.
  * on line 55 you'll see a "scoped import". We can use this scope to then call packages and/or classes directly by wrapping them in a `with` block as shown on line 61.
-
 <br/>
 <br/>
 
@@ -290,7 +286,6 @@ print("goodbye :)");
 {% endhighlight %}
 
 That's all there is to it.
-
 <br/>
 <br/>
 
@@ -299,6 +294,7 @@ If you want to run your scripts as system executables, you can use the shebang (
 
 
 **Concluding remarks**
+
 If you really, really want to write multithreaded code with Javascript, you can and there are many legitimate reasons you may choose to do so. Those reasons may include scripted user interfaces using JavaFX, scripted plugins for a Java application or system, cron and shell scripts. Even if just for no reason at all, mashing languages together to produce new functionality is fun and educational. I hope you enjoyed this article, and as ever, if you have comments or questions, please leave them below and I'll be happy to reply.
 
 For similar articles, please see:
