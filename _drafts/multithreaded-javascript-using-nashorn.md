@@ -81,8 +81,7 @@ Now, there are many ways to skin a cat, so I'm not saying this is the _only_ way
 
 
 
-
-
+#### How about a proper working example?
 Righto, let's get underway and write our first threaded object called "Sleeper". As the name suggests, Sleeper sleeps, however it provides us the added functionality of being interruptable (i.e. we can wake Sleeper when it is sleeping). 
 
 
