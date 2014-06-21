@@ -290,9 +290,9 @@ jjs example.js
 <br/>
 
 #### Shebang
-If you want to run your scripts as system executables, you can use the shebang (#!) at the beginning of a script file. Just add `#!/usr/bin/jjs` as the first line in your script.
+If you want to run your scripts as system executables, you can use the shebang (#!) at the beginning of a script file. Just add `#!/usr/bin/jjs` as the first line in your script. To execute:
 {% highlight bash linenos=table %}
-jjs example.js
+./example.js
 {% endhighlight %}
 <br/>
 
