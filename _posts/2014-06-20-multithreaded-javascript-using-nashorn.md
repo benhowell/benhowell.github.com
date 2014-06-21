@@ -283,13 +283,20 @@ automeme.shutdown();
 print("goodbye :)");
 {% endhighlight %}
 
-That's all there is to it.
+That's all there is to it. To execute, just do this in the shell:
+{% highlight bash linenos=table %}
+jjs example.js
+{% endhighlight %}
 <br/>
 <br/>
 
 #### Shebang
-If you want to run your scripts as system executables, you can use the shebang (#!) at the beginning of a script file. Just add `#!/usr/bin/jjs` as the first line in your script.
-
+If you want to run your scripts as system executables, you can use the shebang (#!) at the beginning of a script file. Just add `#!/usr/bin/jjs` as the first line in your script. Then you can execute like so:
+{% highlight bash linenos=table %}
+./example.js
+{% endhighlight %}
+<br/>
+<br/>
 
 **Concluding remarks**
 
