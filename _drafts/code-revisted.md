@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Code Revisted"
-description: "Code Revisted"
+description: "Code Incomplete"
 tagline: "craft"
 category: craft
 tags: [craft, design, improvement, evolution, craftsmanship]
@@ -28,9 +28,9 @@ article_img_title: Bob Zajicek - Steady Hand at the Lathe by Fr. John Abraham
   <p>
   Humility is the single character trait above all others, that will ensure you evolve as a programmer/developer/engineer/title du jour. It is this single trait that separates the also-rans, the lifers and the dunning-krugers from the evolving, continuously learning, craft honing programmer you should be. 
   </p>
-  
+
   <p>
-  Master craftsman is almost a posthumous award. Expert, should be considered a moving target that, even though we do our best to chase it, stays elusive and just out of reach.
+  Master craftsmanship is rarely ever reached by even the most seasoned programmer. In fact, I would argue that "expert", should be considered a moving target that, even though we do our best to chase it down, stays elusive and just out of our reach. 
   </p>
 
 </div>
@@ -67,3 +67,7 @@ You just have to be careful, because as with any other language, you can easily 
 
 When in doubt, hire Java programmers who are polyglots, who detest large spongy frameworks like J2EE and EJB, and who use Emacs. All good rules of thumb.
 
+
+
+
+Be a life long student. Be humble. Invite critisism.
