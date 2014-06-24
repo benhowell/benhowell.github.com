@@ -22,19 +22,21 @@ article_img_title: Bob Zajicek - Steady Hand at the Lathe by Fr. John Abraham
 </p>
 
 <p>
-Humility is the single character trait above all others, that will ensure you evolve as a programmer (or developer, engineer, title du jour). It is this single trait that separates the also-rans, the lifers and the dunning-krugers from the evolving, continuously learning, craft honing programmer you should be. 
+Humility is the single character trait above all others, that will ensure you evolve as a programmer (or developer, engineer, title du jour). It is this trait that separates the lifers, the entrenched and the dunning-krugers from the evolving, craft honing programmer you should be. 
 </p>
 
 <p>
-Master craftsmanship is rarely ever reached by even the most seasoned programmer. In fact "expert", should be considered a moving target that, even though we do our best to chase it down, stays elusive and just out of our reach.
+To admit you have a lot to learn, to admit mistakes, to admit you design pretty crappy systems sometimes, to admit that your way, the "right way", the "best practice" way, the evangelists way is just _one_ way, and may well be the wrong way, is not a weakness. It is not the sign of an amatuer. It is indeed a strength, and it is this strength that will drive your evolution as a programmer to greater things. 
 </p>
 
 <p>
-To admit you have a lot to learn, to admit that you make mistakes, to admit you design some pretty crappy systems sometimes, to admit that your way, the "right way", the "best practice" way, the evangelists way is just _one_ way, and may well
+Master craftsmanship is rarely ever reached by even the most seasoned programmer. The title "expert", should be considered a moving target that, even though we do our best to attain it, always stays just out of our reach.
+</p>
+
+
+
+
 </div>
-be the wrong way, is not a weakness. It is not the sign of an amatuer. It is indeed a strength, and it is this strength that waill drive your evolution as a programmer to greater things. 
-
-
 <div class="intro-img-border">
 <div class="intro-img-bevel">
 <div class="intro-img">
