@@ -10,9 +10,30 @@ article_img_title: Bob Zajicek - Steady Hand at the Lathe by Fr. John Abraham
 ---
 {% include JB/setup %}
 <div class="intro">
-  <div class="intro-txt">
-    ???????????????????????
-  </div>
+<div class="intro-txt">
+<span markdown="span">
+**Humility**
+</span>
+
+/hjʊˈmɪlɪti/
+
+<p>
+<span markdown="span">_The quality of having a modest or low view of one’s importance._</span>
+</p>
+
+
+
+
+
+  <p>
+  Humility is the single character trait above all others, that will ensure you evolve as a programmer/developer/engineer/title du jour. It is this single trait that separates the also-rans, the lifers and the dunning-krugers from the evolving, continuously learning, craft honing programmer you should be. 
+  </p>
+  
+  <p>
+  Master craftsman is almost a posthumous award. Expert, should be considered a moving target that, even though we do our best to chase it, stays elusive and just out of reach.
+  </p>
+
+</div>
 <div class="intro-img-border">
 <div class="intro-img-bevel">
 <div class="intro-img">
@@ -22,6 +43,8 @@ article_img_title: Bob Zajicek - Steady Hand at the Lathe by Fr. John Abraham
 </div>
 </div>
 
+
+A cathartic and essential exercise for any 
 
 revisit old code. see how bad it is, wonder why you didn't use a more appropriate pattern, not understand why you use such strange data structures, wonder why it is so clunky, non functional, etc.
 
