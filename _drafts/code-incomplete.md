@@ -26,15 +26,8 @@ Humility is the single character trait above all others, that will ensure you ev
 </p>
 
 <p>
-To admit you have a lot to learn, to admit mistakes, to admit you design pretty crappy systems sometimes, to admit that your way, the "right way", the "best practice" way, the evangelists way is just _one_ way, and may well be the wrong way, is not a weakness. It is not the sign of an amatuer. It is indeed a strength, and it is this strength that will drive your evolution as a programmer to greater things. 
+To admit you have a lot to learn, to admit mistakes, to admit you design pretty crappy systems sometimes, to admit that your way, the "right way", the "best practice" way, the evangelists way is just <span markdown="span">_one_</span> way, and may well be the wrong way, is not a weakness. It is not the sign of an amatuer. It is indeed a strength, and it is this strength that will drive your evolution as a programmer to greater things. Go ahead, form opinions, debate, defend with reason, but always be ready to be wrong and try a different approach. Whatever you do, don't become a zealot.
 </p>
-
-<p>
-Master craftsmanship is rarely ever reached by even the most seasoned programmer. The title "expert", should be considered a moving target that, even though we do our best to attain it, always stays just out of our reach.
-</p>
-
-
-
 
 </div>
 <div class="intro-img-border">
@@ -46,8 +39,11 @@ Master craftsmanship is rarely ever reached by even the most seasoned programmer
 </div>
 </div>
 
+A cathartic and essential exercise for any programmer is to revisit old code. Doesn't matter the language or project, just choose some old code and start reading it. Understand it. Sometimes you find a rare gem of elegant code and think to yourself "that's a good solution", however, these occurences are the exception to the rule. If you aren't cringing, scratching or shaking your head, if you aren't thinking to yourself "I could write that so much better" then you can retire now. You're done as a programmer.
 
-A cathartic and essential exercise for any 
+
+
+
 
 revisit old code. see how bad it is, wonder why you didn't use a more appropriate pattern, not understand why you use such strange data structures, wonder why it is so clunky, non functional, etc.
 
@@ -73,4 +69,6 @@ When in doubt, hire Java programmers who are polyglots, who detest large spongy 
 
 
 
+Master craftsmanship is rarely ever reached by even the most seasoned programmer. The title "expert", should be considered a moving target that, even though we do our best to attain it, always stays just out of our reach.
+</p>
 Be a life long student. Be humble. Invite critisism.
