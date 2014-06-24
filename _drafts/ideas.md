@@ -24,7 +24,7 @@ article_img: bootstrap/img/qn.png
  The previous classifier was built for multi-classifier subscriptions which are strictly hierarchical, this classifier is useful if there are overlapping classifiers which cover various parts of the event space without forming a hierarchy. It can be compared to tuning in on (possibly multiple) radio stations by geographical reachability (for old-school radio-wave transmission).
  
  
- 
+ * serendipity - discovering patterns and methodologies by chance (i.e. after coding them, find out later those patterns exist)
  
  
  
