@@ -49,8 +49,8 @@ A cathartic and essential exercise for any programmer is to revisit some of thei
 #### There is no single language, design pattern or methodology. This isn't Lord of the Rings.
 Studying different languages, applying different design patterns and following different methodologies along the way will allow you to view things from multiple angles and allow you to be critical of past and present solutions in your repertoire. Your go to language and patterns today are just a [blub paradox][1].
 
-#### Revel in your bug reports, complaints and feature requests.
-
+#### Revel in your bug reports, complaints and criticisms. You aren't your code.
+You should encourage anyone and everyone to do their best to break your software. Testers, colleagues, users. Actively promote criticism of your works. We live in a society where people don't like hurting others feelings. Conversely, some programmers take criticism of their work as a personal attack and some even go so far as to defend to the point of senility their buggy piece of crap. Don't be one of these. Revel in bug reports, congratulate the person who keeps breaking great holes in your software as it is these people making your product great.
 
 
 
