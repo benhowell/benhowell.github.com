@@ -30,10 +30,11 @@ Master craftsmanship is rarely ever reached by even the most seasoned programmer
 </p>
 
 <p>
-To admit you have a lot to learn, to admit that you make mistakes, to admit you design some pretty crappy systems sometimes, to admit that your way, the "right way", the "best practice" way, the evangelists way is just _one_ way, and may well be the wrong way, is not a weakness. It is not the sign of an amatuer. It is indeed a strength, and it is this strength that waill drive your evolution as a programmer to greater things. 
-</p>
-
+To admit you have a lot to learn, to admit that you make mistakes, to admit you design some pretty crappy systems sometimes, to admit that your way, the "right way", the "best practice" way, the evangelists way is just _one_ way, and may well
 </div>
+be the wrong way, is not a weakness. It is not the sign of an amatuer. It is indeed a strength, and it is this strength that waill drive your evolution as a programmer to greater things. 
+
+
 <div class="intro-img-border">
 <div class="intro-img-bevel">
 <div class="intro-img">
