@@ -298,7 +298,7 @@ If you want to run your scripts as system executables, you can use the shebang (
 
 **Concluding remarks**
 
-If you really, really want to write multithreaded code with Javascript, you can and there are many legitimate reasons you may choose to do so. Those reasons may include scripted user interfaces using JavaFX, scripted plugins for a Java application or system, cron and shell scripts. Even if just for no reason at all, mashing languages together to produce new functionality is fun and educational. I hope you enjoyed this article, and as ever, if you have comments or questions, please leave them below and I'll be happy to reply.
+If you really, really want to write multithreaded code with Javascript, you can and there are many legitimate reasons you may choose to do so. Those reasons could include [scripted user interfaces with JavaFX]({% post_url 2014-05-28-scripted-user-interfaces-with-nashorn-and-javafx %}), [scripted plugins for a Java application or system]({% post_url 2014-05-24-java-scripting-plugin-framework %}), cron and shell scripts. Even if just for no reason at all, mashing languages together to produce new functionality is fun and educational. I hope you enjoyed this article, and as ever, if you have comments or questions, please leave them below and I'll be happy to reply.
 
 For similar articles, please see:
 
