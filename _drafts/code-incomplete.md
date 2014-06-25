@@ -40,7 +40,9 @@ To admit you have a lot to learn, to admit mistakes, to admit you design pretty 
 </div>
 
 <br/>
-
+<br/>
+<div></div>
+<br/>
 <br/>
 
 #### Review your previous work. You're guaranteed to be your harshest critic.
