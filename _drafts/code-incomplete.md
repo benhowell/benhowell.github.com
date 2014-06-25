@@ -42,21 +42,35 @@ To admit you have a lot to learn, to admit mistakes, to admit you design pretty 
 <br/>
 <br/>
 
+#### Review your previous work. You're guaranteed to be your harshest critic.
 A cathartic and essential exercise for any programmer is to revisit some of their old code. Do it regularly. Doesn't matter the language or project, just choose some old code and start reading it. Understand it. Sometimes you find a rare gem of elegant code and think to yourself "that's a great solution I crafted there", however, these occurences are the exception to the rule. If you aren't cringing, scratching or shaking your head, if you aren't thinking to yourself "That sucks, present me could've done so much better" then you can retire now. You're done as a programmer.
 <br/>
 <br/>
 
-#### There is no single language, design pattern or methodology. This isn't Lord of the Rings.
+#### There is no one language, design pattern or methodology to rule them all. This isn't Lord of the Rings.
 Studying different languages, applying different design patterns and following different methodologies along the way will allow you to view things from multiple angles and allow you to be critical of past and present solutions in your repertoire. Your go to language and patterns today are just a [blub paradox][1].
 
 #### Revel in your bug reports, complaints and criticisms. You aren't your code.
-You should encourage anyone and everyone to do their best to break your software. Testers, colleagues, users. Actively promote criticism of your works. We live in a society where people don't like hurting others feelings. Conversely, some programmers take criticism of their work as a personal attack and some even go so far as to defend to the point of senility their buggy piece of crap. Don't be one of these. Revel in bug reports, congratulate the person who keeps breaking great holes in your software as it is these people making your product great.
+You should encourage anyone and everyone to do their best to break your software. Testers, colleagues, users. Actively promote criticism of your works. Today, we live in a society where people don't like hurting others feelings, and at the same time, some programmers take criticism of their work as a personal attack.
+
+
+and some even go so far as to defend to the point of senility their buggy piece of crap. Don't be one of these. Don't take it personally. Revel in bug reports, congratulate the person who keeps breaking great holes in your software as it is these people making your product great.
 
 
 
 
 
 
+
+http://threevirtues.com/
+
+According to Larry Wall(1), the original author of the Perl programming language, there are three great virtues of a programmer; Laziness, Impatience and Hubris
+
+Laziness: The quality that makes you go to great effort to reduce overall energy expenditure. It makes you write labor-saving programs that other people will find useful and document what you wrote so you don't have to answer so many questions about it.
+Impatience: The anger you feel when the computer is being lazy. This makes you write programs that don't just react to your needs, but actually anticipate them. Or at least pretend to.
+Hubris: The quality that makes you write (and maintain) programs that other people won't want to say bad things about.
+
+(1) Quoted from "Programming Perl", 2nd Edition, O'Reilly & Associates, 1996
 
 
 
