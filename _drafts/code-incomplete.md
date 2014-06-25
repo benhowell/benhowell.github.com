@@ -63,7 +63,7 @@ Go ahead, form opinions, debate, design, theorise, hypothesise, test yours, and 
 Master craftsmanship is rarely ever reached by even the most seasoned programmer. The title "expert", should be considered a moving target that, even though we do our best to attain it, always stays just out of our reach.
 Be a life long student. Invite critisism. Be humble.
 
-_"The people who are best at programming are the people who realize how small their brains are. They are humble."_ -- <cite>[Edsger W. Dijkstra - ACM Turing Lecture 1972][2]</cite>[^2].
+_"The people who are best at programming are the people who realize how small their brains are. They are humble."_ -- <cite>[Edsger W. Dijkstra - ACM Turing Lecture 1972][2]</cite>.
 
 
 
