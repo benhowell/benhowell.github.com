@@ -207,6 +207,7 @@ img.brand-image {
 .intro-img {
   float: left;
   width: 250px;
+  padding-bottom: 20px;
 }
 
 .intro-txt-index {
