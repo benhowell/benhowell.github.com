@@ -42,19 +42,19 @@ To admit you have a lot to learn, to admit mistakes, to admit you design pretty 
 <br/>
 
 #### Review your previous work. You're guaranteed to be your harshest critic.
-A cathartic and essential exercise for any programmer is to revisit your old code. Do it regularly. Doesn't matter the language or project, just choose some old code and start reading it. Understand it. Sometimes you find a rare gem of elegant code and think to yourself "that's a great solution I crafted there", however, these occurences are the exception to the rule. If you aren't cringing, scratching or shaking your head, if you aren't thinking to yourself "That's crap, present me could've done so much better" then you can retire now. You're done as a programmer.
+A cathartic exercise for any programmer is to revisit old code. Do it regularly. Doesn't matter the language or project, just choose some old code and start reading it. Understand it. Sometimes you find a rare gem of elegant code and think to yourself "that's a great solution I crafted there", however, these occurences are the exception to the rule. If you aren't cringing, scratching or shaking your head, if you aren't thinking to yourself "That's crap, present me could've done so much better" then you can retire now. You're done as a programmer.
 <br/>
 <br/>
 
 #### Revel in your bug reports, complaints and criticisms. You aren't your code.
-You should encourage anyone and everyone to do their best to break your software. Testers, colleagues, users. Actively promote criticism of your works. Today, we live in a society where people don't like hurting others feelings, and at the same time, some programmers take criticism of their work as a personal attack.
-
-
-and some even go so far as to defend to the point of senility their buggy piece of crap. Don't be one of these. Don't take it personally. Revel in bug reports, congratulate the person who keeps breaking great holes in your software as it is these people making your product great.
+You should actively encourage everyone to do their best to break your software. Colleagues, testers, users, peers, everyone. Ask them to do insane things with it, deliberately abuse it, break it. Invite criticism of your works. Today, we live in a society where people don't like hurting others feelings, and at the same time, some programmers take criticism of their work as a personal attack. Don't be one of these. Don't take it personally. Revel in bug reports and harsh critique and thank the individuals who find flaws in your software as it is these people driving the quality of your work higher and making your software great.
+<br/>
+<br/>
 
 #### There is no one language, design pattern or methodology to rule them all. This isn't Lord of the Rings.
-Studying different languages, applying different design patterns and following different methodologies along the way will allow you to view things from multiple angles and allow you to be critical of past and present solutions in your repertoire. Your go to language and patterns today are just a [blub paradox][1].
-
+The language(s), design pattern and methodologies you are using to solve your problems today are probably not the right tools for your next problem, and if you are not reading up on, or playing around with other languages, design patterns and methodologies, then you are stagnating. Studying different languages, applying different design patterns and following different methodologies along the way will allow you to view things from multiple angles at once and allow you to be critical of others solutions and of past and present solutions in your own repertoire. Your go to language and patterns today are just a [blub paradox][1]. Beware the programmer who already knows the solution to everything.
+<br/>
+<br/>
 
 
 
@@ -93,7 +93,7 @@ Go ahead, form opinions, debate, design, theorise, hypothesise, test yours, and 
 
 
 
-Beware the programmer who already knows the solution to everything.
+
 
 Master craftsmanship is rarely ever reached by even the most seasoned programmer. The title "expert", should be considered a moving target that, even though we do our best to attain it, always stays just out of our reach.
 </p>
