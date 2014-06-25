@@ -41,7 +41,7 @@ To admit you have a lot to learn, to admit mistakes, to admit you design pretty 
 
 <br/>
 <br/>
-<p><span markdown="span">.</span>
+<p><span markdown="span">\x0b</span>
 </p>
 
 #### Review your previous work. You're guaranteed to be your harshest critic.
