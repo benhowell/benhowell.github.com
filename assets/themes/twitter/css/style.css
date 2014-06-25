@@ -186,6 +186,7 @@ img.brand-image {
 .intro {
   float: left;
   width: 800px;
+  padding-bottom: 20px;
 }
 
 /*
@@ -202,7 +203,6 @@ img.brand-image {
   border-color: #cccccc; 
   border-style: solid; 
   border-width: 1px; 
-  padding-bottom: 20px;
 }
   
 .intro-img {
