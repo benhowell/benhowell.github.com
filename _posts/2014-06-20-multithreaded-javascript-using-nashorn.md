@@ -244,7 +244,7 @@ Now we have our little webservice which uses our little sleeper, we can write a 
 
 **example.js**
 {% highlight javascript linenos=table %}
-load('random_meme_generator.js')
+load('webservice.js')
 
 var Thread = Java.type("java.lang.Thread");
 
