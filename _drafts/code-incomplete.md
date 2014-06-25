@@ -52,53 +52,20 @@ You should actively encourage everyone to do their best to break your software. 
 <br/>
 
 #### There is no one language, design pattern or methodology to rule them all. This isn't Lord of the Rings.
-The language(s), design pattern and methodologies you are using to solve your problems today are probably not the right tools for your next problem, and if you are not reading up on, or playing around with other languages, design patterns and methodologies, then you are stagnating. Studying different languages, applying different design patterns and following different methodologies along the way will allow you to view things from multiple angles at once and allow you to be critical of others solutions and of past and present solutions in your own repertoire. Your go to language and patterns today are just a [blub paradox][1]. Beware the programmer who already knows the solution to everything.
+The language(s), design pattern and methodologies you are using to solve your problems today are probably not the right tools for your next problem, and if you are not reading up on, or playing around with other languages, design patterns and methodologies, then you are stagnating. Studying different languages, applying different design patterns and following different methodologies along the way will allow you to view things from multiple angles at once and allow you to be critical of others solutions and of past and present solutions in your own repertoire. Your go to language and patterns today are just a [blub paradox][1]. Beware the programmer who already knows the solution to everything. Monoculture is bad.
 <br/>
 <br/>
 
 
-
-
-http://threevirtues.com/
-
-According to Larry Wall(1), the original author of the Perl programming language, there are three great virtues of a programmer; Laziness, Impatience and Hubris
-
-Laziness: The quality that makes you go to great effort to reduce overall energy expenditure. It makes you write labor-saving programs that other people will find useful and document what you wrote so you don't have to answer so many questions about it.
-Impatience: The anger you feel when the computer is being lazy. This makes you write programs that don't just react to your needs, but actually anticipate them. Or at least pretend to.
-Hubris: The quality that makes you write (and maintain) programs that other people won't want to say bad things about.
-
-(1) Quoted from "Programming Perl", 2nd Edition, O'Reilly & Associates, 1996
-
-
-
-
-
-
-
-http://blog.codinghorror.com/why-im-the-best-programmer-in-the-world/
-
-
-Bad developers, who constitute the majority of all developers worldwide, can write bad code in any language you throw at them.
-
-
-
-You just have to be careful, because as with any other language, you can easily find people who know a lot about the language environment, and very little about taste, computing, or anything else that's important.
-
-When in doubt, hire Java programmers who are polyglots, who detest large spongy frameworks like J2EE and EJB, and who use Emacs. All good rules of thumb.
-
-
-
-Go ahead, form opinions, debate, design, theorise, hypothesise, test yours, and others ideas with conviction, but always be ready to be wrong and try a different approach. And by all means, break the rules and try something against advice, but whatever you do, don't become a zealot.
-
-
-
-
-
+#### Humility.
+Go ahead, form opinions, debate, design, theorise, hypothesise, test yours, and others ideas with conviction, but always be ready to be wrong and try a different approach. And by all means, break the rules and try something against advice, but whatever you do, don't become a zealot. Zealotry is the ruination of your evolution as a programmer and will prevent you honing your craft. Don't be a zealot.
 
 Master craftsmanship is rarely ever reached by even the most seasoned programmer. The title "expert", should be considered a moving target that, even though we do our best to attain it, always stays just out of our reach.
-</p>
-Be a life long student. Be humble. Invite critisism.
+Be a life long student. Invite critisism. Be humble.
+
+_"The people who are best at programming are the people who realize how small their brains are. They are humble."_ -- <cite>[Edsger W. Dijkstra - ACM Turing Lecture 1972][2]</cite>[^2].
 
 
 
 [1]:http://paulgraham.com/avg.html
+[2]:http://www.cs.utexas.edu/users/EWD/transcriptions/EWD03xx/EWD340.html
