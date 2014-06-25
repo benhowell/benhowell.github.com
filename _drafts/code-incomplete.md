@@ -41,12 +41,9 @@ To admit you have a lot to learn, to admit mistakes, to admit you design pretty 
 
 <br/>
 <br/>
-<div></div>
-<br/>
-<br/>
 
 #### Review your previous work. You're guaranteed to be your harshest critic.
-A cathartic and essential exercise for any programmer is to revisit some of their old code. Do it regularly. Doesn't matter the language or project, just choose some old code and start reading it. Understand it. Sometimes you find a rare gem of elegant code and think to yourself "that's a great solution I crafted there", however, these occurences are the exception to the rule. If you aren't cringing, scratching or shaking your head, if you aren't thinking to yourself "That sucks, present me could've done so much better" then you can retire now. You're done as a programmer.
+A cathartic and essential exercise for any programmer is to revisit their old code. Do it regularly. Doesn't matter the language or project, just choose some old code and start reading it. Understand it. Sometimes you find a rare gem of elegant code and think to yourself "that's a great solution I crafted there", however, these occurences are the exception to the rule. If you aren't cringing, scratching or shaking your head, if you aren't thinking to yourself "That sucks, present me could've done so much better" then you can retire now. You're done as a programmer.
 <br/>
 <br/>
 
