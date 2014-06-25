@@ -26,7 +26,7 @@ Humility is the single character trait above all others, that will ensure you ev
 </p>
 
 <p>
-To admit you have a lot to learn, to admit mistakes, to admit you design pretty crappy systems sometimes, to admit that your way, the "best practice" way, the evangelists way is just <span markdown="span">_one_</span> way, and may well be the wrong way, is not a weakness. It is not the sign of an amatuer. It is indeed a measure of professionalism. Humility is a strength, and it is this strength that will drive your evolution as a programmer to greater things. Go ahead, form opinions, debate, design, theorise, hypothesise, test yours, and others ideas with conviction, but always be ready to be wrong and try a different approach. And by all means, break the rules and try something against advice, but whatever you do, don't become a zealot.
+To admit you have a lot to learn, to admit mistakes, to admit you design pretty crappy systems sometimes, to admit that your way, the "best practice" way, the evangelists way is just <span markdown="span">_one_</span> way, and sometimes may well be the wrong way, is not a weakness. It is not the sign of an amatuer. It is a measure of professionalism. Humility is a strength, and it is this strength that will drive your evolution as a programmer to greater things.
 </p>
 
 </div>
@@ -89,7 +89,7 @@ When in doubt, hire Java programmers who are polyglots, who detest large spongy 
 
 
 
-
+Go ahead, form opinions, debate, design, theorise, hypothesise, test yours, and others ideas with conviction, but always be ready to be wrong and try a different approach. And by all means, break the rules and try something against advice, but whatever you do, don't become a zealot.
 
 
 
