@@ -26,7 +26,7 @@ Humility is the single character trait above all others, that will ensure you ev
 </p>
 
 <p>
-To admit you have a lot to learn, to admit mistakes, to admit you design pretty crappy systems sometimes, to admit that your way, the "best practice" way, the evangelists way is just <span markdown="span">_one_</span> way, and sometimes may well be the wrong way, is not a weakness. It is not the sign of an amatuer. It is a measure of professionalism. Humility is a strength, and it is this strength that will drive your evolution as a programmer to greater things.
+To admit you have a lot to learn, to admit mistakes, to admit you design sub-par systems sometimes, to admit that your way, the "best practice" way, the evangelists way is <span markdown="span">_just one way_</span>, and sometimes may well be the wrong way, is not a weakness. It is not the sign of an amatuer. It is a measure of professionalism. Humility is a strength, and it is this strength that will drive your evolution as a programmer to greater things.
 </p>
 
 </div>
@@ -42,12 +42,12 @@ To admit you have a lot to learn, to admit mistakes, to admit you design pretty 
 <br/>
 
 #### Review your previous work. You're (almost) guaranteed to be your harshest critic.
-A cathartic exercise for any programmer is to revisit old code. Do it regularly. Doesn't matter the language or project, just choose some old code and start reading it. Understand it. Get the flow and follow the execution path. Sometimes you find a rare gem of elegant code and think to yourself "that's a great solution I crafted there", however, these occurences are the exception to the rule. If you aren't cringing, scratching or shaking your head, if you aren't thinking to yourself "That's crap, present me could've done so much better" then you can retire now. You're done as a programmer.
+A cathartic exercise for any programmer is to revisit old code. Do it regularly. Doesn't matter the language or project, just choose some old code and start reading it. Get the flow and follow the execution path. Understand it. Sometimes you find a rare gem of elegant code and think to yourself "that's a bloody great bit of code I wrote there", however, these occurences are the exception to the rule. If you aren't cringing, scratching or shaking your head, if you aren't thinking to yourself "I could've done so much better" or "I can't believe I did it _that_ way", then you can retire now. You're complete as a programmer.
 <br/>
 <br/>
 
 #### Revel in your bug reports, complaints and criticisms. You aren't your code.
-You should actively encourage everyone to do their best to break your software. Colleagues, testers, users, peers, everyone. Ask them to do insane things with it, deliberately abuse it, break it. Invite criticism of your works. Today, we live in a society where people don't like hurting others feelings, and at the same time, some programmers take criticism of their work as a personal attack. Don't be one of these. Don't take it personally. Revel in bug reports and harsh critique and thank the individuals who find flaws in your software as it is these people driving the quality of your work higher and making your software great.
+You should actively encourage everyone to do their best to break your software. Colleagues, testers, users, peers, everyone. Ask them to do insane and unpredictable things with it, deliberately abuse it, break it. Invite criticism of your works. Today, we live in a society where people don't like hurting others feelings, and at the same time, some programmers take criticism of their work as a personal attack. Don't be one of these. Don't take it personally. Revel in bug reports and harsh critique and thank the individuals who find flaws in your software as it is these people driving the quality of your work higher and making your software great.
 <br/>
 <br/>
 
