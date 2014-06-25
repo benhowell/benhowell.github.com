@@ -38,7 +38,6 @@ To admit you have a lot to learn, to admit mistakes, to admit you design pretty 
 </div>
 </div>
 </div>
-
 <br/>
 <br/>
 
