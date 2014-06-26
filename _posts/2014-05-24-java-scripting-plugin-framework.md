@@ -4,7 +4,7 @@ title: "Java Plugin Scripting Architecture"
 description: "Java Plugin Scripting Architecture"
 tagline: "guide"
 category: guide
-tags: [java, python, jsr 223, plugin, framework, architecture, beginner, example, tutorial, guide]
+tags: [java, python, jsr-223, plugin, framework, architecture, beginner, example, tutorial, guide]
 article_img: bootstrap/img/plugin_250.jpg
 article_img_title: Yes, it has a hairy lead by Anonymous
 ---
