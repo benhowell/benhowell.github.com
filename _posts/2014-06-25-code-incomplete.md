@@ -4,7 +4,7 @@ title: "Code Incomplete"
 description: "Code Incomplete"
 tagline: "craft"
 category: craft
-tags: [craft, design, improvement, evolution, craftsmanship, compsci, programming, coding]
+tags: [craft, design, craftsmanship, compsci, programming, coding]
 article_img: bootstrap/img/master_craftsman.jpg
 article_img_title: Bob Zajicek - Steady Hand at the Lathe by Fr. John Abraham
 ---
