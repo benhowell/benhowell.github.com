@@ -4,7 +4,7 @@ title: "Scripted user interfaces with Nashorn and JavaFX"
 description: "Scripted user interfaces with Nashorn and JavaFX"
 tagline: "guide"
 category: guide
-tags: [nashorn, javafx, UI, jsr-223, java, beginner, example, tutorial, guide]
+tags: [nashorn, javafx, javascript, UI, jsr-223, java, beginner, example, tutorial, guide]
 article_img: bootstrap/img/nashorn_javafx_250.jpg
 article_img_title: Panzer by Anonymous
 ---
