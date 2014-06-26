@@ -64,7 +64,8 @@ Master craftsmanship is rarely ever reached by even the most seasoned programmer
 Be a life long student. Invite criticism. Be humble.
 
 _"The people who are best at programming are the people who realize how small their brains are. They are humble."_ -- <cite>[Edsger W. Dijkstra - ACM Turing Lecture 1972][2]</cite>.
-
+<br/>
+<br/>
 
 
 [1]:http://paulgraham.com/avg.html
