@@ -52,7 +52,7 @@ You should actively encourage everyone to do their best to break your software. 
 <br/>
 
 #### There is no one language, design pattern or methodology to rule them all. This isn't Lord of the Rings.
-The language(s), design pattern and methodologies you are using to solve your problems today are probably not the right tools for your next problem, and if you are not reading up on, or playing around with other languages, design patterns and methodologies, then you are stagnating. Studying different languages, applying different design patterns and following different methodologies along the way will allow you to view things from multiple angles at once and allow you to be critical of others solutions and of past and present solutions in your own repertoire. Your go to language and patterns today are just a confirmation of the [blub paradox][1]. Beware the programmer who already knows _the_ solution to everything. Monoculture is bad.
+The language(s), design pattern and methodologies you are using to solve your problems today are probably not the right tools for your next problem, and if you are not reading up on, or playing around with other languages, design patterns and methodologies, then you are stagnating. Studying different languages, applying different design patterns and following different methodologies along the way will allow you to view things from multiple angles at once and allow you to be critical of others solutions and of past and present solutions in your own repertoire. Your go to language and patterns today are just a confirmation of the [blub paradox][1][^1]. Beware the programmer who already knows _the_ solution to everything. Monoculture is bad.
 <br/>
 <br/>
 
@@ -68,5 +68,8 @@ _"The people who are best at programming are the people who realize how small th
 <br/>
 
 
-[1]:http://paulgraham.com/avg.html
+#### Notes
+[^1]:Originally coined by Paul Graham in his "Beating the Averages" essay - http://paulgraham.com/avg.html
+
+[1]:http://c2.com/cgi/wiki?BlubParadox
 [2]:http://www.cs.utexas.edu/users/EWD/transcriptions/EWD03xx/EWD340.html
