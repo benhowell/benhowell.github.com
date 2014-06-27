@@ -35,7 +35,7 @@ h3 {padding-top:0;margin-top:0;}
 
 .navbar .nav {
   float: right; 
-  font: 1.5em verdana, helvetica-neue, helvetica, arial, san-serif;
+/*   font: 1.5em verdana, helvetica-neue, helvetica, arial, san-serif; */
 }
 
 /* posts index */
@@ -58,9 +58,9 @@ h3 {padding-top:0;margin-top:0;}
   font-weight: bold; 
 }
 
-.post-full .content {
+/*.post-full .content {
   font: 1.5em verdana, helvetica-neue, helvetica, arial, san-serif;
-}
+}*/
 
 /* tag_box */
 .tag_box {
