@@ -39,7 +39,7 @@ production_url : http://www.benhowell.net
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
   
-paginate: 5
+paginate: 3
   
 JB :
   version : 0.3.0
