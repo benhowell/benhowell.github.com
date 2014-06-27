@@ -1,0 +1,64 @@
+---
+layout: default
+title: Ben Howell
+tagline: Supporting tagline
+---
+{% include JB/setup %}
+<br/>
+<br/>
+
+<!--<div class="blog-index">
+  {% for post in site.posts %}
+  <div class="intro">
+  <div class="intro-txt-index">
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  <span class="faded">{{ post.tagline }}</span><br>
+  {{ post.content | strip_html | truncatewords:40 }}<br>
+  <a href="{{ post.url }}">Read more</a><br/><hr>
+  </div>
+  <div class="intro-img-border">
+  <div class="intro-img-bevel">
+  <div class="intro-img-index-box">
+  <img class="intro-img-index" src="{{ASSET_PATH}}/{{post.article_img}}" title="{{post.article_img_title}}"/>
+  </div>
+  </div>
+  </div>
+  </div>
+  {% endfor %}
+</div>-->
+
+<div class="blog-index">
+{% for post in paginator.posts %}
+<div class="intro">
+<div class="intro-txt-index">
+<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+<span class="faded">{{ post.tagline }}</span><br>
+{{ post.content | strip_html | truncatewords:40 }}<br>
+<a href="{{ post.url }}">Read more</a><br/><hr>
+</div>
+<div class="intro-img-border">
+<div class="intro-img-bevel">
+<div class="intro-img-index-box">
+<img class="intro-img-index" src="{{ASSET_PATH}}/{{post.article_img}}" title="{{post.article_img_title}}"/>
+</div>
+</div>
+</div>
+</div>
+{% endfor %}
+</div>
+
+<div class="pagination">
+  <ul>
+  {% if paginator.previous %}
+    <li class="prev"><a href="{{ BASE_PATH }}{{ paginator.previous.url }}" title="{{ paginator.previous.title }}">&larr; Previous</a></li>
+  {% else %}
+    <li class="prev disabled"><a>&larr; Previous</a></li>
+  {% endif %}
+    <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+  {% if paginator.next %}
+    <li class="next"><a href="{{ BASE_PATH }}{{ paginator.next.url }}" title="{{ paginator.next.title }}">Next &rarr;</a></li>
+  {% else %}
+    <li class="next disabled"><a>Next &rarr;</a>
+  {% endif %}
+  </ul>
+</div>
