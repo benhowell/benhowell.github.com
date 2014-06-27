@@ -38,12 +38,12 @@ production_url : http://www.benhowell.net
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
-paginate: 5
+
   
 JB :
   version : 0.3.0
   
-
+  paginate: 5
 
   # All links will be namespaced by BASE_PATH if defined.
   # Links in your website should always be prefixed with {{BASE_PATH}}
