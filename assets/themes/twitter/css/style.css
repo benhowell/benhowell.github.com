@@ -1,5 +1,6 @@
 body {
   background-color: rgb(250,250,250); 
+  font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;
 }
 
 hr {
