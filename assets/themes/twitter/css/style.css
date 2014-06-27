@@ -35,7 +35,7 @@ h3 {padding-top:0;margin-top:0;}
 
 .navbar .nav {
   float: right; 
-  font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;
+  font: 1.5em verdana, helvetica-neue, helvetica, arial, san-serif;
 }
 
 /* posts index */
@@ -59,7 +59,7 @@ h3 {padding-top:0;margin-top:0;}
 }
 
 .post-full .content {
-  font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;
+  font: 1.5em verdana, helvetica-neue, helvetica, arial, san-serif;
 }
 
 /* tag_box */
