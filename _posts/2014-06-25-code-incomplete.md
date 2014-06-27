@@ -73,5 +73,3 @@ _"The people who are best at programming are the people who realize how small th
 
 [1]:http://c2.com/cgi/wiki?BlubParadox
 [2]:http://www.cs.utexas.edu/users/EWD/transcriptions/EWD03xx/EWD340.html
-<br/>
-<br/>
