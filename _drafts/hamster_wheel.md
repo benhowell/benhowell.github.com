@@ -80,4 +80,4 @@ Learn theory and technique, gain a deeper and fundamental knowledge. Get off the
 
 
 #### Notes
-[^1] [http://en.wiktionary.org/wiki/hamster_wheel][2]
+[^1]:[http://en.wiktionary.org/wiki/hamster_wheel][2]
