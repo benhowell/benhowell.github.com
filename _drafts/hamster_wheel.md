@@ -18,7 +18,7 @@ article_img_title: Asleep at the Wheel by Unknown
 /ˈhæm.stər wiːl/ 
 
 <p>
-<span markdown="span">_A monotonous, repetitive, unfulfilling activity, especially one in which no progress is achieved._[^1]</span>
+<span markdown="span">_A monotonous, repetitive, unfulfilling activity, especially one in which no progress is achieved.[^1]_</span>
 </p>
 
 <p>
