@@ -8,6 +8,9 @@ article_img: bootstrap/img/qn.png
 ---
 {% include JB/setup %}
 
+ * API design. (little manual of API design)
+
+
  * avx instructions in language x?
  * visitor pattern?
  * command pattern?
