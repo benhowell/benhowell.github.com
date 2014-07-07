@@ -22,7 +22,7 @@ article_img_title: Asleep at the Wheel by Unknown
 </p>
 
 <p>
-[Like other rodents, hamsters are highly motivated to run in wheels][1]. Don't be a hamster.
+<span markdown="span">[Like other rodents, hamsters are highly motivated to run in wheels][1].</span> Don't be a hamster.
 </p>
 
 <p>
