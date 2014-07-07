@@ -12,21 +12,21 @@ article_img_title: Asleep at the Wheel by Unknown
 <div class="intro">
 <div class="intro-txt">
 <span markdown="span">
-**Humility**
+**Hamster Wheel**
 </span>
 
-/hjʊˈmɪlɪti/
+/ˈhæm.stər wiːl/ 
 
 <p>
-<span markdown="span">_The quality of having a modest or low view of one’s importance._</span>
+<span markdown="span">_A monotonous, repetitive, unfulfilling activity, especially one in which no progress is achieved._[^1]</span>
 </p>
 
 <p>
-Humility is the single character trait above all others, that will ensure you evolve as a programmer (or developer, engineer, title du jour). It is this trait that separates the lifers, the entrenched and the Dunning-Krugers from the evolving, craft honing programmer you should be. 
+[Like other rodents, hamsters are highly motivated to run in wheels][1]. Don't be a hamster.
 </p>
 
 <p>
-To admit you have a lot to learn, to admit mistakes, to admit you design sub-par systems sometimes, to admit that your way, the "best practice" way, the evangelists way is <span markdown="span">_just one way_</span>, and sometimes may well be the wrong way, is not a weakness. It is not the sign of an amateur. It is a measure of professionalism. Humility is a strength, and it is this strength that will drive your evolution as a programmer to greater things.
+
 </p>
 
 </div>
@@ -42,9 +42,11 @@ To admit you have a lot to learn, to admit mistakes, to admit you design sub-par
 <br/>
 
 
-http://en.wiktionary.org/wiki/hamster_wheel /ˈhæm.stər wiːl/ 
-A monotonous, repetitive, unfulfilling activity, especially one in which no progress is achieved. 
 
+ 
+
+ 
+ 
 
 [Like other rodents, hamsters are highly motivated to run in wheels][1]
 
@@ -74,3 +76,8 @@ Learn theory and technique, gain a deeper and fundamental knowledge. Get off the
 
 
 [1]:http://en.wikipedia.org/wiki/Hamster_wheel
+[2]:http://en.wiktionary.org/wiki/hamster_wheel
+
+
+#### Notes
+[^1] [http://en.wiktionary.org/wiki/hamster_wheel][2]
