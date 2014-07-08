@@ -26,7 +26,7 @@ article_img_title: Asleep at the Wheel by Unknown
 </p>
 
 <p>
-
+Dependency Injection frameworks, Javascript application frameworks, DOM manipulation libraries, SQL providers and frameworks, NoSQL solutions, OO languages, FP languages, concurrent and parallel languages and frameworks, to name but a few tricial examples from the top of ones head. Not sustainable. 
 </p>
 
 </div>
