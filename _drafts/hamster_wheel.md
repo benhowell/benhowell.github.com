@@ -26,7 +26,7 @@ article_img_title: Asleep at the Wheel by Unknown
 </p>
 
 <p>
-There appear to be more developers concerned about their future in the industry if they don't hit that hamster wheel hard and play, build or learn each new technology that comes along. This is not only impossible to begin with, but over time, not sustainable, not healthy and certainly not the way to hone ones craft.
+As time goes on, it appears more developers are concerned about their future in the industry if they don't run that hamster wheel hard and play, build or learn each new technology that comes along for fear of being left behind. This is not only impossible to begin with, but over time, not sustainable, not healthy and certainly not the way to hone ones craft.
 </p>
 
 </div>
@@ -41,19 +41,25 @@ There appear to be more developers concerned about their future in the industry 
 <br/>
 <br/>
 
+#### Experience 
+If there is one thing experience teaches a developer, it is that you _will_ burn out. Possibly many times. The older one gets, the less motivation and capacity one has to stay up late every evening burning the midnight oil. Devoting ones life to the pursuit of learning yet another short lived framework or niche language to the exclusion of other physically, emotionally or mentally stimulating activities that aren't programming is the fast track to unhappiness. Spend your weekends doing other fulfilling activities that, no matter what they are, tangentally broaden your mind and expand your knowledge as a human being. Rather than seeing each new technology as exciting, the experienced programmer may well see each one as something not worth bothering with, with good reason[^1].
 
 
- 
-
- 
- 
- 
- Dependency Injection frameworks, Javascript application frameworks, DOM manipulation libraries, SQL providers and frameworks, NoSQL solutions, OO languages, FP languages, concurrent and parallel languages and frameworks, to name but a few tricial examples from the top of ones head. Not sustainable. 
- 
- 
 
 
-I find myself more and more concerned about my future as a developer.
+
+#### Learn for interests sake
+
+
+Mind-bending logical gymnastics 
+ 
+ 
+ 
+Dependency Injection frameworks, Javascript application frameworks, DOM manipulation libraries, SQL providers and frameworks, NoSQL solutions, OO languages, FP languages, concurrent and parallel languages and frameworks, to name but a few tricial examples from the top of ones head. Not sustainable. 
+ 
+ 
+
+
 
 As I’ve gotten older, I don’t stay up so late anymore.
 I think about how I used to fill my time with coding. So much coding. I was willing to dive so deep into a library or framework or technology to learn it.
