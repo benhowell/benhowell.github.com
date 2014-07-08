@@ -42,13 +42,34 @@ As time goes on, it appears more developers are concerned about their future in 
 <br/>
 
 #### Experience 
-If there is one thing experience teaches a developer, it is that you _will_ burn out. Possibly many times. The older one gets, the less motivation and capacity one has to stay up late every evening burning the midnight oil. Devoting ones life to the pursuit of learning yet another short lived framework or niche language to the exclusion of other physically, emotionally or mentally stimulating activities that aren't programming is the fast track to unhappiness. Spend your weekends doing other fulfilling activities that, no matter what they are, tangentally broaden your mind and expand your knowledge as a human being. Rather than seeing each new technology as exciting, the experienced programmer may well see each one as something not worth bothering with, with good reason[^1].
+If there is one thing experience teaches a developer, it is that you _will_ burn out. Possibly many times. The older one gets, the less motivation and capacity one has to stay up late every evening burning the midnight oil. Devoting ones life to the pursuit of learning yet another short lived framework or niche language to the exclusion of other physically, emotionally or mentally stimulating activities that aren't programming is the fast track to unhappiness and burn out. Spend your weekends doing other fulfilling activities that, no matter what they are, tangentially broaden your mind and expand your knowledge as a human being. Rather than seeing each new technology as exciting, the experienced programmer may well ignore it altogether[^1] as he may have seen it before in many different guises. With more experience, one can reliably determine whether something is worth incorporating into their work or not. Unless and until _new tech X_ is set to dramatically improve ones work, there is no reason to invest. When the time does come to invest in a new language, framework or library however, you will be able to learn it in a week or two when need arises.
+
+#### Knowledge
+So, how do I gain the experience to know what is worth
+
+Learn paradigms and principles. If you know what to do, you will be able to find the tools to do it.
+
+Its a bit like cooking - the cookbooks for the peasants give recipes. The ones for the chefs give mechanics and techniques.
+So learn pointers, functional programming, asynchronous operations and few more important paradigms, learn how to keep a code base tidy and organized and just ignore the foam on the water that is the hot new tech. You will be able to learn it in a week when need arises.
+
+
+
+You've got plenty of time. Other commenters are right, focus on theory, and bolster that by building things. Constantly. If there's one lesson I could hope to impart to any budding developer, it's to never stop building. Learn a bit about genetic algorithms - then implement a simple one. Learn a little Ruby, then build something with it. This will teach you a lot of what you need to know - fill in the gaps with Google. Focus on building good abstractions, and you'll be fine wherever you go.
 
 
 
 
 
-#### Learn for interests sake
+
+
+
+
+
+as you gain more experience, (which can correlate to the older you get, especially when you start early), you get better at knowing when something will really improve your work (making it faster, better looking, more enjoyable, better performing, more efficient, etc.) and when it won't. Perhaps the article's author is actually on to something. He intuitively knows New Tool X won't improve his work much, and he's wiser than his younger self, who would waste time chasing non-essential niceties.
+<br/>
+<br/>
+
+
 
 
 Mind-bending logical gymnastics 
@@ -114,13 +135,9 @@ I hope I still have something to offer. I don’t know what it will be, though.
 
 
 Relax. A lot of those technologies will be dead. And you should be intimidated by angular and ember. They have the smell of Enterprise Java for me.
-Learn paradigms and principles. If you know what to do, you will be able to find the tools to do it.
-Its a bit like cooking - the cookbooks for the peasants give recipes. The ones for the chefs give mechanics and techniques.
-So learn pointers, functional programming, asynchronous operations and few more important paradigms, learn how to keep a code base tidy and organized and just ignore the foam on the water that is the hot new tech. You will be able to learn it in a week when need arises.
 
-Here's good news from present me: as you gain more experience, (which can correlate to the older you get, especially when you start early), you get better at knowing when something will really improve your work (making it faster, better looking, more enjoyable, better performing, more efficient, etc.) and when it won't. Perhaps the article's author is actually on to something. He intuitively knows New Tool X won't improve his work much, and he's wiser than his younger self, who would waste time chasing non-essential niceties.
 
-You've got plenty of time. Other commenters are right, focus on theory, and bolster that by building things. Constantly. If there's one lesson I could hope to impart to any budding developer, it's to never stop building. Learn a bit about genetic algorithms - then implement a simple one. Learn a little Ruby, then build something with it. This will teach you a lot of what you need to know - fill in the gaps with Google. Focus on building good abstractions, and you'll be fine wherever you go.
+
 
 I relate to this quite strongly. Whether you like it or not, a software career forces you into being a generalist eventually. Technology changes dramatically every few years - unable to improve what we have, we do entire revolutions to make incremental progress, and in the process, we make everybody's skills stale. The only things that survive are the principles that are common to everything. There's nothing you can do about that. And once you end up a generalist it is very hard to be appreciated for your wide breadth of general skills. People want the best person for exactly the job they are about to do, very few take a long view, very few even have the luxury to do that.
 From another perspective, we are in unknown territory here. Us 40+ developers are at the vanguard of a generation of software people who have no trail blazed before them to tell us where our careers should go. There simply isn't a widespread professional software industry of 50+ and 60+ years old for us to look at and say "that will be me in 10 years". We were largely the first generation for whom software was a major industry. I take comfort from this because in all likelihood it will work out better than our worst fears would have us imagine. It is as much the lack of example and uncertainty as the reality that makes us feel insecure.
