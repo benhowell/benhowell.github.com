@@ -22,7 +22,7 @@ article_img_title: Asleep at the Wheel by Unknown
 </p>
 
 <p>
-<span markdown="span">[Like other rodents, hamsters are highly motivated to run in wheels][1].</span>
+<span markdown="span">[Like other rodents, hamsters are highly motivated to run in wheels][1].</span> Likewise, programmers in the early stages of their careers are highly motivated to run in wheels too. Digging into as many languages, libraries and frameworks they can get their hands on, working insane hours either on the job, or at home after work and on weekends until stupid o'clock.
 </p>
 
 <p>
@@ -51,33 +51,22 @@ article_img_title: Asleep at the Wheel by Unknown
  
  
  
- 
- The Developer's Dystopian Future
-I was always a worrier, but I used to be a young worrier. Now I am not so young. I still find things to worry about.
+
 
 I find myself more and more concerned about my future as a developer.
 
-As I’ve gotten older, I don’t stay up so late anymore. I spend more time with my family than on the computer (despite what they may say). I help in my community on a local school board, and I organize events for an open source interest group I started.
-
+As I’ve gotten older, I don’t stay up so late anymore.
 I think about how I used to fill my time with coding. So much coding. I was willing to dive so deep into a library or framework or technology to learn it.
 
 My tolerance for learning curves grows smaller every day. New technologies, once exciting for the sake of newness, now seem like hassles. I’m less and less tolerant of hokey marketing filled with superlatives. I value stability and clarity.
 
-I used to be really excited about JavaScript. I worked for five years running an open source project that was 95% JavaScript. I still never felt like I had a great handle on the tech stack though, and my understanding of so much of the new JS hotness (ES6, Angular, Ember, Shadow DOM, Module systems, etc) feels woefully lightweight. So many jobs seem to ask for AngularJS knowledge now. I took a few stabs at it, but the frequent BC breaks and plans for 2.0 have almost entirely soured me on the framework. My interest in rich client-side apps has almost entirely reversed, and now I’m more interested in doing good ol’ server rendering with the occasional side of progressive enhancement, just like we did it in 2004.
 
-At my day job we primarily use Python for our server side stack. I like the language, but I still feel like I don’t really know what I’m doing with it. I have 15 years of PHP under my belt, so I often know what I want to do, but not how to make it happen in Python. I don’t feel like I really grok the module system. I definitely don’t understand the class system. What the hell is a generator and how does it work the way it does? I am so lost.
-
-Don’t even get me started on DevOps. Have you ever tried setting up something on AWS? There are a billion buttons and settings and new, invented words I don’t understand. I have no clue how any of that stuff works.
-
-All of these problems would be solvable, given time and motivation. But motivation determines how I use my time, and I am just not terribly motivated to use what spare time I have to change the situation. There are other, more important needs in my life that are not related to programming languages.
+new JS hotness (ES6, Angular, Ember, Shadow DOM, Module systems, etc) feels woefully lightweight. 
 
 What I’m most scared of, though, is being left behind.
 
-Did you know I used to be a “designer?” Seriously. In 1999 my skills were decent enough to be called that on the web. I used to design CD art for an indie record label. Somewhere around 2005 or so, what passed for Good Design on the web flew right by my skills. I stopped putting “designer” in my bio a couple years ago, because it was ridiculous.
 
-It was a bit easier when I was a one man web shop, which I was for many years. I configured my own Apache, PHP, MySQL, PostgreSQL, and the like. I wrote my own server side code. I wrote my own HTML, and CSS, and JavaScript. I got to touch all of it, and I liked it a lot.
-
-Things change when you’re part of a team. It makes tons of sense, but I do miss it. I miss being able to play at design and HTML and CSS and see it into production. I miss being able to tweak server configs to see if I could squeeze extra performance out of PostgreSQL. Now I feel terribly specialized, and there doesn’t seem like much point to exploring those things if I’m not going to actually use it in my day job — especially when there are few other opportunities to do anything with the tech.
+Now I feel terribly specialized, and there doesn’t seem like much point to exploring those things if I’m not going to actually use it in my day job — especially when there are few other opportunities to do anything with the tech.
 
 I’m scared that either the job “web developer” is outpacing me, or my skills are atrophying.
 
