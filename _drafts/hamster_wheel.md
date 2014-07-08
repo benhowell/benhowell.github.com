@@ -26,7 +26,7 @@ article_img_title: Asleep at the Wheel by Unknown
 </p>
 
 <p>
-Dependency Injection frameworks, Javascript application frameworks, DOM manipulation libraries, SQL providers and frameworks, NoSQL solutions, OO languages, FP languages, concurrent and parallel languages and frameworks, to name but a few tricial examples from the top of ones head. Not sustainable. 
+There appear to be more developers concerned about their future in the industry if they don't hit that hamster wheel hard and play, build or learn each new technology that comes along. This is not only impossible to begin with, but over time, not sustainable, not healthy and certainly not the way to hone ones craft.
 </p>
 
 </div>
@@ -48,7 +48,7 @@ Dependency Injection frameworks, Javascript application frameworks, DOM manipula
  
  
  
- 
+ Dependency Injection frameworks, Javascript application frameworks, DOM manipulation libraries, SQL providers and frameworks, NoSQL solutions, OO languages, FP languages, concurrent and parallel languages and frameworks, to name but a few tricial examples from the top of ones head. Not sustainable. 
  
  
 
