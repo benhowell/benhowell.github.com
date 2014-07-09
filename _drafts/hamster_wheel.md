@@ -22,7 +22,7 @@ article_img_title: Asleep at the Wheel by Unknown
 </p>
 
 <p>
-<span markdown="span">[Like other rodents, hamsters are highly motivated to run in wheels][1].</span> Likewise, programmers in the early stages of their careers are highly motivated to run in wheels too. Digging into as many languages, libraries and frameworks they can get their hands on, building stuff using whatever happens to be popular this month and working insane hours either on the job, or at home after work and on weekends until stupid o'clock. 
+<span markdown="span">[Like other rodents, hamsters are highly motivated to run in wheels][1].</span> Likewise, programmers in the early stages of their careers are highly motivated to run in wheels too. Digging into as many books, languages, libraries, frameworks, patterns and methodologies they can get their hands on, building stuff using whatever happens to be popular this month and working insane hours either on the job, or at home after work and on weekends until stupid o'clock. 
 </p>
 
 <p>
@@ -42,11 +42,27 @@ As time goes on, it appears more developers are concerned about their future in 
 <br/>
 
 #### Experience 
-If there is one thing experience teaches a developer, it is that you _will_ burn out. Possibly many times. The older one gets, the less motivation and capacity one has to stay up late every evening burning the midnight oil. Devoting ones life to the pursuit of learning yet another short lived framework or niche language to the exclusion of other physically, emotionally or mentally stimulating activities that aren't programming is the fast track to unhappiness and burn out. Spend your weekends doing other fulfilling activities that, no matter what they are, tangentially broaden your mind and expand your knowledge and experience as a human being. Doing this is bound to improve your skills as a developer in ways that cannot be predicted. Software is for humans, not computers. With more experience, one can reliably determine whether something is worth incorporating into their work or not. Unless and until _new tech X_ is set to dramatically improve ones work, there is no reason to invest. When the time does come to invest in a new language, framework or library however, you will be able to learn it in a week or two when the need arises. Experience forces developers to work smarter, not harder.
+practical contact with and observation of facts or events.
+
+If there is one thing experience teaches a developer, it is that you _will_ burn out. Possibly many times. The older one gets, the less motivation and capacity one has to stay up late every evening burning the midnight oil. Devoting ones life to the pursuit of learning yet another short lived framework or niche language to the exclusion of other physically, emotionally or mentally stimulating activities that aren't programming is the fast track to unhappiness and burn out. Spend your weekends doing other fulfilling activities that, no matter what they are, tangentially broaden your mind and expand your knowledge and experience as a human being. Doing this is bound to improve your skills as a developer in ways that cannot be predicted. Software is for humans, not computers. With more experience, one can reliably determine whether something is worth incorporating into their work or not. Unless and until _new tech X_ is set to dramatically improve ones work, there is no reason to invest. When the time does come to invest in a new language, framework, library, pattern or methodology however, you will be able to learn enough in a handful of weeks at most when the need arises.
 <br/>
 <br/>
 
-#### Knowledge
+
+#### expertise
+expert skill or knowledge in a particular field.
+
+#### Skills
+the ability to do something well; expertise.
+
+
+#### Familiarity
+close acquaintance with or knowledge of something.
+
+#### Knowledge = Skills + Experience + Familiarity
+awareness or familiarity gained by experience of a fact or situation.
+
+
 So, how do I gain the experience to know what is worth
 
 Learn paradigms and principles. If you know what to do, you will be able to find the tools to do it.
@@ -82,6 +98,10 @@ Note that a lot (most?) comp sci programs don't necessarily address design princ
 So read books, build things and read code.
 
 
+#### Signal to noise ratio
+
+
+#### so what to do?
 
 
 
@@ -168,6 +188,7 @@ Unless for need, interest or fun, do not learn like-for-like frameworks and lang
 
 
 #### Asleep at the Wheel
+Experience forces developers to work smarter, not harder.
 Learn theory and technique, gain a deeper and fundamental knowledge. Get off the hamster wheel.
 
 
