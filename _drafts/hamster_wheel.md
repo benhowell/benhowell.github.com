@@ -22,7 +22,7 @@ article_img_title: Asleep at the Wheel by Unknown
 </p>
 
 <p>
-<span markdown="span">[Like other rodents, hamsters are highly motivated to run in wheels][1].</span> Likewise, programmers in the early stages of their careers are highly motivated to run in wheels too. Digging into as many books, languages, libraries, frameworks, patterns and methodologies they can get their hands on, building stuff using whatever happens to be popular this month and working insane hours either on the job, or at home after work and on weekends until stupid o'clock. 
+<span markdown="span">[Like other rodents, hamsters are highly motivated to run in wheels][1].</span> Likewise, programmers in the early stages of their careers are highly motivated to run in wheels too. Digging into as many languages, libraries and frameworks they can get their hands on, building stuff using whatever happens to be popular this month and working insane hours either on the job, or at home after work and on weekends until stupid o'clock.
 </p>
 
 <p>
