@@ -44,7 +44,7 @@ As time goes on, it appears more developers are concerned about their future in 
 #### Experience 
 The knowledge or skill acquired by a period of practical experience of something, especially that gained in a particular profession
 
-If there is one thing experience teaches a developer, it is that you _will_ burn out. Possibly many times. The older one gets, the less motivation and capacity one has to stay up late every evening burning the midnight oil. Devoting ones life to the pursuit of learning yet another short lived framework or niche language to the exclusion of other physically, emotionally or mentally stimulating activities that aren't programming is the fast track to unhappiness and burn out. Spend your weekends doing other fulfilling activities that, no matter what they are, tangentially broaden your mind and expand your knowledge and experience as a human being. Doing this is bound to improve your skills as a developer in ways that cannot be predicted. Software is for humans, not computers. With more experience, one can reliably determine whether something is worth incorporating into their work or not. Unless and until _new tech X_ is set to dramatically improve ones work, there is no reason to invest. When the time does come to invest in a new language, framework, library, pattern or methodology however, you will be able to learn enough in a week or two when required.
+If there is one thing experience teaches a developer, it is that you _will_ burn out. Possibly many times. The older one gets, the less motivation and capacity one has to stay up late every evening burning the midnight oil. Devoting ones life to the pursuit of learning yet another short lived framework or niche language to the exclusion of other physically, emotionally or mentally stimulating activities that aren't programming is the fast track to unhappiness and burn out. Spend your weekends doing other fulfilling activities that, no matter what they are, tangentially broaden your mind and expand your knowledge and experience as a human being. Doing this is bound to improve your skills as a developer in ways that cannot be predicted. Software is for humans, not computers. With more experience, one can reliably determine whether something is worth incorporating into their work or not. Unless and until _new X_ is set to dramatically improve ones work, unless it provides performance gains, simplicity, or some other measurale benefit, there is no reason to invest. When the time does come to invest in a new language, framework, library, pattern or methodology however, you will be able to learn enough in a week or two when required.
 <br/>
 <br/>
 
@@ -64,16 +64,18 @@ awareness or familiarity gained by experience of a fact or situation.
 Facts, information, and skills acquired through experience or education; the theoretical or practical understanding of a subject.
 
 
-So, how do I gain the experience to know what is worth
 
-Learn paradigms and principles. If you know what to do, you will be able to find the tools to do it.
+
+
 
 Its a bit like cooking - the cookbooks for the peasants give recipes. The ones for the chefs give mechanics and techniques.
 So learn pointers, functional programming, asynchronous operations and few more important paradigms, learn how to keep a code base tidy and organized and just ignore the foam on the water that is the hot new tech. 
 
-focus on theory, and bolster that by building things. Constantly. If there's one lesson I could hope to impart to any budding developer, it's to never stop building. Learn a bit about genetic algorithms - then implement a simple one. Learn a little Ruby, then build something with it. This will teach you a lot of what you need to know - fill in the gaps with Google. Focus on building good abstractions, and you'll be fine wherever you go.
+Constantly. If there's one lesson I could hope to impart to any budding developer, it's to never stop building. Learn a bit about genetic algorithms - then implement a simple one. Learn a little Ruby, then build something with it. This will teach you a lot of what you need to know - fill in the gaps with Google. Focus on building good abstractions, and you'll be fine wherever you go.
 
 
+
+Learn paradigms and principles. If you know what to do, you will be able to find the tools to do it.
 Focus on theory and putting it into practice by building stuff. Build
 Read up on various design patterns. read up on architecture and methodologies. Realize that no-architecture is frequently chosen due to ignorance ('pragmatism'). Learn OOP, FP, logic, prototype and rule based programming principles. Learn parallel programming, learn concurrency, [learn synchronous vs asynchronous invocation and message passing patterns]({% post_url 2014-05-02-invocation-matters %}). Learn how to decouple functionality, learn single responsibility principles, learn open/closed principles, learn DRY (don't repeat yourself), also learn the tradeoffs, costs, benefits and efficiencies of these things. Learn when and when not to use frameworks and libraries. Don't just blindly use framework when you could possibly roll your own solution with minimal code resulting in a far simpler system (this is particularly important when using only 1% of the functionality of that library).
 
@@ -118,16 +120,7 @@ So read books, build things and read code.
 
 
 #### so what to do?
-wow, didn't realise I bashed out so much stuff to learn... anyway, you have the rest of your career to do so and each problem you tackle will guide you on what to learn next. The point being, focussing on theory, design principles and patterns, programming fundamentals and implementing them in real systems will teach you much more than learning every new language, library or framework that comes along. [Read blogs, articles, code and books]({% post_url 2014-06-25-code-incomplete %}), and write code and build things.
-
-
-
-Rather than seeing each new technology as exciting, the experienced programmer may well ignore it altogether[^1] as he may have seen it before in many different guises.
-
-
-
-Relax. A lot of those technologies will be dead. And you should be intimidated by angular and ember. They have the smell of Enterprise Java for me.
-
+wow, didn't realise I bashed out so much stuff to learn... anyway, you have the rest of your career to do so and each problem you tackle will guide you on what to learn next. The point being, focussing on theory, design principles and patterns, programming fundamentals and implementing them in real systems will teach you much more than learning every new language, library or framework that comes along. [Read blogs, articles, code and books]({% post_url 2014-06-25-code-incomplete %}), and write code and always be building things. From my experience, early career programmers tend to spend as much time as possible coding, however, as programmers mature they tend to spend less time coding and more time reading and thinking. Early career programmers need to take some time out of their coding each day for reading and thinking. Don't feel as though you are being employed to type code all day, because this is patently false (even if it does make you feel guilty for not doing so). You are a knowledge worker, you are being paid for your powers of deduction, logic and abstraction all of which require constant refinement. You _will_ write better code in a shorter period of time by spending less time coding and more time reading and thinking.
 
 
 
@@ -140,35 +133,6 @@ Relax. A lot of those technologies will be dead. And you should be intimidated b
 
 
 
-
-
-
-
-Mind-bending logical gymnastics 
- 
- 
- 
-
- 
- 
-
-
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  
  
  
