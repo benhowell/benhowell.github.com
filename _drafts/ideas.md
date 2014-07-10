@@ -10,7 +10,8 @@ article_img: bootstrap/img/qn.png
 
  * API design. (little manual of API design)
 
-
+ * Software is for humans, not computers.
+ 
  * avx instructions in language x?
  * visitor pattern?
  * command pattern?
