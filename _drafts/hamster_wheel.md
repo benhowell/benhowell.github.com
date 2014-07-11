@@ -47,29 +47,29 @@ If there is one thing experience teaches you as a developer, it is that you _wil
 <br/>
 
 #### Limited Time, Unlimited Scope
-Avoid learning like-for-like frameworks and rehashes of similar works in different languages. Learn object oriented programming, functional programming, logic and rule based programming principles. Learn a dymanic language and static type systems. [Learn synchronous vs asynchronous invocation and message passing patterns]({% post_url 2014-05-02-invocation-matters %}), learn parallel programming and concurrency and know the difference between them. Learn how to decouple functionality and function composition, single responsibility principles, open/closed principles, learn how to abstract and generalise concepts, also learn the tradeoffs, costs, benefits and efficiencies of these things. Generalise rather than specialise.
+Avoid learning like-for-like frameworks and rehashes of similar works in different languages. Learn object oriented programming, functional programming, logic and rule based programming principles. Learn a dynamic language and static type systems. [Learn synchronous vs asynchronous invocation and message passing patterns]({% post_url 2014-05-02-invocation-matters %}), learn parallel programming and concurrency and know the difference between them. Learn how to decouple functionality and function composition, single responsibility principles, open/closed principles, learn how to abstract and generalise concepts, also learn the trade offs, costs, benefits and efficiencies of these things. Generalise rather than specialise.
 
 Learn how to organise your code base and use version control. Learn how to test and debug. Learn to recognise [anti-patterns][4] and [code smells][5]. Read up on various design patterns, architecture and methodologies. Read a little about state machines, AI and machine learning topics. Play around with some geospatial stuff. If you're a web developer, build some desktop or server apps and vice verca.
 
-These things add incredible bredth and flexibility to your knowledge base and will help you deal with most programming and design situations you're likely to encounter, no matter the language or library, and if not, you'll have the background knowledge to be able to find the tools you need for the job. Sharing what you know and helping others also keeps your skills sharp.
+These things add incredible breadth and flexibility to your knowledge base and will help you deal with most programming and design situations you're likely to encounter, no matter the language or library, and if not, you'll have the background knowledge to be able to find the tools you need for the job. Sharing what you know and helping others also keeps your skills sharp.
 
 For some subjects, reading up on and understanding the concepts behind them is enough. Others will require a little more investigation and practical use and sometimes, they'll take you on a wild ride into the depths of a mentally stimulating journey to the centre of a new abstract universe of revelation. With the web at your disposal you can learn anything but _not everything_. Choose what interests you and the amount of effort you're willing to invest.
 <br/>
 <br/>
  
 #### Simplicity
-Many codebases, software and systems have an overwhelming amount of complexity added by developers using numerous frameworks and libraries for only small pieces of functionality inherent in each. Do you really need an ORM for a simple application with a handful of database queries? Do you really need to use a MVC framework for a simple website or application? Simplicity has been forgotten. Only introduce structure, generalisation and abstractions as you design, build and recognise the need. Use modularisation to divvy up work if you're working in a team. Don't build for hypothetical future use cases. Learn when and when not to use frameworks and libraries. Build the minimal functionality that covers your specs.
+Many software systems have an overwhelming amount of complexity added by developers using numerous frameworks and libraries for only small pieces of functionality inherent in each. Do you really need an ORM for a simple application with a handful of database queries? Do you really need to use a MVC framework for a simple website or application? Simplicity has been forgotten. Only introduce structure, generalisation and abstractions as you design, build and recognise the need. Use modularisation to divvy up work if you're working in a team. Don't build for hypothetical future use cases. Learn when and when not to use frameworks and libraries. Build the minimal functionality that covers your specs.
 
 _Simplicity is the ultimate sophistication_ -- <cite>[Unknown][3]</cite>.
 <br/>
 <br/>
 
 #### Is that it?
-When I started writing this article I didn't realise I'd be suggesting so much stuff to learn! Anyway, you have the rest of your career to learn and each problem you tackle and your natural interest will guide you on what to learn next. The point being, focussing on theory, design principles and patterns, programming fundamentals and implementing them in real systems will teach you much more than learning every new language, library or framework that comes along. Read blogs, articles, code and books (and don't restrict this reading to programming!), [review your previous work]({% post_url 2014-06-25-code-incomplete %}) and always be building things. 
+When I started writing this article I didn't realise I'd be suggesting so much stuff to learn! Anyway, you have the rest of your career to learn and each problem you tackle and your natural interest will guide you on what to learn next. The point being, focusing on theory, design principles and patterns, programming fundamentals and implementing them in real systems will teach you much more than learning every new language, library or framework that comes along. Read blogs, articles, code and books (and don't restrict this reading to programming!), [review your previous work]({% post_url 2014-06-25-code-incomplete %}) and always be building things. 
 
 Early in your career you'll most likely tend to spend as much time as possible coding, however, as you mature you need to spend less time coding and more time reading and thinking. Programmers need to take some time out of their coding each day for reading and thinking. You're a knowledge worker, your value is your powers of deduction, logic and abstraction, your value is your ability to build complex (no more than needed!) systems from abstract concepts using nothing but your mind. You _will_ write better code in a shorter period of time by spending less time coding and more time reading and thinking.
 
-Unless for need, interest or fun, do not learn like-for-like frameworks and languages in a vain effort to keep up. Instead learn to abstract and generalise the relevent benefits and technologies behind them, and if need be, learn those concepts. Only learn what languages and frameworks _you_ want and need to learn and apply your deeper knowledge within those.
+Unless for need, interest or fun, do not learn like-for-like frameworks and languages in a vain effort to keep up. Instead learn to abstract and generalise the relevant benefits and technologies behind them, and if need be, learn those concepts. Only learn what languages and frameworks _you_ want and need to learn and apply your deeper knowledge within those.
 <br/>
 <br/>
 
@@ -79,7 +79,7 @@ Spend your weekends doing other fulfilling activities which, no matter what they
 <br/>
 
 #### Enjoy the ride
-Along your journey you will develop your own style and taste. You'll develop the instincts to know when and how to break the rules. Your knowledge will become so ingrained that execution of such concepts becomes second nature. The journey is that of continual learning, working smarter not harder, and it is a journey you should enjoy. Learn theory and technique, gain a deeper and fundamental knowledge and forget about every new language, framework or library that comes along. Get off the hamster wheel.
+Along your journey you will develop your own style and taste. You'll develop the instincts to know when and how to break the rules. Your knowledge will become so ingrained that recognition and execution of such concepts becomes second nature. The journey is that of [continual learning]({% post_url 2014-06-25-code-incomplete %}), working smarter not harder, and it is a journey you should enjoy. Learn theory and technique, gain a deeper and fundamental knowledge and forget about every new language, framework or library that comes along. Get off the hamster wheel!
 <br/>
 <br/>
 
