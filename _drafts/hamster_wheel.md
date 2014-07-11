@@ -60,14 +60,9 @@ For some subjects, reading up on and understanding the concepts behind them is e
 <br/>
  
 #### Simplicity
-Many codebases, software and systems have an overwhelming amount of complexity added by developers using numerous frameworks and libraries for only small pieces of functionality inherent in each. Do you really need an ORM for a simple application with a handful of database queries? Do you really need to use a MVC framework for a simple website or application? Building websites can be pretty simple, many MVC frameworks actually make this job harder. Simplicity has been forgotten. Only introduce structure, generalisation and abstractions as you design, build and recognise the need. Use modularisation to divvy up work if you're working in a team. Don't build for hypothetical future use cases. Build the minimal functionality that covers your specs.
+Many codebases, software and systems have an overwhelming amount of complexity added by developers using numerous frameworks and libraries for only small pieces of functionality inherent in each. Do you really need an ORM for a simple application with a handful of database queries? Do you really need to use a MVC framework for a simple website or application? Simplicity has been forgotten. Only introduce structure, generalisation and abstractions as you design, build and recognise the need. Use modularisation to divvy up work if you're working in a team. Don't build for hypothetical future use cases. Build the minimal functionality that covers your specs.
 
 _Simplicity is the ultimate sophistication_ -- <cite>[Unknown][3]</cite>.
-<br/>
-<br/>
-
-#### Experience
-With experience, you'll be able to reliably determine whether something is worth incorporating into your work or not. Unless and until _new thing X_ is set to dramatically improve your work, unless it provides performance gains, simplicity, or some other measurable benefit to you, there is no reason to invest unless for pure interest. When the time does come to invest in a new language, framework, library, pattern or methodology however, you will be able to learn enough in a week or two when required.
 <br/>
 <br/>
 
