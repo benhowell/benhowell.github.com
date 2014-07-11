@@ -42,7 +42,7 @@ As time goes on, it appears more developers are concerned about their future in 
 <br/>
 
 #### Burnout 
-If there is one thing experience teaches you as a developer, it is that you _will_ burn out. Possibly many times. The older one gets, the less motivation and capacity one has to stay up late every day burning the midnight oil. Devoting ones life to the pursuit of learning yet another short lived framework or niche language to the exclusion of other physically, emotionally and mentally stimulating activities that aren't programming is the fast track to unhappiness and burn out. Spend your weekends doing other fulfilling activities which, no matter what they are, tangentially broaden your mind and expand your knowledge and experience as a human being. This is bound to improve your skills as a programmer and present serendipitous opportunities in ways that cannot be predicted. 
+If there is one thing experience teaches you as a developer, it is that you _will_ burn out. Possibly many times. Devoting your life to the pursuit of learning yet another short lived framework or niche language to the exclusion of other physically, emotionally and mentally stimulating activities that aren't programming is the fast track to unhappiness and burn out. You'll be asleep at the wheel. It's unavoidable that the older you get, the less motivation and capacity you will have to stay up late every evening burning the midnight oil.
 <br/>
 <br/>
 
@@ -93,30 +93,33 @@ oop and fp: It was the exposure to a dual perspective.
 All of these things add incredible bredth and flexibility to your reportoire covering most programming and design situations you're likely to encounter, no matter the language or library, and if not, you'll have the background knowledge to tackle it.
 
 
-
-
-
-#### so what to do?
-wow, didn't realise I bashed out so much stuff to learn... anyway, you have the rest of your career to do so and each problem you tackle will guide you on what to learn next. The point being, focussing on theory, design principles and patterns, programming fundamentals and implementing them in real systems will teach you much more than learning every new language, library or framework that comes along. Read blogs, articles, code and books, [review your previous work]({% post_url 2014-06-25-code-incomplete %}) and always be building things. Most early career programmers tend to spend as much time as possible coding, however, as programmers mature they tend to spend less time coding and more time reading and thinking. Early career programmers need to take some time out of their coding each day for reading and thinking. Don't feel as though you are being employed to type code all day, because this is patently false (even if it does make you feel guilty for not doing so). You are a knowledge worker, you are being paid for your powers of deduction, logic and abstraction, you're being paid for your ability to build complex systems from abstract concepts using nothing but your mind. You _will_ write better code in a shorter period of time by spending less time coding and more time reading and thinking.
-
-
-Along your journey you will develop your own style and taste. You'll develop the instincts to know when and how to break the rules. Your knowledge will become so ingrained that your execution of such concepts becomes inherent. The journey is that of continual learning, working smarter not harder, and it is that journey that you should enjoy rather than the end goal as that's retirement! Notice nothing I have written about in this article is based on any single language, framework or library so get off that hamster wheel!
-
-
-
-
-<br/>
-<br/>
-
-
-
- 
  
  
  
  
 #### Simplicity
-Frameworks and stuff are getting more complex. Simplicity has been forgotten. MVP and stuff. building websites can be simple, many frameworks actually make this job harder. Simplicity is the ultimate sophistication (ref - who said that?). Introduce structure, generalisation and abstractions as you build and recognise the need. Don't start at the other end of the equation. Use modularisation to divvy up work if you're working in a team.
+In many codebases and systems I've seen over the years there has been an overwhelming amount of complexity added by developers using the mindset of stitching together numerous frameworks and libraries for only small pieces of functionality. Do you really need an ORM for a simple application with a handful of database queries? Building websites can be pretty simple, many MVC frameworks and the like actually make this job harder. Simplicity has been forgotten. Only introduce structure, generalisation and abstractions as you design, build and recognise the need. Use modularisation to divvy up work if you're working in a team.
+_Simplicity is the ultimate sophistication_ -- <cite>[Unknown][3]</cite>[^1].
+<br/>
+<br/>
+
+
+#### Is that it?
+Wow, didn't realise I'd bashed out so much stuff to learn! Anyway, you have the rest of your career to learn and each problem you tackle will guide you on what to learn next. The point being, focussing on theory, design principles and patterns, programming fundamentals and implementing them in real systems will teach you much more than learning every new language, library or framework that comes along. Read blogs, articles, code and books (and don't restrict this reading to programming!), [review your previous work]({% post_url 2014-06-25-code-incomplete %}) and always be building things. 
+
+Early in your career you'll most likely tend to spend as much time as possible coding, however, as you mature you need to spend less time coding and more time reading and thinking. Early career programmers need to take some time out of their coding each day for reading and thinking. Don't feel as though you are being employed to type code all day, because this is patently untrue. You're a knowledge worker, you're being paid for your powers of deduction, logic and abstraction, you're being paid for your ability to build complex systems from abstract concepts using nothing but your mind. You _will_ write better code in a shorter period of time by spending less time coding and more time reading and thinking.
+
+Spend your weekends doing other fulfilling activities which, no matter what they are, tangentially broaden your mind and expand your knowledge and experience as a human being. This is bound to improve your skills as a programmer and present serendipitous opportunities in ways that cannot be predicted. 
+
+Unless for need, interest or fun, do not learn like-for-like frameworks and languages in a vain effort to keep up. Instead learn to abstract and generalise the relevent benefits and technologies behind them, and if need be, learn those concepts. Only learn what languages and frameworks _you_ want and need to learn and apply your deeper knowledge within those.
+
+Along your journey you will develop your own style and taste. You'll develop the instincts to know when and how to break the rules. Your knowledge will become so ingrained that execution of such concepts becomes second nature. The journey is that of continual learning, working smarter not harder, and it is a journey you should enjoy. Learn theory and technique, gain a deeper and fundamental knowledge and forget about every new language, framework or library that comes along. Get off the hamster wheel.
+<br/>
+<br/>
+
+
+
+ 
 
 
 
@@ -124,17 +127,15 @@ Frameworks and stuff are getting more complex. Simplicity has been forgotten. MV
 
 
 
-#### Asleep at the Wheel
-Unless for need, interest or fun, do not learn like-for-like frameworks and languages in a vain effort to keep up. Instead learn to abstract and generalise the relevent benefits and technologies behind the latest hipster frameworks and languages and whatever the evangelists are flogging this month.
 
-Only learn what languages and frameworks _you_ want and need to learn and apply your deeper knowledge within those. 
-Experience forces developers to work smarter, not harder.
-Learn theory and technique, gain a deeper and fundamental knowledge. Get off the hamster wheel.
+
+
 
 
 
 [1]:http://en.wikipedia.org/wiki/Hamster_wheel
 [2]:http://en.wiktionary.org/wiki/hamster_wheel
+[3]:http://en.wikipedia.org/wiki/Simplicity
 
 
 #### Notes

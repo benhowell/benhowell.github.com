@@ -12,6 +12,8 @@ article_img: bootstrap/img/qn.png
 
  * Software is for humans, not computers.
  
+ * Knuth: programming is writing. Even books and articles on complex subjects are fairly light on structure.
+ 
  * avx instructions in language x?
  * visitor pattern?
  * command pattern?
