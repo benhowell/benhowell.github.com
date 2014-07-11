@@ -47,7 +47,7 @@ If there is one thing experience teaches you as a developer, it is that you _wil
 <br/>
 
 #### Limited Time, Unlimited Scope
-Avoid learning like-for-like frameworks and rehashes of similar works in different languages. Learn when and when not to use frameworks and libraries. Don't just blindly use a framework when you could possibly roll your own solution with minimal code as this will result in a far simpler system. 
+Avoid learning like-for-like frameworks and rehashes of similar works in different languages. Learn when and when not to use frameworks and libraries.
 
 Learn object oriented programming, functional programming, logic and rule based programming principles. Learn a dymanic language and then static type systems. Learn parallel programming, learn concurrency, [learn synchronous vs asynchronous invocation and message passing patterns]({% post_url 2014-05-02-invocation-matters %}). Learn how to decouple functionality in your programs and function composition, learn single responsibility principles, learn open/closed principles, learn DRY (don't repeat yourself), learn how to abstract and generalise concepts, also learn the tradeoffs, costs, benefits and efficiencies of these things. 
 
