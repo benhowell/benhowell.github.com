@@ -6,7 +6,7 @@ tagline: "craft"
 category: craft
 tags: [craft, design, craftsmanship, compsci, programming, coding]
 article_img: bootstrap/img/Sleeping-Hamster.jpg
-article_img_title: Asleep at the Wheel by Unknown
+article_img_title: Asleep at the Wheel
 ---
 {% include JB/setup %}
 <div class="intro">
@@ -15,7 +15,7 @@ article_img_title: Asleep at the Wheel by Unknown
 **Hamster Wheel**
 </span>
 
-/ˈhæm.stər wiːl/ 
+/ˈhamstə wiːl/ 
 
 <p>
 <span markdown="span">_A monotonous, repetitive, unfulfilling activity, especially one in which no progress is achieved.[^1]_</span>
@@ -26,7 +26,7 @@ article_img_title: Asleep at the Wheel by Unknown
 </p>
 
 <p>
-As time goes on, it appears more developers are concerned about their future in the industry if they don't keep running on that hamster wheel full-tilt and play, build or learn each new technology that comes along for fear of being left behind. This lifestyle is not sustainable, not healthy and certainly not the way to hone ones craft.
+As time goes on, it appears more developers are concerned about their future in the industry if they don't keep running on that hamster wheel full-tilt and play, build or learn each new technology that comes along for fear of being left behind. This lifestyle is not sustainable, not healthy and certainly not the way to hone one's craft.
 </p>
 
 </div>
@@ -65,7 +65,7 @@ _Simplicity is the ultimate sophistication_ -- <cite>[Unknown][3]</cite>.
 <br/>
 
 #### Is that it?
-When I started writing this article I didn't realise I'd be suggesting so much stuff to learn! Anyway, you have the rest of your career to learn and each problem you tackle and your natural interest will guide you on what to learn next. The point being, focusing on theory, design principles and patterns, programming fundamentals and implementing them in real systems will teach you much more than learning every new language, library or framework that comes along. Read blogs, articles, code and books (and don't restrict this reading to programming!), [review your previous work]({% post_url 2014-06-25-code-incomplete %}) and always be building things. 
+When I started writing this article I didn't realise I'd be suggesting so much stuff to learn! Anyway, you have the rest of your career to learn and each problem you tackle and your natural interest will guide you on what to learn next. Focusing on theory, design principles, patterns and programming fundamentals, and implementing them in real systems will teach you much more than learning every new language, library or framework that comes along. Read blogs, articles, code and books (and don't restrict this reading to programming!), [review your previous work]({% post_url 2014-06-25-code-incomplete %}) and always be building things. 
 
 Early in your career you'll most likely tend to spend as much time as possible coding, however, as you mature you need to spend less time coding and more time reading and thinking. Programmers need to take some time out of their coding each day for reading and thinking. You're a knowledge worker, your value is your powers of deduction, logic and abstraction, your value is your ability to build complex (no more than needed!) systems from abstract concepts using nothing but your mind. You _will_ write better code in a shorter period of time by spending less time coding and more time reading and thinking.
 
@@ -82,21 +82,6 @@ Spend your weekends doing other fulfilling activities which, no matter what they
 Along your journey you will develop your own style and taste. You'll develop the instincts to know when and how to break the rules. Your knowledge will become so ingrained that recognition and execution of such concepts becomes second nature. The journey is that of [continual learning]({% post_url 2014-06-25-code-incomplete %}), working smarter not harder, and it is a journey you should enjoy. Learn theory and technique, gain a deeper and fundamental knowledge and forget about every new language, framework or library that comes along. Get off the hamster wheel!
 <br/>
 <br/>
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
 
 
 [1]:http://en.wikipedia.org/wiki/Hamster_wheel
