@@ -49,21 +49,13 @@ If there is one thing experience teaches you as a developer, it is that you _wil
 #### Limited Time, Unlimited Scope
 Avoid learning like-for-like frameworks and rehashes of similar works in different languages. Learn when and when not to use frameworks and libraries.
 
-Learn object oriented programming, functional programming, logic and rule based programming principles. Learn a dymanic language and static type systems. Learn parallel programming and concurrency and know the difference between them, [learn synchronous vs asynchronous invocation and message passing patterns]({% post_url 2014-05-02-invocation-matters %}). Learn how to decouple functionality in your programs and function composition, learn single responsibility principles, learn open/closed principles, learn DRY (don't repeat yourself), learn how to abstract and generalise concepts, also learn the tradeoffs, costs, benefits and efficiencies of these things. 
+Learn object oriented programming, functional programming, logic and rule based programming principles. Learn a dymanic language and static type systems. Learn parallel programming and concurrency and know the difference between them, [learn synchronous vs asynchronous invocation and message passing patterns]({% post_url 2014-05-02-invocation-matters %}). Learn how to decouple functionality in your programs and function composition, learn single responsibility principles, open/closed principles, DRY (don't repeat yourself), learn how to abstract and generalise concepts, also learn the tradeoffs, costs, benefits and efficiencies of these things. Generalise rather than specialise.
 
-Learn how to organise your code base and use version control. Learn how to test and debug. Learn to recognise [anti-patterns][4] and [code smells][5]. Read up on various design patterns, architecture and methodologies. 
+Learn how to organise your code base and use version control. Learn how to test and debug. Learn to recognise [anti-patterns][4] and [code smells][5]. Read up on various design patterns, architecture and methodologies. Read a little about state machines, AI and machine learning topics. Play around with some geospatial stuff. If you're a web developer, build some desktop or server apps and vice verca.
 
-Read a little about state machines, AI and machine learning topics. Play around with some geospatial stuff. If you're a web developer, build some desktop or server apps and vice verca.
+All of these things add incredible bredth and flexibility to your reportoire covering most programming and design situations you're likely to encounter, no matter the language or library, and if not, you'll have the background knowledge to be able to find the tools you need for the job. Now share what you know and help others.
 
-Generalise rather than specialise.
-
-Share what you know, help others.
-
-All of these things add incredible bredth and flexibility to your reportoire covering most programming and design situations you're likely to encounter, no matter the language or library, and if not, you'll have the background knowledge to be able to find the tools you need for the job.
-
-For some subjects, reading up on and understanding the concepts behind them is enough. Others will require a little more investigation and practical use and sometimes, they'll take you on a wild ride into the depths of a mentally stimulating journey to the centre of a new abstract universe of revelation.
-
-With the web at your disposal you can learn anything but _not everything_. Choose what interests you and the amount of effort you're willing to invest.
+For some subjects, reading up on and understanding the concepts behind them is enough. Others will require a little more investigation and practical use and sometimes, they'll take you on a wild ride into the depths of a mentally stimulating journey to the centre of a new abstract universe of revelation. With the web at your disposal you can learn anything but _not everything_. Choose what interests you and the amount of effort you're willing to invest.
 <br/>
 <br/>
  
