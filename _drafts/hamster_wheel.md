@@ -77,20 +77,18 @@ composition over inheritance
 
 share what you know, help others.
 
-
-
-
-
-
-
-#### Experience
-The knowledge or skill acquired by a period of practical experience of something, especially that gained in a particular profession.
-With experience, programmers can reliably determine whether something is worth incorporating into their work or not. Unless and until _new thing X_ is set to dramatically improve ones work, unless it provides performance gains, simplicity, or some other measurable benefit, there is no reason to invest outside of pure interest. When the time does come to invest in a new language, framework, library, pattern or methodology however, you will be able to learn enough in a week or two when required.
-
 oop and fp: It was the exposure to a dual perspective.
 
 
 All of these things add incredible bredth and flexibility to your reportoire covering most programming and design situations you're likely to encounter, no matter the language or library, and if not, you'll have the background knowledge to tackle it.
+
+
+
+
+
+
+
+
 
 
  
@@ -99,10 +97,14 @@ All of these things add incredible bredth and flexibility to your reportoire cov
  
 #### Simplicity
 In many codebases and systems I've seen over the years there has been an overwhelming amount of complexity added by developers using the mindset of stitching together numerous frameworks and libraries for only small pieces of functionality. Do you really need an ORM for a simple application with a handful of database queries? Building websites can be pretty simple, many MVC frameworks and the like actually make this job harder. Simplicity has been forgotten. Only introduce structure, generalisation and abstractions as you design, build and recognise the need. Use modularisation to divvy up work if you're working in a team.
-_Simplicity is the ultimate sophistication_ -- <cite>[Unknown][3]</cite>[^1].
+_Simplicity is the ultimate sophistication_ -- <cite>[Unknown][3]</cite>.
 <br/>
 <br/>
 
+#### Experience
+With experience, you'll be able to reliably determine whether something is worth incorporating into your work or not. Unless and until _new thing X_ is set to dramatically improve your work, unless it provides performance gains, simplicity, or some other measurable benefit, there is no reason to invest unless for pure interest. When the time does come to invest in a new language, framework, library, pattern or methodology however, you will be able to learn enough in a week or two when required.
+<br/>
+<br/>
 
 #### Is that it?
 Wow, didn't realise I'd bashed out so much stuff to learn! Anyway, you have the rest of your career to learn and each problem you tackle will guide you on what to learn next. The point being, focussing on theory, design principles and patterns, programming fundamentals and implementing them in real systems will teach you much more than learning every new language, library or framework that comes along. Read blogs, articles, code and books (and don't restrict this reading to programming!), [review your previous work]({% post_url 2014-06-25-code-incomplete %}) and always be building things. 
