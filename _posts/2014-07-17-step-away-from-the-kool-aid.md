@@ -5,8 +5,8 @@ description: "Step Away From the Kool Aid"
 tagline: "people"
 category: people
 tags: [people, management, psychology, bootstrap]
-article_img: bootstrap/img/jim_jones_250.png
-article_img_title: Question Mark by Anonymous
+article_img: bootstrap/img/jim_jones_250.jpg
+article_img_title: The Rev. Jim Jones by Clem Albers / The Chronicle
 ---
 {% include JB/setup %}
 <div class="intro">
