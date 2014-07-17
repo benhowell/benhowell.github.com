@@ -11,7 +11,12 @@ article_img_title: The Rev. Jim Jones by Clem Albers - The Chronicle
 {% include JB/setup %}
 <div class="intro">
 <div class="intro-txt">
-Bootstrapping. Building a business from scratch without external funding. A praiseworthy pursuit for any budding entrepreneur. In fact, if you have the excitement and drive so see your mission through to successful business then you deserve all the kudos that comes your way. Frugality is the rule of law for starting lean and bootstrapping but should you also expect others to sacrifice current and future earnings to build your dream? 
+<p>
+Bootstrapping. Building a business from scratch without external funding. A praiseworthy pursuit for any budding entrepreneur. In fact, if you have the excitement and drive so see your mission through to successful business then you deserve all the kudos that comes your way. Frugality is the rule of law for starting lean and bootstrapping but should you also expect others to sacrifice current and future earnings to build your dream?
+</p>
+<p>
+Is it just and fair (and in some countries even legal) to pay a fraction of the market rate for employees to build your business?
+</p>
 </div>
 <div class="intro-img-border">
 <div class="intro-img-bevel">
