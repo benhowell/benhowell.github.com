@@ -30,7 +30,7 @@ Is it ok to pay less for labour just because an employee believes in what you wa
 <br/>
 
 #### Hire People Who Dig Your Mission
-The headline above was pulled from an [article by Erica Swallow for Forbes][1]. The story, titled "How One Startup Grew a $100M Business Without Spending Venture Capital", features some less than savoury advice about hiring.
+The headline above was pulled from a [Forbes article by Erica Swallow][1]. The story, titled "How One Startup Grew a $100M Business Without Spending Venture Capital", features some less than savoury advice about hiring.
 
 _Chabot says that you can tell during interviews who will be a fit for your bootstrapped startup. The right people thrive in low-cost environments and are totally up for working at a fraction of the market rate for their given position if it means working on a cool product they are excited by. If the discussion feels like a struggle, though, that’s a bad sign, he says, especially when it comes to the money talk. For those money-interested candidates who weren’t going to work out, he recalls saying, “If you want to make a market rate, you should probably go to a company that has a product in a market, because we don’t yet.” Zing!_ -- <cite>[R. Christian Chabot, CEO and co-founder of Tableau Software][2]</cite>[^2].
 
