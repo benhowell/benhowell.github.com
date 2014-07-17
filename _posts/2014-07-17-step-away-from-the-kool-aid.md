@@ -6,12 +6,12 @@ tagline: "people"
 category: people
 tags: [people, management, psychology, bootstrap]
 article_img: bootstrap/img/jim_jones_250.jpg
-article_img_title: The Rev. Jim Jones by Clem Albers / The Chronicle
+article_img_title: The Rev. Jim Jones by Clem Albers - The Chronicle
 ---
 {% include JB/setup %}
 <div class="intro">
 <div class="intro-txt">
-Bootstrapping. Building a business from scratch without external funding. A praiseworthy pursuit for any budding entrpreneur. In fact, if you have the excitement and drive so see your mission through to successful business then you deserve all the kudos that comes your way. Frugality is the rule of law for starting lean and bootstrapping but should you also expect others to sacrifice current and future earnings to build your dream? 
+Bootstrapping. Building a business from scratch without external funding. A praiseworthy pursuit for any budding entrepreneur. In fact, if you have the excitement and drive so see your mission through to successful business then you deserve all the kudos that comes your way. Frugality is the rule of law for starting lean and bootstrapping but should you also expect others to sacrifice current and future earnings to build your dream? 
 </div>
 <div class="intro-img-border">
 <div class="intro-img-bevel">
@@ -33,12 +33,12 @@ Don't, under any circumstances work for less than market rate in order to build 
 
 _"If the discussion feels like a struggle, though, that's a bad sign, he says, especially when it comes to money talk"_.
 
-Too right it's a bad sign. It's a bad sign for the employee. It's a sign that this company is deliberately taking advantage of enthusiastic people to line their own pockets. And "money talk"?, give us a break, this isn't pre-school, I think the term he's looking for here is "fair remuneration". And let's face it, if it is a bootstrapped company and you've graduated from University in the last decade, you could well have more debt to your name than the supposed CEO.
+Too right it's a bad sign. It's a bad sign for the employee. It's a sign that this CEO is deliberately taking advantage of enthusiastic people to line his own pockets. And "money talk"?, give us a break, this isn't pre-school, I think the term he's looking for here is "fair remuneration". After all, let's face facts here, if it is a bootstrapped company and you've graduated from University in the last decade, you could well have more debt to your name than the supposed CEO.
 <br/>
 <br/>
 
 #### Step Away From the Kool-Aid 
-Early stage employees may indeed be more valuable than market rate because they are building that market for the bootstrapped. If you are willing to work for little remuneration on something that excites you, bootstrap your own company, not someone else's. Don't be fooled. **Don't drink the Kool-Aid**.
+Early stage employees may indeed be more valuable than market rate because they are building that market for the bootstrapped. If you are willing to work for little remuneration on something that excites you, bootstrap your own company, not someone else's. Don't be fooled or sweet talked into being paid less than you are worth. **Don't drink the Kool-Aid**.
 <br/>
 <br/>
 
