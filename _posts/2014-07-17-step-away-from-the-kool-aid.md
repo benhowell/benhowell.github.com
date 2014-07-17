@@ -32,7 +32,9 @@ Is it ok to pay less for labour just because an employee believes in what you wa
 #### Hire People Who Dig Your Mission
 This headline above was pulled from an [article by Erica Swallow for Forbes][1]. The story, titled "How One Startup Grew a $100M Business Without Spending Venture Capital", features some less than savoury advice about hiring.
 
-_Chabot says that you can tell during interviews who will be a fit for your bootstrapped startup. The right people thrive in low-cost environments and are totally up for working at a fraction of the market rate for their given position if it means working on a cool product they are excited by. If the discussion feels like a struggle, though, that’s a bad sign, he says, especially when it comes to the money talk. For those money-interested candidates who weren’t going to work out, he recalls saying, “If you want to make a market rate, you should probably go to a company that has a product in a market, because we don’t yet.” Zing!_ -- <cite>[R. Christian Chabot, CEO and co-founder of Tableau Software]</cite>.
+_Chabot says that you can tell during interviews who will be a fit for your bootstrapped startup. The right people thrive in low-cost environments and are totally up for working at a fraction of the market rate for their given position if it means working on a cool product they are excited by. If the discussion feels like a struggle, though, that’s a bad sign, he says, especially when it comes to the money talk. For those money-interested candidates who weren’t going to work out, he recalls saying, “If you want to make a market rate, you should probably go to a company that has a product in a market, because we don’t yet.” Zing!_ -- <cite>[R. Christian Chabot, CEO and co-founder of Tableau Software][2]</cite>[^2].
+
+Excuse me? Zing? The interviewee didn't want to work for a pittance and the best you've got is ["0wned"][3]. Wow that is some really delusional and twisted logic there, buddy.
 
 Don't, under any circumstances work for less than market rate in order to build other peoples fortunes. Simply don't do it. Cool product that excites you so in-turn you'll work for a fraction of the market rate? Call that crap out for what it is. A CEO of a company asking you to help build his fortune while at the same time returning you squat[^1]. Zing! 
 
@@ -49,5 +51,8 @@ Early stage employees may indeed be more valuable than market rate because they 
 
 #### Notes
 [^1]: There was no mention of equity or stock in the article so for the purpose of this article, and to highlight the general case where this does happen (and it does), I will presume that no equity or stock was involved.
+[^2]: http://www.urbandictionary.com/define.php?term=zing
 
 [1]:http://www.forbes.com/sites/ericaswallow/2012/12/27/bootstrapping-startup-venture-capital/
+[2]:http://www.urbandictionary.com/define.php?term=zing
+[3]:http://www.urbandictionary.com/define.php?term=Owned
