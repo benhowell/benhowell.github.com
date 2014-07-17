@@ -15,7 +15,7 @@ article_img_title: The Rev. Jim Jones by Clem Albers - The Chronicle
 Bootstrapping. Building a business from scratch without external funding. A praiseworthy pursuit for any budding entrepreneur. In fact, if you have the excitement and drive so see your mission through to successful business then you deserve all the kudos that comes your way. Frugality is the rule of law for starting lean and bootstrapping but should you also expect others to sacrifice current and future earnings to build your dream?
 </p>
 <p>
-Is it just and fair (and in some countries even legal) to pay a fraction of the market rate for employees to build your business? Let's look to Forbes for some enlightenment, they refer to themselves as "Information for the World's Leaders" after all.
+Is it ok to pay less for labour just because an employee believes in what you want to do with your startup and has some excitement about working on the idea? Is it just and fair (and in some countries even legal) to pay a fraction of the market rate for employees to build your business? Should enthusiastic employees be "totally up for it?" (as in getting paid sweet f a, not, you know, up for it... either way it still sounds wrong!) just becaue you have a cool product?
 </p>
 </div>
 <div class="intro-img-border">
