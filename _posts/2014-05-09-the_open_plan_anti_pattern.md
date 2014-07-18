@@ -153,7 +153,7 @@ I'd love to debate this topic further with you so please indulge me with your co
 <br/>
 <br/>
 
-**Update: [follow the discussion on reddit][12]**
+**[Follow the discussion on reddit][12]**
 <br/>
 <br/>
 
