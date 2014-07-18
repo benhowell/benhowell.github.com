@@ -49,7 +49,7 @@ Early stage employees may indeed be more valuable than market rate because they 
 <br/>
 <br/>
 
-**Update: [follow the discussion on reddit][4]**
+**[Follow the discussion on reddit][4]**
 <br/>
 <br/>
 
