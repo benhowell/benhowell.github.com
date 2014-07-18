@@ -153,7 +153,9 @@ I'd love to debate this topic further with you so please indulge me with your co
 <br/>
 <br/>
 
-
+**Update: [follow the discussion on reddit][12]**
+<br/>
+<br/>
 
 
 #### Notes
@@ -176,6 +178,7 @@ I'd love to debate this topic further with you so please indulge me with your co
 [9]:http://www.amazon.com/Peopleware-Productive-Projects-Second-Edition/dp/0932633439
 [10]:http://www.mccurley.org/advice/hamming_advice.html
 [11]:http://en.wikipedia.org/wiki/Richard_Hamming
+[12]:http://www.reddit.com/r/programming/comments/2apwn7/the_open_plan_antipattern/
 
 
 
