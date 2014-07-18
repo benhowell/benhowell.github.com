@@ -114,6 +114,7 @@ JB :
     provider : google 
     google : 
         tracking_id : 'UA-49925238-1'
+        property_name : 'benhowell'
     getclicky :
       site_id : 
 #    mixpanel :
