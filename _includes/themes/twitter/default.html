@@ -7,7 +7,10 @@
     <meta name="author" content="{{ site.author.name }}">
 
     {% if site.author.google_plus %}
-      <link rel="author" href="{{ site.author.google_plus }}?rel=author" />
+      <link rel="author" href="{{ site.author.google_plus }}?rel=author"><span itemprop="author" itemscope itemtype="http://schema.org/Person">
+	  <span itemprop="name">Ben Howell</span>
+	</span>
+      </link>
       <link rel="publisher" href="{{ site.author.google_plus }}" /><span itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><span itemprop="name" itemprop="name">benowell.net</span></span></link>
       
       
