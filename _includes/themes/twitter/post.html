@@ -59,7 +59,13 @@
       <a href="{{ page.reddit_url }}">Follow the discussion on reddit</a>
     </div>
     {% endif %}
-
+    
+    {% if page.hn_url %}
+    <div class="bold-link">
+      <a href="{{ page.hn_url }}">Follow the discussion on Hacker News</a>
+    </div>
+    {% endif %}
+    
     <div class="date">
       <span class="faded article-date">Published by Ben Howell: {{ page.date | date_to_long_string }}</span>
     </div>
