@@ -54,11 +54,11 @@
   {% endunless %}  -->
     
     <br/>
-    <!--<script type="text/javascript" src="http://www.reddit.com/static/button/button3.js">
-      reddit_url = "http://www.benhowell.net{{ page.url }}&t={{ page.title }}";
-    </script>-->
+    {% unless page.reddit_url == empty %}
+    <a href="{{ page.reddit_url }}"><b>Follow the discussion on reddit</b></a>
+    {% endunless %}
     
-    <a href="http://www.reddit.com/submit?url=http://www.benhowell.net{{ page.url }}&t={{ page.title }}"><b>Follow the discussion on reddit</b></a>
+    
     
     
     <div class="date">

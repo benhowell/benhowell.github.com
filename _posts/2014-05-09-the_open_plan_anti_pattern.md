@@ -7,6 +7,7 @@ category : people
 tags : [people, open plan, introvert, extrovert, management, collaboration, privacy, efficiency, psychology]
 article_img: bootstrap/img/open_office_250.jpg
 article_img_title: "FML by Anonymous"
+reddit_url: http://www.reddit.com/r/programming/comments/2apwn7/the_open_plan_antipattern/
 ---
 {% include JB/setup %}
 
@@ -153,11 +154,6 @@ I'd love to debate this topic further with you so please indulge me with your co
 <br/>
 <br/>
 
-**[Follow the discussion on reddit][12]**
-<br/>
-<br/>
-
-
 #### Notes
 
 [^1]: I've got nothing against extroverts, honestly, after all, they need peace to get great work done too. Besides, some of my best friends are extroverts.
@@ -178,7 +174,7 @@ I'd love to debate this topic further with you so please indulge me with your co
 [9]:http://www.amazon.com/Peopleware-Productive-Projects-Second-Edition/dp/0932633439
 [10]:http://www.mccurley.org/advice/hamming_advice.html
 [11]:http://en.wikipedia.org/wiki/Richard_Hamming
-[12]:http://www.reddit.com/r/programming/comments/2apwn7/the_open_plan_antipattern/
+
 
 
 
