@@ -279,6 +279,11 @@ a.notes {
   margin:auto; 
 }
 
+.bold-link{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
 .faded {
  font-weight: normal;
  font-size: 0.9em;

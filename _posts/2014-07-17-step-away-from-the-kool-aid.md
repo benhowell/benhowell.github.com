@@ -7,6 +7,7 @@ category: people
 tags: [people, management, psychology, bootstrap]
 article_img: bootstrap/img/jim_jones_250.jpg
 article_img_title: The Rev. Jim Jones by Clem Albers - The Chronicle
+reddit_url: http://www.reddit.com/r/programming/comments/2axuoq/step_away_from_the_kool_aid_dont_sell_yourself/
 ---
 {% include JB/setup %}
 <div class="intro">
@@ -57,4 +58,3 @@ Early stage employees may indeed be more valuable than market rate because they 
 [1]:http://www.forbes.com/sites/ericaswallow/2012/12/27/bootstrapping-startup-venture-capital/
 [2]:http://www.urbandictionary.com/define.php?term=zing
 [3]:http://www.urbandictionary.com/define.php?term=Owned
-[4]:http://www.reddit.com/r/programming/comments/2axuoq/step_away_from_the_kool_aid_dont_sell_yourself/
