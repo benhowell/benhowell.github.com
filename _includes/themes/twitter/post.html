@@ -54,15 +54,17 @@
   {% endunless %}  -->
     
     <br/>
-    <b>Follow the discussion on reddit</b>
     
+    <b>Follow the discussion on reddit</b>
     <script type="text/javascript" src="http://www.reddit.com/static/button/button3.js">
       reddit_url = "http://www.benhowell.net{{ page.url }}&t={{ page.title }}";
     </script>
     
     <div class="date">
-      <span class="faded article-date">Published: {{ page.date | date_to_long_string }}</span>
+      <span class="faded article-date">Published by Ben Howell: {{ page.date | date_to_long_string }}</span>
     </div>
+    
+    
     
     
     <!--<div class="pagination">
