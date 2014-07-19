@@ -52,13 +52,14 @@ Early stage employees may indeed be more valuable than market rate because they 
 #### Notes
 [^1]: There was no mention of equity or stock in the article so for the purpose of this article, and to highlight the general case where this does happen (and it does), I will presume that no equity or stock was involved.
 [^2]: http://www.urbandictionary.com/define.php?term=zing
-<br/>
-<br/>
-
-**[Follow the discussion on reddit][4]**
 
 
 [1]:http://www.forbes.com/sites/ericaswallow/2012/12/27/bootstrapping-startup-venture-capital/
 [2]:http://www.urbandictionary.com/define.php?term=zing
 [3]:http://www.urbandictionary.com/define.php?term=Owned
 [4]:http://www.reddit.com/r/programming/comments/2axuoq/step_away_from_the_kool_aid_dont_sell_yourself/
+
+<br/>
+<br/>
+
+**[Follow the discussion on reddit][4]**
