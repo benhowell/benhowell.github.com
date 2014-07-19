@@ -55,12 +55,9 @@
     
     <br/>
     {% if page.reddit_url %}
-    <a href="{{ page.reddit_url }}"><b>Follow the discussion on reddit</b></a>
+    <a href="{{ page.reddit_url }}"><div class="bolder-link">Follow the discussion on reddit</div></a>
     {% endif %}
-    
-    
-    
-    
+
     <div class="date">
       <span class="faded article-date">Published by Ben Howell: {{ page.date | date_to_long_string }}</span>
     </div>
