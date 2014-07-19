@@ -68,8 +68,11 @@
 	Follow the discussion on <a href="{{ page.hn_url }}">Hacker News</a>
       </div>
     {% endif %}
+    
     <div class="date">
-      <span class="faded article-date">Published by Ben Howell: {{ page.date | date_to_long_string }}</span>
+      <span itemscope itemtype="http://schema.org/Article" class="faded article-date">Published by 
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <span itemprop="name">Ben Howell</span></span> {{ page.date | date_to_long_string }}</span>
     </div>
     
     
