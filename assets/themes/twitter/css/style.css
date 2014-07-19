@@ -163,7 +163,8 @@ img.brand-image {
 }
 
 .reddit {
-/*   padding-left: 0px; */
+  padding-top: 6px;
+  padding-bottom: 4px;
   width: 120px;
 }
 
