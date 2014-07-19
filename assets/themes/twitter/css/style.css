@@ -135,7 +135,7 @@ img.brand-image {
 }
 
 .mini-social-section {
-  border: 1px;
+  border: 1px solid #ccc;
   float: left;
   width: 80px;
   height:23px;
