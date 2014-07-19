@@ -71,8 +71,11 @@
     
     <div class="date">
       <span itemscope itemtype="http://schema.org/Article" class="faded article-date">Published by 
-      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <span itemprop="name">Ben Howell</span></span>: {{ page.date | date_to_long_string }}</span>
+	<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+	  <span itemprop="name">Ben Howell</span>
+	</span>: 
+	<span itemprop="datePublished" content="2014-07-17">{{ page.date | date_to_long_string }}</span>
+      </span>
     </div>
     
     
