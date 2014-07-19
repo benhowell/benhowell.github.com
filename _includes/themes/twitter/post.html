@@ -54,9 +54,9 @@
   {% endunless %}  -->
     
     <br/>
-    {% unless page.reddit_url == empty %}
+    {% if page.reddit_url %}
     <a href="{{ page.reddit_url }}"><b>Follow the discussion on reddit</b></a>
-    {% endunless %}
+    {% endif %}
     
     
     
