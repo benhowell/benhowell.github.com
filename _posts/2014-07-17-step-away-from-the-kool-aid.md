@@ -58,8 +58,3 @@ Early stage employees may indeed be more valuable than market rate because they 
 [2]:http://www.urbandictionary.com/define.php?term=zing
 [3]:http://www.urbandictionary.com/define.php?term=Owned
 [4]:http://www.reddit.com/r/programming/comments/2axuoq/step_away_from_the_kool_aid_dont_sell_yourself/
-
-<br/>
-<br/>
-
-**[Follow the discussion on reddit][4]**
