@@ -1,6 +1,5 @@
 <div class="page-header">
-  <h3><strong>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</strong></h3>
-  
+  <h3><strong><span itemprop="name">{{ page.title }}</span> {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</strong></h3>
   <hr class="mini-social-hr">
   <div>
     <div class="clearfix">
@@ -31,9 +30,9 @@
   
 </div>
 
-<div class="row-fluid post-full">
+<div class="row-fluid post-full" itemscope itemtype="http://schema.org/Article">
   <div class="span12">
-    <div class="content">
+    <div itemtype="http://schema.org/Article" itemprop="articleBody" class="content">
       {{ content }}
     </div>
 

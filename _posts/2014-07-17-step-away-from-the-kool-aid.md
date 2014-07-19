@@ -23,7 +23,7 @@ Is it ok to pay less for labour just because an employee believes in what you wa
 <div class="intro-img-border">
 <div class="intro-img-bevel">
 <div class="intro-img">
-<img class="article-image" title="{{page.article_img_title}}" src="{{ASSET_PATH}}/{{page.article_img}}"/>
+<img itemprop="image" class="article-image" title="{{page.article_img_title}}" src="{{ASSET_PATH}}/{{page.article_img}}"/>
 </div>
 </div>
 </div>
