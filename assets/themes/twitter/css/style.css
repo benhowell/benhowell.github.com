@@ -135,7 +135,7 @@ img.brand-image {
 }
 
 .mini-social-section {
-  border: 1px solid #ccc;
+  /*border: 1px solid #ccc;*/
   float: left;
   width: 80px;
   height:23px;
@@ -158,7 +158,6 @@ img.brand-image {
 }
 
 .gp {
-/*   padding-right: 0px; */
   width: 57px;
 }
 
