@@ -159,10 +159,12 @@ img.brand-image {
 
 .gp {
   padding-right: 0px;
+  width: 60px;
 }
 
 .reddit {
   padding-left: 0px;
+  width: 100px;
 }
 
 .social-header {
