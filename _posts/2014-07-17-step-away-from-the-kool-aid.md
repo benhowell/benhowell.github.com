@@ -38,7 +38,7 @@ _Chabot says that you can tell during interviews who will be a fit for your boot
 
 Excuse me? Zing? The interviewee didn't want to work for a pittance and the best you've got is ["Zing"][2]? Wow that is some really delusional and twisted logic there, Christian Chabot.
 
-Don't, under any circumstances work for less than market rate in order to build other peoples fortunes. Simply don't do it. Cool product that excites you so in-turn you'll work for a fraction of the market rate? Call that crap out for what it is. A CEO of a company asking you to help build his fortune while at the same time returning you squat[^1]. Zing! 
+Don't, under any circumstances work for less than market rate in order to build other people's fortunes. Simply don't do it. Cool product that excites you so in-turn you'll work for a fraction of the market rate? Call that crap out for what it is. A CEO of a company asking you to help build his fortune while at the same time returning you squat[^1]. Zing! 
 
 _"If the discussion feels like a struggle, though, that's a bad sign, he says, especially when it comes to money talk"_.
 
