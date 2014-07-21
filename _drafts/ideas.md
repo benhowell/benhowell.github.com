@@ -44,3 +44,21 @@ article_img: bootstrap/img/qn.png
  is the indie web in a golden age?
  like the gold rushes, land grabs, etc of a century or two past?
  will there be little to no independent publication on a mass scale as we see today, much like what we see in mainstream print, radio and television media? 
+ 
+ 
+ * The myth of the just world
+ don't be naive, be politically savvy. "the myth of the just world"
+ http://www.manager-tools.com/2013/04/politics-101-chapter-3-myth-just-world-part-1
+ http://www.manager-tools.com/2013/05/politics-101-chapter-3-myth-just-world-part-2
+ 
+ you wont be rewarded accordingly, all success includes political calculations (personal). 
+ just world hypothesis.
+ i will be rewarded appropriately if I work hard and get ahead by doing so. cognitive dissonance.
+
+ confirmation bias.
+ play the game. unfair, no strict rules.
+ learn when to be selfish.
+ 
+ * API design
+ https://mandrillapp.com/api/docs/
+ and the little book of api design
