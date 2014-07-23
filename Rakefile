@@ -72,7 +72,6 @@ task :post do
     post.puts "article_img: bootstrap/img/qn.png"
     post.puts "article_img_title: Question Mark by Anonymous"
     post.puts "reddit_url:"
-    post.puts "reddit_title:"
     post.puts "hn_url:"
     post.puts "---"
     post.puts "{% include JB/setup %}"
