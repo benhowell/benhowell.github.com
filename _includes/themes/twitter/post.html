@@ -12,10 +12,15 @@
       </div>
 
       <div class="mini-social-section reddit">
+	{% if page.reddit_url % }
+	<script type="text/javascript" src="http://www.reddit.com/static/button/button1.js">
+	  reddit_url = "{{ page.reddit_url }}";
+	</script>
+	{% else %}
 	<script type="text/javascript" src="http://www.reddit.com/static/button/button1.js">
 	  reddit_url = "http://www.benhowell.net{{ page.url }}&t={{ page.title }}";
-	  reddit_title = "{{ page.reddit_title }}"
 	</script>
+	{% endif %}
       </div>
 
       <div class="mini-social-section follow">
