@@ -8,7 +8,6 @@ tags: [craft, design, craftsmanship, compsci, programming, coding]
 article_img: bootstrap/img/master_craftsman.jpg
 article_img_title: Bob Zajicek - Steady Hand at the Lathe by Fr. John Abraham
 reddit_url: http://www.reddit.com/r/programming/comments/2ba12h/code_incomplete_humility_ensures_youll_evolve_as/
-reddit_target: /programming
 hn_url:
 ---
 {% include JB/setup %}
