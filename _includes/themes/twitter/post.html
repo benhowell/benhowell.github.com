@@ -14,9 +14,7 @@
       <div class="mini-social-section reddit">
 	<script type="text/javascript" src="http://www.reddit.com/static/button/button1.js">
 	  reddit_url = "http://www.benhowell.net{{ page.url }}&t={{ page.title }}";
-	  {% if page.reddit_title % }
-	    reddit_title = {{ page.reddit_title }}
-	  {% endif %}
+	  reddit_title = "{{ page.reddit_title }}"
 	</script>
       </div>
 
