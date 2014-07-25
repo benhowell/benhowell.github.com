@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "You Are a Faceless, Insignificant Subordinate"
-description: "You Are a Faceless, Insignificant Subordinate"
+title: "You Are a Faceless, Insignificant Peasant"
+description: "You Are a Faceless, Insignificant Peasant"
 tagline: "people"
 category: people
 tags: [people, management, psychology, character]
