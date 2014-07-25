@@ -6,7 +6,7 @@ tagline: "people"
 category: people
 tags: [people, management, psychology, character]
 article_img: bootstrap/img/medieval-peasants.jpg
-article_img_title: Question Mark by Anonymous
+article_img_title: Peasants - Life of Brian by Monty Python
 reddit_url:
 hn_url:
 ---
