@@ -90,6 +90,8 @@ Practice indifference and emotional detachment– learn how not to let an asshol
 <br/>
 <br/>
 
+#### Winning
+Reacting as if been slighted is a loss. Not reacting at all is a win. Now find whatever avenues you can to cut this person out of your life. Don't deal with them again. Ultimately they'll realise what's happening and why and at this point, you are the superior person in their mind.
 
 #### Notes
 
