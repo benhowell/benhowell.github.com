@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "You Are a Faceless, Insignificant Peasant"
-description: "You Are a Faceless, Insignificant Peasant"
+title: "You Are a Worthless, Insignificant Peasant"
+description: "You Are a Worthless, Insignificant Peasant"
 tagline: "people"
 category: people
 tags: [people, management, psychology, character]
@@ -12,9 +12,18 @@ hn_url:
 ---
 {% include JB/setup %}
 <div class="intro">
-  <div class="intro-txt">
-    ???????????????????????
-  </div>
+<div class="intro-txt">
+<span markdown="span">
+**Condescension**
+</span>
+
+/ˌkɒndɪˈsɛnʃn/
+
+<p>
+<span markdown="span">_an attitude of patronizing superiority; disdain._</span>
+</p>
+
+</div>
 <div class="intro-img-border">
 <div class="intro-img-bevel">
 <div class="intro-img">
