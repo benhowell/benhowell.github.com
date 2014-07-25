@@ -38,8 +38,8 @@ Before you react, just step back and take a moment to analyse the situation like
 </div>
 </div>
 </div>
-
-
+<br/>
+<br/>
 
 #### It's a reflection of their character.
 
@@ -65,6 +65,8 @@ CEOs who blow up at waiters have an ego out of control, Gould says. "They're say
 4. Remember: It’s THEIR Issue, Not Yours
 
 Look, most of the time, things like this aren’t really about YOU. So instead of taking it personally, try to consider for a moment what’s going on for your boss. What’s causing this behavior? Does he perhaps feel threatened by you in some way? Does he have a self-esteem issue that causes him to put others down so he can feel better about himself? You might uncover something that makes the behavior a little easier to put up with or just ignore altogether. Sometimes people have annoying character traits that don’t serve them well, but there’s nothing you can do to change them. Just remember: It’s their issue, not yours. Take comfort in the fact that, if you see it, others see it too. And this kind of behavior will hold them back in life and in their career at some point.
+<br/>
+<br/>
 
 
 
@@ -73,6 +75,8 @@ Look, most of the time, things like this aren’t really about YOU. So instead o
 A boss that talks down to you can be a real problem. Not only does it impact your personal confidence and mindset, but it can be embarrassing and detrimental to the entire workplace’s performance. 
 
 "Sitting in the chair of CEO makes me no better of a person than the forklift operator in our plant," she says. "If you treat the waiter, or a subordinate, like garbage, guess what? Are they going to give it their all? I don't think so."
+<br/>
+<br/>
 
 
 
@@ -83,6 +87,8 @@ A boss that talks down to you can be a real problem. Not only does it impact you
 Focus on yourself and maintaining your composure, even when you feel put down. Be the bigger person. Don’t let someone else’s bad attitude ruin your day or your self-worth. Consider this practice. We all have to deal with difficult people in the workplace. You’re getting some great experience here! Remember the old saying, “Kill ‘em with kindness.” Sometimes, nothing feels better than responding to rudeness with a smile and warm-hearted compassion. And it often shifts the other person’s behavior as well.
 
 Practice indifference and emotional detachment– learn how not to let an asshole touch your soul.  Management gurus and executives are constantly ranting about the importance of commitment, passion, and giving all you have to a job. That is good advice when your bosses and peers treat you with dignity. But if you work with people who treat you like dirt, they have not earned your passion and commitment. Practice going through the motions without really caring. Don’t let their vicious words and deeds touch your soul: Learn to be comfortably numb until the day comes when you find a workplace that deserves your passion and full commitment.
+<br/>
+<br/>
 
 
 #### Notes
