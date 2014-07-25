@@ -23,7 +23,11 @@ hn_url:
 <span markdown="span">_An attitude of patronizing superiority; disdain._</span>
 </p>
 <p>
-Being talked down to or at, as if you are worthless scum and not worthy of recognition as a human being is not a pleasant experience. When this happens to you, no doubt you feel insulted. Worse, when it happens to you at work, you'll probably feel angry and disrespected. Of course these feelings are justified, but when this happens just step back and analyse the situation like the logical, calm, analytic and consummate professional you are.
+Being talked down to or at, as if you are worthless scum and not worthy of recognition as a human being is not a pleasant experience. When this happens to you, no doubt you feel insulted. Worse, when it happens to you at work, you'll probably feel angry and disrespected. Of course these feelings are justified, but when this happens, how you react to it is what matters and will not only influence how you feel, but also how the perpertrator feels (unless they're a psychopath).
+
+
+
+just step back and analyse the situation like the logical, calm, analytic and consummate professional you are.
 </p>
 
 </div>
@@ -37,7 +41,7 @@ Being talked down to or at, as if you are worthless scum and not worthy of recog
 </div>
 
 
-how you react is what matters
+
 
 
 They know they're an arsehole, and feel guilty about it. They're relationships suffer and they receive absolutely no respect or trust. They could be a psychopath, and if so, there is no redemption for this person as they have a mental disorder.
