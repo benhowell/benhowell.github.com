@@ -5,7 +5,7 @@ description: "You Are a Faceless, Insignificant Subordinate"
 tagline: "people"
 category: people
 tags: [people, management, psychology, character]
-article_img: bootstrap/img/qn.png
+article_img: bootstrap/img/medieval-peasants.jpg
 article_img_title: Question Mark by Anonymous
 reddit_url:
 hn_url:
