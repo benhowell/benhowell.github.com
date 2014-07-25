@@ -23,11 +23,10 @@ hn_url:
 <span markdown="span">_An attitude of patronizing superiority; disdain._</span>
 </p>
 <p>
-Being talked down to, or having what you have to say and contribute dismissed as if you are lousy scum and not worthy of recognition as a human being is not a pleasant experience. When this happens to you, no doubt you feel insulted. Worse, when it happens at work, you'll probably feel angry and disrespected. Of course these feelings are justified, but when this happens, how you react to it is what matters and will not only influence how you feel, but also how the perpertrator feels (unless they're a psychopath).
-
-
-
-just step back and analyse the situation like the logical, calm, analytic and consummate professional you are.
+Being talked down to or having what you have to say and contribute dismissed as if you are lousy scum and not worthy of recognition as a human being is not a pleasant experience. When this happens to you, no doubt you feel insulted. Worse, when it happens at work, you'll probably feel angry and disrespected. Of course these feelings are justified, but when this happens, how you react to it is what matters and will not only influence how you feel, but also how the perpertrator feels (unless they're a psychopath).
+</p>
+<p>
+When this happens, just step back, take a moment and analyse the situation like the logical, calm, analytic and consummate professional you are.
 </p>
 
 </div>
