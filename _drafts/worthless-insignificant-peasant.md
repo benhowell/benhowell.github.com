@@ -20,7 +20,10 @@ hn_url:
 /ˌkɒndɪˈsɛnʃn/
 
 <p>
-<span markdown="span">_an attitude of patronizing superiority; disdain._</span>
+<span markdown="span">_An attitude of patronizing superiority; disdain._</span>
+</p>
+<p>
+Yeah, it's insulting.
 </p>
 
 </div>
