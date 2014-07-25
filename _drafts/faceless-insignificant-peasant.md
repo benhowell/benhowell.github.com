@@ -6,7 +6,7 @@ tagline: "people"
 category: people
 tags: [people, management, psychology, character]
 article_img: bootstrap/img/medieval-peasants.jpg
-article_img_title: Peasants - Life of Brian by Monty Python
+article_img_title: Peasants - Monty Python and the Holy Grail by Monty Python
 reddit_url:
 hn_url:
 ---
