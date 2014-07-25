@@ -23,7 +23,7 @@ hn_url:
 <span markdown="span">_An attitude of patronizing superiority; disdain._</span>
 </p>
 <p>
-Being talked down to or at, as if you are worthless scum and not worthy of recognition as a human being. When this happens to you, no doubt you feel insulted and worse, when it happens to you at work, you'll probably feel angry and disrespected. Of course these feelings are justified. But hang on a minute...
+Being talked down to or at, as if you are worthless scum and not worthy of recognition as a human being is not a pleasant experience. When this happens to you, no doubt you feel insulted and worse, when it happens to you at work, you'll probably feel angry and disrespected. Of course these feelings are justified. But hang on a minute...
 </p>
 
 </div>
