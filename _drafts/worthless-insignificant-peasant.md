@@ -42,22 +42,9 @@ Don't react. Just step back and take a moment to analyse the situation like the 
 <br/>
 
 #### It's a reflection of their character.
-They have failed the [Waiter rule][1]. _"If someone is nice to you but rude to the waiter, they are not a nice person."_ -- <cite>[Dave Barry][2]</cite>.
+They have failed the [Waiter rule][1]. _"If someone is nice to you but rude to the waiter, they are not a nice person."_ -- <cite>[Dave Barry][2]</cite>. 
 
-
-situational value system, 
-status of the person they are interacting with  
-Be especially wary of those who are rude to people perceived to be in subordinate roles
-
-
-
-
-
-
-"To some people, speaking in a condescending manner makes them feel important, which to me is a total turnoff," 
-
-
-
+A person who moderates their condescension and rude manner depending on their perceived status or value of the person they're interacting with has a serious character flaw. If they treat people according to how subordinate or otherwise they perceive them to be then they probably have a need to prove or otherwise refect their imagined sense of superiority, which is a classic sign of insecurity.
 <br/>
 <br/>
 
@@ -84,11 +71,19 @@ Look, most of the time, things like this aren’t really about YOU. So instead o
 <br/>
 
 
+
+
+
+
+
+
+
+
 #### Dealing with it
 
 Go back and read each sub-heading in this article. Notice there's no mention of _you_? That's right, it's all about _them_. Every problem is theirs. Not only do we know this, they do too. There is nothing here for you to deal with. Full stop.
 
-You maintain your composure because their ludicrous, display of ego is a serious character flaw and has nothing to do with you. You are the better person and your control over the situation is proof of that. You may not have realised, but anyone who witnessed the indiscretion recognises this too. Your self-worth simply cannot be linked to someone elses character flaw. It just doesn't compute.
+You maintain your composure because their ludicrous, display of ego is a serious character flaw and has nothing to do with you. You are the better person and your control over the situation is proof of that. You may not have realised, but anyone who witnessed the indiscretion recognises this too. Your self-worth simply cannot be in any way linked to a character flaw in someone else. It just doesn't compute.
 <br/>
 <br/>
 
