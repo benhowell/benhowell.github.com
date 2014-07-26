@@ -42,29 +42,22 @@ Before you react, just step back and take a moment to analyse the situation like
 <br/>
 
 #### It's a reflection of their character.
-
-They know they're an arsehole, and feel guilty about it. They're relationships suffer and they receive absolutely no respect or trust. They could be a psychopath, and if so, there is no redemption for this person as they have a mental disorder.
-
-The CEO who came up with it, or at least first wrote it down, is Raytheon CEO Bill Swanson. He wrote a booklet of 33 short leadership observations called Swanson's Unwritten Rules of Management. Raytheon has given away 250,000 of the books.
-
-Among those 33 rules is only one that Swanson says never fails: "A person who is nice to you but rude to the waiter, or to others, is not a nice person."
-
-"Watch out for people who have a situational value system, who can turn the charm on and off depending on the status of the person they are interacting with," Swanson writes. "Be especially wary of those who are rude to people perceived to be in subordinate roles."
-
-The Waiter Rule also applies to the way people treat hotel maids, mailroom clerks, bellmen and security guards. Au Bon Pain co-founder Ron Shaich, now CEO of Panera Bread, says he was interviewing a candidate for general counsel in St. Louis. She was "sweet" to Shaich but turned "amazingly rude" to someone cleaning the tables, Shaich says. She didn't get the job.
-
-Shaich says any time candidates are being considered for executive positions at Panera Bread, he asks his assistant, Laura Parisi, how they treated her, because some applicants are "pushy, self-absorbed and rude" to her before she transfers the call to him.
-
-Just about every CEO has a waiter story to tell. Dave Gould, CEO of Witness Systems, experienced the rule firsthand when a waitress dumped a full glass of red wine on the expensive suit of another CEO during a contract negotiation. The victim CEO put her at ease with a joke about not having had time to shower that morning. A few days later, when there was an apparent impasse during negotiations, Gould trusted that CEO to have the character to work out any differences.
-
-CEOs who blow up at waiters have an ego out of control, Gould says. "They're saying, 'I'm better. I'm smarter.' Those people tend not to be collaborative."
-
-"To some people, speaking in a condescending manner makes them feel important, which to me is a total turnoff," says Seymour Holtzman, chairman of Casual Male Retail Group, which operates big-and-tall men's clothing stores including Casual Male XL.
+They have failed the [Waiter rule][1]. _"If someone is nice to you but rude to the waiter, they are not a nice person."_ -- <cite>[Dave Barry][2]</cite>.
 
 
-4. Remember: It’s THEIR Issue, Not Yours
+situational value system, 
+status of the person they are interacting with  
+Be especially wary of those who are rude to people perceived to be in subordinate roles
 
-Look, most of the time, things like this aren’t really about YOU. So instead of taking it personally, try to consider for a moment what’s going on for your boss. What’s causing this behavior? Does he perhaps feel threatened by you in some way? Does he have a self-esteem issue that causes him to put others down so he can feel better about himself? You might uncover something that makes the behavior a little easier to put up with or just ignore altogether. Sometimes people have annoying character traits that don’t serve them well, but there’s nothing you can do to change them. Just remember: It’s their issue, not yours. Take comfort in the fact that, if you see it, others see it too. And this kind of behavior will hold them back in life and in their career at some point.
+
+
+
+
+
+"To some people, speaking in a condescending manner makes them feel important, which to me is a total turnoff," 
+
+
+
 <br/>
 <br/>
 
@@ -75,34 +68,37 @@ Look, most of the time, things like this aren’t really about YOU. So instead o
 A boss that talks down to you can be a real problem. Not only does it impact your personal confidence and mindset, but it can be embarrassing and detrimental to the entire workplace’s performance. 
 
 "Sitting in the chair of CEO makes me no better of a person than the forklift operator in our plant," she says. "If you treat the waiter, or a subordinate, like garbage, guess what? Are they going to give it their all? I don't think so."
+
+CEOs who blow up at waiters have an ego out of control, Gould says. "They're saying, 'I'm better. I'm smarter.' Those people tend not to be collaborative."
+
 <br/>
 <br/>
+
 
 
 #### It's their problem.
+They could be a psychopath, and if so, there is no redemption for this person as they have a mental disorder.
 
-
-
-
-
+Look, most of the time, things like this aren’t really about YOU. So instead of taking it personally, try to consider for a moment what’s going on for your boss. What’s causing this behavior? Does he perhaps feel threatened by you in some way? Does he have a self-esteem issue that causes him to put others down so he can feel better about himself? You might uncover something that makes the behavior a little easier to put up with or just ignore altogether. Sometimes people have annoying character traits that don’t serve them well, but there’s nothing you can do to change them. Just remember: It’s their issue, not yours. Take comfort in the fact that, if you see it, others see it too. And this kind of behavior will hold them back in life and in their career at some point.
+<br/>
+<br/>
 
 
 #### Dealing with it
 
-Now go back and read each sub-heading in this article. There's no mention of _you_. It's all about _them_. Every problem is theirs. Not only do you know this, they do too.
-
-
-5. Keep Your Cool
+Go back and read each sub-heading in this article. Notice there's no mention of _you_? That's right, it's all about _them_. Every problem is theirs. Not only do you know this, they do too. There is nothing here for you to deal with. Full stop.
 
 Focus on yourself and maintaining your composure, even when you feel put down. Be the bigger person. Don’t let someone else’s bad attitude ruin your day or your self-worth. Consider this practice. We all have to deal with difficult people in the workplace. You’re getting some great experience here! Remember the old saying, “Kill ‘em with kindness.” Sometimes, nothing feels better than responding to rudeness with a smile and warm-hearted compassion. And it often shifts the other person’s behavior as well.
 
-Practice indifference and emotional detachment– learn how not to let an asshole touch your soul.  Management gurus and executives are constantly ranting about the importance of commitment, passion, and giving all you have to a job. That is good advice when your bosses and peers treat you with dignity. But if you work with people who treat you like dirt, they have not earned your passion and commitment. Practice going through the motions without really caring. Don’t let their vicious words and deeds touch your soul: Learn to be comfortably numb until the day comes when you find a workplace that deserves your passion and full commitment.
+Practice indifference and emotional detachment– learn how not to let an asshole touch your soul.  Management gurus and executives are constantly ranting about the importance of commitment, passion, and giving all you have to a job. That is good advice when your bosses and peers treat you with dignity. But if you work with people who treat you like dirt...
 <br/>
 <br/>
 
 
 #### Winning
 Reacting as if been slighted is a loss. Not reacting at all is a win. Now find whatever avenues you can to cut this person out of your life. Don't deal with them again. Ultimately they'll realise what's happening and why and at this point, you are the superior person in their mind.
+<br/>
+<br/>
 
 #### Notes
 
@@ -111,7 +107,8 @@ Reacting as if been slighted is a loss. Not reacting at all is a win. Now find w
 
 
 
-
+[1]:http://en.wikipedia.org/wiki/Waiter_Rule
+[2]:http://en.wikipedia.org/wiki/Dave_Barry
 
 
 
