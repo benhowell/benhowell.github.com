@@ -23,10 +23,10 @@ hn_url:
 <span markdown="span">_An attitude of patronizing superiority; disdain._</span>
 </p>
 <p>
-Being talked down to and having your attempted contributions dismissed as if you are filthy scum and not worthy of recognition as a human being is not a pleasant experience. When this happens to you in your professional life, you'll probably feel insulted angry and disrespected too. Of course these feelings are justified, but when this happens, how you react to it is what matters and will not only influence the way you feel now and into the future, but also how the perpertrator feels (unless they're a psychopath).
+Being talked down to and having your attempted contributions dismissed as if you are filthy scum and not worthy of recognition as a human being is not a pleasant experience. When this happens to you in your professional life, you'll probably feel insulted angry and disrespected too. However, these feelings are unjustified. When this sort of situation happens, how you react to it is what matters and will not only influence the way you feel now but also into the future.
 </p>
 <p>
-Before you react, just step back and take a moment to analyse the situation like the logical, analytical professional you are. Treat it as an unspoken mental and psychological game of one-upmanship.
+Don't react. Just step back and take a moment to analyse the situation like the logical, analytical professional you are. Treat it as an silent, mental and psychological game of one-upmanship.
 </p>
 
 </div>
@@ -86,9 +86,14 @@ Look, most of the time, things like this aren’t really about YOU. So instead o
 
 #### Dealing with it
 
-Go back and read each sub-heading in this article. Notice there's no mention of _you_? That's right, it's all about _them_. Every problem is theirs. Not only do you know this, they do too. There is nothing here for you to deal with. Full stop.
+Go back and read each sub-heading in this article. Notice there's no mention of _you_? That's right, it's all about _them_. Every problem is theirs. Not only do we know this, they do too. There is nothing here for you to deal with. Full stop.
 
-Focus on yourself and maintaining your composure, even when you feel put down. Be the bigger person. Don’t let someone else’s bad attitude ruin your day or your self-worth. Consider this practice. We all have to deal with difficult people in the workplace. You’re getting some great experience here! Remember the old saying, “Kill ‘em with kindness.” Sometimes, nothing feels better than responding to rudeness with a smile and warm-hearted compassion. And it often shifts the other person’s behavior as well.
+You maintain your composure because their ludicrous, display of ego is a serious character flaw and has nothing to do with you. You are the better person and your control over the situation is proof of that. You may not realise this, but everyone else involved recognises this too.
+
+Your self-worth simply cannot be linked to someone elses character flaw. It just doesn't compute.
+
+
+Don’t let someone else’s bad attitude ruin your day or your self-worth. Consider this practice. We all have to deal with difficult people in the workplace. You’re getting some great experience here! Remember the old saying, “Kill ‘em with kindness.” Sometimes, nothing feels better than responding to rudeness with a smile and warm-hearted compassion. And it often shifts the other person’s behavior as well.
 
 Practice indifference and emotional detachment– learn how not to let an asshole touch your soul.  Management gurus and executives are constantly ranting about the importance of commitment, passion, and giving all you have to a job. That is good advice when your bosses and peers treat you with dignity. But if you work with people who treat you like dirt...
 <br/>
@@ -96,7 +101,7 @@ Practice indifference and emotional detachment– learn how not to let an asshol
 
 
 #### Winning
-Reacting as if been slighted is a loss. Not reacting at all is a win. Now find whatever avenues you can to cut this person out of your life. Don't deal with them again. Ultimately they'll realise what's happening and why and at this point, you are the superior person in their mind.
+Reacting as if been slighted is a loss. Not reacting at all is a win. Now find whatever avenues you can to cut this person out of your life. Don't deal with them again. If you do need to deal with them going forward then keep the interface to an absolute minimum. At this point, you have won. You are the superior person. Ultimately they'll realise what's happening and why, and at that point, you are the superior person in their mind too. But you don't actually care what they think any more, do you?
 <br/>
 <br/>
 
