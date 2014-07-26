@@ -79,8 +79,18 @@ A boss that talks down to you can be a real problem. Not only does it impact you
 <br/>
 
 
+#### It's their problem.
+
+
+
+
+
+
 
 #### Dealing with it
+
+Now go back and read each sub-heading in this article. There's no mention of _you_. It's all about _them_. Every problem is theirs. Not only do you know this, they do too.
+
 
 5. Keep Your Cool
 
@@ -89,6 +99,7 @@ Focus on yourself and maintaining your composure, even when you feel put down. B
 Practice indifference and emotional detachment– learn how not to let an asshole touch your soul.  Management gurus and executives are constantly ranting about the importance of commitment, passion, and giving all you have to a job. That is good advice when your bosses and peers treat you with dignity. But if you work with people who treat you like dirt, they have not earned your passion and commitment. Practice going through the motions without really caring. Don’t let their vicious words and deeds touch your soul: Learn to be comfortably numb until the day comes when you find a workplace that deserves your passion and full commitment.
 <br/>
 <br/>
+
 
 #### Winning
 Reacting as if been slighted is a loss. Not reacting at all is a win. Now find whatever avenues you can to cut this person out of your life. Don't deal with them again. Ultimately they'll realise what's happening and why and at this point, you are the superior person in their mind.
