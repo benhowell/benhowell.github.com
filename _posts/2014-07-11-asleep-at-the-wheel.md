@@ -7,6 +7,7 @@ category: craft
 tags: [craft, design, craftsmanship, compsci, programming, coding]
 article_img: bootstrap/img/Sleeping-Hamster.jpg
 article_img_title: Asleep at the Wheel
+reddit_url: http://www.reddit.com/r/programming/comments/2bxl1q/asleep_at_the_wheel_you_will_burn_out_possibly/
 ---
 {% include JB/setup %}
 <div class="intro">
