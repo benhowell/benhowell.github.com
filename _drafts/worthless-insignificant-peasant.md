@@ -64,7 +64,7 @@ CEOs who blow up at waiters have an ego out of control, Gould says. "They're say
 
 
 #### It's their problem.
-They could be a psychopath, and if so, there is no redemption for this person as they have a mental disorder.
+They could be a psychopath, and if so, there is no redemption for this person as they have a mental disorder. Otherwise it's most likely a personality disorder.
 
 Look, most of the time, things like this aren’t really about YOU. So instead of taking it personally, try to consider for a moment what’s going on for your boss. What’s causing this behavior? Does he perhaps feel threatened by you in some way? Does he have a self-esteem issue that causes him to put others down so he can feel better about himself? You might uncover something that makes the behavior a little easier to put up with or just ignore altogether. Sometimes people have annoying character traits that don’t serve them well, but there’s nothing you can do to change them. Just remember: It’s their issue, not yours. Take comfort in the fact that, if you see it, others see it too. And this kind of behavior will hold them back in life and in their career at some point.
 <br/>
@@ -83,7 +83,7 @@ Look, most of the time, things like this aren’t really about YOU. So instead o
 
 Go back and read each sub-heading in this article. Notice there's no mention of _you_? That's right, it's all about _them_. Every problem is theirs. Not only do we know this, they do too. There is nothing here for you to deal with. Full stop.
 
-You maintain your composure because their ludicrous, display of ego is a serious character flaw and has nothing to do with you. You are the better person and your control over the situation is proof of that. You may not have realised, but anyone who witnessed the indiscretion recognises this too. Your self-worth simply cannot be in any way linked to a character flaw in someone else. It just doesn't compute.
+You maintain your composure because their ludicrous, display of ego is a serious character flaw and has nothing to do with you. You are the better person and your control over the situation is proof of that. You may not realise this, but anyone who witnesses such indiscretions, or is the target of them, recognises this too. Your self-worth simply cannot be in any way linked to a character flaw in someone else. It just doesn't compute.
 <br/>
 <br/>
 

@@ -8,6 +8,36 @@ article_img: bootstrap/img/qn.png
 ---
 {% include JB/setup %}
 
+
+
+
+new topic: selection criteria
+
+Interesting ... since companies only hire for skills (right or wrong). So the advice is basically "stagnate in the buzzword category until you want a new job and the scramble to get experience in whatever buzzword is in the job description"
+permalink save report give gold reply
+[–]bjhowell [S] 1 point 58 minutes ago*
+If hiring for skills then my article stands. If hiring for buzzwords then I guess /u/IAmASocketMan is correct. Would you want to work somewhere that disregards your fundamental skills in order to tick off their buzzword list? Perhaps. That isn't the point of the article. As a side note, I've never been an unemployed developer and have been doing this stuff for a very long time. YMMV however...
+Edit: made sure I addressed my reply to the right person.
+permalink save parent editdelete reply
+[–]IAmASocketMan 1 point 30 minutes ago
+Let me clarify, in my context "skills" was buzzwords, I should have used buzzwords first.
+Most job descriptions are looking for a candidate who knows XYZ library (like RoR or AngularJS, etc, whatever). Like it or not most companies have little interest in training someone and the expectation is that developers learn on their own time.
+Perhaps I've interviewed at the wrong places but I've met very few would hire solely based on proficiency of the skills you list as "to learn," rather they would hire for immediate impact in whatever framework/library/API they needed.
+permalink save parent report give gold reply
+[–]bjhowell [S] 1 point 7 minutes ago
+I would encourage anyone to address criteria asking for a particular buzzword in a job description with how their skills fill the need that that criteria is specifying. e.g. if the criteria states "n years experience with MS SQL", I would address the criteria by explaining my experience in SQL and the number of RDBMS I have coded with and/or administered over the years. Then give an example of where this skill was used in a project and the technicalities and achievements related to it.
+If you don't have experience with a particular buzzword, then do as above, then clarify that you do have the fundamental knowledge to get up to speed quickly and your underlying skills are transferable from buzzword x to buzzword y. Addressing the criteria in this way is compelling. There is no unwritten rule that says selection criteria must be addressed in the affirmative.
+
+
+
+
+
+-----------------------------------
+
+ * future trends in programming: looking towards the future, maths concepts and functional programming, moving into parallel programming and concurrency.
+
+
+
  * API design. (little manual of API design)
  
  https://mandrillapp.com/api/docs/
