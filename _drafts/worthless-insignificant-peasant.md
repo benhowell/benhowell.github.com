@@ -44,7 +44,7 @@ Don't react. Just step back and take a moment to analyse the situation like the 
 #### It's a reflection of their character.
 They have failed the [Waiter rule][1]. _"If someone is nice to you but rude to the waiter, they are not a nice person."_ -- <cite>[Dave Barry][2]</cite>. 
 
-A person who moderates their condescension and rude manner depending on their perceived status or value of the person they're interacting with has a serious character flaw. If they treat people according to how subordinate they perceive them to be then they probably have a need to prove or otherwise refect their imagined sense of superiority, which is a classic sign of insecurity.
+A person who moderates their condescension and rude manner depending on their perceived status or value of the person they're interacting with has a serious character flaw. If they treat people according to how subordinate they perceive them to be then they probably have a need to reflect their imagined sense of superiority, which is a classic sign of insecurity.
 <br/>
 <br/>
 
