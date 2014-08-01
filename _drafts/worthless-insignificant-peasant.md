@@ -23,7 +23,7 @@ hn_url:
 <span markdown="span">_An attitude of patronizing superiority; disdain._</span>
 </p>
 <p>
-Being talked down to, completely ignored or having your contributions dismissed as if you are filthy scum and not worthy of recognition as a human being is not a pleasant experience. When this happens to you in your professional life, you'll probably feel insulted, angry and disrespected. However, these feelings are unjustified. When this sort of situation happens, how you react to it is what matters and will not only influence the way you feel now but also into the future.
+Being talked down to, completely ignored or having your contributions dismissed as if you are filthy scum and not worthy of recognition as a human being is not a pleasant experience. When this happens to you in your professional life, particularly from those in management, you'll probably feel insulted, angry and disrespected. However, these feelings are unjustified. When this sort of situation happens to you, how you react to it is what matters and will not only influence the way you feel now, but also into the future.
 </p>
 <p>
 Don't react. Just step back and take a moment to analyse the situation like a logical, analytical professional. From this point on, treat it as a psychological game of one-upmanship.
@@ -41,56 +41,32 @@ Don't react. Just step back and take a moment to analyse the situation like a lo
 <br/>
 <br/>
 
-
-
-If somebody is ignoring others out of superiority complex, then the word is snobbish.
- egotistical (“Believing oneself to be better and more important than others”), and arrogant (“Having excessive pride in oneself, often with contempt for others”).
- 
-
-
 #### It's a reflection of their character.
 They have failed the [Waiter rule][1]. _"If someone is nice to you but rude to the waiter, they are not a nice person."_ -- <cite>[Dave Barry][2]</cite>. 
 
-A person who moderates their condescension and rude manner depending on their perceived status or value of the person they're interacting with has a serious character flaw. If they treat people according to how subordinate they perceive them to be then they probably have a need to reflect their imagined sense of superiority, which is a classic sign of superiority complex bourne of insecurity.
+A person who moderates their manner and respect depending on their perceived status or value of the person they're interacting with has a serious character flaw. If a person treats people according to how subordinate they perceive them to be then they probably have a need to reflect their imagined sense of superiority.
 <br/>
 <br/>
 
-
-
-#### It's a direct indication of the amount of trust and respect they command.
-
-A boss that talks down to you can be a real problem. Not only does it impact your personal confidence and mindset, but it can be embarrassing and detrimental to the entire workplace’s performance. 
-
-"Sitting in the chair of CEO makes me no better of a person than the forklift operator in our plant," she says. "If you treat the waiter, or a subordinate, like garbage, guess what? Are they going to give it their all? I don't think so."
-
-CEOs who blow up at waiters have an ego out of control, Gould says. "They're saying, 'I'm better. I'm smarter.' Those people tend not to be collaborative."
-
+#### It's a detriment to the amount of trust and respect they command.
+A person that talks down to or ignores subordinates can be detrimental to the performance, morale and happiness of those who have to deal with them. It's a simple matter of logic that employees will not do their best to please an unforgiving and rude line of management, particularly when the only feedback received is nothing at all, or worse, always negative. The more patronising and condescending the person is, the more this person ignores subordinates, the more negative this person is, the less trustworthy they will be in the eyes of those around them. Respect will be non-existant.
 <br/>
 <br/>
 
 
 
 #### It's their problem.
-They could be a psychopath, and if so, there is no redemption for this person as they have a mental disorder. Otherwise it's most likely a personality disorder.
-
-Look, most of the time, things like this aren’t really about YOU. So instead of taking it personally, try to consider for a moment what’s going on for your boss. What’s causing this behavior? Does he perhaps feel threatened by you in some way? Does he have a self-esteem issue that causes him to put others down so he can feel better about himself? You might uncover something that makes the behavior a little easier to put up with or just ignore altogether. Sometimes people have annoying character traits that don’t serve them well, but there’s nothing you can do to change them. Just remember: It’s their issue, not yours. Take comfort in the fact that, if you see it, others see it too. And this kind of behavior will hold them back in life and in their career at some point.
+Ultimately if someone in a senior position ignores, patronises or is condescending towards a subordinate (for whatever reason), it's nothing more than a display of egotism (belief that oneself is more important), arrogance (delusional pride in oneself mixed with an outward contempt for others) or even superiority complex[^1] (overt display of superiority to conceal their feelings of inferiority). They could be a psychopath, and if so, there is no redemption for this person as they have a mental disorder and completely lack empathy. Otherwise it's most likely a milder personality disorder, but whatever it turns out to be, it's still _their_ problem.
 <br/>
 <br/>
-
-
-
-
-
-
-
-
 
 
 #### Dealing with it
+Go back and read each sub-heading in this article. Notice there's no mention of _you_? That's right, it's all about _them_. Every problem is theirs. Every action and reaction of theirs is also about _them_. Not only do we know this, they do too. There is nothing here for you to deal with. Full stop.
 
-Go back and read each sub-heading in this article. Notice there's no mention of _you_? That's right, it's all about _them_. Every problem is theirs. Not only do we know this, they do too. There is nothing here for you to deal with. Full stop.
+You maintain your composure because their ludicrous, display of ego is a serious character flaw and has nothing to do with you. You are the better person and your control over the situation is proof of that. You may not realise this, but anyone who witnesses such indiscretions, or is the target of them, recognises this too. Your self-worth simply cannot be in any way linked to a character flaw in someone else. It just doesn't compute. 
 
-You maintain your composure because their ludicrous, display of ego is a serious character flaw and has nothing to do with you. You are the better person and your control over the situation is proof of that. You may not realise this, but anyone who witnesses such indiscretions, or is the target of them, recognises this too. Your self-worth simply cannot be in any way linked to a character flaw in someone else. It just doesn't compute.
+Maybe you should instead feel pity for this person. What is it that causes them to put others down? Do they have a personality disorder? Are they incredibly insecure? Do they suffer full blown psychopathy? Have fun being an armchair psychologist.
 <br/>
 <br/>
 
@@ -100,7 +76,7 @@ Reacting as if been slighted is a loss. Not reacting at all is a win. Now find w
 <br/>
 
 #### Notes
-
+[^1]: Condition originally defined by [Alfred Adler[3]
 
 
 
@@ -108,6 +84,7 @@ Reacting as if been slighted is a loss. Not reacting at all is a win. Now find w
 
 [1]:http://en.wikipedia.org/wiki/Waiter_Rule
 [2]:http://en.wikipedia.org/wiki/Dave_Barry
+[3]:http://en.wikipedia.org/wiki/Alfred_Adler
 
 
 
