@@ -49,7 +49,7 @@ A person who moderates their manner and adjusts the amount of respect given depe
 <br/>
 
 #### It's a detriment to the amount of trust and respect they command
-A person that talks down to or ignores subordinates can be detrimental to the performance, morale and happiness of those who have to deal with them. It's a simple matter of logic that employees will not do their best to please an unforgiving and rude line of management, particularly when the only interaction or feedback received is always negative, or indeed, nothing at all. The more patronising and condescending the person is, the more this person ignores subordinates, the more negative this person is, the less trustworthy they will be in the eyes of those around them. Respect will be non-existent.
+A person who talks down to or ignores subordinates can be detrimental to the performance, morale and happiness of those who have to deal with them. It's a simple matter of logic that employees will not do their best to please an unforgiving and rude line of management, particularly when the only interaction or feedback received is always negative, or indeed, nothing at all. The more patronising and condescending the person is, the more this person ignores subordinates, the more negative this person is, the less trustworthy they will be in the eyes of those around them. Respect will be non-existent.
 <br/>
 <br/>
 
