@@ -23,7 +23,7 @@ hn_url:
 <span markdown="span">_An attitude of patronizing superiority; disdain._</span>
 </p>
 <p>
-Being talked down to, completely ignored or having your contributions dismissed as if you are filthy scum and not worthy of recognition as a human being is not a pleasant experience. When this happens to you in your professional life, particularly from those in management, you'll probably feel insulted, angry and disrespected. However, these feelings are unjustified. When this sort of situation happens to you, how you react to it is what matters and will not only influence the way you feel now, but also into the future.
+Being talked down to, completely ignored or having your contributions dismissed as if you are filthy scum and not worthy of recognition as a human being is not a pleasant experience. When this happens to you in your professional life, particularly from those in management, you'll probably feel insulted, angry and disrespected. However, these feelings are unjustified. When this sort of situation happens to you, how you react to it is what matters and will not only influence the way you feel now, but also how you feel in the future.
 </p>
 <p>
 Don't react. Just step back and take a moment to analyse the situation like a logical, analytical professional. From this point on, treat it as a psychological game of one-upmanship.
@@ -44,12 +44,12 @@ Don't react. Just step back and take a moment to analyse the situation like a lo
 #### It's a reflection of their character.
 They have failed the [Waiter rule][1]. _"If someone is nice to you but rude to the waiter, they are not a nice person."_ -- <cite>[Dave Barry][2]</cite>. 
 
-A person who moderates their manner and respect depending on their perceived status or value of the person they're interacting with has a serious character flaw. If a person treats people according to how subordinate they perceive them to be then they probably have a need to reflect their imagined sense of superiority.
+A person who moderates their manner and adjusts the amount of respect given depending on their perception of status or value of the person they're interacting with has a serious character flaw. If a person treats people according to how subordinate they perceive them to be then they probably have an overwhelming need to reflect their imagined sense of superiority to those around them.
 <br/>
 <br/>
 
 #### It's a detriment to the amount of trust and respect they command.
-A person that talks down to or ignores subordinates can be detrimental to the performance, morale and happiness of those who have to deal with them. It's a simple matter of logic that employees will not do their best to please an unforgiving and rude line of management, particularly when the only feedback received is nothing at all, or worse, always negative. The more patronising and condescending the person is, the more this person ignores subordinates, the more negative this person is, the less trustworthy they will be in the eyes of those around them. Respect will be non-existant.
+A person that talks down to or ignores subordinates can be detrimental to the performance, morale and happiness of those who have to deal with them. It's a simple matter of logic that employees will not do their best to please an unforgiving and rude line of management, particularly when the only interaction or feedback received is always negative, or indeed, nothing at all. The more patronising and condescending the person is, the more this person ignores subordinates, the more negative this person is, the less trustworthy they will be in the eyes of those around them. Respect will be non-existant.
 <br/>
 <br/>
 
