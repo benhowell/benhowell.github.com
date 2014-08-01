@@ -26,7 +26,7 @@ hn_url:
 Being talked down to, completely ignored or having your contributions dismissed as if you are filthy scum and not worthy of recognition as a human being is not a pleasant experience. When this happens to you in your professional life, particularly from those in management, you'll probably feel insulted, angry and disrespected. However, these feelings are unjustified. When this sort of situation happens to you, how you react to it is what matters and will not only influence the way you feel now, but also how you feel in the future.
 </p>
 <p>
-Don't react. Just step back and take a moment to analyse the situation like a logical, analytical professional. From this point on, treat it as a psychological game of one-upmanship.
+Don't react. Just step back and take a moment to analyse the situation like a logical, analytical professional. From this point on, treat it as a psychological game of oneupmanship.
 </p>
 
 </div>
@@ -49,7 +49,7 @@ A person who moderates their manner and adjusts the amount of respect given depe
 <br/>
 
 #### It's a detriment to the amount of trust and respect they command
-A person that talks down to or ignores subordinates can be detrimental to the performance, morale and happiness of those who have to deal with them. It's a simple matter of logic that employees will not do their best to please an unforgiving and rude line of management, particularly when the only interaction or feedback received is always negative, or indeed, nothing at all. The more patronising and condescending the person is, the more this person ignores subordinates, the more negative this person is, the less trustworthy they will be in the eyes of those around them. Respect will be non-existant.
+A person that talks down to or ignores subordinates can be detrimental to the performance, morale and happiness of those who have to deal with them. It's a simple matter of logic that employees will not do their best to please an unforgiving and rude line of management, particularly when the only interaction or feedback received is always negative, or indeed, nothing at all. The more patronising and condescending the person is, the more this person ignores subordinates, the more negative this person is, the less trustworthy they will be in the eyes of those around them. Respect will be non-existent.
 <br/>
 <br/>
 
