@@ -53,33 +53,27 @@ A person who talks down to or ignores subordinates can be detrimental to the per
 <br/>
 <br/>
 
-
-
 #### It's their problem
-Ultimately if someone in a senior position ignores, patronises or is condescending towards a subordinate (for whatever reason), it's nothing more than a display of egotism (belief that oneself is more important), arrogance (delusional pride in oneself mixed with an outward contempt for others) or even superiority complex[^1] (overt display of superiority to conceal their feelings of inferiority). They could be a psychopath, and if so, there is no redemption for this person as they have a mental disorder and completely lack empathy. Otherwise it's most likely a milder personality disorder, but whatever it turns out to be, it's still _their_ problem.
+Ultimately if someone in a senior position ignores, patronises or is condescending towards a subordinate (for whatever reason), it's nothing more than a display of egotism (belief that oneself is more important), arrogance (delusional pride in oneself mixed with an outward contempt for others) or even superiority complex[^1] (overt display of superiority to conceal their feelings of inferiority). They could be a psychopath, and if so, there is no redemption for this person as they have a mental disorder and completely lack empathy. Or it could be a milder personality disorder, but whatever it turns out to be, it's still _their_ problem.
 <br/>
 <br/>
-
 
 #### Dealing with it
 Go back and read each sub-heading in this article. Notice there's no mention of _you_? That's right, it's all about _them_. Every problem is theirs. Every action and reaction of theirs is also about _them_. Not only do we know this, they do too. There is nothing here for you to deal with. Full stop.
 
-You maintain your composure because their ludicrous, display of ego is a serious character flaw and has nothing to do with you. You are the better person and your control over the situation is proof of that. You may not realise this, but anyone who witnesses such indiscretions, or is the target of them, recognises this too. Your self-worth simply cannot be in any way linked to a character flaw in someone else. It just doesn't compute. 
+You maintain your composure because their ludicrous display of ego is a serious character flaw and has nothing to do with you. You are the better person and your control over the situation is proof of that. You may not realise this, but anyone who witnesses such indiscretions, or is the target of them, recognises this too. Your self-worth simply cannot be in any way linked to a character flaw in someone else. It just doesn't compute. 
 
-Maybe you should instead feel pity for this person. What is it that causes them to put others down? Do they have a personality disorder? Are they incredibly insecure? Do they suffer full blown psychopathy? Have fun being an armchair psychologist.
+Maybe you should instead feel pity for this person. What is it that causes them to put others down? Do they have a personality disorder? Are they incredibly insecure? Do they suffer full-blown psychopathy? Have fun being an armchair psychologist.
 <br/>
 <br/>
 
 #### Winning
-Reacting as if been slighted is a loss. Not reacting at all is a win. Now find whatever avenues you can to cut this person out of your life. Don't deal with them again. If you do need to deal with them going forward then keep the interface to strictly business and at an absolute minimum. At this point, you have won. You are the superior person. Perhaps they'll realise what's happening and why, and at that point, you are the superior person in their mind too. But you don't actually care what they think any more, do you?
+Reacting as if having been slighted is a loss. Not reacting at all is a win. Now find whatever avenues you can to cut this person out of your life. Don't deal with them again. If you do need to deal with them going forward then keep the interface to strictly business and at an absolute minimum. At this point, you have won. You are the superior person. Perhaps they'll realise what's happening and why, and at that point, you are the superior person in their mind too. But you don't actually care what they think any more, do you?
 <br/>
 <br/>
 
 #### Notes
 [^1]: Condition originally defined by [Alfred Adler][3]
-
-
-
 
 
 [1]:http://en.wikipedia.org/wiki/Waiter_Rule
