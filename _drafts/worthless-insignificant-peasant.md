@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "You Are a Worthless, Insignificant Peasant"
-description: "You Are a Worthless, Insignificant Peasant"
+title: "You're a Worthless, Insignificant Peasant"
+description: "You're a Worthless, Insignificant Peasant"
 tagline: "people"
 category: people
 tags: [people, management, psychology, character]
@@ -23,10 +23,10 @@ hn_url:
 <span markdown="span">_An attitude of patronizing superiority; disdain._</span>
 </p>
 <p>
-Being talked down to and having your attempted contributions dismissed as if you are filthy scum and not worthy of recognition as a human being is not a pleasant experience. When this happens to you in your professional life, you'll probably feel insulted, angry and disrespected. However, these feelings are unjustified. When this sort of situation happens, how you react to it is what matters and will not only influence the way you feel now but also into the future.
+Being talked down to, completely ignored or having your contributions dismissed as if you are filthy scum and not worthy of recognition as a human being is not a pleasant experience. When this happens to you in your professional life, you'll probably feel insulted, angry and disrespected. However, these feelings are unjustified. When this sort of situation happens, how you react to it is what matters and will not only influence the way you feel now but also into the future.
 </p>
 <p>
-Don't react. Just step back and take a moment to analyse the situation like the logical, analytical professional you are. Treat it as a psychological game of one-upmanship.
+Don't react. Just step back and take a moment to analyse the situation like a logical, analytical professional. From this point on, treat it as a psychological game of one-upmanship.
 </p>
 
 </div>
@@ -41,10 +41,17 @@ Don't react. Just step back and take a moment to analyse the situation like the 
 <br/>
 <br/>
 
+
+
+If somebody is ignoring others out of superiority complex, then the word is snobbish.
+ egotistical (“Believing oneself to be better and more important than others”), and arrogant (“Having excessive pride in oneself, often with contempt for others”).
+ 
+
+
 #### It's a reflection of their character.
 They have failed the [Waiter rule][1]. _"If someone is nice to you but rude to the waiter, they are not a nice person."_ -- <cite>[Dave Barry][2]</cite>. 
 
-A person who moderates their condescension and rude manner depending on their perceived status or value of the person they're interacting with has a serious character flaw. If they treat people according to how subordinate they perceive them to be then they probably have a need to reflect their imagined sense of superiority, which is a classic sign of insecurity.
+A person who moderates their condescension and rude manner depending on their perceived status or value of the person they're interacting with has a serious character flaw. If they treat people according to how subordinate they perceive them to be then they probably have a need to reflect their imagined sense of superiority, which is a classic sign of superiority complex bourne of insecurity.
 <br/>
 <br/>
 
