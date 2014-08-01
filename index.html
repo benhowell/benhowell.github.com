@@ -68,9 +68,9 @@ tagline: index
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Newer Articles</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Newer</a>
   {% else %}
-    <span>&laquo; Newer Articles</span>
+    <span>&laquo; Newer</span>
   {% endif %}
 
   {% for page in (1..paginator.total_pages) %}
@@ -84,9 +84,9 @@ tagline: index
   {% endfor %}
 
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Articles &raquo;</a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older &raquo;</a>
   {% else %}
-    <span>Older Articles &raquo;</span>
+    <span>Older &raquo;</span>
   {% endif %}
 </div>
 {% endif %}
