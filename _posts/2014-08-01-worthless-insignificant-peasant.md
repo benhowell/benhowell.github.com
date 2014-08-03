@@ -7,7 +7,7 @@ category: people
 tags: [people, management, psychology, character]
 article_img: bootstrap/img/medieval-peasants.jpg
 article_img_title: Peasants - Monty Python and the Holy Grail by Monty Python
-reddit_url: http://www.reddit.com/r/business/comments/2cc5x0/youre_a_worthless_insignificant_peasant_deal_with/
+reddit_url:
 hn_url:
 ---
 {% include JB/setup %}
