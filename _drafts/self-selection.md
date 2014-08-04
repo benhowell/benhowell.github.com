@@ -4,7 +4,7 @@ title: "Self Selection"
 description: ""
 tagline: ""
 category: 
-tags: []
+tags: [selection criteria, programmer, compsci, jobs, employee, interview]
 article_img: bootstrap/img/qn.png
 article_img_title: Question Mark by Anonymous
 reddit_url:
@@ -13,7 +13,7 @@ hn_url:
 {% include JB/setup %}
 <div class="intro">
   <div class="intro-txt">
-    Selection criteria. A buzzword shopping list of essential and desirable technologies, frameworks, languages, and more. Sometimes you have to wonder just how many people actually have this seemingly unique combination of buzzwords, or has the requisite number of years experience. Sometimes, the techbologies listed are so obscure that you wonder how <i>anybody</i> could possibly qualify. 7 to 10 years Powerbuilder experience, 5 years Java experience, extensive experience in .NET, SunOS and Altiris? Nowhere would this be a likely skillset, but in your average city? Give me a lottery ticket!
+    Selection criteria. A buzzword shopping list of essential and desirable technologies, frameworks, languages, and more. Sometimes you have to wonder just how many people actually have this seemingly unique combination of buzzwords, or has the requisite number of years experience in each. Sometimes, the techbologies listed are so obscure that you wonder how <i>anybody</i> could possibly qualify. 7 to 10 years Powerbuilder experience, 5 years Java experience, extensive experience in .NET, SunOS and Altiris? Nowhere would this be a likely skillset, but in your average city? You've got Buckley's or none!
   </div>
 <div class="intro-img-border">
 <div class="intro-img-bevel">
