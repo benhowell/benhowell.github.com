@@ -17,7 +17,7 @@ hn_url:
     Selection criteria. A buzzword shopping list of essential and desirable technologies, frameworks, languages, and more. Sometimes you have to wonder just how many people actually have this seemingly unique combination of buzzwords, or has the requisite number of years experience in each. Sometimes, the techbologies listed are so obscure that you wonder how <i>anybody</i> could possibly qualify. 7 to 10 years Powerbuilder experience, 5 years Java experience, extensive experience in .NET, SunOS and Altiris? Nowhere would this be a likely skillset, but in your average city? You've got Buckley's or none!
   </p>
   <p>
-  So, if you don't have all the buzzwords asked for in the selection criteria, what do you do? Do you give up? Notice that when you're instructed to address the selection criteria it is (normally) not stated that you must address the each criteria in the affirmative.
+  So, if you don't have all the buzzwords asked for in the selection criteria, what do you do? Do you give up, or do you have a crack anyway?
   </p>
   </div>
 <div class="intro-img-border">
@@ -28,6 +28,10 @@ hn_url:
 </div>
 </div>
 </div>
+
+#### Negative
+Notice that when you're instructed to address the selection criteria (at least in all criteria I've ever seen) it is not stated that you must address the each criteria in the affirmative. There seems to be a misunderstanding amongst a lot of software engineers that if you don't meet the buzzword checklist or you don't have _X years_ of experience in _language Y_ then you cannot apply, or you are wasting your time if you do. This is certainly **not** the case. You _can_ address the criteria in the negative and if you do, you wont be alone. Now I'm not saying if you have no skills whatsoever aligned with any of the criteria that you should go ahead and apply, but what I am saying is that by using your own judgement, if you think you fit the position, then you shouldn't allow answering criteria in the negative stop you applying.
+
 
 
 
