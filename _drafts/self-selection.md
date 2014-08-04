@@ -14,7 +14,7 @@ hn_url:
 <div class="intro">
   <div class="intro-txt">
   <p>
-    Selection criteria. A buzzword shopping list of essential and desirable technologies, frameworks, languages, and more. Sometimes you have to wonder just how many people actually have this seemingly unique combination of buzzwords, or has the requisite number of years experience in each. Sometimes, the techbologies listed are so obscure that you wonder how <i>anybody</i> could possibly qualify. 7 to 10 years Powerbuilder experience, 5 years Java experience, extensive experience in .NET, SunOS and Altiris? Nowhere would this be a likely skillset, but in your average city? You've got Buckley's or none!
+    Selection criteria. A buzzword shopping list of essential and desirable technologies, frameworks, languages, and more. Sometimes you have to wonder just how many people actually have this seemingly unique combination of buzzwords, or has the requisite number of years experience in each. Sometimes, the techbologies listed are so obscure that you wonder how <i>anybody</i> could possibly qualify. 7 to 10 years Powerbuilder experience, 5 years Java experience, extensive experience in T-SQL, .NET, Perl, SunOS and Altiris? ITIL certification<span markdown="span">[^1]</span>? Nowhere would this be a likely skillset, but in your average city? You've got Buckley's or none!
   </p>
   <p>
   So, if you don't have all the buzzwords asked for in the selection criteria, what do you do? Do you give up, or do you have a crack anyway?
@@ -28,27 +28,36 @@ hn_url:
 </div>
 </div>
 </div>
+<br/>
+<br/>
 
-#### Negative
-Notice that when you're instructed to address the selection criteria (at least in all criteria I've ever seen) it is not stated that you must address the each criteria in the affirmative. There seems to be a misunderstanding amongst a lot of software engineers that if you don't meet the buzzword checklist or you don't have _X years_ of experience in _language Y_ then you cannot apply, or you are wasting your time if you do. This is certainly **not** the case. You _can_ address the criteria in the negative and if you do, you wont be alone. Now I'm not saying if you have no skills whatsoever aligned with any of the criteria that you should go ahead and apply, but what I am saying is that by using your own judgement, if you think you fit the position, then you shouldn't allow answering criteria in the negative stop you applying.
+#### Do you think you fit the position or not?
+Notice that when you're instructed to address the selection criteria (at least in all criteria I've ever seen) it is not stated that you must address the each criteria in the affirmative? There seems to be a misunderstanding amongst a lot of software engineers that if you don't meet the buzzword checklist or you don't have _X years_ of experience in _language Y_ then you cannot apply, or you are wasting your time if you do. This is certainly **not** the case. You _can_ address the criteria in the negative and if you do, you wont be alone. Now I'm not saying if you have no skills whatsoever aligned with any of the criteria that you should go ahead and apply, but what I am saying is that by using your own judgement, if you think you fit the position, then you shouldn't allow answering criteria in the negative stop you applying.
+<br/>
+<br/>
 
+#### So how did the criteria become so exclusive, obscure and/or specific?
+Employers are often over optimistic when looking at their requirement for skills. What should be a nice to have makes it's way into the "Essential" section and sometimes things that are way out of scope ("I wonder if we could get someone who can manage the network too?") end up on the "Desirable" list. Sometimes managers will look at every system, technology and IT requirement in the business and try to hire for _all_ of them (perhaps you should avoid these!). Sometimes the criteria is developed by committee where all the devs and their managers get their say on what skill they want the new hire to have. Sometimes old requirements from past positions get recycled and thrown into the the mix (WTF _is_ RELAX-NG anwyay?). I've been bemused more than once in the past when I've seen advertisements in the wild that I've contributed to that also contain a slew of buzzwords or unrealistic expectations as far as _experience in X_ is concerned.
+<br/>
+<br/>
 
+#### So how do you address criteria in the negative?
+I would encourage anyone to address criteria asking for a particular buzzword in a job description with how their skills fill the need that that criteria is specifying. e.g. if the criteria states "n years experience with MS-SQL", I would address the criteria by explaining my experience in SQL and the number of RDBMS I have coded with and/or administered over the years. If for example you have experience with PostgreSQL then say so and delve into the specifics of your experience such as management, replication, partitioning, scripting stored procedures in SQL, stored functions and scripts in PL/Python, optimisations etc. Give a specific example of where this skillset was used in a project and the technicalities and achievements related to it. At the code/application end, give an example of abstractions or helper functions you've written to allow you to query that database in an easy way, etc. 
 
+If you don't have experience with a particular buzzword, but you can transfer the skills, then do as above. Clarify that you do have the fundamental knowledge to get up to speed quickly and your underlying skills are transferable from _buzzword X_ to _buzzword Y_. Addressing the criteria in this way is compelling. There is no unwritten rule that says selection criteria must be addressed in the affirmative. 
+<br/>
+<br/>
 
+#### Always address the desirable criteria, always.
+Yeah, it's not compulsory. Neither is cleaning your teeth. If you can't answer in the affirmative, answer in the negative and detail the skillset and background knowledge that satisfy the spirit of the critera. Sometimes you'll unknowingly plant a gem that will greatly enhance your chances of winning the position.
+<br/>
+<br/>
 
-Interesting ... since companies only hire for skills (right or wrong). So the advice is basically "stagnate in the buzzword category until you want a new job and the scramble to get experience in whatever buzzword is in the job description"
+#### Concluding thoughts.
+In every interview I've ever been a part of, it is the ability and aptitude of the candidate and their team fit that gets them over the line. Employing engineers is a heavy investment, and quite often the employer (and the interview team which probably contains devs, etc) is looking at a medium to long term investment. This mindset favours aptitude, general and tranferable knowledge, problem solving skills, adaptibility and position fit over and above exactly fitting all selection criteria in the affirmative. If you think you're a good fit for the position (even if that presents a big challenge) but are unable to answer all criteria in the affirmative, then apply anyway. Articulate demonstration of skill, even when answering criteria in the negative will always provide a compelling case.
+<br/>
+<br/>
 
+#### Notes
+[^1]: This is actually very close to selection criteria I have seen at a former workplace. I wasn't trying to be ridiculous!
 
-
-If hiring for skills then my article stands. If hiring for buzzwords then I guess /u/IAmASocketMan is correct. Would you want to work somewhere that disregards your fundamental skills in order to tick off their buzzword list? Perhaps. That isn't the point of the article. As a side note, I've never been an unemployed developer and have been doing this stuff for a very long time. YMMV however...
-
-
-
-Let me clarify, in my context "skills" was buzzwords, I should have used buzzwords first.
-Most job descriptions are looking for a candidate who knows XYZ library (like RoR or AngularJS, etc, whatever). Like it or not most companies have little interest in training someone and the expectation is that developers learn on their own time.
-Perhaps I've interviewed at the wrong places but I've met very few would hire solely based on proficiency of the skills you list as "to learn," rather they would hire for immediate impact in whatever framework/library/API they needed.
-
-
-
-I would encourage anyone to address criteria asking for a particular buzzword in a job description with how their skills fill the need that that criteria is specifying. e.g. if the criteria states "n years experience with MS SQL", I would address the criteria by explaining my experience in SQL and the number of RDBMS I have coded with and/or administered over the years. Then give an example of where this skill was used in a project and the technicalities and achievements related to it.
-If you don't have experience with a particular buzzword, then do as above, then clarify that you do have the fundamental knowledge to get up to speed quickly and your underlying skills are transferable from buzzword x to buzzword y. Addressing the criteria in this way is compelling. There is no unwritten rule that says selection criteria must be addressed in the affirmative.
