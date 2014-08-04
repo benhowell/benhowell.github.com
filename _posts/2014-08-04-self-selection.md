@@ -42,7 +42,7 @@ Employers are often over optimistic when looking at their requirement for skills
 <br/>
 
 #### So how do you address criteria in the negative?
-I would encourage anyone to address criteria asking for a particular buzzword in a job description with how their skills fill the need that that criteria is specifying. For example, if the criteria states "_N years_ experience with MS-SQL", I would address the criteria by explaining my experience in SQL and the number of RDBMS I have coded with and/or administered over the years. 
+I would encourage anyone to address criteria asking for a particular buzzword in a job description with how their skills fill the need that that criteria is specifying. For example, if the criteria states "_N years_ experience with MS-SQL", and I did not have experience with MS-SQL, I would address the criteria by explaining my experience in SQL and the number of RDBMS I have coded with and/or administered over the years. 
 
 If for example you have experience with PostgreSQL then say so and delve into the specifics of your experience such as management, replication, partitioning, scripting stored procedures in SQL, stored functions and scripts in PL/Python, optimisations etc. Give a specific example of where this skill set was used in a project and the technicalities and achievements related to it. At the code/application end, give an example of abstractions or helper functions you've written to allow you to query that database in an easy way. 
 
