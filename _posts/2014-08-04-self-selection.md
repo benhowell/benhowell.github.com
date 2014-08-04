@@ -7,7 +7,7 @@ category: people
 tags: [selection criteria, programmer, compsci, jobs, employee, interview, management, career]
 article_img: bootstrap/img/Job.jpg
 article_img_title: Job - print by William Bromley.
-reddit_url:
+reddit_url: http://www.benhowell.net/people/2014/08/04/self-selection/
 hn_url:
 ---
 {% include JB/setup %}
