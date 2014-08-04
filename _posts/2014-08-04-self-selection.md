@@ -7,7 +7,7 @@ category: people
 tags: [selection criteria, programming, compsci, jobs, employee, interview, management, career]
 article_img: bootstrap/img/Job.jpg
 article_img_title: Job - print by William Bromley.
-reddit_url: http://www.reddit.com/r/programming/comments/2ckupb/self_selection_addressing_selection_criteria_for/
+reddit_url:
 hn_url:
 ---
 {% include JB/setup %}
