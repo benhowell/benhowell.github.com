@@ -5,8 +5,8 @@ description: ""
 tagline: ""
 category: 
 tags: [selection criteria, programmer, compsci, jobs, employee, interview]
-article_img: bootstrap/img/qn.png
-article_img_title: Question Mark by Anonymous
+article_img: bootstrap/img/Job.jpg
+article_img_title: Job - print by William Bromley.
 reddit_url:
 hn_url:
 ---
