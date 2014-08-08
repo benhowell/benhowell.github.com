@@ -6,7 +6,7 @@
     {% if page.description %}<meta name="description" content="{{ page.description }}"/>{% endif %}
     <meta name="author" content="{{ site.author.name }}"/>
     {% if page.tags %}
-    <meta property="keywords" content="{% for item in page.tags %}{{ item }}{% if !forloop.last %}, {% endif %}{% endfor %}"/>
+    <meta property="keywords" content="{% for item in page.tags %}{{ item }}{% if forloop.last %}, {% endif %}{% endfor %}"/>
 
     {% if site.author.google_plus %}
       <link rel="author" href="{{ site.author.google_plus }}?rel=author" />
