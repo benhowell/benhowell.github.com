@@ -13,8 +13,8 @@ article_img: bootstrap/img/qn.png
 
 
 
-
-
+salary history
+http://resumellow.com/resume-tips/7-job-application-rules-from-a-guy-that-hired-300-people-in-the-last-year
 
 
 -----------------------------------
