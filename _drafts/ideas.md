@@ -11,7 +11,7 @@ article_img: bootstrap/img/qn.png
 
 
 
-
+the forgotten users (other programmers)
 
 salary history
 http://resumellow.com/resume-tips/7-job-application-rules-from-a-guy-that-hired-300-people-in-the-last-year
@@ -26,8 +26,6 @@ http://resumellow.com/resume-tips/7-job-application-rules-from-a-guy-that-hired-
  * API design. (little manual of API design)
  
  https://mandrillapp.com/api/docs/
-
- * Software is for humans, not computers.
  
  * Knuth: programming is writing. Even books and articles on complex subjects are fairly light on structure.
  
