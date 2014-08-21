@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Your financial history. Your business"
+title: "Your financial history. Your business."
 description: "Your financial history. Your business"
 tagline: "people"
 category: people
@@ -16,7 +16,10 @@ hn_url:
     
     
 <p>
-Recruitment. Hiring employees for a given position with a salary that's fair. Of course the emplyer will be offering market value for the person with the right skills and experience, won't they? Well, in some cases that's a resounding <span markdown="span">**_NO_**</span>.
+Recruitment, shady practices and unsavoury hiring advice has a habit of getting on my goat as is clear in my [rant in a previous article about recruitment]({% post_url 2014-07-17-step-away-from-the-kool-aid %}). 
+
+
+Hiring employees for a given position with a salary that's fair. Of course the employer will be offering market value for the person with the right skills and experience? Or will they?
 
 A praiseworthy pursuit for any budding entrepreneur. In fact, if you have the excitement and drive to see your mission through to successful business then you deserve all the kudos that comes your way. Frugality is the rule of law for starting lean and bootstrapping but should you also expect others to sacrifice current and future earnings to build your dream?
 </p>
