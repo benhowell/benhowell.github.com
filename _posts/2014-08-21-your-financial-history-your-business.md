@@ -35,11 +35,11 @@ Is it OK to ask for an applicants personal financial history as part of the sele
 <br/>
 
 #### If someone can’t or won’t follow instructions, they don’t belong at my company.
-The quote above was pulled from an article on [resumellow.com][1] who claim to be the _"Professional Association of Resume Writers and Career Coaches"_. The title of the article is _"7 Job Application Rules from a Guy that Hired 300+ People in the Last Year"_.
+The quote above was pulled from [an article on resumellow.com][1] who claim to be the _"Professional Association of Resume Writers and Career Coaches"_. The title of the article is _"7 Job Application Rules from a Guy that Hired 300+ People in the Last Year"_.
 
 Cool, some free career advice. Great! I love it when a kind hearted recruiter gives out free advice to those who need some help with writing job applications and resumes and are in need of general career advice. Let's take a look:
 
-_"I place a simple instruction in the job listing and then see if applicants follow it. The instruction is usually very simple . . . here are some examples: Please include salary history..."_  -- <cite>[Jeremiah (no surname)][2]</cite>.
+_"I place a simple instruction in the job listing and then see if applicants follow it. The instruction is usually very simple . . . here are some examples: Please include salary history..."_  -- <cite>[Jeremiah (no surname)][1]</cite>.
 
 If this is not a slimy, unethical and completely unfair position to be putting potential applicants in, then I'd like to hear reasoned argument as to why it is not. Jeremiah claims to have hired 300+ people in the last year so he obviously has a lot of power. Is this flexing of his salary negotiating muscle from his position of power over the much less powerful applicant _even before_ they're able to apply fair and just?
 
@@ -67,5 +67,4 @@ So, is this a hiring practice that you agree with? Is it ethical? Does it provid
 
 
 
-[1]:http://resumellow.com/
-[2]:http://resumellow.com/resume-tips/7-job-application-rules-from-a-guy-that-hired-300-people-in-the-last-year
+[1]:http://resumellow.com/resume-tips/7-job-application-rules-from-a-guy-that-hired-300-people-in-the-last-year
