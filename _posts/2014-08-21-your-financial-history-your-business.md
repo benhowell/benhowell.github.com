@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Your financial history. Your business."
+title: "Your Financial History. Your Business."
 description: "Your financial history. Your business"
 tagline: "people"
 category: people
