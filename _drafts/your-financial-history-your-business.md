@@ -37,7 +37,7 @@ Is it ok to ask for an applicants personal financial history as part of the sele
 #### If someone can’t or won’t follow instructions, they don’t belong at my company.
 The quote above was pulled from an article on [resumellow.com][1] who claim to be the _"Professional Association of Resume Writers and Career Coaches"_. The title of the article is _"7 Job Application Rules from a Guy that Hired 300+ People in the Last Year"_.
 
-Cool, some free career advice. Great! I love it when a kind hearted recruiter gives out free advice to those who need some help with writing job applications and resumes and are in need of general career advice. Follow instructions. Well, on the face of it, this seems like some pretty sensible advice. But hang on, what instructions are we talking about here? Let's take a look:
+Cool, some free career advice. Great! I love it when a kind hearted recruiter gives out free advice to those who need some help with writing job applications and resumes and are in need of general career advice. Let's take a look:
 
 _"I place a simple instruction in the job listing and then see if applicants follow it. The instruction is usually very simple . . . here are some examples: Please include salary history..."_  -- <cite>[Jeremiah (no surname)][2]</cite>.
 
