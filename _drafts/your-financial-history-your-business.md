@@ -20,7 +20,7 @@ Recruitment, shady practices and unsavoury hiring advice has a habit of getting 
 Hiring employees for a given position with a salary that's fair. Of course the employer will be offering market value for the person with the right skills and experience? Or will they? Will they play fair or will they disguise their slimy tactics underneath a thin veil of lies?
 </p>
 <p>
-Is it ok to ask for an applicants personal financial history as part of the selection criteria for the job? Is it ok to reject applicants for not revealing that history? Is this even legal? I'm not sure what the answer to the last question is in whatever country you're reading this article, but from an ethical point of view, asking applicants for personal financial details leaves a very bitter taste in my mouth.
+Is it OK to ask for an applicants personal financial history as part of the selection criteria for the job? Is it OK to reject applicants for not revealing that history? Is this even legal? I'm not sure what the answer to the last question is in whatever country you're reading this article, but from an ethical point of view, asking applicants for personal financial details leaves a very bitter taste in my mouth.
 </p>
 </div>
 <div class="intro-img-border">
@@ -54,7 +54,7 @@ Let's finish off with the rest of Jeremiah's advice about _"following instructio
 
 _"If someone can’t or won’t follow instructions, they don’t belong at my company. Even with executives . . . I still want to see if they can follow simple instructions. When an applicant follows instructions they’ve earned their way from a “glance” to a “skim.” "_
 
-I see, still insisting it's all about _"following instructions"_. At least Jeremiah has moved from “glance” to a “skim”. What a nice guesture.
+I see, still insisting it's all about _"following instructions"_. At least Jeremiah has moved from “glance” to a “skim”. After laying out your financial history? Such a nice gesture.
 <br/>
 <br/>
 
