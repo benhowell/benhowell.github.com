@@ -61,7 +61,7 @@ I see, still insisting it's all about _"following instructions"_. At least Jerem
 #### Just don't apply then.
 Sure, I hear what some of you are saying, and it goes something like this... _"If you don't like the instructions then don't apply"_. The thing is though, those who do apply are probably desperate for any job and unethical practices like these will ensure they earn less than they are worth. Recruiters who use this tactic for screening applicants are doing it for no other reason than to low-ball the applicant.
 
-So, is this a hiring practice that you agree with? Is it ethical? Does it provide a fair playing field?
+So, is this a hiring practice that you agree with? Is it ethical? Does it provide a fair playing field? Have you been subject to this type of hiring practice?
 
 
 
