@@ -41,7 +41,7 @@ Cool, some free career advice. Great! I love it when a kind hearted recruiter gi
 
 _"I place a simple instruction in the job listing and then see if applicants follow it. The instruction is usually very simple . . . here are some examples: Please include salary history..."_  -- <cite>[Jeremiah (no surname)][2]</cite>.
 
-WTF? If this is not a slimy, unethical and completely unfair position to be putting potential applicants in, then I'd like to hear reasoned argument as to why it is not. Jeremiah claims to have hired 300+ people in the last year so he obviously has a lot of power. Is this flexing of his salary negotiating muscle, from his position of power over the much less powerful applicant _even before_ they're able to apply fair and just?
+If this is not a slimy, unethical and completely unfair position to be putting potential applicants in, then I'd like to hear reasoned argument as to why it is not. Jeremiah claims to have hired 300+ people in the last year so he obviously has a lot of power. Is this flexing of his salary negotiating muscle from his position of power over the much less powerful applicant _even before_ they're able to apply fair and just?
 
 Let's read some more words of wisdom from the guy that cheated 300+ people last year:
 
@@ -59,9 +59,11 @@ I see, still insisting it's all about _"following instructions"_. At least Jerem
 <br/>
 
 #### Just don't apply then.
-Sure, I hear what some of you are saying, and it goes something like this... _"If you don't like the instructions then don't apply"_. The thing is though, those who do apply are probably desperate for any job and unethical practices like these will ensure they earn less than they are worth. Recruiters who use this tactic for screening applicants are doing it for no other reason than to low-ball the applicant.
+Sure, I hear what some of you are saying, and it goes something like this... _"If you don't like the instructions then don't apply"_. The thing is though, those who do apply are probably desperate for any position that comes along and unethical practices like these will ensure they earn less than they are worth. Recruiters who use this tactic for screening applicants are doing it for no other reason than to low-ball the applicant. Don't be fooled.
 
-So, is this a hiring practice that you agree with? Is it ethical? Does it provide a fair playing field? Have you been subject to this type of hiring practice?
+So, is this a hiring practice that you agree with? Is it ethical? Does it provide a fair playing field? Have you been subject to this type of hiring practice? 
+
+I'd love to hear about it.
 
 
 
