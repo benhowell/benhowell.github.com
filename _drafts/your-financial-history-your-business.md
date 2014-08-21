@@ -16,7 +16,7 @@ hn_url:
     
     
 <p>
-Recruitment, shady practices and unsavoury hiring advice has a habit of getting on my goat as is clear in my [rant in a previous article about recruitment]({% post_url 2014-07-17-step-away-from-the-kool-aid %}). 
+Recruitment, shady practices and unsavoury hiring advice has a habit of getting on my goat as is clear in my <span markdown="span">[rant in a previous article about recruitment]({% post_url 2014-07-17-step-away-from-the-kool-aid %})</span>. 
 
 
 Hiring employees for a given position with a salary that's fair. Of course the employer will be offering market value for the person with the right skills and experience? Or will they?
