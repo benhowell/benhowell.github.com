@@ -17,21 +17,14 @@ hn_url:
     
 <p>
 Recruitment, shady practices and unsavoury hiring advice has a habit of getting on my goat as is clear in my <span markdown="span">[rant in a previous article about recruitment]({% post_url 2014-07-17-step-away-from-the-kool-aid %})</span>. 
-
-
-Hiring employees for a given position with a salary that's fair. Of course the employer will be offering market value for the person with the right skills and experience? Or will they?
-
-A praiseworthy pursuit for any budding entrepreneur. In fact, if you have the excitement and drive to see your mission through to successful business then you deserve all the kudos that comes your way. Frugality is the rule of law for starting lean and bootstrapping but should you also expect others to sacrifice current and future earnings to build your dream?
 </p>
 <p>
-Is it ok to pay less for labour just because an employee believes in what you want to do with your startup and has some excitement about working on the idea? Is it just and fair (and in some countries even legal) to pay a fraction of the market rate for employees to build your business? Should enthusiastic employees be "totally up for it?" (as in getting paid sweet f a, not, you know, "up for it" in the colloquial sense... either way it still sounds wrong!) just becaue you have a cool product?
+Hiring employees for a given position with a salary that's fair. Of course the employer will be offering market value for the person with the right skills and experience? Or will they? Will they play fair or will they disguise their slimy tactics underneath a thin veil of lies?
 </p>
-    
-    
-    
-    
-    
-  </div>
+<p>
+Is it ok to ask for an applicants personal financial history as part of the selection criteria for the job? Is it ok to reject applicants for not revealing their personal financial history? Is this even legal? I'm not sure what the answer to the last question is in whatever country you're reading this article in, but from an ethical point of view, asking applicants for financial details leaves a very bitter taste in my mouth.
+</p>
+</div>
 <div class="intro-img-border">
 <div class="intro-img-bevel">
 <div class="intro-img">
