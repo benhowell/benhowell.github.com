@@ -7,7 +7,7 @@ category: people
 tags: [people, management, psychology, recruitment]
 article_img: bootstrap/img/rip-off.jpg
 article_img_title: Rip-off by Unknown
-reddit_url:
+reddit_url: http://www.reddit.com/r/jobs/comments/2e65sj/your_financial_history_your_business_unethical/
 hn_url:
 ---
 {% include JB/setup %}
