@@ -5,8 +5,8 @@ description: "The Forgotten User"
 tagline: "craft"
 category: craft
 tags: [craft, design, craftsmanship, compsci, programming, coding]
-article_img: bootstrap/img/qn.png
-article_img_title: Question Mark by Anonymous
+article_img: bootstrap/img/forgotten-grave-abandoned-japan.jpg
+article_img_title: Forgotten grave – Abandoned Japan by Kurt Bell
 reddit_url:
 hn_url:
 ---
