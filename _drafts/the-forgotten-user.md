@@ -15,7 +15,11 @@ hn_url:
 <div class="intro-txt">
 
 <p>
-As programmers we've all heard stories of projects gone wrong because somehow everyone forgot about the users! But I want to draw your attention to  another user who, almost always is forgotten in every project, every product and every other bit of coding we all do everyday. That user is another programmer. That programmer may be you. 
+We've all heard stories of projects gone wrong because somehow everyone forgot about the users! But I want to draw your attention to another user who is almost always forgotten in every project, every product and every other bit of coding we all do everyday. That user is another programmer. That programmer may be you. 
+</p>
+
+<p>
+I, and I'm sure everyone else reading along knows how much it sucks to work on other peoples code[^1]. Picking up a previously worked on project, a legacy code base, another library, a custom DSL or what have you is normally a pain in the arse at best and at worse, a rage inducing, blood boiling exercise that takes the utmost vigilence and self awareness so as to not inflict damage on everyone around you.
 </p>
     
 </div>
@@ -27,3 +31,10 @@ As programmers we've all heard stories of projects gone wrong because somehow ev
 </div>
 </div>
 </div>
+
+
+
+
+
+#### Notes
+[^1]: Most of the time. Sometimes it's ok, sometimes it's easy, and, sometimes it's a pleasure. It is the pleasurable outcome I'm calling for here!
