@@ -13,19 +13,15 @@ hn_url:
 {% include JB/setup %}
 <div class="intro">
 <div class="intro-txt">
-
 <p>
 We've all heard stories of projects gone wrong because somehow everyone forgot about the users! But I want to draw your attention to another user who is almost always forgotten in every project, every product and every other bit of coding we all do everyday. That user is another programmer. That programmer may be you. 
 </p>
-
 <p>
 I, and I'm sure everyone else reading along knows how much it sucks to work on other peoples code<span markdown="span">[^1]</span> when the next user (you in this case) has been forgotten. Picking up a previously worked on project, a legacy code base, another library, a custom DSL or what have you is normally a pain in the arse at best, and at worst, a rage inducing, blood boiling exercise that takes the utmost vigilence and self awareness so as to prevent you from inflicting damage on those around you.
 </p>
-
 <p>
-It would be bad enough if you were to inflict this upon yourself, but for the ultimate worst case scenario it would have to be if you were supporting some other forgotten user on one of your prior projects.
+It would be bad enough if you were to inflict this upon yourself, but for the ultimate worst case scenario, imagine having to support and hand-hold some other poor forgotten user lamped with one of your prior projects.
 </p>
-    
 </div>
 <div class="intro-img-border">
 <div class="intro-img-bevel">
@@ -35,6 +31,10 @@ It would be bad enough if you were to inflict this upon yourself, but for the ul
 </div>
 </div>
 </div>
+<br/>
+<br/>
+
+#### Documentation
 
 
 
