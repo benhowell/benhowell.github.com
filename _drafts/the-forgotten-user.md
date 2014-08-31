@@ -19,7 +19,7 @@ We've all heard stories of projects gone wrong because somehow everyone forgot a
 </p>
 
 <p>
-I, and I'm sure everyone else reading along knows how much it sucks to work on other peoples code<span class="markdown">[^1]</span>. Picking up a previously worked on project, a legacy code base, another library, a custom DSL or what have you is normally a pain in the arse at best and at worse, a rage inducing, blood boiling exercise that takes the utmost vigilence and self awareness so as to not inflict damage on everyone around you.
+I, and I'm sure everyone else reading along knows how much it sucks to work on other peoples code<span markdown="span">[^1]</span>. Picking up a previously worked on project, a legacy code base, another library, a custom DSL or what have you is normally a pain in the arse at best and at worse, a rage inducing, blood boiling exercise that takes the utmost vigilence and self awareness so as to not inflict damage on everyone around you.
 </p>
     
 </div>
