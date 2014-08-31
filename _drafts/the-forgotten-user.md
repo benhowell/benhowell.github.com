@@ -46,6 +46,9 @@ I've had a programmer in the past take alomst 12 months to do a job that should'
 
 Don't write your code for reuse if you don't know if or who or how your code will be reused. Oh, if there is one useless tennet of modern programming perpetuated over the last 20 years I could eliminate, it would be this. Don't write reusable code if you don't know if your code will be reused. If you're making premature design decisions based on hypotheticals of situations of reuse of which you have no idea about, then you're probably making your code more complex than it has to be. Rather than considering your future programmers, you're really just rolling an extra layer of obfuscation around your stuff for them to decipher later on. Don't prematurely design. Refactor later.
 
+#### APIs and public interfaces
+Don't ram some RESTful schema down the throat of your future users. **look up reference** 
+
 
 #### Elegant code
 Give me documented code please.
