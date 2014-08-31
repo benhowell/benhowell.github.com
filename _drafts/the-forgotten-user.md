@@ -39,6 +39,20 @@ It would be bad enough if you were to inflict this upon yourself, but for the ul
 
 
 
+#### Elegant code
+Give me documented code please.
+
+
+#### Conventions, variable and function naming.
+Please don't reuse and/or use duplicates variable names throughout your code. Use nice descriptive names, don't use one, two, whatever number characters in place of a real, actual descriptive name. Please don't use some initialism or acronym that's only apparent to you. Hint: if coming up with a descriptive variable name is hard then perhaps you should rethink your code.
+
+
+
+
+#### Conclusion
+If we only cared about coding for computers we'd be writing assembler or binary (advanced apologies to those who program in assembler). Modern day programming languages, and therefore your code, is solely written for humans to read so please don't forget the user! 
+
+
 
 #### Notes
 [^1]: Most of the time. Sometimes it's ok, sometimes it's easy, and, sometimes it's a pleasure. It is the pleasurable outcome I'm calling for here!
