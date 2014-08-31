@@ -35,8 +35,16 @@ It would be bad enough if you were to inflict this upon yourself, but for the ul
 <br/>
 
 #### Documentation
+Write code comments. Comment your functions. Comment your files / classes. 
 
 
+#### Abstraction and generalisation
+Please don't create multiple levels of abstraction and or generalisations and specific implementations when it is not necessary. Is there really a need for a factory, an abstract class, an interface class, and a whateverImpl class for a single object type when there are no other generalisations of it's superclass and/or implementations of it's implemented interface? Don't make me trapse backwards and forwards all over your code in order to figure out what should have been a simple class should have been doing.
+
+#### Extesibility and reuse
+I've had a programmer in the past take alomst 12 months to do a job that should've taken 2 simply because of this (yes I checked in on this person regularly, and yes their actual output and time taken was completely out of my hands. I might write a future article about beuracracy!). The reuse thing was taken so far in this particular case that every class had more than one constructor, and in the worst case, 11 constructors! Why? I'm shaking my head as I write this as it still has an effect on me and this happened 5 or more years ago now.
+
+Don't write your code for reuse if you don't know if or who or how your code will be reused. Oh, if there is one useless tennet of modern programming perpetuated over the last 20 years I could eliminate, it would be this. Don't write reusable code if you don't know if your code will be reused. If you're making premature design decisions based on hypotheticals of situations of reuse of which you have no idea about, then you're probably making your code more complex than it has to be. Rather than considering your future programmers, you're really just rolling an extra layer of obfuscation around your stuff for them to decipher later on. Don't prematurely design. Refactor later.
 
 
 #### Elegant code
