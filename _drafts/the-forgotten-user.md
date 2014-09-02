@@ -14,13 +14,13 @@ hn_url:
 <div class="intro">
 <div class="intro-txt">
 <p>
-We've all heard stories of projects gone wrong because somehow everyone forgot about the users! But I want to draw your attention to another user who is almost always forgotten in every project, every product and every other bit of coding we all do everyday. That user is a future programmer. That programmer may be you. 
+We've all heard stories of projects gone wrong because somehow everyone forgot about the users! But I want to draw your attention to another user who is almost always forgotten in every project, every product and every other bit of coding we all do everyday. That user is the future programmer. That programmer may be you. 
 </p>
 <p>
-I'm sure everyone reading along knows how much it sucks to work on other peoples code<span markdown="span">[^1]</span> when the next programmer has been forgotten. Picking up a previously worked on project, a legacy code base, another library, a custom DSL or what have you is normally a pain in the arse at best, and at worst, a rage inducing, blood boiling exercise that takes the utmost vigilence and self awareness so as to prevent you from inflicting damage on those around you.
+I'm sure everyone reading along knows how much it sucks to work on other peoples code<span markdown="span">[^1]</span> when the next programmer has been forgotten. Picking up a previously worked on project, a legacy code base, another library, a custom DSL or what have you is normally a pain in the arse at best, and at worst, a rage inducing, blood boiling exercise that takes the patience of a saint lest damage be inflicted on objects within your vacinity.
 </p>
 <p>
-It would be bad enough if you were to inflict this upon yourself, but for the ultimate worst case scenario, imagine having to support and hand-hold some other poor forgotten user lamped with one of your prior projects.
+It would be bad enough if you were to inflict this upon yourself, but for the ultimate worst case scenario, imagine having to support and hand-hold some other poor forgotten user lumped with one of your prior projects where you had forgotten or ignored the future programmer.
 </p>
 </div>
 <div class="intro-img-border">
@@ -35,7 +35,9 @@ It would be bad enough if you were to inflict this upon yourself, but for the ul
 <br/>
 
 #### Documentation
-Write code comments. Comment your functions. Comment your files / classes. 
+Please comment your code. Please. Self documenting code? Yeah, we all try to do that, but bang for buck? Plain old written factual discourse. And I'm not talking about blindingly obvious class comments ("The Car class is a class that represents a car"). Write some prose on the purpose of the file or class both in and of itself, and in the greater scheme of things with respect to your software. Note any secial cases, things that may not be obvious and even give an example or two if it helps right there in the comments. If there are references that may be of use to the future programmer then add them here as well (i.e. links to standards or protocols that may apply, specifications that may be relevent, examples or other code on which the underlying code may be based or even other classes within your software that make heavy use of the code).
+
+Please take the same consideration with your functions and/or methods.
 <br/>
 <br/>
 
