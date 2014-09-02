@@ -37,7 +37,7 @@ It would be bad enough if you were to inflict this upon yourself, but for the ul
 #### Documentation
 Please comment your code. Please. Self documenting code? Yeah, we all try to do that, but bang for buck? Plain old written factual discourse. And I'm not talking about blindingly obvious class comments ("The Car class is a class that represents a car"). Write some prose on the purpose of the file or class both in and of itself, and in the greater scheme of things with respect to your software. Note any secial cases, things that may not be obvious and even give an example or two if it helps right there in the comments. If there are references that may be of use to the future programmer then add them here as well (i.e. links to standards or protocols that may apply, specifications that may be relevent, examples or other code on which the underlying code may be based or even other classes within your software that make heavy use of the code).
 
-Please take the same consideration with your functions and/or methods.
+Please take the same consideration with your functions and/or methods and tell us some stuff about what each of the arguments are and what's returned from the function.
 <br/>
 <br/>
 
