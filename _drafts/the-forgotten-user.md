@@ -14,10 +14,10 @@ hn_url:
 <div class="intro">
 <div class="intro-txt">
 <p>
-We've all heard stories of projects gone wrong because somehow everyone forgot about the users! But I want to draw your attention to another user who is almost always forgotten in every project, every product and every other bit of coding we all do everyday. That user is another programmer. That programmer may be you. 
+We've all heard stories of projects gone wrong because somehow everyone forgot about the users! But I want to draw your attention to another user who is almost always forgotten in every project, every product and every other bit of coding we all do everyday. That user is a future programmer. That programmer may be you. 
 </p>
 <p>
-I, and I'm sure everyone else reading along knows how much it sucks to work on other peoples code<span markdown="span">[^1]</span> when the next user (you in this case) has been forgotten. Picking up a previously worked on project, a legacy code base, another library, a custom DSL or what have you is normally a pain in the arse at best, and at worst, a rage inducing, blood boiling exercise that takes the utmost vigilence and self awareness so as to prevent you from inflicting damage on those around you.
+I'm sure everyone reading along knows how much it sucks to work on other peoples code<span markdown="span">[^1]</span> when the next programmer has been forgotten. Picking up a previously worked on project, a legacy code base, another library, a custom DSL or what have you is normally a pain in the arse at best, and at worst, a rage inducing, blood boiling exercise that takes the utmost vigilence and self awareness so as to prevent you from inflicting damage on those around you.
 </p>
 <p>
 It would be bad enough if you were to inflict this upon yourself, but for the ultimate worst case scenario, imagine having to support and hand-hold some other poor forgotten user lamped with one of your prior projects.
@@ -43,6 +43,8 @@ Write code comments. Comment your functions. Comment your files / classes.
 #### Running
 install, run and deploy. docs and script. not CI or continuous deployment pipeline. don't make me compile umpteen other dependencies from source with special flags and specific compiler versions.
 make it easily portable and runnable so i don't have to spend a week building it. make your tooling easy, don't make me use cmake, nmake, gcc and msvs compiler for a single project.
+<br/>
+<br/>
 
 
 #### Abstraction and generalisation
