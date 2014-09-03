@@ -34,8 +34,10 @@ It would be bad enough if you were to inflict this upon yourself, but for the ul
 <br/>
 <br/>
 
-#### Tooling, Compiling, Installing, Running
-Please make your code easy to deploy and run/install. No future programmer wants to have to first find and then compile umpteen dependencies each requiring their own specific compiler version, each with special compiler flags. Make your stuff easily portable and runnable so your future programmers don't have to spend a week building it. Host the dependencies and do the compilation for your future users, and if need be, give them some precompiled binaries for the architectures you support. If there needs to be some configuration and placement of files/packages for the software to run, then write up a quick installer or a little script with an install.txt to do it for them. If possible, make your software run wherever it is placed (i.e. in a compressed file that can be unpacked wherever they choose). Finally, if you must make your users compile _anything_ the try to at least keep the tooling to a minimum (e.g. don't make them use numerous make derivitives and/or compilers). Do as much of the heavy lifting as you can for your user to get them up and running because unless they absolutely have to use your stuff, any burden here will drive them to an easier solution, and if they are stuck with your manual build methods then they will resent you.
+#### Set up
+Please make your code easy to deploy and run/install. No future programmer wants to have to first find and then compile umpteen dependencies each requiring their own specific compiler version, each with special compiler flags. Make your stuff easily portable and runnable so your future programmers don't have to spend a week building it. Host the dependencies and do the compilation for them, and if need be, give them your special precompiled binary dependencies for the architectures you support. If there needs to be some configuration and placement of files, dependencies or packages for the software to run, then write up a quick installer or a little script with an install.txt to do it for them. 
+
+If possible, make your software run wherever it is placed (i.e. in a compressed file that can be unpacked wherever the future programmer chooses). Finally, if you must make your users compile _anything_ then try to at least keep the tooling to a minimum (e.g. don't make them use numerous derivitives of make or a number of different compilers or versions thereof). Do as much of the heavy lifting as you can for your user to get them up and running because unless they absolutely have to use your stuff, any burden here will drive them to an easier solution, and if they are stuck with your manual build methods then they will resent you.
 <br/>
 <br/>
 
@@ -45,6 +47,12 @@ Please comment your code. What about self documenting code? Well, I'm sure we al
 Please take the same consideration with your functions and/or methods and tell us some stuff about what each of the arguments are and what's returned from the function. Please also comment private and/or protected methods, internal functions and the like as your _future programming user still needs to know this stuff_. Mix in a little markup and hey presto! you've got Latex/Doxygen/Javadoc/whatever as an added bonus.
 <br/>
 <br/>
+
+#### Conventions, variable and function naming.
+Please don't reuse and/or use duplicates variable names throughout your code. Use nice descriptive names, don't use one, two, whatever number characters in place of a real, actual descriptive name. Please don't use some initialism or acronym that's only apparent to you. Hint: if coming up with a descriptive variable name is hard then perhaps you should rethink your code.
+<br/>
+<br/>
+
 
 
 
@@ -77,10 +85,7 @@ Give me documented code please.
 
 
 
-#### Conventions, variable and function naming.
-Please don't reuse and/or use duplicates variable names throughout your code. Use nice descriptive names, don't use one, two, whatever number characters in place of a real, actual descriptive name. Please don't use some initialism or acronym that's only apparent to you. Hint: if coming up with a descriptive variable name is hard then perhaps you should rethink your code.
-<br/>
-<br/>
+
 
 #### Conclusion
 If we only cared about coding for computers we'd be writing assembler or binary (advanced apologies to those who program in assembler). Modern day programming languages, and therefore your code, is solely written for humans to read so please don't forget the user! 
