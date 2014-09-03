@@ -6,7 +6,7 @@ tagline: "people"
 category: people
 tags: [people, management, psychology, recruitment]
 article_img: bootstrap/img/bernard-madoff-pic-getty-338515842.jpg
-article_img_title: Bernard Madoff by Getty Images
+article_img_title: Bernard Madoff. Source: Getty Images
 reddit_url: http://www.reddit.com/r/jobs/comments/2e65sj/your_financial_history_your_business_unethical/
 hn_url:
 ---
