@@ -34,19 +34,20 @@ It would be bad enough if you were to inflict this upon yourself, but for the ul
 <br/>
 <br/>
 
+#### Tooling, Compiling, Installing, Running
+Please make your code easy to deploy and run/install. No future programmer wants to have to first find and then compile umpteen dependencies each requiring their own specific compiler version, each with special compiler flags. Make your stuff easily portable and runnable so your future programmers don't have to spend a week building it. Host the dependencies and do the compilation for your future users, and if need be, give them some precompiled binaries for the architectures you support. If there needs to be some configuration and placement of files/packages for the software to run, then write up a quick installer or a little script with an install.txt to do it for them. If possible, make your software run wherever it is placed (i.e. in a compressed file that can be unpacked wherever they choose). Finally, if you must make your users compile _anything_ the try to at least keep the tooling to a minimum (e.g. don't make them use numerous make derivitives and/or compilers). Do as much of the heavy lifting as you can for your user to get them up and running because unless they absolutely have to use your stuff, any burden here will drive them to an easier solution, and if they are stuck with your manual build methods then they will resent you.
+<br/>
+<br/>
+
 #### Documentation
-Please comment your code. Please. Self documenting code? Yeah, we all try to do that, but bang for buck? Plain old written factual discourse. And I'm not talking about blindingly obvious class comments ("The Car class is a class that represents a car"). Write some prose on the purpose of the file or class both in and of itself, and in the greater scheme of things with respect to your software. Note any secial cases, things that may not be obvious and even give an example or two if it helps right there in the comments. If there are references that may be of use to the future programmer then add them here as well (i.e. links to standards or protocols that may apply, specifications that may be relevent, examples or other code on which the underlying code may be based or even other classes within your software that make heavy use of the code).
+Please comment your code. What about self documenting code? Well, I'm sure we all try to do that, but bang for buck? Plain old written factual discourse. And I'm not talking about blindingly obvious comments ("The Car class is a class that represents a car"). Write some prose on the purpose of the file or class both in and of itself, and in the greater scheme of things with respect to your software. Note any special cases, things that may not be obvious and even give an example or two if it helps right there in the comments. If there are references that may be of use to the future programmer then add them here as well (i.e. links to standards or protocols that may apply, specifications that may be relevent, examples or other code on which the underlying code may be based or even other classes within your software that make heavy use of the code).
 
-Please take the same consideration with your functions and/or methods and tell us some stuff about what each of the arguments are and what's returned from the function.
+Please take the same consideration with your functions and/or methods and tell us some stuff about what each of the arguments are and what's returned from the function. Please also comment private and/or protected methods, internal functions and the like as your _future programming user still needs to know this stuff_. Mix in a little markup and hey presto! you've got Latex/Doxygen/Javadoc/whatever as an added bonus.
 <br/>
 <br/>
 
 
-#### Running
-install, run and deploy. docs and script. not CI or continuous deployment pipeline. don't make me compile umpteen other dependencies from source with special flags and specific compiler versions.
-make it easily portable and runnable so i don't have to spend a week building it. make your tooling easy, don't make me use cmake, nmake, gcc and msvs compiler for a single project.
-<br/>
-<br/>
+
 
 
 #### Abstraction and generalisation
@@ -70,6 +71,11 @@ Don't ram some RESTful schema down the throat of your future users. **look up re
 Give me documented code please.
 <br/>
 <br/>
+
+
+#### Frameworks, bloat and stuff.
+
+
 
 #### Conventions, variable and function naming.
 Please don't reuse and/or use duplicates variable names throughout your code. Use nice descriptive names, don't use one, two, whatever number characters in place of a real, actual descriptive name. Please don't use some initialism or acronym that's only apparent to you. Hint: if coming up with a descriptive variable name is hard then perhaps you should rethink your code.
