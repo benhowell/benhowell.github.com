@@ -14,10 +14,10 @@ hn_url:
 <div class="intro">
 <div class="intro-txt">
 <p>
-We've all heard stories of projects gone wrong because somehow everyone forgot about the users! But I want to draw your attention to another user who is almost always forgotten in every project, every product and every other bit of coding we all do everyday. That user is the future programmer. That programmer may be you. 
+We've all heard stories of projects gone wrong because somehow everyone forgot about the users, haven't we? In this article I want to draw your attention to another user who is almost always forgotten in every project, every product and every other bit of coding we all do everyday. That user is the future programmer. That programmer may be you. 
 </p>
 <p>
-I'm sure everyone reading along knows how much it sucks to work on other peoples code<span markdown="span">[^1]</span> when the next programmer has been forgotten. Picking up a previously worked on project, a legacy code base, another library, a custom DSL or what have you is normally a pain in the arse at best, and at worst, a rage inducing, blood boiling exercise that takes the patience of a saint lest damage be inflicted on objects within your vacinity.
+I'm sure everyone reading along knows how much it sucks to work on other peoples code when the next programmer has been forgotten or ignored<span markdown="span">[^1]</span>. Picking up a previously worked on project, a legacy code base, another library, a custom DSL or what have you is normally a pain in the arse at best, and at worst, a rage inducing, blood boiling exercise that takes the patience of a saint lest damage be inflicted on objects within your vacinity.
 </p>
 <p>
 It would be bad enough if you were to inflict this upon yourself, but for the ultimate worst case scenario, imagine having to support and hand-hold some other poor forgotten user lumped with one of your prior projects where you had forgotten or ignored the future programmer.
@@ -98,5 +98,5 @@ If we only cared about coding for computers we'd be writing assembler or binary 
 <br/>
 
 #### Notes
-[^1]: Most of the time. Sometimes it's ok, sometimes it's easy, and, sometimes it's a pleasure. It is the pleasurable outcome I'm calling for here!
+[^1]: Ignored for whatever reason, whether that be accidental neglect or a deliberate trade-off.
 [^2]: Yes I checked in on this person regularly, and yes their actual output and time taken was completely out of my hands. I may have to write a future article about beauracracy...
