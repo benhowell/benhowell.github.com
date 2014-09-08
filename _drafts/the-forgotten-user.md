@@ -44,14 +44,11 @@ Do as much of the heavy lifting as you can for your user to get them up and runn
 <br/>
 
 #### Documentation
-Please comment your code. What about self documenting code? Well, we all try to do that, sure, but bang for buck? Plain old written factual discourse. And I'm not talking about blindingly obvious comments ("The Car class is a class that represents a car"). Write some prose on the purpose of the file or class both in and of itself, and in the greater scheme of things with respect to your software if applicable. Note any special cases, things that may not be obvious and even give an example or two if it helps right there in the comments. If there are references that may be of use to the future programmer then add them here as well (i.e. links to standards or protocols that may apply, specifications that may be relevent, examples or other code on which the underlying code may be based or even other classes within your software that make heavy use of the code).
+Please comment your code. What about self documenting code? Well, we all try to do that, sure, but bang for buck? Plain old written factual discourse. And I'm not talking about blindingly obvious comments ("The Car class is a class that represents a car"). Write some prose on the purpose of the file or class both in and of itself, and in the greater scheme of things with respect to your software if applicable. Note any special cases, things that may not be obvious and even give an example or two if it helps right there in the comments. If there are references that may be of use to the future programmer then add them here as well (i.e. links to standards or protocols that may apply, specifications that may be relevent, examples or other code on which the underlying code may be based or even other classes within your software that make heavy use of the code). Please take the same consideration with your functions and/or methods and tell us some stuff about what each of the arguments are and what's returned from the function. 
 
-Please take the same consideration with your functions and/or methods and tell us some stuff about what each of the arguments are and what's returned from the function. Please also comment private and/or protected methods, internal functions and the like as *_your future programmer still needs to know this stuff_*. Mix in a little markup and hey presto! you've got Latex/Doxygen/Javadoc/whatever as an added bonus.
+There may be domain specific assumptions or language that your future programmer is unaware of, you could be writing non-intuitive code for performance reasons or to get around a bug in upstream or downstream 3rd party code. You might be implementing an algorithm from a scientfic paper or a mathematical formula in which case you should link to the paper and preferably include the formula right there in your comments.
 
-
-http://www.reddit.com/r/programming/comments/2fgqp8/whats_wrong_with_comments_that_explain_complex/
-
-
+Please also comment private and/or protected methods, internal functions and the like as **your future programmer still needs to know this stuff**. For bonus points, mix in a little markup and hey presto! you've got Latex/Doxygen/Javadoc/whatever.
 <br/>
 <br/>
 
