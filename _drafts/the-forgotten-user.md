@@ -75,7 +75,9 @@ I've mentioned this before in [Code Incomplete]({% post_url 2014-06-25-code-inco
 <br/>
 
 #### Conclusion
-If we only cared about coding for computers we'd be writing assembler or binary (advanced apologies to those who program in assembler). Modern day programming languages, and therefore your code, is solely written for humans to read so please don't forget the user! 
+Investment in making things a bit easier for your future programmer is a worthwhile and not overly onerous task. All it takes is a small shift in routine that soon becomes second nature in the flow of things. Make the job of picking up your code and getting productive with it as easy as you can for your future programmer as that programmer may be you (or $deity forbid, supported by you). Of course, what I've written here is not a set of non-negotiable rules cast in stone. There are many circumstances where the advice here is not appropriate or warranted so know when to ignore advice too.
+
+The code you write is for humans. Yes, humans. If we only cared about coding for computers we'd be writing assembler or binary (advanced apologies to those who program in assembler). Modern day programming languages, and therefore your code, is solely written for humans to read so please don't forget the user!
 <br/>
 <br/>
 
