@@ -58,13 +58,9 @@ Use nice descriptive variable and function names. Don't use one, two, whatever n
 <br/>
 
 #### Abstraction and generalisation
-Please don't create multiple levels of abstraction and or generalisations and inherited or extended implementations when it's not necessary. Is there really a need for a factory, an abstract class, an interface class, and a WhateverImpl class for a single object type when there are no other generalisations of it's superclass and/or implementations of it's implemented interface? Don't make your future programmers trapse backwards and forwards all over your code in order to figure out the behaviour of what should have been a simple class or file.
+Is there really a need for a factory, an abstract class, an interface class, and a WhateverImpl class for a single object type when there are no other generalisations of it's superclass and/or implementations of it's implemented interface? Please don't create multiple levels of abstraction and or generalisations and inherited or extended implementations when it's not necessary. Don't make your future programmers trapse backwards and forwards all over your code in order to figure out the behaviour of what should have been a simple class or file.
 <br/>
 <br/>
-
-
-
-
 
 #### Extesibility and reuse
 I had a programmer working on a task for me in the past that took almost 12 months for a job that should've taken 2 simply because of a broken and completely misguided and misinterpreted adherence to the "reuse mantra"[^2]. The reuse thing was taken so far in this particular case that every class had more than one constructor, and in the worst case, 11 constructors! Why? Not only was there way more code here than needed to be which not only made the module harder to follow, read and reason about, it is also playing with fire as far as introduction of faults is concerned. I'm shaking my head as I write this as it still has an effect on me and this happened more than 5 years ago now.
