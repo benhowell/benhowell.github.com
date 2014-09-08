@@ -46,26 +46,25 @@ Do as much of the heavy lifting as you can for your user to get them up and runn
 #### Documentation
 Please comment your code. What about self documenting code? Well, we all try to do that, sure, but bang for buck? Plain old written factual discourse. And I'm not talking about blindingly obvious comments ("The Car class is a class that represents a car"). Write some prose on the purpose of the file or class both in and of itself, and in the greater scheme of things with respect to your software if applicable. Note any special cases, things that may not be obvious and even give an example or two if it helps right there in the comments. If there are references that may be of use to the future programmer then add them here as well (i.e. links to standards or protocols that may apply, specifications that may be relevent, examples or other code on which the underlying code may be based or even other classes within your software that make heavy use of the code). Please take the same consideration with your functions and/or methods and tell us some stuff about what each of the arguments are and what's returned from the function. 
 
-There may be domain specific assumptions or language that your future programmer is unaware of, you could be writing non-intuitive code for performance reasons or to get around a bug in upstream or downstream 3rd party code. You might be implementing an algorithm from a scientfic paper or a mathematical formula in which case you should link to the paper and preferably include the formula right there in your comments.
+The purpose of the code may not be clear. There could be domain specific assumptions or language that your future programmer is unaware of, you could be writing non-intuitive code for performance reasons or to get around a bug in upstream or downstream 3rd party code. You might be implementing an algorithm from a scientfic paper or a mathematical formula in which case you should link to the paper and preferably include the formula right there in your comments.
 
 Please also comment private and/or protected methods, internal functions and the like as **your future programmer still needs to know this stuff**. For bonus points, mix in a little markup and hey presto! you've got Latex/Doxygen/Javadoc/whatever.
 <br/>
 <br/>
 
 #### Conventions, variable and function naming.
-Please don't reuse and/or use duplicates variable names throughout your code. Use nice descriptive names, don't use one, two, whatever number characters in place of a real, actual descriptive name. Please don't use some initialism or acronym that's only apparent to you. Hint: if coming up with a descriptive variable name is hard then perhaps you should rethink your code.
+Use nice descriptive variable and function names. Don't use one, two, whatever number characters in place of a real, actual descriptive name unless it is a well known convention (iterators, exceptions, etc.). Please don't use some initialism or acronym that's only apparent to you. If coming up with a descriptive variable or function name is hard then perhaps you should rethink your code. Don't replicate variable names where the context is not the same. No global variables.
 <br/>
 <br/>
-
-
-
-
-
 
 #### Abstraction and generalisation
-Please don't create multiple levels of abstraction and or generalisations and inherited or extended implementations when it's not necessary. Is there really a need for a factory, an abstract class, an interface class, and a WhateverImpl class for a single object type when there are no other generalisations of it's superclass and/or implementations of it's implemented interface? Don't make your future users trapse backwards and forwards all over your code in order to figure out the behaviour of what should have been a simple class.
+Please don't create multiple levels of abstraction and or generalisations and inherited or extended implementations when it's not necessary. Is there really a need for a factory, an abstract class, an interface class, and a WhateverImpl class for a single object type when there are no other generalisations of it's superclass and/or implementations of it's implemented interface? Don't make your future programmers trapse backwards and forwards all over your code in order to figure out the behaviour of what should have been a simple class or file.
 <br/>
 <br/>
+
+
+
+
 
 #### Extesibility and reuse
 I had a programmer working on a task for me in the past that took almost 12 months for a job that should've taken 2 simply because of a broken and completely misguided and misinterpreted adherence to the "reuse mantra"[^2]. The reuse thing was taken so far in this particular case that every class had more than one constructor, and in the worst case, 11 constructors! Why? Not only was there way more code here than needed to be which not only made the module harder to follow, read and reason about, it is also playing with fire as far as introduction of faults is concerned. I'm shaking my head as I write this as it still has an effect on me and this happened more than 5 years ago now.
