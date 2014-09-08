@@ -42,9 +42,14 @@ If possible, make your software run wherever it is placed (i.e. in a compressed 
 <br/>
 
 #### Documentation
-Please comment your code. What about self documenting code? Well, I'm sure we all try to do that, but bang for buck? Plain old written factual discourse. And I'm not talking about blindingly obvious comments ("The Car class is a class that represents a car"). Write some prose on the purpose of the file or class both in and of itself, and in the greater scheme of things with respect to your software. Note any special cases, things that may not be obvious and even give an example or two if it helps right there in the comments. If there are references that may be of use to the future programmer then add them here as well (i.e. links to standards or protocols that may apply, specifications that may be relevent, examples or other code on which the underlying code may be based or even other classes within your software that make heavy use of the code).
+Please comment your code. What about self documenting code? Well, we all try to do that, sure, but bang for buck? Plain old written factual discourse. And I'm not talking about blindingly obvious comments ("The Car class is a class that represents a car"). Write some prose on the purpose of the file or class both in and of itself, and in the greater scheme of things with respect to your software. Note any special cases, things that may not be obvious and even give an example or two if it helps right there in the comments. If there are references that may be of use to the future programmer then add them here as well (i.e. links to standards or protocols that may apply, specifications that may be relevent, examples or other code on which the underlying code may be based or even other classes within your software that make heavy use of the code).
 
 Please take the same consideration with your functions and/or methods and tell us some stuff about what each of the arguments are and what's returned from the function. Please also comment private and/or protected methods, internal functions and the like as your _future programming user still needs to know this stuff_. Mix in a little markup and hey presto! you've got Latex/Doxygen/Javadoc/whatever as an added bonus.
+
+
+http://www.reddit.com/r/programming/comments/2fgqp8/whats_wrong_with_comments_that_explain_complex/
+
+
 <br/>
 <br/>
 
@@ -59,7 +64,7 @@ Please don't reuse and/or use duplicates variable names throughout your code. Us
 
 
 #### Abstraction and generalisation
-Please don't create multiple levels of abstraction and or generalisations and inherited or extended implementations when it is not necessary. Is there really a need for a factory, an abstract class, an interface class, and a whateverImpl class for a single object type when there are no other generalisations of it's superclass and/or implementations of it's implemented interface? Don't make me trapse backwards and forwards all over your code in order to figure out the behaviour of what should have been a simple class.
+Please don't create multiple levels of abstraction and or generalisations and inherited or extended implementations when it's not necessary. Is there really a need for a factory, an abstract class, an interface class, and a WhateverImpl class for a single object type when there are no other generalisations of it's superclass and/or implementations of it's implemented interface? Don't make your future users trapse backwards and forwards all over your code in order to figure out the behaviour of what should have been a simple class.
 <br/>
 <br/>
 
