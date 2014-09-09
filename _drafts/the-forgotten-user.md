@@ -53,7 +53,7 @@ Please also comment private and/or protected methods, internal functions and the
 <br/>
 
 #### Conventions and variable and function naming
-Use nice descriptive variable and function names. Don't use one, two, whatever number of characters in place of a real, actual descriptive name unless it is a well known convention (iterators, indicies, exceptions, etc.). Please don't use some initialism or acronym that's only apparent to you. If coming up with a descriptive variable or function name is hard then perhaps you should rethink your code. Don't replicate variable names where the context is not the same. No global variables.
+Use nice descriptive variable and function names. Don't use one, two, whatever number of characters in place of a real, actual descriptive name unless it is a well known convention (iterators, indicies, exceptions, etc.). Please don't use some initialism or acronym that's only apparent to you. If coming up with a descriptive variable or function name is hard then perhaps you should rethink your code. Don't replicate variable names where the context is not the same and avoid globals and unneccessary state like the plague.
 <br/>
 <br/>
 
