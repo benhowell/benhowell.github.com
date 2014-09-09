@@ -17,7 +17,7 @@ hn_url:
 We've all heard stories of projects gone wrong because somehow everyone forgot about the users, haven't we? I want to draw your attention to another user who is almost always forgotten in every other bit of coding we all do everyday. That user is the future programmer. That programmer may be you. 
 </p>
 <p>
-I'm sure everyone reading along knows how much it sucks to work on other peoples code when the next programmer has been forgotten or ignored<span markdown="span">[^1]</span>. Picking up a previously worked on project, a legacy code base, another library, a custom DSL or what have you is normally a pain in the arse at best, and at worst, a rage inducing, blood boiling exercise.
+I'm you all know how much it sucks to work on other peoples code when the next programmer has been forgotten or ignored<span markdown="span">[^1]</span>. Picking up a previously worked on project, legacy code base, library, custom DSL or what have you is normally a pain in the arse at best, and at worst, a rage inducing, blood boiling exercise.
 </p>
 <p>
 It would be bad enough if you were to inflict this upon yourself, but the ultimate insult is having to support and hand-hold some other poor sod lumped with one of your prior projects where you had forgotten or ignored the future programmer.
