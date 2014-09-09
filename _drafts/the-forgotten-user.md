@@ -20,7 +20,7 @@ We've all heard stories of projects gone wrong because somehow everyone forgot a
 I'm you all know how much it sucks to work on other peoples code when the next programmer has been forgotten or ignored<span markdown="span">[^1]</span>. Picking up a previously worked on project, legacy code base, library, custom DSL or what have you is normally a pain in the arse at best, and at worst, a rage inducing, blood boiling exercise.
 </p>
 <p>
-It would be bad enough if you were to inflict this upon yourself, but the ultimate insult is having to support and hand-hold some other poor sod lumped with one of your prior projects where you had forgotten or ignored the future programmer.
+It would be bad enough if you were to inflict this upon yourself, but the ultimate insult is having to support and hand-hold some other poor sod lumped with one of your prior projects where you had forgotten or ignored the future programmer. So let's modify our routine a bit and see if we can alleviate some of that pain. 
 </p>
 </div>
 <div class="intro-img-border">
