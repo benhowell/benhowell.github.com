@@ -48,12 +48,12 @@ Yes this is an oft-repeated rant but please just comment your code. What about s
 
 The purpose of the code may not be clear. There could be domain specific assumptions or language that your users are unaware of, you could be writing non-intuitive code for performance reasons or to get around a bug in 3rd party code. You might be implementing an algorithm from a scientific paper or a mathematical formula in which case you should link to the paper and preferably include the formula right there in your comments.
 
-Please also comment private and/or protected methods, internal functions and the like as your users still need to know this stuff. For bonus points, mix in a little markup and hey presto! you've got Latex/Doxygen/Javadoc/whatever.
+Please also comment private and/or protected methods, internal functions and the like as your users still need to know this stuff. For bonus points, mix in a little markup and hey presto! You've got LaTeX/Doxygen/Javadoc/whatever.
 <br/>
 <br/>
 
 #### Conventions and variable and function naming
-Use nice descriptive variable and function names. Don't use one, two, whatever number characters in place of a real, actual descriptive name unless it is a well known convention (iterators, exceptions, etc.). Please don't use some initialism or acronym that's only apparent to you. If coming up with a descriptive variable or function name is hard then perhaps you should rethink your code. Don't replicate variable names where the context is not the same. No global variables.
+Use nice descriptive variable and function names. Don't use one, two, whatever number of characters in place of a real, actual descriptive name unless it is a well known convention (iterators, indicies, exceptions, etc.). Please don't use some initialism or acronym that's only apparent to you. If coming up with a descriptive variable or function name is hard then perhaps you should rethink your code. Don't replicate variable names where the context is not the same. No global variables.
 <br/>
 <br/>
 
