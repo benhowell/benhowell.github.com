@@ -14,7 +14,7 @@ hn_url:
 <div class="intro">
 <div class="intro-txt">
 <p>
-We've all heard stories of projects gone wrong because somehow everyone forgot about the users, haven't we? In this article I want to draw your attention to another user who is almost always forgotten in every project, every product and every other bit of coding we all do everyday. That user is the future programmer. That programmer may be you. 
+We've all heard stories of projects gone wrong because somehow everyone forgot about the users, haven't we? I want to draw your attention to another user who is almost always forgotten in every other bit of coding we all do everyday. That user is the future programmer. That programmer may be you. 
 </p>
 <p>
 I'm sure everyone reading along knows how much it sucks to work on other peoples code when the next programmer has been forgotten or ignored<span markdown="span">[^1]</span>. Picking up a previously worked on project, a legacy code base, another library, a custom DSL or what have you is normally a pain in the arse at best, and at worst, a rage inducing, blood boiling exercise.
@@ -77,7 +77,7 @@ I've mentioned this before in [Code Incomplete]({% post_url 2014-06-25-code-inco
 #### Conclusion
 Investment in making things a bit easier for your future programmer is a worthwhile and not too onerous task. All it takes is a small shift in routine that soon becomes second nature in the flow of things. Make the job of picking up your code and getting productive with it as easy as you can for your future programmer as that programmer may be you (or $deity forbid, supported by you). Of course, what I've written here is not a set of non-negotiable rules cast in stone. There are many circumstances where the advice here is not appropriate or warranted so know when to ignore advice too.
 
-**The code you write is for humans**. If we only cared about coding for computers we'd be writing assembler or binary (advanced apologies to those who program in assembler). Modern day programming languages, and therefore your code, is solely written for humans to read so please don't forget the user!
+**The code you write is for humans**. If we only cared about coding for computers we'd be writing assembler or binary (apologies in advance to those who program in assembler). Modern day programming languages, and therefore your code, is solely written for humans to read so please don't forget the user!
 <br/>
 <br/>
 
