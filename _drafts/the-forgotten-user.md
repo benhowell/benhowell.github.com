@@ -58,7 +58,7 @@ Use nice descriptive variable and function names. Don't use one, two, whatever n
 <br/>
 
 #### Abstraction and generalisation
-Is there really a need for a factory, an abstract class, an interface class, and a WhateverImpl class for a single object type when there are no other generalisations of it's superclass and/or implementations of it's implemented interface? Please don't create multiple levels of abstraction and or generalisations and inherited or extended implementations when it's not necessary. Don't make your future programmers trapse backwards and forwards all over your code in order to figure out the behaviour of what should have been a simple class or file.
+Is there really a need for a factory, an abstract class, an interface class and a WhateverImpl class for a single object type when there are no other generalisations of it's superclass and/or implementations of it's implemented interface? There's really no need to create multiple levels of abstraction, generalisations and inherited or extended implementations when it's not necessary. Don't make your future programmers trapse backwards and forwards all over your code in order to figure out the behaviour of what should have been a simple class or file.
 <br/>
 <br/>
 
