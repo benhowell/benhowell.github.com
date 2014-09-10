@@ -7,7 +7,7 @@ category: craft
 tags: [craft, design, craftsmanship, compsci, programming, coding]
 article_img: bootstrap/img/forgotten-grave-abandoned-japan.jpg
 article_img_title: Forgotten Grave – Abandoned Japan by Kurt Bell
-reddit_url: http://www.reddit.com/r/programming/comments/2fw33o/the_forgotten_user/
+reddit_url:
 hn_url:
 ---
 {% include JB/setup %}
