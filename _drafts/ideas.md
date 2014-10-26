@@ -17,7 +17,7 @@ the forgotten users (other programmers)
 
 -----------------------------------
 
- * future trends in programming: looking towards the future, maths concepts and functional programming, moving into parallel programming and concurrency.
+ * future trends in programming: looking towards the future, maths concepts and functional programming, moving into parallel programming and concurrency. Future libraries will need to be concurrent. Evolution will be Explicit -> implicit, languages like java need to bake parallelism into core libs. 
 
 
 
