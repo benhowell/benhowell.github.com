@@ -45,6 +45,7 @@ the forgotten users (other programmers)
  
  * serendipity - discovering patterns and methodologies by chance (i.e. after coding them, find out later those patterns exist)
  
+ * performance enhancing drugs (software engineering)
  
  
  
