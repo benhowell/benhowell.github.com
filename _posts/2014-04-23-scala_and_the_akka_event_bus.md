@@ -185,7 +185,7 @@ object Logger {
     }
     catch {
       case ioe: IOException => println("IOException: " + ioe.toString)
-      case e: IOException => println("Exception: " + e.toString)
+      case e: Exception => println("Exception: " + e.toString)
     }
   }
 
