@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Vigilantism: Vandalism and Ethics in Engineering"
-description: ""
-tagline: ""
-category: 
-tags: []
+description: "Vigilantism: Vandalism and Ethics in Engineering"
+tagline: "craft"
+category: craft
+tags: [ethics, programming, craft, design, compsci, coding]
 article_img: bootstrap/img/jason_li.jpg
 article_img_title: Jason Li - Vandal, Braggart.
 reddit_url:
