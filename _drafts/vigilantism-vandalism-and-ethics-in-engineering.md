@@ -32,12 +32,12 @@ Had FTDI released drivers that simply didn't work with non-genuine chips then th
 </div>
 </div>
 
-Engineering and releasing malicious code that damages hardware is another case entirely. <b>That's right, FTDI are using malicious code to deliberately damage hardware.</b>
-
 <br/>
 <br/>
 
 #### Vandalism
+Going far beyond detection of, and not providing supported drivers for counterfeit and clone chips, FTDI engineered and released malicious code that deliberately damages that hardware. <b>That's right, FTDI are using malicious code to damage hardware.</b>
+
 Here is a dump of the reverse engineered code[^1]:
 
 <div class="plain-border">
@@ -45,35 +45,11 @@ Here is a dump of the reverse engineered code[^1]:
 <img class="article-image" title="FTDI Driver Malicious Code" src="{{ASSET_PATH}}/bootstrap/img/ftdi_evil.png"/>
 </div>
 </div>
+For a full analysis on what the code actually does, please visit the [original thread over at EEVBlog][1]
 
-
-
-
-**the twitter stream has been deleted but one argument put forward was the licence agreement:
-
-http://www.ftdichip.com/Drivers/FTDriverLicenceTerms.htm
-
-"Use of the Software as a driver for, or installation of the Software onto, a component that is not a Genuine FTDI Component, including without limitation counterfeit components, MAY IRRETRIEVABLY DAMAGE THAT COMPONENT."
-
-Even though their TOS might state that, it's extremely poor PR to go after the end user rather than the distributor. Most people won't even know that they have a counterfeit chip. Even though it may be well within their rights the customers will eventually find out what they have done and bear a grudge.
-May cause more problems than it fixes.
-
-
-
-list affected devices?
-ftdi attitude?
-
-
-link to news coverage?
-
---------------
-
-
-
-
-
-
-
+I have to point out at this time that [FTDI licence][3] specifically states: "Use of the Software as a driver for, or installation of the Software onto, a component that is not a Genuine FTDI Component, including without limitation counterfeit components, MAY IRRETRIEVABLY DAMAGE THAT COMPONENT." but this _does not_ give them any ethical right to use malicious code to damage end user hardware. Even if we ignoring the potential illegality of this deliberate bricking tactic and "disclaimer" it still wanton vandalism on the unsuspecting and innocent end user. FTDI are taking a riot mentality and damaging innocent victims property. Great customer relations there!
+<br/>
+<br/>
 
 #### What should've been done?
 Other than pursue the relevent conterfeiters via the legal system, there are many other avenues for getting a point across.
@@ -84,6 +60,8 @@ The driver could employ some intelligence to alert the user as to whether or not
 #### What should be done now?
 Microsoft should revoke the driver signature as the driver not only disables conterfeit chips, it also breaks legitimate FTDI clones, rendering any devices using these chips illegally broken via what can only be defined as malicious code. Microsoft need to treat this issue with the seriousness it deserves. Auto updates of drivers that deliberately break perfectly legal hardware should never be condoned or facilitated by Microsoft and I'm sure they are already thinking very deeply about the matter and indeed taking steps to ensure something like this never happens again. If the driver signature is not at the very least revoked, then how can we trust any signed driver from now on?
 
+As to what FTDI can do to rescue themselves, their aggressive and damaging tactics in this matter, to use their own terms: "MAY IRRETRIEVABLY DAMAGE" their company.
+
 **Edit: The drivers have now been pulled from Windows update**
 
 If you are unfortunate enough to have bricked a device with these drivers, there is a [solution posted on /r/arduino][2]
@@ -93,11 +71,11 @@ If you are unfortunate enough to have bricked a device with these drivers, there
 
 
 #### Ruining brand and spawning competitors 
-This could indeed validate competitors and/or create a market for legitimate 3rd party manufacturers. electronic engineers such as eevblog dude (and try to find others) say they will no longer use ftdi chips. just switch to another chip to avoid any possible hassle, particularly given the difficulty of verifying genuine chips. Hardware producers and engineers will certainly think twice about incorporating a device into their product with all these uncertainties which could come back to bite them at any time in the lifetime of the hardware.
+This fiasco could indeed validate competitors and/or create a market for legitimate 3rd party manufacturers. Many electronic engineers say they will no longer use ftdi chips and will just switch to another chip to avoid any possible hassle, particularly given the difficulty of verifying genuine chips. Hardware producers and engineers will certainly think twice about incorporating a device into their product with all these uncertainties which could come back to bite them at any time in the lifetime of their hardware.
 
-I wouldn't be surpprised if the clone manufacturers emerge as visible branded competitors. The market has been created right here, right now by FTDI themselves.
+Some Arduino products [ http://www.ebay.co.uk/itm/Nano-V3-0-ATmega328-16M-Micro-controller-CH340G-Board-Mini-USB-for-Arduino-/121465239079 ] have already switched from a FTDI clone to a different chip (CH340G).
 
-Some Arduino products [ http://www.ebay.co.uk/itm/Nano-V3-0-ATmega328-16M-Micro-controller-CH340G-Board-Mini-USB-for-Arduino-/121465239079 ] have already switched from a FTDI clone to a different chip (CH340G). 
+I wouldn't be surpprised if a clone manufacturer(s) emerges as visible branded competitor. The market opportunity has been created right here, right now by FTDI themselves.
 <br/>
 <br/>
 
@@ -290,9 +268,10 @@ If FTDI have an issue with a company ripping off their IP then go sue that compa
 
 #### Notes
 
-[^1]: Reverse engineering and image thanks to marcan over on EEVBlog. The original source and discussion can be found [on this thread over at EEVBlog][1] 
+[^1]: Reverse engineering, function naming, code comments and image thanks to marcan over on EEVBlog. The original source and discussion can be found [on this thread over at EEVBlog][1]
 
 
 
 [1]:http://www.eevblog.com/forum/reviews/ftdi-driver-kills-fake-ftdi-ft232/msg535270/#msg535270
 [2]:http://www.reddit.com/r/arduino/comments/2k0i7x/watch_that_windows_update_ftdi_drivers_are/clgviyl
+[3]:http://www.ftdichip.com/Drivers/FTDriverLicenceTerms.htm
