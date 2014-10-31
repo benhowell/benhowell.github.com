@@ -13,7 +13,13 @@ hn_url:
 {% include JB/setup %}
 <div class="intro">
   <div class="intro-txt">
-    ???????????????????????
+
+<p>
+On the 26th of August, 2014, FTDI released their latest Windows driver (v 2.12.0.0) and it's distribution via a recent Windows automatic update has been nothing less than a monumental error in judgement. In simple terms, the driver update deliberately executes malicious code to brick any device not manufactured by FTDI. This not only stops the device from running with the FTDI drivers, it stops it working entirely. FTDI are using malicious code to deliberately damage hardware.
+</p>
+
+
+
   </div>
 <div class="intro-img-border">
 <div class="intro-img-bevel">
@@ -55,6 +61,57 @@ ftdi attitude?
 link to news coverage?
 
 --------------
+
+
+
+
+
+
+
+
+[condensed] what should've been done?
+
+Other than pursue the relevent conterfeiters via the legal system, there are many other avenues for getting a point across.
+The driver could employ some intelligence to alert the user as to whether or not they are using a geniune FTDI chip or not. This course of action would avoid damaging hardware and in the case of clones not illegally disable them. The onus then is on the clone manufacturer to provide a driver (fix this, it sounds crap). "Sorry. You are attempting to use an offical FTDI driver with incompatible hardware." or something. Supplying software that doesn't work on competitors hardware is perfectly ok, damaging competitors hardware is not ok.
+
+-----------
+
+---------------------
+[condensed] what should be done?
+
+Microsoft should revoke the driver signature as the driver not only disables conterfeit chips, it also breaks legitimate FTDI clones, rendering any devices using these chips illegally broken via what can only be defined as malicious code. Microsoft need to treat this issue with the seriousness it deserves. Auto updates of drivers that deliberately break perfectly legal hardware should never be condoned or facilitated by Microsoft and I'm sure they are already thinking very deeply about the matter and indeed taking steps to ensure something like this never happens again. If the driver signature is not at the very least revoked, then how can we trust any signed driver from now on?
+
+There is a fix!
+http://www.reddit.com/r/arduino/comments/2k0i7x/watch_that_windows_update_ftdi_drivers_are/clgviyl
+
+-------------
+
+----------
+[condensed] ruining brand and spawning competitors 
+
+This could indeed validate competitors and/or create a market for legitimate 3rd party manufacturers. electronic engineers such as eevblog dude (and try to find others) say they will no longer use ftdi chips. just switch to another chip to avoid any possible hassle, particularly given the difficulty of verifying genuine chips. Hardware producers and engineers will certainly think twice about incorporating a device into their product with all these uncertainties which could come back to bite them at any time in the lifetime of the hardware.
+
+I wouldn't be surpprised if the clone manufacturers emerge as visible branded competitors. The market has been created right here, right now by FTDI themselves.
+
+Some Arduino products [ http://www.ebay.co.uk/itm/Nano-V3-0-ATmega328-16M-Micro-controller-CH340G-Board-Mini-USB-for-Arduino-/121465239079 ] have already switched from a FTDI clone to a different chip (CH340G). 
+
+----------
+
+--------------
+[condensed] safety
+FTDI chips could be in any number of medical devices, critical safety equipment or emergency equipment. Deliberately breaking these devices and rendering them unoperational could result in any number of unforeseen circumstances which is incredibly negligent and unethical. If, as a result of this negligence, a defect occured in a critical device which led to a loss of life or property, criminal charges could be brought against FTDI. This may indeed be an extreme hypothetical but it is for this reason that as software engineers we should be ethical in the code we write.
+
+------------
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -229,37 +286,4 @@ If FTDI have an issue with a company ripping off their IP then go sue that compa
 
 
 
--------------
-[condensed] what should've been done?
 
-Other than pursue the relevent conterfeiters via the legal system, there are many other avenues for getting a point across.
-The driver could employ some intelligence to alert the user as to whether or not they are using a geniune FTDI chip or not. This course of action would avoid damaging hardware and in the case of clones not illegally disable them. The onus then is on the clone manufacturer to provide a driver (fix this, it sounds crap). "Sorry. You are attempting to use an offical FTDI driver with incompatible hardware." or something. Supplying software that doesn't work on competitors hardware is perfectly ok, damaging competitors hardware is not ok.
-
------------
-
----------------------
-[condensed] what should be done?
-
-Microsoft should revoke the driver signature as the driver not only disables conterfeit chips, it also breaks legitimate FTDI clones, rendering any devices using these chips illegally broken via what can only be defined as malicious code. Microsoft need to treat this issue with the seriousness it deserves. Auto updates of drivers that deliberately break perfectly legal hardware should never be condoned or facilitated by Microsoft and I'm sure they are already thinking very deeply about the matter and indeed taking steps to ensure something like this never happens again. If the driver signature is not at the very least revoked, then how can we trust any signed driver from now on?
-
-There is a fix!
-http://www.reddit.com/r/arduino/comments/2k0i7x/watch_that_windows_update_ftdi_drivers_are/clgviyl
-
--------------
-
-----------
-[condensed] ruining brand and spawning competitors 
-
-This could indeed validate competitors and/or create a market for legitimate 3rd party manufacturers. electronic engineers such as eevblog dude (and try to find others) say they will no longer use ftdi chips. just switch to another chip to avoid any possible hassle, particularly given the difficulty of verifying genuine chips. Hardware producers and engineers will certainly think twice about incorporating a device into their product with all these uncertainties which could come back to bite them at any time in the lifetime of the hardware.
-
-I wouldn't be surpprised if the clone manufacturers emerge as visible branded competitors. The market has been created right here, right now by FTDI themselves.
-
-Some Arduino products [ http://www.ebay.co.uk/itm/Nano-V3-0-ATmega328-16M-Micro-controller-CH340G-Board-Mini-USB-for-Arduino-/121465239079 ] have already switched from a FTDI clone to a different chip (CH340G). 
-
-----------
-
---------------
-[condensed] safety
-FTDI chips could be in any number of medical devices, critical safety equipment or emergency equipment. Deliberately breaking these devices and rendering them unoperational could result in any number of unforeseen circumstances which is incredibly negligent and unethical. If, as a result of this negligence, a defect occured in a critical device which led to a loss of life or property, criminal charges could be brought against FTDI. This may indeed be an extreme hypothetical but it is for this reason that as software engineers we should be ethical in the code we write.
-
-------------
