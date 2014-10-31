@@ -75,7 +75,7 @@ If you are unfortunate enough to have bricked a device with these drivers, there
 <br/>
 
 #### Brand damage
-This fiasco could indeed validate competitors and/or create a market for legitimate 3rd party manufacturers. Many electronic engineers say they will no longer use FTDI chips and will just switch to another chip to avoid any possible hassle, particularly given the difficulty of verifying genuine chips. Hardware producers and engineers will certainly think twice about incorporating a device into their product with all these uncertainties which could come back to bite them at any time in the lifetime of their hardware.
+This fiasco could validate competitors and/or create a market for legitimate 3rd party manufacturers. Many electronic engineers say they will no longer use FTDI chips and will just switch to another chip to avoid any possible hassle, particularly given the difficulty of verifying genuine chips. Hardware producers and engineers will certainly think twice about incorporating a device into their product with all these uncertainties which appear at any time in the lifetime of their hardware.
 
 Some [Arduino products][4] have already switched from a FTDI clone to a different chip (CH340G).
 
@@ -84,13 +84,13 @@ I wouldn't be surprised if a clone manufacturer(s) emerges as visible branded co
 <br/>
 
 #### Safety
-FTDI chips could be in any number of medical devices, critical safety equipment or emergency equipment. Deliberately breaking these devices and rendering them nonoperational could result in any number of unforeseen circumstances which is incredibly negligent and unethical. If, as a result of this negligence, a defect occurred in a critical device which led to a loss of life or property, criminal charges could be brought against FTDI.
+FTDI chips could be in any number of medical devices, critical safety equipment or emergency equipment. Deliberately breaking these devices and rendering them nonoperational could result in unforeseen circumstances which is incredibly negligent and unethical. If, as a result of this negligence, a defect occurred in a critical device which led to a loss of life or property, criminal charges could be brought against FTDI.
 <br/>
 <br/>
 
 
 #### Ethics
-To recap: FTDI have vandalised end user equipment, damaged legitimate devices and their reputation. Not only have they pissed off users, they may well have put people and property at a serious risk. They have bred distrust in the entirety of the FTDI genuine and non-FTDI clone line of chips and in themselves as a company. They may well have cost manufacturers a lot of money (or their entire business) due to broken hardware that either contained clone chips or was not known to contain counterfeit ones. 
+FTDI have vandalised end user equipment, damaged legitimate devices and their reputation. Not only have they pissed off users, they may have put people and property at serious risk. They have bred distrust in the entirety of the FTDI genuine and non-FTDI clone line of chips and in themselves as a company. They may well have cost manufacturers a lot of money (or their entire business) due to broken hardware that either contained clone chips or was not known to contain counterfeit ones. 
 
 As we can see, just a small snippet of malicious code is enough to do all this damage (literally and figuratively). Sabotage of hardware using software is entirely unethical for whatever reason and can have unknown and devastating consequences. It is for this reason that as software engineers we should always be ethical in the code we write.
 <br/>
