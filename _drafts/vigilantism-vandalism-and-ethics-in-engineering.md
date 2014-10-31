@@ -12,8 +12,7 @@ hn_url:
 ---
 {% include JB/setup %}
 <div class="intro">
-  <div class="intro-txt">
-
+<div class="intro-txt">
 <p>
 On the 26th of August, 2014, FTDI, manufacturer of the worlds most widely used USB serial chip, released their latest Windows driver (v 2.12.0.0) and it's distribution via a recent Windows automatic update has been, at best a monumental error in judgement, and at worst a case of unethical vandalism. 
 </p>
@@ -23,12 +22,7 @@ In simple terms, the driver update executes code to brick any device deemed non-
 <p>
 Had FTDI released drivers that simply didn't work with non-genuine chips then there would be no issue. Manufacturers (and end users) could have been alerted to the fact that the driver was incompatible on non-genuine hardware, and this would've made the point well enough.
 </p>
-
-
-
-
-
-  </div>
+</div>
 <div class="intro-img-border">
 <div class="intro-img-bevel">
 <div class="intro-img">
@@ -42,6 +36,20 @@ Had FTDI released drivers that simply didn't work with non-genuine chips then th
 
 Engineering and releasing malicious code that damages hardware is another case entirely. <b>That's right, FTDI are using malicious code to deliberately damage hardware.</b>
 
+
+#### Vandalism
+Here is a dump of the reverse engineered code:
+<div class="plain-border">
+<div class="plain-bevel">
+<img class="article-image" title="ftdi_driver_malicious_code.png" src="{{ASSET_PATH}}/bootstrap/img/ftdi_evil.png"//>
+</div>
+</div>
+
+
+
+
+
+http://www.eevblog.com/forum/reviews/ftdi-driver-kills-fake-ftdi-ft232/msg535270/#msg535270
 
 
 
