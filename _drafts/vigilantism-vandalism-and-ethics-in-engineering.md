@@ -37,9 +37,10 @@ Had FTDI released drivers that simply didn't work with non-genuine chips then th
 </div>
 </div>
 </div>
+<br/>
+<br/>
 
-
-Engineering and releasing malicious code that damages hardware is another case entirely. I'll repeat that again just so that it's perfectly clear: <b>FTDI are using malicious code to deliberately damage hardware.</b>
+Engineering and releasing malicious code that damages hardware is another case entirely. <b>That's right, FTDI are using malicious code to deliberately damage hardware.</b>
 
 
 
