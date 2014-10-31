@@ -31,14 +31,14 @@ Had FTDI released drivers that simply didn't work with non-genuine chips then th
 </div>
 </div>
 </div>
-<br/>
-<br/>
 
 Engineering and releasing malicious code that damages hardware is another case entirely. <b>That's right, FTDI are using malicious code to deliberately damage hardware.</b>
 
+<br/>
+<br/>
 
 #### Vandalism
-Here is a dump of the reverse engineered code:
+Here is a dump of the reverse engineered code[^1]:
 
 <div class="plain-border">
 <div class="plain-bevel">
@@ -50,7 +50,7 @@ Here is a dump of the reverse engineered code:
 
 
 
-http://www.eevblog.com/forum/reviews/ftdi-driver-kills-fake-ftdi-ft232/msg535270/#msg535270
+
 
 
 
@@ -305,6 +305,10 @@ If FTDI have an issue with a company ripping off their IP then go sue that compa
 
 
 
+#### Notes
+
+[^1]: Reverse engineering and Image thanks to marcan. The original source and discussion can be found [on this thread over at EEVBlog][1] 
 
 
 
+[1]:http://www.eevblog.com/forum/reviews/ftdi-driver-kills-fake-ftdi-ft232/msg535270/#msg535270
