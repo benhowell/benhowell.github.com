@@ -77,7 +77,7 @@ If you are unfortunate enough to have bricked a device with these drivers, there
 #### Brand damage
 This fiasco could indeed validate competitors and/or create a market for legitimate 3rd party manufacturers. Many electronic engineers say they will no longer use FTDI chips and will just switch to another chip to avoid any possible hassle, particularly given the difficulty of verifying genuine chips. Hardware producers and engineers will certainly think twice about incorporating a device into their product with all these uncertainties which could come back to bite them at any time in the lifetime of their hardware.
 
-Some Arduino products [ http://www.ebay.co.uk/itm/Nano-V3-0-ATmega328-16M-Micro-controller-CH340G-Board-Mini-USB-for-Arduino-/121465239079 ] have already switched from a FTDI clone to a different chip (CH340G).
+Some [Arduino products][4] have already switched from a FTDI clone to a different chip (CH340G).
 
 I wouldn't be surprised if a clone manufacturer(s) emerges as visible branded competitor. The market opportunity has been created right here, right now by FTDI themselves.
 <br/>
@@ -102,3 +102,4 @@ As we can see, just a small snippet of malicious code is enough to do all this d
 [1]:http://www.eevblog.com/forum/reviews/ftdi-driver-kills-fake-ftdi-ft232/msg535270/#msg535270
 [2]:http://www.reddit.com/r/arduino/comments/2k0i7x/watch_that_windows_update_ftdi_drivers_are/clgviyl
 [3]:http://www.ftdichip.com/Drivers/FTDriverLicenceTerms.htm
+[4]:http://www.ebay.co.uk/itm/Nano-V3-0-ATmega328-16M-Micro-controller-CH340G-Board-Mini-USB-for-Arduino-/121465239079
