@@ -39,9 +39,10 @@ Engineering and releasing malicious code that damages hardware is another case e
 
 #### Vandalism
 Here is a dump of the reverse engineered code:
+
 <div class="plain-border">
 <div class="plain-bevel">
-<img class="article-image" title="ftdi_driver_malicious_code.png" src="{{ASSET_PATH}}/bootstrap/img/ftdi_evil.png"//>
+<img class="article-image" title="FTDI Driver Malicious Code" src="{{ASSET_PATH}}/bootstrap/img/ftdi_evil.png"/>
 </div>
 </div>
 
