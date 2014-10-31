@@ -15,7 +15,10 @@ hn_url:
   <div class="intro-txt">
 
 <p>
-On the 26th of August, 2014, FTDI, manufacturer of the worlds most widely used USB serial chip, released their latest Windows driver (v 2.12.0.0) and it's distribution via a recent Windows automatic update has been, at best a monumental error in judgement, and at worst a case of unethical vandalism. In simple terms, the driver update deliberately executes malicious code to brick any device deemed non-genuine by FTDI such as conterfeit chips, and more alarmingly, legitimate clone chips. This not only stops the device from running with the FTDI drivers, it stops it working entirely as it sets the device PID to 0 which stops Windows and Linux machines recognising the device. FTDI are using malicious code to deliberately damage hardware.
+On the 26th of August, 2014, FTDI, manufacturer of the worlds most widely used USB serial chip, released their latest Windows driver (v 2.12.0.0) and it's distribution via a recent Windows automatic update has been, at best a monumental error in judgement, and at worst a case of unethical vandalism. 
+</p>
+<p>
+In simple terms, the driver update deliberately executes malicious code to brick any device deemed non-genuine by FTDI such as conterfeit chips, and more alarmingly, legitimate clone chips. This not only stops the device from running with the FTDI drivers, it stops it working entirely as it sets the device PID to 0 which stops Windows and Linux machines recognising the device. FTDI are using malicious code to deliberately damage hardware.
 </p>
 <p>
 Had FTDI released drivers that simply didn't work with non-genuine chips then there would be no issue. Manufacturers (and end users) could have been alerted to the fact that the driver was incompatible on non-genuine hardware, which would've made the point well enough. Writing and releasing malicious code that damages hardware is another case entirely.
