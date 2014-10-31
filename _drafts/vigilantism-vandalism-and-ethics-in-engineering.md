@@ -21,7 +21,7 @@ On the 26th of August, 2014, FTDI, manufacturer of the worlds most widely used U
 In simple terms, the driver update executes code to brick any device deemed non-genuine by FTDI such as conterfeit chips, but more alarmingly, legitimate clone chips. This not only stops the device from running with the FTDI drivers, it stops it working entirely as it sets the device PID to 0 which stops Windows and Linux operating systems recognising the device.
 </p>
 <p>
-Had FTDI released drivers that simply didn't work with non-genuine chips then there would be no issue. Manufacturers (and end users) could have been alerted to the fact that the driver was incompatible on non-genuine hardware, and this would've made the point well enough. Engineering and releasing malicious code that damages hardware is another case entirely. I'll repeat that again just so that it's perfectly clear: <b>FTDI are using malicious code to deliberately damage hardware.</b>
+Had FTDI released drivers that simply didn't work with non-genuine chips then there would be no issue. Manufacturers (and end users) could have been alerted to the fact that the driver was incompatible on non-genuine hardware, and this would've made the point well enough.
 </p>
 
 
@@ -39,7 +39,7 @@ Had FTDI released drivers that simply didn't work with non-genuine chips then th
 </div>
 
 
-
+Engineering and releasing malicious code that damages hardware is another case entirely. I'll repeat that again just so that it's perfectly clear: <b>FTDI are using malicious code to deliberately damage hardware.</b>
 
 
 
