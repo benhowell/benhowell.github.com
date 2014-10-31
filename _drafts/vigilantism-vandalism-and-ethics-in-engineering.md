@@ -15,7 +15,7 @@ hn_url:
   <div class="intro-txt">
 
 <p>
-On the 26th of August, 2014, FTDI released their latest Windows driver (v 2.12.0.0) and it's distribution via a recent Windows automatic update has been nothing less than a monumental error in judgement. In simple terms, the driver update deliberately executes malicious code to brick any device not manufactured by FTDI. This not only stops the device from running with the FTDI drivers, it stops it working entirely. FTDI are using malicious code to deliberately damage hardware.
+On the 26th of August, 2014, FTDI released their latest Windows driver (v 2.12.0.0) and it's distribution via a recent Windows automatic update has been, at best a monumental error in judgement, and at worst a case of unethical vandalism. In simple terms, the driver update deliberately executes malicious code to brick any device not manufactured by FTDI. This not only stops the device from running with the FTDI drivers, it stops it working entirely as it sets the device PID to 0 which in effect, stops Windows and Linux machines recognising the device. FTDI are using malicious code to deliberately damage hardware.
 </p>
 
 
