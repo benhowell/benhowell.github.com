@@ -14,7 +14,7 @@ hn_url:
 <div class="intro">
 <div class="intro-txt">
 <p>
-On the 26th of August, 2014, FTDI, manufacturer of the world's most widely used USB serial chip, released their latest Windows driver (v 2.12.0.0) and its distribution via a recent Windows automatic update has been, at best a monumental error in judgment, and at worst a case of unethical vandalism. 
+On the 26th of August, FTDI, manufacturer of the world's most widely used USB serial chip, released their latest Windows driver (v 2.12.0.0) and its distribution via a recent Windows automatic update has been, at best a monumental error in judgment, and at worst a case of unethical vandalism. 
 </p>
 <p>
 In simple terms, the driver update executes code to brick any device deemed non-genuine by FTDI such as counterfeit chips, but more alarmingly, legitimate clone chips. This not only stops the device from running with the FTDI drivers, it stops it working entirely as it sets the device PID to 0 which stops Windows and Linux operating systems recognising the device.
@@ -75,7 +75,7 @@ If you are unfortunate enough to have bricked a device with these drivers, there
 <br/>
 
 #### Brand damage
-This fiasco could validate competitors and/or create a market for legitimate 3rd party manufacturers. Many electronic engineers say they will no longer use FTDI chips and will just switch to another chip to avoid any possible hassle, particularly given the difficulty of verifying genuine chips. Hardware producers and engineers will certainly think twice about incorporating a device into their product with all these uncertainties which appear at any time in the lifetime of their hardware.
+This fiasco could validate competitors and/or create a market for legitimate 3rd party manufacturers. Many electronic engineers say they will no longer use FTDI chips and will just switch to another chip to avoid any possible hassle, particularly given the difficulty of verifying genuine chips. Hardware producers and engineers will certainly think twice about incorporating a device into their product with all these uncertainties which could appear at any time in the lifetime of their hardware.
 
 Some [Arduino products][4] have already switched from a FTDI clone to a different chip (CH340G).
 
