@@ -28,7 +28,7 @@ Shall we get started? Rhetorical.
 <div class="intro-img-border">
 <div class="intro-img-bevel">
 <div class="intro-img">
-<img class="article-image" title="{{page.article_img_title}}" src="{{ASSET_PATH}}/{{page.article_img}}"/>
+<img class="article-image" alt="{{page.article_img_title}}" title="{{page.article_img_title}}" src="{{ASSET_PATH}}/{{page.article_img}}"/>
 </div> 
 </div> 
 </div>
@@ -79,7 +79,7 @@ Now on to a fine piece of generalisation: [Do Successful Programmers Need to Be 
 <div class="intro-img-border">
 <div class="intro-img-bevel">
 <div class="intro-img">
-<img class="article-image" title="Deep Code Change" src="{{ASSET_PATH}}/bootstrap/img/deep_code_change.jpg"/>
+<img class="article-image" alt="Deep Code Change" title="Deep Code Change" src="{{ASSET_PATH}}/bootstrap/img/deep_code_change.jpg"/>
 </div> 
 </div> 
 </div>
