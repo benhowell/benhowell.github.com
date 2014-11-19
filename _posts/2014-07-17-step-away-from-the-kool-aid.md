@@ -4,7 +4,7 @@ title: "Step Away From the Kool Aid"
 description: "Step Away From the Kool Aid"
 tagline: "people"
 category: people
-tags: [people, management, psychology, bootstrap]
+tags: [people, management, psychology, bootstrap, recruitment]
 article_img: bootstrap/img/jim_jones_250.jpg
 article_img_title: The Rev. Jim Jones by Clem Albers - The Chronicle
 reddit_url: http://www.reddit.com/r/programming/comments/2axuoq/step_away_from_the_kool_aid_dont_sell_yourself/
@@ -23,7 +23,7 @@ Is it ok to pay less for labour just because an employee believes in what you wa
 <div class="intro-img-border">
 <div class="intro-img-bevel">
 <div class="intro-img">
-<img itemprop="image" class="article-image" title="{{page.article_img_title}}" src="{{ASSET_PATH}}/{{page.article_img}}"/>
+<img itemprop="image" class="article-image" alt="{{page.article_img_title}}" title="{{page.article_img_title}}" src="{{ASSET_PATH}}/{{page.article_img}}"/>
 </div>
 </div>
 </div>

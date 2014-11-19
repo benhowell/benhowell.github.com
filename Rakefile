@@ -85,7 +85,7 @@ task :post do
     post.puts '<div class="intro-img-border">'
     post.puts '<div class="intro-img-bevel">'
     post.puts '<div class="intro-img">'
-    post.puts '<img class="article-image" title="{{page.article_img_title}}" src="{{ASSET_PATH}}/{{page.article_img}}"/>'
+    post.puts '<img class="article-image" alt="{{page.article_img_title}}" title="{{page.article_img_title}}" src="{{ASSET_PATH}}/{{page.article_img}}"/>'
     post.puts '</div>'
     post.puts '</div>'
     post.puts '</div>'

@@ -6,7 +6,7 @@
     {% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
     <meta name="author" content="{{ site.author.name }}"/>
     {% if page.tags %}
-    <meta property="keywords" content="{{ page.tags | join: ', ' }}" />
+    <meta name="keywords" content="{{ page.tags | join: ', ' }}" />
     {% endif %}
     {% if site.author.google_plus %}
       <link rel="author" href="{{ site.author.google_plus }}?rel=author" />
@@ -73,17 +73,14 @@
       </div>
     </div>
 
-    <div><a class="brand-image" href="{{ HOME_PATH }}"><img class="brand-image" src="{{ASSET_PATH}}/bootstrap/img/logo_800x190.png"/></a></div>
+    <div><a class="brand-image" href="{{ HOME_PATH }}"><img class="brand-image" alt="benhowell.net" title="benhowell.net" src="{{ASSET_PATH}}/bootstrap/img/logo_800x190.png"/></a></div>
 
     <div class="container-narrow">
       <div class="content">
         {{ content }}
       <hr>
       <footer>
-        <p>&copy; {{ site.author.name }} {{ site.time | date: '%Y' }} 
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-        </p>
+        <p>&copy; {{ site.author.name }} {{ site.time | date: '%Y' }} </p>
       </footer>
 
 
