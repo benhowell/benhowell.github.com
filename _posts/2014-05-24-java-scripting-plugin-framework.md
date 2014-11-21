@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Java Plugin Scripting Architecture"
-description: "Java Plugin Scripting Architecture"
+description: "A comprehensive walkthough guide teaching how to develop a Java Plugin Scripting Architecture from scratch"
 tagline: "guide"
 category: guide
 tags: [java, python, jsr-223, plugin, framework, architecture, beginner, example, tutorial, guide]

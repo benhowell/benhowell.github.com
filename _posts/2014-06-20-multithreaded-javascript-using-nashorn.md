@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Multithreaded Javascript using Nashorn"
-description: "Multithreaded Javascript using Nashorn"
+description: "A comprehensive walkthough guide teaching how to develop a performant multithreaded system in Javascript using the Nashorn engine"
 tagline: "guide"
 category: guide
 tags: [nashorn, javascript, jsr-223, multithreaded, beginner, example, tutorial, guide]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Code Incomplete"
-description: "Code Incomplete"
+description: "A common sense set of ideals to work toward as a professional programmer. Constant review, humility, seeking criticism and an open mind"
 tagline: "craft"
 category: craft
 tags: [craft, design, craftsmanship, compsci, programming, coding]

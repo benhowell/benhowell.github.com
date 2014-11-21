@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Open Plan Anti-pattern"
-description: "The Open Plan Anti-pattern"
+description: "An article analysing empirical studies about the benefits of an open plan office for knowledge workers concluding with some sobering and indisputable truths"
 tagline: "people"
 category : people
 tags : [people, open plan, introvert, extrovert, management, collaboration, privacy, efficiency, psychology]

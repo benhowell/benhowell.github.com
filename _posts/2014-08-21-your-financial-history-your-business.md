@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Your Financial History. Your Business."
-description: "Your financial history. Your business"
+description: "Unethical hiring practices include things such as enquiring about your financial history. Your salary history is none of their business"
 tagline: "people"
 category: people
 tags: [people, management, psychology, recruitment]

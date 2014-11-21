@@ -1,7 +1,12 @@
 ---
 layout: post
 title: "The Forgotten User"
-description: "The Forgotten User"
+description: "Code is for humans. In this article we'll explore some simple ways to make things easier for future programmers using your code base. 
+"
+
+
+
+
 tagline: "craft"
 category: craft
 tags: [craft, design, craftsmanship, compsci, programming, coding]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Self Selection"
-description: "Self Selection - addressing selection criteria advice for programmers"
+description: "Addressing selection criteria advice for programmers. If you don't have all the buzzwords in the selection criteria you should have a crack anyway"
 tagline: "people"
 category: people
 tags: [selection criteria, programming, compsci, jobs, employee, interview, management, career]

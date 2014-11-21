@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Step Away From the Kool Aid"
-description: "Step Away From the Kool Aid"
+description: "Some sage advice for early career programmers. Don't be fooled by the CEO's bullshit. Don't be fooled into being paid less than you're worth."
 tagline: "people"
 category: people
 tags: [people, management, psychology, bootstrap, recruitment]

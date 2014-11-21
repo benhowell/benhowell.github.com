@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Vigilantism: Vandalism and Ethics in Engineering"
-description: "Vigilantism: Vandalism and Ethics in Engineering"
+description: "In this article well debate the ethics of sabotage and damaging of hardware with software. We'll use a recent and well known case involving FTDI to make the case clear"
 tagline: "craft"
 category: craft
 tags: [ethics, programming, craft, design, compsci, coding]

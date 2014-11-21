@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Publish/Subscribe using Scala and Akka EventStream"
-description: "Publish/Subscribe using Scala and Akka EventStream"
+description: "A comprehensive walkthough guide teaching how to implement Publish/Subscribe using Scala and Akka EventStream"
 tagline: "guide"
 category : examples
 tags : [akka, EventSystem, scala, concurrent, asynchronous, publish/subscribe, beginner, example, tutorial, guide]

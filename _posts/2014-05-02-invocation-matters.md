@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Invocation Matters"
-description: "Invocation Matters"
+description: "Function invocation is fundamental. In this article we'll compare and contrast various invocation patterns"
 tagline: "design"
 category: design
 tags : [reactive, scalable, concurrent, asynchronous, patterns, design, publish/subscribe]

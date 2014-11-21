@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "You're a Worthless, Insignificant Peasant"
-description: "You're a Worthless, Insignificant Peasant"
+description: "Arrogant and ignorant superiors treating you like filthy scum. Don't get angry, instead treat it as a psychological game of oneupmanship"
 tagline: "people"
 category: people
 tags: [people, management, psychology, character]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Asleep at the Wheel"
-description: "Asleep at the Wheel"
+description: "Some advice for avoiding, and recovering from burnout for developers. A lot of early career programmers life a life that's not sustainable. Let's fix it"
 tagline: "craft"
 category: craft
 tags: [craft, design, craftsmanship, compsci, programming, coding]
