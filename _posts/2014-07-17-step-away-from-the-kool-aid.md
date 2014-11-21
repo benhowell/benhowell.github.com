@@ -9,6 +9,7 @@ article_img: bootstrap/img/jim_jones_250.jpg
 article_img_title: The Rev. Jim Jones by Clem Albers - The Chronicle
 reddit_url: http://www.reddit.com/r/programming/comments/2axuoq/step_away_from_the_kool_aid_dont_sell_yourself/
 hn_url:
+article_img_alt: "An image depicting The Rev. Jim Jones as a stand-in for your usual brain washing, wage ripping CEO"
 ---
 {% include JB/setup %}
 <div class="intro">

@@ -9,6 +9,7 @@ article_img: bootstrap/img/medieval-peasants.jpg
 article_img_title: Peasants - Monty Python and the Holy Grail by Monty Python
 reddit_url:
 hn_url:
+article_img_alt: "An image depicting some filthy peasants from the legendary Monty Python and the Holy Grail as a metaphore for how employees are treated by some superiors"
 ---
 {% include JB/setup %}
 <div class="intro">

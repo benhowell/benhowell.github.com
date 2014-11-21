@@ -7,6 +7,7 @@ category: guide
 tags: [nashorn, javafx, javascript, UI, jsr-223, java, beginner, example, tutorial, guide]
 article_img: bootstrap/img/nashorn_javafx_250.jpg
 article_img_title: Panzer by Anonymous
+article_img_alt: "An image depicting a crudely drawn Nashorn tank and GUI mockup for an artcle about scriped user interfaces with Nashorn and JavaFX"
 ---
 {% include JB/setup %}
 <div class="intro">

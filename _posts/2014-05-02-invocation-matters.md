@@ -7,6 +7,7 @@ category: design
 tags : [reactive, scalable, concurrent, asynchronous, patterns, design, publish/subscribe]
 article_img: bootstrap/img/Gustave_dore_crusades_invocation_to_muhammad.jpg
 article_img_title: "Invocation by Gustave Doré."
+article_img_alt: "An image depicting an invocation"
 ---
 {% include JB/setup %}
 <div class="intro">

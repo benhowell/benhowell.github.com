@@ -1,12 +1,7 @@
 ---
 layout: post
 title: "The Forgotten User"
-description: "Code is for humans. In this article we'll explore some simple ways to make things easier for future programmers using your code base. 
-"
-
-
-
-
+description: "Code is for humans. In this article we'll explore some simple ways to make things easier for future programmers using your code base."
 tagline: "craft"
 category: craft
 tags: [craft, design, craftsmanship, compsci, programming, coding]
@@ -14,6 +9,7 @@ article_img: bootstrap/img/forgotten-grave-abandoned-japan.jpg
 article_img_title: Forgotten Grave – Abandoned Japan by Kurt Bell
 reddit_url:
 hn_url:
+article_img_alt: "An image depicting a forgotten grava as a metaphore for the forgotten future programmer who has decipher your code"
 ---
 {% include JB/setup %}
 <div class="intro">

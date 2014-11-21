@@ -7,6 +7,7 @@ category : examples
 tags : [akka, EventSystem, scala, concurrent, asynchronous, publish/subscribe, beginner, example, tutorial, guide]
 article_img: bootstrap/img/eventbus_250.jpg
 article_img_title: "Event bus by Anonymous"
+article_img_alt: "An image depicting Publish/Subscribe using Scala and Akka EventStream"
 ---
 {% include JB/setup %}
 <div class="intro">
@@ -27,7 +28,7 @@ In the next few articles we'll look at some using <span markdown="span">[Scala][
 <div class="intro-img-border">
 <div class="intro-img-bevel">
 <div class="intro-img">
-<img class="article-image" alt="{{page.article_img_title}}" title="{{page.article_img_title}}" src="{{ASSET_PATH}}/{{page.article_img}}"/>
+<img class="article-image" alt="{{page.article_img_alt}}" title="{{page.article_img_title}}" src="{{ASSET_PATH}}/{{page.article_img}}"/>
 </div>
 </div>
 </div>

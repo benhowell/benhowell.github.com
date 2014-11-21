@@ -71,6 +71,7 @@ task :post do
     post.puts "tags: #{tags}"
     post.puts "article_img: bootstrap/img/qn.png"
     post.puts "article_img_title: Question Mark by Anonymous"
+    post.puts 'article_img_alt: "An image depicting "'
     post.puts "reddit_url:"
     post.puts "hn_url:"
     post.puts "---"

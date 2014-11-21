@@ -7,8 +7,9 @@ category: craft
 tags: [ethics, programming, craft, design, compsci, coding]
 article_img: bootstrap/img/jason_li.jpg
 article_img_title: Jason Li - Vandal, Braggart.
-reddit_url:
+reddit_url: http://www.reddit.com/r/programming/comments/2kvory/vigilantism_vandalism_and_ethics_in_engineering/
 hn_url:
+article_img_alt: "An image depicting a vandal and some broken stuff that wasn't his. A perfect metaphore for what FTDI have done of late"
 ---
 {% include JB/setup %}
 <div class="intro">

@@ -9,6 +9,7 @@ article_img: bootstrap/img/rip-off.jpg
 article_img_title: Rip off!
 reddit_url: http://www.reddit.com/r/jobs/comments/2e65sj/your_financial_history_your_business_unethical/
 hn_url:
+article_img_alt: "An image depicting one person pick pocketing another as some unscrupulous employers metaphorically do"
 ---
 {% include JB/setup %}
 <div class="intro">

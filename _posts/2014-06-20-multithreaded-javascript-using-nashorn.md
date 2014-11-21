@@ -7,6 +7,7 @@ category: guide
 tags: [nashorn, javascript, jsr-223, multithreaded, beginner, example, tutorial, guide]
 article_img: bootstrap/img/garlic_braid.jpg
 article_img_title: Multithreaded Garlic
+article_img_alt: "An image depicting a multithreaded garlic plait for an article about multithreaded javascript"
 ---
 {% include JB/setup %}
 <div class="intro">

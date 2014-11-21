@@ -7,6 +7,7 @@ category: guide
 tags: [java, python, jsr-223, plugin, framework, architecture, beginner, example, tutorial, guide]
 article_img: bootstrap/img/plugin_250.jpg
 article_img_title: Yes, it has a hairy lead by Anonymous
+article_img_alt: "An image depicting a plugin framework by means of an Australian styled power point and plug"
 ---
 {% include JB/setup %}
 <div class="intro">

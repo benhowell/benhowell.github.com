@@ -9,6 +9,7 @@ article_img: bootstrap/img/master_craftsman.jpg
 article_img_title: Bob Zajicek - Steady Hand at the Lathe by Fr. John Abraham
 reddit_url: http://www.reddit.com/r/programming/comments/2ba12h/code_incomplete_humility_ensures_youll_evolve_as/
 hn_url:
+article_img_alt: "An image depicting a master craftman working some wood on a lathe as a somewhat loose metaphore for a master software engineer"
 ---
 {% include JB/setup %}
 <div class="intro">

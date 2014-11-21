@@ -9,6 +9,7 @@ article_img: bootstrap/img/Job.jpg
 article_img_title: Job - print by William Bromley.
 reddit_url:
 hn_url:
+article_img_alt: "An image depicting Job as a wordplay on, well, Job, as in employment"
 ---
 {% include JB/setup %}
 <div class="intro">

@@ -8,6 +8,7 @@ tags : [people, open plan, introvert, extrovert, management, collaboration, priv
 article_img: bootstrap/img/open_office_250.jpg
 article_img_title: "FML by Anonymous"
 reddit_url: http://www.reddit.com/r/programming/comments/2apwn7/the_open_plan_antipattern/
+article_img_alt: "An image depicting the hell that is the open plan office"
 ---
 {% include JB/setup %}
 
