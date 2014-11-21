@@ -10,12 +10,17 @@ hr {
   border: 0;
 }
 
-h3 {padding-top:0;margin-top:0;}
+h1 {padding-top:0;margin-top:0;}
 
 .page-header {
   border-bottom: 1px solid #dddddd;
 }
 
+h3 {padding-top:0;margin-top:0;}
+
+.page-header {
+  border-bottom: 1px solid #dddddd;
+}
 
 /* Custom container */
 .container-narrow {
@@ -39,6 +44,15 @@ h3 {padding-top:0;margin-top:0;}
 }
 
 /* posts index */
+.post > h1.title {
+  position: relative;
+  padding-top: 10px; }
+
+.post > h1.title span.date {
+  position: absolute;
+  right: 0;
+  font-size: 0.9em; }
+  
 .post > h3.title {
   position: relative;
   padding-top: 10px; }
