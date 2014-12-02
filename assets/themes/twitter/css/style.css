@@ -187,6 +187,7 @@ img.brand-image {
 .linkedin {
   width: 120px;
   padding-left: 6px;
+  float: left;
 }
 
 .social-header {
