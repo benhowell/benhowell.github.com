@@ -184,6 +184,10 @@ img.brand-image {
   width: auto;
 }
 
+.linkedin {
+  width: 120px;
+}
+
 .social-header {
   padding: 0 20px;
 }
