@@ -38,7 +38,7 @@ Why is it then so many businesses insist on telling prospective clients about th
 
  * When your company was founded. Do you know and/or care when Amazon or Ebay were founded? No. 
 
- * By whom your company was founded unless they're famous or very well known in some way, at which point it's used a marketing / investment lever, and certainly has utility entirely separate from the boring wall of text inflicted upon customers in the predominant, non-famous case. Do you know and/or care who founded Symantec or whatever other corporate anti-virus solution you use? No.
+ * By whom your company was founded unless they're famous or very well known in some way. Do you know and/or care who founded Symantec or whatever other corporate anti-virus solution you use? No.
 
  * How many offices you have or where they are, unless of course you're running bricks and mortar shop fronts. Do you know how many offices Adobe have or where they're located? No.
 
@@ -82,6 +82,7 @@ Whilst not excusing the examples given above, I will concede that most ordinary 
 
 
 #### What everybody cares about (to name but a few)
+
  * Getting their problems fixed and sorted. 
  * Streamlining and automating processes for efficiency gains and reduced costs.
  * Higher product/service turnover.
