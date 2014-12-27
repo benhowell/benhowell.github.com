@@ -37,7 +37,7 @@ Why is it then so many businesses with an online presence insist on a boring wal
 <b>They do not care about you or your company</b>.
 
 
-#### personal brand vs product brand
+### Personal brand vs product brand
 whether it's a service, company or product, it is your product brand, not your personal brand.
 
 for personal brand, people want a story, not a wall of yawn inducing trivial minutiae devoid of colour, character or theme. 
