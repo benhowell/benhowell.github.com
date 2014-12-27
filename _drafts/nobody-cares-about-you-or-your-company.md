@@ -54,32 +54,14 @@ Why is it then so many businesses insist on telling prospective clients about th
 
  * Where you went to school (university, whatever), the marks you received or when you graduated. Hell, no one even wants to know if you're self taught. 
 
-<br/>
-<br/>
-
 Whilst not excusing the examples given above, I will concede that most ordinary people will at least understand the information presented. But, what if you are really, really determined to make your potential customers eyes glaze over and tell them things that they no only don't care about, but potentially don't even understand? Well, here's a couple of common ones: 
-<br/>
-<br/>
 
  * Technology, ugh. Nobody cares about your technological skills or indeed the hidden technology that drives or enables your product. Unless that or those particular fact or facts makes or breaks your product for your customer, they will not care! Nobody wan't to know the meaningless names of, or types of systems you've built in the past.
  
  * Your development philosophy or your advocacy for whatever system, plaform, architecture or language you have a bias for.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br/>
+<br/>
 
 #### What everybody cares about (to name but a few)
 
