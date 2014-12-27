@@ -48,25 +48,22 @@ Why is it then so many businesses insist on telling prospective clients about th
 
  * Your previous companies or partnerships. Double yawn!
 
- * Your hobbies.
+ * Your hobbies. Seriously, who TF cares?
 
  * Your philanthropy, volunteer or charity work (as honourable and praiseworthy it may well be).
 
  * Where you went to school (university, whatever), the marks you received or when you graduated (or left whatever institution or whatever, ad infinitum). Hell, no one even wants to know if you're self taught. 
 
+<br/>
+<br/>
+
+Whilst not excusing the examples given above, I will concede that most ordinary people will at least understand the information presented. But, what if you are determined to make your potential customers eyes glaze over and miss out on their business entirely?
+<br/>
+<br/>
+
+ * Technology, ugh. Nobody cares about your technological skills or indeed the hidden technology that drives or enables your product. Unless that or those particular fact or facts makes or breaks your product for your customer, they will not care! Nobody wan't to know the meaningless names of, or types of systems you've built in the past.
  
- 
-
-
-
-
-Nobody enduring a sales and/or technical meeting with you cares about you or your company or the history of either. Your customer is selfish, short of time, and only cares about solving their own problem, so respect their time and don't selfishly waste it by talking about yourself and your company. **They do not care about you or your company**. Stop it.
-
-Technology, ugh. Nobody cares about your technological skills or indeed the hidden technology that drives or enables your product. Unless that or those particular fact or facts makes or breaks your product for your customer, they will not care! Nobody wan't to know the meaningless names of, or types of systems you've built in the past.
-
-Your development philosophy or your advocacy for whatever system, plaform, architecture or language you have a bias for. 
-
-Please just shut up and tell us how you're going to solve our problems. 
+ * Your development philosophy or your advocacy for whatever system, plaform, architecture or language you have a bias for.
 
 
 
@@ -80,13 +77,17 @@ Please just shut up and tell us how you're going to solve our problems.
 
 
 
-#### What everybody cares about
-Getting their problems fixed and sorted. 
-Streamlining and automating processes for efficiency gains and reduced costs.
-Higher product/service turnover.
-Greater customer satisfaction.
-Larger profits.
-More meaningful business, market and customer intelligence. 
+
+
+
+
+#### What everybody cares about (to name but a few)
+ * Getting their problems fixed and sorted. 
+ * Streamlining and automating processes for efficiency gains and reduced costs.
+ * Higher product/service turnover.
+ * Greater customer satisfaction.
+ * Larger profits.
+ * More meaningful business, market and customer intelligence. 
 
 
 
@@ -96,6 +97,24 @@ Your prospects or customers want value. Know what you can do to make the life of
 
 trivial
 self-absorbed
+
+
+
+
+
+
+
+ 
+#### Please tell us how you're going to solve our problems
+ Nobody enduring a sales and/or technical meeting with you cares about you or your company or the history of either. Your customer is selfish, short of time, and only cares about solving their own problem, so respect their time and don't selfishly waste it by talking about yourself and your company. **They do not care about you or your company**. Stop it.
+
+
+
+
+ 
+ 
+ 
+ 
 
 
 
