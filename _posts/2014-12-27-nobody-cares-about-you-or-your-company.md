@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Nobody Cares about You or Your Company"
-description: ""
+description: "Selfishness is quality everyone possesses and if you want to effectively sell to those people then you should take advantage of it rather than limit your success because of it"
 tagline: "business"
 category: business
-tags: []
+tags: [people, psychology, career, business, sales, marketing]
 article_img: bootstrap/img/wavedune.jpg
 article_img_title: Death Valley, California and all the people that care about you and your company.
 article_img_alt: "An image of a section of desert in Death Valley, California and all the people that care about you and your company"
