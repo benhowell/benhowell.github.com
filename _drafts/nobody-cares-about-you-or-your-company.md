@@ -15,10 +15,10 @@ hn_url:
 <div class="intro">
   <div class="intro-txt">
 <p>
-Whether you're selling physical goods, information or software products, or consulting services, the only thing that matters to your customers is the fact that you can fix <i>their</i> problem. Your customers are selfish. They only care about themselves. 
+Whether you're selling information or software products, or tech consulting services, the only thing that matters to your customers is the fact that you can fix <i>their</i> problem. Your customers are selfish. They only care about themselves. 
 </p>
 <p>
-Why is it then so many businesses insist on telling prospective clients about themselves? Why do businesses insist on a boring wall of text about themselves and their company in their online presence? Why is it that some go so far as to have it front and centre on their websites? I'll tell you why. It's because they're selfish. Just like the customers they're trying to attract, they care more about themselves and their company than anyone else. Just like you, everyone around you is thinking of themselves first and foremost. Selfishness is quality everyone possesses and if you want to effectively sell to those people then you should take advantage of it rather than limit your success because of it.
+Why is it then so many businesses insist on telling prospective clients about themselves? Why do businesses confront customers with a boring wall of text about themselves and their company in their online presence? Why is it that some go so far as to have it front and centre on their websites? I'll tell you why. It's because they're selfish. Just like the customers they're trying to attract, they care more about themselves and their company than anyone else. Just like you, everyone around you is thinking of themselves first and foremost. Selfishness is quality everyone possesses and if you want to effectively sell to those people then you should take advantage of it rather than limit your success because of it.
 </p>
   </div>
 <div class="intro-img-border">
@@ -36,53 +36,60 @@ Why is it then so many businesses insist on telling prospective clients about th
 
 #### What nobody cares about
 
-Nobody cares where or when your company was founded.
+When your company was founded. Do you know and/or care when Amazon or Ebay were founded? No. 
 
-Nobody cares by whom your company was founded unless they're famous or very well known in some way, at which point it's used a marketing / investment lever, and certainly has utility entirely separate from the boring wall of text inflicted upon customers in the predominant, non-famous case.
+By whom your company was founded unless they're famous or very well known in some way, at which point it's used a marketing / investment lever, and certainly has utility entirely separate from the boring wall of text inflicted upon customers in the predominant, non-famous case. Do you know and/or care who founded Symantec or whatever other corporate anti-virus solution you use? No.
 
-Nobody cares how many offices you have or where they are, unless of course you're running bricks and mortar shop fronts.
+How many offices you have or where they are, unless of course you're running bricks and mortar shop fronts. Do you know how many offices Adobe have or where they're located? No.
 
-Nobody cares who your customers are or how much those customers are worth.
+Who your customers are or how much those customers are worth. Do you care how successful the top companies that use PayPal are? No.
 
-Nobody cares how much your company has grown.
+How much your company has grown in the last 5 years or by how much you project it to grow in the next 5.
 
-Nobody enduring a sales and/or technical meeting with you cares about you or your company or the history of either. Your customer is selfish and only cares about solving their own problem, so respect their time and don't selfishly waste it by talking about yourself and your company. **They do not care about you or your company**. Stop it.
+Nobody enduring a sales and/or technical meeting with you cares about you or your company or the history of either. Your customer is selfish, short of time, and only cares about solving their own problem, so respect their time and don't selfishly waste it by talking about yourself and your company. **They do not care about you or your company**. Stop it.
 
+Technology, ugh. Nobody cares about your technological skills or indeed the hidden technology that drives or enables your product. Unless that or those particular fact or facts makes or breaks your product for your customer, they will not care!
 
-Technology, ugh. Nobody cares about your technological skills or indeed the hidden technology that drives or enables your product. No one cares!
+The meaningless names of, or types of systems you've built in the past.
 
+Your previous companies or partnerships. Double yawn!
 
-Double demerit points: Nobody cares about your previous companies!
+Your development philosophy or your advocacy for whatever system, plaform, architecture or language you have a bias for. 
 
-Nobody cares about where you went to school (university, whatever), the marks you received or when you graduated (or left whatever institution, whatever). Heck, we don't even want to know if you're self taught. Please just solve our problems. 
+Your hobbies.
 
-Nobody cares about the types of systems you've built in the past.
+Your philanthropy, volunteer or charity work (as honourable and praiseworthy it may well be).
 
-Nobody cares about your development philosophy or your advocacy for whatever system, plaform, architecture or language you have a bias for. 
-
-Nobody cares what your hobbies are.
-
-Nobody cares about your philanthropy, volunteer or charity work (as honourable and praiseworthy it may well be).
-
-Nobody cares about your partnerships.
+Where you went to school (university, whatever), the marks you received or when you graduated (or left whatever institution or whatever, ad infinitum). Hell, no one even wants to know if you're self taught. Please just shut up and tell us how you're going to solve our problems. 
 
 
-trivial
-self-absorbed
+
+
+
+
+
+
+
+
+
 
 
 #### What everybody cares about
+Getting their problems fixed and sorted. 
+Streamlining and automating processes for efficiency gains and reduced costs.
+Higher product/service turnover.
+Greater customer satisfaction.
+Larger profits.
+More meaningful business, market and customer intelligence. 
 
 
 
-They want to know how your product or service is going to help them grow revenue, shorten production, or improve time to delivery.  Pull out your pitch deck or presentation and take a look at the first few pages,
-
-I got 10 bucks it's all about you and your company.  Therefore, it's pitch deck -- pitch it!
 
 Your prospects or customers want value. Know what you can do to make the life of your customers better and start there. That's why they agree to meet you!
 
 
-
+trivial
+self-absorbed
 
 
 
