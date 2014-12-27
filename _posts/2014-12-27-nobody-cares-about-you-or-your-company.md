@@ -37,7 +37,7 @@ Why is it then so many businesses insist on telling prospective clients about th
 
  * When your company was founded. Do you know and/or care when Amazon or Ebay were founded? No. 
 
- * By whom your company was founded unless they're famous or very well known in some way. Do you know and/or care who founded Symantec or whatever other anti-virus solution you use? No.
+ * By whom your company was founded unless you are famous or very well known in some way. Do you know and/or care who founded Symantec or whatever other anti-virus solution you use? No.
 
  * How many offices you have or where they are, unless of course you're running bricks and mortar shop fronts. Do you know how many offices Adobe have or where they're located? No.
 
