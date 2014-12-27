@@ -18,7 +18,7 @@ hn_url:
 Whether you're selling physical goods, information or software products, or consulting services, the only thing that matters to your customers is the fact that you can fix <i>their</i> problem. Your customers are selfish. They only care about themselves. 
 </p>
 <p>
-Why is it then so many businesses with an online presence insist on a boring wall of text about themselves and their company? Why is it that some go so far as to have it front and centre on their websites? I'll tell you why. It's because they're selfish. Just like the customers they're trying to attract, they care more about themselves and their company than anyone else. Just like you, everyone around you is thinking of themselves first and foremost. Selfishness is quality everyone possesses and if you want to effectively sell to those people then you should take advantage of it rather than inhibit your success because of it.
+Why is it then so many businesses insist on telling prospective clients about themselves? Why do businesses insist on a boring wall of text about themselves and their company in their online presence? Why is it that some go so far as to have it front and centre on their websites? I'll tell you why. It's because they're selfish. Just like the customers they're trying to attract, they care more about themselves and their company than anyone else. Just like you, everyone around you is thinking of themselves first and foremost. Selfishness is quality everyone possesses and if you want to effectively sell to those people then you should take advantage of it rather than limit your success because of it.
 </p>
   </div>
 <div class="intro-img-border">
@@ -34,7 +34,63 @@ Why is it then so many businesses with an online presence insist on a boring wal
 <br/>
 
 
-<b>They do not care about you or your company</b>.
+#### What nobody cares about
+
+Nobody cares where or when your company was founded.
+
+Nobody cares by whom your company was founded unless they're famous or very well known in some way, at which point it's used a marketing / investment lever, and certainly has utility entirely separate from the boring wall of text inflicted upon customers in the predominant, non-famous case.
+
+Nobody cares how many offices you have or where they are, unless of course you're running bricks and mortar shop fronts.
+
+Nobody cares who your customers are or how much those customers are worth.
+
+Nobody cares how much your company has grown.
+
+Nobody enduring a sales and/or technical meeting with you cares about you or your company or the history of either. Your customer is selfish and only cares about solving their own problem, so respect their time and don't selfishly waste it by talking about yourself and your company. **They do not care about you or your company**. Stop it.
+
+
+Technology, ugh. Nobody cares about your technological skills or indeed the hidden technology that drives or enables your product. No one cares!
+
+
+Double demerit points: Nobody cares about your previous companies!
+
+Nobody cares about where you went to school (university, whatever), the marks you received or when you graduated (or left whatever institution, whatever). Heck, we don't even want to know if you're self taught. Please just solve our problems. 
+
+Nobody cares about the types of systems you've built in the past.
+
+Nobody cares about your development philosophy or your advocacy for whatever system, plaform, architecture or language you have a bias for. 
+
+Nobody cares what your hobbies are.
+
+Nobody cares about your philanthropy, volunteer or charity work (as honourable and praiseworthy it may well be).
+
+Nobody cares about your partnerships.
+
+
+trivial
+self-absorbed
+
+
+#### What everybody cares about
+
+
+
+They want to know how your product or service is going to help them grow revenue, shorten production, or improve time to delivery.  Pull out your pitch deck or presentation and take a look at the first few pages,
+
+I got 10 bucks it's all about you and your company.  Therefore, it's pitch deck -- pitch it!
+
+Your prospects or customers want value. Know what you can do to make the life of your customers better and start there. That's why they agree to meet you!
+
+
+
+
+
+
+
+
+#### Company brand
+
+
 
 
 #### Personal brand vs product brand
@@ -44,36 +100,5 @@ for personal brand, people want a story, not a wall of yawn inducing trivial min
 
 
 
-Rule number one in sales, no one cares about you or your company:
-No one cares how long your company has been in business or who your customers are.
-No one cares where you're headquartered or how many offices there are.
-No one cares how long you've been on the INC 500 or how much your company has grown in the past 5 years. 
-No one gives a shit about you or your company. 
-When a prospect calls you or even more importantly when you call a prospect and they agree to give you a meeting, the last thing they want to hear about is you and your company.  When they agree to meet, a contract has been created. In consideration for their time they expect to learn something that can help them solve their problem, not hear about your company. 
 
-Your prospects are stupid busy, they didn't agree to meet so you could bore them with trivial, impertinent, self-absorbed information.  In exchange for their time, your customers or prospects want insight. They want to learn something.  They want to know how your product or service is going to help them grow revenue, shorten production, or improve time to delivery.  Pull out your pitch deck or presentation and take a look at the first few pages,
-
-I got 10 bucks it's all about you and your company.  Therefore, it's pitch deck -- pitch it!
-
-Your prospects or customers want value. Know what you can do to make the life of your customers better and start there. That's why they agree to meet you!
- 
-
-
-Zapple Software
-Zapple was founded in 2014 by Jason Bresnehan and Paddy Egan. Jason and Paddy previously founded Imagination Software in 2004, a developer of customised database driven web applications that became an award winning software company and developed a wide range of web applications including a CRM, a media release and distribution platform, a work-order system, a benchmarking system, a shareholder registry system, an event listing and promotion system, and an Internet-remote data collection form and synchronisation system.
-Zapple was founded to build upon our web application development experience and pursue the mobile apps market with products differentiated around the Keep It Simple philosophy and are fast and intuitive to use.
-Jason Bresnehan, Director
-Jason's experience is in the areas of accountancy, corporate advisory, marketing and technology venture capital where he assisted Australian software and electronics companies commercialise their businesses in Australia and the United States.
-Between 2004 and 2008, Jason partnered with Paddy to create Imagination Corp which provided web application development services to clients such as Australian Pork Limited, the Department of Tourism (Tasmania), Land and Water Australia and a number of early stage technology companies such as Biovend, PET Recycle, and NewsGallery.
-Jason's role at Zapple is marketing, client liaison, concept design, product development and content development.
-Jason enjoys competing in tarmac rallies and Super Sprint circuit racing, squash, water skiing and walking.
-Paddy Egan, Director
-Paddy Egan graduated with a Bachelor of Computing from the University of Tasmania in 2003 and immediately founded his own contract programming and web hosting business, Total Web Solutions, which merged with Imagination Software in 2004.
-Between 2004 and 2008 Paddy was responsible for all of Imagination's software builds including the media release publishing and distribution platform NewsGallery (now NewsMaker), Trapeze a form based data collection system for off-line environments and subsequent database synchronization, a national pork grower benchmarking system for Australian Pork Ltd.
-Between 2008 to 2013 Paddy entered the construction, oil and gas sector and has returned in 2014 to found Zapple Software.
-Paddy's role at Zapple is concept design, product development, Objective-C programming and SQL programming.
-Paddy is a passionate follower of global sport and follows teams in the NFL, NHL, NBA, MBL, Super Rugby, Rugby league, AFL and cricket.
-Our Partners
-We partner with graphic designers and the best CSS developers to deliver great looking products that deploy flawlessly across a myriad of devices and operating systems.
- 
  
