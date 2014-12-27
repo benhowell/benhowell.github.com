@@ -58,7 +58,9 @@ Why is it then so many businesses insist on telling prospective clients about th
 
 Whilst not excusing the examples given above, I will concede that most ordinary people will at least understand the information presented. But, what if you are really, really determined to make your potential customers eyes glaze over and tell them things that they no only don't care about, but potentially don't even understand? Well, here's a couple of common ones: 
 
- * Technology, ugh. Nobody cares about your technological skills or indeed the hidden technology that drives or enables your product. Unless that or those particular fact or facts makes or breaks your product for your customer, they will not care! Nobody wan't to know the meaningless names of, or types of systems you've built in the past.
+ * Technology, ugh. Nobody cares about your technological skills or indeed the hidden technology that drives or enables your product. Unless those facts make or break your product for your customer, they will not care! 
+ 
+ * Meaningless names of, or types of systems you've built in the past.
  
  * Your development philosophy or your advocacy for whatever system, plaform, architecture or language you have a bias for.
 
@@ -68,11 +70,22 @@ Whilst not excusing the examples given above, I will concede that most ordinary 
 #### What everybody cares about (to name but a few)
 
  * Getting their problems fixed and sorted. 
+ 
  * Streamlining and automating processes for efficiency gains and reduced costs.
+ 
  * Higher product/service turnover.
+ 
  * Greater customer satisfaction.
+ 
  * Larger profits.
+ 
  * More meaningful business, market and customer intelligence. 
+
+<br/>
+<br/>
+
+#### Please tell us how you're going to solve our problems
+ Nobody enduring a sales and/or technical meeting with you cares about you or your company or the history of either. Your customer is selfish, short of time, and only cares about solving their own problem, so respect their time and don't selfishly waste it by talking about yourself and your company. **They do not care about you or your company**. Stop it.
 
 
 
@@ -80,41 +93,11 @@ Whilst not excusing the examples given above, I will concede that most ordinary 
 Your prospects or customers want value. Know what you can do to make the life of your customers better and start there. That's why they agree to meet you!
 
 
+Don't get company brand confused with personal brand.
+
+
 trivial
 self-absorbed
-
-
-
-
-
-
-
- 
-#### Please tell us how you're going to solve our problems
- Nobody enduring a sales and/or technical meeting with you cares about you or your company or the history of either. Your customer is selfish, short of time, and only cares about solving their own problem, so respect their time and don't selfishly waste it by talking about yourself and your company. **They do not care about you or your company**. Stop it.
-
-
-
-
- 
- 
- 
- 
-
-
-
-
-
-#### Company brand
-
-
-
-
-#### Personal brand vs product brand
-whether it's a service, company or product, it is your product brand, not your personal brand.
-
-for personal brand, people want a story, not a wall of yawn inducing trivial minutiae devoid of colour, character or theme. 
-
 
 
 
