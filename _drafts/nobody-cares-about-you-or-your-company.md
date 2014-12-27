@@ -16,7 +16,7 @@ hn_url:
   <div class="intro-txt">
     
 <p>
-Whether you're selling physical widgets, information, data or software products, or consulting services, the only thing that really matters to your customers is the fact that you can fix <i>their</i> problem. Your customers are selfish. They only care about themselves. 
+Whether you're selling physical goods, information or software products, or consulting services, the only thing that matters to your customers is the fact that you can fix <i>their</i> problem. Your customers are selfish. They only care about themselves. 
 </p>
 
 <p>
