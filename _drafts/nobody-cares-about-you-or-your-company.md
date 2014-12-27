@@ -53,6 +53,8 @@ Why is it then so many businesses insist on telling prospective clients about th
  * Your philanthropy, volunteer or charity work (as honourable as it may be).
 
  * Where you went to school (university, whatever), the marks you received or when you graduated. Hell, no one even wants to know if you're self taught. 
+ 
+<br/>
 
 Whilst not excusing the examples given above, I will concede that most ordinary people will at least understand the information presented. But, what if you are really, really determined to make your potential customers eyes glaze over and tell them things that they no only don't care about, but potentially don't even understand? Well, here's a couple of common ones: 
 
