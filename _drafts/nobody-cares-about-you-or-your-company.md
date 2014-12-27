@@ -85,20 +85,7 @@ Whilst not excusing the examples given above, I will concede that most ordinary 
 <br/>
 
 #### Please tell us how you're going to solve our problems
- Nobody enduring a sales and/or technical meeting with you cares about you or your company or the history of either. Your customer is selfish, short of time, and only cares about solving their own problem, so respect their time and don't selfishly waste it by talking about yourself and your company. **They do not care about you or your company**. Stop it.
+Your prospective customers want to know how much better their lives will be by using _your product_. They want to know the benefits of using _your product_. They are looking to buy _your product_.
 
-
-
-
-Your prospects or customers want value. Know what you can do to make the life of your customers better and start there. That's why they agree to meet you!
-
-
-Don't get company brand confused with personal brand.
-
-
-trivial
-self-absorbed
-
-
-
+Nobody, whether browsing your website or enduring a sales or client meeting with you cares about you or your company or the history of either. Your customer is selfish, short of time, and only cares about solving their own problem, so respect their time and don't waste it by talking about yourself and your company. Don't drive your customers away with a bland, trivial, self-absorbed wall of text about you or your company. Your customers are selfish and do not care about you or your company, so tell them what they _do_ want to hear. Tell them about themselves.
  
