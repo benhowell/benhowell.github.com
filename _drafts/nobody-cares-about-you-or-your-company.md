@@ -17,7 +17,7 @@ hn_url:
     
 <p>
 Whether you're selling physical widgets, information, data or software products, or consulting services, what matters to the customer is the fact that you can fix _their_ problem. Your customers are selfish. They only care about themselves. **They do not care about you or your company**.
-    
+</p>
     
     
   </div>
@@ -30,6 +30,8 @@ Whether you're selling physical widgets, information, data or software products,
 </div>
 </div>
 
+<br/>
+<br/>
 
 Rule number one in sales, no one cares about you or your company:
 No one cares how long your company has been in business or who your customers are.
