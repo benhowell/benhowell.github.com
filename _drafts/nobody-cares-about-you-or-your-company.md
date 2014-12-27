@@ -36,7 +36,7 @@ Why is it then so many businesses insist on telling prospective clients about th
 
 #### What nobody cares about
 
-When your company was founded. Do you know and/or care when Amazon or Ebay were founded? No. 
+ * When your company was founded. Do you know and/or care when Amazon or Ebay were founded? No. 
 
 By whom your company was founded unless they're famous or very well known in some way, at which point it's used a marketing / investment lever, and certainly has utility entirely separate from the boring wall of text inflicted upon customers in the predominant, non-famous case. Do you know and/or care who founded Symantec or whatever other corporate anti-virus solution you use? No.
 
