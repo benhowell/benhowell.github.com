@@ -20,7 +20,7 @@ Whether you're selling physical goods, information or software products, or cons
 </p>
 
 <p>
-Why is it then so many businesses with an online presence insist on a boring wall of text about themselves and their company? I'll tell you why. It's because they're selfish. Just like the customers they're trying to attract, they care more about themselves and their company than anyone else. Just like you, everyone around you is thinking of themselves first and foremost. Selfishness is quality everyone possesses and if you want to efectively sell to those people then you should take advantage of it.
+Why is it then so many businesses with an online presence insist on a boring wall of text about themselves and their company? Why is it that some go so far as to have it front and foremost on their websites? I'll tell you why. It's because they're selfish. Just like the customers they're trying to attract, they care more about themselves and their company than anyone else. Just like you, everyone around you is thinking of themselves first and foremost. Selfishness is quality everyone possesses and if you want to efectively sell to those people then you should take advantage of it.
 </p>
 
 
