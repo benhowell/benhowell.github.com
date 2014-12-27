@@ -45,7 +45,7 @@ Why is it then so many businesses insist on telling prospective clients about th
 
  * How much your company has grown in the last 5 years or by how much you project it to grow in the next 5.
 
- * Your previous companies or partnerships. Double yawn!
+ * Your previous companies or partnerships. Yawn!
 
  * Your hobbies. Seriously, who TF cares?
 
