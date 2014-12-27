@@ -50,14 +50,14 @@ Why is it then so many businesses insist on telling prospective clients about th
 
  * Your hobbies. Seriously, who TF cares?
 
- * Your philanthropy, volunteer or charity work (as honourable and praiseworthy it may well be).
+ * Your philanthropy, volunteer or charity work (as honourable as it may be).
 
- * Where you went to school (university, whatever), the marks you received or when you graduated (or left whatever institution or whatever, ad infinitum). Hell, no one even wants to know if you're self taught. 
+ * Where you went to school (university, whatever), the marks you received or when you graduated. Hell, no one even wants to know if you're self taught. 
 
 <br/>
 <br/>
 
-Whilst not excusing the examples given above, I will concede that most ordinary people will at least understand the information presented. But, what if you are determined to make your potential customers eyes glaze over and miss out on their business entirely?
+Whilst not excusing the examples given above, I will concede that most ordinary people will at least understand the information presented. But, what if you are really, really determined to make your potential customers eyes glaze over and tell them things that they no only don't care about, but potentially don't even understand? Well, here's a couple of common ones: 
 <br/>
 <br/>
 
