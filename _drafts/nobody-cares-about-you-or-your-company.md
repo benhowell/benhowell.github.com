@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Nobody Cares About You or Your Company"
+title: "Nobody Cares about You or Your Company"
 description: ""
 tagline: "business"
 category: business
@@ -16,7 +16,7 @@ hn_url:
   <div class="intro-txt">
     
 <p>
-Whether you're selling physical widgets, information, data or software products, or consulting services, what matters to the customer is the fact that you can fix _their_ problem. Your customers are selfish. They only care about themselves. **They do not care about you or your company**.
+Whether you're selling physical widgets, information, data or software products, or consulting services, what matters to the customer is the fact that you can fix <i>their_</i> problem. Your customers are selfish. They only care about themselves. <b>They do not care about you or your company</b>.
 </p>
     
     
