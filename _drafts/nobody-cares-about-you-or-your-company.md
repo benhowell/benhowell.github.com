@@ -5,7 +5,7 @@ description: ""
 tagline: "business"
 category: business
 tags: []
-article_img: bootstrap/img/qn.png
+article_img: bootstrap/img/wavedune.png
 article_img_title: Death Valley, California and all the people that care about you and your company.
 article_img_alt: "An image of a section of desert in Death Valley, California and all the people that care about you and your company"
 reddit_url:
