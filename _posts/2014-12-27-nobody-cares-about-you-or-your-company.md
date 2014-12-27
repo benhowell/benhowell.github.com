@@ -61,7 +61,7 @@ Whilst not excusing the examples given above, I will concede that most ordinary 
  
  * Meaningless names of, or types of systems you've built in the past.
  
- * Your development philosophy or your advocacy for whatever system, plaform, architecture or language you have a bias for.
+ * Your development philosophy or your advocacy for whatever system, platform, architecture or language you have a bias for.
 <br/>
 <br/>
 
