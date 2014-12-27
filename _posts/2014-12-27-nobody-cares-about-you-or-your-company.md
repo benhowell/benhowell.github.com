@@ -41,7 +41,7 @@ Why is it then so many businesses insist on telling prospective clients about th
 
  * How many offices you have or where they are, unless of course you're running bricks and mortar shop fronts. Do you know how many offices Adobe have or where they're located? No.
 
- * Who your customers are or how much those customers are worth. Do you care how successful the top companies that use PayPal are? No.
+ * Who your customers are or how much those customers are worth. You have fortune 500 companies as customers? So what?
 
  * How much your company has grown in the last 5 years or by how much you project it to grow in the next 5.
 
