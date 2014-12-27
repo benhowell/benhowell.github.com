@@ -14,21 +14,12 @@ hn_url:
 {% include JB/setup %}
 <div class="intro">
   <div class="intro-txt">
-    
 <p>
 Whether you're selling physical goods, information or software products, or consulting services, the only thing that matters to your customers is the fact that you can fix <i>their</i> problem. Your customers are selfish. They only care about themselves. 
 </p>
-
 <p>
-Why is it then so many businesses with an online presence insist on a boring wall of text about themselves and their company? Why is it that some go so far as to have it front and centre on their websites? I'll tell you why. It's because they're selfish. Just like the customers they're trying to attract, they care more about themselves and their company than anyone else. Just like you, everyone around you is thinking of themselves first and foremost. Selfishness is quality everyone possesses and if you want to effectively sell to those people then you should take advantage of it rather than inhibit sales because of it.
+Why is it then so many businesses with an online presence insist on a boring wall of text about themselves and their company? Why is it that some go so far as to have it front and centre on their websites? I'll tell you why. It's because they're selfish. Just like the customers they're trying to attract, they care more about themselves and their company than anyone else. Just like you, everyone around you is thinking of themselves first and foremost. Selfishness is quality everyone possesses and if you want to effectively sell to those people then you should take advantage of it rather than inhibit your success because of it.
 </p>
-
-
-
-
-
-
-    
   </div>
 <div class="intro-img-border">
 <div class="intro-img-bevel">
@@ -44,6 +35,12 @@ Why is it then so many businesses with an online presence insist on a boring wal
 
 
 <b>They do not care about you or your company</b>.
+
+
+##### personal brand vs product brand
+whether it's a service, company or product, it is your product brand, not your personal brand.
+
+for personal brand, people want a story, not a wall of yawn inducing trivial minutiae devoid of colour, character or theme. 
 
 
 
