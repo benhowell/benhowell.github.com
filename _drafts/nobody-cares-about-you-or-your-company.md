@@ -33,7 +33,6 @@ Why is it then so many businesses insist on telling prospective clients about th
 <br/>
 <br/>
 
-
 #### What nobody cares about
 
  * When your company was founded. Do you know and/or care when Amazon or Ebay were founded? No. 
@@ -63,7 +62,6 @@ Whilst not excusing the examples given above, I will concede that most ordinary 
  * Meaningless names of, or types of systems you've built in the past.
  
  * Your development philosophy or your advocacy for whatever system, plaform, architecture or language you have a bias for.
-
 <br/>
 <br/>
 
@@ -80,7 +78,6 @@ Whilst not excusing the examples given above, I will concede that most ordinary 
  * Larger profits.
  
  * More meaningful business, market and customer intelligence. 
-
 <br/>
 <br/>
 
