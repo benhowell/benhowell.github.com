@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Nobody Cares about You or Your Company"
-description: "Selfishness is quality everyone possesses and if you want to effectively sell to those people then you should take advantage of it rather than limit your success because of it"
+description: "Selfishness is quality everyone possesses and if you want to effectively sell to people then you should take advantage of it rather than limit your success because of it"
 tagline: "business"
 category: business
 tags: [people, psychology, career, business, sales, marketing]
