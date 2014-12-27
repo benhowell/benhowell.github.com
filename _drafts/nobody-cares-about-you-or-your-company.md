@@ -16,9 +16,18 @@ hn_url:
   <div class="intro-txt">
     
 <p>
-Whether you're selling physical widgets, information, data or software products, or consulting services, what matters to the customer is the fact that you can fix <i>their_</i> problem. Your customers are selfish. They only care about themselves. <b>They do not care about you or your company</b>.
+Whether you're selling physical widgets, information, data or software products, or consulting services, the only thing that really matters to your customers is the fact that you can fix <i>their</i> problem. Your customers are selfish. They only care about themselves. 
 </p>
-    
+
+<p>
+Why is it then so many businesses with an online presence insist on a boring wall of text about themselves and their company? I'll tell you why. It's because they're selfish. Just like the customers they're trying to attract, they care more about themselves and their company than anyone else. Just like you, everyone around you is thinking of themselves first and foremost. Selfishness is quality everyone possesses and if you want to efectively sell to those people then you should take advantage of it.
+</p>
+
+
+
+
+
+
     
   </div>
 <div class="intro-img-border">
@@ -32,6 +41,11 @@ Whether you're selling physical widgets, information, data or software products,
 
 <br/>
 <br/>
+
+
+<b>They do not care about you or your company</b>.
+
+
 
 Rule number one in sales, no one cares about you or your company:
 No one cares how long your company has been in business or who your customers are.
