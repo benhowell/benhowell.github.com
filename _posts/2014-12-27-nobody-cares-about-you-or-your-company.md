@@ -55,7 +55,7 @@ Why is it then so many businesses insist on telling prospective clients about th
  
 <br/>
 
-Whilst not excusing the examples given above, I will concede that most ordinary people will at least understand the information presented. But, what if you are really, really determined to make your potential customers eyes glaze over and tell them things that they no only don't care about, but potentially don't even understand? Well, here's a couple of common ones: 
+Whilst not excusing the examples given above, I will concede that most ordinary people will at least understand the information presented. But, what if you are really, really determined to make your potential customers eyes glaze over and tell them things that they no only don't care about, but potentially don't even understand? Well, here's a few common ones: 
 
  * Technology, ugh. Nobody cares about your technological skills or indeed the hidden technology that drives or enables your product. Unless those facts make or break your product for your customer, they will not care! 
  
