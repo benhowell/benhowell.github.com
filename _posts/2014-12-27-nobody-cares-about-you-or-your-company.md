@@ -8,7 +8,7 @@ tags: [people, psychology, career, business, sales, marketing]
 article_img: bootstrap/img/wavedune.jpg
 article_img_title: Death Valley, California and all the people that care about you and your company.
 article_img_alt: "An image of a section of desert in Death Valley, California and all the people that care about you and your company"
-reddit_url:
+reddit_url: http://www.reddit.com/r/startups/comments/2qkq8c/nobody_cares_about_you_or_your_company_xpost/
 hn_url:
 ---
 {% include JB/setup %}
