@@ -88,14 +88,6 @@ http://blog.samaltman.com/ai
 
 
 
-the hero programmer that saves the day is a reflection of bad engineering practice and procedures.
-
-The myth of the individually brilliant hero-developer who comes in and saves the day may be an appealing one, but it is largely just that: a myth. There are far easier ways to improve results than go looking for that one superhero developer that will save your company: how about taking the leash of the developers you already have? If they’re half decent, chances are your results will sky-rocket.
-
-
-
-
-
 
 scala script and java scriptengine
 
