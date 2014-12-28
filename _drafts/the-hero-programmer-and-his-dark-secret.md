@@ -5,7 +5,7 @@ description: ""
 tagline: ""
 category: 
 tags: []
-article_img: bootstrap/img/regular_expressions.png
+article_img: bootstrap/img/regex.png
 article_img_title: Regular Expressions and the hero programmer. From the webcomic xkcd: http://xkcd.com/208/
 article_img_alt: "Our hero programmer saves the day by typing a PERL regular expression on a keyboard whilst swinging past on a vine in a tarzan like fashion"
 reddit_url:
