@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Hero Programmer and His Dark Secret"
+title: "The Hero Programmer and His Dark Secrets"
 description: ""
 tagline: ""
 category: 
@@ -54,22 +54,25 @@ Marketing - How to market the product and analysis of the market demand.
 
 Module and system documentation: Not code documentation but process, component and system level documentation (i.e. what each is supposed to do, who with and how each interact, detailed documentation describing inputs and outputs of all).
 
+Document code changes as detailed notes on what and why for every checkin (of course you use version control, don't you?)
 
 
 #### Process
-documented software process (how modules/components are supposed to be written, what contracts and/or interfaces they must comply with, what conventions should be used (naming, implemented functionality, API specifications, etc). create templates, create generators that produce those templates.
+documented software process (how modules/components are supposed to be written, what contracts and/or interfaces they must comply with, what conventions should be used (naming, implemented functionality, API specifications, etc). create templates, create generators that produce those templates, use version control
 
 A good set of development processes will minimise code obfuscation and reduce the dreaded [big ball of mud][1]
 
 #### Testing
+http://en.wikipedia.org/wiki/Software_testing
 
 #### Deployment
+simple, easy, repeatable, REVERSIBLE deployment process.
 
 #### Result
 
 There are far easier ways to improve results than go looking for that one superhero developer that will save your company: how about taking the leash of the developers you already have? If they’re half decent, chances are your results will sky-rocket.
 
-Transition your software development ecosystem to a safe, documented, process driven and tested environment. Task new software engineers with studying and understanding this material when they arrive and task employed engineers with creating and maintaining this ecosystem.
+Transition your software ecosystem to a safe, documented, process driven and tested environment. Task new software engineers with studying and understanding this material when they arrive and task employed engineers with creating and maintaining this ecosystem.
 
 
 
