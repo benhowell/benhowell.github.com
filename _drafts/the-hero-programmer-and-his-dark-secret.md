@@ -13,9 +13,14 @@ hn_url:
 ---
 {% include JB/setup %}
 <div class="intro">
-  <div class="intro-txt">
-    ???????????????????????
-  </div>
+<div class="intro-txt">
+<p>
+Most of us have worked somewhere or know of a business that has a resident "hero programmer". The image of the hero programmer who regularly saves the day with his incredible intelligence and dedication when seemingly random unforseen problems arise is often celebrated and idealized. Unfortunately, the truth is much uglier. 
+</p>
+<p>
+If your business relies on a hero programmer or you're currently looking for one, you need to take a step back, analyse the situation and think about a world where hero's aren't needed.
+</p>
+</div>
 <div class="intro-img-border">
 <div class="intro-img-bevel">
 <div class="intro-img">
@@ -24,9 +29,23 @@ hn_url:
 </div>
 </div>
 </div>
+<br/>
+<br/>
 
+#### Safeguards
+single point of failure, failover,
 
+#### Documentation
+documented processes,
 
-the hero programmer that saves the day is a reflection of bad engineering practice and procedures.
+#### Process
 
-The myth of the individually brilliant hero-developer who comes in and saves the day may be an appealing one, but it is largely just that: a myth. There are far easier ways to improve results than go looking for that one superhero developer that will save your company: how about taking the leash of the developers you already have? If they’re half decent, chances are your results will sky-rocket.
+#### Testing
+
+#### Deployment
+
+#### Result
+
+There are far easier ways to improve results than go looking for that one superhero developer that will save your company: how about taking the leash of the developers you already have? If they’re half decent, chances are your results will sky-rocket.
+
+obfuscation, testing and deployment pipeline, continuous integration, etc.
