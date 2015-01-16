@@ -35,10 +35,31 @@ If your business relies on a hero programmer or you're currently looking for one
 #### Safeguards
 single point of failure, failover,
 
+A single point of failure (SPOF) is a part of a system that, if it fails, will stop the entire system from working.[1] They are undesirable in any system with a goal of high availability or reliability, be it a business practice, software application, or other industrial system.
+
+redundancy 
+One would normally deploy a load balancer to ensure high availability for a server cluster at the system level.
+
+
 #### Documentation
 documented processes,
 
+Documentation is an important part of software engineering. Types of documentation include:
+
+Requirements - Statements that identify attributes, capabilities, characteristics, or qualities of a system. This is the foundation for what shall be or has been implemented.
+Architecture/Design - Overview of software. Includes relations to an environment and construction principles to be used in design of software components.
+Technical - Documentation of code, algorithms, interfaces, and APIs.
+End user - Manuals for the end-user, system administrators and support staff.
+Marketing - How to market the product and analysis of the market demand.
+
+Module and system documentation: Not code documentation but process, component and system level documentation (i.e. what each is supposed to do, who with and how each interact, detailed documentation describing inputs and outputs of all).
+
+
+
 #### Process
+documented software process (how modules/components are supposed to be written, what contracts and/or interfaces they must comply with, what conventions should be used (naming, implemented functionality, API specifications, etc). create templates, create generators that produce those templates.
+
+A good set of development processes will minimise code obfuscation and reduce the dreaded [big ball of mud][1]
 
 #### Testing
 
@@ -48,4 +69,12 @@ documented processes,
 
 There are far easier ways to improve results than go looking for that one superhero developer that will save your company: how about taking the leash of the developers you already have? If they’re half decent, chances are your results will sky-rocket.
 
-obfuscation, testing and deployment pipeline, continuous integration, etc.
+Transition your software development ecosystem to a safe, documented, process driven and tested environment. Task new software engineers with studying and understanding this material when they arrive and task employed engineers with creating and maintaining this ecosystem.
+
+
+
+testing and deployment pipeline, continuous integration, etc.
+
+
+
+[1]:http://en.wikipedia.org/wiki/Big_ball_of_mud
