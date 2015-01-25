@@ -46,9 +46,13 @@ When well engineered processes for system development are in place, the risk of 
 #### Safeguards
 You must always be able to both return to a former good, working state _and_ quickly move to a complete replica of that good working state in a seamless way with minimal effort at all levels of software development, deployment and systems operation.
 
-To return to a former good working state during development there is simply no excuse to have not moved to a version control system (VCS) at some point this century. Version control is a must and the choice of free, stable and secure self or 3rd party hosted solutions is so large you'd be living in the dark ages to not use one. If you're using a single code base hosted on a server, desktop or laptop, if you're coding on the live system, if your developers are exchanging code by email then you're in for a world of hurt if you are not already in a complete mess. STOP IT NOW. Move your code to a version control system NOW. Even if you're a single dev sitting in a basement writing your minimum viable product, just stop now and put your hard work into a VCS right now.
+To return to a former good working state during development there is simply no excuse to have not moved to a version control system (VCS) at some point this century. Version control is a must and the choice of free, stable and secure self or 3rd party hosted solutions is so large you'd be living in the dark ages to not use one. 
 
+If you're using a single code base hosted on a server, desktop or laptop, if you're coding on the live system, if your developers are exchanging code by email then you're in for a world of hurt if you are not already in a complete mess. STOP IT NOW. Move your code to a version control system NOW. Even if you're a single dev sitting in a basement writing your minimum viable product, just stop now and put your hard work into a VCS right now.
 
+If your business runs centrally hosted systems such as servers (web, application, database, etc.) you need failover.
+
+You also need to be able to roll back both web based, operational** explain this**, server and desktop applications to a former, stable version.
 
 single point of failure, failover,
 
@@ -56,6 +60,8 @@ A single point of failure (SPOF) is a part of a system that, if it fails, will s
 
 redundancy 
 One would normally deploy a load balancer to ensure high availability for a server cluster at the system level.
+
+
 
 
 #### Documentation
