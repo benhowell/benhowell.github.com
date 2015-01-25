@@ -44,8 +44,11 @@ When well engineered processes for system development are in place, the risk of 
 
 
 #### Safeguards
+You must always be able to both return to a former good, working state _and_ quickly move to a complete replica of that good working state in a seamless way with minimal effort at all levels of software development, deployment and systems operation.
 
-use version control
+To return to a former good working state during development there is simply no excuse to have not moved to a version control system (VCS) at some point this century. Version control is a must and the choice of free, stable and secure self or 3rd party hosted solutions is so large you'd be living in the dark ages to not use one. If you're using a single code base hosted on a server, desktop or laptop, if you're coding on the live system, if your developers are exchanging code by email then you're in for a world of hurt if you are not already in a complete mess. STOP IT NOW. Move your code to a version control system NOW. Even if you're a single dev sitting in a basement writing your minimum viable product, just stop now and put your hard work into a VCS right now.
+
+
 
 single point of failure, failover,
 
