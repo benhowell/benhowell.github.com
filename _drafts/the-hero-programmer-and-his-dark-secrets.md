@@ -35,7 +35,7 @@ The truth is, there will always be a time when a hero programmer needs to save t
 <br/>
 
 #### Software Process
-Whether you're business relies on a single developer or an entire team of engineers, a consistent, structured software process is a must. In house standards and conventions can greatly ease the transistion of your code base and software systems from one programmer to another.
+Whether you're business relies on a single developer or an entire team of engineers, a consistent, structured software process is a must. In house standards and conventions can greatly ease the understanding of software between multiple programmers by creating a shared understanding of the underlying rules on which the software is constructed. Transistion of, responsibility for, and extension of software systems from one programmer to another becomes much more straight forward when a well developed process is in place.
 
 Develop a software process that defines the rules for how modules/components are supposed to be written, what contracts and/or interfaces they must comply with, what naming conventions should be used for all levels of development (e.g. namespace, module, class, function, variable, etc.). Specify what fucntionality needs to be provided by certain types of module, what API hooks, metadata and logging output should be supplied. Try to automate as much of this process as possible by creating templates that include the minimum requirements. Create generators that produce those templates and/or automagically generate class files and you're well on your way to a much less obfuscated code base or set of systems.
 
