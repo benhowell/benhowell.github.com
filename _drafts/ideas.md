@@ -17,7 +17,7 @@ article_img: bootstrap/img/qn.png
 
 -----------------------------------
 
-
+ * P vs NP: The future of humanity will be defined by cracking NP. Look at existing NP problems in manufacturing, logistics, bio/medical research, etc and implications of fixing those
  * timesheeting of developers
  * "hackathons"
  * why your code is shit (paying low, short contracts, timesheets, no long term career paths, churn, lack of care, apathy, no users, no one cares.)
