@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Hero Programmer and His Dark Secrets"
+title: "The Hero Programmer and the Unfortunate Truth"
 description: ""
 tagline: ""
 category: 
