@@ -40,20 +40,26 @@ Whether you're business relies on a single developer or an entire team of engine
 Develop a software process that defines the rules for how modules/components are supposed to be written, what contracts and/or interfaces they must comply with, what naming conventions should be used for all levels of development (e.g. namespace, module, class, function, variable, etc.). Specify what fucntionality needs to be provided by certain types of module, what API hooks, metadata and logging output should be supplied. Try to automate as much of this process as possible by creating templates that include the minimum requirements. Create generators that produce those templates and/or automagically generate class files and you're well on your way to a much less obfuscated code base or set of systems.
 
 When well engineered processes for system development are in place, the risk of catastrophic failure is reduced because your system has a greater internal consistency, the way things interract within the system is better understood and analysable and there is a template for other developers to understand how the system hangs together because they know how it was made and why certain engineering decisions were made. A good set of development processes will minimise code obfuscation and reduce the dreaded [big ball of mud][1]
-
-
+<br/>
+<br/>
 
 #### Safeguards
 You must always be able to both return to a former good, working state _and_ quickly move to a complete replica of the current state in a seamless way with minimal effort at all levels of software development, deployment and systems operation.
 
-In order to return to a former good working state during development, system deployment or to rollback your production systems to a former release, there is simply no excuse to have not moved to a version control system (VCS) at some point this century. Version control is a must and the choice of free, stable and secure self or 3rd party hosted solutions is so large you'd be insane to not use one. You absolutely _need_ to be able to roll back your systems to a former, stable version and/or state whether they be web based, server or desktop applications and whether or not it's a development or production environment. If you're using a single code base hosted on a server, desktop or laptop, if you're coding on the live system, if your developers are exchanging code by email then you're in for a world of hurt if you aren't already in a complete mess. **STOP**. Move your code to a version control system **NOW**. Even if you're a single dev sitting in a basement writing your minimum viable product, stop and put your hard work into a VCS right now.
+In order to return to a former good working state during development, system deployment or to rollback your production systems to a former release, there is simply no excuse to have not moved to a version control system (VCS) at some point this century. Version control is a must and the choice of free, stable and secure self or 3rd party hosted solutions is so large you'd be insane to not use one. You absolutely _need_ to be able to roll back your systems to a former, stable version and/or state whether they be web based, server or desktop applications and whether or not it's a development or production environment. If you're using a single code base hosted on a server, desktop or laptop, if you're coding on the live system, if your developers are exchanging code by email then you're in for a world of hurt if you aren't already in a complete mess. **STOP**. Move your code to a version control system now. Even if you're a single dev sitting in a basement writing your minimum viable product, stop and put your hard work into a VCS right now.
 
-If your business runs centrally hosted systems such as servers (web, application, database, etc.) you need failover. All businesses should strive for reliable and highly available systems (this is also true for non-software systems such as business processes, utility services and the like). Try to eliminate all common low-level single points of failure by introducing redundancy in the following areas:
+If your business runs centrally hosted systems such as servers (web, application, database, etc.) you need failover, especially if you're servicing external systems or clients. All businesses should strive for reliable, highly available and serviceable (RAS) systems (this is also true for non-software systems such as business processes, utility services and the like). Try to eliminate all common low-level single points of failure by introducing RAS: 
 
- * software
- * hardware
- * server
- * power supply 
+ * Reliability: The probability of a system producing correct results up to a given time _t_ (also called "Fault Tolerance").
+ * Availability: The amount of uptime within a given time _t_ (often stated as a percentage of uptime per year).
+ * Serviceability: How easy and quickly a system can be repaired.
+ 
+in the following areas:
+
+ * Software: Output data can be checked for corruption (e.g. checksums and tests). Data corruption, software and hardware faults, and errors reported on and/or recovery attempted, and, where recovery fails or is not possible, the fault is reported to a monitoring system which may conduct a failover to redundant hardware.
+ * Hardware: Redundant 
+ * Server
+ * Power supply 
 
 
 
