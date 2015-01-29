@@ -18,7 +18,7 @@ hn_url:
 Most of us have worked somewhere or know of a business that has a resident "hero programmer". The image of the hero programmer who regularly saves the day with his incredible intelligence and dedication when seemingly random unforseen problems arise is often celebrated and idealized. Day or night, the hero programmer is ready to sort things out when the not so unusual disaster strikes.  Unfortunately, the truth is much uglier. 
 </p>
 <p>
-The truth is, there will always be a time when a hero programmer needs to save the day but if this is a familiar scene within your workplace then something needs to change. If your business relies on a hero programmer or you're currently looking for one, you need to take a step back, analyse the situation and think about a world where the hero programmer isn't needed.
+The truth is, there will always be a time when a hero programmer needs to save the day but if this is a familiar scene within your workplace then something needs to change. If your business relies on a hero programmer or you're currently looking for one, you need to take a step back, analyse the situation and think about a world where the heroics aren't needed.
 </p>
 
 
@@ -46,17 +46,15 @@ When well engineered processes for system development are in place, the risk of 
 #### Safeguards
 You must always be able to both return to a former good, working state _and_ quickly move to a complete replica of the current state in a seamless way with minimal effort at all levels of software development, deployment and systems operation.
 
-To return to a former good working state during development there is simply no excuse to have not moved to a version control system (VCS) at some point this century. Version control is a must and the choice of free, stable and secure self or 3rd party hosted solutions is so large you'd be living in the dark ages to not use one. 
+In order to return to a former good working state during development, system deployment or to rollback your production systems to a former release, there is simply no excuse to have not moved to a version control system (VCS) at some point this century. Version control is a must and the choice of free, stable and secure self or 3rd party hosted solutions is so large you'd be insane to not use one. You absolutely _need_ to be able to roll back your systems to a former, stable version and/or state whether they be web based, server or desktop applications and whether or not it's a development or production environment. If you're using a single code base hosted on a server, desktop or laptop, if you're coding on the live system, if your developers are exchanging code by email then you're in for a world of hurt if you aren't already in a complete mess. **STOP**. Move your code to a version control system **NOW**. Even if you're a single dev sitting in a basement writing your minimum viable product, stop and put your hard work into a VCS right now.
 
-If you're using a single code base hosted on a server, desktop or laptop, if you're coding on the live system, if your developers are exchanging code by email then you're in for a world of hurt if you are not already in a complete mess. STOP IT NOW. Move your code to a version control system NOW. Even if you're a single dev sitting in a basement writing your minimum viable product, just stop now and put your hard work into a VCS right now.
+If your business runs centrally hosted systems such as servers (web, application, database, etc.) you need failover. All businesses should strive for reliable and highly available systems (this is also true for non-software systems such as business processes, utility services and the like). Try to eliminate all common low-level single points of failure by introducing redundancy in the following areas:
+ * software
+ * hardware
+ * server
+ * power supply 
 
-If your business runs centrally hosted systems such as servers (web, application, database, etc.) you need failover.
 
-You also need to be able to roll back both web based, operational** explain this**, server and desktop applications to a former, stable version.
-
-single point of failure, failover,
-
-A single point of failure (SPOF) is a part of a system that, if it fails, will stop the entire system from working.[1] They are undesirable in any system with a goal of high availability or reliability, be it a business practice, software application, or other industrial system.
 
 redundancy 
 One would normally deploy a load balancer to ensure high availability for a server cluster at the system level.
