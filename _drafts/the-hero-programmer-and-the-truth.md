@@ -48,23 +48,18 @@ You must always be able to both return to a former good, working state _and_ qui
 
 In order to return to a former good working state during development, system deployment or to rollback your production systems to a former release, there is simply no excuse to have not moved to a version control system (VCS) at some point this century. Version control is a must and the choice of free, stable and secure self or 3rd party hosted solutions is so large you'd be insane to not use one. You absolutely _need_ to be able to roll back your systems to a former, stable version and/or state whether they be web based, server or desktop applications and whether or not it's a development or production environment. If you're using a single code base hosted on a server, desktop or laptop, if you're coding on the live system, if your developers are exchanging code by email then you're in for a world of hurt if you aren't already in a complete mess. **STOP**. Move your code to a version control system now. Even if you're a single dev sitting in a basement writing your minimum viable product, stop and put your hard work into a VCS right now.
 
-If your business runs centrally hosted systems such as servers (web, application, database, etc.) you need failover, especially if you're servicing external systems or clients. All businesses should strive for reliable, highly available and serviceable (RAS) systems (this is also true for non-software systems such as business processes, utility services and the like). Try to eliminate all common low-level single points of failure by introducing RAS: 
+If your business runs centrally hosted systems such as servers (web, application, database, etc.) you need failover, especially if you're servicing external systems or clients. All businesses should strive for reliable, highly available and serviceable (RAS) systems (this is also true for non-software systems such as business processes, utility services and the like).
 
  * Reliability: The probability of a system producing correct results up to a given time _t_ (also called "Fault Tolerance").
  * Availability: The amount of uptime within a given time _t_ (often stated as a percentage of uptime per year).
  * Serviceability: How easy and quickly a system can be repaired.
  
-in the following areas:
+Try to eliminate all common low-level single points of failure by introducing RAS in the following areas:
 
- * Software: Output data can be checked for corruption (e.g. checksums and tests). Data corruption, software and hardware faults, and errors reported on and/or recovery attempted, and, where recovery fails or is not possible, the fault is reported to a monitoring system which may conduct a failover to redundant hardware.
- * Hardware: Redundant 
- * Server
- * Power supply 
-
-
-
-redundancy 
-One would normally deploy a load balancer to ensure high availability for a server cluster at the system level.
+ * Software: Output data can be checked for corruption (e.g. checksums and tests, testing against output from redundant servers) (R). Data corruption, software and hardware faults, and errors reported on and/or recovery attempted (R). If a fault recovery fails or is not possible, the system may isolate the offending subsystems (R,A) or those faults may be reported to a monitoring system which may conduct a failover to redundant hardware with a replica of the current software system (R,A).
+ * Hardware: Servers with [RAID][2] hard drive controllers can be configured in a highly redundant way so when one or more drives fails or becomes corrupted, mirrored, redundant drives can take over whilst at the same time attempting to rebuild the corrupt drives (A). Some servers can automatically log service jobs with varying degrees of urgency when faults and failures occur (R,S).
+ * Server: Redundant servers allow you to implement failover systems where non-recoverable, system critical failures in software or hardware occur (R,A). Rack mounted servers with hot-swappable parts can be serviced and repaired without interrupting the operation of the server (A,S). A Load balancer can be used between two or more servers (serving the same systems/data/content) in order to distribute traffic/computation evenly across those servers as well as providing redundancy (R,A,S).
+ * Power supply: [Uniterruptable power supplies (UPS)][3] protect against brown outs and full power failures (A) and for critical systems such as security and emergency control/radio rooms (I've worked in many) a completely redundant power supply in the form of a diesel generator may be used (A).
 
 
 
@@ -106,3 +101,5 @@ testing and deployment pipeline, continuous integration, etc.
 
 
 [1]:http://c2.com/cgi/wiki?BigBallOfMud
+[2]:http://en.wikipedia.org/wiki/RAID
+[3]:http://en.wikipedia.org/wiki/Uninterruptible_power_supply
