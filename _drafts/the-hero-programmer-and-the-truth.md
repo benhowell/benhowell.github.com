@@ -64,7 +64,15 @@ Try to eliminate all common low-level single points of failure by introducing RA
 <br/>
 
 #### Testing
-http://en.wikipedia.org/wiki/Software_testing
+Testing is pretty important in all areas of your system, including code, system integration, process and procedure testing. Even emergency drills if you're dealing with critical systems. For system and integration testing, automation is paramount. Unit testing should be encouraged but you may also wish to look at a more rigourous Test Driven Development (TDD) or Behaviour Driven Development (BDD) philosophy, but whatever the case, make sure testing with good code coverage is used in the development of your systems. 
+
+Deployment and integration testing
+failover testing
+redundancy testing
+load testing
+emergency procedure testing
+process testing
+
 <br/>
 <br/>
 
