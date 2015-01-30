@@ -57,14 +57,27 @@ If your business runs centrally hosted systems such as servers (web, application
 Try to eliminate all common low-level single points of failure by introducing RAS in the following areas:
 
  * Software: Output data can be checked for corruption (e.g. checksums and tests, testing against output from redundant servers) (R). Data corruption, software and hardware faults, and errors reported on and/or recovery attempted (R). If a fault recovery fails or is not possible, the system may isolate the offending subsystems (R,A) or those faults may be reported to a monitoring system which may conduct a failover to redundant hardware with a replica of the current software system (R,A).
- * Hardware: Servers with [RAID][2] hard drive controllers can be configured in a highly redundant way so when one or more drives fail or become corrupted, mirrored, redundant drives can take over whilst at the same time attempting to rebuild the corrupt drives (A). Some servers can automatically log service jobs with varying degrees of urgency when faults and failures occur (R,S).
+ * Hardware: Servers with [RAID][2] hard drive controllers can be configured in a highly redundant way so when one or more drives fail or become corrupted, mirrored, redundant drives can take over whilst at the same time attempting to rebuild the corrupt drives (A). These days servers can have numerous redundant components besides disk arrays. Some servers can automatically log service jobs with varying degrees of urgency when faults and failures occur (R,S).
  * Server: Redundant servers allow you to implement failover systems where non-recoverable, system critical failures in software or hardware occur (R,A). Rack mounted servers with hot-swappable parts can be serviced and repaired without interrupting the operation of the server (A,S). A load balancer can be used between two or more servers (serving the same systems/data/content) in order to distribute traffic/computation evenly across those servers as well as providing redundancy (R,A,S).
- * Power supply: [Uniterruptable power supplies (UPS)][3] protect against brown outs and full power failures (A) and for critical systems such as security and emergency control/radio rooms (I've worked in many), a completely redundant power supply in the form of a diesel generator may be used (A).
+ * Power supply: [Uniterruptable power supplies (UPS)][3] protect against brown outs and full power failures (A) and for critical infrastructure such as datacentres, security and emergency control/radio rooms (and I've worked in many), a completely redundant power supply in the form of a diesel generator may be used (A).
 <br/>
 <br/>
 
 #### Documentation
-Documentation is _the_ most important part of any system. Types of documentation include:
+Documentation is _the_ most important part of any system and goes well beyond system design, code comments, technical and user manuals. 
+
+Any system before it is built should have good design documentation. This includes things such as system requirements, capabilities and functionality of the system, input and output data requirements, number of concurrent users/processes the system is required to service, the architectural, computational and memory requirements, etc. Once development is underway, code comments (class, structure, function, etc.) should be an integral part of day to day development. I know this is a [recurring rant]({% post_url 2014-09-09-the-forgotten-user %}), but honestly, I see code on almost a daily basis that is completely void of comments, and unfortunately there seems to be a direct correlation between poor quality code and lack of comments. Also try to include the necessary markup to generate system docuentation for LaTeX, Doxygen, Javadoc, or whatever. For much more detail on what good commenting should entail, please see [my previous post on the matter]({% post_url 2014-09-09-the-forgotten-user %}).
+
+
+
+
+
+
+
+
+
+
+Types of documentation include:
 
 Requirements - Statements that identify attributes, capabilities, characteristics, or qualities of a system. This is the foundation for what shall be or has been implemented.
 Architecture/Design - Overview of software. Includes relations to an environment and construction principles to be used in design of software components.
@@ -74,7 +87,7 @@ Marketing - How to market the product and analysis of the market demand.
 
 Module and system documentation: Not code documentation but process, component and system level documentation (i.e. what each is supposed to do, input sources, output expectations, how modules interact, detailed documentation describing inputs and outputs of all).
 
-Document code changes as detailed notes on what and why for every checkin (of course you use version control, don't you?)
+
 
 Documentation of all safety systems. Redundancy and contingency plans. Hardware documentation. Failover process documentation. Operating handbook for procedures to use during emergencies (whether software, hardware, power, data, whatever).
 <br/>
@@ -92,7 +105,7 @@ testing and deployment pipeline, continuous integration, etc.
 <br/>
 
 #### Conclusion
-There are far easier ways to safeguard your business systems against failure than to employ a superhero programmer. Transition your software ecosystem to a safe, documented, process driven and tested environment. Task new software engineers with studying and understanding this material when they arrive as a part of your induction process and task employed engineers with creating and maintaining this ecosystem. The sad truth is, competent and professional systems engineers may never be recognised for their intellectual talent because they never have to save the day against disaster due to their thorough planning and risk averse practices. Therefore, your true superhero programmers are the ones that set your business on the path to Reliability, Availability and Serviceability.
+There are far easier ways to safeguard your business systems against failure than to employ a superhero programmer. Transition your software ecosystem to a safe, documented, process driven and tested environment. Task new software engineers with studying and understanding this material when they arrive as a part of their induction process and task employed engineers with creating and maintaining this ecosystem. The sad truth is, competent and professional systems engineers may never be recognised for their intellectual talent because they never have to save the day against disaster due to their thorough planning and risk averse practices. Your true superhero programmers are the ones who set your business on the path to Reliability, Availability and Serviceability.
 
 
 
