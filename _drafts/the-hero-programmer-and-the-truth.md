@@ -63,30 +63,32 @@ Try to eliminate all common low-level single points of failure by introducing RA
 <br/>
 <br/>
 
-#### Documentation
-Documentation is _the_ most important part of any system and goes well beyond system design, code comments, technical and user manuals. 
-
-Any system before it is built should have good design documentation. This includes things such as system requirements, capabilities and functionality of the system, input and output data requirements, number of concurrent users/processes the system is required to service, the architectural, computational and memory requirements, etc. Once development is underway, technical documentation in the form of code comments (class, structure, function, etc.) should be an integral part of day to day development. I know this is a [recurring rant]({% post_url 2014-09-09-the-forgotten-user %}), but honestly, I see code on a weekly basis that is completely void of comments, and unfortunately there seems to be a direct correlation between poor quality code and lack of comments. Module and system documentation is important too, and I don't mean code documentation but process, component and system level documentation (i.e. what each is supposed to do, input sources, output expectations, how modules interact, detailed documentation describing inputs and outputs of all interacting components within the system). Also try to include the necessary markup in your code comments to generate system docuentation for LaTeX, Doxygen, Javadoc, or whatever. For much more detail on what good commenting should entail, please see [my previous post on the matter]({% post_url 2014-09-09-the-forgotten-user %}). Lastly, don't forget about user documentation. It doesn't matter whether or not your systems users are people or other systems, you still need to document _how_ to use the system, such as interface contracts, API documentation and the like.
-
-Nothing beats thorough process documentation, so the same level of attention to detail that you _should_ be putting into code and system documentation should also be put towards everything. Document all safety systems, redundancy, failover and contingency plans. Hardware documentation such as technical and user manuals. These types of documentation are usually supplied by the hardware vendor but they should be filed away in a place that is documented and known by all for quick access). Failover process documentation is a must, and even if the whole system is automated, you should document the step-by-step process of how to perform a failover (move operations from one set of hardware to another) as a form of redundancy if the automatic failover itself fails. 
-
-The icing on the cake would be an "emergency operating procedure" process. Just like airline pilots use, you could produce an operating handbook for procedures to use during emergencies (whether that be software, hardware, power, data, whatever).
-<br/>
-<br/>
-
 #### Testing
 http://en.wikipedia.org/wiki/Software_testing
 <br/>
 <br/>
 
 #### Deployment
-simple, easy, repeatable, REVERSIBLE deployment process.
-testing and deployment pipeline, continuous integration, etc.
+Automate as much of your deployment pipeline as possible. Test and debug your deployment pipeline whenever anything changes and keep it automated (don't be tempted to bypass anything in the pipline and just do it by hand). Automated deployments should run tests at each stage of rollout and halt deployment altogeher if something goes wrong, alert someone and provide a comprehensive log of what happened. Having successfully deployed an update or newer version of software does not mean there won't be problems. so you also need the ability to easily rollback the deployment process and revert to a previous version or state. 
+
+A simple, easy, repeatable and reversible deployment process is key. Fully automated, fail-safe production deployments should be the goal. If you're interested in this topic and would like to see what's possible, read up on the topics of "continuous integration" [here][5] and [here][6] and "continuous delivery" [here][7] and [here][8].
 <br/>
 <br/>
 
+#### Documentation
+Documentation is _the_ most important part of any system and goes well beyond system design, code comments, technical and user manuals. 
+
+Any system before it is built should have good design documentation. This includes things such as system requirements, capabilities and functionality of the system, input and output data requirements, number of concurrent users/processes the system is required to service, the architectural, computational and memory requirements, etc. Once development is underway, technical documentation in the form of code comments (class, structure, function, etc.) should be an integral part of day to day development. I know this is a [recurring rant]({% post_url 2014-09-09-the-forgotten-user %}), but honestly, I see code on a weekly basis that is completely void of comments, and unfortunately there seems to be a direct correlation between poor quality code and lack of comments. Module and system documentation is important too, and I don't mean code documentation but process, component and system level documentation (i.e. what each is supposed to do, input sources, output expectations, how modules interact, detailed documentation describing inputs and outputs of all interacting components within the system). Also try to include the necessary markup in your code comments to generate system docuentation for LaTeX, Doxygen, Javadoc, or whatever. For much more detail on what good commenting should entail, please see [my previous post on the matter]({% post_url 2014-09-09-the-forgotten-user %}). Lastly, don't forget about user documentation. It doesn't matter whether or not your systems users are people or other systems, you still need to document _how_ to use the system, such as interface contracts, API documentation and the like.
+
+Nothing beats thorough process documentation, so the same level of attention to detail that you _should_ be putting into code and system documentation should also be put towards everything else. Document all safety systems, redundancy, failover and contingency plans. Hardware documentation such as technical and user manuals. These types of documentation are usually supplied by the hardware vendor but they should be filed away in a place that is documented and known by all for quick access). Failover process documentation is a must, and even if the whole system is automated, you should document the step-by-step process of how to perform a failover (move operations from one set of hardware to another) as a form of redundancy if the automatic failover itself fails. Testing and deployment should also get full attention.
+
+Taking all this to the extreme, you could produce an "emergency operating procedure" process. Just like airline pilots use, you could produce an operating handbook for procedures to use during emergencies (whether that be software, hardware, power, data, whatever). If your systems are super critical then it may be worth the investment.
+<br/>
+<br/>
+
+
 #### Conclusion
-There are far easier ways to safeguard your business systems against failure than to employ a superhero programmer. Transition your software ecosystem to a safe, documented, process driven and tested environment. Task new software engineers with studying and understanding this material when they arrive as a part of their induction process and task employed engineers with creating and maintaining this ecosystem. The sad truth is, competent and professional systems engineers may never be recognised for their intellectual talent because they never have to save the day against disaster due to their thorough planning and risk averse practices. Your true superhero programmers are the ones who set your business on the path to Reliability, Availability and Serviceability.
+Of course, I've taken some things to the extreme in this article, but every business is different and therefore the need (and cost) to avoid technical debt, system breakdown and critical outages vary significantly. However, there are far easier ways to safeguard your business systems against failure than to employ a superhero programmer. Transition your software ecosystem to a safe, documented, process driven and tested environment. Task new software engineers with studying and understanding this material when they arrive as a part of their induction process and task employed engineers with creating and maintaining this ecosystem. The sad truth is, competent and professional systems engineers may never be recognised for their intellectual talent because they never have to save the day against disaster due to their thorough planning and risk averse practices. Your true superhero programmers are the ones who set your business on the path to Reliability, Availability and Serviceability.
 
 
 
@@ -96,3 +98,7 @@ There are far easier ways to safeguard your business systems against failure tha
 [2]:http://en.wikipedia.org/wiki/RAID
 [3]:http://en.wikipedia.org/wiki/Uninterruptible_power_supply
 [4]:http://en.wikipedia.org/wiki/Revision_control
+[5]:http://en.wikipedia.org/wiki/Continuous_integration
+[6]:http://www.thoughtworks.com/continuous-integration
+[7]:http://en.wikipedia.org/wiki/Continuous_delivery
+[8]:http://www.thoughtworks.com/continuous-delivery
