@@ -66,30 +66,11 @@ Try to eliminate all common low-level single points of failure by introducing RA
 #### Documentation
 Documentation is _the_ most important part of any system and goes well beyond system design, code comments, technical and user manuals. 
 
-Any system before it is built should have good design documentation. This includes things such as system requirements, capabilities and functionality of the system, input and output data requirements, number of concurrent users/processes the system is required to service, the architectural, computational and memory requirements, etc. Once development is underway, code comments (class, structure, function, etc.) should be an integral part of day to day development. I know this is a [recurring rant]({% post_url 2014-09-09-the-forgotten-user %}), but honestly, I see code on almost a daily basis that is completely void of comments, and unfortunately there seems to be a direct correlation between poor quality code and lack of comments. Also try to include the necessary markup to generate system docuentation for LaTeX, Doxygen, Javadoc, or whatever. For much more detail on what good commenting should entail, please see [my previous post on the matter]({% post_url 2014-09-09-the-forgotten-user %}).
+Any system before it is built should have good design documentation. This includes things such as system requirements, capabilities and functionality of the system, input and output data requirements, number of concurrent users/processes the system is required to service, the architectural, computational and memory requirements, etc. Once development is underway, technical documentation in the form of code comments (class, structure, function, etc.) should be an integral part of day to day development. I know this is a [recurring rant]({% post_url 2014-09-09-the-forgotten-user %}), but honestly, I see code on a weekly basis that is completely void of comments, and unfortunately there seems to be a direct correlation between poor quality code and lack of comments. Module and system documentation is important too, and I don't mean code documentation but process, component and system level documentation (i.e. what each is supposed to do, input sources, output expectations, how modules interact, detailed documentation describing inputs and outputs of all interacting components within the system). Also try to include the necessary markup in your code comments to generate system docuentation for LaTeX, Doxygen, Javadoc, or whatever. For much more detail on what good commenting should entail, please see [my previous post on the matter]({% post_url 2014-09-09-the-forgotten-user %}). Lastly, don't forget about user documentation. It doesn't matter whether or not your systems users are people or other systems, you still need to document _how_ to use the system, such as interface contracts, API documentation and the like.
 
+Nothing beats thorough process documentation, so the same level of attention to detail that you _should_ be putting into code and system documentation should also be put towards everything. Document all safety systems, redundancy, failover and contingency plans. Hardware documentation such as technical and user manuals. These types of documentation are usually supplied by the hardware vendor but they should be filed away in a place that is documented and known by all for quick access). Failover process documentation is a must, and even if the whole system is automated, you should document the step-by-step process of how to perform a failover (move operations from one set of hardware to another) as a form of redundancy if the automatic failover itself fails. 
 
-
-
-
-
-
-
-
-
-Types of documentation include:
-
-Requirements - Statements that identify attributes, capabilities, characteristics, or qualities of a system. This is the foundation for what shall be or has been implemented.
-Architecture/Design - Overview of software. Includes relations to an environment and construction principles to be used in design of software components.
-Technical - Documentation of code, algorithms, interfaces, and APIs.
-End user - Manuals for the end-user, system administrators and support staff.
-Marketing - How to market the product and analysis of the market demand.
-
-Module and system documentation: Not code documentation but process, component and system level documentation (i.e. what each is supposed to do, input sources, output expectations, how modules interact, detailed documentation describing inputs and outputs of all).
-
-
-
-Documentation of all safety systems. Redundancy and contingency plans. Hardware documentation. Failover process documentation. Operating handbook for procedures to use during emergencies (whether software, hardware, power, data, whatever).
+The icing on the cake would be an "emergency operating procedure" process. Just like airline pilots use, you could produce an operating handbook for procedures to use during emergencies (whether that be software, hardware, power, data, whatever).
 <br/>
 <br/>
 
