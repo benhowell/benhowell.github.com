@@ -66,17 +66,23 @@ Try to eliminate all common low-level single points of failure by introducing RA
 <br/>
 
 #### Testing
-Testing is pretty important in all areas of your system, including code, system integration, process and procedure testing. Even emergency drills if you're dealing with critical systems. For system and integration testing, automation is paramount. Unit testing should be encouraged but you may also wish to look at a more rigourous Test Driven Development (TDD) or Behaviour Driven Development (BDD) philosophy, but whatever the case, make sure testing with good code coverage is used in the development of your systems. 
+Testing is pretty important in all areas of your system, including code, system integration, process and procedure testing. For system and integration testing, automation is paramount. Unit testing should be encouraged and you may also wish to look at a more rigourous Test Driven Development (TDD) or Behaviour Driven Development (BDD) philosophy[^1], but whatever the case, make sure testing with good code coverage is used in the development of your systems. 
 
-Deployment and integration testing
+For deployment and integration testing, you can set up, and deploy your system to a "staging environment". A staging environment is an ecosystem that mirrors the actual production environment as closely as possible. Staging environments can be used to do all sorts of testing of your complete system:
 
-failover testing
+ * Load Testing: Testing methods to verify a system performs to expectations from a base of normal operating load up to a peak operating load scenario. Load conditions are artificially introduced to the environment to deliberately restrict or consume hardware resources (e.g. methods to ensure RAM or CPU usage is incrementally increased) to determine how a system will behave under those conditions  Load testing is satisfied when the system is able to perform at or above the maximum performance targets required.
+ * Performance Testing: Quantifying how a system behaves under specific scenario conditions which can include test cases that simulate particular input, operational tasks, load, output and resource contention to name but a few. Performance testing is used to quantify just how performant a system is compared to its expected performance under real world scenarios. Performance testing differs from load testing in that load testing measures the general performance of a system under hardware load whereas performance testing measures the performance of a system under certain application conditions.
+ * Stress Testing: Stress testing is used to determine how your system performs under extreme load conditions, such as high resource contention (e.g. another process(es) is utilising the CPU or RAM at 100%), lack of resources (e.g. less RAM than the system requires), disk thrashing scenarios, etc. Stress testing is used to expose conditions, or bugs that only occur under extreme load. 
+ * [Quality assurance testing][10]
+ * [User acceptance testing (UAT)][11]
+ * Failover Testing
+ 
+ 
 
-redundancy testing
+ 
+ 
 
-load testing
-
-emergency procedure testing
+emergency procedure testing Even emergency drills if you're dealing with critical systems. 
 
 process testing
 
@@ -104,9 +110,12 @@ Taking all this to the extreme, you could produce an "emergency operating proced
 
 #### Conclusion
 I've taken some things to the extreme in this article, but every business is different and therefore the need (and cost) to avoid technical debt, system breakdown and critical outages vary significantly. However, there are far easier ways to safeguard your business systems against failure than to employ a superhero programmer. Transition your software ecosystem to a safe, documented, process driven and tested environment. Task new software engineers with studying and understanding this material when they arrive as a part of their induction process and task employed engineers with creating and maintaining this ecosystem. The sad truth is, competent and professional systems engineers may never be recognised for their intellectual talent because they never have to save the day against disaster due to their thorough planning and risk averse practices. Your true superhero programmers are the ones who set your business on the path to Reliability, Availability and Serviceability.
+<br/>
+<br/>
 
+#### Notes
 
-
+[^1]: I've developed, and been involved with projects using both TDD and BDD methodologies. I'll reserve judgement as to whether or not these methodologies offer any benefit over an otherwise well engineered set of unit tests, suffice it to say that YMMV.
 
 
 [1]:http://c2.com/cgi/wiki?BigBallOfMud
@@ -118,3 +127,5 @@ I've taken some things to the extreme in this article, but every business is dif
 [7]:http://en.wikipedia.org/wiki/Continuous_delivery
 [8]:http://www.thoughtworks.com/continuous-delivery
 [9]:http://c2.com/cgi/wiki?CodeForTheMaintainer
+[10]:http://c2.com/cgi/wiki?QualityAssurance
+[11]:http://en.wikipedia.org/wiki/Acceptance_testing
