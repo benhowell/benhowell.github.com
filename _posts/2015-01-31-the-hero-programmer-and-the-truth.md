@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "The Hero Programmer and the Truth"
-description: ""
-tagline: ""
-category: 
-tags: []
+description: "If your business relies on a hero programmer or you're currently looking for one, you need to take a step back and think about a world where the heroics aren't needed"
+tagline: "people"
+category : people
+tags: [people, management, design, compsci, programming, coding]
 article_img: bootstrap/img/regex.png
 article_img_title: Regular Expressions and the hero programmer. From the webcomic xkcd.
 article_img_alt: "Our hero programmer saves the day by typing a PERL regular expression on a keyboard whilst swinging past on a vine in a Tarzan like fashion. From the webcomic xkcd: http://xkcd.com/208/"
