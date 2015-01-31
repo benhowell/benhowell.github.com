@@ -105,14 +105,14 @@ For deployment and integration testing, you can set up and deploy your system to
  
  * Fail-over Testing: as described in the previous _Safeguards_ section.
 
-You may also want to test things such as emergency procedures and even emergency drills if you're dealing with critical systems.
+You may also want to test things such as emergency procedures and even perform emergency drills if you're dealing with critical systems.
 <br/>
 <br/>
 
 #### Deployment
-Automate as much of your deployment pipeline as possible. Test and debug your deployment pipeline whenever anything changes and keep it automated (don't be tempted to bypass anything in the pipeline and just do it by hand). Automated deployments should run tests at each stage of roll-out and halt deployment altogether if something goes wrong, alert someone and provide a comprehensive log of what happened. Having successfully deployed an update or newer version of software does not mean there won't be problems. so you also need the ability to easily rollback the deployment process and revert to a previous version or state. 
+Automate as much of your deployment pipeline as possible. Test and debug your deployment pipeline whenever anything changes and keep it automated (don't be tempted to bypass anything in the pipeline and just do it by hand!). Automated deployments should run tests at each stage of roll-out and halt deployment altogether if something goes wrong, alert someone and provide a comprehensive log of what happened. Having successfully deployed an update or newer version of software (even after staging) does not mean there won't be problems so you also need the ability to easily rollback the deployment process and revert to a previous version or state. 
 
-A simple, easy, repeatable and reversible deployment process is key. Fully automated, fail-safe production deployments should be the goal. If you're interested in this topic and would like to see what's possible, read up on the topics of [continuous integration here][5] and [here][6] and [continuous delivery here][7] and [here][8].
+A simple, easy, repeatable and reversible deployment process is key. Fully automated, fail-safe production deployments should be the goal. If you're interested in this topic and would like to see what's possible, a good start would be the topics of [continuous integration: here][5] and [here][6], and [continuous delivery: here][7] and [here][8].
 <br/>
 <br/>
 
