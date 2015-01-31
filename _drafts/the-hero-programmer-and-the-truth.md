@@ -65,37 +65,6 @@ Try to eliminate all common low-level single points of failure by introducing RA
 <br/>
 <br/>
 
-#### Testing
-Testing is pretty important in all areas of your system, including code, system integration, process and procedure testing. For system and integration testing, automation is paramount. Unit testing should be encouraged and you may also wish to look at a more rigourous Test Driven Development (TDD) or Behaviour Driven Development (BDD) philosophy[^1], but whatever the case, make sure testing with good code coverage is used in the development of your systems. 
-
-For deployment and integration testing, you can set up, and deploy your system to a "staging environment". A staging environment is an ecosystem that mirrors the actual production environment as closely as possible. Staging environments can be used to do all sorts of testing of your complete system:
-
- * Load Testing: Testing methods to verify a system performs to expectations from a base of normal operating load up to a peak operating load scenario. Load conditions are artificially introduced to the environment to deliberately restrict or consume hardware resources (e.g. methods to ensure RAM or CPU usage is incrementally increased) to determine how a system will behave under those conditions  Load testing is satisfied when the system is able to perform at or above the maximum performance targets required.
- * Performance Testing: Quantifying how a system behaves under specific scenario conditions which can include test cases that simulate particular input, operational tasks, load, output and resource contention to name but a few. Performance testing is used to quantify just how performant a system is compared to its expected performance under real world scenarios. Performance testing differs from load testing in that load testing measures the general performance of a system under hardware load whereas performance testing measures the performance of a system under certain application conditions.
- * Stress Testing: Stress testing is used to determine how your system performs under extreme load conditions, such as high resource contention (e.g. another process(es) is utilising the CPU or RAM at 100%), lack of resources (e.g. less RAM than the system requires), disk thrashing scenarios, etc. Stress testing is used to expose conditions, or bugs that only occur under extreme load. 
- * [Quality assurance testing][10]
- * [User acceptance testing (UAT)][11]
- * Failover Testing
- 
- 
-
- 
- 
-
-emergency procedure testing Even emergency drills if you're dealing with critical systems. 
-
-process testing
-
-<br/>
-<br/>
-
-#### Deployment
-Automate as much of your deployment pipeline as possible. Test and debug your deployment pipeline whenever anything changes and keep it automated (don't be tempted to bypass anything in the pipline and just do it by hand). Automated deployments should run tests at each stage of rollout and halt deployment altogeher if something goes wrong, alert someone and provide a comprehensive log of what happened. Having successfully deployed an update or newer version of software does not mean there won't be problems. so you also need the ability to easily rollback the deployment process and revert to a previous version or state. 
-
-A simple, easy, repeatable and reversible deployment process is key. Fully automated, fail-safe production deployments should be the goal. If you're interested in this topic and would like to see what's possible, read up on the topics of "continuous integration" [here][5] and [here][6] and "continuous delivery" [here][7] and [here][8].
-<br/>
-<br/>
-
 #### Documentation
 Documentation is _the_ most important part of any system and goes well beyond system design, code comments, technical and user manuals. 
 
@@ -107,6 +76,28 @@ Taking all this to the extreme, you could produce an "emergency operating proced
 <br/>
 <br/>
 
+#### Testing
+Testing is pretty important in all areas of your system, including code, system integration, process and procedure testing. For system and integration testing, automation is paramount. Unit testing should be encouraged and you may also wish to look at a more rigourous Test Driven Development (TDD) or Behaviour Driven Development (BDD) philosophy[^1], but whatever the case, make sure testing with good code coverage is used in the development of your systems. 
+
+For deployment and integration testing, you can set up, and deploy your system to a "staging environment". A staging environment is an ecosystem that mirrors the actual production environment as closely as possible. Staging environments can be used to do all sorts of testing of your complete system:
+
+ * Load Testing: Testing methods to verify a system performs to expectations from a base of normal operating load up to a peak operating load scenario. Load conditions are artificially introduced to the environment to deliberately restrict or consume hardware resources (e.g. methods that incrementally increase RAM or CPU usage) to determine how a system will behave under those conditions  Load testing is satisfied when the system is able to perform at or above the maximum performance targets required.
+ * Performance Testing: Quantifying how a system behaves under specific scenario conditions which can include test cases that simulate particular input, operational tasks, load, output and resource contention to name but a few. Performance testing is used to quantify just how performant a system is compared to its expected performance under real world scenarios. Performance testing differs from load testing in that load testing measures the general performance of a system under hardware load whereas performance testing measures the performance of a system under certain application conditions.
+ * Stress Testing: Stress testing is used to determine how your system performs under extreme load conditions, such as high resource contention (e.g. another process(es) is utilising the CPU or RAM at 100%), lack of resources (e.g. less RAM than the system requires), disk thrashing scenarios, etc. Stress testing is used to expose conditions, or bugs that only occur under extreme load. 
+ * Quality Assurance Testing: Running scenarios on the system to ensure that the original requirements of the system are met, tasks produce expected results, and the system operates without error. QA testing may be performed by a specific QA team or by a small number of real users (beta testers). You can read more on quality assurance [here][10].
+ * User Acceptance Testing: This type of testing is carried out by end users to ensure the system does what they require. Once testing is complete, all tests have passed and the application fulfils the requirements of the user it is signed off and ready to go into production. This is the last step in your testing process. You can read more on user acceptance testing [here][11].
+ * Failover Testing: as described in the previous _Safeguards_ section.
+
+You may also want to test things such as emergency procedures and even emergency drills if you're dealing with critical systems.
+<br/>
+<br/>
+
+#### Deployment
+Automate as much of your deployment pipeline as possible. Test and debug your deployment pipeline whenever anything changes and keep it automated (don't be tempted to bypass anything in the pipline and just do it by hand). Automated deployments should run tests at each stage of rollout and halt deployment altogeher if something goes wrong, alert someone and provide a comprehensive log of what happened. Having successfully deployed an update or newer version of software does not mean there won't be problems. so you also need the ability to easily rollback the deployment process and revert to a previous version or state. 
+
+A simple, easy, repeatable and reversible deployment process is key. Fully automated, fail-safe production deployments should be the goal. If you're interested in this topic and would like to see what's possible, read up on the topics of "continuous integration" [here][5] and [here][6] and "continuous delivery" [here][7] and [here][8].
+<br/>
+<br/>
 
 #### Conclusion
 I've taken some things to the extreme in this article, but every business is different and therefore the need (and cost) to avoid technical debt, system breakdown and critical outages vary significantly. However, there are far easier ways to safeguard your business systems against failure than to employ a superhero programmer. Transition your software ecosystem to a safe, documented, process driven and tested environment. Task new software engineers with studying and understanding this material when they arrive as a part of their induction process and task employed engineers with creating and maintaining this ecosystem. The sad truth is, competent and professional systems engineers may never be recognised for their intellectual talent because they never have to save the day against disaster due to their thorough planning and risk averse practices. Your true superhero programmers are the ones who set your business on the path to Reliability, Availability and Serviceability.
