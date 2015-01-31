@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Hero Programmer and the Truth"
-description: "If your business relies on a hero programmer or you're currently looking for one, you need to take a step back and think about a world where the heroics aren't needed"
+description: "If your business relies on a hero programmer, you need to take a step back and think about a world where heroics aren't needed"
 tagline: "business"
 category: business
 tags: [people, business, management, design, compsci, programming, coding]
