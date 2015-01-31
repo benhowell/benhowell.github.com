@@ -55,15 +55,21 @@ In order to return to a former good working state during development, system dep
 If your business runs centrally hosted systems such as servers (web, application, database, etc.) you need fail-over, especially if you're servicing external systems or clients. All businesses should strive for reliable, highly available and serviceable (RAS) systems (this is also true for non-software systems such as business processes, utility services and the like).
 
  * Reliability: The probability of a system producing correct results up to a given time _t_ (also called "Fault Tolerance").
+ 
  * Availability: The amount of up-time within a given time _t_ (often stated as a percentage of up-time per year).
+ 
  * Serviceability: How easy and quickly a system can be repaired.
  
 Try to eliminate all common low-level single points of failure by introducing RAS in the following areas:
 
  * Software: Output data can be checked for corruption (e.g. checksums and tests, testing against output from redundant servers) (R). Data corruption, software and hardware faults, and errors reported on and/or recovery attempted (R). If a fault recovery fails or is not possible, the system may isolate the offending subsystems (R,A) or those faults may be reported to a monitoring system which could conduct a fail-over to redundant hardware with a replica of the current software system (R,A).
+ 
  * Hardware: Servers with [RAID][2] hard drive controllers can be configured in a highly redundant way so when one or more drives fail or become corrupted, mirrored, redundant drives can take over whilst at the same time attempting to rebuild the corrupt drives (A). These days servers can have numerous redundant components besides disk arrays. Some servers can automatically log service jobs with varying degrees of urgency when faults and failures occur (R,S).
+ 
  * Server: Redundant servers allow you to implement fail-over systems where non-recoverable, system critical failures in software or hardware occur (R,A). Rack mounted servers with hot-swappable parts can be serviced and repaired without interrupting the operation of the server (A,S). A load balancer can be used between two or more servers (serving the same systems/data/content) in order to distribute traffic/computation evenly across those servers as well as providing redundancy (R,A,S).
+ 
  * Power supply: [Uniterruptable power supplies (UPS)][3] protect against brown outs and full power failures (A) and for critical infrastructure such as data-centres, security and emergency control/radio rooms (and I've worked in many), a completely redundant power supply in the form of a diesel generator may be used (A).
+ 
 <br/>
 <br/>
 
@@ -90,9 +96,13 @@ For deployment and integration testing, you can set up and deploy your system to
  * Load Testing: Testing methods to verify a system performs to expectations from a base of normal operating load up to a peak operating load scenario. Load conditions are artificially introduced to the environment to deliberately restrict or consume hardware resources (e.g. methods that incrementally increase RAM or CPU usage) to determine how a system will behave under those conditions. Load testing is satisfied when the system is able to perform at or above the maximum performance targets required.
  
  * Performance Testing: Quantifying how a system behaves under specific scenario conditions which can include test cases that simulate particular input, operational tasks, load, output and resource contention to name but a few. Performance testing is used to quantify just how performant a system is compared to its expected performance under real world scenarios. Performance testing differs from load testing in that load testing measures the general performance of a system under hardware load whereas performance testing measures the performance of a system under certain application conditions.
+ 
  * Stress Testing: Stress testing is used to determine how your system performs under extreme load conditions, such as high resource contention (e.g. another process(es) is utilising the CPU or RAM at 100%), lack of resources (e.g. less RAM than the system requires), disk thrashing scenarios, etc. Stress testing is used to expose conditions, or bugs that only occur under extreme load. 
+ 
  * Quality Assurance Testing: Running scenarios on the system to ensure that the original requirements of the system are met, tasks produce expected results, and the system operates without error. Quality assurance testing may be performed by a specific in-house team or by a small number of real users (beta testers). [You can read more on quality assurance here][10].
+ 
  * User Acceptance Testing: This type of testing is carried out by end users to ensure the system does what they require. Once testing is complete, all tests have passed and the application fulfils the requirements of the user it is signed off and ready to go into production. This is the last step in your testing process. [You can read more on user acceptance testing here][11].
+ 
  * Fail-over Testing: as described in the previous _Safeguards_ section.
 
 You may also want to test things such as emergency procedures and even emergency drills if you're dealing with critical systems.
