@@ -40,6 +40,12 @@ Whether you're business relies on a single developer or an entire team of engine
 Develop a software process that defines the rules for how modules/components are supposed to be written, what contracts and/or interfaces they must comply with, what naming conventions should be used for all levels of development (e.g. namespace, module, class, function, variable, etc.). Specify what fucntionality needs to be provided by certain types of module, what API hooks, metadata and logging output should be supplied. Try to automate as much of this process as possible by creating templates that include the minimum requirements. Create generators that produce those templates and/or automagically generate class files and you're well on your way to a much less obfuscated code base or set of systems.
 
 When well engineered processes for system development are in place, the risk of catastrophic failure is reduced because your system has a greater internal consistency, the way things interract within the system is better understood and analysable and there is a template for other developers to understand how the system hangs together because they know how it was made and why certain engineering decisions were made. A good set of development processes will minimise code obfuscation and reduce the dreaded [big ball of mud][1] which most often produce unstable systems.
+
+
+Bottom line is this: [Always code as if the person who ends up maintaining your code is a violent psychopath who knows where you live - Code for the maintainer][9].
+
+
+
 <br/>
 <br/>
 
@@ -115,3 +121,4 @@ I've taken some things to the extreme in this article, but every business is dif
 [6]:http://www.thoughtworks.com/continuous-integration
 [7]:http://en.wikipedia.org/wiki/Continuous_delivery
 [8]:http://www.thoughtworks.com/continuous-delivery
+[9]:http://c2.com/cgi/wiki?CodeForTheMaintainer
