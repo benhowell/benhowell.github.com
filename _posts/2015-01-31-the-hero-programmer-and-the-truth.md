@@ -3,7 +3,7 @@ layout: post
 title: "The Hero Programmer and the Truth"
 description: "If your business relies on a hero programmer or you're currently looking for one, you need to take a step back and think about a world where the heroics aren't needed"
 tagline: "people"
-category : people
+category: people
 tags: [people, management, design, compsci, programming, coding]
 article_img: bootstrap/img/regex.png
 article_img_title: Regular Expressions and the hero programmer. From the webcomic xkcd.
