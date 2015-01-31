@@ -53,6 +53,8 @@ h3 {padding-top:0;margin-top:0;}
 h1.brand-title{
   padding: 0px;
   margin: 0px;
+  font-size:20px;
+  font-weight:200;
 }
 
 .post > h1.title span.date {
