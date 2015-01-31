@@ -42,7 +42,7 @@ Develop a software process that defines the rules for how modules/components are
 When well engineered processes for system development are in place, the risk of catastrophic failure is reduced because your system has a greater internal consistency, the way things interract within the system is better understood and analysable and there is a template for other developers to understand how the system hangs together because they know how it was made and why certain engineering decisions were made. A good set of development processes will minimise code obfuscation and reduce the dreaded [big ball of mud][1] which most often produce unstable systems.
 
 
-Bottom line is this: [Always code as if the person who ends up maintaining your code is a violent psychopath who knows where you live - Code for the maintainer][9].
+Bottom line is this: _"Always code as if the person who ends up maintaining your code is a violent psychopath who knows where you live"_ - [Code for the maintainer][9].
 
 
 
