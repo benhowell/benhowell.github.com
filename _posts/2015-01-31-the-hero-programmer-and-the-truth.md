@@ -124,7 +124,7 @@ The sad truth is, competent and professional engineers may never be recognised f
 <br/>
 
 #### Notes
-[^1]: I've developed, and been involved with projects using both TDD and BDD methodologies. I'll reserve judgement as to whether or not these methodologies offer any benefit over an otherwise well engineered set of unit tests, suffice it to say that YMMV.
+[^1]: I've developed, and been involved with projects using both TDD and BDD methodologies. I'll reserve judgement as to whether or not these methodologies offer any benefit over an otherwise well-engineered set of unit tests, suffice it to say that YMMV.
 
 
 [1]:http://c2.com/cgi/wiki?BigBallOfMud
