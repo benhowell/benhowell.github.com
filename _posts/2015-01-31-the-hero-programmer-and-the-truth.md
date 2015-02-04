@@ -116,7 +116,7 @@ A simple, easy, repeatable and reversible deployment process is key. Fully autom
 <br/>
 <br/>
 
-#### Conclusion
+#### The Real Heroes
 I've taken some things to the extreme in this article, but every business is different and therefore the need (and cost) to avoid technical debt, system breakdown and critical outages will vary significantly from one business to the next. It is clear that there are far easier ways to safeguard your business systems against failure than to rely on a hero programmer. Transition your software ecosystem to a safe, documented, process driven, tested and controlled deployment environment. Task new software engineers with studying and understanding this material when they arrive as a part of their induction process and task employed engineers with creating, improving and maintaining this ecosystem. 
 
 The sad truth is, competent and professional engineers may never be recognised for their professionalism, intellectual talent, or the cost savings they produce for business because they never need to save the day due to their thorough planning and fault tolerant engineering processes. Your true hero programmers are the engineers who create the processes and environment that ensure disaster never occurs. 
