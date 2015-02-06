@@ -7,7 +7,7 @@ category:
 tags: []
 article_img: bootstrap/img/fsm.png
 article_img_title: FSM as a FSM
-article_img_alt: "An image depicting "
+article_img_alt: "An image depicting the Flying Spaghetti Monster (FSM) as a Finite State Machine (FSM)"
 reddit_url:
 hn_url:
 ---
