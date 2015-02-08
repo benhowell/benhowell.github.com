@@ -7,7 +7,7 @@ category: people
 tags: [people, psychology, career, craft, compsci, programming, coding]
 article_img: bootstrap/img/machinery.jpg
 article_img_title: Machinery in an abandoned mill, UK by reddit user donebythehands
-article_img_alt: "An image depicting a piece of machinery in an abondoned mill from the subreddit: MachinePorn"
+article_img_alt: "An image depicting a piece of machinery in an abandoned mill from the subreddit: MachinePorn"
 reddit_url:
 hn_url:
 ---
@@ -18,7 +18,7 @@ hn_url:
     I don't know how many times I've read or heard this question over the years but if I had a dollar for every one of those times, I'd be a rich man! In the past I might've answered this question with <i>"If you have to ask, then the answer is probably 'No'"</i> but I've thought a bit about this question lately and have come to the conclusion that the process, mechanics and practice of programming aren't necessarily well understood before one decides to embark upon a software engineering career path.
   </p>
   <p>
-    Personal experience, and having worked with many, many different people during my career lead me to believe that there are a few common traits that indicate certain people would be quite capable of becoming software enngineers and would greatly enjoy doing so as a career.
+    Personal experience, and having worked with many, many different people during my career lead me to believe that there are a few common traits that indicate certain people would be quite capable of becoming software engineers and would greatly enjoy doing so as a career.
   </p>
   </div>
 <div class="intro-img-border">
@@ -63,7 +63,7 @@ then programming may be for you.
 If you like pulling things apart just because: 
 
  * You want to know how they tick
- * You want to challenge youself in putting things together
+ * You want to challenge yourself in putting things together
  
 then programming may be for you.
 <br/>
@@ -72,7 +72,7 @@ then programming may be for you.
 If you like to scribble, draw, design, plan or theorise on things such as:
 
  * Thoughts about how a component, piece of equipment, or phenomenon might work.
- * A breakdown of some process or pattern into managable steps, items or sub-tasks 
+ * A breakdown of some process or pattern into manageable steps, items or sub-tasks 
  
 then programming may be for you. 
 <br/>
@@ -102,7 +102,7 @@ then programming may be for you.
 
 #### Should you, or someone you know, become a Programmer?
 
-I'm not claiming that the indicators I've outlined in this article are definitive, however personal experience leads me to believe that the common thread throughout the examples above (Making, Breaking and Intrigue) indicate that people posessing these traits would be quite capable of becoming competent software engineers and most likely enjoy doing so as a career. 
+I'm not claiming that the indicators I've outlined in this article are definitive, however personal experience leads me to believe that the common thread throughout the examples above (Making, Breaking and Intrigue) indicate that people possessing these traits would be quite capable of becoming competent software engineers and most likely enjoy doing so as a career. 
 
 I've deliberately avoided mentioning any academic qualifiers in this article because in my opinion, the subject needs to be considered first from a personal interest and motivation angle before an academic proficiency in certain subjects (e.g. mathematics, logic, computer science) or intelligence angle.
 
