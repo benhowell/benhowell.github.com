@@ -33,7 +33,13 @@ hn_url:
 <br/>
 
 #### Building
+If you like building things and enjoy the process of doing so just to learn how to build that particular thing or because you need to learn a new skill required to build that thing then programming may be for you.
 
+ * welding for metalwork
+ * cutting dove-tail joints for woodwork
+ * creating breadboard circuits for electronics
+ * learning how to do automotive bodywork in order to paint a car
+ * learning how internal combustion engines work in order to build your own performance engine for a car
 
 #### Making
 If you like making things or fixing things around the house just because it seems like a fun, cost saving, or interesting exercise, even when you know that that your final product may not be as good as a bought one then programming may be for you. If you just "have a go" at making something even though you there's a good possibility of failing, wasting your time and you'll end up having to buy "the real thing" then programming may be for you.
