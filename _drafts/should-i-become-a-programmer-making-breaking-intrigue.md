@@ -67,7 +67,8 @@ then programming may be for you.
 <br/>
 <br/>
 
-If you like to scribble, draw, design or plan things such as: 
+If you like to scribble, draw, design or plan things such as:
+
  * Thoughts about how a component, piece of equipment, or phenomenon might work.
  * A breakdown of some process or pattern into managable steps, items or sub-tasks 
  
@@ -86,6 +87,7 @@ then programming may be for you.
 <br/>
 
 If you have something more than a passing interest in the technicalities of things such as:
+
  * Physics, the universe, and everything
  * Music and the arts
  * Mechanics of human movement in sports (e.g. skateboarding, gymnastics)
