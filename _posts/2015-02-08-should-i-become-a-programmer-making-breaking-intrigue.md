@@ -39,7 +39,6 @@ If you like making or fixing things around the house just because:
  * It seems like a fun or saves money
  * It looks like an interesting exercise, even when you know that your final product may not be as good as a bought one
  * Just to "have a crack" at making something even though there's a good possibility of failing and wasting your time and end up having to buy "the real thing"
-
 <br/>
 
 If you like building things and enjoy the process of doing so just to learn how to build that particular thing or because you'll learn a new skill required to build that thing such as:
@@ -62,7 +61,6 @@ If you like pulling things apart just because:
 
  * You want to know how they tick
  * You want to challenge yourself in putting things together
-
 <br/>
 
 If you like to scribble, draw, design, plan or theorise on things such as:
@@ -79,7 +77,6 @@ If you have an appreciation of:
 
  * Machinery, mechanics, electronics and/or technology whether that be from actual hands on hacking, modifying, repairing or fixing; or from a viewpoint of wonder and intrigue of their inner workings
  * Learning new skills or processes in order to achieve something, and in some cases caring more about the learning process than the actual end product
-
 <br/>
 
 If you have something more than a passing interest in the technicalities of things such as:
