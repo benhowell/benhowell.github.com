@@ -18,7 +18,7 @@ hn_url:
     I don't know how many times I've read or heard this question over the years but if I had a dollar for every one of those times, I'd be a rich man! In the past I might've answered this question with <i>"If you have to ask, then the answer is probably 'No'"</i> but I've thought a bit about this question lately and have come to the conclusion that the process, mechanics and practice of programming aren't necessarily well understood before one decides to follow a software engineering career path.
   </p>
   <p>
-    I'm not claiming that the indicators I outline in this article are definitive, however personal experience and having worked with many, many different people over the years lead me to believe that there are many common traits that indicate certain people would be quite capable of becoming software enngineers and enjoy doing so.
+    Personal experience and having worked with many, many different people over the years lead me to believe that there are many common traits that indicate certain people would be quite capable of becoming software enngineers and would greatly enjoy doing so as a career.
   </p>
   </div>
 <div class="intro-img-border">
@@ -45,3 +45,9 @@ If you like pulling things apart just to see how they tick, then programming may
 
 #### Appreciation and Wonder
 If you have an appreciation of machinery, mechanics, electronics and/or technology whether that be from actual hands on hacking, modifying repairing, fixing, etc. or from a viewpoint of wonder and intruige of how they work then programming may be for you. 
+
+
+
+#### Conclusion
+
+I'm not claiming that the indicators I outline in this article are definitive, however personal experience and having worked with many, many different people over the years lead me to believe that there are many common traits that indicate certain people would be quite capable of becoming software enngineers and enjoy doing so.
