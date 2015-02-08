@@ -63,7 +63,9 @@ If you like pulling things apart just because:
  * You want to know how they tick
  * You want to see if you can if you challenge youself in putting things together
  
-then programming may be for you. 
+then programming may be for you.
+<br/>
+<br/>
 
 If you like to scribble, draw, design or plan things such as: 
  * Thoughts about how a component, piece of equipment, or phenomenon might work.
@@ -78,7 +80,11 @@ If you have an appreciation of:
 
  * Machinery, mechanics, electronics and/or technology whether that be from actual hands on hacking, modifying, repairing or fixing; or from a viewpoint of wonder and intrigue of their inner workings
  * Learning new skills or processes in order to achieve something, and in some cases caring more about the learning process than the actual end product that learning enables
- 
+
+then programming may be for you.
+<br/>
+<br/>
+
 If you have something more than a passing interest in the technicalities of things such as:
  * Physics, the universe, and everything
  * Music and the arts
