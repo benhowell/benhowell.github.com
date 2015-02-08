@@ -58,6 +58,8 @@ If you have an appreciation of machinery, mechanics, electronics and/or technolo
 
 
 
-#### Conclusion
+#### Should you become a Programmer?
 
 I'm not claiming that the indicators I outline in this article are definitive, however personal experience and having worked with many, many different people over the years lead me to believe that there are many common traits that indicate certain people would be quite capable of becoming software enngineers and enjoy doing so.
+
+If you, or your kids like to know how things work, like making things, breaking things or have a genuine appreciation for the technicalities in the process of creating things then programming may be for you.
