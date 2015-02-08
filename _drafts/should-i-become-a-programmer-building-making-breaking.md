@@ -29,3 +29,19 @@ hn_url:
 </div>
 </div>
 </div>
+<br/>
+<br/>
+
+#### Building
+
+
+#### Making
+If you like making things or fixing things around the house just because it seems like a fun, cost saving, or interesting exercise, even when you know that that your final product may not be as good as a bought one then programming may be for you. If you just "have a go" at making something even though you there's a good possibility of failing, wasting your time and you'll end up having to buy "the real thing" then programming may be for you.
+
+
+#### Breaking
+If you like pulling things apart just to see how they tick, then programming may be for you. 
+
+
+#### Appreciation and Wonder
+If you have an appreciation of machinery, mechanics, electronics and/or technology whether that be from actual hands on hacking, modifying repairing, fixing, etc. or from a viewpoint of wonder and intruige of how they work then programming may be for you. 
