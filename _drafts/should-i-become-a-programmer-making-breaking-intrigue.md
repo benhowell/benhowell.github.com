@@ -42,15 +42,16 @@ If you like making or fixing things around the house just because:
  
 then programming may be for you. 
 <br/>
+<br/>
 
-If you like building things and enjoy the process of doing so just to learn how to build that particular thing or because you need to learn a new skill required to build that thing such as:
+If you like building things and enjoy the process of doing so just to learn how to build that particular thing or because you'll learn a new skill required to build that thing such as:
 
  * Welding for metalwork
  * Cutting dove-tail joints for woodwork
  * Creating test circuits on breadboards for electronics
  * Automotive bodywork in order to paint a car
- * How internal combustion engines work in order to build your own performance engine for a car
- * Doing something new by hand, either because you don't have the specialised tools or as a deliberate choice (e.g. dove-tail joints)
+ * How internal combustion engines work in order to build your own performance engine
+ * Doing something new by hand, either because you don't have the specialised tools or as a deliberate choice (e.g. dove-tail joints with a handsaw)
  
 then programming may be for you.
 <br/>
