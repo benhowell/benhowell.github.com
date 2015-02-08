@@ -35,7 +35,6 @@ hn_url:
 
 #### Making
 If you like making or fixing things around the house just because: 
-
  * It seems like a fun, cost saving, or interesting exercise, even when you know that your final product may not be as good as a bought one.
  * Just to "have a crack" at making something even though there's a good possibility of failing and wasting your time and end up having to buy "the real thing".
  
