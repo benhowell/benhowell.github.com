@@ -63,13 +63,13 @@ then programming may be for you.
 If you like pulling things apart just because: 
 
  * You want to know how they tick
- * You want to see if you can if you challenge youself in putting things together
+ * You want to challenge youself in putting things together
  
 then programming may be for you.
 <br/>
 <br/>
 
-If you like to scribble, draw, design or plan things such as:
+If you like to scribble, draw, design, plan or theorise on things such as:
 
  * Thoughts about how a component, piece of equipment, or phenomenon might work.
  * A breakdown of some process or pattern into managable steps, items or sub-tasks 
@@ -82,7 +82,7 @@ then programming may be for you.
 If you have an appreciation of: 
 
  * Machinery, mechanics, electronics and/or technology whether that be from actual hands on hacking, modifying, repairing or fixing; or from a viewpoint of wonder and intrigue of their inner workings
- * Learning new skills or processes in order to achieve something, and in some cases caring more about the learning process than the actual end product that learning enables
+ * Learning new skills or processes in order to achieve something, and in some cases caring more about the learning process than the actual end product
 
 then programming may be for you.
 <br/>
@@ -102,6 +102,8 @@ then programming may be for you.
 
 #### Should you, or someone you know, become a Programmer?
 
-I'm not claiming that the indicators I outline in this article are definitive, however personal experience and having worked with many, many different people over the years lead me to believe that there are a few common traits that indicate certain people would be quite capable of becoming software enngineers and enjoy doing so. I've deliberately avoided mentioning any academic qualifiers in this article because I wanted to look at the subject from a personal interest and motivation angle rather than academic proficiency in subjects (e.g. mathematics, logic, computer science) or intelligence angle.
+I'm not claiming that the indicators I've outlined in this article are definitive, however personal experience leads me to believe that the common thread throughout the examples above (Making, Breaking and Intrigue) indicate that people posessing these traits would be quite capable of becoming competent software engineers and most likely enjoy doing so as a career. 
+
+I've deliberately avoided mentioning any academic qualifiers in this article because in my opinion, the subject needs to be considered first from a personal interest and motivation angle before an academic proficiency in certain subjects (e.g. mathematics, logic, computer science) or intelligence angle.
 
 If you, one of your kids, or someone you know likes to know how things work, making things, breaking things or has a genuine appreciation or intrigue for the technicalities of things, in whatever subject, then programming may be a fulfilling and valuable career path to consider.
