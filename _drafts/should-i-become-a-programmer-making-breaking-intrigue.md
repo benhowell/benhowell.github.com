@@ -36,8 +36,10 @@ hn_url:
 #### Making
 If you like making or fixing things around the house just because: 
 
- * It seems like a fun, cost saving, or interesting exercise, even when you know that that your final product may not be as good as a bought one
- * Just to "have a go" at making something even though there's a good possibility of failing and wasting your time and end up having to buy "the real thing"
+ * It seems like a fun, cost saving, or interesting exercise, even when you know that your final product may not be as good as a bought one.
+ * Just to "have a crack" at making something even though there's a good possibility of failing and wasting your time and end up having to buy "the real thing".
+ 
+then programming may be for you. 
 
 If you like building things and enjoy the process of doing so just to learn how to build that particular thing or because you need to learn a new skill required to build that thing such as:
 
@@ -48,7 +50,7 @@ If you like building things and enjoy the process of doing so just to learn how 
  * How internal combustion engines work in order to build your own performance engine for a car
  * Doing something new by hand, either because you don't have the specialised tools or as a deliberate choice (e.g. dove-tail joints)
  
-**Then programming may be for you**
+then programming may be for you.
 <br/>
 <br/>
  
