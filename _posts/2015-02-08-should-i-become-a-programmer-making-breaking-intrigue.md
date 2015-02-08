@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Should I become a Programmer? Making. Breaking and Intrigue."
+title: "Should I become a Programmer? Making, Breaking and Intrigue."
 description: "If you like pulling things apart, building stuff, modifying stuff or are good with your hands, then programming might be for you"
 tagline: "people"
 category: people
