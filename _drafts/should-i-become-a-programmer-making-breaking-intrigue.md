@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Should I become a Programmer? Building. Making. Breaking."
+title: "Should I become a Programmer? Making. Breaking. Intrigue."
 description: "If you like pulling things apart, building stuff, modifying stuff or are good with your hands, then programming might be for you"
 tagline: "people"
 category: people
@@ -32,7 +32,11 @@ hn_url:
 <br/>
 <br/>
 
-#### Building
+
+#### Making
+If you like making things or fixing things around the house just because it seems like a fun, cost saving, or interesting exercise, even when you know that that your final product may not be as good as a bought one then programming may be for you. If you just "have a go" at making something even though you there's a good possibility of failing, wasting your time and you'll end up having to buy "the real thing" then programming may be for you.
+
+
 If you like building things and enjoy the process of doing so just to learn how to build that particular thing or because you need to learn a new skill required to build that thing then programming may be for you.
 
  * welding for metalwork
@@ -41,16 +45,16 @@ If you like building things and enjoy the process of doing so just to learn how 
  * learning how to do automotive bodywork in order to paint a car
  * learning how internal combustion engines work in order to build your own performance engine for a car
 
-#### Making
-If you like making things or fixing things around the house just because it seems like a fun, cost saving, or interesting exercise, even when you know that that your final product may not be as good as a bought one then programming may be for you. If you just "have a go" at making something even though you there's a good possibility of failing, wasting your time and you'll end up having to buy "the real thing" then programming may be for you.
-
+ 
+If you like doing things by hand (either because you don't have specialised tools or as a deliberate choice) then programming may be for you (e.g. cutting woodworking joints with a hand tools vs using a router or table saw).
+ 
 
 #### Breaking
 If you like pulling things apart just to see how they tick, then programming may be for you. 
 
 
-#### Appreciation and Wonder
-If you have an appreciation of machinery, mechanics, electronics and/or technology whether that be from actual hands on hacking, modifying repairing, fixing, etc. or from a viewpoint of wonder and intruige of how they work then programming may be for you. 
+#### Intrigue 
+If you have an appreciation of machinery, mechanics, electronics and/or technology whether that be from actual hands on hacking, modifying repairing, fixing, etc. or from a viewpoint of wonder and Intrigue of how they work then programming may be for you. 
 
 
 
