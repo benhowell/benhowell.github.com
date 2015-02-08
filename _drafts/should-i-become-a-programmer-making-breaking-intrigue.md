@@ -49,9 +49,10 @@ If you like building things and enjoy the process of doing so just to learn how 
  * Welding for metalwork
  * Cutting dove-tail joints for woodwork
  * Creating test circuits on breadboards for electronics
- * Hacking projects with Arduino (or the plethora of other small board consumer computers)
- * Automotive bodywork in order to paint a car
+ * Hacking projects with Arduino (or the plethora of other small, board based consumer computers)
+ * Automotive bodywork and spray painting in order to paint a car
  * How internal combustion engines work in order to build your own performance engine
+ * Arts and crafts of any type
  * Doing something new by hand, either because you don't have the specialised tools or as a deliberate choice (e.g. dove-tail joints with a handsaw)
  
 then programming may be for you.
