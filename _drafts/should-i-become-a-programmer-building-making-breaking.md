@@ -14,7 +14,12 @@ hn_url:
 {% include JB/setup %}
 <div class="intro">
   <div class="intro-txt">
+  <p>
     I don't know how many times I've read or heard this question over the years but if I had a dollar for every one of those times, I'd be a rich man! In the past I might've answered this question with <i>"If you have to ask, then the answer is probably 'No'"</i> but I've thought a bit about this question lately and have come to the conclusion that the process, mechanics and practice of programming aren't necessarily well understood before one decides to follow a software engineering career path.
+  </p>
+  <p>
+    I'm not claiming that the indicators I outline in this article are definitive, however personal experience and having worked with many, many different people over the years lead me to believe that there are many common traits that indicate certain people would be quite capable of becoming software enngineers and enjoy doing so.
+  </p>
   </div>
 <div class="intro-img-border">
 <div class="intro-img-bevel">
