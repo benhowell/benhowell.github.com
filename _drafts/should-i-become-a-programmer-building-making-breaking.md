@@ -14,7 +14,7 @@ hn_url:
 {% include JB/setup %}
 <div class="intro">
   <div class="intro-txt">
-    I wouldn't know how many times I've read or heard this question over the years but if I had a dollar for every one of those times, I'd be a rich man. 
+    I don't know how many times I've read or heard this question over the years but if I had a dollar for every one of those times, I'd be a rich man! In the past I might've answered this question with <i>"If you have to ask, then the answer is probably 'No'"</i> but I've thought a bit about this question lately and have come to the conclusion that the process, mechanics and practice of programming aren't necessarily well understood before one decides to follow a software engineering career path.
   </div>
 <div class="intro-img-border">
 <div class="intro-img-bevel">
