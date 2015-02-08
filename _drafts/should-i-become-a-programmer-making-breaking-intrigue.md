@@ -34,35 +34,37 @@ hn_url:
 
 
 #### Making
-If you like making things or fixing things around the house just because it seems like a fun, cost saving, or interesting exercise, even when you know that that your final product may not be as good as a bought one then programming may be for you. If you just "have a go" at making something even though you there's a good possibility of failing, wasting your time and you'll end up having to buy "the real thing" then programming may be for you.
+If you like making or fixing things around the house just because: 
 
+ * It seems like a fun, cost saving, or interesting exercise, even when you know that that your final product may not be as good as a bought one
+ * Just to "have a go" at making something even though there's a good possibility of failing and wasting your time and end up having to buy "the real thing"
 
-If you like building things and enjoy the process of doing so just to learn how to build that particular thing or because you need to learn a new skill required to build that thing then programming may be for you.
+If you like building things and enjoy the process of doing so just to learn how to build that particular thing or because you need to learn a new skill required to build that thing such as:
 
- * welding for metalwork
- * cutting dove-tail joints for woodwork
- * creating breadboard circuits for electronics
- * learning how to do automotive bodywork in order to paint a car
- * learning how internal combustion engines work in order to build your own performance engine for a car
-
+ * Welding for metalwork
+ * Cutting dove-tail joints for woodwork
+ * Creating test circuits on breadboards for electronics
+ * Automotive bodywork in order to paint a car
+ * How internal combustion engines work in order to build your own performance engine for a car
+ * Doing something new by hand, either because you don't have the specialised tools or as a deliberate choice (e.g. dove-tail joints)
  
-If you like doing things by hand (either because you don't have specialised tools or as a deliberate choice) then programming may be for you (e.g. cutting woodworking joints with a hand tools vs using a router or table saw).
+**Then programming may be for you**
 <br/>
 <br/>
-
+ 
 #### Breaking
-If you like pulling things apart just to see how they tick, then programming may be for you. 
+If you like pulling things apart just to see how they tick, then programming may be for you. If you like to scribble down designs and plans, thoughts about how a sub-component of something might work, or breaking some process down into managable steps or sub-tasks then programming may be for you.
 <br/>
 <br/>
 
 #### Intrigue 
-If you have an appreciation of machinery, mechanics, electronics and/or technology whether that be from actual hands on hacking, modifying repairing, fixing, etc. or from a viewpoint of wonder and Intrigue of how they work then programming may be for you. 
+If you have an appreciation of machinery, mechanics, electronics and/or technology whether that be from actual hands on hacking, modifying, repairing or fixing; or from a viewpoint of wonder and intrigue of how stuff works then programming may be for you. If you like learning new skills or processes in order to achieve something, and in some cases caring more about the learning than the actual end product that learning enables, then programming may be for you.
 <br/>
 <br/>
 
 
-#### Should you become a Programmer?
+#### Should you, or someone you know, become a Programmer?
 
 I'm not claiming that the indicators I outline in this article are definitive, however personal experience and having worked with many, many different people over the years lead me to believe that there are many common traits that indicate certain people would be quite capable of becoming software enngineers and enjoy doing so.
 
-If you, or your kids like to know how things work, like making things, breaking things or have a genuine appreciation for the technicalities in the process of creating things then programming may be for you.
+If you, your kids, or someone you know likes to know how things work, making things, breaking things or have a genuine appreciation for the technicalities in the process of creating things then programming may be a good career choice.
