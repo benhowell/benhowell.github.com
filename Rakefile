@@ -91,6 +91,8 @@ task :post do
     post.puts '</div>'
     post.puts '</div>'
     post.puts '</div>'
+    post.puts '<br/>'
+    post.puts '<br/>'
   end
 end # task :post
 
