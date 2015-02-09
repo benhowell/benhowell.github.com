@@ -31,7 +31,31 @@ hn_url:
 
 functions, events, states, transitions
 
+START — Every machine has one of these.
 
+
+#### Exit actions
+
+The last thought on the mindset for dealing with state actions is related to exit
+actions. Exit actions are associated with exiting a state; that is, they are executed
+whenever there is a transition out of the state, regardless of what the next state is.
+From a purist viewpoint, exit actions are inconsistent with the Moore model used by
+MBD. That’s because the state represents a condition where a single set of rules and
+policies apply. If we execute those rules and policies on entry to the state, then there
+should be nothing left to execute on exit.
+As a practical matter, though, exit actions are similar to self-directed events. We do
+not want to use them casually, but there are situations where they can reduce the
+number of states and transitions in the state machine. Usually the underlying reason
+is the same as for using self-directed events: management of state variables, which are
+orthogonal to behavioral state machines. So, like self-directed events, as a reviewer
+you should demand solid justification for employing exit actions.
+
+
+#### dags and bahaviour trees
+http://web.archive.org/web/20140402204854/http://www.altdevblogaday.com/2011/02/24/introduction-to-behavior-trees/
+
+#### goap
+http://alumni.media.mit.edu/~jorkin/goap.html
 
 #### state transition matrix
 
