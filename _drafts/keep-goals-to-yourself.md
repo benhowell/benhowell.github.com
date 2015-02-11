@@ -1,1 +1,0 @@
-http://www.ted.com/talks/derek_sivers_keep_your_goals_to_yourself
