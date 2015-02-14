@@ -146,6 +146,19 @@
 
     
     <hr>
+    {% if page.related %}
+    <br/>
+    <p>
+    <h4>Related Articles</h4>
+      {% for related_title in page.related %}
+	{% for post in site.posts %}
+	  {% if post.title == related_title %}
+	    <div><a href="{{ post.url }}">{{ post.title }}</a></div>
+	  {% endif %}
+	{% endfor %}
+      {% endfor %}
+    {% endif %}
+    </p>
     {% include JB/comments %}
   </div>
 </div>

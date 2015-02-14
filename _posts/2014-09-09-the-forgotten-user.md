@@ -5,6 +5,7 @@ description: "Code is for humans. In this article we'll explore some simple ways
 tagline: "craft"
 category: craft
 tags: [craft, design, craftsmanship, compsci, programming, coding]
+related: [Asleep at the Wheel, Code Incomplete]
 article_img: bootstrap/img/forgotten-grave-abandoned-japan.jpg
 article_img_title: Forgotten Grave – Abandoned Japan by Kurt Bell
 reddit_url:

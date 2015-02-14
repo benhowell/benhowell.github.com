@@ -5,6 +5,7 @@ description: "Some advice for avoiding, and recovering from burnout for develope
 tagline: "craft"
 category: craft
 tags: [craft, design, craftsmanship, compsci, programming, coding]
+related: [Code Incomplete, The Forgotten User]
 article_img: bootstrap/img/Sleeping-Hamster.jpg
 article_img_title: Asleep at the Wheel
 reddit_url: http://www.reddit.com/r/programming/comments/2bxl1q/asleep_at_the_wheel_you_will_burn_out_possibly/

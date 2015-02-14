@@ -5,6 +5,7 @@ description: "Function invocation is fundamental. In this article we'll compare 
 tagline: "design"
 category: design
 tags : [reactive, scalable, concurrent, asynchronous, patterns, design, publish/subscribe]
+related: [Publish/Subscribe using Scala and Akka EventStream, Publish/Subscribe using Scala and Akka EventBus]
 article_img: bootstrap/img/Gustave_dore_crusades_invocation_to_muhammad.jpg
 article_img_title: "Invocation by Gustave Doré."
 article_img_alt: "An image depicting an invocation"

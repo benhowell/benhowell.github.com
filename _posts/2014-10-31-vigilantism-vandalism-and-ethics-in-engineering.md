@@ -5,6 +5,7 @@ description: "In this article we'll debate the ethics of sabotage and damaging o
 tagline: "craft"
 category: craft
 tags: [ethics, programming, craft, design, compsci, coding]
+related: []
 article_img: bootstrap/img/jason_li.jpg
 article_img_title: Jason Li - Vandal, Braggart.
 reddit_url: http://www.reddit.com/r/programming/comments/2kvory/vigilantism_vandalism_and_ethics_in_engineering/

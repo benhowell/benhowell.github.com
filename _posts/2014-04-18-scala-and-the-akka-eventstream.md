@@ -5,6 +5,7 @@ description: "A comprehensive walkthough guide teaching how to implement Publish
 tagline: "guide"
 category : examples
 tags : [akka, EventSystem, scala, concurrent, asynchronous, publish/subscribe, beginner, example, tutorial, guide]
+related: [Publish/Subscribe using Scala and Akka EventBus, Invocation Matters]
 article_img: bootstrap/img/eventbus_250.jpg
 article_img_title: "Event bus by Anonymous"
 article_img_alt: "An image depicting Publish/Subscribe using Scala and Akka EventStream"

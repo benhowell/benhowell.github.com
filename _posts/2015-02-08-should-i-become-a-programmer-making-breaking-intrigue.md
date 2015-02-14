@@ -5,6 +5,7 @@ description: "If you like pulling things apart, building stuff, modifying stuff 
 tagline: "people"
 category: people
 tags: [people, psychology, career, craft, compsci, programming, coding]
+related: [Step Away From the Kool Aid, Self Selection, Your Financial History. Your Business.]
 article_img: bootstrap/img/machinery.jpg
 article_img_title: Machinery in an abandoned mill, UK by reddit user donebythehands
 article_img_alt: "An image depicting a piece of machinery in an abandoned mill from the subreddit: MachinePorn"

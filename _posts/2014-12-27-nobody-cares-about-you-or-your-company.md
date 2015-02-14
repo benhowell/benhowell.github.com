@@ -5,6 +5,7 @@ description: "Selfishness is a quality everyone has. If you want to effectively 
 tagline: "business"
 category: business
 tags: [people, psychology, career, business, sales, marketing]
+related: [The Hero Programmer and the Truth, Vigilantism: Vandalism and Ethics in Engineering]
 article_img: bootstrap/img/wavedune.jpg
 article_img_title: Death Valley, California and all the people that care about you and your company.
 article_img_alt: "An image of a section of desert in Death Valley, California and all the people that care about you and your company"

@@ -69,6 +69,7 @@ task :post do
     post.puts 'tagline: ""'
     post.puts "category: #{category}"
     post.puts "tags: #{tags}"
+    post.puts "related: []"
     post.puts "article_img: bootstrap/img/qn.png"
     post.puts "article_img_title: Question Mark by Anonymous"
     post.puts 'article_img_alt: "An image depicting "'

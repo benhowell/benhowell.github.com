@@ -5,6 +5,7 @@ description: "An article analysing empirical studies about the benefits of an op
 tagline: "people"
 category: people
 tags : [people, open plan, introvert, extrovert, management, collaboration, privacy, efficiency, psychology]
+related: []
 article_img: bootstrap/img/open_office_250.jpg
 article_img_title: "FML by Anonymous"
 reddit_url: http://www.reddit.com/r/programming/comments/2apwn7/the_open_plan_antipattern/

@@ -5,6 +5,7 @@ description: "Some sage advice for early career programmers. Don't be fooled by 
 tagline: "people"
 category: people
 tags: [people, management, psychology, bootstrap, recruitment]
+related: [Your Financial History. Your Business., Self Selection, Should I become a Programmer?]
 article_img: bootstrap/img/jim_jones_250.jpg
 article_img_title: The Rev. Jim Jones by Clem Albers - The Chronicle
 reddit_url: http://www.reddit.com/r/programming/comments/2axuoq/step_away_from_the_kool_aid_dont_sell_yourself/

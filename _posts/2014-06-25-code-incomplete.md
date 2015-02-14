@@ -5,6 +5,7 @@ description: "A common sense set of ideals to work toward as a professional prog
 tagline: "craft"
 category: craft
 tags: [craft, design, craftsmanship, compsci, programming, coding]
+related: [Asleep at the Wheel, The Forgotten User]
 article_img: bootstrap/img/master_craftsman.jpg
 article_img_title: Bob Zajicek - Steady Hand at the Lathe by Fr. John Abraham
 reddit_url: http://www.reddit.com/r/programming/comments/2ba12h/code_incomplete_humility_ensures_youll_evolve_as/
