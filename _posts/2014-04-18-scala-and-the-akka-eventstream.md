@@ -14,9 +14,6 @@ article_img_alt: "An image depicting Publish/Subscribe using Scala and Akka Even
 <div class="intro">
 <div class="intro-txt">
 <p>
-Hello, this is my first post. Hurrah!
-</p>
-<p>
 Publish/Subscribe (aka: pub/sub) is a messaging pattern that helps decouple<span markdown="span">[^1]</span> the sender and receiver of messages. Generally, this pattern is used across network(s) and provides ease of scalability and dynamic network topologies. 
 </p>
 <p>

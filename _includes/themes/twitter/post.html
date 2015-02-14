@@ -145,9 +145,9 @@
     
 
     
+    
+    {% if page.related.size != 0 %}
     <hr>
-    {% if page.related %}
-    <br/>
     <p>
     <h4>Related Articles</h4>
       {% for related_title in page.related %}

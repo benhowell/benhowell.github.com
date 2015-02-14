@@ -5,7 +5,7 @@ description: "Addressing selection criteria advice for programmers. If you don't
 tagline: "people"
 category: people
 tags: [selection criteria, programming, compsci, jobs, employee, interview, management, career]
-related: [Step Away From the Kool Aid, Should I become a Programmer?, Your Financial History. Your Business.]
+related: [Step Away From the Kool Aid, "Should I become a Programmer?", Your Financial History. Your Business.]
 article_img: bootstrap/img/Job.jpg
 article_img_title: Job - print by William Bromley.
 reddit_url:
