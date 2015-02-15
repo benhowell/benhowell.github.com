@@ -52,11 +52,11 @@ OK, so I perhaps wasn't as clear as I could've been in the previous article. The
 
 If someone has an interest in machines (whether they be mechanical, biological, astronomical, whatever) then there's a chance they will also be interested in "thought machines" (i.e. machines made out of code).
 
-If someone has an interest in construction and doing things by hand (woodwork, metalwork, building engines, etc.) then there's a chance they will also be interested in constructing "thought machines" (i.e. making their own machines in code).
+If someone has an interest in construction and doing things by hand (woodwork, metalwork, building engines, etc.) then there's a chance they will also be interested in constructing "thought machines" (i.e. making their own things in code).
 
-If someone has an interest in how stuff works (breaking things down to see how they tick, thinking about how processes work, learning a new skill in order to better understand how something works, etc.) then there's a chance they will also be interested in how "thought machines" and information/computing processes work (i.e. deconstructing machines built by others, or deconstruction of their own ideas into constituent parts in order to build their own machines).
+If someone has an interest in how stuff works (breaking things down to see how they tick, thinking about how processes work, learning a new skill in order to better understand how something is made, etc.) then there's a chance they will also be interested in how "thought machines" and information/computing processes work (i.e. deconstructing machines built by others, or deconstruction of their own ideas into constituent parts in order to build their own machines).
 
-
+YMMV.
 
 
 
