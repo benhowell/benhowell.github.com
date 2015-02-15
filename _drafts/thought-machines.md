@@ -16,14 +16,14 @@ hn_url:
 <div class="intro">
 <div class="intro-txt">
 <p>
-This is a follow-up post to a previous article I wrote: <span markdown="span">[Should I become a Programmer?]({% post_url 2015-02-08-should-i-become-a-programmer-making-breaking-intrigue %})</span>. I'd like to address some of the comments I received about that article.
+This is a follow-up post to a previous article I wrote: <span markdown="span">[Should I become a Programmer?]({% post_url 2015-02-08-should-i-become-a-programmer-making-breaking-intrigue %})</span>. I'd like to address a couple of the comments I received about that article and try to make my message a little clearer.
 </p>
 <br/>
 <p>
 <i>"I wonder how many people make major life decisions by running through a checklist found on some random blogger's website."</i>
 </p>
 <p>
-The list is obviously a list of general examples that refer more to a way of thinking and some food for thought rather than explicit cases. To imply that someone could, or that someone indeed would make a major life decision on the basis of some crude examples by, quote <i>"running through a checklist found on some random blogger's website"</i> then the person implying such simultaneuously holds the views that that someone who would make such a life decision is both not bright enough to research further than a random bloggers list of examples and bright enough to comprehend the meaning of such a list and indeed pursue a career as a programmer.
+The list is obviously a list of general examples that refer more to a way of thinking and some food for thought rather than explicit cases. To imply that someone could, or that someone indeed would make a major life decision on the basis of some crude examples by, quote <i>"running through a checklist found on some random blogger's website"</i> then the person implying such simultaneuously holds the views that that someone who would make such a life decision is both not bright enough to research further than a random bloggers list of examples and bright enough to comprehend the meaning of such a list and indeed pursue a career as a programmer. Ludicrous.
 </p>
 </div>
 <div class="intro-img-border">
