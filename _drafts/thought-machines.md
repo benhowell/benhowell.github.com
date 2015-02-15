@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "thought machines"
+title: "Thought Machines"
 description: ""
 tagline: ""
 category: 
 tags: []
 related: []
-article_img: bootstrap/img/thought_bubble.png
-article_img_title: Question Mark by Anonymous
-article_img_alt: "An image depicting "
+article_img: bootstrap/img/thought-bubble.png
+article_img_title: Thought Machine by Anonymous
+article_img_alt: "An image depicting a bloke thinking about machinery"
 reddit_url:
 hn_url:
 ---
