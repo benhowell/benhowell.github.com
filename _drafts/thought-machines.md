@@ -20,7 +20,7 @@ This is a follow-up post to a previous article I wrote: <span markdown="span">[S
 </p>
 <br/>
 <p>
-<i>"I wonder how many people make major life decisions by running through a checklist found on some random blogger's website."</i>
+<b>Comment: </b><i>"I wonder how many people make major life decisions by running through a checklist found on some random blogger's website."</i>
 </p>
 <p>
 To imply that someone could, or that someone indeed would make a major life decision on the basis of some crude examples by, quote: <i>"running through a checklist found on some random blogger's website"</i> then the person implying such simultaneuously holds the views that that someone who would make such a life decision is both not bright enough to research further than a random bloggers list of examples and bright enough to comprehend the meaning of such a list and indeed pursue a career as a programmer. Ludicrous.
@@ -37,14 +37,17 @@ To imply that someone could, or that someone indeed would make a major life deci
 <br/>
 <br/>
 
-_Feels more like a checklist on whether to become a mechanic, it's quite a lot of "do you like to tinker with physical objects" styled questions._
+**Comment: ** _"Feels more like a checklist on whether to become a mechanic, it's quite a lot of "do you like to tinker with physical objects" styled questions."_
 
 and
 
-_Sounds more like should I become a mechanic LOL_
+**Comment: ** _"Sounds more like should I become a mechanic LOL"_
 
-I'd equate the interest in thinking about abstract machines, and designing, programming and building such things to be more like a hands on mechanical engineer who likes to build his designs rather than a mechanic who likes to, quote: _"tinker with physical objects"_
+I'd equate the interest in thinking about abstract machines, and designing, programming and building such things to be more like a hands-on mechanical engineer who likes to build his designs rather than a mechanic who likes to, quote: _"tinker with physical objects"_ but, yes I do see a similarity between the interests of mechanical and software engineers.
+<br/>
+<br/>
 
+#### The message in other words?
 Ok, so I perhaps wasn't as clear as I could've been in the previous article. The examples on the list aren't supposed to be taken literally. They're just some examples off the top of my head. The message I was trying to convey in that article was this:
 
 If someone has an interest in machines (whether they be mechanical, biological, astronomical, whatever) then there's a chance they will also be interested in "thought machines" (i.e. machines made out of code).
