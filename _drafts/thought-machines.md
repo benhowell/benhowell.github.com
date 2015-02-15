@@ -15,6 +15,9 @@ hn_url:
 {% include JB/setup %}
 <div class="intro">
   <div class="intro-txt">
+    This is a follow-up post to a previous article addressing some of the comments I received. The previous article can be read here: [Should I become a Programmer?]({% post_url 2015/02/08/should-i-become-a-programmer-making-breaking-intrigue %}) 
+  
+  
     The examples on the list aren't supposed to be taken literally. They're just some examples off the top of my head. The message I'm trying to convey here is this:
 
 If someone has an interest in machines (whether they be mechanical, biological, astronomical, whatever) then there's a chance they will also be interested in "thought machines" (i.e. machines made out of code).
