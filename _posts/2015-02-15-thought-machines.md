@@ -23,7 +23,7 @@ This is a follow-up post to a previous article I wrote: <span markdown="span">[S
 <b>Comment: </b><i>"I wonder how many people make major life decisions by running through a checklist found on some random blogger's website."</i>
 </p>
 <p>
-To imply that someone could, or that someone indeed would make a major life decision on the basis of some crude examples by, quote: <i>"running through a checklist found on some random blogger's website"</i> then the person implying such simultaneuously holds the views that that someone who would make such a life decision is both not bright enough to research further than a random bloggers list of examples and bright enough to comprehend the meaning of such a list and indeed pursue a career as a programmer. Ludicrous.
+To imply that someone could, or that someone would make a major life decision on the basis of some crude examples by, quote: <i>"running through a checklist found on some random blogger's website"</i> then the person implying such simultaneously holds the views that that someone who would make such a life decision is both not bright enough to research further than a random blogger's list of examples and bright enough to comprehend the meaning of such a list and indeed pursue a career as a programmer. Ludicrous.
 </p>
 </div>
 <div class="intro-img-border">
@@ -48,7 +48,7 @@ I'd equate the interest in thinking about abstract machines, and designing, prog
 <br/>
 
 #### The message in other words?
-Ok, so I perhaps wasn't as clear as I could've been in the previous article. The examples on the list aren't supposed to be taken literally. They're just some examples off the top of my head. The message I was trying to convey in that article was this:
+OK, so I perhaps wasn't as clear as I could've been in the previous article. The examples on the list aren't supposed to be taken literally. They're just some examples off the top of my head. The message I was trying to convey in that article was this:
 
 If someone has an interest in machines (whether they be mechanical, biological, astronomical, whatever) then there's a chance they will also be interested in "thought machines" (i.e. machines made out of code).
 
