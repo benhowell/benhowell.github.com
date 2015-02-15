@@ -23,7 +23,7 @@ This is a follow-up post to a previous article I wrote: <span markdown="span">"[
 <b>Comment: </b><i>"I wonder how many people make major life decisions by running through a checklist found on some random blogger's website."</i>
 </p>
 <p>
-To imply that someone could, or that someone would make a major life decision on the basis of some crude examples by, quote: <i>"running through a checklist found on some random blogger's website"</i> suggests simultaneous views that one who would make such a life decision is both not bright enough to research further than a random blogger's list of examples and bright enough to comprehend the meaning of such a list and indeed pursue a career as a programmer. Ludicrous.
+The implication that someone could, or that someone would make a major life decision on the basis of some crude examples by running through a checklist found on some random blogger's website suggests simultaneous views that one who would make such a life decision is not bright enough to research further than a random blogger's list of examples yet bright enough to comprehend the meaning of such a list and indeed pursue a career as a programmer. Such a dichotomy, in my view, is not possible.
 </p>
 </div>
 <div class="intro-img-border">
