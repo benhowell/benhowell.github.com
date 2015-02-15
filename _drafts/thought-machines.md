@@ -37,11 +37,11 @@ To imply that someone could, or that someone indeed would make a major life deci
 <br/>
 <br/>
 
-**Comment: ** _"Feels more like a checklist on whether to become a mechanic, it's quite a lot of "do you like to tinker with physical objects" styled questions."_
+**Comment:** _"Feels more like a checklist on whether to become a mechanic, it's quite a lot of "do you like to tinker with physical objects" styled questions."_
 
 and
 
-**Comment: ** _"Sounds more like should I become a mechanic LOL"_
+**Comment:** _"Sounds more like should I become a mechanic LOL"_
 
 I'd equate the interest in thinking about abstract machines, and designing, programming and building such things to be more like a hands-on mechanical engineer who likes to build his designs rather than a mechanic who likes to, quote: _"tinker with physical objects"_ but, yes I do see a similarity between the interests of mechanical and software engineers.
 <br/>
