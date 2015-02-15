@@ -15,10 +15,27 @@ hn_url:
 {% include JB/setup %}
 <div class="intro">
 <div class="intro-txt">
-This is a follow-up post to a previous article addressing some of the comments I received. The previous article can be read here: <span markdown="span">[Should I become a Programmer?]({% post_url 2015-02-08-should-i-become-a-programmer-making-breaking-intrigue %})</span>
-  
-  
-    The examples on the list aren't supposed to be taken literally. They're just some examples off the top of my head. The message I'm trying to convey here is this:
+<p>
+This is a follow-up post to a previous article I wrote: <span markdown="span">[Should I become a Programmer?]({% post_url 2015-02-08-should-i-become-a-programmer-making-breaking-intrigue %})</span>. In this article I'd like to address some of the comments I received about that article.
+</p>
+<p>
+<i>"I wonder how many people make major life decisions by running through a checklist found on some random blogger's website."</i>
+
+The list is obviously a list of general examples that refer more to a way of thinking and some food for thought rather than explicit cases. If anyone were to either imply that someone could, or that someone indeed would make a major life decision on the basis of some crude examples by, quote <i>"running through a checklist found on some random blogger's website"</i> then the person implying such simultaneuously holds the views that that someone who would make such a life decision is both not bright enough to research further than a random bloggers list of examples and bright enough to comprehend the meaning of such a list and indeed pursue a career as a programmer.
+</p>
+</div>
+<div class="intro-img-border">
+<div class="intro-img-bevel">
+<div class="intro-img">
+<img class="article-image" alt="{{page.article_img_title}}" title="{{page.article_img_title}}" src="{{ASSET_PATH}}/{{page.article_img}}"/>
+</div>
+</div>
+</div>
+</div>
+<br/>
+<br/>
+
+ The examples on the list aren't supposed to be taken literally. They're just some examples off the top of my head. The message I'm trying to convey here is this:
 
 If someone has an interest in machines (whether they be mechanical, biological, astronomical, whatever) then there's a chance they will also be interested in "thought machines" (i.e. machines made out of code).
 
@@ -48,16 +65,3 @@ Cheers!
 
 
 Feels more like a checklist on whether to become a mechanic, it's quite a lot of "do you like to tinker with physical objects" styled questions.
-
-
-  </div>
-<div class="intro-img-border">
-<div class="intro-img-bevel">
-<div class="intro-img">
-<img class="article-image" alt="{{page.article_img_title}}" title="{{page.article_img_title}}" src="{{ASSET_PATH}}/{{page.article_img}}"/>
-</div>
-</div>
-</div>
-</div>
-<br/>
-<br/>
