@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Thought Machines"
-description: ""
-tagline: ""
-category: 
-tags: []
-related: []
+description: "An interest in physical machines whether they be mechanical, biological or astronomical may also indicate an interest in programming and thought machines"
+tagline: "people"
+category: people
+tags: [people, psychology, career, craft, compsci, programming, coding]
+related: ["Should I become a Programmer?"]
 article_img: bootstrap/img/thought-bubble.png
 article_img_title: Thought Machine by Anonymous
 article_img_alt: "An image depicting a bloke thinking about machinery"
