@@ -15,7 +15,38 @@ hn_url:
 {% include JB/setup %}
 <div class="intro">
   <div class="intro-txt">
-    ???????????????????????
+    The examples on the list aren't supposed to be taken literally. They're just some examples off the top of my head. The message I'm trying to convey here is this:
+
+If someone has an interest in machines (whether they be mechanical, biological, astronomical, whatever) then there's a chance they will also be interested in "thought machines" (i.e. machines made out of code).
+
+If someone has an interest in construction and doing things by hand (woodwork, metalwork, building engines, etc.) then there's a chance they will also be interested in constructing "thought machines" (i.e. making their own machines in code).
+
+If someone has an interest in how stuff works (breaking things down to see how they tick, thinking about how processes work, learning a new skill in order to better understand how something works, etc.) then there's a chance they will also be interested in how "thought machines" and information/computing processes work (i.e. deconstructing machines built by others, or deconstruction of their own ideas into constituent parts in order to build their own machines).
+
+Thanks for the comments!
+
+
+I think those lists shouldn't be taken literally. They rather describe a state of mind to have in life, one that IT people (and in some other fields) have or acquire.
+
+
+
+Thanks for the comments fellas, I appreciate it.
+
+The examples on the list aren't supposed to be taken literally. They're just some examples I jotted down over coffee and published. The message I'm trying to convey here is this:
+
+If someone has an interest in machines (whether they be mechanical, biological, astronomical, whatever) then there's a chance they will also be interested in "thought machines" (i.e. machines made out of code).
+
+If someone has an interest in construction and doing things by hand (woodwork, metalwork, building engines, etc.) then there's a chance they will also be interested in constructing "thought machines" (i.e. making their own machines in code).
+
+If someone has an interest in how stuff works (breaking things down to see how they tick, thinking about how processes work, learning a new skill in order to better understand how something works, etc.) then there's a chance they will also be interested in how "thought machines" and information/computing processes work (i.e. deconstructing machines built by others, or deconstruction of their own ideas into constituent parts in order to build their own machines).
+
+Cheers!
+
+
+
+Feels more like a checklist on whether to become a mechanic, it's quite a lot of "do you like to tinker with physical objects" styled questions.
+
+
   </div>
 <div class="intro-img-border">
 <div class="intro-img-bevel">
