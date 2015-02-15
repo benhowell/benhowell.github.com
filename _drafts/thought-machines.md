@@ -22,9 +22,8 @@ This is a follow-up post to a previous article I wrote: <span markdown="span">[S
 <p>
 <i>"I wonder how many people make major life decisions by running through a checklist found on some random blogger's website."</i>
 </p>
-<p>
-The list is obviously a list of general examples that refer more to a way of thinking and some food for thought rather than explicit cases. To imply that someone could, or that someone indeed would make a major life decision on the basis of some crude examples by, quote <i>"running through a checklist found on some random blogger's website"</i> then the person implying such simultaneuously holds the views that that someone who would make such a life decision is both not bright enough to 
-</p>
+
+The list is obviously a list of general examples that refer more to a way of thinking and some food for thought rather than explicit cases. To imply that someone could, or that someone indeed would make a major life decision on the basis of some crude examples by, quote <i>"running through a checklist found on some random blogger's website"</i> then the person implying such simultaneuously holds the views that that someone who would make such a life decision is both not bright enough to
 </div>
 <div class="intro-img-border">
 <div class="intro-img-bevel">
