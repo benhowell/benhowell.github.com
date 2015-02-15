@@ -16,7 +16,7 @@ hn_url:
 <div class="intro">
 <div class="intro-txt">
 <p>
-This is a follow-up post to a previous article I wrote: <span markdown="span">[Should I become a Programmer?]({% post_url 2015-02-08-should-i-become-a-programmer-making-breaking-intrigue %})</span>. I'd like to address a couple of the comments I received about that article and try to make my message a little clearer.
+This is a follow-up post to a previous article I wrote: <span markdown="span">["_Should I become a Programmer?_"]({% post_url 2015-02-08-should-i-become-a-programmer-making-breaking-intrigue %})</span>. I'd like to address a couple of the comments I received about that article and try to make my message a little clearer.
 </p>
 <br/>
 <p>
