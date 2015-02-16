@@ -16,22 +16,6 @@
 	<script type="IN/Share" data-counter="right"></script>
       </div>
 
-      
-      
-      <!--{% if page.reddit_url %}
-      <div class="mini-social-section reddit">
-      	<script type="text/javascript" src="http://www.reddit.com/static/button/button1.js"></script>
-      </div>
-      {% endif %}-->
-      
-      <!--{% if page.reddit_url %}
-      <div class="mini-social-section reddit">
-	<script type="text/javascript" src="http://www.reddit.com/buttonlite.js?i=4">
-	  reddit_url = "http://www.benhowell.net{{ page.url }}";
-	</script>
-      </div>
-      {% endif %}-->
-
       <div class="mini-social-section follow">
 	<a href="https://twitter.com/bjhowell" class="twitter-follow-button" data-show-count="false">Follow @bjhowell</a>
       </div>
@@ -49,22 +33,6 @@
       {{ content }}
     </div>
 
-  <!--{% unless page.categories == empty %}
-    <ul class="tag_box inline">
-      <li><i class="icon-folder-open"></i></li>
-      {% assign categories_list = page.categories %}
-      {% include JB/categories_list %}
-    </ul>
-  {% endunless %}  
-
-  {% unless page.tags == empty %}
-    <ul class="tag_box inline">
-      <li><i class="icon-tags"></i></li>
-      {% assign tags_list = page.tags %}
-      {% include JB/tags_list %}
-    </ul>
-  {% endunless %}  -->
-    
     <br/>
     <br/>
     {% if page.reddit_url and page.hn_url %}
@@ -101,37 +69,6 @@
       </form>
       </div>
     </div>
-    
-
-    
-    
-
-
-
-    
-    
-    
-    
-    
-    
-    <!--<div class="pagination">
-      <ul>
-      {% if page.previous %}
-        <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
-      {% else %}
-        <li class="prev disabled"><a>&larr; Previous</a></li>
-      {% endif %}
-        <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
-      {% if page.next %}
-        <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
-      {% else %}
-        <li class="next disabled"><a>Next &rarr;</a>
-      {% endif %}
-      </ul>
-    </div>-->
-    
-    
-
     
     <script type="text/javascript">
       window.___gcfg = {lang: 'en-GB'};
