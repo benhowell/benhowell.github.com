@@ -5,7 +5,7 @@ description: "If you like pulling things apart, building stuff, modifying stuff 
 tagline: "people"
 category: people
 tags: [people, psychology, career, craft, compsci, programming, coding]
-related: [Step Away From the Kool Aid, Self Selection, Your Financial History. Your Business.]
+related: [Step Away From the Kool Aid, Self Selection, Your Financial History. Your Business., Thought Machines]
 article_img: bootstrap/img/machinery.jpg
 article_img_title: Machinery in an abandoned mill, UK by reddit user donebythehands
 article_img_alt: "An image depicting a piece of machinery in an abandoned mill from the subreddit: MachinePorn"
@@ -16,10 +16,10 @@ hn_url:
 <div class="intro">
   <div class="intro-txt">
   <p>
-    I don't know how many times I've read or heard this question over the years but if I had a dollar for every one of those times, I'd be a rich man! In the past I might've answered this question with <i>"If you have to ask, then the answer is probably 'No'"</i> but I've thought a bit about this question lately and have come to the conclusion that the process, mechanics and practice of programming aren't necessarily well understood before one decides to embark upon a software engineering career path.
+    I don't know how many times I've read or heard this question over the years but if I had a dollar for every one of those times, I'd be a rich man. In the past I might've answered this question with <i>"If you have to ask, then the answer is probably 'No'"</i> but I've thought a bit about this question lately and have come to the conclusion that the process, mechanics and practice of programming aren't necessarily well understood before one decides to embark upon a software engineering career path.
   </p>
   <p>
-    Personal experience, and having worked with many, many different people during my career lead me to believe that there are a few common traits that indicate certain people would be quite capable of becoming software engineers and would greatly enjoy doing so as a career.
+    Personal experience, and having worked with many different people during my career lead me to believe that there are a few common traits that indicate certain people would be quite capable of becoming software engineers and would greatly enjoy doing so as a career.
   </p>
   </div>
 <div class="intro-img-border">
@@ -37,7 +37,7 @@ hn_url:
 #### Making
 If you like making or fixing things around the house just because: 
 
- * It seems like a fun or saves money
+ * It seems like fun or saves money
  * It looks like an interesting exercise, even when you know that your final product may not be as good as a bought one
  * Just to "have a crack" at making something even though there's a good possibility of failing and wasting your time and end up having to buy "the real thing"
 
@@ -93,6 +93,6 @@ then programming may be for you.
 
 I'm not claiming that the indicators I've outlined in this article are definitive, however personal experience leads me to believe that the common thread throughout the examples above (Making, Breaking and Intrigue) indicate that people possessing these traits would be quite capable of becoming competent software engineers and most likely enjoy doing so as a career. 
 
-I've deliberately avoided mentioning any academic qualifiers in this article because in my opinion, the subject needs to be considered first from a personal interest and motivation angle before an academic proficiency in certain subjects (e.g. mathematics, logic, computer science) or intelligence angle.
+I've deliberately avoided mentioning any academic qualifiers in this article because in my opinion, the subject needs to be considered first from a personal interest and motivation angle before an academic proficiency in certain subjects (e.g. mathematics, logic, computer science) or intelligence point of view.
 
 If you, one of your kids, or someone you know likes to know how things work, making things, breaking things or has a genuine appreciation or intrigue for the technicalities of things, in whatever subject, then programming may be a fulfilling and valuable career path to consider.
