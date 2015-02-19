@@ -5,7 +5,7 @@ description: "If your business relies on a hero programmer, you need to take a s
 tagline: "business"
 category: business
 tags: [people, business, management, design, compsci, programming, coding]
-related: [Nobody Cares about You or Your Company]
+related: [The Forgotten User, Nobody Cares about You or Your Company]
 article_img: bootstrap/img/regex.png
 article_img_title: Regular Expressions and the hero programmer. From the webcomic xkcd.
 article_img_alt: "Our hero programmer saves the day by typing a PERL regular expression on a keyboard whilst swinging past on a vine in a Tarzan like fashion. From the webcomic xkcd: http://xkcd.com/208/"
