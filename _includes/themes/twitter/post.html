@@ -59,6 +59,21 @@
     </div>
     <br/>
     
+    {% if page.related.size != 0 %}
+    <hr>
+    <p>
+    <h4>Related Articles</h4>
+      {% for related_title in page.related %}
+	{% for post in site.posts %}
+	  {% if post.title == related_title %}
+	    <div><a href="{{ post.url }}">{{ post.title }}</a></div>
+	  {% endif %}
+	{% endfor %}
+      {% endfor %}
+    {% endif %}
+    </p>
+    <br/>
+    
     <div id="subscribe" class="email-subscribe">
       <div id="mc_embed_signup">
       <form action="//benhowell.us8.list-manage.com/subscribe/post?u=ed9d0aad290932f3247232674&amp;id=9a4a99960d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -80,22 +95,6 @@
       })();
     </script>
     
-
-    
-    
-    {% if page.related.size != 0 %}
-    <hr>
-    <p>
-    <h4>Related Articles</h4>
-      {% for related_title in page.related %}
-	{% for post in site.posts %}
-	  {% if post.title == related_title %}
-	    <div><a href="{{ post.url }}">{{ post.title }}</a></div>
-	  {% endif %}
-	{% endfor %}
-      {% endfor %}
-    {% endif %}
-    </p>
     {% include JB/comments %}
   </div>
 </div>
