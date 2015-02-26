@@ -14,8 +14,10 @@ description: "A comprehensive list of all article categories on this site"
 </ul>
 
 
-{% for category in site.categories %} 
+{% for category in site.categories %}
+{% if category == "examples" %}
 <h1>{{ category[0]}}</h1>
+{% endif %}
   <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
   <ul>
     {% assign pages_list = category[1] %}  
