@@ -15,7 +15,7 @@ description: "A comprehensive list of all article categories on this site"
 
 
 {% for category in site.categories %}
-{% if category == "examples" %}
+{% if category[0] == "examples" %}
 <h1>{{ category[0]}}</h1>
 {% endif %}
   <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
