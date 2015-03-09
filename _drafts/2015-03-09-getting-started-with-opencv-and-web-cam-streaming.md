@@ -16,7 +16,10 @@ hn_url:
 <div class="intro">
   <div class="intro-txt">
     <p>
-    With todays computing power (including embedded and hobby board computers), the commoditisation of web cameras, and the maturity of computer vision software and object detection algorithms, anyone can play around computer vision for negligible cost. In this guide I'll give you a rough start to streaming content from a webcam to OpenCV (tested on v2.4.10) for building your own computer vision projects. Although the code in this guide is written in Python there are many other languages supported by OpenCV.
+    With todays computing power (including embedded and hobby board computers), the commoditisation of web cameras, and the maturity of computer vision software and object detection algorithms, anyone can play around computer vision for negligible cost.
+    </p>
+    <p>
+    In this guide I'll give you a rough start to streaming content from a webcam to OpenCV (tested on v2.4.10) for building your own computer vision projects. Although the code in this guide is written in Python there are many other languages supported by OpenCV.
     </p>
   </div>
 <div class="intro-img-border">
