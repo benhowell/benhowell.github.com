@@ -150,16 +150,7 @@ Details:
 <br />
 
 #### Over to you
-The purpose of this rough and ready example is to get you started with getting IP camera streams into OpenCV. As shown in the second example in this article, eye-tracking can also be easily integrated into computer vision projects and with the looming commoditisation of eye-trackers for the consumer market (including embedded in phones), the application for products combining computer vision and eye-tracking, along with other ubiquitious fucntionality like GPS, accelerometers, IMU, etc. means this is an area that's large and ripe for development.
-
-
-
-
-
-
-
-
-
+The purpose of this rough and ready example is to get you started with getting IP camera streams into OpenCV. As shown in the second example in this article, eye-tracking can also be easily integrated into computer vision projects and with the looming commoditisation of eye-trackers for the consumer market (including embedded in phones), the application for products combining computer vision and eye-tracking, along with other ubiquitious functionality like GPS, accelerometers, IMU, etc. is opening up a world of product development opportunities.
 
 
 
