@@ -15,7 +15,9 @@ hn_url:
 {% include JB/setup %}
 <div class="intro">
   <div class="intro-txt">
-    ???????????????????????
+    <p>
+    With todays computing power, the commoditisation of dirt cheap web cameras, the maturity of computer vision software and object detection algorithms, anyone can play around computer vision for negligible cost.
+    </p>
   </div>
 <div class="intro-img-border">
 <div class="intro-img-bevel">
