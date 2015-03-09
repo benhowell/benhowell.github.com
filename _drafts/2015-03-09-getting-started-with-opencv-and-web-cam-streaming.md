@@ -40,6 +40,7 @@ Let's have a look at the code to stream from a webcam to OpenCV.
 <br />
 
 **webcam-opencv-example.py**
+<br />
 
 {% highlight python linenos=table %}
 import numpy as np
