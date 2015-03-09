@@ -16,7 +16,7 @@ hn_url:
 <div class="intro">
   <div class="intro-txt">
     <p>
-    With todays computing power (including embedded and hobby board computers) , the commoditisation of web cameras, the maturity of computer vision software and object detection algorithms, anyone can play around computer vision for negligible cost.
+    With todays computing power (including embedded and hobby board computers), the commoditisation of web cameras, and the maturity of computer vision software and object detection algorithms, anyone can play around computer vision for negligible cost. In this guide I'll give you a rough start to streaming content from a webcam to OpenCV (tested on v2.4.10) for building your own computer vision programs. Although the code in this guide is written in Python there are many other languages supported by OpenCV.
     </p>
   </div>
 <div class="intro-img-border">
@@ -41,7 +41,7 @@ Let's have a look at the code to stream from a webcam to OpenCV.
 
 **webcam-opencv-example.py**
 
-{% highlight python %}
+{% highlight python linenos=table %}
 import numpy as np
 import cv2
 import time
@@ -105,7 +105,22 @@ Congratulations.
 <br />
 
 #### Please explain.
-...?
+
+I just saw that you mention that you have c++ code that is working, if that is the case your camera may work in python as well. The code above manually parses the mjpeg stream without relying on opencv, since in some of my projects the url will not be opened by opencv no matter what I did(c++,python).
+
+Mjpeg over http is multipart/x-mixed-replace with boundary frame info and jpeg data is just sent in binary. So you don't really need to care about http protocol headers. All jpeg frames start with marker 0xff 0xd8 and end with 0xff 0xd9. So the code above extracts such frames from the http stream and decodes them one by one. like below.
+
+
+
+
+	
+bytes is a growing queue that is slowly consumed by the parsing loop, the stream.read(16384) read 16384 bytes of data from http stream and add it to bytes,which will be shortened if a valid jpeg frame is found. the read buffer should be smaller than the smallest jpeg frame size, otherwise, there might be problems.
+
+
+
+
+
+
 <br />
 <br />
 
@@ -116,7 +131,7 @@ First up, with relatively little extra code, and no other equipment, we could us
 
 **Feature Matching + Homography to find Objects using OpenCV and the ORB (oriented BRIEF) keypoint detector and descriptor extractor.**
 
-<div><iframe width="640" height="360" src="https://www.youtube.com/embed/JQUE5RzP4Bo?feature=player_detailpage" frameborder="0"> </iframe></div>
+<div><iframe width="640" height="360" src="https://www.youtube.com/embed/JQUE5RzP4Bo?feature=player_detailpage" frameborder="0" allowfullscreen="1"> </iframe></div>
 
 
 
