@@ -35,8 +35,8 @@ Just give me the code: [GitHub][1]
 <br/>
 <br/>
 
-### Code
-As getting vision from an IP camera into OpenCV is an uneccessarily tricky stumbling block, let's concentrate on the code that just streams vision from an IP camera to OpenCV which then simply displays that stream. 
+#### IP camera streaming into OpenCV
+As getting vision from an IP camera into [OpenCV][8] is an uneccessarily tricky stumbling block, we'll only concentrate on the code that streams vision from an IP camera to OpenCV which then simply displays that stream. 
 <br />
 
 **webcam-opencv-example.py**
@@ -101,7 +101,7 @@ if __name__ == "__main__":
   cam.start()
 {% endhighlight %}
 
-Congratulations.
+Congratulations, you're now streaming content into OpenCV. 
 <br />
 <br />
 
@@ -111,18 +111,17 @@ I've had trouble with OpenCV and mpeg streams (even though OpenCV has support fo
 <br />
 
 #### Examples
-Here are a couple of examples of what you might want to do using OpenCV and some very lightweight built-in object detection algorithms (nothing fancy, just some crude knockups):
+Here are a couple of examples of what you might want to do using OpenCV and some very lightweight built-in object detection algorithms (nothing fancy, just some crude knock-ups for demo purposes):
 
-First up, with relatively little extra code, and no other equipment, we could use fiducials to track position and orientation of objects:
+First up, with relatively little extra code, and no other equipment, we can use fiducials to track position and orientation of objects:
 
 **Feature Matching + Homography to find Objects using OpenCV and the ORB (oriented BRIEF) keypoint detector and descriptor extractor.**
 
 <div><iframe width="640" height="360" src="https://www.youtube.com/embed/JQUE5RzP4Bo?feature=player_detailpage" frameborder="0" allowfullscreen="1"> </iframe></div>
+<br />
+<br />
 
-
-
-
-Determine the (x,y,z) of the centre point of a marker in order to determine where it is in 3D space relative to the camera.
+Determines the (x,y,z) of the centre point of a marker in order to determine where it is in 3D space relative to the camera.
 
 Details:
 
@@ -176,3 +175,4 @@ The purpose of this rough and ready example is to get you started with getting I
 [5]:http://www.smivision.com/en/gaze-and-eye-tracking-systems/products/red-red250-red-500.html
 [6]:https://github.com/RyanHope/PyViewX
 [7]:http://www.tobii.com/buy-eyex
+[8]:http://opencv.org/
