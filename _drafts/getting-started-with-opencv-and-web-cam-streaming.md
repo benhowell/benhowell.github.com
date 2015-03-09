@@ -118,9 +118,10 @@ First up, with relatively little extra code, and no other equipment, we could us
 Determine the (x,y,z) of the centre point of a marker in order to determine where it is in 3D space relative to the camera.
 
 Details:
-* OpenCV
-* ORB (oriented BRIEF) keypoint detector and descriptor extractor (one of many OpenCV object detection algorithms)
-* Ai-Ball web camera
+
+ * OpenCV
+ * ORB (oriented BRIEF) keypoint detector and descriptor extractor (one of many OpenCV object detection algorithms)
+ * Ai-Ball web camera
 
 
 
@@ -130,11 +131,12 @@ Details:
 Determines fixation start and end points, and for the duration, draw a bounding box around the fixation area of interest (AOI) on the screen. If a recognised marker is within that box (i.e. we're looking at an object) determine the (x,y,z) of the centre point of that marker in order to determine where it is in 3D space relative to the camera. NOTE: The fixation bounding box is for demonstration purposes only. In a real deployment you would not want to display the fixation bounding box as it distracts the user, which in turn changes their gaze point.
 
 Details:
-* OpenCV
-* ORB (oriented BRIEF) keypoint detector and descriptor extractor (one of many OpenCV object detection algorithms)
-* SMI Red 500 eye tracker
-* PyViewX (remote streaming client for SMI eye tracker)
-* Ai-Ball web camera
+
+ * OpenCV
+ * ORB (oriented BRIEF) keypoint detector and descriptor extractor (one of many OpenCV object detection algorithms)
+ * SMI Red 500 eye tracker
+ * PyViewX (remote streaming client for SMI eye tracker)
+ * Ai-Ball web camera
 
 <iframe width="480" height="360" src="https://www.youtube.com/watch?v=oIL7ftLkxSE" frameborder="0"> </iframe>
 <br />
