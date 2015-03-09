@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Getting started with OpenCV and IP cam streaming in Python"
+title: "Getting started with OpenCV and IP cam streaming using Python"
 description: "A simple guide to getting started with the OpenCV computer vision library and IP camera streaming using Python"
 tagline: "guide"
 category: guide
-tags: [opencv, computer vision, python]
+tags: [opencv, computer vision, python, eye-tracking]
 related: []
 article_img: bootstrap/img/AI-ball.jpg
 article_img_title: AI-ball IP camera
@@ -16,7 +16,7 @@ hn_url:
 <div class="intro">
   <div class="intro-txt">
     <p>
-    With todays computing power (including embedded and hobby board computers), the commoditisation of web cameras, and the maturity of computer vision software and object detection algorithms, anyone can play around computer vision for negligible cost. In this guide I'll give you a rough start to streaming content from a webcam to OpenCV (tested on v2.4.10) for building your own computer vision programs. Although the code in this guide is written in Python there are many other languages supported by OpenCV.
+    With todays computing power (including embedded and hobby board computers), the commoditisation of web cameras, and the maturity of computer vision software and object detection algorithms, anyone can play around computer vision for negligible cost. In this guide I'll give you a rough start to streaming content from a webcam to OpenCV (tested on v2.4.10) for building your own computer vision projects. Although the code in this guide is written in Python there are many other languages supported by OpenCV.
     </p>
   </div>
 <div class="intro-img-border">
@@ -36,7 +36,7 @@ Just give me the code: [GitHub][1]
 <br/>
 
 #### IP camera streaming into OpenCV
-As getting vision from an IP camera into [OpenCV][8] is an uneccessarily tricky stumbling block, we'll only concentrate on the code that streams vision from an IP camera to OpenCV which then simply displays that stream. 
+As getting vision from an IP camera into [OpenCV][8] is an unnecessarily tricky stumbling block, we'll only concentrate on the code that streams vision from an IP camera to OpenCV which then simply displays that stream. 
 <br />
 
 **webcam-opencv-example.py**
@@ -147,7 +147,7 @@ Details:
 <br />
 
 #### Over to you
-The purpose of this rough and ready example is to get you started with getting IP camera streams into OpenCV. As shown in the second example in this article, eye-tracking can also be easily integrated into computer vision projects and with the looming commoditisation of eyetrackers for the consumer market (including embedded in phones), the application for products combining computer vision and eye-tracking is large and ripe for development.
+The purpose of this rough and ready example is to get you started with getting IP camera streams into OpenCV. As shown in the second example in this article, eye-tracking can also be easily integrated into computer vision projects and with the looming commoditisation of eye-trackers for the consumer market (including embedded in phones), the application for products combining computer vision and eye-tracking is large and ripe for development.
 
 
 
