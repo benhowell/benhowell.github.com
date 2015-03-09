@@ -144,7 +144,8 @@ Details:
  * PyViewX (remote streaming client for SMI eye tracker)
  * Ai-Ball web camera
 
-<div><iframe width="480" height="360" src="https://www.youtube.com/watch?v=oIL7ftLkxSE" frameborder="0" allowfullscreen="1"> </iframe></div>
+<div><iframe width="640" height="360" src="https://www.youtube.com/embed/oIL7ftLkxSE?feature=player_detailpage" frameborder="0" allowfullscreen="1"> </iframe></div>
+
 <br />
 <br />
 
