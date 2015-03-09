@@ -109,12 +109,12 @@ Congratulations, you're now streaming content into OpenCV.
 <br />
 
 #### Please explain.
-I've had trouble with OpenCV and mpeg streams (even though OpenCV has support for this) as was the case in this instance with this [Ai-Ball Wi-Fi camera][2]. The code here deals with the camera's mpeg stream directly and passes each image in that stream to OpenCV for consumption. As each (jpeg) image in the stream is binary encoded and each image frame contains a start marker ('\xff\xd8') and an end marker ('\xff\xd9') we can easily detect those markers and segment our stream into individual images. Many other people seem to have a similar problem so there are many other [explanations][3] and [examples][4] out there.
+I've had trouble with OpenCV and mpeg streams (even though OpenCV has support for this) as was the case in this instance with an [Ai-Ball Wi-Fi camera][2]. The code here deals with the camera's mpeg stream directly and passes each image in that stream to OpenCV for consumption. As each (jpeg) image in the stream is binary encoded and each image frame contains a start marker `'\xff\xd8'` and an end marker `'\xff\xd9'` we can easily detect those markers and segment our stream into individual images. Many other people seem to have a similar problem so there are many other [explanations][3] and [examples][4] out there.
 <br />
 <br />
 
 #### Examples
-Here are a couple of examples of what you might want to do using OpenCV and some very lightweight built-in object detection algorithms (nothing fancy, just some crude knock-ups for demo purposes):
+Here are a couple of examples of what you might want to do using OpenCV and some very lightweight built-in object detection algorithms (nothing fancy, just some crude knock-ups I've made for demo purposes):
 
 First up, with relatively little extra code, and no other equipment, we can use fiducials to track position and orientation of objects:
 
@@ -135,7 +135,7 @@ Below is a more complex example that utilises an [SMI Red 500 eye-tracker][5] an
 
 **Feature Matching + Homography + Eye Tracking and Gaze Fixation to identify objects and locate them in space.**
 
-Determines fixation start and end points, and for the duration, draw a bounding box around the fixation area of interest (AOI) on the screen. If a recognised marker is within that box (i.e. we're looking at an object) determine the (x,y,z) of the centre point of that marker in order to determine where it is in 3D space relative to the camera. NOTE: The fixation bounding box is for demonstration purposes only. In a real deployment you would not want to display the fixation bounding box as it distracts the user, which in turn changes their gaze point.
+Determines fixation start and end points, and for the duration, draws a bounding box around the fixation area of interest (AOI) on the screen. If a recognised marker is within that box (i.e. we're looking at an object) determine the (x,y,z) of the centre point of that marker in order to determine where it is in 3D space relative to the camera. NOTE: The fixation bounding box is for demonstration purposes only. In a real deployment you would not want to display the fixation bounding box as it distracts the user, which in turn changes their gaze point.
 
 Details:
 
