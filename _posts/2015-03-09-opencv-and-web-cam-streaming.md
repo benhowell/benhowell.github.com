@@ -7,7 +7,7 @@ category: guide
 tags: [opencv, computer vision, python, eye-tracking]
 related: []
 article_img: bootstrap/img/AI-ball.jpg
-article_img_title: AI-ball IP camera
+article_img_title: Ai-Ball IP camera
 article_img_alt: "An image depicting an AI-ball branded IP camera"
 reddit_url:
 hn_url:
@@ -19,7 +19,7 @@ hn_url:
     With todays computing power (including embedded and hobby board computers), the commoditisation of web cameras, and the maturity of computer vision software and object detection algorithms, anyone can play around computer vision for negligible cost.
     </p>
     <p>
-    In this guide I'll give you a rough start to streaming content from a webcam to OpenCV (tested on v2.4.10) for building your own computer vision projects. Although the code in this guide is written in Python there are many other languages supported by OpenCV.
+    In this guide I'll give you a rough start to streaming content from an IP camera to OpenCV (tested on v2.4.10) for building your own computer vision projects. Although the code in this guide is written in Python there are many other languages supported by OpenCV.
     </p>
   </div>
 <div class="intro-img-border">
