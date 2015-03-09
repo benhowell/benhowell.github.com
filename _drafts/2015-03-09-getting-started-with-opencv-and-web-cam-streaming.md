@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Getting started with OpenCV and web cam streaming in Python"
-description: "A simple guide to getting started with the OpenCV computer vision library and web camera streaming in Python"
+title: "Getting started with OpenCV and IP cam streaming in Python"
+description: "A simple guide to getting started with the OpenCV computer vision library and IP camera streaming in Python"
 tagline: "guide"
 category: guide
 tags: [opencv, computer vision, python]
 related: []
 article_img: bootstrap/img/AI-ball.jpg
-article_img_title: AI-ball web camera
-article_img_alt: "An image depicting an AI-ball branded web camera"
+article_img_title: AI-ball IP camera
+article_img_alt: "An image depicting an AI-ball branded IP camera"
 reddit_url:
 hn_url:
 ---
@@ -17,6 +17,9 @@ hn_url:
   <div class="intro-txt">
     <p>
     With todays computing power (including embedded and hobby board computers), the commoditisation of web cameras, and the maturity of computer vision software and object detection algorithms, anyone can play around computer vision for negligible cost. In this guide I'll give you a rough start to streaming content from a webcam to OpenCV (tested on v2.4.10) for building your own computer vision programs. Although the code in this guide is written in Python there are many other languages supported by OpenCV.
+    </p>
+    <p>
+    As will be seen in an example in this article, eye-tracking can also be easily integrated into projects using computer vision and with the looming commoditisation of eyetrackers for the consumer market, the application for products combining computer vision and eye-tracking is large and ripe for development. 
     </p>
   </div>
 <div class="intro-img-border">
@@ -36,13 +39,13 @@ Just give me the code: [GitHub][1]
 <br/>
 
 ### Code
-Let's have a look at the code to stream from a webcam to OpenCV.
+Let's have a look at some code that just streams vision from an IP camera to OpenCV which then simply displays that stream.
 <br />
 
 **webcam-opencv-example.py**
 <br />
 
-{% highlight python linenos=table %}
+{% highlight python %}
 import numpy as np
 import cv2
 import time
@@ -106,27 +109,12 @@ Congratulations.
 <br />
 
 #### Please explain.
-
-I just saw that you mention that you have c++ code that is working, if that is the case your camera may work in python as well. The code above manually parses the mjpeg stream without relying on opencv, since in some of my projects the url will not be opened by opencv no matter what I did(c++,python).
-
-Mjpeg over http is multipart/x-mixed-replace with boundary frame info and jpeg data is just sent in binary. So you don't really need to care about http protocol headers. All jpeg frames start with marker 0xff 0xd8 and end with 0xff 0xd9. So the code above extracts such frames from the http stream and decodes them one by one. like below.
-
-
-
-
-	
-bytes is a growing queue that is slowly consumed by the parsing loop, the stream.read(16384) read 16384 bytes of data from http stream and add it to bytes,which will be shortened if a valid jpeg frame is found. the read buffer should be smaller than the smallest jpeg frame size, otherwise, there might be problems.
-
-
-
-
-
-
+I've had trouble with OpenCV and mpeg streams (even though OpenCV has support for this) as was the case in this instance with this [Ai-Ball Wi-Fi camera][2]. The code here deals with the camera's mpeg stream directly and passes each image in that stream to OpenCV for consumption. As each (jpeg) image in the stream is binary encoded and each image frame contains a start marker ('\xff\xd8') and an end marker ('\xff\xd9') we can easily detect those markers and segment our stream into individual images. Many other people seem to have a similar problem so there are many other [explanations][3] and [examples][4] out there.
 <br />
 <br />
 
 #### Examples
-Here are a couple of examples of what you might want to do using OpenCV (nothing fancy, just some crude knockups, ya hear?):
+Here are a couple of examples of what you might want to do using OpenCV and some very lightweight built-in object detection algorithms (nothing fancy, just some crude knockups):
 
 First up, with relatively little extra code, and no other equipment, we could use fiducials to track position and orientation of objects:
 
@@ -145,8 +133,11 @@ Details:
  * ORB (oriented BRIEF) keypoint detector and descriptor extractor (one of many OpenCV object detection algorithms)
  * Ai-Ball web camera
 
+<br />
+<br />
 
 
+Below is a more complex example that utilises an [SMI Red 500 eye-tracker][5] and [PyViewX][6]. NOTE: Eye-trackers will soon be a commodity item themselves and at the time of writing, the [Tobii EyeX developer kit][7] was available for $99USD. I have achieved very good results with this particular eye-tracker and the development SDK (C# only at this point in time) provides gaze and fixation event streams out-of-the-box allowing you to build working models pretty quickly.
 
 **Feature Matching + Homography + Eye Tracking and Gaze Fixation to identify objects and locate them in space.**
 
@@ -161,7 +152,6 @@ Details:
  * Ai-Ball web camera
 
 <div><iframe width="640" height="360" src="https://www.youtube.com/embed/oIL7ftLkxSE?feature=player_detailpage" frameborder="0" allowfullscreen="1"> </iframe></div>
-
 <br />
 <br />
 
@@ -180,3 +170,9 @@ Details:
 
 
 [1]:https://github.com/benhowell/examples/tree/master/WebcamStreamingOpenCV
+[2]:http://www.thumbdrive.com/aiball/
+[3]:http://stackoverflow.com/questions/21702477/how-to-parse-mjpeg-http-stream-from-ip-camera
+[4]:http://stackoverflow.com/questions/26691189/how-to-capture-video-stream-with-opencv-python
+[5]:http://www.smivision.com/en/gaze-and-eye-tracking-systems/products/red-red250-red-500.html
+[6]:https://github.com/RyanHope/PyViewX
+[7]:http://www.tobii.com/buy-eyex
