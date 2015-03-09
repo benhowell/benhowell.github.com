@@ -39,7 +39,7 @@ Let's have a look at the code to stream from a webcam to OpenCV.
 
 **webcam-opencv-example.py**
 
-{% highlight python linenos=table %}
+{% highlight python %}
 import numpy as np
 import cv2
 import time
