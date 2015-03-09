@@ -131,7 +131,7 @@ Details:
 <br />
 <br />
 
-Below is a more complex example that utilises an [SMI Red 500 eye-tracker][5] and [PyViewX][6]. NOTE: Eye-trackers will soon be a commodity item themselves and at the time of writing, the [Tobii EyeX developer kit][7] was available for $99USD. I have achieved very good results with this particular eye-tracker and the development SDK (C# only at this point in time) provides gaze and fixation event streams out-of-the-box allowing you to build working models pretty quickly.
+Below is a more complex example that utilises an [SMI Red 500 eye-tracker][5] and [PyViewX][6]. NOTE: Eye-trackers are rapidly becoming a commodity item, and at the time of writing, the [Tobii EyeX developer kit][7] was available for $99USD. I have achieved very good results with this particular eye-tracker and the development SDK (C# only at this point in time) provides gaze and fixation event streams out of the box allowing you to build working models pretty quickly.
 
 **Feature Matching + Homography + Eye Tracking and Gaze Fixation to identify objects and locate them in space.**
 
