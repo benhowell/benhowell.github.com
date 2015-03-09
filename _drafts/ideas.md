@@ -17,6 +17,37 @@ article_img: bootstrap/img/qn.png
 
 -----------------------------------
 
+ * economics of software quality
+ * Redundant Heterogeneous EventBus (Rhebus).
+
+http://stackoverflow.com/questions/3987391/why-people-use-message-event-buses-in-their-code
+
+http://code.google.com/p/mvp4g/wiki/EventBus
+http://code.google.com/p/simpleeventbus/
+
+could I build a bus using https://github.com/LMAX-Exchange/disruptor ?
+
+ * tracing program flow in event driven / reactive programs
+ * software snobbery and open source (read: free software)
+audacity is like the bottom and X is like the most expensive and is better and Y is like in between.
+
+note: opinion based on price.
+
+ * IoT actual real numbers and implementations
+ https://www.google.com.au/search?client=ubuntu&channel=fs&q=internet+of+things+real+actual+deployments&ie=utf-8&oe=utf-8&gfe_rd=cr&ei=6l_tVNDXJayN8QeGu4GgBQ
+http://postscapes.com/internet-of-things-examples/
+http://en.wikipedia.org/wiki/Intelligent_street_lighting
+https://www.google.com.au/search?client=ubuntu&channel=fs&q=smart+street+lighting&ie=utf-8&oe=utf-8&gfe_rd=cr&ei=0mDtVNmkBKyN8QeGu4GgBQ#safe=off&channel=fs&q=smart+street+lighting+copenhagen
+how IoT will help self driving cars?
+
+"future" section for blog? 
+
+ * the Quantified Self
+tracking personal data and stuff...
+
+http://trendwatching.com/trends/currencies-of-change/
+
+
  * P vs NP: The future of humanity will be defined by cracking NP. Look at existing NP problems in manufacturing, logistics, bio/medical research, etc and implications of fixing those
  * timesheeting of developers
  * "hackathons"
