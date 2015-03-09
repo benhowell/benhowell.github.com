@@ -116,11 +116,6 @@ Here are a couple of examples of what you might want to do using OpenCV and some
 First up, with relatively little extra code, and no other equipment, we can use fiducials to track position and orientation of objects:
 
 **Feature Matching + Homography to find Objects using OpenCV and the ORB (oriented BRIEF) keypoint detector and descriptor extractor.**
-
-<div><iframe width="640" height="360" src="https://www.youtube.com/embed/JQUE5RzP4Bo?feature=player_detailpage" frameborder="0" allowfullscreen="1"> </iframe></div>
-<br />
-<br />
-
 Determines the (x,y,z) of the centre point of a marker in order to determine where it is in 3D space relative to the camera.
 
 Details:
@@ -129,9 +124,9 @@ Details:
  * ORB (oriented BRIEF) keypoint detector and descriptor extractor (one of many OpenCV object detection algorithms)
  * Ai-Ball web camera
 
+<div><iframe width="640" height="360" src="https://www.youtube.com/embed/JQUE5RzP4Bo?feature=player_detailpage" frameborder="0" allowfullscreen="1"> </iframe></div>
 <br />
 <br />
-
 
 Below is a more complex example that utilises an [SMI Red 500 eye-tracker][5] and [PyViewX][6]. NOTE: Eye-trackers will soon be a commodity item themselves and at the time of writing, the [Tobii EyeX developer kit][7] was available for $99USD. I have achieved very good results with this particular eye-tracker and the development SDK (C# only at this point in time) provides gaze and fixation event streams out-of-the-box allowing you to build working models pretty quickly.
 
@@ -150,8 +145,6 @@ Details:
 <div><iframe width="640" height="360" src="https://www.youtube.com/embed/oIL7ftLkxSE?feature=player_detailpage" frameborder="0" allowfullscreen="1"> </iframe></div>
 <br />
 <br />
-
-
 
 #### Over to you
 The purpose of this rough and ready example is to get you started with getting IP camera streams into OpenCV. As shown in the second example in this article, eye-tracking can also be easily integrated into computer vision projects and with the looming commoditisation of eyetrackers for the consumer market (including embedded in phones), the application for products combining computer vision and eye-tracking is large and ripe for development.
