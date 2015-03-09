@@ -16,7 +16,7 @@ hn_url:
 <div class="intro">
   <div class="intro-txt">
     <p>
-    With todays computing power, the commoditisation of dirt cheap web cameras, the maturity of computer vision software and object detection algorithms, anyone can play around computer vision for negligible cost.
+    With todays computing power (including embedded and hobby board computers) , the commoditisation of web cameras, the maturity of computer vision software and object detection algorithms, anyone can play around computer vision for negligible cost.
     </p>
   </div>
 <div class="intro-img-border">
