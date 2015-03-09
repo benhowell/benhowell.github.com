@@ -104,7 +104,7 @@ if __name__ == "__main__":
   cam.start()
 {% endhighlight %}
 
-Congratulations, you're now streaming content into OpenCV. 
+Congratulations, you're now streaming content into OpenCV. NB: Change the url to suit your particular camera.
 <br />
 <br />
 
@@ -149,8 +149,8 @@ Details:
 <br />
 <br />
 
-#### Opportunity
-The purpose of this rough and ready example is to get you started with getting IP camera streams into OpenCV. As shown in the second example in this article, eye-tracking can also be easily integrated into computer vision projects and with the present day commoditisation of eye-trackers for the consumer market (including embedded in phones), the application for products combining computer vision and eye-tracking, along with other now commonly available technology like GPS, accelerometers, IMU's, etc. is opening up a world of new development opportunities.
+#### Opportunities
+The purpose of this rough and ready example is to get you started with getting IP camera streams into OpenCV. As shown in the second example in this article, eye-tracking can be easily integrated into computer vision projects and with the present day commoditisation of eye-trackers for the consumer market (including embedded in phones), the application for products combining computer vision and eye-tracking, along with other now commonly available technology like GPS, accelerometers, IMU's, etc. is opening up many new development opportunities in computer vision.
 
 
 
