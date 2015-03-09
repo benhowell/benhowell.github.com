@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Getting started with OpenCV and web cam streaming"
-description: "A simple guide to getting started with the OpenCV computer vision library and web camera streaming"
+title: "Getting started with OpenCV and web cam streaming in Python"
+description: "A simple guide to getting started with the OpenCV computer vision library and web camera streaming in Python"
 tagline: "guide"
 category: guide
 tags: [opencv, computer vision, python]
@@ -38,7 +38,8 @@ Let's have a look at the code to stream from a webcam to OpenCV.
 <br />
 
 **webcam-opencv-example.py**
-{% highlight scala linenos=table %}
+
+{% highlight python linenos=table %}
 import numpy as np
 import cv2
 import time
