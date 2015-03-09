@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Getting started with OpenCV and IP cam streaming using Python"
+title: "OpenCV and IP cam streaming using Python"
 description: "A simple guide to getting started with the OpenCV computer vision library and IP camera streaming using Python"
 tagline: "guide"
 category: guide
