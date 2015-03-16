@@ -16,7 +16,7 @@ hn_url:
 <div class="intro">
   <div class="intro-txt">
   <p>
-    An incomplete, rough and ready guide to building, initial port, and installation of <span markdown="span">[Face Analysis SDK][2]</span> for Windows. The original source requires a few rather specific dependencies and uses a POSIX compliant fork/process model. In now way am I implying that my solution below is anything but a rough hack to get this stuff running under windows and am certain that my direct translation of POSIX fork() with win32 CreateProcess() is suboptimal to say the least. <b>To be clear, this is your starting point, not the solution!</b>
+    An incomplete, rough and ready guide to building, initial port, and installation of <span markdown="span">[Face Analysis SDK][2]</span> for Windows. The original source requires a few rather specific dependencies and uses a POSIX compliant fork/process model. my solution below is nothing other than a rough hack to get this stuff running under windows and I'm certain that my direct translation of POSIX fork() with Win32 CreateProcess() is suboptimal to say the least. <b>To be clear, this is your starting point, not the solution!</b>
   </p>
   <p>
     This guide has been written in respose to <span markdown="span">[a question I received on youtube][4]</span> about porting the code. <b>NOTE:</b> Whilst the face analysis SDK is open source and the code is freely available to read/use, my personal work is not and I therefore can not share the modified (ported) code base. I can however give an outline of the process needed to start your own port and a bit of code to help you get it done. This is what I have detailed below and if it happens to help someone else in the future then great.
@@ -162,6 +162,10 @@ There are a couple of import differences too:
 {% endhighlight %}
 
 
+The last thing left to do now is to compile face analysis SDK. Be sure to include the ffmpeg flag and stuff [as explained in the docs][5]. If everything went to plan (it probably wont), you can now execute the non-rigid face registration stuff in [section 4.1 of the docs][5].
+<br />
+<br />
+
 #### Running examples
 To demostrate the _"less than real-time"_ speed of this port, I present to you:
 
@@ -183,3 +187,4 @@ There are other "ready to play" face tracker libraries out there that work well 
 [2]:http://face.ci2cv.net/
 [3]:https://www.beyond-reality-face.com/overview
 [4]:https://www.youtube.com/watch?v=weNiEG0Aq1U
+[5]:http://face.ci2cv.net/doc/
