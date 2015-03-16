@@ -162,7 +162,7 @@ There are a couple of import differences too:
 {% endhighlight %}
 
 
-The last thing left to do now is to compile face analysis SDK. Be sure to include the ffmpeg flag and stuff [as explained in the docs][5]. If everything went to plan (it probably wont), you can now execute the non-rigid face registration stuff in [section 4.1 of the docs][5].
+The last thing left to do now is to compile face analysis SDK. Be sure to include the ffmpeg flag and stuff [as explained in the docs][5] (or check the box if you're using CMake GUI). If everything went to plan (it probably wont), you can now execute the non-rigid face registration stuff in [section 4.1 of the docs][5].
 <br />
 <br />
 
