@@ -176,7 +176,7 @@ To demostrate the _"less than real-time"_ speed of this port, I present to you:
 <br />
 
 #### Final words
-There are other "ready to play" face tracker libraries out there that work well on all platforms, so unless you really need to use this particular library, I'd be looking at other options such as [NXT Beyond Reality Face tracking library][3] and the like.
+There are other "ready to play" face tracker libraries out there that work well on all platforms and have very well documented and easy to use API's, so unless you really need to use this particular library, I'd be looking at other options such as [NXT Beyond Reality Face tracking library][3] and the like.
 
 
 [1]:https://github.com/benhowell/examples/tree/master/face_analysis_sdk
