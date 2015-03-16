@@ -16,7 +16,7 @@ hn_url:
 <div class="intro">
   <div class="intro-txt">
   <p>
-    An incomplete, rough and ready guide to building, initial port, and installation of <span markdown="span">[Face Analysis SDK][2]</span> for Windows. The original source requires a few rather specific dependencies and uses a POSIX compliant fork/process model. I'm in now way implying that my solution below is anything but a rough hack to get this stuff running under windows and am certain that my direct translation of POSIX fork() with win32 CreateProcess(...) is suboptimal to say the least. <b>To be clear, this is your starting point, not the solution!</b>
+    An incomplete, rough and ready guide to building, initial port, and installation of <span markdown="span">[Face Analysis SDK][2]</span> for Windows. The original source requires a few rather specific dependencies and uses a POSIX compliant fork/process model. In now way am I implying that my solution below is anything but a rough hack to get this stuff running under windows and am certain that my direct translation of POSIX fork() with win32 CreateProcess() is suboptimal to say the least. <b>To be clear, this is your starting point, not the solution!</b>
   </p>
   <p>
     This guide has been written in respose to a question I received on youtube about porting the code. <b>NOTE:</b> Whilst the face analysis SDK is open source and the code is freely available to read/use, my personal work is not and I therefore can not share the modified (ported) code base. I can however give an outline of the process needed to start your own port and a bit of code to help you get it done. This is what I have detailed below and if it happens to help someone else in the future then great.
