@@ -76,23 +76,22 @@ Just give me the code: [GitHub][1]
 src/scripts/CMakeLists.txt
 remove
 
-* COMMAND /usr/bin/install -m 755 ${_script} ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${_script}
+* `COMMAND /usr/bin/install -m 755 ${_script} ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${_script}`
 
 add
 
-* #fixes mingw32-make not finding path
-* COMMAND install -m 755 ${_script} ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${_script}
+* `COMMAND install -m 755 ${_script} ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${_script}`
 
 src/test/command-line-options.hpp
 add
 
-* #include <algorithm> //fixes issue with find_if
+* `#include <algorithm> //fixes issue with find_if`
 
 src/utils/helpers.hpp
 
 add: 
 
-* #include <stdarg.h> //fixes issue with va_args
+* `#include <stdarg.h> //fixes issue with va_args`
 
 src/map-list/main.cpp
 
