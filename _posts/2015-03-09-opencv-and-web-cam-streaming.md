@@ -5,7 +5,7 @@ description: "A simple guide to getting started with the OpenCV computer vision 
 tagline: "guide"
 category: guide
 tags: [opencv, computer vision, python, eye-tracking]
-related: []
+related: [Porting Face Analysis SDK to Windows]
 article_img: bootstrap/img/AI-ball.jpg
 article_img_title: Ai-Ball IP camera
 article_img_alt: "An image depicting an AI-ball branded IP camera"

@@ -167,13 +167,13 @@ To demostrate the _"less than real-time"_ speed of this port, I present to you:
 
 **Face Analysis SDK running in Windows with pre-recorded video stream**
 
-<div><iframe width="640" height="360" src="https://www.youtube.com/watch?v=weNiEG0Aq1U" frameborder="0" allowfullscreen="1"> </iframe></div>
+<div><iframe width="640" height="360" src="https://www.youtube.com/watch?v=weNiEG0Aq1U?feature=player_detailpage" frameborder="0" allowfullscreen="1"> </iframe></div>
 <br />
 <br />
 
 **Face Analysis SDK running in Windows with live web cam video stream**
 
-<div><iframe width="640" height="360" src="https://www.youtube.com/watch?v=1Y0OXVQY4jc" frameborder="0" allowfullscreen="1"> </iframe></div>
+<div><iframe width="640" height="360" src="https://www.youtube.com/watch?v=1Y0OXVQY4jc?feature=player_detailpage" frameborder="0" allowfullscreen="1"> </iframe></div>
 <br />
 <br />
 
