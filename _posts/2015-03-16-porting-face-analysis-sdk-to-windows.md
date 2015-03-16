@@ -19,7 +19,7 @@ hn_url:
     An incomplete, rough and ready guide to building, initial port, and installation of <span markdown="span">[Face Analysis SDK][2]</span> for Windows. The original source requires a few rather specific dependencies and uses a POSIX compliant fork/process model. In now way am I implying that my solution below is anything but a rough hack to get this stuff running under windows and am certain that my direct translation of POSIX fork() with win32 CreateProcess() is suboptimal to say the least. <b>To be clear, this is your starting point, not the solution!</b>
   </p>
   <p>
-    This guide has been written in respose to a question I received on youtube about porting the code. <b>NOTE:</b> Whilst the face analysis SDK is open source and the code is freely available to read/use, my personal work is not and I therefore can not share the modified (ported) code base. I can however give an outline of the process needed to start your own port and a bit of code to help you get it done. This is what I have detailed below and if it happens to help someone else in the future then great.
+    This guide has been written in respose to <span markdown="span">[a question I received on youtube][4]</span> about porting the code. <b>NOTE:</b> Whilst the face analysis SDK is open source and the code is freely available to read/use, my personal work is not and I therefore can not share the modified (ported) code base. I can however give an outline of the process needed to start your own port and a bit of code to help you get it done. This is what I have detailed below and if it happens to help someone else in the future then great.
   </p>
   </div>
 <div class="intro-img-border">
@@ -182,3 +182,4 @@ There are other "ready to play" face tracker libraries out there that work well 
 [1]:https://github.com/benhowell/examples/tree/master/face_analysis_sdk
 [2]:http://face.ci2cv.net/
 [3]:https://www.beyond-reality-face.com/overview
+[4]:https://www.youtube.com/watch?v=weNiEG0Aq1U
