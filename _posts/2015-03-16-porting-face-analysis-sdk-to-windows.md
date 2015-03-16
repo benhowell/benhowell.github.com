@@ -151,8 +151,8 @@ There are a couple of import differences too:
 
 **Remove**
 {% highlight cpp %}
-<#include <sys/wait.h>
-<#include <unistd.h>
+#include <sys/wait.h>
+#include <unistd.h>
 {% endhighlight %}
 
 **Add**
