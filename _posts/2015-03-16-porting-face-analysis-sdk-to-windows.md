@@ -73,22 +73,26 @@ Just give me the code: [GitHub][1]
 
 
 #### Changes required to build face analysis SDK
+src/scripts/CMakeLists.txt
 
-src/scripts/CMakeLists.txt 
 remove
 * COMMAND /usr/bin/install -m 755 ${_script} ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${_script}
+
 add
 * #fixes mingw32-make not finding path
 * COMMAND install -m 755 ${_script} ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${_script}
 
 src/test/command-line-options.hpp
+
 add: 
 * #include <algorithm> //fixes issue with find_if
 
 src/utils/helpers.hpp
+
 add: #include <stdarg.h> //fixes issue with va_args
 
-src/map-list/main.cpp: 
+src/map-list/main.cpp
+
 * port from unix POSIX process/threading model to Win32 (shown below).
 <br/>
 <br/>
