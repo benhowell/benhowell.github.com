@@ -19,7 +19,7 @@ hn_url:
     An incomplete, rough and ready guide to building, intial porting, and installation of Face Analysis SDK for Windows. The original source requires a few rather specific dependencies and uses a POSIX compliant fork/process model. I'm in now way implying that my solution below is anything but a rough hack to get this stuff running under windows and am certain that my direct translation of POSIX fork() with w32 CreateProcess(...) is suboptimal to say the least. To be clear, this is your starting point, not the solution!
   </p>
   <p>
-    This guide has been written in respose to a question about porting the code. If it happens to help someone else in the future then great. 
+    This guide has been written in respose to a question I received on youtube about porting the code. Whilst the face analysis SDK _is_ open source and the code _is_ freely available to read/use, my personal work _is not_ and I therefore can not share the modified (ported) code base. I can however give an outline of the process needed to start your own port and a bit of code to help you get it done. This is what I have detailed below and if it happens to help someone else in the future port this library then great.
   </p>
   </div>
 <div class="intro-img-border">
@@ -33,6 +33,11 @@ hn_url:
 <br/>
 <br/>
 
+
+#### TL;DR
+Just give me the code: [GitHub][1]
+<br/>
+<br/>
 
 
 #### Dependencies
@@ -65,19 +70,30 @@ hn_url:
 * setx -m QTDIR C:/qt
 * add qt\bin to PATH 
 * cmake opencv, configure mingw32-gcc, mingw32-g++ compilers (requires > gcc 4.6 .. latest mingw). Yes, this means you need to use two different version of mingw to build this thing!
-* face analysis sdk ... a bit of hacking required.
-  * src/scripts/CMakeLists.txt **remove**:
-    COMMAND /usr/bin/install -m 755 ${_script} ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${_script}
-  * **add**
-    #fixes mingw32-make not finding path
-    COMMAND install -m 755 ${_script} ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${_script}
-  * src/test/command-line-options.hpp **add**: #include <algorithm> //fixes issue with find_if
-  * src/utils/helpers.hpp **add**: #include <stdarg.h> //fixes issue with va_args
-  * src/map-list/main.cpp: port from unix POSIX process/threading model to Win32 (shown below).
+
+
+#### Changes required to build face analysis SDK
+
+src/scripts/CMakeLists.txt 
+remove
+* COMMAND /usr/bin/install -m 755 ${_script} ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${_script}
+add
+* #fixes mingw32-make not finding path
+* COMMAND install -m 755 ${_script} ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${_script}
+
+src/test/command-line-options.hpp
+add: 
+* #include <algorithm> //fixes issue with find_if
+
+src/utils/helpers.hpp
+add: #include <stdarg.h> //fixes issue with va_args
+
+src/map-list/main.cpp: 
+* port from unix POSIX process/threading model to Win32 (shown below).
 <br/>
 <br/>
 
-#### Replacing fork()
+#### Rewriting ForkRunner
 A basic, straight port requires rewriting the `ForkRunner` class in `src/map-list/main.cpp`
 
 **Windows port of ForkRunner**
@@ -156,5 +172,7 @@ To demostrate the _"less than real-time"_ speed of this port, I present to you:
 <br />
 
 
+
+[1]:https://github.com/benhowell/examples/tree/master/face_analysis_sdk
 
 
