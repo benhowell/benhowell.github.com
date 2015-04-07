@@ -17,6 +17,10 @@ article_img: bootstrap/img/qn.png
 
 -----------------------------------
 
+ * google weather prediction insurance spin out company
+ * article (finite state machines as software design) <- search email for that subject
+
+
  * economics of software quality
  * Redundant Heterogeneous EventBus (Rhebus).
 

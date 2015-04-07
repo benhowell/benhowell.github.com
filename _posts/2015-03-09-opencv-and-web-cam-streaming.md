@@ -4,7 +4,7 @@ title: "OpenCV and IP camera streaming with Python"
 description: "A simple guide to getting started with the OpenCV computer vision library and IP camera streaming with Python"
 tagline: "guide"
 category: guide
-tags: [opencv, computer vision, python, eye-tracking]
+tags: [opencv, computer vision, python, eye-tracking, webcam, IP camera, streaming, wifi]
 related: [Porting Face Analysis SDK to Windows]
 article_img: bootstrap/img/AI-ball.jpg
 article_img_title: Ai-Ball IP camera
