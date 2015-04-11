@@ -16,7 +16,10 @@ hn_url:
 <div class="intro">
   <div class="intro-txt">
     <p>
-    Data analytics, at least in the "big data" sense, were once the realm of Business Intelligence, marketing and speculative trading on the stock market but things are changing. Recruitment firms and some large employers are already using big data to qualify prospective candidates, and, with the endless march of information technology, the trend is set to trickle down to all levels of employment in the future. Eventually your entire life will be your CV and you won't be able to control what's on that CV without controlling your entire life.
+    Data analytics, at least in the "big data" sense, were once the realm of Business Intelligence, marketing and speculative trading on the stock market but things are rapidly changing. 
+    </p>
+    <p>
+    Recruitment firms and some large employers are already using big data to qualify prospective candidates, and, with the endless march of information technology, the trend is set to trickle down to all levels of employment in the future. Eventually your entire life will be your CV and you won't be able to control what's on that CV without controlling your entire life.
     </p>
   </div>
 <div class="intro-img-border">
