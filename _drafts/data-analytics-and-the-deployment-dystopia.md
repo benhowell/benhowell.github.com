@@ -54,10 +54,8 @@ The most common form of people analytics creates a profile of the company’s be
 <br/>
 <br/>
 
+
 #### People Analytics
-
-
-
 “(People analytics determines) what makes up successful people, what patterns we can find and how we can use that to find similar people in the future.”
 There are predicted to be both positive and negative social effects of reducing jobseekers down to a number from an algorithm.
 Ms Tjoeng said the process had led to a lack of employee diversity in Silicon Valley.
@@ -70,13 +68,6 @@ Ms Tjoeng said a lot of the data collected for employee profiles might not be in
 “This is a natural evolution as our technology improves and we become more comfortable sharing our lives online.”
 
 
-
-
-
-
-
-
-
 Hays director Darren Buchanan said big data and people analytics could also identify triggers for employees leaving their company, such as time served or reaching a certain level.
 “It can be used as a flag to take some action, change behaviour or put in support structures to help people get through that period or help them take the next step forward to where they want to go,” he says.
 Mr Buchanan said big data should not be used in isolation but as an extra tool to build a bigger picture.
@@ -86,13 +77,17 @@ Mr Buchanan said big data should not be used in isolation but as an extra tool t
 <br/>
 
 #### Privacy and Anonymity
-In a world where people where people live their lives online, consumer convenience often takes precedence over personal privacy. Credit card purchases, store cards, frequent flyer points, your online movements tracked by ISP's (and in some countries, Australia for example, required to archive by law) and google (not to mention all the data google collects on you), all the data you give away with each application on your phone, social media accounts, shopping accounts on umpteen different sites, paypal history, ebay, the list.never.ends. Do many people even know what data they themselves have handed over willingly? Do they know what rights they've handed over for the use of that data?
+In a world where people where people live their lives online, consumer convenience often takes precedence over personal privacy. Credit card purchases, store cards, frequent flyer points, your online movements tracked by ISP's (and in some countries, Australia for example, data retention is compulsory by law) and google (not to mention all the data google collects on you), all the data you give away with each application on your phone, social media accounts, shopping accounts on umpteen different sites, paypal history, ebay, the list.never.ends. Movements tracked by your mobile phone GPS, public transport e-ticket usage, tollway e-tags, eftpos usage, CCTV equiped with facial recognition. Do many people even know what data they themselves have handed over willingly? Do they know what rights they've handed over for the use of that data?
 
 Will we have to avoid capture of practically all personal data and tracking of our movements, just like RMS? Or will that very act and the forensic evidence it does or does not leave behind be used against you by our future people analytics algorithmic overlords?
 
-Is such personal intrusion ethically and morally defensible by anyone? Do we even have a right to privacy anymore?
+Is such personal intrusion ethically and morally defensible by anyone? Do we even have a right to privacy anymore? Will analytical profiling using the full gamut of day to day personal data of ones activities become commonplace by all and sundry? We already live in a world where automated analysis of this data is used to personally target advertising. We're very quickly approaching a world where automated "people analysis" will be used to determine employability. I can see no real end to how and where personal profiling can be used in business and law enforcement.
 <br/>
 <br/>
+
+#### Freedom of Information
+Freedom of personal information and profiles generated and/or kept by corporate entities and government? Should one be allowed access to their own profile free of charge? Can one have their profile "removed" costs to obtain free info (court docs, FOI, scientific papers).
+
 
 #### Compliance 
 Compliance by law to live and express ones self in a certain way and perform certain functions as an online citizen being enforced by law is the prototypical dystopian nightmare that's great material for science fiction. I don't believe that that will be the future for us. More realistically however, I believe there may be a future where a certain uncomfortable level of compliance is subversively enforced by social pressure, due, in part, to corporate algorithms deeming your employable worth if you do not comply. If you think this seems far fetched, just read any thread on any tech forum involving the topic of employment with regard to programmers. An often parroted requirement for employment as a programmer by a range of different people and/or companies is that a prospective employee have public "side projects" (github repositories, whatever). It is already happening, albeit manually. 
@@ -108,18 +103,6 @@ So will we have to carefully craft our personal public brand at all times? Will 
 
 
 big brother, people analytics, vanilla drone compartmental persona and life, just to be chosen by a corp/employer... otherwise unemployable.
-
-doomsayer
-d-day
-drone
-data analytics
-data retention
-dystopia
-
-not employment, deployment
-
-digital
-freedom of information and costs to obtain free info (court docs, FOI, scientific papers).
 
 Code for "be a good drone, do not step outside your stall, work is your life, don't have an independent thought" It's a good thing I have given up any ambition to stick my head up any bosses butt on the corporate ladder. The sad thing is I actually thought about whether to post this or not.
 
