@@ -53,7 +53,8 @@ The most common form of people analytics creates a profile of the company’s be
 “They might look for patterns like having lots of experience in a certain role, or living within a 10km radius of the office, or (whether) that kind of person tends to enjoy researching and doing their own self-guided learning on the weekend,” Ms Tjoeng said.
 
 
-
+<br/>
+<br/>
 
 #### People Analytics
 
@@ -94,6 +95,8 @@ Mr Buchanan said big data should not be used in isolation but as an extra tool t
 
 
 
+<br/>
+<br/>
 
 #### Privacy and Anonymity
 In a world where people where people live their lives online, consumer convenience often takes precedence over personal privacy. Credit card purchases, store cards, frequent flyer points, your online movements tracked by ISP's (and in some countries, Australia for example, required to archive by law) and google (not to mention all the data google collects on you), all the data you give away with each application on your phone, social media accounts, shopping accounts on umpteen different sites, paypal history, ebay, the list.never.ends. Do many people even know what data they themselves have handed over willingly? Do they know what rights they've handed over for the use of that data?
@@ -104,9 +107,13 @@ Is such personal intrusion ethically and morally defensible by anyone? Do we eve
 
 
 
+<br/>
+<br/>
 
 #### Compliance 
-Compliance by law to live and express ones self in a certain way and perform certain functions as an online citizen being enforced by law is the prototypical dystopian nightmare that's great material for science fiction. I don't believe that that will be the future for us. More realistically however, I believe there may be a future where a certain uncomfortable level of compliance is subversively enforced by social pressure, due, in part, to corporate algorithms deeming your employable worth if you do not comply. If you think this seems far fetched, just read any thread on any tech forum involving the topic of employment with regard to programmers. An often parroted requirement for employment as a programmer by a range of different people and/or companies is that a prospective employee have public "side projects" (github repositories, whatever). It is already happening, albeit manually. So will we have to carefully craft our personal public brand at all times? Will we end up living in a world where we have to "act" as our profession at all times, both at work and at home, offline and online? Computer might say "yes".
+Compliance by law to live and express ones self in a certain way and perform certain functions as an online citizen being enforced by law is the prototypical dystopian nightmare that's great material for science fiction. I don't believe that that will be the future for us. More realistically however, I believe there may be a future where a certain uncomfortable level of compliance is subversively enforced by social pressure, due, in part, to corporate algorithms deeming your employable worth if you do not comply. If you think this seems far fetched, just read any thread on any tech forum involving the topic of employment with regard to programmers. An often parroted requirement for employment as a programmer by a range of different people and/or companies is that a prospective employee have public "side projects" (github repositories, whatever). It is already happening, albeit manually. 
+
+So will we have to carefully craft our personal public brand at all times? Will we end up living in a world where we have to "act" as our profession at all times, both at work and at home, offline and online? Computer might say "yes".
 
 
 
