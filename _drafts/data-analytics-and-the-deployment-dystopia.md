@@ -19,7 +19,7 @@ hn_url:
     Data analytics, at least in the "big data" sense, were once the realm of Business Intelligence, marketing and speculative trading on the stock market but things are rapidly changing. 
     </p>
     <p>
-    Recruitment firms and some large employers are already using big data to qualify prospective candidates, and, with the endless march of information technology, the trend is set to trickle down to all levels of employment in the future. Eventually your entire life (or lack thereof) will be your CV and you won't be able to control what's on that CV without controlling and carefully crafting your entire life.
+    Recruitment firms and some large employers are already using big data to qualify prospective candidates, and, with the endless march of information technology, the trend is set to trickle down to all levels of employment in the future. We will see an exponential growth in collection and use of our personal data and erosion of privacy in our lifetimes. Inevitably ones entire life (or lack thereof) will replace their CV and unless and in order to control that CV, one will have to retain a mindfulness of the digital consequences of their actions at all times.
     </p>
   </div>
 <div class="intro-img-border">
