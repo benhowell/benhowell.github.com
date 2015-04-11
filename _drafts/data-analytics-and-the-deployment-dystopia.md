@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Data analytics and the Deployment Dystopia"
-description: ""
-tagline: ""
-category: 
-tags: []
-related: []
+description: "The dystopian future and the transition from freedom and employment to compliance and deployment thanks to people analytics."
+tagline: "future"
+category: future
+tags: [future, big data, analytics, IoT, employment, big brother, privacy, anonymity, freedom, compliance]
+related: [Step Away From the Kool Aid, Your Financial History. Your Business.]
 article_img: bootstrap/img/dystopia.jpg
 article_img_title: Nineteen Eighty-Four by George Orwell
 article_img_alt: "An image from the movie Nineteen Eighty-Four"
