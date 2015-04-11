@@ -111,6 +111,14 @@ In a world where people avail themselves of internet connected appliances, moder
 Will we have to avoid capture of practically all personal data and tracking of our movements and become a digital recluse, just like [RMS][4]? Or will that very act and the forensic evidence it does or does not leave behind be used against you by our future people analytics algorithmic overlords?
 
 Is such personal intrusion ethically and morally defensible by anyone? Do we even have a right to privacy anymore? Will analytical profiling using the full gamut of day to day personal data of ones activities become commonplace by all and sundry? We already live in a world where automated analysis of this data is used to personally target advertising. We're very quickly approaching a world where automated "people analysis" will be used to determine employability. I can see no real end to how and where personal profiling can be used in business and law enforcement.
+
+
+RMS says: 
+I reject Facebook and Google+ because they require people to have just one account, which means that all the person's activities are grouped together. They also insist on knowing the person's usual name. I am proud to identify myself when stating my views; I can afford to do that because I am in a fairly safe position. There are people who rationally fear reprisals (from employers, gangsters, bullies, or the state) if they sign their name to their views. For their sake, let's reject any social networking site which insists on connecting an account to a person's real identity.
+
+However, I can suggest that it may be wise to use an email service that is not connected with your search engine. That way you can be almost sure that your email contents don't influence your search results. You shouldn't identify yourself to your search engine in any case.
+
+
 <br/>
 <br/>
 
