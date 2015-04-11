@@ -51,8 +51,6 @@ Ok, well we sort of expect that employers will do a little digging online, howev
 The most common form of people analytics creates a profile of the company’s best employees based on staff surveys then applies the profile to new candidates during the application process to find people who are similar.
 
 “They might look for patterns like having lots of experience in a certain role, or living within a 10km radius of the office, or (whether) that kind of person tends to enjoy researching and doing their own self-guided learning on the weekend,” Ms Tjoeng said.
-
-
 <br/>
 <br/>
 
@@ -84,17 +82,6 @@ Hays director Darren Buchanan said big data and people analytics could also iden
 Mr Buchanan said big data should not be used in isolation but as an extra tool to build a bigger picture.
 “Like psychometric testing … (people analytics) is a component of the recruitment process rather than the be all and end all of it,” he said.
 “It will never replace personal interactions.”
-
-
-
-
-
-
-
-
-
-
-
 <br/>
 <br/>
 
@@ -104,9 +91,6 @@ In a world where people where people live their lives online, consumer convenien
 Will we have to avoid capture of practically all personal data and tracking of our movements, just like RMS? Or will that very act and the forensic evidence it does or does not leave behind be used against you by our future people analytics algorithmic overlords?
 
 Is such personal intrusion ethically and morally defensible by anyone? Do we even have a right to privacy anymore?
-
-
-
 <br/>
 <br/>
 
