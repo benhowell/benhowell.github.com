@@ -15,7 +15,12 @@ hn_url:
 {% include JB/setup %}
 <div class="intro">
   <div class="intro-txt">
-    ???????????????????????
+    <p>
+    Recruitment firms and some large employers are already using big data to qualify prospective candidates and with the endless march of information technology, the trend is set to trickle down to all levels of employment in the future.
+    
+    
+
+    </p>
   </div>
 <div class="intro-img-border">
 <div class="intro-img-bevel">
@@ -32,9 +37,8 @@ hn_url:
 
 
 
-Big data is heading into the recruitment sphere with global and overseas companies already using it to determine ideal employees and quantify candidates.
-SCOUT Recruitment Software global business leader Andrea Tjoeng said the process, known as people analytics, could be mainstream in Australia within five years.
 
+SCOUT Recruitment Software global business leader Andrea Tjoeng said the process, known as people analytics, could be mainstream in Australia within five years.
 
 
 
@@ -73,6 +77,13 @@ Hays director Darren Buchanan said big data and people analytics could also iden
 Mr Buchanan said big data should not be used in isolation but as an extra tool to build a bigger picture.
 “Like psychometric testing … (people analytics) is a component of the recruitment process rather than the be all and end all of it,” he said.
 “It will never replace personal interactions.”
+
+
+
+Analysis of big data produces correlates, probabilities and relationships between data points, uncovers trends, etc. 
+
+
+
 <br/>
 <br/>
 
