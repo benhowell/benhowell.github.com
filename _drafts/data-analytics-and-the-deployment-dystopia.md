@@ -19,7 +19,7 @@ hn_url:
     Data analytics, at least in the "big data" sense, were once the realm of Business Intelligence, marketing and speculative trading on the stock market but things are rapidly changing. 
     </p>
     <p>
-    Recruitment firms and some large employers are already using big data to qualify prospective candidates, and, with the endless march of information technology, the trend is set to trickle down to all levels of employment in the future. Eventually your entire life will be your CV and you won't be able to control what's on that CV without controlling your entire life.
+    Recruitment firms and some large employers are already using big data to qualify prospective candidates, and, with the endless march of information technology, the trend is set to trickle down to all levels of employment in the future. Eventually your entire life (or lack thereof) will be your CV and you won't be able to control what's on that CV without controlling and carefully crafting your entire life.
     </p>
   </div>
 <div class="intro-img-border">
@@ -38,6 +38,11 @@ hn_url:
 
 
 
+
+
+
+#### People Analytics
+
 SCOUT Recruitment Software global business leader Andrea Tjoeng said the process, known as people analytics, could be mainstream in Australia within five years.
 
 
@@ -55,11 +60,10 @@ Ok, well we sort of expect that employers will do a little digging online, howev
 The most common form of people analytics creates a profile of the company’s best employees based on staff surveys then applies the profile to new candidates during the application process to find people who are similar.
 
 “They might look for patterns like having lots of experience in a certain role, or living within a 10km radius of the office, or (whether) that kind of person tends to enjoy researching and doing their own self-guided learning on the weekend,” Ms Tjoeng said.
-<br/>
-<br/>
 
 
-#### People Analytics
+
+
 “(People analytics determines) what makes up successful people, what patterns we can find and how we can use that to find similar people in the future.”
 There are predicted to be both positive and negative social effects of reducing jobseekers down to a number from an algorithm.
 Ms Tjoeng said the process had led to a lack of employee diversity in Silicon Valley.
