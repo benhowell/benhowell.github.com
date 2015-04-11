@@ -92,7 +92,10 @@ Analysis of big data produces correlates, probabilities and relationships betwee
 <br/>
 
 #### Privacy and Anonymity
-In a world where people where people live their lives online, consumer convenience often takes precedence over personal privacy. Credit card purchases, store cards, frequent flyer points, your online movements tracked by ISP's (and in some countries, Australia for example, data retention is compulsory by law) and google (not to mention all the data google collects on you), all the data you give away with each application on your phone, social media accounts, shopping accounts on umpteen different sites, paypal history, ebay, the list.never.ends. Movements tracked by your mobile phone GPS, public transport e-ticket usage, tollway e-tags, eftpos usage, CCTV equiped with facial recognition. Do many people even know what data they themselves have handed over willingly? Do they know what rights they've handed over for the use of that data?
+In a world where people where people live their lives online, consumer convenience often takes precedence over personal privacy. Credit card purchases, store cards, frequent flyer points, your online movements tracked by ISP's (and in some countries, Australia for example, data retention is compulsory by law) and google (not to mention all the data google collects on you), all the data you give away with each application on your phone, social media accounts, shopping accounts on umpteen different sites, paypal history, ebay, the list.never.ends. Movements tracked by your mobile phone GPS, public transport e-ticket usage, tollway e-tags, eftpos usage, CCTV equiped with facial recognition. Internet of Things (IoT) will inevitably leave traces of your presence and usage of every electronic device particularly when devices are "personalised" with your own preferences (e.g. toaster: user_id: y14672, brownness=3, bread=breadbrand, type=rye, frozen=false, slice_count=2, datetime=2014-02-03T10:45:04.366) and you will probably agreed to release this information every time you cook a bit of bread because this was on the EULA that you "agreed to" when plugging the toaster in for the first time). If you think this seems far fetched, [your TV may already be spying on you and sharing your conversations with a third party][2] or your childs [Barbie doll][3] for that matter. Cradle to grave, people.
+
+
+Do many people even know what data they themselves have handed over willingly? Do they know what rights they've handed over for the use of that data?
 
 Will we have to avoid capture of practically all personal data and tracking of our movements, just like RMS? Or will that very act and the forensic evidence it does or does not leave behind be used against you by our future people analytics algorithmic overlords?
 
@@ -132,3 +135,5 @@ Code for "be a good drone, do not step outside your stall, work is your life, do
 
 
 [1]:http://www.heraldsun.com.au/business/work/job-seekers-need-to-clean-up-their-digital-footprint-as-recruiters-look-through-computer-data/story-fnkjjdf8-1227299058334
+[2]:http://www.thedailybeast.com/articles/2015/02/05/your-samsung-smarttv-is-spying-on-you-basically.html
+[3]:http://www.washingtonpost.com/blogs/the-switch/wp/2015/03/11/privacy-advocates-try-to-keep-creepy-eavesdropping-hello-barbie-from-hitting-shelves
