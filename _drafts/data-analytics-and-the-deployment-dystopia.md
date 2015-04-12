@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Data analytics and the Deployment Dystopia"
-description: "The dystopian future and the transition from freedom and employment to compliance and deployment thanks to people analytics."
+description: "The dystopian future and the transition from freedom and employment to compliance and deployment thanks to big data and people analytics."
 tagline: "future"
 category: future
 tags: [future, big data, analytics, IoT, employment, big brother, privacy, anonymity, freedom, compliance]
@@ -16,7 +16,7 @@ hn_url:
 <div class="intro">
   <div class="intro-txt">
     <p>
-    Data analytics, at least in the "big data" sense, were once the reserve of Business Intelligence, marketing and speculative trading on the stock market but things are rapidly changing. It's all becoming a bit personal.
+    Data analytics, at least in the "big data" sense, were once the reserve of Business Intelligence, marketing and speculative trading on the stock market but things are rapidly changing. It's all about to become, well, personal. In fact, very personal indeed.
     </p>
     <p>
     Humankind is experiencing exponential growth in the rate of collection and use of personal data, and as a consequence, unparalleled erosion of privacy. If we're to get along in the big data age, we'll need to mindful of the digital consequences of our actions at all times.
