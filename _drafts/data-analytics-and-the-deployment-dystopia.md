@@ -19,10 +19,7 @@ hn_url:
     Data analytics, at least in the "big data" sense, were once the reserve of Business Intelligence, marketing and speculative trading on the stock market but things are rapidly changing. It's all about to become, well, personal. In fact, very personal indeed.
     </p>
     <p>
-    Humankind is experiencing exponential growth in the rate of collection and use of personal data, and as a consequence, unparalleled erosion of privacy. If we're to get along in the big data age, we'll need to mindful of the digital consequences of our actions at all times.
-    </p>
-    <p>
-    Recruitment firms and some large employers are already using big data to qualify prospective candidates, and, with the endless march of information technology, the trend is set to trickle down to all levels of employment in the future. 
+    Humankind is experiencing exponential growth in the rate of collection and use of personal data, and as a consequence, unparalleled erosion of privacy. If we're to get along in the big data age, we'll need to be ever mindful of the digital consequences of our actions and the detailed audit trail those actions leave behind in every aspect of our lives.
     </p>
   </div>
 <div class="intro-img-border">
@@ -45,6 +42,12 @@ hn_url:
 
 
 #### People Analytics
+People analytics (sometimes called "workforce analytics"), as the name suggests, is
+
+
+Recruitment firms and some large employers are already using big data to qualify prospective candidates and some of the larger corporations have dedicated workforce analytics teams to monitor and analyse the activities of their employees, as well as those of prospective employees. As with all things, the endless march of information technology is set to see this trend trickle down to all levels of employment in the future.
+
+
 
 SCOUT Recruitment Software global business leader Andrea Tjoeng said the process, known as people analytics, could be mainstream in Australia within five years.
 
@@ -63,9 +66,6 @@ Ok, well we sort of expect that employers will do a little digging online, howev
 The most common form of people analytics creates a profile of the company’s best employees based on staff surveys then applies the profile to new candidates during the application process to find people who are similar.
 
 “They might look for patterns like having lots of experience in a certain role, or living within a 10km radius of the office, or (whether) that kind of person tends to enjoy researching and doing their own self-guided learning on the weekend,” Ms Tjoeng said.
-
-
-
 
 “(People analytics determines) what makes up successful people, what patterns we can find and how we can use that to find similar people in the future.”
 There are predicted to be both positive and negative social effects of reducing jobseekers down to a number from an algorithm.
@@ -87,6 +87,61 @@ Mr Buchanan said big data should not be used in isolation but as an extra tool t
 
 
 
+Xerox still interviews all candidates in person before deciding to hire them, Morse told me, but, she added, “We’re getting to the point where some of our hiring managers don’t even want to interview anymore”—they just want to hire the people with the highest scores.
+
+
+
+
+There are some data that Evolv simply won’t use, out of a concern that the information might lead to systematic bias against whole classes of people. The distance an employee lives from work, for instance, is never factored into the score given each applicant, although it is reported to some clients. That’s because different neighborhoods and towns can have different racial profiles, which means that scoring distance from work could violate equal-employment-opportunity standards. Marital status? Motherhood? Church membership? “Stuff like that,” Meyerle said, “we just don’t touch”—at least not in the U.S., where the legal environment is strict. Meyerle told me that Evolv has looked into these sorts of factors in its work for clients abroad, and that some of them produce “startling results.” Citing client confidentiality, he wouldn’t say more.
+
+
+For a sense of what the future of people analytics may bring, I turned to Sandy Pentland, the director of the Human Dynamics Laboratory at MIT. In recent years, Pentland has pioneered the use of specialized electronic “badges” that transmit data about employees’ interactions as they go about their days. The badges capture all sorts of information about formal and informal conversations: their length; the tone of voice and gestures of the people involved; how much those people talk, listen, and interrupt; the degree to which they demonstrate empathy and extroversion; and more. Each badge generates about 100 data points a minute.
+
+
+Bloomberg reportedly logs every keystroke of every employee, along with their comings and goings in the office. The Las Vegas casino Harrah’s tracks the smiles of the card dealers and waitstaff on the floor (its analytics team has quantified the impact of smiling on customer satisfaction). E‑mail, of course, presents an especially rich vein to be mined for insights about our productivity, our treatment of co-workers, our willingness to collaborate or lend a hand, our patterns of written language, and what those patterns reveal about our intelligence, social skills, and behavior. As technologies that analyze language become better and cheaper, companies will be able to run programs that automatically trawl through the e-mail traffic of their workforce, looking for phrases or communication patterns that can be statistically associated with various measures of success or failure in particular roles.
+
+Perhaps the most exotic development in people analytics today is the creation of algorithms to assess the potential of all workers, across all companies, all the time.
+
+
+https://www.gild.com/
+what others?
+
+
+In a small conference room, we were shown a digital map of Northwest Washington, D.C., home to The Atlantic. Little red pins identified all the coders in the area who were proficient in the skills that an Atlantic Media job announcement listed as essential. Next to each pin was a number that ranked the quality of each coder on a scale of one to 100, based on the mix of skills Atlantic Media was looking for. (No one with a score above 75, we were told, had ever failed a coding test by a Gild client.) If we’d wished, we could have zoomed in to see how The Atlantic’s own coders scored.
+
+The way Gild arrives at these scores is not simple. The company’s algorithms begin by scouring the Web for any and all open-source code, and for the coders who wrote it. They evaluate the code for its simplicity, elegance, documentation, and several other factors, including the frequency with which it’s been adopted by other programmers. For code that was written for paid projects, they look at completion times and other measures of productivity. Then they look at questions and answers on social forums such as Stack Overflow, a popular destination for programmers seeking advice on challenging projects. They consider how popular a given coder’s advice is, and how widely that advice ranges.
+
+The algorithms go further still. They assess the way coders use language on social networks from LinkedIn to Twitter; the company has determined that certain phrases and words used in association with one another can distinguish expert programmers from less skilled ones. Gild knows these phrases and words are associated with good coding because it can correlate them with its evaluation of open-source code, and with the language and online behavior of programmers in good positions at prestigious companies.
+
+Here’s the part that’s most interesting: having made those correlations, Gild can then score programmers who haven’t written open-source code at all, by analyzing the host of clues embedded in their online histories. They’re not all obvious, or easy to explain. Vivienne Ming, Gild’s chief scientist, told me that one solid predictor of strong coding is an affinity for a particular Japanese manga site.
+
+Why would good coders (but not bad ones) be drawn to a particular manga site? By some mysterious alchemy, does reading a certain comic-book series improve one’s programming skills? “Obviously, it’s not a causal relationship,” Ming told me. But Gild does have 6 million programmers in its database, she said, and the correlation, even if inexplicable, is quite clear.
+
+
+
+http://www.theatlantic.com/magazine/archive/2013/12/theyre-watching-you-at-work/354681/
+
+
+
+if you're filling out questionaires at work, using the corporate social networking tools (yammer, etc.), crowd-sourcing ideation tools, email, doing surveys, etc, there may be other "unspoken" reasons ... they're analysing you. 
+
+
+
+These aspects of people analytics provoke anxiety, of course. We would be wise to take legal measures to ensure, at a minimum, that companies can’t snoop where we have a reasonable expectation of privacy—and that any evaluations they might make of our professional potential aren’t based on factors that discriminate against classes of people.
+
+But there is another side to this. People analytics will unquestionably provide many workers with more options and more power. Gild, for example, helps companies find undervalued software programmers, working indirectly to raise those people’s pay. Other companies are doing similar work. One called Entelo, for instance, specializes in using algorithms to identify potentially unhappy programmers who might be receptive to a phone call (because they’ve been unusually active on their professional-networking sites, or because there’s been an exodus from their corner of their company, or because their company’s stock is tanking). As with Gild, the service benefits the worker as much as the would-be employer.
+
+
+
+Gild plans to let programmers see their own profiles and take skills challenges to try to improve their scores. 
+
+Ultimately, all of these new developments raise philosophical questions. As professional performance becomes easier to measure and see, will we become slaves to our own status and potential, ever-focused on the metrics that tell us how and whether we are measuring up? Will too much knowledge about our limitations hinder achievement and stifle our dreams? 
+
+
+
+
+
+
 Analysis of big data produces correlates, probabilities and relationships between data points, uncovers trends, etc. 
 
 big brother, people analytics, vanilla drone compartmental persona and life, just to be chosen by a corp/employer... otherwise unemployable.
@@ -95,7 +150,9 @@ Code for "be a good drone, do not step outside your stall, work is your life, do
 
 
 
+sense of identity and self worth?
 
+in the exploration of this new frontier, there will be many speculations, experiments, trial, errors and it'll be everyday citizens who'll perform the role of guinea pig. There could be real-life dire consequences for those who are seen to fall outside the average, the norm.
 
 
 
