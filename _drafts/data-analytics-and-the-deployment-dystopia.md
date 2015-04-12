@@ -19,7 +19,7 @@ hn_url:
     Data analytics, at least in the "big data" sense, were once the realm of Business Intelligence, marketing and speculative trading on the stock market but things are rapidly changing. 
     </p>
     <p>
-    Humankind is experiencing exponential growth in the collection and use of personal data, and erosion of privacy. In order to be successful in the online age, we'll need to mindful of the digital consequences of our actions at all times.
+    Humankind is experiencing exponential growth in the collection and use of personal data, and as a consequence, unparalleled erosion of privacy. In order to be successful in the online age, we'll need to mindful of the digital consequences of our actions at all times.
     </p>
     <p>
     Recruitment firms and some large employers are already using big data to qualify prospective candidates, and, with the endless march of information technology, the trend is set to trickle down to all levels of employment in the future. 
