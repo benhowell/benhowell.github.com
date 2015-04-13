@@ -170,6 +170,8 @@ https://news.ycombinator.com/item?id=9360093
 You may even get emails telling you that "your non use of the corporate social media thingo will be looked upon negatively"
 
 
+Freedom of personal information and profiles generated and/or kept by corporate entities and government? Should one be allowed access to their own profile free of charge? Can one have their profile "removed" costs to obtain free info (court docs, FOI, scientific papers).
+
 <br/>
 <br/>
 
@@ -189,15 +191,10 @@ I reject Facebook and Google+ because they require people to have just one accou
 
 However, I can suggest that it may be wise to use an email service that is not connected with your search engine. That way you can be almost sure that your email contents don't influence your search results. You shouldn't identify yourself to your search engine in any case.
 
-
 <br/>
 <br/>
 
-#### Freedom of Information
-Freedom of personal information and profiles generated and/or kept by corporate entities and government? Should one be allowed access to their own profile free of charge? Can one have their profile "removed" costs to obtain free info (court docs, FOI, scientific papers).
-
-
-#### Compliance 
+#### Compliance or Discrimination?
 Compliance by law to live and express ones self in a certain way and perform certain functions as an online citizen being enforced by law is the prototypical dystopian nightmare that's great material for science fiction. I don't believe that that will be the future for us. More realistically however, I believe there may be a future where a certain uncomfortable level of compliance is subversively enforced by social pressure, due, in part, to corporate algorithms deeming your employable worth if you do not comply. If you think this seems far fetched, just read any thread on any tech forum involving the topic of employment with regard to programmers. An often parroted requirement for employment as a programmer by a range of different people and/or companies is that a prospective employee spend their free time on public "side projects" (github repositories, whatever), as if one's entire life must be spent honing their craft. What about hobbies? Well, programming of course. See profiling and compliance is already happening, albeit analysed manually.
 
 
