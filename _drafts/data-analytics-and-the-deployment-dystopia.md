@@ -16,10 +16,10 @@ hn_url:
 <div class="intro">
   <div class="intro-txt">
     <p>
-    Data analytics, at least in the "big data" sense, were once the reserve of Business Intelligence, marketing and speculative trading on the stock market but things are rapidly changing. It's all about to become, well, personal. In fact, very personal indeed.
+    Data analytics, at least in the "big data" sense, was once the reserve of Business Intelligence, marketing and speculative trading on the stock market but things are rapidly changing. It's all about to become, well, personal. Very personal indeed.
     </p>
     <p>
-    Humankind is experiencing exponential growth in the rate of collection and use of personal data, and as a consequence, unparalleled erosion of privacy. If we're to get along in the big data age, we'll need to be ever mindful of the digital consequences of our actions and the detailed audit trail those actions leave behind in every aspect of our lives.
+    Humankind is experiencing exponential growth in the rate of collection and use of personal data, and as a consequence, unparalleled erosion of privacy. If we, as private citizens are to get along in the big data age, we'll need to be ever mindful of the digital consequences of our actions and the detailed audit trail those actions leave behind in every aspect of our lives.
     </p>
   </div>
 <div class="intro-img-border">
@@ -138,6 +138,15 @@ Gild plans to let programmers see their own profiles and take skills challenges 
 Ultimately, all of these new developments raise philosophical questions. As professional performance becomes easier to measure and see, will we become slaves to our own status and potential, ever-focused on the metrics that tell us how and whether we are measuring up? Will too much knowledge about our limitations hinder achievement and stifle our dreams? 
 
 
+Corporate analytics needs to be regulated to allow for a space for privacy and to ensure that people can consent to have their information mined.
+
+will be tracked only for their suitability for their initial jobs, not for their potential.
+
+
+Knowledge is power, if the power only flows one way then there will be control and abuse. The findings of the analytics on any potential employee (hired or not) should required to be share with that person, not only with the employer. For a modest fee (under $100) the analytics company should run that persons numbers through their system to determine the be job matches for them. Only then it can be equitable.
+
+
+
 
 
 
@@ -155,6 +164,10 @@ sense of identity and self worth?
 in the exploration of this new frontier, there will be many speculations, experiments, trial, errors and it'll be everyday citizens who'll perform the role of guinea pig. There could be real-life dire consequences for those who are seen to fall outside the average, the norm.
 
 
+
+https://news.ycombinator.com/item?id=9360093
+
+You may even get emails telling you that "your non use of the corporate social media thingo will be looked upon negatively"
 
 
 <br/>
@@ -186,6 +199,9 @@ Freedom of personal information and profiles generated and/or kept by corporate 
 
 #### Compliance 
 Compliance by law to live and express ones self in a certain way and perform certain functions as an online citizen being enforced by law is the prototypical dystopian nightmare that's great material for science fiction. I don't believe that that will be the future for us. More realistically however, I believe there may be a future where a certain uncomfortable level of compliance is subversively enforced by social pressure, due, in part, to corporate algorithms deeming your employable worth if you do not comply. If you think this seems far fetched, just read any thread on any tech forum involving the topic of employment with regard to programmers. An often parroted requirement for employment as a programmer by a range of different people and/or companies is that a prospective employee spend their free time on public "side projects" (github repositories, whatever), as if one's entire life must be spent honing their craft. What about hobbies? Well, programming of course. See profiling and compliance is already happening, albeit analysed manually.
+
+
+More and more decisions that affect our lives will be made by profiling algorithms. get used to it. 
 
 So will we have to carefully craft our personal public brand at all times? Will we end up living in a world where we have to "act" as our profession at all times, both at work and at home, offline and online? Computer might say "yes".
 
