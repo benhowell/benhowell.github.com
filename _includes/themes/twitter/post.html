@@ -5,8 +5,8 @@
     <div class="clearfix">
     <div class="mini-social-section">
     <a href="mailto:ben@benhowell.net" class="email-icon icon" title="Email me"></a>
-    <a class="linkedin-icon icon" onClick="linkedIn()" title="Share this on Linkedin"></a>
-    <a class="google-icon icon" onClick="gPlus()" title="Share this on google plus"></a>
+    <a class="linkedin-icon icon" onClick="shareUrl('http://www.linkedin.com/shareArticle?mini=true&url=http://www.benhowell.net{{ page.url }}&title={{ page.title }}&summary={{ page.description }}&source=benhowell.net')" title="Share this on Linkedin"></a>
+    <a class="google-icon icon" onClick="shareUrl('https://plus.google.com/share?url=http://www.benhowell.net{{ page.url }}')" title="Share this on google plus"></a>
     <a class="twitter-icon icon" title="Tweet this"></a>
     </div>
       <!--<div class="mini-social-section">
@@ -97,18 +97,9 @@
 	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
       })();
       
-      function gPlus(){
+      function shareUrl(url){
 	window.open(
-	    'https://plus.google.com/share?url=http://www.benhowell.net{{ page.url }}',
-	    'popupwindow',
-	    'scrollbars=yes,width=800,height=400'
-	).focus();
-	return false;
-      }
-      
-      function linkedIn(){
-	window.open(
-	    'http://www.linkedin.com/shareArticle?mini=true&url=http://www.benhowell.net{{ page.url }}&title={{ page.title }}&summary={{ page.description }}&source=benhowell.net',
+	    url,
 	    'popupwindow',
 	    'scrollbars=yes,width=800,height=400'
 	).focus();
