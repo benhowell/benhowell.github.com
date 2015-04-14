@@ -226,9 +226,9 @@ img.brand-image {
 .icon {
   float: right;
   display: inline-block;
-  height: 48px;
-  width: 48px;
-  background-size: 48px 48px;
+  height: 32px;
+  width: 32px;
+  background-size: 32px 32px;
   background-position: center center;
   background-repeat: no-repeat;
   margin: 5px;
@@ -237,7 +237,7 @@ img.brand-image {
 
 .twitter-icon {
  background-color: #00ACED;
- background-image: url('../bootstrap/img/twitter-48.png');
+ background-image: url('../bootstrap/img/twitter-32.png');
 }
 
 .clearfix {
