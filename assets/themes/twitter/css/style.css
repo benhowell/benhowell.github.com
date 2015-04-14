@@ -224,7 +224,7 @@ img.brand-image {
 }*/
 
 .icon {
-  float: right;
+/*   float: right; */
   display: inline-block;
   height: 48px;
   width: 48px;
