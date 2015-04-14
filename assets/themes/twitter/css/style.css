@@ -232,7 +232,7 @@ img.brand-image {
   background-size: 48px 48px;
   background-position: center center;
   background-repeat: no-repeat;
-  margin: 5px;
+  margin: 5px 5px 0px 0px;
   text-indent: -9999em;
 }
 
@@ -245,6 +245,17 @@ img.brand-image {
  background-color: #d34836;
  background-image: url('../bootstrap/img/googleplus-48.png');
 }
+
+.linkedin-icon {
+ background-color: #0077B5;
+ background-image: url('../bootstrap/img/linkedin-48.png');
+}
+
+.email-icon {
+ background-color: #BBBBBB;
+ background-image: url('../bootstrap/img/email-48.png');
+}
+
 
 .clearfix {
   zoom: 1;
