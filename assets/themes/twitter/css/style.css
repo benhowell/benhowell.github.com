@@ -226,9 +226,9 @@ img.brand-image {
 .icon {
   float: right;
   display: inline-block;
-  height: 64px;
-  width: 64px;
-  background-size: 64px 64px;
+  height: 48px;
+  width: 48px;
+  background-size: 48px 48px;
   background-position: center center;
   background-repeat: no-repeat;
   margin: 5px;
