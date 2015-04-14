@@ -211,15 +211,7 @@ img.brand-image {
 
 .mini-social-section {
   /*border: 1px solid #ccc;*/
-  float: right;
-  display: inline-block;
-  height: 64px;
-  width: 64px;
-  background-size: 64px 64px;
-  background-position: center center;
-  background-repeat: no-repeat;
-  margin: 5px;
-  text-indent: -9999em;
+  
 }
 
 /*.follow{
@@ -230,6 +222,18 @@ img.brand-image {
   text-align: right;
   overflow: hidden;
 }*/
+
+.icon {
+  float: right;
+  display: inline-block;
+  height: 64px;
+  width: 64px;
+  background-size: 64px 64px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 5px;
+  text-indent: -9999em;
+}
 
 .twitter-icon {
  background-color: #00ACED;
