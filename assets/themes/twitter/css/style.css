@@ -222,6 +222,12 @@ img.brand-image {
   width: 800px;
 }
 
+
+.twitter-share-button {
+ background-color: #00ACED;
+ background-image: url('../img/twitter-48.png');
+}
+
 .clearfix {
   zoom: 1;
 }
