@@ -155,7 +155,7 @@ img.brand-image {
 }
 
 .mini-social-hr {
-  margin: 5px 0;
+  margin: 0px 0;
 }
 
 
@@ -179,18 +179,18 @@ img.brand-image {
   width: 120px;
 }
 
-.social-header {
+/*.social-header {
   padding: 0 20px;
-}
+}*/
 
-.social-section {
+/*.social-section {
   border-right: 1px dotted #ccc;
   float: left;
   width: 140px;
   height:35px;
   padding: 10px 30px 6px;
   text-align: center;
-}
+}*/
 
 .last {
   margin-right: 0;
@@ -198,13 +198,13 @@ img.brand-image {
   border-right: 0;
 }
 
-.social {
+/*.social {
   border-bottom: 1px dotted #ccc;
   border-top: 1px dotted #ccc;
   float: left;
   margin: 0;
   width: 800px;
-}
+}*/
 
 
 
