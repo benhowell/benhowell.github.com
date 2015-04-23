@@ -211,57 +211,26 @@ img.brand-image {
 
 
 div.mini-social-section {
-  /*border: 1px solid #ccc;*/
   display: table;
   width: 100%;
   table-layout: fixed;    /* For cells of equal size */
-  /*margin-left: auto; 
-  margin-right: auto;*/
+
 }
-
-/*.stretch {
-  width: 100%;
-  display: inline-block;
-  content:""; 
-  font-size: 0;
-  line-height: 0
-}*/
-
-/*.follow{
-  float: right;
-  width: 120px;
-  height:23px;
-  padding: 8px 6px 2px;
-  text-align: right;
-  overflow: hidden;
-}*/
-
-
 
 div.mini-social-section span {
   display: table-cell;
   text-align: center;
   border: 1px solid gray;
-  
-  
 }
 
 .icon {
-
-/*   vertical-align: top; */
   display: inline-block;
-  
-    
   height: 32px;
   width: 32px;
   background-size: 32px 32px;
   background-position: center center;
   background-repeat: no-repeat;
-/*   margin-left: 50px;  */
-/*   margin-right: 50px;  */
-   margin-top: 3px;  
-/*   margin-bottom: 3px; */
-/*   text-indent: -9999em; */
+  margin-top: 4px;
 }
 
 .twitter-icon {
