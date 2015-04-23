@@ -212,8 +212,9 @@ img.brand-image {
 
 .mini-social-section {
   /*border: 1px solid #ccc;*/
-  display: flex;
-    justify-content: space-between;
+  display: table;
+    width: 100%;
+    table-layout: fixed;    /* For cells of equal size */
   /*margin-left: auto; 
   margin-right: auto;
   text-align: justify;
@@ -221,13 +222,13 @@ img.brand-image {
   text-justify: distribute-all-lines;*/
 }
 
-.stretch {
+/*.stretch {
   width: 100%;
   display: inline-block;
 /*   content:""; */
   font-size: 0;
   line-height: 0
-}
+}*/
 
 /*.follow{
   float: right;
@@ -241,10 +242,12 @@ img.brand-image {
 .icon {
 
 /*   vertical-align: top; */
-  display: inline-block;
+  /*display: inline-block;
   *display: inline;
-  zoom: 1;
-  
+  zoom: 1;*/
+  display: table-cell;
+    text-align: center;
+    
   height: 32px;
   width: 32px;
   background-size: 32px 32px;
