@@ -239,12 +239,16 @@ img.brand-image {
   overflow: hidden;
 }*/
 
+.mini-social-section a {
+  display: table-cell;
+  text-align: center;
+}
+
 .icon {
 
 /*   vertical-align: top; */
   display: inline-block;
-  display: table-cell;
-    text-align: center;
+  
     
   height: 32px;
   width: 32px;
