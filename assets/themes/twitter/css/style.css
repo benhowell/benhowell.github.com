@@ -242,9 +242,7 @@ img.brand-image {
 .icon {
 
 /*   vertical-align: top; */
-  /*display: inline-block;
-  *display: inline;
-  zoom: 1;*/
+  display: inline-block;
   display: table-cell;
     text-align: center;
     
