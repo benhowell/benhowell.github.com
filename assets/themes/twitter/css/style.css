@@ -221,7 +221,7 @@ img.brand-image {
 
 .stretch {
   width: 100%;
-  display: inline-block;
+/*   display: inline-block; */
   font-size: 0;
   line-height: 0
 }
@@ -247,8 +247,8 @@ img.brand-image {
   background-size: 32px 32px;
   background-position: center center;
   background-repeat: no-repeat;
-  margin-left: 20px; 
-  margin-right: 20px; 
+  margin-left: 50px; 
+  margin-right: 50px; 
   margin-top: 3px; 
   margin-bottom: 3px;
 /*   text-indent: -9999em; */
