@@ -237,7 +237,7 @@ img.brand-image {
 
 .icon {
 
-  vertical-align: top;
+/*   vertical-align: top; */
   display: inline-block;
   *display: inline;
   zoom: 1;
