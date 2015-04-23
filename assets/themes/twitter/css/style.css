@@ -212,7 +212,8 @@ img.brand-image {
 
 .mini-social-section {
   /*border: 1px solid #ccc;*/
-  
+  text-align: justify;
+  display: inline-block;
 }
 
 /*.follow{
