@@ -210,16 +210,13 @@ img.brand-image {
 
 
 
-.mini-social-section {
+div.mini-social-section {
   /*border: 1px solid #ccc;*/
   display: table;
-    width: 100%;
-    table-layout: fixed;    /* For cells of equal size */
+  width: 100%;
+  table-layout: fixed;    /* For cells of equal size */
   /*margin-left: auto; 
-  margin-right: auto;
-  text-align: justify;
-  -ms-text-justify: distribute-all-lines;
-  text-justify: distribute-all-lines;*/
+  margin-right: auto;*/
 }
 
 /*.stretch {
@@ -239,10 +236,12 @@ img.brand-image {
   overflow: hidden;
 }*/
 
-.mini-social-section a {
+div.mini-social-section a {
   display: table-cell;
   text-align: center;
   border: 1px solid gray;
+  
+  
 }
 
 .icon {
@@ -256,8 +255,8 @@ img.brand-image {
   background-size: 32px 32px;
   background-position: center center;
   background-repeat: no-repeat;
-  margin-left: 50px; 
-  margin-right: 50px; 
+/*   margin-left: 50px;  */
+/*   margin-right: 50px;  */
 /*   margin-top: 30px;  */
 /*   margin-bottom: 3px; */
 /*   text-indent: -9999em; */
