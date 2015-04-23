@@ -236,7 +236,9 @@ div.mini-social-section {
   overflow: hidden;
 }*/
 
-div.mini-social-section a {
+
+
+div.mini-social-section span {
   display: table-cell;
   text-align: center;
   border: 1px solid gray;
