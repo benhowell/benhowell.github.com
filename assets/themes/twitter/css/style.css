@@ -221,8 +221,8 @@ img.brand-image {
 
 .stretch {
   width: 100%;
-/*   display: inline-block; */
-  content:"";
+  display: inline-block;
+/*   content:""; */
   font-size: 0;
   line-height: 0
 }
