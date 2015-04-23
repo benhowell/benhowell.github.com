@@ -246,6 +246,11 @@ img.brand-image {
  background-image: url('../bootstrap/img/googleplus-32.png');
 }
 
+.reddit-icon {
+ background-color: #FF4500;
+ background-image: url('../bootstrap/img/reddit-32.png');
+}
+
 .linkedin-icon {
  background-color: #0077B5;
  background-image: url('../bootstrap/img/linkedin-32.png');
