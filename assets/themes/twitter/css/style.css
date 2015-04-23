@@ -249,8 +249,8 @@ img.brand-image {
   background-repeat: no-repeat;
   margin-left: 50px; 
   margin-right: 50px; 
-  margin-top: 3px; 
-  margin-bottom: 3px;
+  margin-top: 10px; 
+/*   margin-bottom: 3px; */
 /*   text-indent: -9999em; */
 }
 
