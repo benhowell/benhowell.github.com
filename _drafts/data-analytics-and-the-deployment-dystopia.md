@@ -119,6 +119,9 @@ Why would good coders (but not bad ones) be drawn to a particular manga site? By
 
 
 
+
+
+
 http://www.theatlantic.com/magazine/archive/2013/12/theyre-watching-you-at-work/354681/
 
 
@@ -165,12 +168,76 @@ in the exploration of this new frontier, there will be many speculations, experi
 
 
 
-https://news.ycombinator.com/item?id=9360093
+On the other hand, many times hiring managers are just looking for a reason to discard your resume to narrow down the talent pool. Anything negative gets you tossed. They see this. Maybe it's a good sign, maybe it's a bad sign. Either way it's something out of the ordinary that will take more time to evaluate. Better just toss the resume. There's still another stack of 100 candidates to go through...
+
 
 You may even get emails telling you that "your non use of the corporate social media thingo will be looked upon negatively"
 
 
+third party cookies, tracking cookies, google, fb
+
+
+This is one of the dirty secrets of corporate IT, especially in the fortune 500 infrastructure space I live in.
+
+Take your laptop home every day, answer your phone no matter when, or you aren't a team player.
+
+panopticon documentary.
+
+numberplate recognition. rotterdam tram, face scanning bottleshop. metadata retention, 60 years ago: huxley. deep packet inspection. kowsoleaa story. hacking, diginotar. psychiatrists required to submit electronic records about their patients to insurance and govt. insurance companies using search data from google , if you've searched for diesaes and stuff then put in high risk category. welfare card buying steak, welfare cut off because suspect of extra income. overdue book at library.
+
+followed tracked and stored.
+
+do you have curtains at home?
+
+germany killed data retention laws. no street view. building blocks for dictatorships. burnt building with papers that identified jews. CCC - skype being intercepted, etc, staatstrojaner.
+
+ov-chip card.
+
+downloads tracked to counter piracy.
+
+breakdown of society.
+
+presumed innocence.
+
+incentives for citizens to spy on each other.
+
+proactive action against people who may commit a crime.
+
+"minority report"
+
+clothing already have rfid.
+
+
+
+
+#### Safety
+aol leaking search results.
+
+internet connected scanners and printrs that have a cache can be connected to over internet without password.
+
+security cc cameras
+
+NAS (security off by default)
+
+(standard passwords)
+
+KLM
+Unilever all leaking confidentialinformation with unsecured NAS.
+ballast needham
+govtinformation
+orange employee with unsecured NAS with documents with europol passwords.
+
+
+(employee computers with NAS connected)
+
+
+"off the grid" nerd (not on social media and shit)
+
+
 Freedom of personal information and profiles generated and/or kept by corporate entities and government? Should one be allowed access to their own profile free of charge? Can one have their profile "removed" costs to obtain free info (court docs, FOI, scientific papers).
+
+domestic spying
+http://www.wired.com/2015/04/want-see-domestic-spyings-future-follow-drug-war/
 
 <br/>
 <br/>
