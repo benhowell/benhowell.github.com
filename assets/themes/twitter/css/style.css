@@ -212,11 +212,13 @@ img.brand-image {
 
 .mini-social-section {
   /*border: 1px solid #ccc;*/
-  margin-left: auto; 
+  display: flex;
+    justify-content: space-between;
+  /*margin-left: auto; 
   margin-right: auto;
   text-align: justify;
   -ms-text-justify: distribute-all-lines;
-  text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;*/
 }
 
 .stretch {
