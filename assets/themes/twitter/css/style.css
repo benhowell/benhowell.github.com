@@ -232,7 +232,7 @@ img.brand-image {
 }*/
 
 .icon {
-  float: right;
+/*   float: right; */
   display: inline-block;
   height: 32px;
   width: 32px;
