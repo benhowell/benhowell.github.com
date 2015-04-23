@@ -225,7 +225,7 @@ img.brand-image {
 /*.stretch {
   width: 100%;
   display: inline-block;
-/*   content:""; */
+  content:""; 
   font-size: 0;
   line-height: 0
 }*/
