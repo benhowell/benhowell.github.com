@@ -212,6 +212,8 @@ img.brand-image {
 
 .mini-social-section {
   /*border: 1px solid #ccc;*/
+  margin-left: auto; 
+  margin-right: auto;
   text-align: justify;
 
 }
