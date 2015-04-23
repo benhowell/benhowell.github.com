@@ -215,13 +215,15 @@ img.brand-image {
   margin-left: auto; 
   margin-right: auto;
   text-align: justify;
-
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
 }
 
-#mini-social-section:after {
-  content: "";
+.stretch {
   width: 100%;
   display: inline-block;
+  font-size: 0;
+  line-height: 0
 }
 
 /*.follow{
@@ -234,15 +236,19 @@ img.brand-image {
 }*/
 
 .icon {
-/*   float: right; */
+
+  vertical-align: top;
   display: inline-block;
+  *display: inline;
+  zoom: 1;
+  
   height: 32px;
   width: 32px;
   background-size: 32px 32px;
   background-position: center center;
   background-repeat: no-repeat;
 /*   margin: 3px; */
-  text-indent: -9999em;
+/*   text-indent: -9999em; */
 }
 
 .twitter-icon {
