@@ -5,11 +5,11 @@
     <div class="clearfix">
     <div class="mini-social-section">
     <a href="mailto:ben@benhowell.net" class="email-icon icon" title="Contact me via email"></a>
-    <a class="linkedin-icon icon" onClick="shareUrl('http://www.linkedin.com/shareArticle?mini=true&url=http://www.benhowell.net{{ page.url }}&title={{ page.title }}&summary={{ page.description }}&source=benhowell.net')" title="Share this article on Linkedin"></a>
-    <a class="google-icon icon" onClick="shareUrl('https://plus.google.com/share?url=http://www.benhowell.net{{ page.url }}')" title="Share this article on Google+"></a>
-    <a class="twitter-icon icon" onClick="shareUrl('http://twitter.com/intent/tweet?text={{ page.title }} http://www.benhowell.net{{ page.url }}')" title="Share this article on Twitter"></a>
+    <a class="linkedin-icon icon" onClick="shareUrl('http://www.linkedin.com/shareArticle?mini=true&url=http://www.benhowell.net{{ page.url }}&title={{ page.title }}&summary={{ page.description }}&source=benhowell.net', 800, 400)" title="Share this article on Linkedin"></a>
+    <a class="google-icon icon" onClick="shareUrl('https://plus.google.com/share?url=http://www.benhowell.net{{ page.url }}', 800, 400)" title="Share this article on Google+"></a>
+    <a class="twitter-icon icon" onClick="shareUrl('http://twitter.com/intent/tweet?text={{ page.title }} http://www.benhowell.net{{ page.url }}', 800, 400)" title="Share this article on Twitter"></a>
     </div>
-    <a class="reddit-icon icon" onClick="shareUrl('http://www.reddit.com/submit?url=http://www.benhowell.net{{ page.url }}&title={{ page.title }}')" title="Share this article on Reddit"></a>
+    <a class="reddit-icon icon" onClick="shareUrl('http://www.reddit.com/submit?url=http://www.benhowell.net{{ page.url }}&title={{ page.title }}', 850, 600)" title="Share this article on Reddit"></a>
     </div>
 
       <!--<div class="mini-social-section">
@@ -100,11 +100,11 @@
 	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
       })();
       
-      function shareUrl(url){
+      function shareUrl(url, w, h){
 	window.open(
 	    url,
 	    'popupwindow',
-	    'scrollbars=yes,width=800,height=400'
+	    'scrollbars=yes,width='+w+',height='+h
 	).focus();
 	return false;
       }
