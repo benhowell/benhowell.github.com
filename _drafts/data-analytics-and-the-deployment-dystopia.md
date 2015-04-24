@@ -13,7 +13,7 @@ reddit_url:
 hn_url:
 ---
 {% include JB/setup %}
-<div class="intro">
+<!--<div class="intro">
   <div class="intro-txt">
     <p>
     Data analytics, at least in the "big data" sense, was once the reserve of Business Intelligence, marketing and speculative trading on the stock market but things are rapidly changing. It's all about to become, well, personal. Very personal indeed.
@@ -31,7 +31,7 @@ hn_url:
 </div>
 </div>
 <br/>
-<br/>
+<br/>-->
 
 
 
