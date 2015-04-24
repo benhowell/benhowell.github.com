@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "People analytics and the Deployment Dystopia"
+title: "People Analytics and the Deployment Dystopia"
 description: "The dystopian future and the transition from freedom and employment to compliance and deployment thanks to big data and people analytics."
 tagline: "future"
 category: future
