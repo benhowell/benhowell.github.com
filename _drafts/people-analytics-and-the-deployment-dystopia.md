@@ -19,7 +19,7 @@ hn_url:
     Data analytics, at least in the "big data" sense, was once the reserve of Business Intelligence, marketing and speculative trading on the stock market but things are rapidly changing. For a lot of us, big data is about to become personal. Very personal indeed.
     </p>
     <p>
-    People analytics (sometimes called "workforce analytics" and "corporate analytics"), as the name suggests, is the application of analytics on big data sets to create behavioural and social profiles for individual people.
+    People analytics (also referred to as workforce analytics and corporate analytics), as the name suggests, is the application of analytics on big data sets to create behavioural and social profiles for individual people. Recruitment firms and some large employers are already using big data to qualify prospective candidates and some of the larger corporations have dedicated workforce analytics teams to monitor and analyse the activities of their employees, as well as those of prospective employees. As with all things, the endless march of information technology is set to see this trend trickle down to all levels of employment in the future.
     </p>
   </div>
 <div class="intro-img-border">
@@ -44,7 +44,7 @@ hn_url:
 #### People Analytics
 what is it? who uses it? what are some example conclusions?
 
-Recruitment firms and some large employers are already using big data to qualify prospective candidates and some of the larger corporations have dedicated workforce analytics teams to monitor and analyse the activities of their employees, as well as those of prospective employees. As with all things, the endless march of information technology is set to see this trend trickle down to all levels of employment in the future.
+
 
 
 
@@ -153,7 +153,7 @@ Is such personal intrusion ethically and morally defensible by anyone? Do we eve
 <br/>
 
 
-#### from anonymous marketing to personal intrusion (i.e. marketer doesn't care about the individual per-se, whereas with employers, that's all they care about).
+from anonymous marketing to personal intrusion (i.e. marketer doesn't care about the individual per-se, whereas with employers, that's all they care about).
 before it was anonymous, now its personal.
 
 <br/>
@@ -202,7 +202,64 @@ can you be discrimnated against, by proxy (high correlation between location and
 
 stuff about non-causality and behavioural profiles leading to discrimination (e.g. the manga thing would naturally discriminate against older workers, by proxy).
 
+"""
+Third factor C (the common-causal variable) causes both A and B
+http://en.wikipedia.org/wiki/Spurious_relationship
+All these examples deal with a lurking variable, which is simply a hidden third variable that affects both causes of the correlation; for example, the fact that it is summer in Example 3. A difficulty often also arises where the third factor, though fundamentally different from A and B, is so closely related to A and/or B as to be confused with them or very difficult to scientifically disentangle from them (see Example 4).
 
+Example 1
+    Sleeping with one's shoes on is strongly correlated with waking up with a headache.
+    Therefore, sleeping with one's shoes on causes headache.
+
+The above example commits the correlation-implies-causation fallacy, as it prematurely concludes that sleeping with one's shoes on causes headache. A more plausible explanation is that both are caused by a third factor, in this case going to bed drunk, which thereby gives rise to a correlation. So the conclusion is false.
+
+Example 2
+    Young children who sleep with the light on are much more likely to develop myopia in later life.
+    Therefore, sleeping with the light on causes myopia.
+
+This is a scientific example that resulted from a study at the University of Pennsylvania Medical Center. Published in the May 13, 1999 issue of Nature,[5] the study received much coverage at the time in the popular press.[6] However, a later study at Ohio State University did not find that infants sleeping with the light on caused the development of myopia. It did find a strong link between parental myopia and the development of child myopia, also noting that myopic parents were more likely to leave a light on in their children's bedroom.[7][8][9][10] In this case, the cause of both conditions is parental myopia, and the above-stated conclusion is false.
+
+
+Example 3
+    As ice cream sales increase, the rate of drowning deaths increases sharply.
+    Therefore, ice cream consumption causes drowning.
+
+The aforementioned example fails to recognize the importance of time and temperature in relationship to ice cream sales. Ice cream is sold during the hot summer months at a much greater rate than during colder times, and it is during these hot summer months that people are more likely to engage in activities involving water, such as swimming. The increased drowning deaths are simply caused by more exposure to water-based activities, not ice cream. The stated conclusion is false.
+
+
+Example 4
+
+    A hypothetical study shows a relationship between test anxiety scores and shyness scores, with a statistical r value (strength of correlation) of +.59.[11]
+    Therefore, it may be simply concluded that shyness, in some part, causally influences test anxiety.
+
+However, as encountered in many psychological studies, another variable, a "self-consciousness score", is discovered that has a sharper correlation (+.73) with shyness. This suggests a possible "third variable" problem, however, when three such closely related measures are found, it further suggests that each may have bidirectional tendencies (see "bidirectional variable", above), being a cluster of correlated values each influencing one another to some extent. Therefore, the simple conclusion above may be false.
+
+Example 5
+
+    Since the 1950s, both the atmospheric CO2 level and obesity levels have increased sharply.
+    Hence, atmospheric CO2 causes obesity.
+
+Richer populations tend to eat more food and consume more energy
+
+
+
+Example 6
+
+    HDL ("good") cholesterol is negatively correlated with incidence of heart attack.
+    Therefore, taking medication to raise HDL decreases the chance of having a heart attack.
+
+Further research[12] has called this conclusion into question. Instead, it may be that other underlying factors, like genes, diet and exercise, affect both HDL levels and the likelihood of having a heart attack; it is possible that medicines may affect the directly measurable factor, HDL levels, without affecting the chance of heart attack.
+
+
+
+
+Much of scientific evidence is based upon a correlation of variables[18] – they are observed to occur together. Scientists are careful to point out that correlation does not necessarily mean causation. The assumption that A causes B simply because A correlates with B is often not accepted as a legitimate form of argument.
+
+However, sometimes people commit the opposite fallacy – dismissing correlation entirely, as if it does not suggest causation at all. This would dismiss a large swath of important scientific evidence.[18] Since it may be difficult or ethically impossible to run controlled double-blind studies, correlational evidence from several different angles may be the strongest causal evidence available.[19] The combination of limited available methodologies with the dismissing correlation fallacy has on occasion been used to counter a scientific finding. For example, the tobacco industry has historically relied on a dismissal of correlational evidence to reject a link between tobacco and lung cancer.[20]
+
+Correlation is a valuable type of scientific evidence in fields such as medicine, psychology, and sociology. But first correlations must be confirmed as real, and then every possible causative relationship must be systematically explored. In the end correlation can be used as powerful evidence for a cause-and-effect relationship between a treatment and benefit, a risk factor and a disease, or a social or economic factor and various outcomes. But it is also one of the most abused types of evidence, because it is easy and even tempting to come to premature conclusions based upon the preliminary appearance of a correlation.
+
+Correlations are used in Bell's theorem to disprove local causality.
 
 
 
