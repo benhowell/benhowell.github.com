@@ -148,7 +148,12 @@ Is such personal intrusion ethically and morally defensible by anyone? Do we eve
 <br/>
 <br/>
 
-#### Compliance or Discrimination?
+#### Discrimination by proxy
+stuff about non-causality and behavioural profiles leading to discrimination (e.g. the manga thing would naturally discriminate against older workers, by proxy).
+<br/>
+<br/>
+
+#### Behavioural and Social Compliance
 Compliance by law to live and express ones self in a certain way and perform certain functions as an online citizen being enforced by law is the prototypical dystopian nightmare that provides great material for science fiction. I don't believe that that will be the future for us. More realistically however, I believe there may be a future where a certain uncomfortable level of compliance is subversively enforced by social pressure, due, in part, to corporate algorithms deeming your employable worth if you do not comply. If you think this seems far fetched, just read any thread on any tech forum involving the topic of employment with regard to programmers. An often parroted requirement for employment as a programmer by a range of different people and/or companies is that a prospective employee spend their free time on public "side projects" (github repositories, whatever), as if one's entire life must be spent honing their craft. What about hobbies? Well, programming of course. See profiling and compliance is already happening, albeit analysed manually.
 
 More and more decisions that affect our lives will be made by profiling algorithms. get used to it. 
