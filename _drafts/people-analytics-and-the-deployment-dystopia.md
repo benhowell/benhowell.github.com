@@ -19,7 +19,10 @@ hn_url:
     Data analytics, at least in the "big data" sense, was once the reserve of Business Intelligence, marketing and speculative trading on the stock market but things are rapidly changing. For a lot of us, big data is about to become personal. Very personal indeed.
     </p>
     <p>
-    People analytics (also referred to as workforce analytics and corporate analytics), as the name suggests, is the application of analytics on big data sets to create behavioural and social profiles for individual people. Recruitment firms and some large employers are already using big data to qualify prospective candidates and some of the larger corporations have dedicated workforce analytics teams to monitor and analyse the activities of their employees, as well as those of prospective employees. As with all things, the endless march of information technology is set to see this trend trickle down to all levels of employment in the future.
+    People analytics (also referred to as workforce analytics and corporate analytics), as the name suggests, is the application of analytics on big data sets to create behavioural and social profiles for individual people.
+    </p>
+    <p>
+    Recruitment firms and some large employers use people analytics to qualify prospective candidates and some of the larger corporations have dedicated workforce analytics teams to monitor and analyse the activities of their employees, as well as those of prospective employees. As with all things, the endless march of information technology is set to see this trend trickle down to all levels of employment in the future.
     </p>
   </div>
 <div class="intro-img-border">
