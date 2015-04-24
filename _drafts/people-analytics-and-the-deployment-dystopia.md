@@ -42,6 +42,7 @@ hn_url:
 
 
 #### People Analytics
+what is it? who uses it? what are some example conclusions?
 
 Recruitment firms and some large employers are already using big data to qualify prospective candidates and some of the larger corporations have dedicated workforce analytics teams to monitor and analyse the activities of their employees, as well as those of prospective employees. As with all things, the endless march of information technology is set to see this trend trickle down to all levels of employment in the future.
 
@@ -153,10 +154,14 @@ Is such personal intrusion ethically and morally defensible by anyone? Do we eve
 
 
 #### from anonymous marketing to personal intrusion (i.e. marketer doesn't care about the individual per-se, whereas with employers, that's all they care about).
+before it was anonymous, now its personal.
+
 <br/>
 <br/>
 
 #### Coincidence and Correlation over Causation 
+what is the difference? why is it bad?
+
 An advantage of having knowledge about causal relationships rather than about statistical associations is that the former enables prediction of the effects of actions that perturb the observed system,” assert Joris M. Mooij, 
 Analysis of big data produces correlates, uncovers trends, calculates probabilities and finds weak bonds between data points, amongst other things. What it does not provide however, is causality. Good programmers publish open source software and watch manga cartoons but is there causality anywhere in this conclusion? distinguishing cause and effect.
 
@@ -193,6 +198,8 @@ But, this also doesn’t mean that it is entirely coincidental or that correlati
 <br/>
 
 #### Discrimination by proxy
+can you be discrimnated against, by proxy (high correlation between location and something else that leads to low score. what if the location is primarily made up of a minority race? is this correlation then a proxy for racial discrimination?
+
 stuff about non-causality and behavioural profiles leading to discrimination (e.g. the manga thing would naturally discriminate against older workers, by proxy).
 
 
@@ -203,6 +210,8 @@ stuff about non-causality and behavioural profiles leading to discrimination (e.
 <br/>
 
 #### Behavioural and Social Compliance
+conclusion
+
 Compliance by law to live and express ones self in a certain way and perform certain functions as an online citizen being enforced by law is the prototypical dystopian nightmare that provides great material for science fiction. I don't believe that that will be the future for us. More realistically however, I believe there may be a future where a certain uncomfortable level of compliance is subversively enforced by social pressure, due, in part, to corporate algorithms deeming your employable worth if you do not comply. If you think this seems far fetched, just read any thread on any tech forum involving the topic of employment with regard to programmers. An often parroted requirement for employment as a programmer by a range of different people and/or companies is that a prospective employee spend their free time on public "side projects" (github repositories, whatever), as if one's entire life must be spent honing their craft. What about hobbies? Well, programming of course. See profiling and compliance is already happening, albeit analysed manually.
 
 More and more decisions that affect our lives will be made by profiling algorithms. get used to it. 
