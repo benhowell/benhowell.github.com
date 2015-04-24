@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Data analytics and the Deployment Dystopia"
+title: "People analytics and the Deployment Dystopia"
 description: "The dystopian future and the transition from freedom and employment to compliance and deployment thanks to big data and people analytics."
 tagline: "future"
 category: future
@@ -19,7 +19,7 @@ hn_url:
     Data analytics, at least in the "big data" sense, was once the reserve of Business Intelligence, marketing and speculative trading on the stock market but things are rapidly changing. It's all about to become, well, personal. Very personal indeed.
     </p>
     <p>
-    People analytics (sometimes called "workforce analytics"), as the name suggests, is
+    People analytics (sometimes called "workforce analytics"), as the name suggests, is the application of big data sets to create behavioural and social profiles for individual citizens.
     </p>
   </div>
 <div class="intro-img-border">
