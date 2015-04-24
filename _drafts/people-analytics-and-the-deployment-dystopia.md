@@ -39,16 +39,14 @@ hn_url:
 #### People Analytics
 In [a recent article in the Herald Sun newspaper][1] SCOUT Recruitment Software global business leader Andrea Tjoeng said the process, known as people analytics, could be mainstream in Australia within five years. _"It will be less about perfecting a CV and more about the footprint left behind in cyberspace"_ Ms Tjoeng said. _"If you’re reviewing something on Whirlpool, think how that might be read by a prospective employer. When you are sharing anything about yourself, think whether you would share that information on your first day or in a job interview."_
 
-Well everyone expects that employers will do a little digging online, however, the automated data analytics version is much more sinister.
+OK, in this day and age, everyone expects that employers will do a little digging online, however, people analytics proves to be much more sinister. In addition to profiling existing employees via analysis of internal social media, internal surveys, email and the like, people analytics often utilise a lot of external data as well (public, paid-for, or otherwise), in turn using prototypical "good employee" profiles to employ people with similar profiles.
 
+...
 
-
-
-The most common form of people analytics creates a profile of the company’s best employees based on staff surveys then applies the profile to new candidates during the application process to find people who are similar.
 
 “They might look for patterns like having lots of experience in a certain role, or living within a 10km radius of the office, or (whether) that kind of person tends to enjoy researching and doing their own self-guided learning on the weekend,” Ms Tjoeng said.
 
-“(People analytics determines) what makes up successful people, what patterns we can find and how we can use that to find similar people in the future.”
+
 There are predicted to be both positive and negative social effects of reducing jobseekers down to a number from an algorithm.
 Ms Tjoeng said the process had led to a lack of employee diversity in Silicon Valley.
 
@@ -59,7 +57,6 @@ Ms Tjoeng said a lot of the data collected for employee profiles might not be in
 “Assume any information you are sharing online, even if it is not public now, in a few years it will be,” she said.
 “This is a natural evolution as our technology improves and we become more comfortable sharing our lives online.”
 
-
 Hays director Darren Buchanan said big data and people analytics could also identify triggers for employees leaving their company, such as time served or reaching a certain level.
 “It can be used as a flag to take some action, change behaviour or put in support structures to help people get through that period or help them take the next step forward to where they want to go,” he says.
 Mr Buchanan said big data should not be used in isolation but as an extra tool to build a bigger picture.
@@ -67,6 +64,15 @@ Mr Buchanan said big data should not be used in isolation but as an extra tool t
 “It will never replace personal interactions.”
 
 Xerox still interviews all candidates in person before deciding to hire them, Morse told me, but, she added, “We’re getting to the point where some of our hiring managers don’t even want to interview anymore”—they just want to hire the people with the highest scores.
+
+
+
+
+
+
+
+
+
 
 There are some data that Evolv simply won’t use, out of a concern that the information might lead to systematic bias against whole classes of people. The distance an employee lives from work, for instance, is never factored into the score given each applicant, although it is reported to some clients. That’s because different neighborhoods and towns can have different racial profiles, which means that scoring distance from work could violate equal-employment-opportunity standards. Marital status? Motherhood? Church membership? “Stuff like that,” Meyerle said, “we just don’t touch”—at least not in the U.S., where the legal environment is strict. Meyerle told me that Evolv has looked into these sorts of factors in its work for clients abroad, and that some of them produce “startling results.” Citing client confidentiality, he wouldn’t say more.
 
@@ -121,16 +127,14 @@ sense of identity and self worth?
 
 in the exploration of this new frontier, there will be many speculations, experiments, trial, errors and it'll be everyday citizens who'll perform the role of guinea pig. There could be real-life dire consequences for those who are seen to fall outside the average, the norm.
 
+
+
+
 On the other hand, many times hiring managers are just looking for a reason to discard your resume to narrow down the talent pool. Anything negative gets you tossed. They see this. Maybe it's a good sign, maybe it's a bad sign. Either way it's something out of the ordinary that will take more time to evaluate. Better just toss the resume. There's still another stack of 100 candidates to go through...
 
 You may even get emails telling you that "your non use of the corporate social media thingo will be looked upon negatively"
 
-
 Freedom of personal information and profiles generated and/or kept by corporate entities and government? Should one be allowed access to their own profile free of charge? Can one have their profile "removed" costs to obtain free info (court docs, FOI, scientific papers).
-
-Will we have to avoid capture of practically all personal data and tracking of our movements and become a digital recluse, just like [RMS][4]? Or will that very act and the forensic evidence it does or conversely, does not leave behind be used against us by our future people analytics algorithmic overlords?
-
-Is such personal intrusion ethically and morally defensible by anyone? Do we even have a right to privacy anymore? Will analytical profiling using the full gamut of day to day personal data of ones activities become commonplace by all and sundry? We already live in a world where automated analysis of this data is used to personally target advertising. We're very quickly approaching a world where automated "people analysis" will be used to determine employability. There is no end to how and where personal profiling can be used in business and law enforcement.
 <br/>
 <br/>
 
@@ -143,6 +147,10 @@ before it was anonymous, now its personal.
 
 #### Coincidence and Correlation over Causation 
 what is the difference? why is it bad?
+
+“(People analytics determines) what makes up successful people, what patterns we can find and how we can use that to find similar people in the future.”
+Um, no.
+
 
 An advantage of having knowledge about causal relationships rather than about statistical associations is that the former enables prediction of the effects of actions that perturb the observed system,” assert Joris M. Mooij, 
 Analysis of big data produces correlates, uncovers trends, calculates probabilities and finds weak bonds between data points, amongst other things. What it does not provide however, is causality. Good programmers publish open source software and watch manga cartoons but is there causality anywhere in this conclusion? distinguishing cause and effect.
@@ -256,6 +264,10 @@ Compliance by law to live and express ones self in a certain way and perform cer
 More and more decisions that affect our lives will be made by profiling algorithms. get used to it. 
 
 Even if we can solve the "causal mechanism problem", is this really a world we want to live in? is it ethical?
+
+Will we have to avoid capture of practically all personal data and tracking of our movements and become a digital recluse, just like [RMS][4]? Or will that very act and the forensic evidence it does or conversely, does not leave behind be used against us by our future people analytics algorithmic overlords?
+
+Is such personal intrusion ethically and morally defensible by anyone? Do we even have a right to privacy anymore? Will analytical profiling using the full gamut of day to day personal data of ones activities become commonplace by anyone and everyone? We already live in a world where automated analysis of this data is used to personally target advertising. We're very quickly approaching a world where automated "people analysis" will be used to determine employability. There is no end to how and where personal profiling can be used in business and law enforcement.
 
 So will we have to carefully craft our personal public brand at all times? Will we end up living in a world where we have to "act" as our profession at all times, both at work and at home, offline and online? Computer might say "yes".
 
