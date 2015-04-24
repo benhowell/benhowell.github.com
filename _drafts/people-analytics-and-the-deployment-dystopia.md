@@ -16,10 +16,10 @@ hn_url:
 <div class="intro">
   <div class="intro-txt">
     <p>
-    Data analytics, at least in the "big data" sense, was once the reserve of Business Intelligence, marketing and speculative trading on the stock market but things are rapidly changing. It's all about to become, well, personal. Very personal indeed.
+    Data analytics, at least in the "big data" sense, was once the reserve of Business Intelligence, marketing and speculative trading on the stock market but things are rapidly changing. For a lot of us, big data is about to become personal. Very personal indeed.
     </p>
     <p>
-    People analytics (sometimes called "workforce analytics"), as the name suggests, is the application of big data sets to create behavioural and social profiles for individual citizens.
+    People analytics (sometimes called "workforce analytics" and "corporate analytics"), as the name suggests, is the application of analytics on big data sets to create behavioural and social profiles for individual people.
     </p>
   </div>
 <div class="intro-img-border">
@@ -119,13 +119,16 @@ Gild plans to let programmers see their own profiles and take skills challenges 
 
 Ultimately, all of these new developments raise philosophical questions. As professional performance becomes easier to measure and see, will we become slaves to our own status and potential, ever-focused on the metrics that tell us how and whether we are measuring up? Will too much knowledge about our limitations hinder achievement and stifle our dreams? 
 
+
+
 Corporate analytics needs to be regulated to allow for a space for privacy and to ensure that people can consent to have their information mined.
 
 will be tracked only for their suitability for their initial jobs, not for their potential.
 
+
 Knowledge is power, if the power only flows one way then there will be control and abuse. The findings of the analytics on any potential employee (hired or not) should required to be share with that person, not only with the employer. For a modest fee (under $100) the analytics company should run that persons numbers through their system to determine the be job matches for them. Only then it can be equitable.
 
-Analysis of big data produces correlates, probabilities and relationships between data points, uncovers trends, etc. 
+
 
 big brother, people analytics, vanilla drone compartmental persona and life, just to be chosen by a corp/employer... otherwise unemployable.
 
@@ -148,8 +151,54 @@ Is such personal intrusion ethically and morally defensible by anyone? Do we eve
 <br/>
 <br/>
 
+
+#### from anonymous marketing to personal intrusion (i.e. marketer doesn't care about the individual per-se, whereas with employers, that's all they care about).
+<br/>
+<br/>
+
+#### Coincidence and Correlation over Causation 
+An advantage of having knowledge about causal relationships rather than about statistical associations is that the former enables prediction of the effects of actions that perturb the observed system,” assert Joris M. Mooij, 
+Analysis of big data produces correlates, uncovers trends, calculates probabilities and finds weak bonds between data points, amongst other things. What it does not provide however, is causality. Good programmers publish open source software and watch manga cartoons but is there causality anywhere in this conclusion? distinguishing cause and effect.
+
+
+Correlations can easily lead one to believe something that is not true. To drive this point home with a bit of humor, a Harvard Law School student and self-proclaimed statistical provocateur named Tyler Vigen (@TylerVigen) started a site called Spurious Correlations. Vigen has shown, for example, that there is an annual correlation between the number of people who have drowned by falling into a swimming pool and the number of films in which Nicolas Cage has appeared and that the divorce rate in Maine correlates to the per capita consumption of margarine in the United States. Unilever, manufacturer of “I Can’t Believe It’s Not Butter!”, and other manufacturers of margarine are pretty certain they are not contributing to broken marriages in Maine. In the following 3-minute video, Vigen does a good job of explaining the difference between correlation and causation without going into any mathematics.
+
+causal mechanism?
+
+if there is no critical research to determine the causal mechanism that underlies correlations in data then there is no reason to believe that the result is mere coincidence.
+
+logically and mathematically determining the difference between correlation and causation is almost impossible. Empirical evidence via repeated observation and experimentation is the only way to tell.
+
+"""
+The inter-combination of Semantic Reasoning and advanced mathematical calculations has the potential to lead to disruptive marketplace capabilities. Avoiding spurious correlations and automatically finding causal factors contained in the mountains of data now being generated each and every day is going to be a game changer in the years ahead.
+"""
+
+random chance can often find a data variable that may appear causal
+
+
+
+http://www.letitrain.com/blog/big-data-correlation-does-not-equal-causation/
+"""
+Google Flu Trends, which aggregates Google searches in an attempt to accurately predict flu activity, experienced a similar conundrum. In a Science magazine article published in March of 2014, researchers from Northeastern University and Harvard reported that Google’s flu-tracking service has consistently overestimated the number of flu cases in the United States. In addition, the algorithm completely missed the swine flu epidemic.
+
+Although the researchers assert that “there are enormous scientific possibilities in big data,” they called Google Flu Trends an example of “big data hubris,” that is described as “the often implicit assumption that big data are a substitute for, rather than a supplement to, traditional data collection and analysis.”
+
+But, this also doesn’t mean that it is entirely coincidental or that correlation doesn’t at least suggest causation. A strong correlation gives us a reason to dig deeper, albeit with a healthy dose of skepticism. Why, because there is a natural human tendency to give in to confirmation bias (a type of selective thinking whereby one tends to notice and look for information that confirms one’s own beliefs). Avoiding this bias requires not only critical thinking, but also actively seeking both supporting and contradictory evidence. Critical thinking and the application of sound scientific methods is something our team of pricing and data scientists take very seriously before formalizing new data sources into our revenue optimization algorithms.
+"""
+
+
+
+
+<br/>
+<br/>
+
 #### Discrimination by proxy
 stuff about non-causality and behavioural profiles leading to discrimination (e.g. the manga thing would naturally discriminate against older workers, by proxy).
+
+
+
+
+
 <br/>
 <br/>
 
@@ -157,6 +206,8 @@ stuff about non-causality and behavioural profiles leading to discrimination (e.
 Compliance by law to live and express ones self in a certain way and perform certain functions as an online citizen being enforced by law is the prototypical dystopian nightmare that provides great material for science fiction. I don't believe that that will be the future for us. More realistically however, I believe there may be a future where a certain uncomfortable level of compliance is subversively enforced by social pressure, due, in part, to corporate algorithms deeming your employable worth if you do not comply. If you think this seems far fetched, just read any thread on any tech forum involving the topic of employment with regard to programmers. An often parroted requirement for employment as a programmer by a range of different people and/or companies is that a prospective employee spend their free time on public "side projects" (github repositories, whatever), as if one's entire life must be spent honing their craft. What about hobbies? Well, programming of course. See profiling and compliance is already happening, albeit analysed manually.
 
 More and more decisions that affect our lives will be made by profiling algorithms. get used to it. 
+
+Even if we can solve the "causal mechanism problem", is this really a world we want to live in? is it ethical?
 
 So will we have to carefully craft our personal public brand at all times? Will we end up living in a world where we have to "act" as our profession at all times, both at work and at home, offline and online? Computer might say "yes".
 
