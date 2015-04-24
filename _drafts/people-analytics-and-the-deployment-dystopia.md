@@ -36,34 +36,13 @@ hn_url:
 <br/>
 <br/>
 
-
-
-
-
-
-
-
-
 #### People Analytics
-what is it? who uses it? what are some example conclusions?
+In [a recent article in the Herald Sun newspaper][1] SCOUT Recruitment Software global business leader Andrea Tjoeng said the process, known as people analytics, could be mainstream in Australia within five years. _"It will be less about perfecting a CV and more about the footprint left behind in cyberspace"_ Ms Tjoeng said. _"If you’re reviewing something on Whirlpool, think how that might be read by a prospective employer. When you are sharing anything about yourself, think whether you would share that information on your first day or in a job interview."_
+
+Well everyone expects that employers will do a little digging online, however, the automated data analytics version is much more sinister.
 
 
 
-
-
-SCOUT Recruitment Software global business leader Andrea Tjoeng said the process, known as people analytics, could be mainstream in Australia within five years.
-
-
-
-In [a recent article in the Herald Sun newspaper][1] SCOUT Recruitment Software global business leader Andrea Tjoeng said:
-
-“It will be less about perfecting a CV and more about the footprint left behind in cyberspace,” she said.
-
-“If you’re reviewing something on Whirlpool, think how that might be read by a prospective employer.
-
-“When you are sharing anything about yourself, think whether you would share that information on your first day or in a job interview.”
-
-Ok, well we sort of expect that employers will do a little digging online, however, the automated data analytics version is much more sinister:
 
 The most common form of people analytics creates a profile of the company’s best employees based on staff surveys then applies the profile to new candidates during the application process to find people who are similar.
 
