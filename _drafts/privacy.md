@@ -6,9 +6,9 @@ tagline: ""
 category: 
 tags: []
 related: []
-article_img: bootstrap/img/qn.png
-article_img_title: Question Mark by Anonymous
-article_img_alt: "An image depicting "
+article_img: bootstrap/img/dystopia.jpg
+article_img_title: Nineteen Eighty-Four by George Orwell
+article_img_alt: "An image from the movie Nineteen Eighty-Four"
 reddit_url:
 hn_url:
 ---
@@ -27,6 +27,9 @@ hn_url:
 </div>
 <br/>
 <br/>
+
+
+http://www.theage.com.au/comment/a-chilling-step-closer-to-australian-secret-police-20150421-1mpgdk.html
 
 
 Humankind is experiencing exponential growth in the rate of collection and use of personal data, and as a consequence, unparalleled erosion of privacy. If we, as private citizens are to get along in the big data age, we'll need to be ever mindful of the digital consequences of our actions and the detailed audit trail those actions leave behind in every aspect of our lives.

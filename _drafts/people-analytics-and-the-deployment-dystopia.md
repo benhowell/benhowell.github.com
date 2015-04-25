@@ -37,11 +37,16 @@ hn_url:
 <br/>
 
 #### People Analytics
-In [a recent article in the Herald Sun newspaper][1] SCOUT Recruitment Software global business leader Andrea Tjoeng said the process, known as people analytics, could be mainstream in Australia within five years. _"It will be less about perfecting a CV and more about the footprint left behind in cyberspace"_ Ms Tjoeng said. _"If you’re reviewing something on Whirlpool, think how that might be read by a prospective employer. When you are sharing anything about yourself, think whether you would share that information on your first day or in a job interview."_
+In [a recent article in the Herald Sun newspaper][1] SCOUT Recruitment Software global business leader Andrea Tjoeng said the process, known as people analytics, could be mainstream in Australia within five years. _"It will be less about perfecting a CV and more about the footprint left behind in cyberspace"_ Ms Tjoeng said.
 
-OK, in this day and age, everyone expects that employers will do some digging online, however, people analytics proves to be much more sinister. In addition to profiling potential employees using external data (public, paid-for, or otherwise), some employers continually profile existing employees using both external data and via analysis of internal social media, internal surveys, email and the like, which is then used to define a prototypical "good employee" profile in order to employ people with similar profiles. 
+OK, in this day and age, everyone expects that employers will do some digging online, however, people analytics proves to be much more sinister. In addition to profiling potential employees using external data (public, paid-for, or otherwise), some employers continually profile existing employees using both external data and via analysis of internal social media, surveys, email and the like, which is then used to define a prototypical "good employee" profile in order to employ people with similar profiles. And if an employee chooses not to use corporate social media or in-house ideation software? Well, I personally know of at least one case where quote: _"Failure to engage with <crowd-sourcing ideation software> can potentially be perceived in a negative light"_. If you're filling out questionaires at work, using the corporate social networking tools (yammer, etc.), crowd-sourcing ideation tools, email, doing surveys, etc, there may be other "unspoken" reasons beyond engaging with employees, namely, personal analysis and profiling. 
 
-Ms Tjoeng goes on to say _"They might look for patterns like having lots of experience in a certain role, or living within a 10km radius of the office, or (whether) that kind of person tends to enjoy researching and doing their own self-guided learning on the weekend"_
+Ms Tjoeng goes on to say _"If you’re reviewing something on Whirlpool, think how that might be read by a prospective employer. When you are sharing anything about yourself, think whether you would share that information on your first day or in a job interview. They might look for patterns like having lots of experience in a certain role, or living within a 10km radius of the office, or (whether) that kind of person tends to enjoy researching and doing their own self-guided learning on the weekend"_.
+
+But really, that's just all tip of the iceburg stuff. According to an article in [The Atlantic][6], the Las Vegas casino Harrah’s tracks the smiles of the card dealers and waitstaff on the floor (its analytics team has quantified the impact of smiling on customer satisfaction) and Bloomberg logs every keystroke of every employee along with every time they enter and leave the premises according to [Business Insider Australia][5]. The people analytics software company [Gild][7] use an algorithm that scours the internet for open-source code in order to profile software engineers, and perhaps alarmingly, the algorithm allegedly evaluates the code for its simplicity, elegance, documentation, and several other factors, including the frequency with which it’s been adopted by other programmers. Stack Overflow is also mined to analyse questions and answers by individuals and the breadth and popularity of that advice. Linkedin and Twitter are mined to analyse the language individuals use, and have decided certain phrases and words used in association with one another distinguishes expert software engineers from less skilled programmers. According to Gild, they _"know these phrases and words are associated with good coding because it can correlate them with its evaluation of open-source code, and with the language and online behavior of programmers in good positions at prestigious companies"_. Gild also has access to data about paid projects and analyse completion times and measures of productivity for the individual. 
+
+
+
 
 
 
@@ -63,14 +68,17 @@ people analytics could also identify triggers for employees leaving their compan
 
 http://www.theatlantic.com/magazine/archive/2013/12/theyre-watching-you-at-work/354681/
 Xerox still interviews all candidates in person before deciding to hire them, Morse told me, but, she added, “We’re getting to the point where some of our hiring managers don’t even want to interview anymore”—they just want to hire the people with the highest scores.
-The Las Vegas casino Harrah’s tracks the smiles of the card dealers and waitstaff on the floor (its analytics team has quantified the impact of smiling on customer satisfaction). E‑mail, of course, presents an especially rich vein to be mined for insights about our productivity, our treatment of co-workers, our willingness to collaborate or lend a hand, our patterns of written language, and what those patterns reveal about our intelligence, social skills, and behavior. As technologies that analyze language become better and cheaper, companies will be able to run programs that automatically trawl through the e-mail traffic of their workforce, looking for phrases or communication patterns that can be statistically associated with various measures of success or failure in particular roles.
+ 
+ 
+E‑mail, of course, presents an especially rich vein to be mined for insights about our productivity, our treatment of co-workers, our willingness to collaborate or lend a hand, our patterns of written language, and what those patterns reveal about our intelligence, social skills, and behavior. 
+As technologies that analyze language become better and cheaper, companies will be able to run programs that automatically trawl through the e-mail traffic of their workforce, looking for phrases or communication patterns that can be statistically associated with various measures of success or failure in particular roles.
 
 
 
 
 
 
-Bloomberg logs every keystroke of every employee along with every time they enter and leave the premises according to [Business Insider Australia][5]. 
+
 
 information might lead to systematic bias against whole classes of people
 
@@ -80,7 +88,7 @@ Perhaps the most exotic development in people analytics today is the creation of
 
 a number of software companies have sprung up in recent years specialising in people analysitcs for the workplace 
 
-if you're filling out questionaires at work, using the corporate social networking tools (yammer, etc.), crowd-sourcing ideation tools, email, doing surveys, etc, there may be other "unspoken" reasons ... they're analysing you. 
+
 
 big brother, people analytics, vanilla drone compartmental persona and life, just to be chosen by a corp/employer... otherwise unemployable.
 
@@ -92,7 +100,7 @@ in the exploration of this new frontier, there will be many speculations, experi
 
 On the other hand, many times hiring managers are just looking for a reason to discard your resume to narrow down the talent pool. Anything negative gets you tossed. They see this. Maybe it's a good sign, maybe it's a bad sign. Either way it's something out of the ordinary that will take more time to evaluate. Better just toss the resume. There's still another stack of 100 candidates to go through...
 
-You may even get emails telling you that "your non use of the corporate social media thingo will be looked upon negatively"
+
 
 Freedom of personal information and profiles generated and/or kept by corporate entities and government? Should one be allowed access to their own profile free of charge? Can one have their profile "removed" costs to obtain free info (court docs, FOI, scientific papers).
 
@@ -105,13 +113,7 @@ Freedom of personal information and profiles generated and/or kept by corporate 
 
 Next to each pin was a number that ranked the quality of each coder on a scale of one to 100, based on the mix of skills Atlantic Media was looking for. (No one with a score above 75, we were told, had ever failed a coding test by a Gild client.) 
 
-The way Gild arrives at these scores is not simple. The company’s algorithms begin by scouring the Web for any and all open-source code, and for the coders who wrote it. They evaluate the code for its simplicity, elegance, documentation, and several other factors, including the frequency with which it’s been adopted by other programmers. For code that was written for paid projects, they look at completion times and other measures of productivity. Then they look at questions and answers on social forums such as Stack Overflow, a popular destination for programmers seeking advice on challenging projects. They consider how popular a given coder’s advice is, and how widely that advice ranges.
 
-The algorithms go further still. They assess the way coders use language on social networks from LinkedIn to Twitter; the company has determined that certain phrases and words used in association with one another can distinguish expert programmers from less skilled ones. Gild knows these phrases and words are associated with good coding because it can correlate them with its evaluation of open-source code, and with the language and online behavior of programmers in good positions at prestigious companies.
-
-Here’s the part that’s most interesting: having made those correlations, Gild can then score programmers who haven’t written open-source code at all, by analyzing the host of clues embedded in their online histories. They’re not all obvious, or easy to explain. Vivienne Ming, Gild’s chief scientist, told me that one solid predictor of strong coding is an affinity for a particular Japanese manga site.
-
-Why would good coders (but not bad ones) be drawn to a particular manga site? By some mysterious alchemy, does reading a certain comic-book series improve one’s programming skills? “Obviously, it’s not a causal relationship,” Ming told me. But Gild does have 6 million programmers in its database, she said, and the correlation, even if inexplicable, is quite clear.
 
 These aspects of people analytics provoke anxiety, of course. We would be wise to take legal measures to ensure, at a minimum, that companies can’t snoop where we have a reasonable expectation of privacy—and that any evaluations they might make of our professional potential aren’t based on factors that discriminate against classes of people.
 
@@ -276,3 +278,5 @@ So will we have to carefully craft our personal public brand at all times? Will 
 [3]:http://www.washingtonpost.com/blogs/the-switch/wp/2015/03/11/privacy-advocates-try-to-keep-creepy-eavesdropping-hello-barbie-from-hitting-shelves
 [4]:https://stallman.org/stallman-computing.html
 [5]:http://www.businessinsider.com.au/bloomberg-scandal-culture-secrecy-spying-2013-5
+[6]:http://www.theatlantic.com/magazine/archive/2013/12/theyre-watching-you-at-work/354681/
+[7]:https://www.gild.com/
