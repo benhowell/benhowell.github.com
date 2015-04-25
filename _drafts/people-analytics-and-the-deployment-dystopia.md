@@ -228,6 +228,8 @@ Will we have to avoid capture of practically all personal data and tracking of o
 Is such personal intrusion ethically and morally defensible by anyone? Do we even have a right to privacy anymore? Will analytical profiling using the full gamut of day to day personal data of ones activities become commonplace by anyone and everyone? We already live in a world where automated analysis of this data is used to personally target advertising. We're very quickly approaching a world where automated "people analysis" will be used to determine employability. There is no end to how and where personal profiling can be used in business and law enforcement.
 
 So will we have to carefully craft our personal public brand at all times? Will we end up living in a world where we have to "act" as our profession at all times, both at work and at home, offline and online? Computer might say "yes".
+<br/>
+<br/>
 
 
 
