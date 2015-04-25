@@ -19,7 +19,7 @@ hn_url:
     Data analytics, at least in the "big data" sense, was once the reserve of Business Intelligence, marketing and speculative trading on the stock market but things are rapidly changing. For a lot of us, big data is about to become personal. Very personal indeed.
     </p>
     <p>
-    People analytics (also referred to as workforce analytics and corporate analytics), as the name suggests, is the application of analytics on big data sets to create behavioural and social profiles for individual people.
+    People analytics (also referred to as workforce analytics and corporate analytics when applied to people management), as the name suggests, is the application of analytics on big data sets to create behavioural and social profiles for individual people.
     </p>
     <p>
     Recruitment firms and some large employers are already using people analytics to qualify prospective candidates and some even have dedicated workforce analytics teams to monitor and analyse the activities of their employees, as well as those of prospective employees. As with all things, the endless march of information technology is set to see this trend trickle down to all levels of employment in the future.
@@ -39,54 +39,71 @@ hn_url:
 #### People Analytics
 In [a recent article in the Herald Sun newspaper][1] SCOUT Recruitment Software global business leader Andrea Tjoeng said the process, known as people analytics, could be mainstream in Australia within five years. _"It will be less about perfecting a CV and more about the footprint left behind in cyberspace"_ Ms Tjoeng said. _"If you’re reviewing something on Whirlpool, think how that might be read by a prospective employer. When you are sharing anything about yourself, think whether you would share that information on your first day or in a job interview."_
 
-OK, in this day and age, everyone expects that employers will do a little digging online, however, people analytics proves to be much more sinister. In addition to profiling existing employees via analysis of internal social media, internal surveys, email and the like, people analytics often utilise a lot of external data as well (public, paid-for, or otherwise), in turn using prototypical "good employee" profiles to employ people with similar profiles.
+OK, in this day and age, everyone expects that employers will do some digging online, however, people analytics proves to be much more sinister. In addition to profiling potential employees using external data (public, paid-for, or otherwise), some employers continually profile existing employees using both external data and via analysis of internal social media, internal surveys, email and the like, which is then used to define a prototypical "good employee" profile in order to employ people with similar profiles. 
+
+Ms Tjoeng goes on to say _"They might look for patterns like having lots of experience in a certain role, or living within a 10km radius of the office, or (whether) that kind of person tends to enjoy researching and doing their own self-guided learning on the weekend"_
+
+
+
+
+
 
 ...
 
 
-“They might look for patterns like having lots of experience in a certain role, or living within a 10km radius of the office, or (whether) that kind of person tends to enjoy researching and doing their own self-guided learning on the weekend,” Ms Tjoeng said.
+data collected for employee profiles might not be in our control. it wont be. and neither will the analysis algorithms used. should the employer be able to explain the selection process if it is influenced by a complex algorithm?
 
+positive and negative social effects of reducing jobseekers down to a number from an algorithm
 
-There are predicted to be both positive and negative social effects of reducing jobseekers down to a number from an algorithm.
-Ms Tjoeng said the process had led to a lack of employee diversity in Silicon Valley.
+lack of employee diversity
 
-“Big data showed previous experience had no bearing on whether an employee was going to succeed at xerox. It was more about cultural fit and how close they live to the office,” Ms Tjoeng said.
+far beyond resumes. digital footprints.
 
-Big data can include keywords in resumes and answers on company questionnaires but increasingly, digital footprints also contribute.
-Ms Tjoeng said a lot of the data collected for employee profiles might not be in our control.
-“Assume any information you are sharing online, even if it is not public now, in a few years it will be,” she said.
-“This is a natural evolution as our technology improves and we become more comfortable sharing our lives online.”
+people analytics could also identify triggers for employees leaving their company, such as time served or reaching a certain level.
 
-Hays director Darren Buchanan said big data and people analytics could also identify triggers for employees leaving their company, such as time served or reaching a certain level.
-“It can be used as a flag to take some action, change behaviour or put in support structures to help people get through that period or help them take the next step forward to where they want to go,” he says.
-Mr Buchanan said big data should not be used in isolation but as an extra tool to build a bigger picture.
-“Like psychometric testing … (people analytics) is a component of the recruitment process rather than the be all and end all of it,” he said.
-“It will never replace personal interactions.”
-
+http://www.theatlantic.com/magazine/archive/2013/12/theyre-watching-you-at-work/354681/
 Xerox still interviews all candidates in person before deciding to hire them, Morse told me, but, she added, “We’re getting to the point where some of our hiring managers don’t even want to interview anymore”—they just want to hire the people with the highest scores.
+The Las Vegas casino Harrah’s tracks the smiles of the card dealers and waitstaff on the floor (its analytics team has quantified the impact of smiling on customer satisfaction). E‑mail, of course, presents an especially rich vein to be mined for insights about our productivity, our treatment of co-workers, our willingness to collaborate or lend a hand, our patterns of written language, and what those patterns reveal about our intelligence, social skills, and behavior. As technologies that analyze language become better and cheaper, companies will be able to run programs that automatically trawl through the e-mail traffic of their workforce, looking for phrases or communication patterns that can be statistically associated with various measures of success or failure in particular roles.
 
 
 
 
 
 
+Bloomberg logs every keystroke of every employee along with every time they enter and leave the premises according to [Business Insider Australia][5]. 
 
+information might lead to systematic bias against whole classes of people
 
-
-
-There are some data that Evolv simply won’t use, out of a concern that the information might lead to systematic bias against whole classes of people. The distance an employee lives from work, for instance, is never factored into the score given each applicant, although it is reported to some clients. That’s because different neighborhoods and towns can have different racial profiles, which means that scoring distance from work could violate equal-employment-opportunity standards. Marital status? Motherhood? Church membership? “Stuff like that,” Meyerle said, “we just don’t touch”—at least not in the U.S., where the legal environment is strict. Meyerle told me that Evolv has looked into these sorts of factors in its work for clients abroad, and that some of them produce “startling results.” Citing client confidentiality, he wouldn’t say more.
-
-For a sense of what the future of people analytics may bring, I turned to Sandy Pentland, the director of the Human Dynamics Laboratory at MIT. In recent years, Pentland has pioneered the use of specialized electronic “badges” that transmit data about employees’ interactions as they go about their days. The badges capture all sorts of information about formal and informal conversations: their length; the tone of voice and gestures of the people involved; how much those people talk, listen, and interrupt; the degree to which they demonstrate empathy and extroversion; and more. Each badge generates about 100 data points a minute.
-
-Bloomberg reportedly logs every keystroke of every employee, along with their comings and goings in the office. The Las Vegas casino Harrah’s tracks the smiles of the card dealers and waitstaff on the floor (its analytics team has quantified the impact of smiling on customer satisfaction). E‑mail, of course, presents an especially rich vein to be mined for insights about our productivity, our treatment of co-workers, our willingness to collaborate or lend a hand, our patterns of written language, and what those patterns reveal about our intelligence, social skills, and behavior. As technologies that analyze language become better and cheaper, companies will be able to run programs that automatically trawl through the e-mail traffic of their workforce, looking for phrases or communication patterns that can be statistically associated with various measures of success or failure in particular roles.
+different neighborhoods and towns can have different racial profiles
 
 Perhaps the most exotic development in people analytics today is the creation of algorithms to assess the potential of all workers, across all companies, all the time.
 
+a number of software companies have sprung up in recent years specialising in people analysitcs for the workplace 
 
-https://www.gild.com/
-what others?
+if you're filling out questionaires at work, using the corporate social networking tools (yammer, etc.), crowd-sourcing ideation tools, email, doing surveys, etc, there may be other "unspoken" reasons ... they're analysing you. 
 
-In a small conference room, we were shown a digital map of Northwest Washington, D.C., home to The Atlantic. Little red pins identified all the coders in the area who were proficient in the skills that an Atlantic Media job announcement listed as essential. Next to each pin was a number that ranked the quality of each coder on a scale of one to 100, based on the mix of skills Atlantic Media was looking for. (No one with a score above 75, we were told, had ever failed a coding test by a Gild client.) If we’d wished, we could have zoomed in to see how The Atlantic’s own coders scored.
+big brother, people analytics, vanilla drone compartmental persona and life, just to be chosen by a corp/employer... otherwise unemployable.
+
+Code for "be a good drone, do not step outside your stall, work is your life, don't have an independent thought" It's a good thing I have given up any ambition to stick my head up any bosses butt on the corporate ladder. The sad thing is I actually thought about whether to post this or not.
+
+sense of identity and self worth?
+
+in the exploration of this new frontier, there will be many speculations, experiments, trial, errors and it'll be everyday citizens who'll perform the role of guinea pig. There could be real-life dire consequences for those who are seen to fall outside the average, the norm.
+
+On the other hand, many times hiring managers are just looking for a reason to discard your resume to narrow down the talent pool. Anything negative gets you tossed. They see this. Maybe it's a good sign, maybe it's a bad sign. Either way it's something out of the ordinary that will take more time to evaluate. Better just toss the resume. There's still another stack of 100 candidates to go through...
+
+You may even get emails telling you that "your non use of the corporate social media thingo will be looked upon negatively"
+
+Freedom of personal information and profiles generated and/or kept by corporate entities and government? Should one be allowed access to their own profile free of charge? Can one have their profile "removed" costs to obtain free info (court docs, FOI, scientific papers).
+
+
+
+
+
+
+
+
+Next to each pin was a number that ranked the quality of each coder on a scale of one to 100, based on the mix of skills Atlantic Media was looking for. (No one with a score above 75, we were told, had ever failed a coding test by a Gild client.) 
 
 The way Gild arrives at these scores is not simple. The company’s algorithms begin by scouring the Web for any and all open-source code, and for the coders who wrote it. They evaluate the code for its simplicity, elegance, documentation, and several other factors, including the frequency with which it’s been adopted by other programmers. For code that was written for paid projects, they look at completion times and other measures of productivity. Then they look at questions and answers on social forums such as Stack Overflow, a popular destination for programmers seeking advice on challenging projects. They consider how popular a given coder’s advice is, and how widely that advice ranges.
 
@@ -95,10 +112,6 @@ The algorithms go further still. They assess the way coders use language on soci
 Here’s the part that’s most interesting: having made those correlations, Gild can then score programmers who haven’t written open-source code at all, by analyzing the host of clues embedded in their online histories. They’re not all obvious, or easy to explain. Vivienne Ming, Gild’s chief scientist, told me that one solid predictor of strong coding is an affinity for a particular Japanese manga site.
 
 Why would good coders (but not bad ones) be drawn to a particular manga site? By some mysterious alchemy, does reading a certain comic-book series improve one’s programming skills? “Obviously, it’s not a causal relationship,” Ming told me. But Gild does have 6 million programmers in its database, she said, and the correlation, even if inexplicable, is quite clear.
-
-http://www.theatlantic.com/magazine/archive/2013/12/theyre-watching-you-at-work/354681/
-
-if you're filling out questionaires at work, using the corporate social networking tools (yammer, etc.), crowd-sourcing ideation tools, email, doing surveys, etc, there may be other "unspoken" reasons ... they're analysing you. 
 
 These aspects of people analytics provoke anxiety, of course. We would be wise to take legal measures to ensure, at a minimum, that companies can’t snoop where we have a reasonable expectation of privacy—and that any evaluations they might make of our professional potential aren’t based on factors that discriminate against classes of people.
 
@@ -110,31 +123,17 @@ Ultimately, all of these new developments raise philosophical questions. As prof
 
 
 
+
+
 Corporate analytics needs to be regulated to allow for a space for privacy and to ensure that people can consent to have their information mined.
 
 will be tracked only for their suitability for their initial jobs, not for their potential.
-
 
 Knowledge is power, if the power only flows one way then there will be control and abuse. The findings of the analytics on any potential employee (hired or not) should required to be share with that person, not only with the employer. For a modest fee (under $100) the analytics company should run that persons numbers through their system to determine the be job matches for them. Only then it can be equitable.
 
 
 
-big brother, people analytics, vanilla drone compartmental persona and life, just to be chosen by a corp/employer... otherwise unemployable.
 
-Code for "be a good drone, do not step outside your stall, work is your life, don't have an independent thought" It's a good thing I have given up any ambition to stick my head up any bosses butt on the corporate ladder. The sad thing is I actually thought about whether to post this or not.
-
-sense of identity and self worth?
-
-in the exploration of this new frontier, there will be many speculations, experiments, trial, errors and it'll be everyday citizens who'll perform the role of guinea pig. There could be real-life dire consequences for those who are seen to fall outside the average, the norm.
-
-
-
-
-On the other hand, many times hiring managers are just looking for a reason to discard your resume to narrow down the talent pool. Anything negative gets you tossed. They see this. Maybe it's a good sign, maybe it's a bad sign. Either way it's something out of the ordinary that will take more time to evaluate. Better just toss the resume. There's still another stack of 100 candidates to go through...
-
-You may even get emails telling you that "your non use of the corporate social media thingo will be looked upon negatively"
-
-Freedom of personal information and profiles generated and/or kept by corporate entities and government? Should one be allowed access to their own profile free of charge? Can one have their profile "removed" costs to obtain free info (court docs, FOI, scientific papers).
 <br/>
 <br/>
 
@@ -276,3 +275,4 @@ So will we have to carefully craft our personal public brand at all times? Will 
 [2]:http://www.thedailybeast.com/articles/2015/02/05/your-samsung-smarttv-is-spying-on-you-basically.html
 [3]:http://www.washingtonpost.com/blogs/the-switch/wp/2015/03/11/privacy-advocates-try-to-keep-creepy-eavesdropping-hello-barbie-from-hitting-shelves
 [4]:https://stallman.org/stallman-computing.html
+[5]:http://www.businessinsider.com.au/bloomberg-scandal-culture-secrecy-spying-2013-5
