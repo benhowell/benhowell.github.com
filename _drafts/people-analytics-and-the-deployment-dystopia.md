@@ -43,106 +43,46 @@ OK, in this day and age, everyone expects that employers will do some digging on
 
 Ms Tjoeng goes on to say _"If you’re reviewing something on Whirlpool, think how that might be read by a prospective employer. When you are sharing anything about yourself, think whether you would share that information on your first day or in a job interview. They might look for patterns like having lots of experience in a certain role, or living within a 10km radius of the office, or (whether) that kind of person tends to enjoy researching and doing their own self-guided learning on the weekend"_.
 
-But really, that's just all tip of the iceburg stuff. According to an article in [The Atlantic][6], the Las Vegas casino Harrah’s tracks the smiles of the card dealers and waitstaff on the floor (its analytics team has quantified the impact of smiling on customer satisfaction) and Bloomberg logs every keystroke of every employee along with every time they enter and leave the premises according to [Business Insider Australia][5]. The people analytics software company [Gild][7] use an algorithm that scours the internet for open-source code in order to profile software engineers, and perhaps alarmingly, the algorithm allegedly evaluates the code for its simplicity, elegance, documentation, and several other factors, including the frequency with which it’s been adopted by other programmers. Stack Overflow is also mined to analyse questions and answers by individuals and the breadth and popularity of that advice. Linkedin and Twitter are mined to analyse the language individuals use, and have decided certain phrases and words used in association with one another distinguishes expert software engineers from less skilled programmers. According to Gild, they _"know these phrases and words are associated with good coding because it can correlate them with its evaluation of open-source code, and with the language and online behavior of programmers in good positions at prestigious companies"_. Gild also has access to data about paid projects and analyse completion times and measures of productivity for the individual. 
+But really, that's just all tip of the iceburg stuff. According to an article in [The Atlantic][6], the Las Vegas casino Harrah’s tracks the smiles of the card dealers and waitstaff on the floor (its analytics team has quantified the impact of smiling on customer satisfaction) and Bloomberg logs every keystroke of every employee along with every time they enter and leave the premises according to [Business Insider Australia][5]. The people analytics software company [Gild][7] use an algorithm that scours the internet for open-source code in order to profile software engineers, and perhaps more alarmingly, the algorithm allegedly evaluates the code for its simplicity, elegance, documentation, and several other factors, including the frequency with which it’s been adopted by other programmers. Stack Overflow is also mined to analyse questions and answers by individuals and the breadth and popularity of that advice. Linkedin and Twitter are mined to analyse the language individuals use, and have decided certain phrases and words used in association with one another distinguishes expert software engineers from less skilled programmers. According to Gild, they _"know these phrases and words are associated with good coding because it can correlate them with its evaluation of open-source code, and with the language and online behavior of programmers in good positions at prestigious companies"_. Gild also has access to data about paid projects and analyse completion times and measures of productivity for the individual[^1].
+
+There are many other management focussed analytics companies like Gild out there and who knows what data they may be using, how their algorithms analyse that data and what "score" you end up with. Data collected about us and the profiles created from that data are not in our control. We do not know how the analysis is performed by proprietry algorithms. Should we expect our employers to be able to explain the selection process for a job or subjective performance reviews if it is influenced or determined by a complex algorithm? Is it fair and just to be reduced to a "score"? Is it OK to hire and deploy those with the highest scores and entirely bypass the interview process altogether?
 
 
+because they’ve been unusually active on their professional-networking sites, or because there’s been an exodus from their corner of their company, or because their company’s stock is tanking
 
 
+<br/>
+<br/>
 
-
-
-
-
-...
-
-
-data collected for employee profiles might not be in our control. it wont be. and neither will the analysis algorithms used. should the employer be able to explain the selection process if it is influenced by a complex algorithm?
-
-positive and negative social effects of reducing jobseekers down to a number from an algorithm
-
-lack of employee diversity
-
-far beyond resumes. digital footprints.
-
-people analytics could also identify triggers for employees leaving their company, such as time served or reaching a certain level.
-
-http://www.theatlantic.com/magazine/archive/2013/12/theyre-watching-you-at-work/354681/
-Xerox still interviews all candidates in person before deciding to hire them, Morse told me, but, she added, “We’re getting to the point where some of our hiring managers don’t even want to interview anymore”—they just want to hire the people with the highest scores.
- 
- 
-E‑mail, of course, presents an especially rich vein to be mined for insights about our productivity, our treatment of co-workers, our willingness to collaborate or lend a hand, our patterns of written language, and what those patterns reveal about our intelligence, social skills, and behavior. 
-As technologies that analyze language become better and cheaper, companies will be able to run programs that automatically trawl through the e-mail traffic of their workforce, looking for phrases or communication patterns that can be statistically associated with various measures of success or failure in particular roles.
-
-
-
-
-
-
-
-
+#### Systematic Bias
 information might lead to systematic bias against whole classes of people
-
 different neighborhoods and towns can have different racial profiles
-
-Perhaps the most exotic development in people analytics today is the creation of algorithms to assess the potential of all workers, across all companies, all the time.
-
-a number of software companies have sprung up in recent years specialising in people analysitcs for the workplace 
-
-
-
-big brother, people analytics, vanilla drone compartmental persona and life, just to be chosen by a corp/employer... otherwise unemployable.
-
-Code for "be a good drone, do not step outside your stall, work is your life, don't have an independent thought" It's a good thing I have given up any ambition to stick my head up any bosses butt on the corporate ladder. The sad thing is I actually thought about whether to post this or not.
-
-sense of identity and self worth?
 
 in the exploration of this new frontier, there will be many speculations, experiments, trial, errors and it'll be everyday citizens who'll perform the role of guinea pig. There could be real-life dire consequences for those who are seen to fall outside the average, the norm.
 
 On the other hand, many times hiring managers are just looking for a reason to discard your resume to narrow down the talent pool. Anything negative gets you tossed. They see this. Maybe it's a good sign, maybe it's a bad sign. Either way it's something out of the ordinary that will take more time to evaluate. Better just toss the resume. There's still another stack of 100 candidates to go through...
 
 
+sense of identity and self worth?
+<br/>
+<br/>
 
+
+
+#### Rights to privacy and freedom of information
 Freedom of personal information and profiles generated and/or kept by corporate entities and government? Should one be allowed access to their own profile free of charge? Can one have their profile "removed" costs to obtain free info (court docs, FOI, scientific papers).
 
-
-
-
-
-
-
-
-Next to each pin was a number that ranked the quality of each coder on a scale of one to 100, based on the mix of skills Atlantic Media was looking for. (No one with a score above 75, we were told, had ever failed a coding test by a Gild client.) 
-
-
-
 These aspects of people analytics provoke anxiety, of course. We would be wise to take legal measures to ensure, at a minimum, that companies can’t snoop where we have a reasonable expectation of privacy—and that any evaluations they might make of our professional potential aren’t based on factors that discriminate against classes of people.
-
-But there is another side to this. People analytics will unquestionably provide many workers with more options and more power. Gild, for example, helps companies find undervalued software programmers, working indirectly to raise those people’s pay. Other companies are doing similar work. One called Entelo, for instance, specializes in using algorithms to identify potentially unhappy programmers who might be receptive to a phone call (because they’ve been unusually active on their professional-networking sites, or because there’s been an exodus from their corner of their company, or because their company’s stock is tanking). As with Gild, the service benefits the worker as much as the would-be employer.
-
-Gild plans to let programmers see their own profiles and take skills challenges to try to improve their scores. 
-
-Ultimately, all of these new developments raise philosophical questions. As professional performance becomes easier to measure and see, will we become slaves to our own status and potential, ever-focused on the metrics that tell us how and whether we are measuring up? Will too much knowledge about our limitations hinder achievement and stifle our dreams? 
-
-
-
-
 
 Corporate analytics needs to be regulated to allow for a space for privacy and to ensure that people can consent to have their information mined.
 
 will be tracked only for their suitability for their initial jobs, not for their potential.
 
+
 Knowledge is power, if the power only flows one way then there will be control and abuse. The findings of the analytics on any potential employee (hired or not) should required to be share with that person, not only with the employer. For a modest fee (under $100) the analytics company should run that persons numbers through their system to determine the be job matches for them. Only then it can be equitable.
-
-
-
-
-<br/>
-<br/>
-
 
 from anonymous marketing to personal intrusion (i.e. marketer doesn't care about the individual per-se, whereas with employers, that's all they care about).
 before it was anonymous, now its personal.
-
 <br/>
 <br/>
 
@@ -260,6 +200,23 @@ Correlations are used in Bell's theorem to disprove local causality.
 #### Behavioural and Social Compliance
 conclusion
 
+positive and negative social effects of reducing jobseekers down to a number from an algorithm
+lack of employee diversity
+far beyond resumes. digital footprints.
+
+Email is mined, and by using [Natural Language Processing (NLP)][8] of varying sophistication, judgements are made about our behavior and social skills, and statistical correlates used to determine intelligence and probabilities of success or failure for particular tasks. 
+
+
+Perhaps the most exotic development in people analytics today is the creation of algorithms to assess the potential of all workers, across all companies, all the time.
+
+
+big brother, people analytics, vanilla drone compartmental persona and life, just to be chosen by a corp/employer... otherwise unemployable.
+
+Code for "be a good drone, do not step outside your stall, work is your life, don't have an independent thought" It's a good thing I have given up any ambition to stick my head up any bosses butt on the corporate ladder. The sad thing is I actually thought about whether to post this or not.
+
+
+
+
 Compliance by law to live and express ones self in a certain way and perform certain functions as an online citizen being enforced by law is the prototypical dystopian nightmare that provides great material for science fiction. I don't believe that that will be the future for us. More realistically however, I believe there may be a future where a certain uncomfortable level of compliance is subversively enforced by social pressure, due, in part, to corporate algorithms deeming your employable worth if you do not comply. If you think this seems far fetched, just read any thread on any tech forum involving the topic of employment with regard to programmers. An often parroted requirement for employment as a programmer by a range of different people and/or companies is that a prospective employee spend their free time on public "side projects" (github repositories, whatever), as if one's entire life must be spent honing their craft. What about hobbies? Well, programming of course. See profiling and compliance is already happening, albeit analysed manually.
 
 More and more decisions that affect our lives will be made by profiling algorithms. get used to it. 
@@ -273,6 +230,12 @@ Is such personal intrusion ethically and morally defensible by anyone? Do we eve
 So will we have to carefully craft our personal public brand at all times? Will we end up living in a world where we have to "act" as our profession at all times, both at work and at home, offline and online? Computer might say "yes".
 
 
+
+
+#### Notes
+[^1]: Gild ranks the quality of each programmer they analyse on a scale of 1 to 100.
+
+
 [1]:http://www.heraldsun.com.au/business/work/job-seekers-need-to-clean-up-their-digital-footprint-as-recruiters-look-through-computer-data/story-fnkjjdf8-1227299058334
 [2]:http://www.thedailybeast.com/articles/2015/02/05/your-samsung-smarttv-is-spying-on-you-basically.html
 [3]:http://www.washingtonpost.com/blogs/the-switch/wp/2015/03/11/privacy-advocates-try-to-keep-creepy-eavesdropping-hello-barbie-from-hitting-shelves
@@ -280,3 +243,4 @@ So will we have to carefully craft our personal public brand at all times? Will 
 [5]:http://www.businessinsider.com.au/bloomberg-scandal-culture-secrecy-spying-2013-5
 [6]:http://www.theatlantic.com/magazine/archive/2013/12/theyre-watching-you-at-work/354681/
 [7]:https://www.gild.com/
+[8]:http://en.wikipedia.org/wiki/Natural_language_processing
