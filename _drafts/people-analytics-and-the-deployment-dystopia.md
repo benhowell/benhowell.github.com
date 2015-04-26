@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "People Analytics and the Deployment Dystopia"
+title: "People Analytics and the big data Dystopia"
 description: "The dystopian future and the transition from freedom and employment to compliance and deployment thanks to big data and people analytics."
 tagline: "future"
 category: future
-tags: [future, big data, analytics, IoT, employment, big brother, privacy, anonymity, freedom, compliance]
+tags: [future, big data, analytics, employment, big brother, privacy, anonymity, compliance]
 related: [Step Away From the Kool Aid, Your Financial History. Your Business.]
 article_img: bootstrap/img/dystopia.jpg
 article_img_title: Nineteen Eighty-Four by George Orwell
@@ -211,11 +211,13 @@ Correlations are used in Bell's theorem to disprove local causality.
 #### Behavioural and Social Compliance
 Compliance by law to live and express ones self in a certain way and perform certain functions as an online citizen being enforced by law is the prototypical dystopian nightmare that provides great material for science fiction. I don't believe that that will be the future for us. More realistically however, I believe there may be a future where a certain uncomfortable level of compliance is subversively enforced by social pressure, due, in part, to corporate algorithms deeming your employable worth if you do not comply. 
 
-In any form of real world analysis, finding correlations in data (big, disparate or otherwise) is only the _starting_ point of research, the process thereafter needs to establish whether there is a causal relationship or mere coincidence. People analytics is being sold as a turn-key solution to recruitment and human resources and is being touted as a substitute for, rather than a supplement to, observation and analysis, however, it provides no causality and no solid reasoning to backup any "score" it provides on an individual. Even if we can solve the "causal mechanism problem", is this really a world we want to live in? is it ethical? What are the negative social effects of reducing people to numbers calculated by an algorithm? Will people analytics result in a lack of employee diversity? Will analytical profiling become commonplace by anyone and everyone? Will we look upon our peers as simply a number? Am I negatively affecting my "score" by publishing this article?
+In any form of real world analysis, finding correlations in data (big, disparate or otherwise) is only the _starting_ point of research, the process thereafter needs to establish whether there is a causal relationship or mere coincidence. People analytics is being sold as a turn-key solution to recruitment and human resources and is being touted as a substitute for, rather than a supplement to, observation and analysis, however, it provides no causality and no solid reasoning to backup any "score" it provides on an individual. 
 
-What makes people analytics especially repugnant is the vast amount of "corporate stalking" it engages in, its baseless conclusions drawn as a result of that stalking and its apparent acceptance in human resources as if it is a normal business process. The day will come where there will be an omni-present, ever churning array of algorithms watching, speculating, and calculating the value of all employees, across all companies, all of the time. The message? 
+Even if we can solve the "causal mechanism problem", is this really a world we want to live in? What are the negative social effects of reducing people to numbers calculated by an algorithm? Will people analytics result in a lack of employee diversity? Am I negatively affecting my "score" by publishing this article?
 
-Keep your head down, do your work, agree with the group, work is life.
+What makes people analytics especially repugnant is the vast amount of "corporate stalking" it engages in and its apparent acceptance in human resources as if it is a normal business process. 
+
+The day will come where there will be an omni-present, ever churning array of algorithms watching, speculating, and calculating the value of all employees, across all companies, all of the time. The message? Keep your head down, do your work, agree with the group, work is life.
 <br/>
 <br/>
 
