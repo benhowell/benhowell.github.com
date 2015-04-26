@@ -209,13 +209,13 @@ Correlations are used in Bell's theorem to disprove local causality.
 <br/>
 
 #### Behavioural and Social Compliance
-In any form of real world analysis, finding correlations in data (big, disparate or otherwise) is only the _starting_ point of research, the process thereafter needs to establish whether those correlations present a causal relationship or mere coincidence. People analytics is being sold as a turn-key solution to recruitment and human resources and is being touted as a substitute for, rather than a supplement to, observation and analysis, however, it provides no causality and no solid reasoning to backup any "score" it provides on an individual. 
+In any form of real world analysis, finding correlations in data (big, disparate or otherwise) is only the _starting point_ of research, the process thereafter needs to establish whether those correlations present a causal relationship or mere coincidence. People analytics is being sold as a turn-key solution to recruitment and human resources and is being touted as a substitute for, rather than a supplement to, observation and analysis whilst lacking any solid reasoning to backup any "score" it provides on an individual.
 
 Even if we can solve the "causal mechanism problem", is this really a world we want to live in? What are the negative social effects of reducing people to numbers calculated by an algorithm? Will people analytics result in a lack of employee diversity? Am I negatively affecting my "score" by publishing this article?
 
-What makes people analytics especially repugnant is the vast amount of "corporate stalking" it engages in and its apparent acceptance in human resources as if it is a normal business process. 
+What makes people analytics especially repugnant is the vast amount of "corporate stalking" it engages in and its apparent acceptance in human resources as if it is a normal business process. The day will come where there will be an omni-present, ever churning array of algorithms watching and calculating the value of all employees, across all companies, all of the time. 
 
-The day will come where there will be an omni-present, ever churning array of algorithms watching, speculating, and calculating the value of all employees, across all companies, all of the time. The message? Keep your head down, do your work, agree with the group, work is life.
+The message? Keep your head down, do your work, agree with the group, work is life.
 <br/>
 <br/>
 
