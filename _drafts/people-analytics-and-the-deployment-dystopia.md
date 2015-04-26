@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "People Analytics and the big data Dystopia"
+title: "People Analytics and the Big Data Dystopia"
 description: "The dystopian future and the transition from freedom and employment to compliance and deployment thanks to big data and people analytics."
 tagline: "future"
 category: future
@@ -39,7 +39,7 @@ hn_url:
 #### People Analytics
 In [a recent article in the Herald Sun newspaper][1] SCOUT Recruitment Software global business leader Andrea Tjoeng said the process, known as people analytics, could be mainstream in Australia within five years. _"It will be less about perfecting a CV and more about the footprint left behind in cyberspace"_ Ms Tjoeng said.
 
-OK, in this day and age, everyone expects that employers will do some digging online, however, people analytics proves to be much more sinister. In addition to profiling potential employees using external data (public, paid-for, or otherwise), some employers continually profile existing employees using both external data and via analysis of internal social media, surveys, email and the like, which is then used to define a prototypical "good employee" profile in order to employ people with similar profiles. And if an employee chooses not to use corporate social software? I personally know of at least one case where employees were told: _"Failure to engage with [crowd-sourcing ideation software] can potentially be perceived in a negative light"_. 
+OK, in this day and age, everyone expects that employers will do some digging online, however, people analytics proves to be much more sinister. In addition to profiling potential employees using external data (public, paid-for, or otherwise), some employers continually profile existing employees using both external data and via analysis of internal social media, surveys, and the like, which is then used to define a prototypical "good employee" profile in order to employ people with similar profiles. And if an employee chooses not to use corporate social software? I personally know of at least one case where employees were told: _"Failure to engage with [crowd-sourcing ideation software] can potentially be perceived in a negative light"_. Email is mined, and by using [Natural Language Processing (NLP)][8] of varying sophistication, judgements are made about our behavior and social skills, and statistical correlates used to determine intelligence and probabilities of success or failure for particular tasks.
 
 The bottom line is this: if you're filling out questionaires at work, using the corporate social networking tools (yammer, etc.), crowd-sourcing ideation tools, using email, doing surveys, what have you, there may be other "unspoken" reasons beyond engaging with employees, namely, personal analysis and profiling. 
 
@@ -47,13 +47,9 @@ Ms Tjoeng goes on to say _"If you’re reviewing something on Whirlpool, think h
 
 But really, that's all just tip of the iceburg stuff. According to an article in [The Atlantic][6], the Las Vegas casino Harrah’s tracks the smiles of the card dealers and waitstaff on the floor (its analytics team has quantified the impact of smiling on customer satisfaction) and Bloomberg logs every keystroke of every employee along with every time they enter and leave the premises according to [Business Insider Australia][5]. The people analytics software company [Gild][7] use an algorithm that scours the internet for open-source code in order to profile software engineers, and perhaps more alarmingly, the algorithm purportedly evaluates the code for its simplicity, elegance, documentation, and several other factors, including the frequency with which it’s been adopted by other programmers. Stack Overflow is also mined to analyse questions and answers by individuals and the breadth and popularity of that advice. Linkedin and Twitter are mined to analyse the language individuals use, and Gild have decided that certain phrases and words used in association with one another distinguishes expert software engineers from less skilled programmers. According to Gild, it knows _"these phrases and words are associated with good coding because it can correlate them with its evaluation of open-source code, and with the language and online behavior of programmers in good positions at prestigious companies"_.[^1]
 
-There are many other human resources focussed analytics companies like Gild out there and who knows what data they may be collecting, how their algorithms analyse that data and what "score" they end up appointing you. Data collected about us and the profiles created from that data are not in our control. We do not know how the analysis is performed by proprietry algorithms. Should we expect our employers to be able to explain the selection process for a job or subjective performance reviews if it is influenced or determined by a complex algorithm? Is it fair and just to be reduced to a "score" determined by non-causal means? Is it OK to hire and deploy those with the highest scores and entirely bypass the interview process altogether?
+There are many other human resources focussed analytics companies like Gild out there and who knows what data they may be collecting, how their algorithms analyse that data and what "score" they end up appointing you. Data collected about us and the profiles created from that data are not in our control. 
 
-
-
-If you think this seems far fetched, just read any thread on any tech forum involving the topic of employment with regard to programmers. An often parroted requirement for employment as a programmer by a range of different people and/or companies is that a prospective employee spend their free time on public "side projects" (github repositories, whatever), as if one's entire life must be spent honing their craft. What about hobbies? Well, programming of course. See profiling and compliance is already happening, albeit analysed manually.
-
-
+Should we expect our employers to be able to explain the selection process for a job or subjective performance reviews if it is influenced or determined by a complex algorithm?
 <br/>
 <br/>
 
@@ -94,7 +90,7 @@ Knowledge is power, if the power only flows one way then there will be control a
 from anonymous marketing to personal intrusion (i.e. marketer doesn't care about the individual per-se, whereas with employers, that's all they care about).
 before it was anonymous, now its personal.
 
-Email is mined, and by using [Natural Language Processing (NLP)][8] of varying sophistication, judgements are made about our behavior and social skills, and statistical correlates used to determine intelligence and probabilities of success or failure for particular tasks. 
+
 
 
 <br/>
@@ -219,11 +215,8 @@ The message? Keep your head down, do your work, agree with the group, work is li
 <br/>
 <br/>
 
-
-
-
 #### Notes
-[^1]: Gild ranks the quality of each programmer they analyse on a scale of 1 to 100.
+[^1]: Gild ranks the quality of each programmer they analyse as a number between 1 and 100.
 
 
 [1]:http://www.heraldsun.com.au/business/work/job-seekers-need-to-clean-up-their-digital-footprint-as-recruiters-look-through-computer-data/story-fnkjjdf8-1227299058334
