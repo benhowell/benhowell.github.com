@@ -127,3 +127,9 @@ However, I can suggest that it may be wise to use an email service that is not c
 <br/>
 
 
+
+Will we have to avoid capture of practically all personal data and tracking of our movements and become a digital recluse, just like [RMS][4]? Or will that very act and the forensic evidence it does or conversely, does not leave behind be used against us by our future people analytics algorithmic overlords?
+
+
+Is such personal intrusion ethically and morally defensible by anyone? Do we even have a right to privacy anymore? Will analytical profiling using the full gamut of day to day personal data of ones activities become commonplace by anyone and everyone? We already live in a world where automated analysis of this data is used to personally target advertising. We're very quickly approaching a world where automated "people analysis" will be used to determine employability. There is no end to how and where personal profiling can be used in business and law enforcement.
+
