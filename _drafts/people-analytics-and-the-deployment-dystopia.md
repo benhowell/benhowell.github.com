@@ -209,9 +209,7 @@ Correlations are used in Bell's theorem to disprove local causality.
 <br/>
 
 #### Behavioural and Social Compliance
-Compliance by law to live and express ones self in a certain way and perform certain functions as an online citizen being enforced by law is the prototypical dystopian nightmare that provides great material for science fiction. I don't believe that that will be the future for us. More realistically however, I believe there may be a future where a certain uncomfortable level of compliance is subversively enforced by social pressure, due, in part, to corporate algorithms deeming your employable worth if you do not comply. 
-
-In any form of real world analysis, finding correlations in data (big, disparate or otherwise) is only the _starting_ point of research, the process thereafter needs to establish whether there is a causal relationship or mere coincidence. People analytics is being sold as a turn-key solution to recruitment and human resources and is being touted as a substitute for, rather than a supplement to, observation and analysis, however, it provides no causality and no solid reasoning to backup any "score" it provides on an individual. 
+In any form of real world analysis, finding correlations in data (big, disparate or otherwise) is only the _starting_ point of research, the process thereafter needs to establish whether those correlations present a causal relationship or mere coincidence. People analytics is being sold as a turn-key solution to recruitment and human resources and is being touted as a substitute for, rather than a supplement to, observation and analysis, however, it provides no causality and no solid reasoning to backup any "score" it provides on an individual. 
 
 Even if we can solve the "causal mechanism problem", is this really a world we want to live in? What are the negative social effects of reducing people to numbers calculated by an algorithm? Will people analytics result in a lack of employee diversity? Am I negatively affecting my "score" by publishing this article?
 
