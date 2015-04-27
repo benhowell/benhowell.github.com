@@ -31,6 +31,12 @@ hn_url:
 
 http://www.theage.com.au/comment/a-chilling-step-closer-to-australian-secret-police-20150421-1mpgdk.html
 
+Is your phone GPS [tracking you and sending data back to apple][10]
+Is that phone app/social network/email client collecting data about you?
+http://arstechnica.com/apple/2011/04/20/how-apple-tracks-your-location-without-your-consent-and-why-it-matters/
+
+https://news.ycombinator.com/item?id=9441568
+
 
 Humankind is experiencing exponential growth in the rate of collection and use of personal data, and as a consequence, unparalleled erosion of privacy. If we, as private citizens are to get along in the big data age, we'll need to be ever mindful of the digital consequences of our actions and the detailed audit trail those actions leave behind in every aspect of our lives.
 
