@@ -29,6 +29,11 @@ hn_url:
 <br/>
 
 
+Looking up symptoms, medications or diseases online? Well, [you're being watched and your activities collated][9].
+
+[9]:http://motherboard.vice.com/read/looking-up-symptoms-online-these-companies-are-collecting-your-data
+
+
 http://www.theage.com.au/comment/a-chilling-step-closer-to-australian-secret-police-20150421-1mpgdk.html
 
 Is your phone GPS [tracking you and sending data back to apple][10]

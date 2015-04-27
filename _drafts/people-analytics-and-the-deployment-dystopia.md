@@ -45,13 +45,11 @@ The bottom line is this: if you're filling out questionaires at work, using the 
 
 Ms Tjoeng goes on to say _"If you’re reviewing something on Whirlpool, think how that might be read by a prospective employer. When you are sharing anything about yourself, think whether you would share that information on your first day or in a job interview. They might look for patterns like having lots of experience in a certain role, or living within a 10km radius of the office, or (whether) that kind of person tends to enjoy researching and doing their own self-guided learning on the weekend"_.
 
-But really, that's all just tip of the iceburg stuff. According to an article in [The Atlantic][6], the Las Vegas casino Harrah’s tracks the smiles of the card dealers and waitstaff on the floor (its analytics team has quantified the impact of smiling on customer satisfaction) and Bloomberg logs every keystroke of every employee along with every time they enter and leave the premises according to [Business Insider Australia][5]. The people analytics software company [Gild][7] use an algorithm that scours the internet for open-source code in order to profile software engineers, and perhaps more alarmingly, the algorithm purportedly evaluates the code for its simplicity, elegance, documentation, and several other factors, including the frequency with which it’s been adopted by other programmers. Stack Overflow is also mined to analyse questions and answers by individuals and the breadth and popularity of that advice. Linkedin and Twitter are mined to analyse the language individuals use, and Gild have decided that certain phrases and words used in association with one another distinguishes expert software engineers from less skilled programmers. According to Gild, it knows _"these phrases and words are associated with good coding because it can correlate them with its evaluation of open-source code, and with the language and online behavior of programmers in good positions at prestigious companies"_ [^1]. And as time goes on things won't stop there. Do you even know what data is held by third party companies about you? Looking up symptoms, medications or diseases online? Well, [you're being watched and your activities collated][9]. There is an awesome amount of data being collected about people as they go about both their off and online lives every single day (more detail in an upcoming article). 
-
-With people analytics, judgements are made about our behavior and social skills, and statistical correlates are used to score our intelligence, quality of work, and probabilities of success or failure for particular tasks.
+But really, that's all just tip of the iceburg stuff. According to an article in [The Atlantic][6], the Las Vegas casino Harrah’s tracks the smiles of the card dealers and waitstaff on the floor (its analytics team has quantified the impact of smiling on customer satisfaction) and Bloomberg logs every keystroke of every employee along with every time they enter and leave the premises according to [Business Insider Australia][5]. The people analytics software company [Gild][7] use an algorithm that scours the internet for open-source code in order to profile software engineers, and perhaps more alarmingly, the algorithm purportedly evaluates the code for its simplicity, elegance, documentation, and several other factors, including the frequency with which it’s been adopted by other programmers. Stack Overflow is also mined to analyse questions and answers by individuals and the breadth and popularity of that advice. Linkedin and Twitter are mined to analyse the language individuals use, and Gild have decided that certain phrases and words used in association with one another distinguishes expert software engineers from less skilled programmers. According to Gild, it knows _"these phrases and words are associated with good coding because it can correlate them with its evaluation of open-source code, and with the language and online behavior of programmers in good positions at prestigious companies"_ [^1]. 
 
 There are many other workforce focussed analytics companies like Gild out there and it is unknown what data they may be collecting, how their algorithms analyse that data and what "score" they end up appointing you. Data collected about us and the profiles created from that data are not in our control.
 
-Should we expect our employers to be able to explain the selection process for a job or performance reviews if it is influenced or determined by a complex algorithm?
+There is already an insane amount of data being collected about people as they go about both their off and online lives every single day, and as time goes on, the types of, and rate of information collected will continue to grow. Do you even know what data is collected, stored and analysed by third party companies about you?
 <br/>
 <br/>
 
@@ -191,6 +189,9 @@ stuff about non-causality and behavioural profiles leading to discrimination (e.
 
 
 
+
+
+
 #### Systematic Bias
 
 Systematic error is an error that is not determined by chance but is introduced by an inaccuracy (as of observation or measurement) inherent in the system.[1]
@@ -277,7 +278,7 @@ before it was anonymous, now its personal.
 
 
 #### Behavioural and Social Compliance
-In any form of real world analysis, finding correlations in data (big, disparate or otherwise) is only the _starting point_ of research, the process thereafter needs to establish whether those correlations present a causal relationship or mere coincidence. People analytics is being sold as a turn-key solution to recruitment and human resources and is being touted as a substitute for, rather than a supplement to, observation and analysis.
+With people analytics, judgements are made about our behavior and social skills, and statistical correlates are used to score our intelligence, quality of work, and probabilities of success or failure for particular tasks. However, in any form of real world analysis, finding correlations in data (big, disparate or otherwise) is only the _starting point_ of research, the process thereafter needs to establish whether those correlations present a causal relationship or mere coincidence. People analytics is being sold as a turn-key solution to recruitment and human resources and is being touted as a substitute for, rather than a supplement to, observation and analysis.
 
 Even if we can solve the "causal mechanism problem", is this really a world we want to live in? What are the negative social effects of reducing people to numbers calculated by an algorithm? Will people analytics result in a lack of employee diversity? Am I negatively affecting my "score" by publishing this article?
 
@@ -298,6 +299,5 @@ The message? Keep your head down, do your work, agree with the group, work is li
 [5]:http://www.businessinsider.com.au/bloomberg-scandal-culture-secrecy-spying-2013-5
 [6]:http://www.theatlantic.com/magazine/archive/2013/12/theyre-watching-you-at-work/354681/
 [7]:https://www.gild.com/
-[8]:http://en.wikipedia.org/wiki/Natural_language_processing
-[9]:http://motherboard.vice.com/read/looking-up-symptoms-online-these-companies-are-collecting-your-data
-[10]:
+
+
