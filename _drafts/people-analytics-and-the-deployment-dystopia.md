@@ -45,7 +45,7 @@ The bottom line is this: if you're filling out questionaires at work, using the 
 
 But really, that's all just tip of the iceburg stuff. According to an article in [The Atlantic][6], the Las Vegas casino Harrah’s tracks the smiles of the card dealers and waitstaff (its analytics team has quantified the impact of smiling on customer satisfaction) and Bloomberg logs every keystroke of every employee along with every time they enter and leave the premises according to [Business Insider Australia][5]. The people analytics software company [Gild][7] use an algorithm that scours the internet for open-source code in order to profile software engineers, and perhaps more alarmingly, the algorithm purportedly evaluates the code for its simplicity, elegance, documentation, and several other factors, including the frequency with which it’s been adopted by other programmers. Stack Overflow is also mined to analyse questions and answers by individuals and the breadth and popularity of that advice. Linkedin and Twitter are mined to analyse the language individuals use, and Gild have decided that certain phrases and words used in association with one another distinguishes expert software engineers from less skilled programmers. According to Gild, it knows _"these phrases and words are associated with good coding because it can correlate them with its evaluation of open-source code, and with the language and online behavior of programmers in good positions at prestigious companies"_ [^1]. 
 
-There are many other workforce focussed analytics companies like Gild out there and it is unknown what data they may be collecting, how their algorithms analyse that data and what "score" they end up appointing you. Data collected about us and the profiles created from that data are not in our control.
+There are many other workforce focussed analytics companies like Gild such as Entelo and TalentBin, and it is unknown what data they may be collecting, how their algorithms analyse that data and what "score" they end up appointing you. Data collected about us and the profiles created from that data are not in our control.
 
 Every single day there is an insane amount of data being collected about people as they go about both their off and online lives, and as time goes on, the types of, and rate of information collected will continue to grow. Do you even know what data is collected, stored and analysed by third party companies about you?
 <br/>
@@ -65,6 +65,9 @@ Every single day there is an insane amount of data being collected about people 
 #### Coincidence and Correlation over Causation 
 what is the difference? why is it bad?
 
+"""
+causal nexus
+"""
 
 1. What empirical evidence legitimizes a cause-effect connection? (acquisition)
 
@@ -191,10 +194,67 @@ stuff about non-causality and behavioural profiles leading to discrimination (e.
 
 
 #### Systematic Bias
+Big data, and especially people analytics suffer from the [N = All falacy][ref]. inaccuracy (as of observation or measurement) (imperfect calibration and drift) inherent in the system
 
-Systematic error is an error that is not determined by chance but is introduced by an inaccuracy (as of observation or measurement) inherent in the system.[1]
-Systematic error may also be an error having a nonzero mean, so that its effect is not reduced when observations are averaged.[2]
-(imperfect calibration and drift)
+http://www.nytimes.com/2013/04/28/technology/how-big-data-is-playing-recruiter-for-specialized-workers.html?pagewanted=4&ref=business&pagewanted=all&_r=0
+“Let’s put everything in and let the data speak for itself,” Dr. Ming said of the algorithms she is now building for Gild.
+Why? If you, say, decided to compare women and men with the exact same qualifications that have been hired in the past, but then, looking into what happened next you learn that those women have tended to leave more often, get promoted less often, and give more negative feedback on their environments, compared to the men, your model might be tempted to hire the man over the woman next time the two showed up, rather than looking into the possibility that the company doesn’t treat female employees well.
+
+In other words, ignoring causation can be a flaw, rather than a feature. Models that ignore causation can add to historical problems instead of addressing them. And data doesn’t speak for itself, data is just a quantitative, pale echo of the events of our society.
+
+Dr. Ming doesn’t suggest eliminating human judgment, but she does think that the computer should lead the way, acting as an automated vacuum and filter for talent. The company has amassed a database of seven million programmers, ranking them based on what it calls a Gild score — a measure, the company says, of what a person can do. Ultimately, Dr. Ming wants to expand the algorithm so it can search for and assess other kinds of workers, like Web site designers, financial analysts and even sales people at, say, retail outlets.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+... and in the same way that [Boston's street bump app falsely assumed n = all] so too do people analytics.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+‘N = all’ means that the sample equals the population. It implies that the uncertainty
+generated by the jump from sample to population is absent in the case of Big Data.
+Or, more moderately formulated, it means that the exponential increase of ‘n’
+
+
+our perception, cognition, fairness, privacy and due process.
+
+
+
+
+Another way in which the assumption that N=ALL can matter is that it often gets translated into the idea that data is objective
+
+City officials might have thought they had found a way to record every pothole, but that wasn't the case. As Harford concluded: 'Some might think we are now able to measure everything; that we can turn everything into numbers. But we need to be wise enough to know that is always an illusion.'
+
+Harford began by very clearly defining what he meant by big data, at least in the context of this talk. The data he was referring to was 'found data', the type that's created when our mobile phones ping mobile phone masts, when we update Facebook, search the web or tweet our frustrations about a particular story in the news.
+
+Hidden biases in data are a problem. Even the largest of datasets have bits of information missing. Quoting Microsoft researcher Kate Crawford, Harford said one might think they have all the data, but there will always be people missing from any dataset.
+
+unlike the ‘big data’ ideal, N doesn’t equal all.
+
+But it illustrates the pitfalls of relying on ‘data exhaust’ and assuming that N=all. A huge amount of data is input by users of social networks like Facebook and Twitter or internet companies like Amazon and Google and plenty are eager to explore the insights that it might reveal. But it’s important to remember that at every stage who is using those services and what data are left behind will be determined by the nature of the platform itself.
+
 
 That second point often provides the basis for a big lie about big data—quantity improves quality. In other words, people falsely believe big data has fewer data quality issues since larger data sets have smaller margins of error. Or stated more succinctly: more data, less statistical error.
 
@@ -206,6 +266,11 @@ different neighborhoods and towns can have different racial profiles
 Because found data sets are so messy, it can be hard to figure out what biases lurk inside them – and because they are so large, some analysts seem to have decided the sampling problem isn’t worth worrying about. It is.
 
 """
+Professor Viktor Mayer-Schönberger of Oxford’s Internet Institute, co-author of Big Data, told me that his favoured definition of a big data set is one where “N = All” – where we no longer have to sample, but we have the entire background population. Returning officers do not estimate an election result with a representative tally: they count the votes – all the votes. And when “N = All” there is indeed no issue of sampling bias because the sample includes everyone.
+
+But is “N = All” really a good description of most of the found data sets we are considering? Probably not. “I would challenge the notion that one could ever have all the data,” says Patrick Wolfe, a computer scientist and professor of statistics at University College London.
+
+
 An example is Twitter. It is in principle possible to record and analyse every message on Twitter and use it to draw conclusions about the public mood. (In practice, most researchers use a subset of that vast “fire hose” of data.) But while we can look at all the tweets, Twitter users are not representative of the population as a whole. (According to the Pew Research Internet Project, in 2013, US-based Twitter users were disproportionately young, urban or suburban, and black.)
 
 There must always be a question about who and what is missing, especially with a messy pile of found data. Kaiser Fung, a data analyst and author of Numbersense, warns against simply assuming we have everything that matters. “N = All is often an assumption rather than a fact about the data,” he says.
@@ -245,9 +310,8 @@ On the other hand, many times hiring managers are just looking for a reason to d
 sense of identity and self worth?
 
 
-
-
 necessary to exercise greater caution to be sure that big sample size does not lead to big inferential errors. Despite the advantages of big studies, large sample size can magnify the bias associated with error resulting from sampling or study design.
+
 
 
 <br/>
@@ -269,6 +333,54 @@ Knowledge is power, if the power only flows one way then there will be control a
 
 from anonymous marketing to personal intrusion (i.e. marketer doesn't care about the individual per-se, whereas with employers, that's all they care about).
 before it was anonymous, now its personal.
+
+
+
+Cohen, Julie E., What Privacy Is For (November 5, 2012). Harvard Law Review, Vol. 126, 2013. Available at SSRN: http://ssrn.com/abstract=2175406
+
+Innovation also requires room to
+tinker, and therefore thrives most fully in an environment that values
+and preserves spaces for tinkering. A society that permits the un-
+checked ascendancy of surveillance infrastructures, which dampen and
+modulate behavioral variability, cannot hope to maintain a vibrant tra-
+dition of cultural and technical innovation. Efforts to repackage per-
+vasive surveillance as innovation — under the moniker “Big Data” —
+are better understood as efforts to enshrine the methods and values
+of the modulated society at the heart of our system of knowledge pro-
+duction. The techniques of Big Data have important contributions to
+make to the scientific enterprise and to social welfare, but as engines
+of truth production about human subjects they deserve a long, hard
+second look.
+
+tween freedom and constraint. Innovative practice is threatened most
+directly when circumstances impose intellectual regimentation, pre-
+scribing orthodoxies and restricting the freedom to tinker. It thrives
+most fully when circumstances yield serendipitous encounters with
+new resources and ideas, and afford the intellectual and material
+breathing room to experiment with them.48
+When the predicate conditions for innovation are described in this
+
+According to its critics, Big Data is profiling on steroids, un-
+thinkably intrusive and eerily omniscient.
+
+But those tech-
+niques cannot themselves decide which questions to investigate, cannot
+instruct us how to place data flows and patterns in larger conceptual
+or normative perspective, and cannot tell us whether and when it
+might be fair and just to limit data processing in the service of other
+values. These shortcomings mean that Big Data cannot replace either
+human-driven modeling or the prior decisions about direction and
+scope that set the substantive and ethical parameters for particular
+programs of investigation.
+
+
+"""
+predictive rationality
+"""
+
+
+
+
 
 <br/>
 <br/>
