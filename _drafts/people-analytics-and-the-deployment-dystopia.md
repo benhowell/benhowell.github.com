@@ -47,136 +47,14 @@ But really, that's all just tip of the iceburg stuff. According to an article in
 
 There are many other workforce focussed analytics companies like Gild such as Entelo and TalentBin, and it is unknown what data they may be collecting, how their algorithms analyse that data and what "score" they end up appointing you. Data collected about us and the profiles created from that data are not in our control.
 
-Every single day there is an insane amount of data being collected about people as they go about both their off and online lives, and as time goes on, the types of, and rate of information collected will continue to grow. Do you even know what data is collected, stored and analysed by third party companies about you?
+Every single day there is an insane amount of data being collected about people as they go about their off and online lives, and as time goes on, the types of, and rate of information collected will continue to grow. Do you even know what data is collected, stored and analysed by third party companies about you?
 <br/>
 <br/>
 
+#### Causation 
+Analysis of big data produces correlates, uncovers trends, probabilities and finds weak bonds between data points, amongst other things. "A correlates with B", in itself however, is not a legitimate form of argument. Correlation is simply not enough. Without causation there is no evidence to support any correlate (in big data or otherwise), and worse, can lead one to believe something that is not true. Spurious Correlations has compiled a [great example][11] of this which shows a 99.2% correlation between suicide by hanging, strangulation and suffocation in the US, and US spending on science, space and technology.
 
-
-
-
-
-
-
-
-
-
-
-#### Coincidence and Correlation over Causation 
-what is the difference? why is it bad?
-
-"""
-causal nexus
-"""
-
-1. What empirical evidence legitimizes a cause-effect connection? (acquisition)
-
-
-http://www.tylervigen.com/view_correlation?id=1597
-For example, the correlation between US spending on science, space, and technology and suicides by hanging, strangulation and suffocation is a remarkable 99.2% yet no one in their right mind would says that one causes the other.
-
-
-
-
-“(People analytics determines) what makes up successful people, what patterns we can find and how we can use that to find similar people in the future.”
-Um, no.
-
-
-
-Analysis of big data produces correlates, uncovers trends, calculates probabilities and finds weak bonds between data points, amongst other things. What it does not provide however, is causality. Good programmers publish open source software and watch manga cartoons but is there causality anywhere in this conclusion? distinguishing cause and effect.
-
-
-Correlations can easily lead one to believe something that is not true. Harvard Law School student and self-proclaimed statistical provocateur named Tyler Vigen (@TylerVigen) started a site called Spurious Correlations. Vigen has shown, for example, that there is an annual correlation between the number of people who have drowned by falling into a swimming pool and the number of films in which Nicolas Cage has appeared.
-
-causal mechanism?
-
-if there is no critical research to determine the causal mechanism that underlies correlations in data then there is no reason not to believe that the result is anything other than mere coincidence.
-
-logically and mathematically determining the difference between correlation and causation is almost impossible. Empirical evidence via repeated observation and experimentation is the only way to tell.
-
-"""
-The inter-combination of Semantic Reasoning and advanced mathematical calculations has the potential to lead to disruptive marketplace capabilities. Avoiding spurious correlations and automatically finding causal factors contained in the mountains of data now being generated each and every day is going to be a game changer in the years ahead.
-"""
-
-random chance can often find a data variable that may appear causal
-
-
-
-http://www.letitrain.com/blog/big-data-correlation-does-not-equal-causation/
-"""
-Google Flu Trends, which aggregates Google searches in an attempt to accurately predict flu activity, experienced a similar conundrum. In a Science magazine article published in March of 2014, researchers from Northeastern University and Harvard reported that Google’s flu-tracking service has consistently overestimated the number of flu cases in the United States. In addition, the algorithm completely missed the swine flu epidemic.
-
-Although the researchers assert that “there are enormous scientific possibilities in big data,” they called Google Flu Trends an example of “big data hubris,” that is described as “the often implicit assumption that big data are a substitute for, rather than a supplement to, traditional data collection and analysis.”
-
-But, this also doesn’t mean that it is entirely coincidental or that correlation doesn’t at least suggest causation. A strong correlation gives us a reason to dig deeper, albeit with a healthy dose of skepticism. Why, because there is a natural human tendency to give in to confirmation bias (a type of selective thinking whereby one tends to notice and look for information that confirms one’s own beliefs). Avoiding this bias requires not only critical thinking, but also actively seeking both supporting and contradictory evidence. Critical thinking and the application of sound scientific methods is something our team of pricing and data scientists take very seriously before formalizing new data sources into our revenue optimization algorithms.
-"""
-
-
-"""
-Third factor C (the common-causal variable) causes both A and B
-http://en.wikipedia.org/wiki/Spurious_relationship
-All these examples deal with a lurking variable, which is simply a hidden third variable that affects both causes of the correlation; for example, the fact that it is summer in Example 3. A difficulty often also arises where the third factor, though fundamentally different from A and B, is so closely related to A and/or B as to be confused with them or very difficult to scientifically disentangle from them (see Example 4).
-
-Example 1
-    Sleeping with one's shoes on is strongly correlated with waking up with a headache.
-    Therefore, sleeping with one's shoes on causes headache.
-
-The above example commits the correlation-implies-causation fallacy, as it prematurely concludes that sleeping with one's shoes on causes headache. A more plausible explanation is that both are caused by a third factor, in this case going to bed drunk, which thereby gives rise to a correlation. So the conclusion is false.
-
-Example 2
-    Young children who sleep with the light on are much more likely to develop myopia in later life.
-    Therefore, sleeping with the light on causes myopia.
-
-This is a scientific example that resulted from a study at the University of Pennsylvania Medical Center. Published in the May 13, 1999 issue of Nature,[5] the study received much coverage at the time in the popular press.[6] However, a later study at Ohio State University did not find that infants sleeping with the light on caused the development of myopia. It did find a strong link between parental myopia and the development of child myopia, also noting that myopic parents were more likely to leave a light on in their children's bedroom.[7][8][9][10] In this case, the cause of both conditions is parental myopia, and the above-stated conclusion is false.
-
-
-Example 3
-    As ice cream sales increase, the rate of drowning deaths increases sharply.
-    Therefore, ice cream consumption causes drowning.
-
-The aforementioned example fails to recognize the importance of time and temperature in relationship to ice cream sales. Ice cream is sold during the hot summer months at a much greater rate than during colder times, and it is during these hot summer months that people are more likely to engage in activities involving water, such as swimming. The increased drowning deaths are simply caused by more exposure to water-based activities, not ice cream. The stated conclusion is false.
-
-
-Example 4
-
-    A hypothetical study shows a relationship between test anxiety scores and shyness scores, with a statistical r value (strength of correlation) of +.59.[11]
-    Therefore, it may be simply concluded that shyness, in some part, causally influences test anxiety.
-
-However, as encountered in many psychological studies, another variable, a "self-consciousness score", is discovered that has a sharper correlation (+.73) with shyness. This suggests a possible "third variable" problem, however, when three such closely related measures are found, it further suggests that each may have bidirectional tendencies (see "bidirectional variable", above), being a cluster of correlated values each influencing one another to some extent. Therefore, the simple conclusion above may be false.
-
-Example 5
-
-    Since the 1950s, both the atmospheric CO2 level and obesity levels have increased sharply.
-    Hence, atmospheric CO2 causes obesity.
-
-Richer populations tend to eat more food and consume more energy
-
-
-
-Example 6
-
-    HDL ("good") cholesterol is negatively correlated with incidence of heart attack.
-    Therefore, taking medication to raise HDL decreases the chance of having a heart attack.
-
-Further research[12] has called this conclusion into question. Instead, it may be that other underlying factors, like genes, diet and exercise, affect both HDL levels and the likelihood of having a heart attack; it is possible that medicines may affect the directly measurable factor, HDL levels, without affecting the chance of heart attack.
-
-
-
-
-Much of scientific evidence is based upon a correlation of variables[18] – they are observed to occur together. Scientists are careful to point out that correlation does not necessarily mean causation. The assumption that A causes B simply because A correlates with B is often not accepted as a legitimate form of argument.
-
-However, sometimes people commit the opposite fallacy – dismissing correlation entirely, as if it does not suggest causation at all. This would dismiss a large swath of important scientific evidence.[18] Since it may be difficult or ethically impossible to run controlled double-blind studies, correlational evidence from several different angles may be the strongest causal evidence available.[19] The combination of limited available methodologies with the dismissing correlation fallacy has on occasion been used to counter a scientific finding. For example, the tobacco industry has historically relied on a dismissal of correlational evidence to reject a link between tobacco and lung cancer.[20]
-
-Correlation is a valuable type of scientific evidence in fields such as medicine, psychology, and sociology. But first correlations must be confirmed as real, and then every possible causative relationship must be systematically explored. In the end correlation can be used as powerful evidence for a cause-and-effect relationship between a treatment and benefit, a risk factor and a disease, or a social or economic factor and various outcomes. But it is also one of the most abused types of evidence, because it is easy and even tempting to come to premature conclusions based upon the preliminary appearance of a correlation.
-
-Correlations are used in Bell's theorem to disprove local causality.
-
-
-can you be discrimnated against, by proxy (high correlation between location and something else that leads to low score. what if the location is primarily made up of a minority race? is this correlation then a proxy for racial discrimination?
-
-stuff about non-causality and behavioural profiles leading to discrimination (e.g. the manga thing would naturally discriminate against older workers, by proxy).
-
-
+Ms Tjoeng goes on to say: _"(People analytics determines) what makes up successful people, what patterns we can find and how we can use that to find similar people in the future."_ What people analytics does not provide however, is causality. If there is no critical research to determine the causal mechanism that underlies correlations in data then there is no reason to believe that the result is anything other than mere coincidence. Determining causation from correlations and the causal nexus between them would be an almost impossible problem mathematically, so without empirical evidence showing a connection between cause and effect, a conclusion can not be drawn.
 <br/>
 <br/>
 
@@ -209,7 +87,9 @@ Dr. Ming doesn’t suggest eliminating human judgment, but she does think that t
 
 
 
+can you be discrimnated against, by proxy (high correlation between location and something else that leads to low score. what if the location is primarily made up of a minority race? is this correlation then a proxy for racial discrimination?
 
+stuff about non-causality and behavioural profiles leading to discrimination (e.g. the manga thing would naturally discriminate against older workers, by proxy).
 
 
 
@@ -281,6 +161,9 @@ Yet what Street Bump really produces, left to its own devices, is a map of potho
 
 But big data do not solve the problem that has obsessed statisticians and scientists for centuries: the problem of insight, of inferring what is going on, and figuring out how we might intervene to change a system for the better.
 
+
+
+
 “We have a new resource here,” says Professor David Hand of Imperial College London. “But nobody wants ‘data’. What they want are the answers.”
 """
 
@@ -319,7 +202,7 @@ necessary to exercise greater caution to be sure that big sample size does not l
 
 
 
-#### Rights to privacy and freedom of information
+#### Privacy
 Freedom of personal information and profiles generated and/or kept by corporate entities and government? Should one be allowed access to their own profile free of charge? Can one have their profile "removed" costs to obtain free info (court docs, FOI, scientific papers).
 
 These aspects of people analytics provoke anxiety, of course. We would be wise to take legal measures to ensure, at a minimum, that companies can’t snoop where we have a reasonable expectation of privacy—and that any evaluations they might make of our professional potential aren’t based on factors that discriminate against classes of people.
@@ -387,13 +270,12 @@ predictive rationality
 
 
 
-#### Behavioural and Social Compliance
+#### Compliance
 With people analytics, correlations are drawn and judgements are made about our behavior and social skills, and statistical correlates are used to score our intelligence, quality of work, and probabilities of success or failure for particular tasks. However, in any form of real world analysis, finding correlations in data (big, disparate or otherwise) is only the _starting point_ of research, the process thereafter needs to establish whether those correlations present a causal relationship or are merely coincidental. People analytics is being sold as a turn-key solution to recruitment and human resources and is being touted as a substitute for, rather than a supplement to, observation and analysis.
 
-Even if we can solve the causal mechanism, systematic bias, and accuracy problems, is this a world we want to live in anyway? What are the negative social effects of reducing people to numbers calculated by an algorithm? Will people analytics result in a lack of employee diversity? Am I negatively affecting my "score" by publishing this article?
+Even if we can solve the problems of causal mechanism, systematic bias, and accuracy, is this a world we want to live in anyway? What are the negative social effects of reducing people to numbers calculated by an algorithm? Will people analytics result in a lack of employee diversity? Am I negatively affecting my "score" by publishing this article?
 
 What makes people analytics particularly repugnant is the vast amount of stalking and invasion of privacy it allows corporations to engage in and its apparent acceptance as a normal business practise. 
-
 
 The day will come where there will be an omni-present, ever churning array of algorithms watching and calculating the value of all employees, across all businesses, all of the time. What then? Keep your head down, do your work, follow the group, work is life.
 <br/>
@@ -410,5 +292,5 @@ The day will come where there will be an omni-present, ever churning array of al
 [5]:http://www.businessinsider.com.au/bloomberg-scandal-culture-secrecy-spying-2013-5
 [6]:http://www.theatlantic.com/magazine/archive/2013/12/theyre-watching-you-at-work/354681/
 [7]:https://www.gild.com/
-
+[11]:http://www.tylervigen.com/view_correlation?id=1597
 
