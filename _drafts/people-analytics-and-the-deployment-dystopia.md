@@ -45,44 +45,43 @@ The bottom line is this: if you're filling out questionaires at work, using the 
 
 But really, that's all just tip of the iceburg stuff. According to an article in [The Atlantic][6], the Las Vegas casino Harrah’s tracks the smiles of the card dealers and waitstaff (its analytics team has quantified the impact of smiling on customer satisfaction) and Bloomberg logs every keystroke of every employee along with every time they enter and leave the premises according to [Business Insider Australia][5]. 
 
-The people analytics software company [Gild][7] use an algorithm that scours the internet for open-source code in order to profile software engineers, and perhaps more alarmingly, the algorithm purportedly evaluates the code for its simplicity, elegance, documentation, and several other factors, including the frequency with which it’s been adopted by other programmers. Stack Overflow is also mined to analyse questions and answers by individuals and the breadth and popularity of that advice. Linkedin and Twitter are mined to analyse the language individuals use, and Gild have decided that certain phrases and words used in association with one another distinguishes expert software engineers from less skilled programmers. According to Gild, it knows _"these phrases and words are associated with good coding because it can correlate them with its evaluation of open-source code, and with the language and online behavior of programmers in good positions at prestigious companies"_ [^1]. 
+The people analytics software company [Gild][7] use an algorithm that scours the internet for open-source code in order to profile software engineers, and perhaps more alarmingly, the algorithm purportedly evaluates the code for its simplicity, elegance, documentation, and several other factors, including the frequency with which it’s been adopted by other programmers. Stack Overflow is also mined to analyse questions and answers by individuals and the breadth and popularity of that advice. Linkedin and Twitter are mined to analyse the language individuals use, and Gild have decided that certain phrases and words used in association with one another distinguishes expert software engineers from less skilled programmers. According to Gild, it knows _"these phrases and words are associated with good coding because it can correlate them with its evaluation of open-source code, and with the language and online behavior of programmers in good positions at prestigious companies"._ If you're a programmer and have ever used the internet, chances are that Gild has already compiled your "score".[^1]
 
-There are many other workforce focussed analytics companies like Gild such as Entelo and TalentBin, and it is unknown what data they may be collecting, how their algorithms analyse that data and what "score" they end up appointing you. Data collected about us and the profiles created from that data are not in our control.
+There are many other workforce focussed analytics companies besides Gild such as Entelo and TalentBin, and it is unknown what data they may be collecting, how their algorithms analyse that data and what "score" they end up appointing you. Data collected about us and the profiles created from that data are not in our control.
 
-Every single day there is an insane amount of data being collected about people as they go about their off and online lives, and as time goes on, the types of, and rate of information collected will continue to grow. Do you even know what data is collected, stored and analysed by third party companies about you?
+Every day there is an insane amount of data being collected about people as they go about their off and online lives, and as time goes on, the types of, and rate of information collected will continue to grow. Do you even know what data is collected, stored, analysed and sold on by third party companies about you?
 <br/>
 <br/>
 
 #### Causation 
-Analysis of big data produces correlates, uncovers trends, probabilities and finds weak bonds between data points, amongst other things. "A correlates with B", in itself however, is not a legitimate form of argument. Correlation is simply not enough. Without causation there is no evidence to support any correlate (in big data or otherwise), and worse, can lead one to believe something that is not true. Spurious Correlations has compiled a [great example][11] of this which shows a 99.2% correlation between suicide by hanging, strangulation and suffocation in the US, and US spending on science, space and technology.
+Analysis of big data produces correlates, uncovers trends and probabilities, and finds weak bonds between data points, amongst other things. "A correlates with B", in itself however, is not a legitimate form of argument. Correlation is simply not enough. Without causation there is no evidence to support any correlate (in big data or otherwise), and worse, can lead one to believe something that is not true. Spurious Correlations has compiled a [great example][11] of this which shows a 99.2% correlation between suicide by hanging, strangulation and suffocation in the US, and spending on science, space and technology.
 
-Ms Tjoeng goes on to say: _"(People analytics determines) what makes up successful people, what patterns we can find and how we can use that to find similar people in the future."_ What people analytics does not provide however, is causality. If there is no critical research to determine the causal mechanism that underlies correlations in data then there is no reason to believe that the result is anything other than mere coincidence. Determining causation from correlations and the causal nexus between them would be an almost impossible problem mathematically, so without empirical evidence showing a connection between cause and effect, a conclusion can not be drawn.
+People analytics does not provide causality. If there is no critical research to determine the causal mechanism that underlies correlations in data then there is no reason to believe that the result is anything other than mere coincidence. Determining causation from correlations and the causal nexus between them would be an almost impossible problem mathematically, so without empirical evidence showing a connection between cause and effect, a conclusion can not be drawn.
 <br/>
 <br/>
-
-
-
-
-
-
-
-
-
 
 
 
 
 
 #### Systematic Bias
-Big data, and especially people analytics suffer from the [N = All falacy][ref]. inaccuracy (as of observation or measurement) (imperfect calibration and drift) inherent in the system
+Big data, and especially people analytics suffer from the "N = all" fallacy. "N = all" simply means that the sample size is equivalent to the population, and with regards to big data, it is this fallacy that produces the false assumption that sampling bias and uncertainty is reduced to zero because sample size == population. There are many other types of biases that are also inherent to big data, including inaccuracy of observation, incorrect measurement, algorithm and data calibration and drift. Further, the accuracy of the "data exhaust" left behind by people in their online activities must also come into question.
 
-http://www.nytimes.com/2013/04/28/technology/how-big-data-is-playing-recruiter-for-specialized-workers.html?pagewanted=4&ref=business&pagewanted=all&_r=0
-“Let’s put everything in and let the data speak for itself,” Dr. Ming said of the algorithms she is now building for Gild.
+In an [article in the New York Times][9], Data Scientist, Dr. Ming said of the algorithms she is now building for Gild: _"Let’s put everything in and let the data speak for itself"_.
+
+
+
+
+
+
+
 Why? If you, say, decided to compare women and men with the exact same qualifications that have been hired in the past, but then, looking into what happened next you learn that those women have tended to leave more often, get promoted less often, and give more negative feedback on their environments, compared to the men, your model might be tempted to hire the man over the woman next time the two showed up, rather than looking into the possibility that the company doesn’t treat female employees well.
 
 In other words, ignoring causation can be a flaw, rather than a feature. Models that ignore causation can add to historical problems instead of addressing them. And data doesn’t speak for itself, data is just a quantitative, pale echo of the events of our society.
 
-Dr. Ming doesn’t suggest eliminating human judgment, but she does think that the computer should lead the way, acting as an automated vacuum and filter for talent. The company has amassed a database of seven million programmers, ranking them based on what it calls a Gild score — a measure, the company says, of what a person can do. Ultimately, Dr. Ming wants to expand the algorithm so it can search for and assess other kinds of workers, like Web site designers, financial analysts and even sales people at, say, retail outlets.
+
+
+
 
 
 
@@ -91,10 +90,10 @@ Dr. Ming doesn’t suggest eliminating human judgment, but she does think that t
 
 can you be discrimnated against, by proxy (high correlation between location and something else that leads to low score. what if the location is primarily made up of a minority race? is this correlation then a proxy for racial discrimination?
 
-stuff about non-causality and behavioural profiles leading to discrimination (e.g. the manga thing would naturally discriminate against older workers, by proxy).
+behavioural profiles leading to discrimination (e.g. the manga thing would naturally discriminate against older workers, by proxy).
 
-
-
+http://works.bepress.com/cgi/viewcontent.cgi?article=1068&context=mireille_hildebrandt
+Mireille Hildebrandt, "Slaves to Big Data. Or Are We?" IDP. REVISTA DE INTERNET, DERECHO Y POLÍTICA 16 (forthcoming 2013), now available at: http://works.bepress.com/mireille_hildebrandt/52 
 
 
 
@@ -115,9 +114,6 @@ stuff about non-causality and behavioural profiles leading to discrimination (e.
 
 
 
-‘N = all’ means that the sample equals the population. It implies that the uncertainty
-generated by the jump from sample to population is absent in the case of Big Data.
-Or, more moderately formulated, it means that the exponential increase of ‘n’
 
 
 our perception, cognition, fairness, privacy and due process.
@@ -221,6 +217,12 @@ before it was anonymous, now its personal.
 
 
 
+http://blog.hipchat.com/2014/04/25/hey-were-changing-our-terms-of-service/
+
+
+
+
+
 Cohen, Julie E., What Privacy Is For (November 5, 2012). Harvard Law Review, Vol. 126, 2013. Available at SSRN: http://ssrn.com/abstract=2175406
 
 Innovation also requires room to
@@ -294,5 +296,6 @@ The day will come where there will be an omni-present, ever churning array of al
 [5]:http://www.businessinsider.com.au/bloomberg-scandal-culture-secrecy-spying-2013-5
 [6]:http://www.theatlantic.com/magazine/archive/2013/12/theyre-watching-you-at-work/354681/
 [7]:https://www.gild.com/
+[9]:http://www.nytimes.com/2013/04/28/technology/how-big-data-is-playing-recruiter-for-specialized-workers.html?pagewanted=4&ref=business&pagewanted=all&_r=0
 [11]:http://www.tylervigen.com/view_correlation?id=1597
 
