@@ -65,7 +65,7 @@ People analytics does not provide causality. If there is no critical research to
 
 
 #### Systematic Bias
-Big data, and especially people analytics suffer from the "N = all" fallacy. "N = all" simply means that the sample size is equivalent to the population, and with regards to big data, it is this fallacy that produces the false assumption that sampling bias and uncertainty is reduced to zero because sample size == population. There are many other types of biases that are also inherent to big data, including inaccuracy of observation, incorrect measurement, algorithm and data calibration and drift. Further, the accuracy of the "data exhaust" left behind by people in their online activities must also come into question.
+Big data, and especially people analytics suffers from the "N = all" fallacy. "N = all" simply means that the sample size is equivalent to the population, and with regards to big data, it is this fallacy that produces the false assumption that sampling bias and uncertainty is reduced to zero because sample size == population. There are many other types of biases that are also inherent to big data, including inaccuracy of observation, incorrect measurement, algorithm and data calibration and drift. Further, the accuracy of the "data exhaust" left behind by people in their online activities must also come into question.
 
 In an [article in the New York Times][9], Data Scientist, Dr. Ming said of the algorithms she is now building for Gild: _"Let’s put everything in and let the data speak for itself"_.
 
