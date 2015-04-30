@@ -56,7 +56,7 @@ Every day there is an insane amount of data being collected about people as they
 #### Causation 
 In an [article in the New York Times][9], Data Scientist, Dr. Ming said of the algorithms she is now building for Gild: _"Let’s put everything in and let the data speak for itself"_.
 
-Big data produces correlates, uncovers trends and probabilities, and finds weak bonds between data, amongst other things. "A correlates with B", in itself however, is not a legitimate form of argument and therefore the data can never _"speak for itself"_ because it is strictly quantitative. Correlation is simply not enough. Without causation there is no evidence to support any correlate (in big data or otherwise), and worse, can lead one to believe something that is not true. Spurious Correlations has compiled a [patently ridiculous example][11] of this which shows a 99.2% correlation between suicide by hanging, strangulation and suffocation in the US, and spending on science, space and technology.
+Big data produces correlates, uncovers trends and probabilities, and finds weak bonds between data, amongst other things. "A correlates with B" however, is not a legitimate form of argument as data can never _"speak for itself"_ because it is strictly quantitative. Correlation is simply not enough. Without causation there is no evidence to support any correlate (in big data or otherwise), and can lead one to believe something that is not true. [A patently ridiculous example][11] of this has been compiled by Tyler Vigen which shows a 99.2% correlation between suicide by hanging, strangulation and suffocation in the US, and spending on science, space and technology.
 
 
 some quote about correlates from gild or other (manga one is good)
@@ -73,11 +73,6 @@ People analytics does not provide causality. If there is no critical research to
 #### Systematic Bias
 Big data, and especially people analytics suffers from the "N = all" fallacy. "N = all" simply means that the sample size is equivalent to population, and with regards to big data, it is this fallacy that produces the false assumption that sampling bias and uncertainty is reduced to zero. There are many other types of biases that are also inherent to big data, including inaccuracy of observation, incorrect measurement, algorithm and data calibration and drift.
 
-
-
-an example like this, but not this! --------------------------
-Why? If you, say, decided to compare women and men with the exact same qualifications that have been hired in the past, but then, looking into what happened next you learn that those women have tended to leave more often, get promoted less often, and give more negative feedback on their environments, compared to the men, your model might be tempted to hire the man over the woman next time the two showed up, rather than looking into the possibility that the company doesn’t treat female employees well.
--------------------------
 
 how about, a predominately caucasian workforce, African americans, on the other hand, live further from the company than average and, on average leave the company after a shorter time than their caucasian peers. Should the people anaytics algorithm let this data speak for itself? Are these correlates enough to determine that a caucasian receives a higher "score"? Of course not. The question must be asked: _"Does the company have a racist culture in management that's directly causal to these effects?"_
 
@@ -119,9 +114,10 @@ The accuracy of "data exhaust" left behind by people in their online activities 
 
 Objectivity vs subjectivity.
 
-Because found data sets are so messy, it can be hard to figure out what biases inaccuracies lurk inside them – and because they are so large. The behaviour and reporting of people is perhaps the least objective data possible. Are you actually friends with "all" the people and companies you've friended on facebook and twitter? If not, what are the types of relationships? Sarcasm? are you retweeting something because you agree or disagree? Your followers may know why, because they know you (presumably) but does an algorithm? Data does not speak for itself. Online surveys and competitions... do you answer them honestly? Linkedin... do you not embellish your qualifications and skills? Do other people not? Sign up for software or app trials? Do you use your real details?
+Because found data sets are so messy, it can be hard to figure out what biases inaccuracies lurk inside them – and because they are so large. The behaviour and reporting of people is perhaps the least objective data possible. Are you actually friends with "all" the people and companies you've friended on facebook and twitter? If not, what are the types of relationships? Sarcasm? are you retweeting something because you agree or disagree? Your followers may know why, because they know you (presumably) but does an algorithm? Online surveys and competitions... do you answer them honestly? Linkedin... do you not embellish your qualifications and skills? Do other people not? Sign up for software or app trials? Do you use your real details?
 
 truthiness of your self-reported data . This injects an insidious systematic error.
+Data does not speak for itself.
 <br/>
 <br/>
 
@@ -223,13 +219,12 @@ predictive rationality
 <br/>
 
 
-#### The age of Omnicient Surveillance
-<br/>
-<br/>
 
 
-#### Compliance
-With people analytics, correlations are drawn and judgements are made about our behavior and social skills, and statistical correlates are used to score our intelligence, quality of work, and probabilities of success or failure for particular tasks. However, in any form of real world analysis, finding correlations in data (big, disparate or otherwise) is only the _starting point_ of research, the process thereafter needs to establish whether those correlations present a causal relationship or are merely coincidental. People analytics is being sold as a turn-key solution to recruitment and human resources and is being touted as a substitute for, rather than a supplement to, observation and analysis.
+
+
+#### The Age of Omnicient Surveillance
+With people analytics, correlations are drawn and judgements are made about our behavior and social skills, and statistical correlates are used to score our intelligence, quality of work, and probabilities of success or failure for particular tasks. However, in any form of real world analysis, finding correlations in data (big, disparate or otherwise) is only the _starting point_ of research, the process thereafter needs to establish the accuracy and validity of that data and whether correlations present a causal relationship or are merely coincidental. People analytics is being sold as a turn-key solution to recruitment and human resources and is being touted as a substitute for, rather than a supplement to, observation and analysis.
 
 Even if we can solve the problems of causal mechanism, systematic bias, and accuracy, is this a world we want to live in anyway? What are the negative social effects of reducing people to numbers calculated by an algorithm? Will people analytics result in a lack of employee diversity? Am I negatively affecting my "score" by publishing this article?
 
@@ -258,12 +253,6 @@ thinkably intrusive and eerily omniscient.
 
 
 Although the content of this article is mostly concerned with those in the programming community with regards to people analytics, it brings into question the ethics and morality of big data, private commoditisation and trading of dossiers on citizens, privacy and ultimately democracy itself.
-
-
-
-
-
-
 <br/>
 <br/>
 
