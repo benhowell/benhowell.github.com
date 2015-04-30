@@ -266,4 +266,6 @@ Disquiet #10: Everyone should worry
 
 
 
-
+[2]:http://www.thedailybeast.com/articles/2015/02/05/your-samsung-smarttv-is-spying-on-you-basically.html
+[3]:http://www.washingtonpost.com/blogs/the-switch/wp/2015/03/11/privacy-advocates-try-to-keep-creepy-eavesdropping-hello-barbie-from-hitting-shelves
+[4]:https://stallman.org/stallman-computing.html

@@ -39,71 +39,31 @@ hn_url:
 #### People Analytics
 OK, in this day and age, everyone expects that employers will do some digging online, however, people analytics proves to be much more sinister. In addition to profiling potential employees using external data (public, paid-for, or otherwise), some employers continually profile existing staff using both external data and via analysis of internal social media, email, surveys, and the like, to define a prototypical "good employee" profile in order to employ people with similar profiles. So, if you're filling out questionaires at work, using the corporate social networking tools, crowd-sourcing and ideation tools, using email, doing surveys, wikis, what have you, there may be additional reasons beyond engaging with staff, such as analysis and profiling. And, everything you're doing publicly online is bound to be used at some time in the future for profiling and analysis as well.
 
-But really, that's all just tip of the iceburg stuff. According to an article in [The Atlantic][6], the Las Vegas casino Harrah’s tracks the smiles of the card dealers and waitstaff (its analytics team has quantified the impact of smiling on customer satisfaction) and Bloomberg logs every keystroke of every employee along with every time they enter and leave the premises according to [Business Insider Australia][5]. 
+But really, that's all just tip of the iceburg stuff. According to an article in [The Atlantic][2], the Las Vegas casino Harrah’s tracks the smiles of the card dealers and waitstaff (its analytics team has quantified the impact of smiling on customer satisfaction) and Bloomberg logs every keystroke of every employee along with every time they enter and leave the premises according to [Business Insider Australia][1]. 
 
-The people analytics software company [Gild][7] use an algorithm that scours the internet for open-source code in order to profile software engineers, and perhaps more alarmingly, the algorithm purportedly evaluates the code for its simplicity, elegance, documentation, and several other factors, including the frequency with which it’s been adopted by other programmers. Stack Overflow is also mined to analyse questions and answers by individuals and the breadth and popularity of that advice. Linkedin and Twitter are mined to analyse the language individuals use, and Gild have decided that certain phrases and words used in association with one another distinguishes expert software engineers from less skilled programmers. According to Gild, it knows _"these phrases and words are associated with good coding because it can correlate them with its evaluation of open-source code, and with the language and online behavior of programmers in good positions at prestigious companies"._ 
+The people analytics software company [Gild][3] use an algorithm that scours the internet for open-source code in order to profile software engineers, and perhaps more alarmingly, the algorithm purportedly evaluates the code for its simplicity, elegance, documentation, and several other factors, including the frequency with which it’s been adopted by other programmers. Stack Overflow is also mined to analyse questions and answers by individuals and the breadth and popularity of that advice. Linkedin and Twitter are mined to analyse the language individuals use, and Gild have decided that certain phrases and words used in association with one another distinguishes expert software engineers from less skilled programmers. According to Gild, it knows _"these phrases and words are associated with good coding because it can correlate them with its evaluation of open-source code, and with the language and online behavior of programmers in good positions at prestigious companies"._ [^2]
 
-There are many other workforce focussed analytics companies besides Gild such as Entelo and RemarkableHire, and it is unknown what data they may be collecting, how their algorithms analyse that data and what "score" they end up appointing you. Data collected about us and the profiles created from that data are not in our control. If you're a programmer and have ever used the internet, chances are that Gild and Entelo have each already compiled your "score".[^1]
+There are many other workforce focussed analytics companies besides Gild such as Entelo and RemarkableHire, and it's unknown what data they collect, how their algorithms analyse that data, and what "score" they end up appointing any individual. Data collected about us and the profiles created from that data are not in our control. If you're a programmer and have ever used the internet, chances are that Gild and others have each already compiled your "score".[^1]
 
 Every day there is an insane amount of data being collected about people as they go about their off and online lives, and as time goes on, the types of, and rate of information collected will continue to grow. Do you even know what data is collected, stored, analysed and sold on by third party companies about you?
 <br/>
 <br/>
 
 #### Causation 
-In an [article in the New York Times][9], Data Scientist, Dr. Ming said of the algorithms she is now building for Gild: _"Let’s put everything in and let the data speak for itself"_.
+In an [article in the New York Times][4], Data Scientist, Dr. Ming said of the algorithms she is now building for Gild: _"Let’s put everything in and let the data speak for itself"_.
 
-Big data produces correlates, uncovers trends and probabilities, and finds weak bonds between data, amongst other things. "A correlates with B" however, is not a legitimate form of argument as data can never _"speak for itself"_ because it is strictly quantitative. Correlation is simply not enough. Without causation there is no evidence to support any correlate (in big data or otherwise), and can lead one to believe something that is not true. [A patently ridiculous example][11] of this has been compiled by Tyler Vigen which shows a 99.2% correlation between suicide by hanging, strangulation and suffocation in the US, and spending on science, space and technology.
-
-
-some quote about correlates from gild or other (manga one is good)
-
+Big data produces correlates, uncovers trends and probabilities, and finds weak bonds between data. "A correlates with B" however, is not a legitimate form of argument as data can never _"speak for itself"_ because it is strictly quantitative. Correlation is simply not enough. Without causation there is no evidence to support any correlate (in big data or otherwise), and can lead one to believe something that is not true. [A patently ridiculous example][5] of this has been compiled by Tyler Vigen which shows a 99.2% correlation between suicide by hanging, strangulation and suffocation in the US, and spending on science, space and technology.
 
 People analytics does not provide causality. If there is no critical research to determine the causal mechanism that underlies correlations in data then there is no reason to believe that the result is anything other than mere coincidence. Determining causation from correlations and the causal nexus between them would be an almost impossible problem mathematically, so without empirical evidence showing a connection between cause and effect, a conclusion can not be drawn. Correlates can only direct us as to what questions to ask and which avenues to investigate, correlates cannot, without extensive investigation, be used in isolation to determine any "score" of any significance.
 <br/>
 <br/>
 
-
-
-
-
 #### Systematic Bias
-Big data, and especially people analytics suffers from the "N = all" fallacy. "N = all" simply means that the sample size is equivalent to population, and with regards to big data, it is this fallacy that produces the false assumption that sampling bias and uncertainty is reduced to zero. There are many other types of biases that are also inherent to big data, including inaccuracy of observation, incorrect measurement, algorithm and data calibration and drift.
+Big data, and especially people analytics suffers from the "N = all" fallacy. "N = all" simply means that the sample size is equivalent to population, and with regards to big data, it is this fallacy that produces the false assumption that sampling bias and uncertainty is reduced to zero. There are many other types of biases that are also inherent to big data, including inaccuracy of, or incorrect observation, algorithm calibration and drift. The most comprehensive datasets pertaining to people and their behaviour will always have incomplete information. The interactive, social and behavioural models imposed by any platform (social, e-commerce, crowd sourced, whatever) will dictate who uses the platform, and how they use it. It stands to reason that this will necessarily taint the data collected and introduce systematic bias. Further compounding this, systematic bias introduces a component of modulation and mediation because almost every data capturing interaction (services, recommenders, search result ranking, etc.) modulate results because they steer us in particular directions based both upon the interaction model imposed by the service (architecture, environment, etc.), and upon commercial, social or behavioural interests of those providing the service.
 
-
-how about, a predominately caucasian workforce, African americans, on the other hand, live further from the company than average and, on average leave the company after a shorter time than their caucasian peers. Should the people anaytics algorithm let this data speak for itself? Are these correlates enough to determine that a caucasian receives a higher "score"? Of course not. The question must be asked: _"Does the company have a racist culture in management that's directly causal to these effects?"_
-
-an example about extroversion and social media... this will discriminate against introverts (and in some cases, introverts may be better suited to particular roles) and you need a mix of introverts and extroverts for a healthy team.
-
-The interactive, social and behavioural models imposed by any platform (social, e-commerce, crowd sourced, whatever) will dictate who uses the platform, and how they use it. It stands to reason that this will necessarily taint the data collected and introduce systematic bias.
-
-
-data exhaust
-found data
-
-Even the largest of datasets have bits of information missing.
-
-necessary to exercise greater caution to be sure that big sample size does not lead to big inferential errors. Despite the advantages of big studies, large sample size can magnify the bias associated with error resulting from sampling or study design.
-
-systematic bias has a component of modulation and mediation (services, recommenders, search result ranking, etc. modulate results because they steer us in particular directions)
-Having all data on all people is an impossibility, pure and simple. 
-
-
-systemtically biased decisions can further feed into more systematically biased decisions and you have a cumulative runaway bias inference increasing your bias with every decison made.
-
-
-
-
-City officials might have thought they had found a way to record every pothole, but that wasn't the case. As Harford concluded: 'Some might think we are now able to measure everything; that we can turn everything into numbers. But we need to be wise enough to know that is always an illusion.'
-
-"""
-Consider Boston’s Street Bump smartphone app, which uses a phone’s accelerometer to detect potholes without the need for city workers to patrol the streets. As citizens of Boston download the app and drive around, their phones automatically notify City Hall of the need to repair the road surface. Solving the technical challenges involved has produced, rather beautifully, an informative data exhaust that addresses a problem in a way that would have been inconceivable a few years ago. The City of Boston proudly proclaims that the “data provides the City with real-time in­formation it uses to fix problems and plan long term investments.”
-
-Yet what Street Bump really produces, left to its own devices, is a map of potholes that systematically favours young, affluent areas where more people own smartphones. Street Bump offers us “N = All” in the sense that every bump from every enabled phone can be recorded. That is not the same thing as recording every pothole. As Microsoft researcher Kate Crawford points out, found data contain systematic biases and it takes careful thought to spot and correct for those biases. Big data sets can seem comprehensive but the “N = All” is often a seductive illusion.
-"""
-
+A beautiful real-life example of systematic bias in the Boston Street Bump app, is detailed by Tim Harford in [Big data: are we making a big mistake?][6]. _"Consider Boston’s Street Bump smartphone app, which uses a phone’s accelerometer to detect potholes without the need for city workers to patrol the streets. As citizens of Boston download the app and drive around, their phones automatically notify City Hall of the need to repair the road surface. Solving the technical challenges involved has produced, rather beautifully, an informative data exhaust that addresses a problem in a way that would have been inconceivable a few years ago. The City of Boston proudly proclaims that the “data provides the City with real-time in­formation it uses to fix problems and plan long term investments.” Yet what Street Bump really produces, left to its own devices, is a map of potholes that systematically favours young, affluent areas where more people own smartphones. Street Bump offers us “N = All” in the sense that every bump from every enabled phone can be recorded. That is not the same thing as recording every pothole. As Microsoft researcher Kate Crawford points out, found data contain systematic biases and it takes careful thought to spot and correct for those biases. Big data sets can seem comprehensive but the “N = All” is often a seductive illusion."_
 <br/>
 <br/>
-
 
 #### Accuracy
 The accuracy of "data exhaust" left behind by people in their online activities is highly questionable. 
@@ -271,15 +231,13 @@ Although the content of this article is mostly concerned with those in the progr
 
 #### Notes
 [^1]: Gild ranks the quality of each programmer they analyse as a number between 1 and 100.
+[^2]: [They're Watching You at Work - http://www.theatlantic.com/magazine/archive/2013/12/theyre-watching-you-at-work/354681/][6]
 
 
-[1]:http://www.heraldsun.com.au/business/work/job-seekers-need-to-clean-up-their-digital-footprint-as-recruiters-look-through-computer-data/story-fnkjjdf8-1227299058334
-[2]:http://www.thedailybeast.com/articles/2015/02/05/your-samsung-smarttv-is-spying-on-you-basically.html
-[3]:http://www.washingtonpost.com/blogs/the-switch/wp/2015/03/11/privacy-advocates-try-to-keep-creepy-eavesdropping-hello-barbie-from-hitting-shelves
-[4]:https://stallman.org/stallman-computing.html
-[5]:http://www.businessinsider.com.au/bloomberg-scandal-culture-secrecy-spying-2013-5
-[6]:http://www.theatlantic.com/magazine/archive/2013/12/theyre-watching-you-at-work/354681/
-[7]:https://www.gild.com/
-[9]:http://www.nytimes.com/2013/04/28/technology/how-big-data-is-playing-recruiter-for-specialized-workers.html?pagewanted=4&ref=business&pagewanted=all&_r=0
-[11]:http://www.tylervigen.com/view_correlation?id=1597
+[1]:http://www.businessinsider.com.au/bloomberg-scandal-culture-secrecy-spying-2013-5
+[2]:http://www.theatlantic.com/magazine/archive/2013/12/theyre-watching-you-at-work/354681/
+[3]:https://www.gild.com/
+[4]:http://www.nytimes.com/2013/04/28/technology/how-big-data-is-playing-recruiter-for-specialized-workers.html?pagewanted=4&ref=business&pagewanted=all&_r=0
+[5]:http://www.tylervigen.com/view_correlation?id=1597
+[6]:http://www.ft.com/intl/cms/s/2/21a6e7d8-b479-11e3-a09a-00144feabdc0.html
 
