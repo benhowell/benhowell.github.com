@@ -144,3 +144,126 @@ Will we have to avoid capture of practically all personal data and tracking of o
 
 Is such personal intrusion ethically and morally defensible by anyone? Do we even have a right to privacy anymore? Will analytical profiling using the full gamut of day to day personal data of ones activities become commonplace by anyone and everyone? We already live in a world where automated analysis of this data is used to personally target advertising. We're very quickly approaching a world where automated "people analysis" will be used to determine employability. There is no end to how and where personal profiling can be used in business and law enforcement.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://martinweigel.org/category/big-data/
+
+
+Jaron Lanier, ‘Who Controls The Future?’
+
+    From the cash-register scanners in a million supermarkets, videostores, and pharmacies, there already pours a steady flow of statistical data about customers and their purchases, ready to be correlated, helping companies serve us more efficiently – or else giving them an unfair advantage, knowing vastly more about us than we do about them. Soon, computers will hold financial and educational records, legal documents, and medical analyses that parse you all the way down to your genes. Any of this might be accessed by strangers without your knowledge or even against your stated will.”
+
+
+
+Evgeny Morozov, ‘Why we are allowed to hate Silicon Valley’
+
+    And what of those who can’t afford tools and consultants? How do their lives change? When the founder of a prominent lending start-up – the former CIO of Google, no less – proclaims that “all data is credit data, we just don’t know how to use it yet” I can’t help but fear the worst. If “all data is credit data” and poor people cannot afford privacy, they are in for some dark times. How can they not be anxious when their every move, their every click, their every phone call could be analyzed to predict if they deserve credit and at what rates? If the burden of debt wasn’t agonizing enough, now we’ll have to live with the fact that, for the poor people, anxiety begins well before they get the actual loan. Once again, one doesn’t have to hate or fear technology to worry about the future of equality, mobility and the quality of life. The “digital debate,” with its inevitable detours into cultural pessimism, simply has no intellectual resources to tackle these issues.”
+
+    
+Disquiet #12: We turn our selves and our lives into commodities
+
+    The data-centric model of Silicon Valley capitalism seeks to convert every aspect of our everyday existence – what used to be our only respite from the vagaries of work and the anxieties of the marketplace – into a productive asset.  This is done not just by blurring the distinction between work and nonwork  but also by making us tacitly accept the idea that our reputation is a work-in-progress – something that we could and should be honing 24/7. Therefore, everything is turned into a productive asset: our relationships, our family life, our vacations, our sleep (you are now invited to “hack” it so that you can get most of your sleep in the shortest amount of time).”
+
+    
+    
+Evgeny Morozov, ‘Why we are allowed to hate Silicon Valley’
+
+    What eludes Mr Snowden – along with most of his detractors and supporters – is that we might be living through a transformation in how capitalism works, with personal data emerging as an alternative payment regime. The benefits to consumers are already obvious; the potential costs to citizens are not. As markets in personal information proliferate, so do the externalities – with democracy the main victim.”
+
+
+
+Disquiet #2: There is more to come
+
+    It’s about to get worse, though. Companies such as Google may know more about your personal interests than your spouse, but so far it’s been limited by the fact that these companies only see computer data. And even though your computer habits are increasingly being linked to your offline behaviour, it’s still only behaviour that involves computers.
+
+    The Internet of Things refers to a world where much more than our computers and cell phones is internet-enabled. Soon there will be internet-connected modules on our cars and home appliances. Internet-enabled medical devices will collect real-time health data about us. There’ll be internet-connected tags on our clothing. In its extreme, everything can be connected to the internet. It’s really just a matter of time, as these self-powered wireless-enabled computers become smaller and cheaper.
+
+    “Lots has been written about the ‘Internet of Things’ and how it will change society for the better. It’s true that it will make a lot of wonderful things possible, but the “Internet of Things” will also allow for an even greater amount of  surveillance than there is today.”
+    
+    
+Bill Davidow, ‘With Great Computing Power Comes Great Surveillance: The dark side of Moore’s Law’
+
+    Items of interest will be located, identified, monitored, and remotely controlled through technologies such as radio-frequency identification, sensor networks, tiny embedded servers, and energy harvesters — all connected to the next-generation internet using abundant, low-cost, and high-power computing.” 
+
+    
+U.S. Government Accountability Office, ‘Personal Information: Agency and Reseller Adherence to Key Privacy Principles’, April 2006
+
+    Resellers generally limit the extent to which individuals can gain access to personal information held about themselves, as well as the extent to which inaccurate information contained in their databases can be corrected or deleted. Agency practices for handling personal information acquired from information resellers did not always fully reflect the Fair Information Practices. That is, some of these principles were mirrored in agency practices, but for others, agency practices were uneven. For example, although agencies issued public notices on information collections, these did not always notify the public that information resellers were among the sources to be used. This practice is not consistent with the principle that individuals should be informed about privacy policies and the collection of information.”
+
+
+Cory Doctorow, ‘The NSA’s Prism: Why we should care’ 
+
+    Information gathered by private firms is, as demonstrated by the experience of banks and credit card companies, again and again processed by the government. The boundaries between the public and the private sectors are thus blurred. Personal data, once stored, tend to become a flexible, common base of information”
+
+    
+    
+Disquiet #4: Resistance is futile
+
+    Even more importantly, dysfunction in privacy markets has a  dynamic aspect. Over time, people can be expected to (over)disclose  more and more information, both because they have become inured to  disclosure and because the equilibrium in the marketplace has tipped  toward disclosure as a condition of market entry.”
+
+    
+    
+Julie Cohen, ‘What is privacy for’
+
+    Modulation is a mode of privacy invasion, but it is also a mode of knowledge production designed to produce a particular way of knowing and a mode of governance designed to produce a particular kind of subject. Its purpose is to produce tractable, predictable citizen-consumers whose preferred modes of self-determination play out along predictable and profit-generating trajectories. Yet to speak of networked processes of surveillance and modulation in the industrial-era vernacular, as systems for “manufacturing consent” would be too crude. Rather, in a much more subtle process of continual feedback, stimuli are tailored to play to existing inclinations, nudging them in directions that align with profit-maximizing goals. So too with political inclinations; particularly as search and social networking become more seamlessly integrated, networked citizen-consumers move within personalized “filter bubbles” that conform the information environment to their political and ideological commitments. This is conducive to identifying and targeting particular political constituencies, but not necessarily to fostering political dialogue among diverse constituencies in ways that might enable them to find common ground.”
+
+    
+    
+Julie Cohen, ‘What is privacy for’
+
+    Habits, activities, and preferences are complied, registered, and retrieved to facilitate better adjustment, not to improve the the individual’s capacity to act and decide. Whatever the original incentive for computerization may have been, processing increasingly appears as the ideal means to adapt an individual to a predetermined, standardized behavior that aims at the highest possible degree of compliance with the model patient, consumer, taxpayer, employee, or citizen. Furthermore, interactive systems do not, despite all contrary assertions, restore a long lost individuality by correcting the effects of mass production in a mass society. On the contrary, the telemetric integration forces the individual once more into a preset scheme. The media supplier dictates the conditions under which the communication takes place, fixes the possible subjects of the dialogue, and, due to the personal data collected, is in an increasingly better position to influence the subscribers behavior. Interactive systems, therefor,e suggest individual behaviors where in fact no more than stereotyped reactions occur”
+
+    
+Evgeny Morozov, ‘The real privacy problem’
+
+    A non-interpretable process might follow from a data-mining analysis which is not explainable in human language. Here, the software makes its selection decisions based upon multiple variables (even thousands) … It would be difficult for the government to provide a detailed response when asked why an individual was singled out to receive differentiated treatment by an automated recommendation system. The most the government could say is that this is what the algorithm found based on previous cases.”
+
+    
+Tal Zarsky, ‘Transparent Predictions’
+
+    From with Great Computing: “While much of the world’s concern has been focused on NSA spying, I believe the greatest threat to my freedom will result from my being placed in a virtual algorithmic prison. Those algorithmic predictions could land me on no-fly lists or target me for government audits. They could be used to deny me loans and credit, screen my job applications and scan LinkedIn to determine my suitability for a job. They could be used by potential employers to get a picture of my health. They could predict whether I will commit a crime or am likely to use addictive substances, and determine my eligibility for automobile and life insurance. They could be used by retirement communities to determine if I will be a profitable resident, and employed by colleges as part of the admissions process. Especially disturbing is the notion that once you become an algorithmic prisoner, it is very difficult to get pardoned. Ask anyone who has tried to get off a no-fly list or correct a mistake on a credit report.”
+
+    
+Julie Cohen, ‘What is privacy for’
+
+    For if we are observed in all matters, we are constantly under threat of correction, judgment, criticism, even plagiarism of our own uniqueness. We become children, fettered under watchful eyes, constantly fearful that—either now or in the uncertain future—patterns we leave behind will be brought back to implicate us, by whatever authority has now become focused upon our once-private and innocent acts. We lose our individuality, because everything we do is observable and recordable.”
+
+    
+Bruce Schneier, ‘The eternal value of privacy’
+
+    Networked information technologies mediate our experiences of the world in ways directly related to both the practice of citizenship and the capacity for citizenship, and so configure citizens as directly or even more directly than institutions do. The practice of citizenship requires access to information and access to the various communities in which citizens claim membership. In the networked information society, those experiences are mediated by search engines, social networking platforms, and content formats. Search engines filter and rank search results, tailoring both the results and the accompanying advertising to what is known about the searcher and prioritizing results in ways that reflect popularity and advertising payments. Social networking platforms filter and systematize social and professional relationships according to their own logics. Content formats determine the material conditions of access to information—for example, whether a video file can be copied or manipulated, or whether a news forum permits reader comments. Each set of processes structures the practice of citizenship, and also subtly molds network users’ understanding of the surrounding world. To an increasing degree, then, the capacity for democratic self-government is defined in part by what those technologies and other widely used technologies allow, and by exactly how they allow it. The resulting changes in our political culture may be more profound and permanent than we have allowed ourselves to imagine.”
+
+    
+Julie Cohen, ‘What is privacy for’
+
+    Privacy shelters dynamic, emergent subjectivity from the efforts of commercial and government actors to render individuals and communities fixed, transparent, and predictable. It protects the situated practices of boundary management through which the capacity for self-determination develops.”
+    
+    
+Disquiet #10: Everyone should worry
+
+    The problem with the nothing-to-hide argument is the underlying assumption that privacy is about hiding bad things. By accepting this assumption, we concede far too much ground and invite an unproductive discussion about information that people would very likely want to hide. As the computer-security specialist Schneier aptly notes, the nothing-to-hide argument stems from a faulty “premise that privacy is about hiding a wrong.” Surveillance, for example, can inhibit such lawful activities as free speech, free association, and other First Amendment rights essential for democracy.”
+
+
+
+
+
