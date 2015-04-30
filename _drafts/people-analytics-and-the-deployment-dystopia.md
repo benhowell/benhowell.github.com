@@ -47,7 +47,7 @@ But really, that's all just tip of the iceburg stuff. According to an article in
 
 The people analytics software company [Gild][7] use an algorithm that scours the internet for open-source code in order to profile software engineers, and perhaps more alarmingly, the algorithm purportedly evaluates the code for its simplicity, elegance, documentation, and several other factors, including the frequency with which it’s been adopted by other programmers. Stack Overflow is also mined to analyse questions and answers by individuals and the breadth and popularity of that advice. Linkedin and Twitter are mined to analyse the language individuals use, and Gild have decided that certain phrases and words used in association with one another distinguishes expert software engineers from less skilled programmers. According to Gild, it knows _"these phrases and words are associated with good coding because it can correlate them with its evaluation of open-source code, and with the language and online behavior of programmers in good positions at prestigious companies"._ 
 
-There are many other workforce focussed analytics companies besides Gild such as Entelo and TalentBin, and it is unknown what data they may be collecting, how their algorithms analyse that data and what "score" they end up appointing you. Data collected about us and the profiles created from that data are not in our control. If you're a programmer and have ever used the internet, chances are that Gild, Entelo and TalentBin have each already compiled your "score".[^1]
+There are many other workforce focussed analytics companies besides Gild such as Entelo and RemarkableHire, and it is unknown what data they may be collecting, how their algorithms analyse that data and what "score" they end up appointing you. Data collected about us and the profiles created from that data are not in our control. If you're a programmer and have ever used the internet, chances are that Gild and Entelo have each already compiled your "score".[^1]
 
 Every day there is an insane amount of data being collected about people as they go about their off and online lives, and as time goes on, the types of, and rate of information collected will continue to grow. Do you even know what data is collected, stored, analysed and sold on by third party companies about you?
 <br/>
@@ -169,6 +169,17 @@ How do job candidates feel about having an unfamiliar talent-search company pori
 
 
 Why should I have to, and how could I even "opt-out" of a system that I probably don't even know about in the first place? No, the only ethical thing to do before you repurpose anyones data is to _ask_ them if you can do so before you do it.
+
+
+
+
+http://www.cio.co.nz/article/521050/what_it_recruiters_know_about_-_whether_re_looking/
+RemarkableHire uses what it calls "social evidence" that people are knowledgeable in a particular skill by looking, among other things, for recognition by their peers and indications that they've provided the best answers to questions posted online. "We look for signals within the content that someone has expertise in a particular skill," says Rothrock. The company then provides skills proficiency ratings of one to four stars for each subject.
+
+"It's an algorithmic challenge" to correctly match up data from various sources and assemble those into accurate master profiles with high degree of confidence -- and that's part of the secret sauce, says Ming at Gild Source. It uses a three-stage process that ranges from evaluating common email addresses and user IDs to computer-based photo matching. While most matching can be done algorithmically, about 2% of the profiles still need manual attention, she says.
+
+With the exception of RemarkableHire, most HR data-mining services don't have a clearly articulated mechanism for subjects to opt out, and subjects don't have the opportunity to review the profiles for accuracy or to correct erroneous data. White argues that this should be less of a problem if recruiters use the tools to find potential candidates, rather than as a way to exclude prospects.
+
 
 
 <br/>
