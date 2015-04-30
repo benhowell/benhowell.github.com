@@ -37,8 +37,6 @@ hn_url:
 <br/>
 
 #### People Analytics
-In [a recent article in the Herald Sun newspaper][1] SCOUT Recruitment Software global business leader Andrea Tjoeng said the process, known as people analytics, could be mainstream in Australia within five years. _"It will be less about perfecting a CV and more about the footprint left behind in cyberspace"_ Ms Tjoeng said.
-
 OK, in this day and age, everyone expects that employers will do some digging online, however, people analytics proves to be much more sinister. In addition to profiling potential employees using external data (public, paid-for, or otherwise), some employers continually profile existing staff using both external data and via analysis of internal social media, email, surveys, and the like, to define a prototypical "good employee" profile in order to employ people with similar profiles. And if an employee chooses not to use corporate social software? I have it on good authority one case where employees were told: _"Failure to engage with [crowd-sourcing software] can potentially be perceived in a negative light"_.
 
 The bottom line is this: if you're filling out questionaires at work, using the corporate social networking tools, crowd-sourcing and ideation tools, using email, doing surveys, wikis, what have you, there may be additional reasons beyond engaging with staff, such as analysis and profiling. And, everything you're doing publicly online is bound to be used at some time in the future for profiling and analysis as well.
