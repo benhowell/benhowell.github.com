@@ -45,9 +45,9 @@ The bottom line is this: if you're filling out questionaires at work, using the 
 
 But really, that's all just tip of the iceburg stuff. According to an article in [The Atlantic][6], the Las Vegas casino Harrah’s tracks the smiles of the card dealers and waitstaff (its analytics team has quantified the impact of smiling on customer satisfaction) and Bloomberg logs every keystroke of every employee along with every time they enter and leave the premises according to [Business Insider Australia][5]. 
 
-The people analytics software company [Gild][7] use an algorithm that scours the internet for open-source code in order to profile software engineers, and perhaps more alarmingly, the algorithm purportedly evaluates the code for its simplicity, elegance, documentation, and several other factors, including the frequency with which it’s been adopted by other programmers. Stack Overflow is also mined to analyse questions and answers by individuals and the breadth and popularity of that advice. Linkedin and Twitter are mined to analyse the language individuals use, and Gild have decided that certain phrases and words used in association with one another distinguishes expert software engineers from less skilled programmers. According to Gild, it knows _"these phrases and words are associated with good coding because it can correlate them with its evaluation of open-source code, and with the language and online behavior of programmers in good positions at prestigious companies"._ If you're a programmer and have ever used the internet, chances are that Gild has already compiled your "score".[^1]
+The people analytics software company [Gild][7] use an algorithm that scours the internet for open-source code in order to profile software engineers, and perhaps more alarmingly, the algorithm purportedly evaluates the code for its simplicity, elegance, documentation, and several other factors, including the frequency with which it’s been adopted by other programmers. Stack Overflow is also mined to analyse questions and answers by individuals and the breadth and popularity of that advice. Linkedin and Twitter are mined to analyse the language individuals use, and Gild have decided that certain phrases and words used in association with one another distinguishes expert software engineers from less skilled programmers. According to Gild, it knows _"these phrases and words are associated with good coding because it can correlate them with its evaluation of open-source code, and with the language and online behavior of programmers in good positions at prestigious companies"._ 
 
-There are many other workforce focussed analytics companies besides Gild such as Entelo and TalentBin, and it is unknown what data they may be collecting, how their algorithms analyse that data and what "score" they end up appointing you. Data collected about us and the profiles created from that data are not in our control.
+There are many other workforce focussed analytics companies besides Gild such as Entelo and TalentBin, and it is unknown what data they may be collecting, how their algorithms analyse that data and what "score" they end up appointing you. Data collected about us and the profiles created from that data are not in our control. If you're a programmer and have ever used the internet, chances are that Gild, Entelo and TalentBin have each already compiled your "score".[^1]
 
 Every day there is an insane amount of data being collected about people as they go about their off and online lives, and as time goes on, the types of, and rate of information collected will continue to grow. Do you even know what data is collected, stored, analysed and sold on by third party companies about you?
 <br/>
@@ -162,6 +162,14 @@ by Daniel J. Solove, Chronicle of Higher Education, “The Chronicle Review” (
 
 
 
+http://www.forbes.com/sites/georgeanders/2012/10/03/no-resume-no-problem-show-us-your-social-stream-instead/
+Entelo currently claims about 40 corporate customers. Most of them are small, fast-growing tech companies. Among them: Box, Lookout, Kontagent and Indiegogo. Entelo charges those customers either $500 a month or $5,000 a year for the right to do targeted searches of Entelo’s databases.
+
+How do job candidates feel about having an unfamiliar talent-search company poring over their activities on various professional websites? Bischke says that so far, only two engineers have asked to be delisted from Entelo’s databases. The rest, presumably, haven’t noticed or don’t mind the attention at all. He says Entelo will start offering a more prominent opt-out feature, though, mindful of some job candidates’ desire for privacy — or fewer emails.
+
+
+Why should I have to, and how could I even "opt-out" of a system that I probably don't even know about in the first place? No, the only ethical thing to do before you repurpose anyones data is to _ask_ them if you can do so before you do it.
+
 
 <br/>
 <br/>
@@ -226,23 +234,21 @@ predictive rationality
 #### The Age of Omnicient Surveillance
 With people analytics, correlations are drawn and judgements are made about our behavior and social skills, and statistical correlates are used to score our intelligence, quality of work, and probabilities of success or failure for particular tasks. However, in any form of real world analysis, finding correlations in data (big, disparate or otherwise) is only the _starting point_ of research, the process thereafter needs to establish the accuracy and validity of that data and whether correlations present a causal relationship or are merely coincidental. People analytics is being sold as a turn-key solution to recruitment and human resources and is being touted as a substitute for, rather than a supplement to, observation and analysis.
 
-Even if we can solve the problems of causal mechanism, systematic bias, and accuracy, is this a world we want to live in anyway? What are the negative social effects of reducing people to numbers calculated by an algorithm? Will people analytics result in a lack of employee diversity? Am I negatively affecting my "score" by publishing this article?
+Even if we can solve the problems of causal mechanism, systematic bias, and accuracy, is this a world we want to live in anyway? What are the negative social effects and psychological impacts of reducing people to numbers calculated by an algorithm? Will people analytics result in a lack of employee diversity? Will constant surveillance stifle creativity and innovation leading to less serendipity?  Am I negatively affecting my "score" by publishing this article?
 
 What makes people analytics particularly repugnant is the vast amount of stalking and invasion of privacy it allows corporations to engage in and its apparent acceptance as a normal business practise. 
 
+People analytics cannot infer and does not provide insight and there could be real-life dire consequences for those who are seen to fall outside the average, the norm.
+
 The day will come where there will be an omni-present, ever churning array of algorithms watching and calculating the value of all employees, across all businesses, all of the time. What then? Keep your head down, do your work, follow the group, work is life.
+
+How can we feign fairness and due process when correlations from a complex algorithm is the one keeping "score"?
+
 
 
 
 
 ... and in the same way that [Boston's street bump app falsely assumed n = all] so too do profiles produced by people analytics.
-our perception, cognition, fairness, privacy and due process.
-
-But big data do not solve the problem that has obsessed statisticians and scientists for centuries: the problem of insight, of inferring what is going on, and figuring out how we might intervene to change a system for the better.
-
-in the exploration of this new frontier, there will be many speculations, experiments, trial, errors and it'll be everyday citizens who'll perform the role of guinea pig. There could be real-life dire consequences for those who are seen to fall outside the average, the norm.
-
-sense of identity and self worth?
 
 On the other hand, many times hiring managers are just looking for a reason to discard your resume to narrow down the talent pool. Anything negative gets you tossed. They see this. Maybe it's a good sign, maybe it's a bad sign. Either way it's something out of the ordinary that will take more time to evaluate. Better just toss the resume. There's still another stack of 100 candidates to go through...
 
