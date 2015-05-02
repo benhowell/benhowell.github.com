@@ -228,8 +228,8 @@ Although the content of this article is mostly concerned with those in the progr
 
 #### Notes
 
-[^1]:[They're Watching You at Work][6]
-[^2]:[http://www.businessinsider.com.au/bloomberg-scandal-culture-secrecy-spying-2013-5][1]
+[^1]:[They're Watching You at Work][2]
+[^2]:[The Bloomberg Spying Scandal Isn't Surprising — Stalking Is Part Of Its Culture][1]
 [^3]:[https://www.gild.com/][3]
 [^4]:Gild ranks the quality of each programmer they analyse as a number between 1 and 100.
 [^5]:[How Big Data Is Playing Recruiter for Specialized Workers][4]
