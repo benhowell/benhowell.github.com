@@ -57,16 +57,16 @@ People analytics does not provide causality. If there is no critical research to
 <br/>
 
 #### Systematic Bias
-Big data, and especially people analytics suffers from the "N = all" fallacy. "N = all" simply means that the sample size is equivalent to population, and with regards to big data, it is this fallacy that produces the false assumption that sampling bias and uncertainty is reduced to zero. The most comprehensive datasets pertaining to people and their behaviour will always have incomplete information. The interactive, social and behavioural models imposed by any platform (social, e-commerce, crowd sourced, whatever) will dictate who uses the platform, and how they use it. It stands to reason that this will necessarily taint the data collected and introduce systematic bias. Further compounding this, systematic bias introduces a component of modulation and mediation because almost every data capturing interaction (services, recommenders, search result ranking, etc.) modulate results because they steer us in particular directions based both upon the interaction model imposed by the service (architecture, environment, etc.), and upon commercial, social or behavioural interests of those providing the service.
+Big data, and especially people analytics suffers from the "N = All" fallacy. "N = All" simply means that the sample size is equivalent to population, and with regards to big data, it is this fallacy that produces the false assumption that sampling bias and uncertainty is reduced to zero. The most comprehensive datasets pertaining to people and their behaviour will always have incomplete information. The interactive, social and behavioural models imposed by any platform (social, e-commerce, crowd sourced, whatever) will dictate who uses the platform, and how they use it. It stands to reason then that this will taint the data collected and introduce systematic bias. Further compounding this, systematic bias introduces a component of modulation and mediation because almost every data capturing interaction (services, recommenders, search result ranking, etc.) modulate results because they steer us in particular directions based both upon the interaction model imposed by the service (architecture, environment, etc.), and upon commercial, social or behavioural interests of those providing the service.
 
-An illustrative example of systematic bias as observed in the "Boston Street Bump app", is detailed by Tim Harford in [Big data: are we making a big mistake?][6]. _"As citizens of Boston download the app and drive around, their phones automatically notify City Hall of the need to repair the road surface. The City of Boston proudly proclaims that the “data provides the City with real-time in­formation it uses to fix problems and plan long term investments."_
+An illustrative example of systematic bias as observed in the "Boston Street Bump app", is detailed by Tim Harford in [Big data: are we making a big mistake?][6] _"As citizens of Boston download the app and drive around, their phones automatically notify City Hall of the need to repair the road surface. The City of Boston proudly proclaims that the “data provides the City with real-time in­formation it uses to fix problems and plan long term investments."_
 
 _"Yet what Street Bump really produces, left to its own devices, is a map of potholes that systematically favours young, affluent areas where more people own smartphones. Street Bump offers us “N = All” in the sense that every bump from every enabled phone can be recorded. That is not the same thing as recording every pothole."_
 <br/>
 <br/>
 
 #### Accuracy
-The accuracy of the digital footprint left behind by people in their online activities is highly questionable. Personal data, in particular the "self reported" variety cannot be assumed to be objective or accurate. How does big data deal with sarcastic comments made on twitter? Is a message retweeted because the person agrees or disagrees? Is the personal information used in online surveys and competitions accurate? Are all user details used to sign up for trial software real? How do we determine the accuracy of qualifications and skills from Linkedin? What types of relationships characterise each connection on Linkedin or follower on Twitter? Alter egos? Trolls? Is the general demeanor of people in online communities always representative of their character in real life? If it's possible to answer "no" to any of these questions, then systematic error is inherent in any system churning this data due to inaccuracy.
+The accuracy of the digital footprint left behind by people in their online activities is highly questionable. Personal data, in particular the "self reported" variety cannot be assumed to be objective or accurate. How does big data deal with sarcastic comments made on twitter? Is a message retweeted because the person agrees or disagrees? Is the personal information people use in online surveys and competitions accurate? Are all user details used to sign up for trial software real? How do we determine the accuracy of qualifications and skills from Linkedin? What types of relationships characterise each connection on Linkedin or follower on Twitter? Is the general demeanor of people in online communities always representative of their character in real life? Alter egos? Trolls? If it's possible to answer "no" to any of these questions, then systematic error is inherent in any system churning this data due to inaccuracy.
 
 Data does not speak for itself.
 <br/>
@@ -81,9 +81,9 @@ Data does not speak for itself.
 
 
 #### Privacy and Secrecy
-Every day there is an insane amount of data being collected about people as they go about their off and online lives, and as time goes on, the types of, and rate of information collected will continue to grow. Do you even know what data is collected, stored, analysed and sold on by third party companies about you? 
+Every day there's an insane amount of data being collected about people as they go about their off and online lives, and as time goes on, the types of, and rate of information collected will continue to grow. Do you even know what data is collected, stored, analysed and sold on by third party companies about you? 
 
-Privacy is perhaps the most worrying aspect of big data in general, and in particular, people analytics. 
+Privacy is perhaps the most worrying aspect of big data in general, and particularly, people analytics. 
 
 http://blog.hipchat.com/2014/04/25/hey-were-changing-our-terms-of-service/
 
@@ -203,10 +203,10 @@ predictive rationality
 
 
 
-#### The Age of Omnicient Surveillance, Analysis and Profiling
+#### The Age of Analysis, Profiling and Omnicient Surveillance
 With people analytics, correlations are drawn and judgements are made about our behavior and social skills, and statistics are used to score our intelligence, quality of work, and probabilities of success or failure for particular tasks. However, in any form of real world analysis, finding correlations in data (big, disparate or otherwise) is only the _starting point_ of research, the process thereafter needs to establish the accuracy and validity of that data and whether correlations present a causal relationship or are merely coincidental. People analytics is being sold as a turn-key solution to recruitment and human resources, and is being touted as a substitute for, rather than a supplement to, observation and analysis. What makes people analytics particularly repugnant is the vast amount of stalking and invasion of privacy it allows corporations to engage in and its apparent acceptance as a normal business practise. 
 
-Even if we can solve the problems of causal mechanism, systematic bias, and accuracy, is this a world we want to live in anyway? What are the negative social effects and psychological impacts of reducing people to numbers calculated by an algorithm? Will people analytics result in a lack of employee diversity? Will constant surveillance stifle creativity and innovation leading to less serendipitous discoveries?  Are there cicumstances where a "score" compiled by a private entity rating the value of a person and onsold to interested parties be considered defamatory? How fairness and due process be articulated when correlations from a complex algorithm is the one keeping "score"? Am I negatively affecting my "score" by publishing this article?
+Even if we can solve the problems of causal mechanism, systematic bias, and accuracy, is this a world we want to live in anyway? What are the negative social effects and psychological impacts of reducing people to numbers calculated by an algorithm? Will people analytics result in a lack of employee diversity? Will constant surveillance stifle creativity and innovation leading to less serendipitous discoveries?  Are there cicumstances where a "score" compiled by a private entity rating the value of a person and onsold to interested parties is considered defamatory? How can fairness and due process be articulated when correlations from a complex algorithm is the one keeping "score"? Am I negatively affecting my "score" by publishing this article?
 
 
 
@@ -222,7 +222,7 @@ According to its critics, Big Data is profiling on steroids, unthinkably intrusi
 
 
 
-Although the content of this article is mostly concerned with those in the programming community with regards to people analytics, it brings into question the ethics of big data, morality of private commoditisation and trading of dossiers on citizens, privacy and ultimately democracy itself.
+Although the content of this article is mostly concerned with those in the programming community with regards to people analytics, it brings into question the ethics of commoditisation and trading of data and subjective analysis on citizens, erosion of privacy and ultimately democracy itself.
 <br/>
 <br/>
 
