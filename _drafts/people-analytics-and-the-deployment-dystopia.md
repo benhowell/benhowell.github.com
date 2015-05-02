@@ -83,36 +83,15 @@ Data does not speak for itself.
 #### Privacy and Secrecy
 Every day there's an insane amount of data being collected about people as they go about their off and online lives, and as time goes on, the types of, and rate of information collected will continue to grow. Do you even know what data is collected, stored, analysed and sold on by third party companies about you? 
 
-Privacy is perhaps the most worrying aspect of big data in general, and particularly, people analytics. 
+Privacy is perhaps the most worrying aspect of big data in general, and particularly, people analytics. The general public are becoming increasingly concerned about government regulation and laws surrounding the topic of ISP data retention of late. The capacity of goverment agencies to perform surveillance and compile dossiers on their citizens is neither ethical or just according to many people around the globe. Is the type of unsolicited surveillance and profiling done by private companies any less worrysome? 
 
-http://blog.hipchat.com/2014/04/25/hey-were-changing-our-terms-of-service/
-
-We would be wise to take legal measures to ensure, at a minimum, that companies can’t snoop where we have a reasonable expectation of privacy—and that any evaluations they might make of our professional potential aren’t based on factors that discriminate against classes of people.
+Legislation has not kept up with the growth in collection and analysis of personal data by corporations.
 
 Freedom of personal information and profiles generated and/or kept by corporate entities and government? Should one be allowed access to their own profile free of charge? Can one have their profile "removed" costs to obtain free info (court docs, FOI, scientific papers).
 
-Corporate analytics needs to be regulated to allow for a space for privacy and to ensure that people can consent to have their information mined.
-
-will be tracked only for their suitability for their initial jobs, not for their potential.
-
-People are particularly concerned about government regulation and laws around the topic of ISP data retention of late. The capacity of goverment agencies to perform surveillance and compile dossiers on their citizens is neither ethical and moral, or fair and just according to many people around the globe. Is the type of unsolicited surveillance and profiling done by private companies any less worrysome? 
-
-
 Knowledge is power, if the power only flows one way then there will be control and abuse. The findings of the analytics on any potential employee (hired or not) should required to be share with that person, not only with the employer. 
 
-from anonymous marketing to personal intrusion (i.e. marketer doesn't care about the individual per-se, whereas with employers, that's all they care about).
-before it was anonymous, now its personal.
-
-
-
-
-http://www.rawstory.com/2015/04/the-anti-surveillance-state-clothes-and-gadgets-block-face-recognition-technology-and-make-you-digitally-invisible/
-
-
-
-
-Surveillance, for example, can inhibit such lawful activities as free speech, free association, and other First Amendment rights essential for democracy
-
+Surveillance, for example, can inhibit such lawful activities as free speech, free association, and other First Amendment rights essential for democracy.
 
 Daniel Solov, ‘Why Privacy Matters Even if You Have ‘Nothing to Hide’
 
@@ -121,21 +100,24 @@ by Daniel J. Solove, Chronicle of Higher Education, “The Chronicle Review” (
 
 
 
+
+
+
 http://www.forbes.com/sites/georgeanders/2012/10/03/no-resume-no-problem-show-us-your-social-stream-instead/
-Entelo currently claims about 40 corporate customers. Most of them are small, fast-growing tech companies. Among them: Box, Lookout, Kontagent and Indiegogo. Entelo charges those customers either $500 a month or $5,000 a year for the right to do targeted searches of Entelo’s databases.
 
 How do job candidates feel about having an unfamiliar talent-search company poring over their activities on various professional websites? Bischke says that so far, only two engineers have asked to be delisted from Entelo’s databases. The rest, presumably, haven’t noticed or don’t mind the attention at all. He says Entelo will start offering a more prominent opt-out feature, though, mindful of some job candidates’ desire for privacy — or fewer emails.
-
 
 Why should I have to, and how could I even "opt-out" of a system that I probably don't even know about in the first place? No, the only ethical thing to do before you repurpose anyones data is to _ask_ them if you can do so before you do it.
 
 If an unknown entity takes data and profiles individuals without their knowledge and then provides an opt-out after the fact, is like copying someones personal files from a filing cabinet without their knowledge and then, if they ever realise, they can "opt-out" and their files will not be analysed or sold from then on (and who knows who's analysed and/or bought the contents of those files in the meantime).
 
 
+
+
 http://www.cio.co.nz/article/521050/what_it_recruiters_know_about_-_whether_re_looking/
 RemarkableHire uses what it calls "social evidence" that people are knowledgeable in a particular skill by looking, among other things, for recognition by their peers and indications that they've provided the best answers to questions posted online. "We look for signals within the content that someone has expertise in a particular skill," says Rothrock. The company then provides skills proficiency ratings of one to four stars for each subject. (but this assumes that "social" means "public, on the internet" which is incredibly naieve. 
 
-"It's an algorithmic challenge" to correctly match up data from various sources and assemble those into accurate master profiles with high degree of confidence -- and that's part of the secret sauce, says Ming at Gild Source. It uses a three-stage process that ranges from evaluating common email addresses and user IDs to computer-based photo matching. While most matching can be done algorithmically, about 2% of the profiles still need manual attention, she says. (so, paradoxically, the profiling process is secret and kept private)
+"It's an algorithmic challenge" to correctly match up data from various sources and assemble those into accurate master profiles with high degree of confidence -- and that's part of the secret sauce, says Ming at Gild Source. (so, paradoxically, the profiling process is secret and kept private)
 
 With the exception of RemarkableHire, most HR data-mining services don't have a clearly articulated mechanism for subjects to opt out, and subjects don't have the opportunity to review the profiles for accuracy or to correct erroneous data. White argues that this should be less of a problem if recruiters use the tools to find potential candidates, rather than as a way to exclude prospects.
 
@@ -150,43 +132,19 @@ With the exception of RemarkableHire, most HR data-mining services don't have a 
 
 Cohen, Julie E., What Privacy Is For (November 5, 2012). Harvard Law Review, Vol. 126, 2013. Available at SSRN: http://ssrn.com/abstract=2175406
 
-Innovation also requires room to tinker, and therefore thrives most fully in an environment that values and preserves spaces for tinkering. A society that permits the unchecked ascendancy of surveillance infrastructures, which dampen and modulate behavioral variability, cannot hope to maintain a vibrant tradition of cultural and technical innovation. Efforts to repackage pervasive surveillance as innovation — under the moniker “Big Data” —
-are better understood as efforts to enshrine the methods and values
-of the modulated society at the heart of our system of knowledge pro-
-duction. The techniques of Big Data have important contributions to
-make to the scientific enterprise and to social welfare, but as engines
-of truth production about human subjects they deserve a long, hard
-second look.
+Innovation also requires room to tinker, and therefore thrives most fully in an environment that values and preserves spaces for tinkering. A society that permits the unchecked ascendancy of surveillance infrastructures, which dampen and modulate behavioral variability, cannot hope to maintain a vibrant tradition of cultural and technical innovation. Efforts to repackage pervasive surveillance as innovation — under the moniker “Big Data” — are better understood as efforts to enshrine the methods and values of the modulated society at the heart of our system of knowledge production. The techniques of Big Data have important contributions to make to the scientific enterprise and to social welfare, but as engines of truth production about human subjects they deserve a long, hard second look.
 
 
-Innovative practice is threatened most
-directly when circumstances impose intellectual regimentation, pre-
-scribing orthodoxies and restricting the freedom to tinker. It thrives
-most fully when circumstances yield serendipitous encounters with
-new resources and ideas, and afford the intellectual and material
-breathing room to experiment with them.48
-breathing room to experiment with them.When the predicate conditions for innovation are described in this
-way, the problem with characterizing privacy as anti-innovation be-
-comes clear: it is modulation, not privacy, that poses the greater threat
-to innovative practice. Regimes of pervasively distributed surveillance
-and modulation seek to mold individual preferences and behavior in
-ways that reduce the serendipity and the freedom to tinker on which
-innovation thrives. The suggestion that innovative activity will persist
-unchilled under conditions of pervasively distributed surveillance is
-simply silly; it derives rhetorical force from the cultural construct of
-the liberal subject, who can separate the act of creation from the fact
-of surveillance. As we have seen, though, that is an unsustainable fic-
-tion. The real, socially constructed subject responds to surveillance
-quite differently — which is, of course, exactly why government and
-commercial entities engage in it. Clearing the way for innovation re-
-quires clearing the way for innovative practice by real people. Innova-
-tive practice in turn requires breathing room for critical self-
-determination and physical spaces within which the everyday practice
-of tinkering can thrive.
+Innovative practice is threatened most directly when circumstances impose intellectual regimentation, prescribing orthodoxies and restricting the freedom to tinker. It thrives most fully when circumstances yield serendipitous encounters with new resources and ideas, and afford the intellectual and material breathing room to experiment with them. 48
+
+When the predicate conditions for innovation are described in this way, the problem with characterizing privacy as anti-innovation becomes clear: it is modulation, not privacy, that poses the greater threat to innovative practice. Regimes of pervasively distributed surveillance and modulation seek to mold individual preferences and behavior in ways that reduce the serendipity and the freedom to tinker on which innovation thrives. The suggestion that innovative activity will persist unchilled under conditions of pervasively distributed surveillance is simply silly; it derives rhetorical force from the cultural construct of the liberal subject, who can separate the act of creation from the fact of surveillance. As we have seen, though, that is an unsustainable fiction. The real, socially constructed subject responds to surveillance quite differently — which is, of course, exactly why government and
+commercial entities engage in it. Clearing the way for innovation requires clearing the way for innovative practice by real people. Innovative practice in turn requires breathing room for critical selfdetermination and physical spaces within which the everyday practice of tinkering can thrive.
+
+
+Which brings into question the future of clandestine innovation, often referred to as "skunkworks" [^8].
 
 
 
-what about skunkworks?
 
 
 
@@ -214,11 +172,18 @@ The day will come where there will be an omni-present, ever churning array of al
 
 In the same way that [Boston's street bump app falsely assumed n = all][ref] so too do profiles produced by people analytics.
 
+will be tracked only for their suitability for their initial jobs, not for their potential.
+
+Government legislation needs to be put in place to restrict corporate data mining, surveillance, profiling and analysis on private citizens without their consent.
 
 
 Hiring managers are just looking for a reason to discard your resume to narrow down the talent pool. Anything negative gets you tossed.
 
 According to its critics, Big Data is profiling on steroids, unthinkably intrusive and eerily omniscient.
+
+from anonymous marketing to personal intrusion (i.e. marketer doesn't care about the individual per-se, whereas with employers, that's all they care about).
+before it was anonymous, now its personal.
+
 
 
 
@@ -235,6 +200,7 @@ Although the content of this article is mostly concerned with those in the progr
 [^5]:[How Big Data Is Playing Recruiter for Specialized Workers][4]
 [^6]:[Spurious Correlations][5]
 [^7]:[Big data: are we making a big mistake?][6]
+[^8]:[Skunkworks][7]
 
 [1]:http://www.businessinsider.com.au/bloomberg-scandal-culture-secrecy-spying-2013-5
 [2]:http://www.theatlantic.com/magazine/archive/2013/12/theyre-watching-you-at-work/354681/
@@ -242,3 +208,4 @@ Although the content of this article is mostly concerned with those in the progr
 [4]:http://www.nytimes.com/2013/04/28/technology/how-big-data-is-playing-recruiter-for-specialized-workers.html?pagewanted=4&ref=business&pagewanted=all&_r=0
 [5]:http://www.tylervigen.com/view_correlation?id=1597
 [6]:http://www.ft.com/intl/cms/s/2/21a6e7d8-b479-11e3-a09a-00144feabdc0.html
+[7]:http://en.wikipedia.org/wiki/Skunkworks_project

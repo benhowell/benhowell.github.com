@@ -146,7 +146,7 @@ Is such personal intrusion ethically and morally defensible by anyone? Do we eve
 
 
 
-
+http://www.rawstory.com/2015/04/the-anti-surveillance-state-clothes-and-gadgets-block-face-recognition-technology-and-make-you-digitally-invisible/
 
 
 
