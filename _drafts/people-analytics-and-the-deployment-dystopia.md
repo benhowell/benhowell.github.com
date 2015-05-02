@@ -166,7 +166,7 @@ With people analytics, correlations are drawn and judgements are made about our 
 
 Even if we can solve the problems of causal mechanism, systematic bias, and accuracy, is this a world we want to live in anyway? What are the negative social effects and psychological impacts of reducing people to numbers calculated by an algorithm? Will people analytics result in a lack of employee diversity? Will constant surveillance stifle creativity and innovation leading to less serendipitous discoveries?  Are there cicumstances where a "score" compiled by a private entity rating the value of a person and onsold to interested parties is considered defamatory? How can fairness and due process be articulated when correlations from a complex algorithm is the one keeping "score"? Am I negatively affecting my "score" by publishing this article?
 
-
+Is predictive rationality such an elusive possiblibility that people analytics will never be reliable?
 
 The day will come where there will be an omni-present, ever churning array of algorithms watching and calculating the value of all employees, across all businesses, all of the time. What then? Keep your head down, do your work, follow the group, work is life.
 
