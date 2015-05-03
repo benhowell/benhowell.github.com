@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "People Analytics and the Big Data Dystopia"
-description: "The dystopian future and the transition from freedom and employment to compliance and deployment thanks to big data and people analytics."
+description: "Erosion of privacy and damage to democracy is our dystopian future thanks to big data, surveillance, and people analytics."
 tagline: "future"
 category: future
-tags: [future, big data, analytics, employment, big brother, privacy, anonymity, compliance]
+tags: [big data, analytics, programming, privacy, anonymity, causation, systematic bias, accuracy, freedom, innovation]
 related: [Step Away From the Kool Aid, Your Financial History. Your Business.]
 article_img: bootstrap/img/dystopia.jpg
 article_img_title: Nineteen Eighty-Four by George Orwell
@@ -37,13 +37,13 @@ hn_url:
 <br/>
 
 #### People Analytics
-In this day and age, everyone expects that employers will do some online investigation of prospective employees, however, people analytics proves to be much more sinister. In addition to profiling potential employees using external data (public, paid-for, or otherwise), some employers continually analyse and profile existing staff using external data, and via analysis of internal social media, email, surveys, and the like. So, if you're filling out questionaires at work, using the corporate social networking tools, crowd-sourcing and ideation tools, using email, doing surveys, wikis, what have you, there may be additional reasons beyond engaging with staff, such as analysis and profiling. And, everything you're doing publicly online is bound to be used at some time in the future for profiling and analysis as well.
+In this day and age, everyone expects that employers will do some online investigation of prospective employees, however, people analytics proves to be much more sinister. In addition to profiling potential employees using external data (public, paid-for, or otherwise), some employers continually analyse and profile existing staff using external data, and via analysis of internal social media, email, surveys, and the like. So, if you're filling out questionnaires at work, using the corporate social networking tools, crowd-sourcing and ideation tools, using email, doing surveys, wikis, what have you, there may be additional reasons beyond engaging with staff, such as analysis and profiling. And, everything you're doing publicly online is bound to be used at some time in the future for profiling and analysis as well.
 
-But really, that's all just tip of the iceburg stuff. According to an article in _"The Atlantic"_  [^1], the Las Vegas casino Harrah’s tracks the smiles of the card dealers and waitstaff (its analytics team has quantified the impact of smiling on customer satisfaction) and Bloomberg logs every keystroke of every employee along with every time they enter and leave the premises according to _"Business Insider Australia"_  [^2]. 
+But really, that's all just tip of the iceberg stuff. According to an article in _"The Atlantic"_  [^1], the Las Vegas casino Harrah’s tracks the smiles of the card dealers and waitstaff (its analytics team has quantified the impact of smiling on customer satisfaction) and Bloomberg logs every keystroke of every employee along with every time they enter and leave the premises according to _"Business Insider Australia"_  [^2]. 
 
 The people analytics company Gild [^3] use an algorithm that scours the internet for open-source code in order to profile software engineers, and perhaps more alarmingly, the algorithm purportedly evaluates the code for its simplicity, elegance, documentation, and several other factors, including the frequency with which it’s been adopted by other programmers. Stack Overflow is also mined to analyse questions and answers by individuals and the breadth and popularity of that advice. Linkedin and Twitter are mined to analyse the language individuals use, and Gild have decided that certain phrases and words used in association with one another distinguishes expert software engineers from less skilled programmers. According to Gild, it knows _"these phrases and words are associated with good coding because it can correlate them with its evaluation of open-source code, and with the language and online behavior of programmers in good positions at prestigious companies"._  [^1]. _"It's an algorithmic challenge to correctly match up data from various sources and assemble those into accurate master profiles with high degree of confidence -- and that's part of the secret sauce"_. [^4]
 
-There are many other people focussed analytics companies out there, and it's unknown what data they collect, how their algorithms analyse that data, and what "score" they end up appointing any individual [^5]. Data collected about us and the profiles created from that data are not in our control. If you're a programmer and have ever touched the internet, chances are that many of these companies have already profiled you. 
+There are many other people focused analytics companies out there, and it's unknown what data they collect, how their algorithms analyse that data, and what "score" they end up appointing any individual [^5]. Data collected about us and the profiles created from that data are not in our control. If you're a programmer and have ever touched the internet, chances are that many of these companies have already profiled you. 
 <br/>
 <br/>
 
@@ -57,13 +57,13 @@ People analytics does not provide causality. If there is no critical research to
 <br/>
 
 #### Systematic Bias
-Big data, and especially people analytics suffers from the "N = All" fallacy. "N = All" simply means that the sample size is equivalent to population, and with regards to big data, it is this fallacy that produces the assumption that sampling bias and uncertainty is reduced to zero. The most comprehensive datasets pertaining to people and their behaviour will always have incomplete information. 
+Big data, and especially people analytics suffers from the "N = All" fallacy. "N = All" simply means that the sample size is equivalent to population, and with regards to big data, it is this fallacy that produces the assumption that sampling bias and uncertainty is reduced to zero. The most comprehensive data sets pertaining to people and their behaviour will always have incomplete information. 
 
 The interactive, social and behavioural models imposed by any platform (social, e-commerce, crowd sourced, whatever) will dictate who uses the platform, and how they use it. It stands to reason then that this will taint the data collected and introduce systematic bias. Further compounding this, is an element of modulation and mediation because almost every data capturing interaction (services, recommenders, search result ranking, etc.) modulate results because they steer us in particular directions based both upon the interaction model imposed by the service (architecture, environment, and so on), and upon commercial, social or behavioural interests of those providing the service.
 
 An illustrative example of systematic bias as observed in the _"Boston Street Bump app"_, is detailed by Tim Harford in _"Big data: are we making a big mistake?"_  [^8] 
 
-_"As citizens of Boston download the app and drive around, their phones automatically notify City Hall of the need to repair the road surface. The City of Boston proudly proclaims that the “data provides the City with real-time in­formation it uses to fix problems and plan long term investments."_
+_"As citizens of Boston download the app and drive around, their phones automatically notify City Hall of the need to repair the road surface. The City of Boston proudly proclaims that the “data provides the City with real-time information it uses to fix problems and plan long term investments."_
 
 _"Yet what Street Bump really produces, left to its own devices, is a map of potholes that systematically favours young, affluent areas where more people own smartphones. Street Bump offers us “N = All” in the sense that every bump from every enabled phone can be recorded. That is not the same thing as recording every pothole."_
 <br/>
@@ -72,18 +72,18 @@ _"Yet what Street Bump really produces, left to its own devices, is a map of pot
 #### Accuracy
 The accuracy of the digital footprint left behind by people in their online activities is highly questionable. Personal data, in particular the "self produced" variety cannot be assumed to be objective or accurate. Sarcasm, irony and many forms of wit and commentary (e.g. repeating or quoting something you disagree with) betray the surface meaning of the words used by their creator and most often relate to some external and undefined context. 
 
-Skills and qualifications pertaining to anyone (on Linkedin fopr example) can not be assumed to be up-to-date or accurate, or indeed reflect the intelligence of the person in question. The general demeanor of people in online communities cannot be reliably used to determine their character in real life.
+Skills and qualifications pertaining to anyone (on Linkedin for example) can not be assumed to be up-to-date or accurate, or indeed reflect the intelligence of the person in question. The general demeanour of people in online communities cannot be reliably used to determine their character in real life.
 <br/>
 <br/>
 
 #### Privacy and Secrecy
 Every day there's an insane amount of data being collected about people as they go about their off and online lives, and as time goes on, the types of, and rate of information collected will continue to grow. Do you even know what data is collected, stored, analysed and sold on by third party companies about you? 
 
-Privacy is perhaps the most worrying aspect of big data in general, and particularly, people analytics. Government surveillance and data retention laws have been a hot topic of late in countries like Australia, Germany, Sweden and the United States, and there is an increasing chorus of concern about the capacity of goverment agencies to perform surveillance and compile dossiers on their citizens. Is the type of unsolicited surveillance and profiling done by private companies any less worrysome? Legislation needs to catch up with the growth in unsolicited collection and analysis of personal data by private corporations.
+Privacy is perhaps the most worrying aspect of big data in general, and particularly, people analytics. Government surveillance and data retention laws have been a hot topic of late in countries like Australia, Germany, Sweden and the United States, and there is an increasing chorus of concern about the capacity of government agencies to perform surveillance and compile dossiers on their citizens. Is the type of unsolicited surveillance and profiling done by private companies any less worrisome? Legislation needs to catch up with the growth in unsolicited collection and analysis of personal data by private corporations.
 
 In the article _"The Value of Privacy"_ [^10], Bruce Schneier writes with regards to surveillance and privacy: _"...they accept the premise that privacy is about hiding a wrong. It's not. Privacy is an inherent human right, and a requirement for maintaining the human condition with dignity and respect."_ Schneier concludes with _"Widespread police surveillance is the very definition of a police state. And that's why we should champion privacy even when we have nothing to hide."_
 
-Increses in surveillance and erosion of privacy can dampen free speech and freedom of association.
+Increases in surveillance and erosion of privacy can dampen free speech and freedom of association.
 
 
 Privacy is also important for innovation which is evident in clandestine research and development projects, sometimes referred to as "skunkworks" [^9]. 
@@ -94,8 +94,8 @@ _"Regimes of pervasively distributed surveillance and modulation seek to mold in
 <br/>
 <br/>
 
-#### The Age of Analysis, Profiling and Omnicient Surveillance
-With people analytics, correlations are drawn and judgements are made about our behavior and social skills, and statistics are used to score our intelligence, quality of work, and probabilities of success or failure for particular tasks. However, in any form of real world analysis, finding correlations in data (big, disparate or otherwise) is only the starting point of research, the process thereafter needs to establish the accuracy and validity of that data and whether correlations present a causal relationship or are merely coincidental. People analytics is being sold as a turn-key solution to recruitment and human resources, and is being touted as a substitute for, rather than a supplement to, observation and analysis. What makes people analytics particularly repugnant is the vast amount of intrusion and invasion of privacy it allows corporations to engage in and its apparent acceptance as a normal business practise. 
+#### The Age of Analysis, Profiling and Omniscient Surveillance
+With people analytics, correlations are drawn and judgements are made about our behaviour and social skills, and statistics are used to score our intelligence, quality of work, and probabilities of success or failure for particular tasks. However, in any form of real world analysis, finding correlations in data (big, disparate or otherwise) is only the starting point of research, the process thereafter needs to establish the accuracy and validity of that data and whether correlations present a causal relationship or are merely coincidental. People analytics is being sold as a turn-key solution to recruitment and human resources, and is being touted as a substitute for, rather than a supplement to, observation and analysis. What makes people analytics particularly repugnant is the vast amount of intrusion and invasion of privacy it allows corporations to engage in and its apparent acceptance as a normal business practise. 
 
 Even if we can solve the problems of causal mechanism, systematic bias, and accuracy, do we want to live in a world where every aspect of our lives are monitored and our worthiness continually calculated? Will there be serious social and psychological consequences of reducing people to numbers? Will this lead to a lack of employee diversity? Will constant surveillance stifle creativity and innovation leading to less serendipitous discoveries? How can fairness and due process be articulated when correlations from a complex and secretive algorithm is the one keeping "score"? Am I negatively affecting my "score" by publishing this article?
 
