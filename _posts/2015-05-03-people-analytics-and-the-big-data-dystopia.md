@@ -83,7 +83,7 @@ Privacy is perhaps the most worrying aspect of big data in general, and particul
 
 In the article _"The Value of Privacy"_ [^10], Bruce Schneier writes with regards to surveillance and privacy: _"...they accept the premise that privacy is about hiding a wrong. It's not. Privacy is an inherent human right, and a requirement for maintaining the human condition with dignity and respect."_ Schneier concludes with _"Widespread police surveillance is the very definition of a police state. And that's why we should champion privacy even when we have nothing to hide."_
 
-Privacy is also important for innovation which is evident in clandestine research and development projects, sometimes referred to as "skunkworks" [^9]. Julie Cohen, in the _"Harvard Law Review"_ states _"A society that permits the unchecked ascendancy of surveillance infrastructures, which dampen and modulate behavioral variability, cannot hope to maintain a vibrant tradition of cultural and technical innovation. Efforts to repackage pervasive surveillance as innovation — under the moniker “Big Data” — are better understood as efforts to enshrine the methods and values of the modulated society at the heart of our system of knowledge production. The techniques of Big Data have important contributions to make to the scientific enterprise and to social welfare, but as engines of truth production about human subjects they deserve a long, hard second look."_
+Privacy is also important for innovation which is evident in clandestine research and development projects, sometimes referred to as "skunkworks" [^9]. Julie Cohen, in the _"Harvard Law Review"_ [^11] states _"A society that permits the unchecked ascendancy of surveillance infrastructures, which dampen and modulate behavioral variability, cannot hope to maintain a vibrant tradition of cultural and technical innovation. Efforts to repackage pervasive surveillance as innovation — under the moniker “Big Data” — are better understood as efforts to enshrine the methods and values of the modulated society at the heart of our system of knowledge production. The techniques of Big Data have important contributions to make to the scientific enterprise and to social welfare, but as engines of truth production about human subjects they deserve a long, hard second look."_
 
 _"Regimes of pervasively distributed surveillance and modulation seek to mold individual preferences and behavior in ways that reduce the serendipity and the freedom to tinker on which innovation thrives."_
 
@@ -114,6 +114,7 @@ Although the content of this article is mostly concerned with those in the progr
 [^8]:[Big data: are we making a big mistake?][6]
 [^9]:[Skunkworks][7]
 [^10]:[The Value of Privacy][9]
+[^11]:[Harvard Law Review - What Is Privacy For?][10]
 
 [1]:http://www.businessinsider.com.au/bloomberg-scandal-culture-secrecy-spying-2013-5
 [2]:http://www.theatlantic.com/magazine/archive/2013/12/theyre-watching-you-at-work/354681/
@@ -124,3 +125,4 @@ Although the content of this article is mostly concerned with those in the progr
 [7]:http://en.wikipedia.org/wiki/Skunkworks_project
 [8]:http://www.computerworld.com/article/2483672/it-careers/what-it-recruiters-know-about-you----whether-you-re-looking-or-not.html
 [9]:https://www.schneier.com/blog/archives/2006/05/the_value_of_pr.html
+[10]:http://www.harvardlawreview.org/wp-content/uploads/pdfs/vol126_cohen.pdf
