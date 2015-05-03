@@ -83,43 +83,15 @@ https://www.schneier.com/blog/archives/2006/05/the_value_of_pr.html
 In the article _"The Value of Privacy"_ Bruce Schneier wrote, with regards to surveillance and privacy: _"...they accept the premise that privacy is about hiding a wrong. It's not. Privacy is an inherent human right, and a requirement for maintaining the human condition with dignity and respect."_ Schneier concludes with _"Widespread police surveillance is the very definition of a police state. And that's why we should champion privacy even when we have nothing to hide."_
 
 Increses in surveillance and erosion of privacy can dampen free speech and freedom of association.
+
+
+Privacy is also an important for innovation which is evident in clandestine research and development projects, sometimes referred to as "skunkworks" [^9]. 
+
+Julie Cohen, in her article in the _"Harvard Law Review"_ writes: _"A society that permits the unchecked ascendancy of surveillance infrastructures, which dampen and modulate behavioral variability, cannot hope to maintain a vibrant tradition of cultural and technical innovation. Efforts to repackage pervasive surveillance as innovation — under the moniker “Big Data” — are better understood as efforts to enshrine the methods and values of the modulated society at the heart of our system of knowledge production. The techniques of Big Data have important contributions to make to the scientific enterprise and to social welfare, but as engines of truth production about human subjects they deserve a long, hard second look."_
+
+_"Regimes of pervasively distributed surveillance and modulation seek to mold individual preferences and behavior in ways that reduce the serendipity and the freedom to tinker on which innovation thrives."_
 <br/>
 <br/>
-
-
-
-#### Innovation, Diversity and Serendipity
-
-Cohen, Julie E., What Privacy Is For (November 5, 2012). Harvard Law Review, Vol. 126, 2013. Available at SSRN: http://ssrn.com/abstract=2175406
-
-Innovation also requires room to tinker, and therefore thrives most fully in an environment that values and preserves spaces for tinkering. A society that permits the unchecked ascendancy of surveillance infrastructures, which dampen and modulate behavioral variability, cannot hope to maintain a vibrant tradition of cultural and technical innovation. Efforts to repackage pervasive surveillance as innovation — under the moniker “Big Data” — are better understood as efforts to enshrine the methods and values of the modulated society at the heart of our system of knowledge production. The techniques of Big Data have important contributions to make to the scientific enterprise and to social welfare, but as engines of truth production about human subjects they deserve a long, hard second look.
-
-
-Innovative practice is threatened most directly when circumstances impose intellectual regimentation, prescribing orthodoxies and restricting the freedom to tinker. It thrives most fully when circumstances yield serendipitous encounters with new resources and ideas, and afford the intellectual and material breathing room to experiment with them. 48
-
-When the predicate conditions for innovation are described in this way, the problem with characterizing privacy as anti-innovation becomes clear: it is modulation, not privacy, that poses the greater threat to innovative practice. Regimes of pervasively distributed surveillance and modulation seek to mold individual preferences and behavior in ways that reduce the serendipity and the freedom to tinker on which innovation thrives. The suggestion that innovative activity will persist unchilled under conditions of pervasively distributed surveillance is simply silly; it derives rhetorical force from the cultural construct of the liberal subject, who can separate the act of creation from the fact of surveillance. As we have seen, though, that is an unsustainable fiction. The real, socially constructed subject responds to surveillance quite differently — which is, of course, exactly why government and
-commercial entities engage in it. Clearing the way for innovation requires clearing the way for innovative practice by real people. Innovative practice in turn requires breathing room for critical selfdetermination and physical spaces within which the everyday practice of tinkering can thrive.
-
-
-Which brings into question the future of clandestine innovation, often referred to as "skunkworks" [^9].
-
-
-
-
-
-
-
-
-"""
-predictive rationality
-"""
-<br/>
-<br/>
-
-
-
-
-
 
 #### The Age of Analysis, Profiling and Omnicient Surveillance
 With people analytics, correlations are drawn and judgements are made about our behavior and social skills, and statistics are used to score our intelligence, quality of work, and probabilities of success or failure for particular tasks. However, in any form of real world analysis, finding correlations in data (big, disparate or otherwise) is only the _starting point_ of research, the process thereafter needs to establish the accuracy and validity of that data and whether correlations present a causal relationship or are merely coincidental. People analytics is being sold as a turn-key solution to recruitment and human resources, and is being touted as a substitute for, rather than a supplement to, observation and analysis. What makes people analytics particularly repugnant is the vast amount of intrusion and invasion of privacy it allows corporations to engage in and its apparent acceptance as a normal business practise. 
