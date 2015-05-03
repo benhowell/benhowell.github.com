@@ -59,7 +59,7 @@ People analytics does not provide causality. If there is no critical research to
 #### Systematic Bias
 Big data, and especially people analytics suffers from the "N = All" fallacy. "N = All" simply means that the sample size is equivalent to population, and with regards to big data, it is this fallacy that produces the false assumption that sampling bias and uncertainty is reduced to zero. The most comprehensive datasets pertaining to people and their behaviour will always have incomplete information. 
 
-The interactive, social and behavioural models imposed by any platform (social, e-commerce, crowd sourced, whatever) will dictate who uses the platform, and how they use it. It stands to reason then that this will taint the data collected and introduce systematic bias. Further compounding this, systematic bias introduces a component of modulation and mediation because almost every data capturing interaction (services, recommenders, search result ranking, etc.) modulate results because they steer us in particular directions based both upon the interaction model imposed by the service (architecture, environment, etc.), and upon commercial, social or behavioural interests of those providing the service.
+The interactive, social and behavioural models imposed by any platform (social, e-commerce, crowd sourced, whatever) will dictate who uses the platform, and how they use it. It stands to reason then that this will taint the data collected and introduce systematic bias. Further compounding this, systematic bias introduces a component of modulation and mediation because almost every data capturing interaction (services, recommenders, search result ranking, etc.) modulate results because they steer us in particular directions based both upon the interaction model imposed by the service (architecture, environment, and so on.), and upon commercial, social or behavioural interests of those providing the service.
 
 An illustrative example of systematic bias as observed in the "Boston Street Bump app", is detailed by Tim Harford in _"Big data: are we making a big mistake?"_  [^7] 
 
@@ -70,9 +70,9 @@ _"Yet what Street Bump really produces, left to its own devices, is a map of pot
 <br/>
 
 #### Accuracy
-The accuracy of the digital footprint left behind by people in their online activities is highly questionable. Personal data, in particular the "self reported" variety cannot be assumed to be objective or accurate. How does big data deal with sarcastic comments made on twitter? Is a message retweeted because the person agrees or disagrees? Is the personal information people use in online surveys and competitions accurate? Are all user details used to sign up for trial software real? How do we determine the accuracy of qualifications and skills from Linkedin? What types of relationships characterise each connection on Linkedin or follower on Twitter? Is the general demeanor of people in online communities always representative of their character in real life? Alter egos? Trolls? If it's possible to answer "no" to any of these questions, then systematic error is inherent in any system churning this data due to inaccuracy.
+The accuracy of the digital footprint left behind by people in their online activities is highly questionable. Personal data, in particular the "self produced" variety cannot be assumed to be objective or accurate. Sarcasm, irony and many forms of wit and commentary (e.g. repeating or quoting something you disagree with) betray the surface meaning of the words used by their creator and most often relate to some (external) undefined context. Skills and qualifications pertaining to anyone (e.g. Linkedin) can not be assumed to be up to date or accurate, or indeed reflect the intelligence of the person in question. The general demeanor of people in online communities may in no way reflect their character in real life.
 
-Data does not speak for itself.
+Systematic error is inherent in any system churning this type of data. Data does not speak for itself.
 <br/>
 <br/>
 
