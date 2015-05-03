@@ -83,12 +83,7 @@ Privacy is perhaps the most worrying aspect of big data in general, and particul
 
 In the article _"The Value of Privacy"_ [^10], Bruce Schneier writes with regards to surveillance and privacy: _"...they accept the premise that privacy is about hiding a wrong. It's not. Privacy is an inherent human right, and a requirement for maintaining the human condition with dignity and respect."_ Schneier concludes with _"Widespread police surveillance is the very definition of a police state. And that's why we should champion privacy even when we have nothing to hide."_
 
-Increases in surveillance and erosion of privacy can dampen free speech and freedom of association.
-
-
-Privacy is also important for innovation which is evident in clandestine research and development projects, sometimes referred to as "skunkworks" [^9]. 
-
-Julie Cohen, in her article in the _"Harvard Law Review"_ writes: _"A society that permits the unchecked ascendancy of surveillance infrastructures, which dampen and modulate behavioral variability, cannot hope to maintain a vibrant tradition of cultural and technical innovation. Efforts to repackage pervasive surveillance as innovation — under the moniker “Big Data” — are better understood as efforts to enshrine the methods and values of the modulated society at the heart of our system of knowledge production. The techniques of Big Data have important contributions to make to the scientific enterprise and to social welfare, but as engines of truth production about human subjects they deserve a long, hard second look."_
+Privacy is also important for innovation which is evident in clandestine research and development projects, sometimes referred to as "skunkworks" [^9]. Julie Cohen, in the _"Harvard Law Review"_ states _"A society that permits the unchecked ascendancy of surveillance infrastructures, which dampen and modulate behavioral variability, cannot hope to maintain a vibrant tradition of cultural and technical innovation. Efforts to repackage pervasive surveillance as innovation — under the moniker “Big Data” — are better understood as efforts to enshrine the methods and values of the modulated society at the heart of our system of knowledge production. The techniques of Big Data have important contributions to make to the scientific enterprise and to social welfare, but as engines of truth production about human subjects they deserve a long, hard second look."_
 
 _"Regimes of pervasively distributed surveillance and modulation seek to mold individual preferences and behavior in ways that reduce the serendipity and the freedom to tinker on which innovation thrives."_
 <br/>
