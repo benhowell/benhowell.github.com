@@ -29,6 +29,9 @@ hn_url:
 <br/>
 
 
+Is predictive rationality such an elusive possiblibility that people analytics will never be reliable?
+
+
 Looking up symptoms, medications or diseases online? Well, [you're being watched and your activities collated][9].
 
 [9]:http://motherboard.vice.com/read/looking-up-symptoms-online-these-companies-are-collecting-your-data
