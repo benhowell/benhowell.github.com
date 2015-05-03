@@ -16,10 +16,10 @@ hn_url:
 <div class="intro">
   <div class="intro-txt">
     <p>
-    Mainstream data analytics, at least in the "big data" sense, was once the reserve of business intelligence, marketing and speculative trading on the stock market but things are rapidly changing. For a lot of us, big data is about to become personal. Very personal indeed.
+    Mainstream predictive analytics, at least in the "big data" sense, was once the reserve of business intelligence, marketing and speculative trading on the stock market but things are rapidly changing. For a lot of us, big data is about to become personal. Very personal indeed.
     </p>
     <p>
-    People analytics, also referred to as workforce analytics, corporate analytics and HR analytics, is the application of big data to create behavioural and social profiles for individual people.
+    People analytics, also referred to as workforce analytics, corporate analytics and HR analytics, is the application of predictive analytics on large volumes of data to create behavioural and social profiles for individual people.
     </p>
     <p>
     Recruitment firms and some large employers have been using people analytics to qualify prospective candidates for quite some time, and some even have dedicated workforce analytics teams to monitor and analyse the activities of their staff. As with all things, the endless march of information technology is set to see this trend trickle down to all levels of employment in the future.
@@ -37,7 +37,7 @@ hn_url:
 <br/>
 
 #### People Analytics
-OK, in this day and age, everyone expects that employers will do some digging online, however, people analytics proves to be much more sinister. In addition to profiling potential employees using external data (public, paid-for, or otherwise), some employers continually profile existing staff using both external data and via analysis of internal social media, email, surveys, and the like, to define a prototypical "good employee" profile in order to employ people with similar profiles. So, if you're filling out questionaires at work, using the corporate social networking tools, crowd-sourcing and ideation tools, using email, doing surveys, wikis, what have you, there may be additional reasons beyond engaging with staff, such as analysis and profiling. And, everything you're doing publicly online is bound to be used at some time in the future for profiling and analysis as well.
+In this day and age, everyone expects that employers will do some digging online, however, people analytics proves to be much more sinister. In addition to profiling potential employees using external data (public, paid-for, or otherwise), some employers continually profile existing staff using both external data and via analysis of internal social media, email, surveys, and the like, to define a prototypical "good employee" profile in order to employ people with similar profiles. So, if you're filling out questionaires at work, using the corporate social networking tools, crowd-sourcing and ideation tools, using email, doing surveys, wikis, what have you, there may be additional reasons beyond engaging with staff, such as analysis and profiling. And, everything you're doing publicly online is bound to be used at some time in the future for profiling and analysis as well.
 
 But really, that's all just tip of the iceburg stuff. According to an article in _"The Atlantic"_  [^1], the Las Vegas casino Harrah’s tracks the smiles of the card dealers and waitstaff (its analytics team has quantified the impact of smiling on customer satisfaction) and Bloomberg logs every keystroke of every employee along with every time they enter and leave the premises according to _"Business Insider Australia"_  [^2]. 
 
@@ -48,7 +48,7 @@ There are many other workforce focussed analytics companies besides Gild such as
 <br/>
 
 #### Causation 
-In an article in the _"New York Times"_  [^5], Data Scientist, Dr. Ming said of the algorithms she is now building for Gild: _"Let’s put everything in and let the data speak for itself"_.
+In an article in _"The New York Times"_  [^5], Data Scientist, Dr. Ming said of the algorithms she is now building for Gild: _"Let’s put everything in and let the data speak for itself"_.
 
 Big data produces correlates, uncovers trends and probabilities, and finds weak bonds between data. "A correlates with B" however, is not a legitimate form of argument as data can never _"speak for itself"_ because it is strictly quantitative. Correlation is simply not enough. Without causation there is no evidence to support any correlate (in big data or otherwise), and can lead one to believe something that is not true. A patently ridiculous example  [^6] of this has been compiled by Tyler Vigen which shows a 99.2% correlation between suicide by hanging, strangulation and suffocation in the US, and spending on science, space and technology.
 
@@ -59,7 +59,9 @@ People analytics does not provide causality. If there is no critical research to
 #### Systematic Bias
 Big data, and especially people analytics suffers from the "N = All" fallacy. "N = All" simply means that the sample size is equivalent to population, and with regards to big data, it is this fallacy that produces the false assumption that sampling bias and uncertainty is reduced to zero. The most comprehensive datasets pertaining to people and their behaviour will always have incomplete information. The interactive, social and behavioural models imposed by any platform (social, e-commerce, crowd sourced, whatever) will dictate who uses the platform, and how they use it. It stands to reason then that this will taint the data collected and introduce systematic bias. Further compounding this, systematic bias introduces a component of modulation and mediation because almost every data capturing interaction (services, recommenders, search result ranking, etc.) modulate results because they steer us in particular directions based both upon the interaction model imposed by the service (architecture, environment, etc.), and upon commercial, social or behavioural interests of those providing the service.
 
-An illustrative example of systematic bias as observed in the "Boston Street Bump app", is detailed by Tim Harford in _"Big data: are we making a big mistake?"_  [^7] _"As citizens of Boston download the app and drive around, their phones automatically notify City Hall of the need to repair the road surface. The City of Boston proudly proclaims that the “data provides the City with real-time in­formation it uses to fix problems and plan long term investments."_
+An illustrative example of systematic bias as observed in the "Boston Street Bump app", is detailed by Tim Harford in _"Big data: are we making a big mistake?"_  [^7] 
+
+_"As citizens of Boston download the app and drive around, their phones automatically notify City Hall of the need to repair the road surface. The City of Boston proudly proclaims that the “data provides the City with real-time in­formation it uses to fix problems and plan long term investments."_
 
 _"Yet what Street Bump really produces, left to its own devices, is a map of potholes that systematically favours young, affluent areas where more people own smartphones. Street Bump offers us “N = All” in the sense that every bump from every enabled phone can be recorded. That is not the same thing as recording every pothole."_
 <br/>
