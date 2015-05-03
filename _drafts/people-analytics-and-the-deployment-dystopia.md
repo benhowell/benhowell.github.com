@@ -72,20 +72,22 @@ _"Yet what Street Bump really produces, left to its own devices, is a map of pot
 #### Accuracy
 The accuracy of the digital footprint left behind by people in their online activities is highly questionable. Personal data, in particular the "self produced" variety cannot be assumed to be objective or accurate. Sarcasm, irony and many forms of wit and commentary (e.g. repeating or quoting something you disagree with) betray the surface meaning of the words used by their creator and most often relate to some external and undefined context. 
 
-Skills and qualifications pertaining to anyone (on Linkedin for example) can not be assumed to be up-to-date or accurate, or indeed reflect the intelligence of the person in question. The general demeanour of people in online communities cannot be reliably used to determine their character in real life.
+Skills and qualifications pertaining to anyone (on Linkedin for example) can not be assumed to be up-to-date or accurate, or indeed reflect the intelligence of the person in question, so too the general demeanour of people in online communities cannot be reliably used to determine their character in real life.
 <br/>
 <br/>
 
 #### Privacy and Secrecy
 Every day there's an insane amount of data being collected about people as they go about their off and online lives, and as time goes on, the types of, and rate of information collected will continue to grow. Do you even know what data is collected, stored, analysed and sold on by third party companies about you? 
 
-Privacy is perhaps the most worrying aspect of big data in general, and particularly, people analytics. Government surveillance and data retention laws have been a hot topic of late in countries like Australia, Germany, Sweden and the United States, and there is an increasing chorus of concern about the capacity of government agencies to perform surveillance and compile dossiers on their citizens. Is the type of unsolicited surveillance and profiling done by private companies any less worrisome? Legislation needs to catch up with the growth in unsolicited collection and analysis of personal data by private corporations.
+Privacy is perhaps the most worrying aspect of big data in general, and particularly, people analytics. Government surveillance and data retention laws have been a hot topic of late in countries like Australia, Germany, Sweden and the United States, and there is an increasing chorus of concern about the capacity of government agencies to perform surveillance and compile dossiers on their citizens. Is the type of unsolicited surveillance and profiling done by private companies any less worrisome?
 
 In the article _"The Value of Privacy"_ [^10], Bruce Schneier writes with regards to surveillance and privacy: _"...they accept the premise that privacy is about hiding a wrong. It's not. Privacy is an inherent human right, and a requirement for maintaining the human condition with dignity and respect."_ Schneier concludes with _"Widespread police surveillance is the very definition of a police state. And that's why we should champion privacy even when we have nothing to hide."_
 
 Privacy is also important for innovation which is evident in clandestine research and development projects, sometimes referred to as "skunkworks" [^9]. Julie Cohen, in the _"Harvard Law Review"_ states _"A society that permits the unchecked ascendancy of surveillance infrastructures, which dampen and modulate behavioral variability, cannot hope to maintain a vibrant tradition of cultural and technical innovation. Efforts to repackage pervasive surveillance as innovation — under the moniker “Big Data” — are better understood as efforts to enshrine the methods and values of the modulated society at the heart of our system of knowledge production. The techniques of Big Data have important contributions to make to the scientific enterprise and to social welfare, but as engines of truth production about human subjects they deserve a long, hard second look."_
 
 _"Regimes of pervasively distributed surveillance and modulation seek to mold individual preferences and behavior in ways that reduce the serendipity and the freedom to tinker on which innovation thrives."_
+
+In the interests of protecting our rights to privacy, legislation needs to deal with the growth in unsolicited collection and analysis of personal data by private corporations.
 <br/>
 <br/>
 
