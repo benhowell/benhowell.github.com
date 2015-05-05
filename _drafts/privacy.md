@@ -31,6 +31,7 @@ hn_url:
 
 Is predictive rationality such an elusive possiblibility that people analytics will never be reliable?
 
+With the growth in cloud service providers and data stored in the cloud, it is inevitable that another major retailer will suffer a large-scale security breach, potentially affecting hundreds of millions of people.
 
 Looking up symptoms, medications or diseases online? Well, [you're being watched and your activities collated][9].
 

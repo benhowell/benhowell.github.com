@@ -17,6 +17,61 @@ article_img: bootstrap/img/qn.png
 
 -----------------------------------
 
+
+dysrationalia - intelligence vs wisdom
+http://www.bbc.com/future/story/20150413-the-downsides-of-being-clever?ocid=global_bbccom_email_14042015_future
+"""
+So if intelligence doesn’t lead to rational decisions and a better life, what does? Igor Grossmann, at the University of Waterloo in Canada, thinks we need to turn our minds to an age-old concept: “wisdom”. His approach is more scientific that it might at first sound. “The concept of wisdom has an ethereal quality to it,” he admits. “But if you look at the lay definition of wisdom, many people would agree it’s the idea of someone who can make good unbiased judgement.”
+"""
+You're not the smartest in the room? Good for you!
+
+Learnt wisdom
+and wisdom
+testing for intellectual humility rather than IQ:
+http://www.nytimes.com/2014/02/23/opinion/sunday/friedman-how-to-get-a-job-at-google.html
+
+
+-----------------------------------
+
+
+
+existentialism
+
+http://en.wikipedia.org/wiki/Existential_crisis
+http://en.wikipedia.org/wiki/Angst
+http://en.wikipedia.org/wiki/Existentialism
+https://answers.yahoo.com/question/index?qid=1006012804039
+http://www.quora.com/Does-success-in-life-get-rid-of-existential-angst
+
+
+imposter syndrome? ... not really what i'm aiming at. more along the lines of "i'm getting paid a lot of money and do nothing of worth. public servant, no one around me achieves anything or makes any diference. Nothing I do has any worth or makes a difference. ROI is nothing (i make no difference to peioples lives other than cost them money). I'm a fraud, im living a lie. i work in a drop in centre, a sheltered workshop where I can come and go as I please, do what I please, spend other peoples money and get paid all the while. my skills and career have stagnated. golden handcuffs. cant leave because supporting family. no jobs. stuck. etc.
+
+
+
+-----------------------------------
+
+there is no glue:
+gluing shit together that is impossible. use an analogy for something that a glue oes not exist (banana and concrete? etc)
+
+
+-----------------------------------
+
+rockstars, ninjas, special, our job is really really hard, we don't get respect, etc.
+http://the-programmers-stone.com/the-original-talks/day-1-thinking-about-thinking/
+http://www.reddit.com/r/programming/comments/30uunh/your_developers_arent_bricklayers_theyre_writers/
+
+-----------------------------------
+
+telepathy
+http://spectrum.ieee.org/tech-talk/biomedical/bionics/a-braincomputing-interface-that-lasts-for-weeks
+
+
+
+software development losing interest grind
+http://www.reddit.com/r/financialindependence/comments/2zkv0i/what_will_you_do_for_fulfillment_when_you_hit_fi/cpjw4gv
+
+
+
  * google weather prediction insurance spin out company
  * article (finite state machines as software design) <- search email for that subject
 
