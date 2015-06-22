@@ -29,6 +29,12 @@ hn_url:
 <br/>
 
 
+http://www.bbc.com/news/technology-32704572?ocid=global_bbccom_email_12052015_technology
+http://www.bbc.com/news/technology-28230841
+http://www.bbc.com/news/technology-29660260
+
+
+
 Is predictive rationality such an elusive possiblibility that people analytics will never be reliable?
 
 With the growth in cloud service providers and data stored in the cloud, it is inevitable that another major retailer will suffer a large-scale security breach, potentially affecting hundreds of millions of people.
