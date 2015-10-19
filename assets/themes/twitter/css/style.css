@@ -234,27 +234,32 @@ div.mini-social-section span {
 
 .twitter-icon {
  background-color: #00ACED;
- background-image: url('../bootstrap/img/twitter-32.png');
+ /*background-image: url('../bootstrap/img/twitter-32.png');*/
+ background-image: url('http://www.benhowell.net/assets/themes/twitter/bootstrap/img/twitter-32.png');
 }
 
 .google-icon {
  background-color: #d34836;
- background-image: url('../bootstrap/img/googleplus-32.png');
+ /*background-image: url('../bootstrap/img/googleplus-32.png');*/
+ background-image: url('http://www.benhowell.net/assets/themes/twitter/bootstrap/img/googleplus-32.png');
 }
 
 .reddit-icon {
  background-color: #FF5700;
- background-image: url('../bootstrap/img/reddit-32.png');
+ /*background-image: url('../bootstrap/img/reddit-32.png');*/
+ background-image: url('http://www.benhowell.net/assets/themes/twitter/bootstrap/img/reddit-32.png');
 }
 
 .linkedin-icon {
  background-color: #0077B5;
- background-image: url('../bootstrap/img/linkedin-32.png');
+ /*background-image: url('../bootstrap/img/linkedin-32.png');*/
+ background-image: url('http://www.benhowell.net/assets/themes/twitter/bootstrap/img/linkedin-32.png');
 }
 
 .email-icon {
  background-color: #BBBBBB;
- background-image: url('../bootstrap/img/email-32.png');
+ /*background-image: url('../bootstrap/img/email-32.png');*/
+ background-image: url('http://www.benhowell.net/assets/themes/twitter/bootstrap/img/email-32.png');
 }
 
 
