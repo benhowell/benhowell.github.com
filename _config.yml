@@ -43,7 +43,6 @@ paginate: 10
   
 JB :
   version : 0.3.0
-  
 
 
   # All links will be namespaced by BASE_PATH if defined.
