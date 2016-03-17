@@ -6,7 +6,7 @@ tagline: "future"
 category: future
 tags: [big data, analytics, programming, privacy, anonymity, causation, systematic bias, accuracy, freedom, innovation]
 related: [Step Away From the Kool Aid, Your Financial History. Your Business.]
-article_img: /img/dystopia.jpg
+article_img: {{ASSET_PATH}}/img/dystopia.jpg
 article_img_title: Nineteen Eighty-Four by George Orwell
 article_img_alt: "An image from the movie Nineteen Eighty-Four"
 reddit_url:
